@@ -1,9 +1,9 @@
 name: RST to Markdown Conversion
 
 on:
-  workflow_dispatch:  # Permet de déclencher le workflow manuellement depuis l'interface GitHub
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # Exécuter tous les jours à minuit (optionnel)
+    - cron: '0 0 * * *'
 
 jobs:
   convert-rst-to-md:
@@ -12,36 +12,53 @@ jobs:
     - name: Checkout Own Repository
       uses: actions/checkout@v2
       with:
-        ref: 'main'  # ou votre branche par défaut
+        ref: 'main'
 
     - name: Clone External Repository
       run: |
-        git clone -b 14.0 https://github.com/odoo/documentation
-        cd documentation
-        ls
+        git clone -b 14.0 https://github.com/odoo/documentation cloned_repo
 
     - name: Set up Pandoc
       run: |
         sudo apt-get install -y pandoc
 
-- name: Convert RST files to Markdown
-  run: |
-    mkdir -p converted_md  # Crée le répertoire 'converted_md' dans le répertoire 'documentation'
-    find content -name '*.rst' | while read file; do
-        echo "Traitement du fichier : $file"  # Pour le débogage
-        dir_path=$(dirname "${file}")
-        sub_dir="${dir_path#content}"
-        mkdir -p "converted_md${sub_dir}"  # Assurez-vous que le chemin est correctement construit
-        base_name=$(basename "${file%.rst}")
-        output_file="converted_md${sub_dir}/${base_name}.md"
-        pandoc --from=rst --to=gfm --output="$output_file" "$file"
-        echo "Converti: $file -> $output_file"
-    done
+    - name: Convert RST files to Markdown
+      run: |
+        input_directory='./cloned_repo/content'
+        output_directory='./cloned_repo/content/converted_md'
+
+        # Crée le répertoire de sortie s'il n'existe pas
+        mkdir -p "$output_directory"
+
+        find "$input_directory" -name '*.rst' | while read file; do
+            # Obtient le chemin du répertoire parent du fichier .rst
+            dir_path=$(dirname "${file}")
+            
+            # Retire le préfixe du chemin d'entrée pour obtenir la structure de sous-dossier
+            sub_dir="${dir_path#$input_directory}"
+            
+            # Crée le même sous-répertoire dans le répertoire de sortie
+            mkdir -p "$output_directory$sub_dir"
+            
+            # Extrait le nom de base du fichier pour le nom du fichier de sortie
+            base_name=$(basename "${file%.rst}")
+            
+            # Définit le nom de fichier de sortie avec le même sous-dossier que le fichier d'entrée
+            output_file="$output_directory$sub_dir/${base_name}.md"
+            
+            # Convertit le fichier .rst en .md
+            pandoc --from=rst --to=gfm --output="$output_file" "$file"
+            
+            echo "Converti: $file -> $output_file"
+        done
+
+        echo "Conversion terminée!"
 
     - name: Commit and Push Markdown Files
       run: |
+        cd cloned_repo
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add converted_md
+        git add content/converted_md
         git commit -m "Convert RST files to Markdown and push to repository" -a || echo "No changes to commit"
-        git push origin 'main'
+        git push --set-upstream origin 'main'  # Assurez-vous que cette commande est correcte pour votre cas
