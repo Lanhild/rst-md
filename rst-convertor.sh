@@ -3,29 +3,29 @@
 input_directory='./content'
 output_directory='./content/converted_md'
 
-# Crée le répertoire de sortie s'il n'existe pas
+# Create the output directory if it does not exist
 mkdir -p "$output_directory"
 
 find "$input_directory" -name '*.rst' | while read file; do
-    # Obtient le chemin du répertoire parent du fichier .rst
+    # Get the parent directory path of the .rst file
     dir_path=$(dirname "${file}")
     
-    # Retire le préfixe du chemin d'entrée pour obtenir la structure de sous-dossier
+    # Remove the input directory prefix to obtain the subdirectory structure
     sub_dir="${dir_path#$input_directory}"
     
-    # Crée le même sous-répertoire dans le répertoire de sortie
+    # Create the same subdirectory in the output directory
     mkdir -p "$output_directory$sub_dir"
     
-    # Extrait le nom de base du fichier pour le nom du fichier de sortie
+    # Extract the base name of the file for the output file name
     base_name=$(basename "${file%.rst}")
     
-    # Définit le nom de fichier de sortie avec le même sous-dossier que le fichier d'entrée
+    # Set the output file name with the same subdirectory as the input file
     output_file="$output_directory$sub_dir/${base_name}.md"
     
-    # Convertit le fichier .rst en .md
+    # Convert the .rst file to .md
     pandoc --from=rst --to=gfm --output="$output_file" "$file"
     
-    echo "Converti: $file -> $output_file"
+    echo "Converted: $file -> $output_file"
 done
 
-echo "Conversion terminée!"
+echo "Conversion completed!"
