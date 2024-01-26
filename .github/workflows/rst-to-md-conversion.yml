@@ -56,8 +56,8 @@ jobs:
 
         - name: Configure Git Author Info
       run: |
-        git config --local user.email "you@example.com"
-        git config --local user.name "Your Name"
+        git config --local user.email "lucas.joliveau@kapreon.com"
+        git config --local user.name "Lucas Joliveau"
 
     - name: Commit and Push Markdown Files
       run: |
@@ -67,6 +67,5 @@ jobs:
         git commit -m "Convert RST files to Markdown and push to repository" || echo "No changes to commit"
         # Push vers la branche actuelle du dépôt actuel
         git push origin 'main'
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}  # Utilisez le Personal Access Token (PAT) que vous avez créé
+
         
