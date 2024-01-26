@@ -1,0 +1,94 @@
+# Digitize vendor bills with optical character recognition (OCR)
+
+Encoding bills manually can be a time-consuming task. Having a solution
+that allows you to digitize them and automatically import the data into
+your database reduces errors and saves you time.
+
+<div class="important">
+
+<div class="title">
+
+Important
+
+</div>
+
+[Try it out](https://www.odoo.com/app/invoice-automation)\! Upload one
+of your Bills or try one of our samples.
+
+</div>
+
+## Set up the feature
+
+Go to `Accounting --> Settings --> Bill Digitalization`, and choose
+whether the bills should be processed automatically (with OCR) or
+manually (on demand).
+
+![Activate the feature going to the settings application in Odoo
+Accounting](ocr/setup_ocr.png)
+
+### Start digitizing your bills
+
+Scan your bills and then go to `Accounting --> Vendors --> Bills` and
+upload your document. Based on your configuration, it either processes
+the documents automatically, or you need to click on *Send for
+Digitalization* to do it manually.
+
+<div class="tip">
+
+<div class="title">
+
+Tip
+
+</div>
+
+You can also create a vendor bill through the *Documents* app or by
+using an email alias on your journals.
+
+</div>
+
+Once the data is extracted from the PDF, you can correct it if necessary
+by clicking on the respective tag (available in *Edit* mode), and
+selecting the right information instead.
+
+![Example of a scanned bill in Odoo Accounting](ocr/example_ocr.png)
+
+<div class="note">
+
+<div class="title">
+
+Note
+
+</div>
+
+The more bills you scan, the better the system gets at identifying the
+correct data.
+
+</div>
+
+## Pricing
+
+The *Bill Digitalization* is an *In-App Purchase (IAP)* service which
+requires prepaid credits to work. Digitizing one document consumes one
+credit.  
+To buy credits, go to `Accounting --> Configuration --> Settings -->
+Bill Digitalization` and click on *Buy credits*, or go to `Settings -->
+Odoo IAP` and click on *View My Services*.
+
+<div class="important">
+
+<div class="title">
+
+Important
+
+</div>
+
+\- If you are on Odoo Online and have the Enterprise version, you
+benefit from free trial credits to test the feature.
+
+</div>
+
+<div class="seealso">
+
+\- Our [Privacy Policy](https://iap.odoo.com/privacy#header_6).
+
+</div>

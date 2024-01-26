@@ -1,0 +1,44 @@
+  - show-content
+
+# Restaurant features
+
+Managing a restaurant or a bar comes with specific needs. The Point of
+Sale application provides various features that allow performing all the
+required tasks in such businesses.
+
+Once the POS is set to be used in a restaurant or a bar, you can:
+
+  - `organize your floors and tables to reflect your interior
+    <restaurant/floors_tables>`;
+  - `take orders <floors_tables/orders>`;
+  - `communicate with the kitchen or the bar through the POS
+    <restaurant/kitchen_printing>`;
+  - `print bills in advance and split them <restaurant/bill_printing>`;
+  - `collect tips <restaurant/tips>`; and
+  - `set different taxes for takeaway food <pricing/fiscal_position>`.
+
+## Configuration
+
+To activate the features, go to `Point of Sale --> Configuration -->
+Point of Sale`, select your POS, and click `Edit --> Is a Bar/Restaurant
+--> Save`.
+
+<div class="note">
+
+<div class="title">
+
+Note
+
+</div>
+
+These specific features can be identified by the cutlery-shaped icon
+located to the right of the feature name.
+
+</div>
+
+<div class="toctree" data-titlesonly="">
+
+restaurant/bill\_printing restaurant/floors\_tables
+restaurant/kitchen\_printing restaurant/tips
+
+</div>
