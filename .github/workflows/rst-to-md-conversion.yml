@@ -24,8 +24,8 @@ jobs:
 
     - name: Convert RST files to Markdown
       run: |
-        input_directory='./cloned_repo/content'
-        output_directory='./cloned_repo/content/converted_md'
+        input_directory='cloned_repo/content'
+        output_directory='content/converted_md'
 
         # Crée le répertoire de sortie s'il n'existe pas
         mkdir -p "$output_directory"
@@ -47,7 +47,7 @@ jobs:
             output_file="$output_directory$sub_dir/${base_name}.md"
             
             # Convertit le fichier .rst en .md
-            pandoc --from=rst --to=gfm --output="$output_file" "$file" || true
+            pandoc --from=rst --to=gfm --output="$output_file" "$file"
             
             echo "Converti: $file -> $output_file"
         done
@@ -56,9 +56,9 @@ jobs:
 
     - name: Commit and Push Markdown Files
       run: |
-        cd cloned_repo
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+        # Ajouter les fichiers convertis au dépôt actuel
         git add content/converted_md
-        git commit -m "Convert RST files to Markdown and push to repository" -a || echo "No changes to commit"
-        git push --set-upstream origin 'main'  # Assurez-vous que cette commande est correcte pour votre cas
+        # Commit seulement s'il y a des changements
+        git commit -m "Convert RST files to Markdown and push to repository" || echo "No changes to commit"
+        # Push vers la branche actuelle du dépôt actuel
+        git push origin 'main'
