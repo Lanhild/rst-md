@@ -25,7 +25,7 @@ jobs:
     - name: Convert RST files to Markdown
       run: |
         input_directory='cloned_repo/content'
-        output_directory='content/converted_md'
+        output_directory='content'
 
         # Crée le répertoire de sortie s'il n'existe pas
         mkdir -p "$output_directory"
@@ -62,10 +62,8 @@ jobs:
     - name: Commit and Push Markdown Files
       run: |
         # Ajouter les fichiers convertis au dépôt actuel
-        git add content/converted_md
+        git add content
         # Commit seulement s'il y a des changements
         git commit -m "Convert RST files to Markdown and push to repository" || echo "No changes to commit"
         # Push vers la branche actuelle du dépôt actuel
         git push origin 'main'
-
-        
