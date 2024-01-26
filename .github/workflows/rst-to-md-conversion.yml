@@ -1,0 +1,46 @@
+name: RST to Markdown Conversion
+
+on:
+  workflow_dispatch:  # Permet de déclencher le workflow manuellement depuis l'interface GitHub
+  schedule:
+    - cron: '0 0 * * *'  # Exécuter tous les jours à minuit (optionnel)
+
+jobs:
+  convert-rst-to-md:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Own Repository
+      uses: actions/checkout@v2
+      with:
+        ref: 'main'  # ou votre branche par défaut
+
+    - name: Clone External Repository
+      run: |
+        git clone -b 14.0 https://github.com/odoo/documentation
+        cd external-repo
+
+    - name: Set up Pandoc
+      run: |
+        sudo apt-get install -y pandoc
+
+    - name: Convert RST files to Markdown
+      run: |
+        mkdir -p ../converted_md
+        find . -name '*.rst' | while read file; do
+            dir_path=$(dirname "${file}")
+            sub_dir="${dir_path#.}"
+            mkdir -p "../converted_md$sub_dir"
+            base_name=$(basename "${file%.rst}")
+            output_file="../converted_md$sub_dir/${base_name}.md"
+            pandoc --from=rst --to=gfm --output="$output_file" "$file"
+            echo "Converti: $file -> $output_file"
+        done
+        cd ..
+
+    - name: Commit and Push Markdown Files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add converted_md
+        git commit -m "Convert RST files to Markdown and push to repository" -a || echo "No changes to commit"
+        git push origin 'main'
