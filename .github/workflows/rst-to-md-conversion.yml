@@ -47,7 +47,7 @@ jobs:
             output_file="$output_directory$sub_dir/${base_name}.md"
             
             # Convertit le fichier .rst en .md
-            pandoc --from=rst --to=gfm --output="$output_file" "$file"
+            pandoc --from=rst --to=gfm --output="$output_file" "$file" || true
             
             echo "Converti: $file -> $output_file"
         done
