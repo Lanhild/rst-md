@@ -17,7 +17,7 @@ jobs:
     - name: Clone External Repository
       run: |
         git clone -b 14.0 https://github.com/odoo/documentation
-        cd external-repo
+        cd content
 
     - name: Set up Pandoc
       run: |
