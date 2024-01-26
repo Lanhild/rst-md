@@ -54,7 +54,7 @@ jobs:
 
         echo "Conversion terminée!"
 
-        - name: Configure Git Author Info
+    - name: Configure Git Author Info
       run: |
         git config --local user.email "lucas.joliveau@kapreon.com"
         git config --local user.name "Lucas Joliveau"
