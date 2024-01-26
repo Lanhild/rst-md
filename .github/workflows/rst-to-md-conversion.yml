@@ -17,19 +17,26 @@ jobs:
     - name: Clone External Repository
       run: |
         git clone -b 14.0 https://github.com/odoo/documentation
-        cd ./content
+        cd documentation
+        ls
 
     - name: Set up Pandoc
       run: |
         sudo apt-get install -y pandoc
 
-- name: Convert RST files to Markdown
-  run: |
-    mkdir -p ./converted_md  # Crée le répertoire 'converted_md' au même niveau que 'content'
-    find ./content -name '*.rst' | while read file; do
-        # ...
-    done
-
+    - name: Convert RST files to Markdown
+      run: |
+        mkdir -p ../converted_md
+        find . -name '*.rst' | while read file; do
+            echo "Traitement du fichier : $file"  # Pour le débogage
+            dir_path=$(dirname "${file}")
+            sub_dir="${dir_path#./content}"
+            mkdir -p "./converted_md$sub_dir"
+            base_name=$(basename "${file%.rst}")
+            output_file="../converted_md$sub_dir/${base_name}.md"
+            pandoc --from=rst --to=gfm --output="$output_file" "$file"
+            echo "Converti: $file -> $output_file"
+        done
 
     - name: Commit and Push Markdown Files
       run: |
