@@ -3,4 +3,4 @@ __pycache__/
 *.py[cod]
 
 # Ignore dist directory
-dist/
+src/
