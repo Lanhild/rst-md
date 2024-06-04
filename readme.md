@@ -1,9 +1,35 @@
-# RST to Markdown Conversion
+# RST to MD Converter
 
-## Description
-This repository contains the scripts and configuration needed to automatically convert reStructuredText (RST) files to Markdown (MD). The process is automated using a GitHub Actions workflow, converting the files regularly on a weekly basis.
+## Overview
 
-## Features
-- Automatic conversion of RST files to MD.
-- Utilization of Pandoc for precise conversions.
-- Management of subdirectories to maintain the project structure.
+This repository provides a solution to automatically sync and convert RST files from the Odoo 16 documentation repository to Markdown files while preserving the directory structure.
+
+## Structure
+
+- `source/`: Contains RST files fetched from the Odoo documentation.
+- `dist/`: Contains converted Markdown files.
+- `scripts/`: Contains the scripts used for conversion and workflow management.
+
+## Setup and Usage
+
+### Prerequisites
+
+- Python 3.x
+- pip (Python package installer)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/rst-to-md-converter.git
+   cd rst-to-md-converter
+   ```
+2. Install Pandoc
+
+### Running the Conversion Script
+
+To manually convert RST files to Markdown:
+
+    ```sh
+    bash scripts/convert_rst_to_md.sh
+    ```

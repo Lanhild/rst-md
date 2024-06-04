@@ -1,0 +1,5 @@
+/administration/install.rst
+/administration/maintain.rst
+/administration/odoo_sh.rst
+
+# Add other files to exclude here, one per line
