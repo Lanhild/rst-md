@@ -21,7 +21,7 @@ This repository provides a solution to automatically sync and convert RST files 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/rst-to-md-converter.git
+   git clone https://github.com/lucasjoliveau/rst-md.git
    cd rst-to-md-converter
    ```
 2. Install Pandoc
@@ -31,5 +31,6 @@ This repository provides a solution to automatically sync and convert RST files 
 To manually convert RST files to Markdown:
 
     ```sh
-    bash scripts/convert_rst_to_md.sh
+    bash scripts/clone-repo.sh
+    bash scripts/convert-rst-md.sh
     ```
