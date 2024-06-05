@@ -6,7 +6,7 @@ Before starting, make sure the following equipment is available:
 
 - An `IoT (Internet of Things)` box, with its power adapter.
 - A computer or tablet with an up-to-date web browser.
-- Odoo Online or an Odoo instance with the *Point of Sale* and *IoT*
+- Konvergo ERP Online or an Konvergo ERP instance with the *Point of Sale* and *IoT*
   applications installed.
 - A local network set up with
   `DHCP (Dynamic Host Configuration Protocol)` (this is the default
@@ -30,7 +30,7 @@ To connect hardware to the `PoS (Point of Sale)`, the first step is to
 connect an `IoT
 (Internet of Things)` box to the database. To do this, follow these
 instructions: `Connect an
-Internet of Things (IoT) box to the Odoo database <connect>`.
+Internet of Things (IoT) box to the Konvergo ERP database <connect>`.
 
 Then, connect the peripheral devices to the `IoT (Internet of Things)`
 box.

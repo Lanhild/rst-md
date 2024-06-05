@@ -1,6 +1,6 @@
 # Print shipping labels
 
-Integrate Odoo with `third-party shipping carriers
+Integrate Konvergo ERP with `third-party shipping carriers
 <../setup_configuration/third_party_shipper>` to automatically generate
 shipping labels that includes prices, destination addresses, tracking
 numbers, and barcodes.
@@ -118,7 +118,7 @@ alt="Show generated shipping label in the chatter." />
 <figure>
 <img src="labels/sample-label.png" class="align-center"
 alt="labels/sample-label.png" />
-<figcaption>Sample label generated from Odoo's shipping connector with
+<figcaption>Sample label generated from Konvergo ERP's shipping connector with
 FedEx.</figcaption>
 </figure>
 

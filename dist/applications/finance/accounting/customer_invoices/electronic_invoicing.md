@@ -14,7 +14,7 @@ facilitate the administration.
 Electronic invoicing of your documents such as customer invoices, credit
 notes or vendor bills is one of the application of EDI.
 
-Odoo supports, among others, the following formats.
+Konvergo ERP supports, among others, the following formats.
 
 | Format Name                              | Applicability                                                                                                    |
 |------------------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -58,11 +58,11 @@ section, or embedded in the PDF.
 > [!NOTE]
 > - For E-FFF, the xml file only appears after having generated the PDF
 > (`Print` or `Send & Print` button), since the PDF needs to be embedded
-> inside the xml. - Every PDF generated from Odoo contains a `Factur-X`
+> inside the xml. - Every PDF generated from Konvergo ERP contains a `Factur-X`
 > XML file (for interoperability purpose). For German and French
 > companies, the option `Factur-X (PDF/A-3)` in addition enables
 > validation checks on the invoice and generates a PDF/A-3 compliant
 > file, required by plaftorms like Chorus Pro. - The formats available
 > depend on the country registered in your company's `General
-> Information`. - Odoo supports the **Peppol BIS Billing 3.0** format
+> Information`. - Konvergo ERP supports the **Peppol BIS Billing 3.0** format
 > that can be used via existing access points.

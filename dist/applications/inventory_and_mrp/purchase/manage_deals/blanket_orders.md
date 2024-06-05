@@ -43,7 +43,7 @@ long-term agreement must follow:
   the user can be changed directly from the drop-down menu next to this
   field.
 - `Agreement Type`: is the type of purchase agreement this blanket order
-  is classified as. In Odoo, blanket orders are the only official
+  is classified as. In Konvergo ERP, blanket orders are the only official
   purchase agreement.
 - `Vendor`: is the supplier to whom this agreement is tied, either once
   or on a recurring basis. The vendor can be selected directly from the

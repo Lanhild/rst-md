@@ -6,7 +6,7 @@ to your customers and ease the work of your cashiers.
 > [!IMPORTANT]
 > - Ingenico payment terminals require an
 > `IoT Box </applications/general/iot>`. - Ingenico is currently only
-> available in Belgium, the Netherlands and Luxembourg. - Odoo works
+> available in Belgium, the Netherlands and Luxembourg. - Konvergo ERP works
 > with the Ingenico Lane/, Desk/, and Move/ payment terminals as they
 > support the TLV communication protocol through TCP/IP.
 
@@ -14,7 +14,7 @@ to your customers and ease the work of your cashiers.
 
 ### Connect an IoT Box
 
-Connecting an Ingenico payment terminal to Odoo is a feature that
+Connecting an Ingenico payment terminal to Konvergo ERP is a feature that
 requires an IoT Box. For more information on how to connect an IoT Box
 to your database, please refer to the `IoT
 documentation </applications/general/iot/config/connect>`.
@@ -32,7 +32,7 @@ documentation </applications/general/iot/config/connect>`.
     `OK` on the next screen.
 
 At this point, the terminal restarts and should be displayed in your IoT
-Box form in Odoo.
+Box form in Konvergo ERP.
 
 <img src="ingenico/payment_terminal_02.png" class="align-center"
 alt="image" />
@@ -68,7 +68,7 @@ still retry to send the payment request.
 
 If there is any issue with the payment terminal, you can still force the
 payment using the *Force Done*. This will allow you to validate the
-order in Odoo even if the connection between the terminal and Odoo has
+order in Konvergo ERP even if the connection between the terminal and Konvergo ERP has
 issues.
 
 > [!NOTE]

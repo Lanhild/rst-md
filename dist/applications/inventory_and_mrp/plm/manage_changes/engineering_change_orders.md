@@ -102,7 +102,7 @@ alt="ECO with overview of stages in the top-right corner, and *Revision* smart b
 
 To modify the components in a `BoM (Bill of Materials)`, click the
 `Revision` smart button on an `ECO (Engineering Change Order)` to access
-the new version of the `BoM (Bill of Materials)`. Odoo distinguishes the
+the new version of the `BoM (Bill of Materials)`. Konvergo ERP distinguishes the
 non-production version of the `BoM (Bill of Materials)` from the current
 version, by flagging the test `BoM (Bill of Materials)` with a large
 `Archived` tag.

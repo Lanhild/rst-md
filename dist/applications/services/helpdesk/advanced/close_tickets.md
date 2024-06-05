@@ -1,6 +1,6 @@
 # Closing tickets
 
-Once work has been completed on a *Helpdesk* ticket in Odoo, there are
+Once work has been completed on a *Helpdesk* ticket in Konvergo ERP, there are
 several ways it can be closed. Manually closing solved tickets keeps the
 pipeline up to date, while automatically closing inactive tickets
 prevents unnecessary blocking issues. Allowing customers to close their
@@ -102,14 +102,14 @@ a team. On the team's settings page, scroll to the `Self-Service`
 section and check the box for `Closure by Customers`.
 
 <img src="close_tickets/closing-by-customer-setting.png"
-class="align-center" alt="Customer closing setting in Odoo Helpdesk." />
+class="align-center" alt="Customer closing setting in Konvergo ERP Helpdesk." />
 
 Once the ticket closing settings are enabled, a `Close Ticket` button
 will be available for customers when they view their ticket through the
 customer portal.
 
 <img src="close_tickets/closing-customer-view.png" class="align-center"
-alt="Customer view of ticket closing in Odoo Helpdesk." />
+alt="Customer view of ticket closing in Konvergo ERP Helpdesk." />
 
 > [!NOTE]
 > Customers are able to view their tickets by clicking the

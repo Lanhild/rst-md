@@ -1,9 +1,9 @@
-# Connect Gmail to Odoo using Google OAuth
+# Connect Gmail to Konvergo ERP using Google OAuth
 
-Odoo is compatible with Google's OAuth for Gmail. In order to send
+Konvergo ERP is compatible with Google's OAuth for Gmail. In order to send
 secure emails from a custom domain, all that is required is to configure
 a few settings on Google's *Workspace* platform, as well as on the back
-end of the Odoo database. This configuration works by using either a
+end of the Konvergo ERP database. This configuration works by using either a
 personal email address or an address created by a custom domain.
 
 > [!TIP]
@@ -26,7 +26,7 @@ To get started, go to the [Google API
 Console](https://console.developers.google.com). Log in with your
 *Google Workspace* account if you have one, otherwise log in with your
 personal Gmail account (this should match the email address you want to
-configure in Odoo).
+configure in Konvergo ERP).
 
 After that, click on `Create Project`, located on the far right of the
 `OAuth
@@ -36,7 +36,7 @@ Project` option will be located on the top right under the
 `Select a project` drop-down menu.
 
 On the `New Project` screen, rename the `Project name` to
-<span class="title-ref">Odoo</span> and browse for the `Location`. Set
+<span class="title-ref">Konvergo ERP</span> and browse for the `Location`. Set
 the `Location` as the *Google Workspace organization*. If you are using
 a personal Gmail account, then leave the `Location` as
 `No Organization`.
@@ -70,7 +70,7 @@ click on `Create` again, which will finally navigate to the
 Next we will configure the app registration of the project.
 
 On the `OAuth consent screen` step, under the `App information` section,
-enter <span class="title-ref">Odoo</span> in the `App name` field.
+enter <span class="title-ref">Konvergo ERP</span> in the `App name` field.
 Select the organization's email address under the `User support` email
 field.
 
@@ -103,24 +103,24 @@ Then, click on `Create Credentials` in the top menu and select
 
 - Under `Application Type`, select `Web Application` from the dropdown
   menu.
-- In the `Name` field, enter <span class="title-ref">Odoo</span>.
+- In the `Name` field, enter <span class="title-ref">Konvergo ERP</span>.
 - Under the `Authorized redirect URIs` label, click the button
   `ADD URI`, and then input
   <span class="title-ref">https://yourdbname.odoo.com/google_gmail/confirm</span>
   in the `URIs 1` field. Be sure to replace the *yourdbname* part of the
-  URL with the actual Odoo database name.
+  URL with the actual Konvergo ERP database name.
 - Next, click on `Create` to generate an OAuth `Client ID` and `Client
   Secret`. Finally, copy each generated value for later use when
-  configuring in Odoo, and then navigate to the Odoo database.
+  configuring in Konvergo ERP, and then navigate to the Konvergo ERP database.
 
 <img src="google_oauth/client-credentials.png" class="align-center"
 alt="Client ID and Client Secret for Google OAuth." />
 
-## Setup in Odoo
+## Setup in Konvergo ERP
 
 ### Enter Google Credentials
 
-First, open Odoo and navigate to the `Apps` module. Then, remove the
+First, open Konvergo ERP and navigate to the `Apps` module. Then, remove the
 `Apps` filter from the search bar and type in
 <span class="title-ref">Google</span>. Install the module called `Google
 Gmail`.
@@ -140,7 +140,7 @@ To configure the external Gmail account, return to the top of the
 `Outgoing Email Servers` link.
 
 <img src="google_oauth/outgoing-servers.png" class="align-center"
-alt="Configure Outgoing Email Servers in Odoo." />
+alt="Configure Outgoing Email Servers in Konvergo ERP." />
 
 Then, click on `New` or `Create` to create a new email server, and fill
 in the `Name`, `Description`, and the email `Username` (if required).
@@ -151,22 +151,22 @@ Next, click on `Gmail OAuth Authentication` or `Gmail` (under the
 
 A new window labeled `Google` opens to complete the authorization
 process. Select the appropriate email address that is being configured
-in Odoo.
+in Konvergo ERP.
 
 If the email address is a personal account, then an extra step pops up,
 so click `Continue` to allow the verification and connect the Gmail
-account to Odoo.
+account to Konvergo ERP.
 
-Then, allow Odoo to access the Google account by clicking on `Continue`
+Then, allow Konvergo ERP to access the Google account by clicking on `Continue`
 or `Allow`. After that, the page navigates back to the newly configured
-outgoing email server in Odoo. The configuration automatically loads the
-token in Odoo, and a tag stating `Gmail Token Valid` appears in green.
+outgoing email server in Konvergo ERP. The configuration automatically loads the
+token in Konvergo ERP, and a tag stating `Gmail Token Valid` appears in green.
 
 <img src="google_oauth/green-token.png" class="align-center"
-alt="Configure Outgoing Email Servers in Odoo." />
+alt="Configure Outgoing Email Servers in Konvergo ERP." />
 
 Finally, `Test the Connection`. A confirmation message should appear.
-The Odoo database can now send safe, secure emails through Google using
+The Konvergo ERP database can now send safe, secure emails through Google using
 OAuth authentication.
 
 ## Google OAuth FAQ
@@ -195,11 +195,11 @@ alt="403 Access Denied Error." />
 To correct this error, return to the `OAuth consent screen` under
 `APIs &
 Services` and add test user(s) to the app. Add the email that you are
-configuring in Odoo.
+configuring in Konvergo ERP.
 
 ### Gmail Module not updated
 
-If the *Google Gmail* module in Odoo has not been updated to the latest
+If the *Google Gmail* module in Konvergo ERP has not been updated to the latest
 version, then a `Forbidden` error message populates.
 
 <img src="google_oauth/forbidden-error.png" class="align-center"
@@ -226,4 +226,4 @@ Then, under `Authorized
 redirect URIs`, click `ADD URI` and type:
 <span class="title-ref">https://yourdbname.odoo.com/google_gmail/confirm</span>
 in the field, being sure to replace *yourdbname* in the URL with the
-Odoo database name.
+Konvergo ERP database name.

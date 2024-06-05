@@ -1,6 +1,6 @@
 # Use subscriptions in the eCommerce shop
 
-Subscription products can be sold in the Odoo *eCommerce* shop just like
+Subscription products can be sold in the Konvergo ERP *eCommerce* shop just like
 regular sales products.
 
 However, by default, the eCommerce product page only displays the

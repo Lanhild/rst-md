@@ -97,7 +97,7 @@ Firstly, you need to create an SVG file for your shape.
 </svg>
 ```
 
-Make sure to use colors from the default Odoo palette for your shape.
+Make sure to use colors from the default Konvergo ERP palette for your shape.
 
 ``` scss
 default_palette = {

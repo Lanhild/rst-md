@@ -1,7 +1,7 @@
 # Connect a footswitch
 
 When working in a manufacturing environment, it's always better for an
-operator to have both hands available at all times. Odoo's
+operator to have both hands available at all times. Konvergo ERP's
 `IoT (Internet of Things)` box makes this possible when using a
 footswitch.
 
@@ -23,7 +23,7 @@ connected.
 <img src="footswitch/footswitch-dropdown.png" class="align-center"
 alt="Footswitch recognized on the IoT box." />
 
-## Link a footswitch to a work center in the Odoo Manufacturing app
+## Link a footswitch to a work center in the Konvergo ERP Manufacturing app
 
 To link a footswitch to an action, it first needs to be configured on a
 work center. Navigate to
@@ -37,7 +37,7 @@ it. An example of an `Action` in the *Manufacturing app* could be the
 `Validate` or `Mark as Done` buttons on a manufacturing work order.
 
 <img src="footswitch/footswitch-example.png" class="align-center"
-alt="Footswitch trigger setup on the Odoo database." />
+alt="Footswitch trigger setup on the Konvergo ERP database." />
 
 > [!IMPORTANT]
 > It should be noted that the first listed trigger is chosen first. So,

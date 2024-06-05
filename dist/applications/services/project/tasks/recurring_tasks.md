@@ -7,7 +7,7 @@ tasks.
 
 <div class="seealso">
 
-[Odoo Tutorials: Recurring
+[Konvergo ERP Tutorials: Recurring
 tasks](https://www.odoo.com/slides/slide/recurring-tasks-1946)
 
 </div>

@@ -5,7 +5,7 @@ Eye-catching animations can bring your website to life.
 ## On appearance
 
 In standard, you can add animations to columns when they appear, thanks
-to the Website Builder. Odoo detects when your element is in the
+to the Website Builder. Konvergo ERP detects when your element is in the
 viewport and launches the animation. A large selection of animations is
 available:
 

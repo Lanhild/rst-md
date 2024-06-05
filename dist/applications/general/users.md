@@ -2,7 +2,7 @@ show-content
 
 # Users
 
-Odoo defines a *user* as someone who has access to a database. An
+Konvergo ERP defines a *user* as someone who has access to a database. An
 administrator can add as many users as the company needs and, in order
 to restrict the type of information each user can access, rules can be
 applied to each user. Users and access rights can be added and changed
@@ -22,7 +22,7 @@ To add new users, navigate to
 `Create`.
 
 <img src="users/manage-users.png" class="align-center"
-alt="View of the settings page emphasizing the manage users field in Odoo." />
+alt="View of the settings page emphasizing the manage users field in Konvergo ERP." />
 
 Fill in the form with all the required information. Under the
 `Access Rights
@@ -33,7 +33,7 @@ The list of applications shown is based on the applications installed on
 the database.
 
 <img src="users/new-user.png" class="align-center"
-alt="View of a user&#39;s form emphasizing the access rights tab in Odoo." />
+alt="View of a user&#39;s form emphasizing the access rights tab in Konvergo ERP." />
 
 After filling out all the necessary fields on the page, click `Save`. An
 invitation email is automatically sent to the user, using the email in
@@ -41,7 +41,7 @@ the `Email Address` field. The user must click on the link included in
 the email to accept the invitation, and to create a database login.
 
 <img src="users/invitation-email.png" class="align-center"
-alt="View of a user&#39;s form with a notification that the invitation email has been sent in Odoo." />
+alt="View of a user&#39;s form with a notification that the invitation email has been sent in Konvergo ERP." />
 
 > [!WARNING]
 > If the company is on a monthly subscription plan, the database
@@ -61,7 +61,7 @@ selected from the `Access Rights` tab of the user form, accessible via
 There are three types of users: `Internal User`, `Portal`, and `Public`.
 
 <img src="users/user-type.png" class="align-center"
-alt="View of a user&#39;s form in developer mode emphasizing the user type field in Odoo." />
+alt="View of a user&#39;s form in developer mode emphasizing the user type field in Konvergo ERP." />
 
 > [!TIP]
 > Users are considered internal database users. Portal users are
@@ -73,7 +73,7 @@ alt="View of a user&#39;s form in developer mode emphasizing the user type field
 The `Portal` and `Public` user options do **not** allow the
 administrator to choose access rights. These users have specific access
 rights pre-set (such as, record rules and restricted menus), and usually
-do not belong to the usual Odoo groups.
+do not belong to the usual Konvergo ERP groups.
 
 ## Deactivate users
 
@@ -98,15 +98,15 @@ Danger
 **Never** deactivate the main/administrator user (admin). Making changes
 to admin users can have a detrimental impact on the database. This
 includes *impotent admin*, which means that no user in the database can
-make changes to the access rights. For this reason, Odoo recommends
-contacting an Odoo Business Analyst, or our Support Team, before making
+make changes to the access rights. For this reason, Konvergo ERP recommends
+contacting an Konvergo ERP Business Analyst, or our Support Team, before making
 changes.
 
 </div>
 
 ### Error: too many users
 
-If there are more users in an Odoo database than provisioned in the Odoo
+If there are more users in an Konvergo ERP database than provisioned in the Konvergo ERP
 Enterprise subscription, the following message is displayed.
 
 <img src="users/add-more-users.png" class="align-center"
@@ -138,11 +138,11 @@ verification occurs.
 ## Password management
 
 Password management is an important part of granting users autonomous
-access to the database at all times. Odoo offers a few different methods
+access to the database at all times. Konvergo ERP offers a few different methods
 to reset a user's password.
 
 > [!TIP]
-> Odoo has a setting to specify the length needed for a password. This
+> Konvergo ERP has a setting to specify the length needed for a password. This
 > setting can be accessed by navigating to
 > `Settings app --> Permissions` section, and entering the desired
 > password length in the `Minimum Password Length` field. By default the
@@ -154,7 +154,7 @@ alt="Minimum Password Length highlighted in the Permissions section of General S
 ### Reset password
 
 Sometimes, users might wish to reset their personal password for added
-security, so they are the only ones with access to the password. Odoo
+security, so they are the only ones with access to the password. Konvergo ERP
 offers two different reset options: one initiated by the user to reset
 the password, and another where the administrator triggers a reset.
 
@@ -168,13 +168,13 @@ To change this setting, go to `Settings app --> Permissions` section,
 activate `Password Reset`, and then click `Save`.
 
 <img src="users/password-reset-login.png" class="align-center"
-alt="Enabling Password Reset in Odoo Settings" />
+alt="Enabling Password Reset in Konvergo ERP Settings" />
 
 On the login page, click `Reset Password` to initiate the password reset
 process, and have a reset-token sent to the email on file.
 
 <img src="users/password-reset.png" class="align-center"
-alt="Login screen on Odoo.com with the password reset option highlighted." />
+alt="Login screen on Konvergo ERP.com with the password reset option highlighted." />
 
 #### Send reset instructions
 
@@ -185,14 +185,14 @@ instructions.
 
 > [!NOTE]
 > The `Send Password Reset Instructions` button **only** appears if the
-> Odoo invitation email has already been confirmed by the user.
+> Konvergo ERP invitation email has already been confirmed by the user.
 > Otherwise, a `Re-send Invitation Email` button appears.
 
 This email contains all the instructions needed to reset the password,
-along with a link redirecting the user to an Odoo login page.
+along with a link redirecting the user to an Konvergo ERP login page.
 
 <img src="users/password-reset-email.png" class="align-center"
-alt="Example of an email with a password reset link for an Odoo account." />
+alt="Example of an email with a password reset link for an Konvergo ERP account." />
 
 ### Change user password
 
@@ -204,7 +204,7 @@ window that appears, and confirm the change by clicking
 `Change Password`.
 
 <img src="users/change-password.png" class="align-center"
-alt="Change a user&#39;s password on Odoo." />
+alt="Change a user&#39;s password on Konvergo ERP." />
 
 > [!NOTE]
 > This operation only modifies the password of the users locally, and
@@ -212,10 +212,10 @@ alt="Change a user&#39;s password on Odoo." />
 >
 > If the odoo.com password needs to be changed, use the
 > `send the password reset instructions
-> <users/reset-password-email>`. Odoo.com passwords grant access to the
+> <users/reset-password-email>`. Konvergo ERP.com passwords grant access to the
 > *My Databases* page, and other portal features.
 
-After clicking `Change Password`, the page is redirected to an Odoo
+After clicking `Change Password`, the page is redirected to an Konvergo ERP
 login page where the database can be re-accessed using the new password.
 
 ## Multi Companies
@@ -238,13 +238,13 @@ logging in each time. This field can contain only **one** company.
 > [!WARNING]
 > If multi-company access is not configured correctly, it could lead to
 > inconsistent multi-company behaviors. Because of this, only
-> experienced Odoo users should make access rights changes to users for
+> experienced Konvergo ERP users should make access rights changes to users for
 > databases with a multi-company configuration. For technical
 > explanations, refer to the developer documentation on
 > `../../../developer/howtos/company`.
 
 <img src="users/multi-companies.png" class="align-center"
-alt="View of a user&#39;s form emphasizing the multi companies field in Odoo." />
+alt="View of a user&#39;s form emphasizing the multi companies field in Konvergo ERP." />
 
 <div class="seealso">
 

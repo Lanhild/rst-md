@@ -3,15 +3,15 @@
 **Invoice digitization** is the process of converting paper documents
 into vendor bill and customer invoice forms in your accounting.
 
-Odoo uses `OCR (optical character recognition)` and artificial
+Konvergo ERP uses `OCR (optical character recognition)` and artificial
 intelligence technologies to recognize the content of the documents.
 Vendor bill and customer invoice forms are automatically created and
 populated based on the scanned invoices.
 
 <div class="seealso">
 
-\- [Test Odoo's invoice
-digitization](https://www.odoo.com/app/invoice-automation) - [Odoo
+\- [Test Konvergo ERP's invoice
+digitization](https://www.odoo.com/app/invoice-automation) - [Konvergo ERP
 Tutorials: Invoice Digitization with
 OCR](https://www.odoo.com/slides/slide/digitize-bills-with-ocr-1712)
 
@@ -93,11 +93,11 @@ credit.
 
 To buy credits, go to
 `Accounting --> Configuration --> Settings --> Digitization` and click
-on `Buy credits`, or go to `Settings --> Odoo IAP` and click on
+on `Buy credits`, or go to `Settings --> Konvergo ERP IAP` and click on
 `View My Services`.
 
 > [!IMPORTANT]
-> If you are on Odoo Online and have the Enterprise version, you benefit
+> If you are on Konvergo ERP Online and have the Enterprise version, you benefit
 > from free trial credits to test the feature.
 
 <div class="seealso">

@@ -18,11 +18,11 @@ each year as **depreciation expenses**. After five years, the
 \$ 20,000, leaving us with \$ 7,000 of **Not Depreciable Value**, or
 Salvage value.
 
-Odoo Accounting handles depreciation by creating all depreciation
+Konvergo ERP Accounting handles depreciation by creating all depreciation
 entries automatically in *draft mode*. They are then posted
 periodically.
 
-Odoo supports the following **Depreciation Methods**:
+Konvergo ERP supports the following **Depreciation Methods**:
 
 - Straight Line
 - Declining
@@ -45,7 +45,7 @@ Configuration --> Chart of Accounts`, click on *Create*, and fill out
 the form.
 
 <img src="assets/assets01.png" class="align-center"
-alt="Configuration of an Assets Account in Odoo Accounting" />
+alt="Configuration of an Assets Account in Konvergo ERP Accounting" />
 
 > [!NOTE]
 > This account's type must be either *Fixed Assets* or *Non-current
@@ -59,7 +59,7 @@ On a draft bill, select the right account for all the assets you are
 buying.
 
 <img src="assets/assets02.png" class="align-center"
-alt="Selection of an Assets Account on a draft bill in Odoo Accounting" />
+alt="Selection of an Assets Account on a draft bill in Konvergo ERP Accounting" />
 
 #### Choose a different Expense Account for specific products
 
@@ -67,7 +67,7 @@ Start editing the product, go to the *Accounting* tab, select the right
 **Expense Account**, and save.
 
 <img src="assets/assets03.png" class="align-center"
-alt="Change of the Assets Account for a product in Odoo" />
+alt="Change of the Assets Account for a product in Konvergo ERP" />
 
 > [!TIP]
 > It is possible to
@@ -82,7 +82,7 @@ Purchases`, select the journal item you want to modify, click on the
 account, and select the right one.
 
 <img src="assets/assets04.png" class="align-center"
-alt="Modification of a posted journal item&#39;s account in Odoo Accounting" />
+alt="Modification of a posted journal item&#39;s account in Konvergo ERP Accounting" />
 
 ## Assets entries
 
@@ -99,15 +99,15 @@ to this new entry. Some fields are then automatically filled out, and
 the journal item is now listed under the **Related Purchase** tab.
 
 <img src="assets/assets05.png" class="align-center"
-alt="Assets entry in Odoo Accounting" />
+alt="Assets entry in Konvergo ERP Accounting" />
 
 Once done, you can click on *Compute Depreciation* (next to the
 *Confirm* button) to generate all the values of the **Depreciation
-Board**. This board shows you all the entries that Odoo will post to
+Board**. This board shows you all the entries that Konvergo ERP will post to
 depreciate your asset, and at which date.
 
 <img src="assets/assets06.png" class="align-center"
-alt="Depreciation Board in Odoo Accounting" />
+alt="Depreciation Board in Konvergo ERP Accounting" />
 
 #### What does "Prorata Temporis" mean?
 
@@ -156,7 +156,7 @@ Then, click on *Action*, select **Create Asset**, and fill out the form
 the same way you would do to `create a new entry <create-assets-entry>`.
 
 <img src="assets/assets07.png" class="align-center"
-alt="Create Asset Entry from a journal item in Odoo Accounting" />
+alt="Create Asset Entry from a journal item in Konvergo ERP Accounting" />
 
 ## Modification of an Asset
 
@@ -176,7 +176,7 @@ related to the account movements and creates a new Asset entry with the
 a Smart Button.
 
 <img src="assets/assets08.png" class="align-center"
-alt="Gross Increase smart button in Odoo Accounting" />
+alt="Gross Increase smart button in Konvergo ERP Accounting" />
 
 ## Disposal of Fixed Assets
 
@@ -187,9 +187,9 @@ To do so, open the asset you want to dispose of, click on *Sell or
 Dispose*, and fill out the form.
 
 <img src="assets/assets09.png" class="align-center"
-alt="Disposal of Assets in Odoo Accounting" />
+alt="Disposal of Assets in Konvergo ERP Accounting" />
 
-Odoo Accounting then generates all the journal entries necessary to
+Konvergo ERP Accounting then generates all the journal entries necessary to
 dispose of the asset, including the gain or loss on sale, which is based
 on the difference between the asset's book value at the time of the sale
 and the amount it is sold for.
@@ -222,7 +222,7 @@ of the form. Clicking on a model button fills out the form according to
 that model.
 
 <img src="assets/assets10.png" class="align-center"
-alt="Assets model button in Odoo Accounting" />
+alt="Assets model button in Konvergo ERP Accounting" />
 
 ## Automate the Assets
 
@@ -243,7 +243,7 @@ You have three choices for the **Automate Assets** field:
     validated.
 
 <img src="assets/assets11.png" class="align-center"
-alt="Automate Assets on an account in Odoo Accounting" />
+alt="Automate Assets on an account in Konvergo ERP Accounting" />
 
 > [!TIP]
 > You can, for example, select this account as the default **Expense

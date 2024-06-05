@@ -3,17 +3,17 @@
 There are many ways to lean and simplify SCSS. The first step is to
 establish if custom code is needed at all.
 
-Odoo's webclient has been designed to be modular, meaning that
+Konvergo ERP's webclient has been designed to be modular, meaning that
 (potentially all) classes can be shared across views. Check the code
 before creating a new class. Chances are that there is already a class
 or an HTML tag doing exactly what you're looking for.
 
-On top of that, Odoo relies on
+On top of that, Konvergo ERP relies on
 [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 (BS), one of the most complete CSS frameworks available. The framework
-has been customized in order to match Odoo's design (both community and
+has been customized in order to match Konvergo ERP's design (both community and
 enterprise versions), meaning that you can use any BS class directly in
-Odoo and achieve a visual result that is consistent with our UI.
+Konvergo ERP and achieve a visual result that is consistent with our UI.
 
 > [!WARNING]
 > - The fact that a class achieves the desired visual result doesn't
@@ -134,7 +134,7 @@ It may seem obvious, but the simplest and most **consistent** way of
 making text look like a title is to use a header tag
 (<span class="title-ref">\<h1\></span>,
 <span class="title-ref">\<h2\></span>, ...). Besides reboot rules,
-mostly all tags carry decorative styles defined by Odoo.
+mostly all tags carry decorative styles defined by Konvergo ERP.
 
 <div class="rst-class">
 
@@ -237,7 +237,7 @@ animation: 2s linear 1s mycustomAnimation;
 > classes, tags, mixins...) keeps the visual result consistent and
 > easily **maintainable**.
 >
-> Following the last example, if Odoo titles' design changes, these
+> Following the last example, if Konvergo ERP titles' design changes, these
 > changes will be applied in the
 > <span class="title-ref">o_module_custom_title</span> element too since
 > it's using an <span class="title-ref">\<h5\></span> tag.
@@ -260,7 +260,7 @@ Since a utility-class is defined, any CSS line with the declaration
 <span class="title-ref">position: relative</span> is **potentially**
 redundant.
 
-Odoo relies on the default [Bootstrap
+Konvergo ERP relies on the default [Bootstrap
 utility-classes](https://getbootstrap.com/docs/5.1/utilities/background/)
 stack and defines its own using [Bootstrap
 API](https://getbootstrap.com/docs/5.1/utilities/api/).
@@ -268,7 +268,7 @@ API](https://getbootstrap.com/docs/5.1/utilities/api/).
 <div class="seealso">
 
 \- [Bootstrap utility
-classes](https://getbootstrap.com/docs/5.1/utilities/api/) - [Odoo
+classes](https://getbootstrap.com/docs/5.1/utilities/api/) - [Konvergo ERP
 custom utilities on
 github](%7BGITHUB_PATH%7D/addons/web/static/src/scss/utilities_custom.scss)
 
@@ -312,6 +312,6 @@ To overcome the issue you may combine different approaches:
 
 <div class="seealso">
 
-`Odoo CSS properties order <contributing/coding_guidelines/scss/properties_order>`
+`Konvergo ERP CSS properties order <contributing/coding_guidelines/scss/properties_order>`
 
 </div>

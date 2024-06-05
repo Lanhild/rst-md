@@ -1,26 +1,26 @@
 # Create a second warehouse
 
 A *warehouse* is a physical building or space where items are stored. In
-Odoo, it is possible to set up multiple warehouses and transfer stored
+Konvergo ERP, it is possible to set up multiple warehouses and transfer stored
 items between them.
 
-By default, the Odoo platform has one warehouse that is already
+By default, the Konvergo ERP platform has one warehouse that is already
 configured, with the address set as the company's address. To create a
 second warehouse, select `Configuration -->
 Warehouses`, then click `Create` and configure the form as follows:
 
 - `Warehouse`: the full name of the warehouse
 - `Short Name`: the abbreviated code by which the warehouse is referred
-  to; the short name for the default warehouse in Odoo is **WH**
+  to; the short name for the default warehouse in Konvergo ERP is **WH**
 - `Company`: the company that owns the warehouse; this can be set as the
-  company that owns the Odoo database or the company of a customer or
+  company that owns the Konvergo ERP database or the company of a customer or
   vendor
 - `Address`: the address where the warehouse is located
 
 > [!IMPORTANT]
 > The options below will only appear if the `Multi-Step Routes` checkbox
 > is enabled in `Configuration --> Settings` under the `Warehouse`
-> heading. For more information about routes and how they work in Odoo,
+> heading. For more information about routes and how they work in Konvergo ERP,
 > see `Using Routes and Pull/Push Rules
 > <use-routes>`.
 
@@ -54,8 +54,8 @@ created.
 ## Add inventory to a new warehouse
 
 If a new warehouse is created that has existing inventory in it, the
-inventory counts should be added to Odoo so that the stock listed in the
-Odoo database reflects what is in the physical warehouse. To add
+inventory counts should be added to Konvergo ERP so that the stock listed in the
+Konvergo ERP database reflects what is in the physical warehouse. To add
 inventory to a new warehouse, navigate to `Inventory -->
 Operations --> Inventory Adjustments`, and then click `Create`. The
 inventory adjustment form can then be filled out as follows:

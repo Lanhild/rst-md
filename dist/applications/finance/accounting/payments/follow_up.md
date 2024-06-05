@@ -1,7 +1,7 @@
 # Follow-up on invoices
 
 A follow-up message can be sent to customers when a payment is overdue.
-Odoo helps you identify late payments and allows you to schedule and
+Konvergo ERP helps you identify late payments and allows you to schedule and
 send the appropriate reminders using **follow-up actions** that
 automatically trigger one or more actions according to the number of
 overdue days. You can send your follow-ups via different means, such as
@@ -9,7 +9,7 @@ email, post, or SMS.
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Payment
+\- [Konvergo ERP Tutorials: Payment
 Follow-up](https://www.odoo.com/slides/slide/payment-follow-up-1682)
 
 </div>
@@ -50,7 +50,7 @@ enter a `Summary` on how to handle the activity, if desired.
 
 Overdue invoices you need to follow up on are available in
 `Accounting --> Customers
---> Follow-up Reports`. By default, Odoo filters by `Overdue Invoices`,
+--> Follow-up Reports`. By default, Konvergo ERP filters by `Overdue Invoices`,
 but you can also filter by `In need of action` in the `Filters` menu.
 
 When selecting an invoice, you can see all of the customer's unpaid

@@ -7,10 +7,10 @@ elements on your website, including its content, social sharing, URLs,
 images, and page speed.
 
 > [!NOTE]
-> - Odoo provides several modules to help you build your website
+> - Konvergo ERP provides several modules to help you build your website
 > content, such as `eCommerce <../../ecommerce>`, `Blog <../../blog>`,
 > `eLearning
-> <../../elearning>`, and `Forum <../../forum>`. - All Odoo themes rely
+> <../../elearning>`, and `Forum <../../forum>`. - All Konvergo ERP themes rely
 > on the CSS Framework [Bootstrap](https://getbootstrap.com/) to render
 > efficiently according to the device: desktop, tablet, or mobile, which
 > positively impacts ranking in search engines.
@@ -29,7 +29,7 @@ Meta tags are HTML elements that provide information about a webpage to
 search engines and website visitors. They play a crucial role in SEO by
 helping search engines understand the content and context of a webpage
 and attract visitors with appealing content. There are two types of meta
-tags in Odoo:
+tags in Konvergo ERP:
 
 - `Title` tags specify a webpage's title and are displayed as a
   clickable link in search engine results. They should be concise,
@@ -85,8 +85,8 @@ essential criterion for search engines to optimize SEO ranking.
 > Speed](https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect)
 > or [Pingdom Website Speed Test](https://tools.pingdom.com/).
 
-Odoo automatically compresses uploaded images to reduce their weight and
-improve the page loading speed. All images used in Odoo official themes
+Konvergo ERP automatically compresses uploaded images to reduce their weight and
+improve the page loading speed. All images used in Konvergo ERP official themes
 are also compressed by default. If you are using a third-party theme, it
 may provide images that are not compressed efficiently.
 
@@ -120,7 +120,7 @@ Events, and Organizations.
 
 Microdata is a set of tags, introduced with HTML5, that help search
 engines better understand your content and display it in a relevant way.
-Odoo implements microdata as defined in the schema.org
+Konvergo ERP implements microdata as defined in the schema.org
 [specification](https://schema.org/docs/gs.html) for events, eCommerce
 products, forum posts, and contact addresses. This allows your product
 pages to be displayed in Google using extra information like the price
@@ -135,7 +135,7 @@ can access on your site, to index its content. This is used mainly to
 avoid overloading your site with requests.
 
 When indexing your website, search engines take a first look at the
-robots.txt file. Odoo automatically creates one robot.txt file available
+robots.txt file. Konvergo ERP automatically creates one robot.txt file available
 on <span class="title-ref">mydatabase.odoo.com/robots.txt</span>.
 
 By editing a robots.txt file, you can control which site pages are
@@ -156,12 +156,12 @@ the robots.txt file to add <span class="title-ref">Disallow:
 ### Sitemap
 
 The sitemap points out website pages and their relation to each other to
-search engine robots. Odoo generates a
+search engine robots. Konvergo ERP generates a
 <span class="title-ref">/sitemap.xml</span> file, including all URLs.
 For performance reasons, this file is cached and updated every 12 hours.
 
 > [!NOTE]
-> If your website has a lot of pages, Odoo automatically creates a
+> If your website has a lot of pages, Konvergo ERP automatically creates a
 > Sitemap Index file, respecting the [sitemaps.org
 > protocol](http://www.sitemaps.org/protocol.html), grouping sitemap
 > URLs in 45000 chunks per file.
@@ -189,7 +189,7 @@ automatically:
 
 ### Hreflang HTML tags
 
-Odoo automatically includes <span class="title-ref">hreflang</span> and
+Konvergo ERP automatically includes <span class="title-ref">hreflang</span> and
 <span class="title-ref">x-default</span> tags in the code of your
 website's multilingual pages. These HTML attributes are crucial in
 informing search engines about a specific page's language and

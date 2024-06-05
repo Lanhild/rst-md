@@ -11,7 +11,7 @@ transportation, insurance, customs clearance, and other relevant aspects
 of the transaction.
 
 > [!NOTE]
-> By default, all 11 Incoterms are available in Odoo:
+> By default, all 11 Incoterms are available in Konvergo ERP:
 >
 > - **EXW**: Ex works
 > - **FCA**: Free carrier

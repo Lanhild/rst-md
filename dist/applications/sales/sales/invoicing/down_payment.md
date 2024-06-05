@@ -18,7 +18,7 @@ appears.
 
 <img src="down_payment/create-invoices-popup-form.png"
 class="align-center"
-alt="Create invoices pop-up form that appears in Odoo Sales." />
+alt="Create invoices pop-up form that appears in Konvergo ERP Sales." />
 
 > [!NOTE]
 > Invoices are automatically created as drafts, so they can be reviewed
@@ -56,7 +56,7 @@ alt="A create invoices pop-up form with down payment fields filled in with infor
 
 Once all fields are filled in with the desired information, click the
 `Create Draft
-Invoice` button. Upon clicking this button, Odoo reveals the
+Invoice` button. Upon clicking this button, Konvergo ERP reveals the
 `Customer Invoice Draft`.
 
 In the `Invoice Lines` tab of the `Customer Invoice Draft`, the down
@@ -65,11 +65,11 @@ appears as a `Product`.
 
 <img src="down_payment/down-payment-product-inv-draft.png"
 class="align-center"
-alt="Down payment as a product in the invoice lines tab of a customer invoice draft in Odoo." />
+alt="Down payment as a product in the invoice lines tab of a customer invoice draft in Konvergo ERP." />
 
 > [!NOTE]
 > When the `Down payment` product in the `Invoice Lines` tab is clicked,
-> Odoo reveals the product form for the down payment.
+> Konvergo ERP reveals the product form for the down payment.
 >
 > By default, the `Product Type` of down payment products generated for
 > invoices are set as `Service`, with the `Invoicing Policy` set to
@@ -113,7 +113,7 @@ by clicking `Create Invoice`.
 
 <img src="down_payment/cabinet-sales-orders-confirmed.png"
 class="align-center"
-alt="Cabinet with doors sales order that&#39;s been confirmed in the Odoo Sales application." />
+alt="Cabinet with doors sales order that&#39;s been confirmed in the Konvergo ERP Sales application." />
 
 Next, on the `Create invoices` pop-up window that appears, select
 `Down payment
@@ -143,7 +143,7 @@ From there, the invoice can be confirmed and posted by clicking
 page.
 
 <img src="down_payment/draft-invoice-sample.png" class="align-center"
-alt="A sample draft invoice with down payment mentioned in Odoo Sales." />
+alt="A sample draft invoice with down payment mentioned in Konvergo ERP Sales." />
 
 From those buttons, the payment can be registered by clicking
 `Register Payment`.
@@ -160,7 +160,7 @@ click the `Create Payment` button.
 class="align-center"
 alt="Showcase of the Register Payment pop-up window with create payment button." />
 
-After clicking `Create Payment`, Odoo reveals the customer invoice, now
+After clicking `Create Payment`, Konvergo ERP reveals the customer invoice, now
 with a green `In Payment` banner in the upper-right corner.
 
 <img src="down_payment/customer-invoice-green-payment-banner.png"
@@ -187,10 +187,10 @@ fields: `Already invoiced` and `Amount to invoice`.
 
 <img src="down_payment/create-invoices-pop-up-already-invoiced.png"
 class="align-center"
-alt="The deduct down payment option on the create invoices pop up in Odoo Sales." />
+alt="The deduct down payment option on the create invoices pop up in Konvergo ERP Sales." />
 
 If the remaining amount is ready to be paid, select the
-`Regular Invoice` option. Odoo will create an invoice for the exact
+`Regular Invoice` option. Konvergo ERP will create an invoice for the exact
 amount needed to complete the total payment, as indicated in the
 `Amount to invoice` field.
 
@@ -210,7 +210,7 @@ amount left to be paid on the order.
 
 <img src="down_payment/second-register-payment-popup.png"
 class="align-center"
-alt="The second register payment pop-up form in Odoo sales." />
+alt="The second register payment pop-up form in Konvergo ERP sales." />
 
 After confirming that information, click `Create Payment`. Doing so
 reveals the final `Customer Invoice` with a green `In Payment` banner in
@@ -219,7 +219,7 @@ the upper-right corner. Also, both down payments are present in the
 
 <img src="down_payment/second-down-payment-in-payment-invoice.png"
 class="align-center"
-alt="The second down payment invoice with in payment banner in Odoo Sales." />
+alt="The second down payment invoice with in payment banner in Konvergo ERP Sales." />
 
 At this point, the flow is now complete.
 

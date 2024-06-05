@@ -6,7 +6,7 @@ goods or services all at once. This helps companies to select the
 cheapest (and fastest) vendors, depending on their specific business
 needs.
 
-In Odoo, this can be done by adding alternative requests for quotation
+In Konvergo ERP, this can be done by adding alternative requests for quotation
 (RFQs) for different vendors. Once a response is received from each
 vendor, the product lines from each `RFQ
 (Request for Quotation)` can be compared, and a decision can be made for

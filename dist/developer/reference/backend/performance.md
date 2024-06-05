@@ -19,7 +19,7 @@ While profiling does not improve the performance of a program by itself,
 it can prove very helpful in finding performance issues and identifying
 which part of the program is responsible for them.
 
-Odoo provides an integrated profiling tool that allows recording all
+Konvergo ERP provides an integrated profiling tool that allows recording all
 executed queries and stack traces during execution. It can be used to
 profile either a set of requests of a user session, or a specific
 portion of code. Profiling results can be either inspected with the
@@ -71,7 +71,7 @@ record. Such records are grouped into the current profiling session
 which spans from when the profiler was enabled until it is disabled.
 
 > [!NOTE]
-> Odoo Online databases cannot be profiled.
+> Konvergo ERP Online databases cannot be profiled.
 
 </div>
 
@@ -177,7 +177,7 @@ Speedscope falls out of the scope of this documentation but there are a
 lot of tools to try: search, highlight of similar frames, zoom on frame,
 timeline, left heavy, sandwich view...
 
-Depending on the profiling options that were activated, Odoo generates
+Depending on the profiling options that were activated, Konvergo ERP generates
 different view modes that you can access from the top menu.
 
 <img src="performance/speedscope_modes.png" class="align-center"
@@ -215,7 +215,7 @@ interface through their dedicated toggle button in the
 `developer mode tools <developer-mode/tools>`, or from Python code
 through their key or class.
 
-There are currently four collectors available in Odoo:
+There are currently four collectors available in Konvergo ERP:
 
 | Name                                                             | Toggle button   | Python key                                  | Python class                                     |
 |------------------------------------------------------------------|-----------------|---------------------------------------------|--------------------------------------------------|
@@ -328,7 +328,7 @@ SyncCollector
 
 ## Database population
 
-Odoo CLI offers a `database population <reference/cmdline/populate>`
+Konvergo ERP CLI offers a `database population <reference/cmdline/populate>`
 feature through the CLI command `odoo-bin populate`.
 
 Instead of the tedious manual, or programmatic, specification of test

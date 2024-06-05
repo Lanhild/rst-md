@@ -15,7 +15,7 @@ content change or document an application from scratch.
 
 <div class="seealso">
 
-`Discover other ways to contribute to Odoo <../contributing>`
+`Discover other ways to contribute to Konvergo ERP <../contributing>`
 
 </div>
 
@@ -50,7 +50,7 @@ learn, especially if you intend to make minor changes to the content.
 If you need to learn about a specific markup, head over to our
 `cheat sheet for RST
 <documentation/rst_cheat_sheet>`; it contains all the information you
-should ever need for the documentation of Odoo.
+should ever need for the documentation of Konvergo ERP.
 
 > [!IMPORTANT]
 > We kindly ask you to observe a set of
@@ -58,7 +58,7 @@ should ever need for the documentation of Odoo.
 > `RST <documentation/rst_guidelines>` guidelines as you write
 > documentation. This ensures that you stay consistent with the rest of
 > the documentation and facilitates the approval of your content changes
-> as the Odoo team reviews them.
+> as the Konvergo ERP team reviews them.
 
 <div class="seealso">
 
@@ -76,7 +76,7 @@ if you have already completed this step or want to make changes from the
 GitHub interface.
 
 1.  First, you need to [create a GitHub
-    account](https://github.com/join). Odoo uses GitHub to manage the
+    account](https://github.com/join). Konvergo ERP uses GitHub to manage the
     source code of its products, and this is where you will make your
     changes and submit them for review.
 
@@ -88,7 +88,7 @@ GitHub interface.
     and click on the `Fork` button in the top right corner to create a
     fork (`your own copy`) of the repository on your account. This
     creates a copy of the codebase to which you can make changes without
-    affecting the main codebase. Skip this step if you work at Odoo.
+    affecting the main codebase. Skip this step if you work at Konvergo ERP.
 
 4.  [Install
     Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
@@ -146,7 +146,7 @@ GitHub interface.
     codebase. In the commands below, replace
     <span class="title-ref">\<your_github_account\></span> with the name
     of the GitHub account on which you created the fork. Skip this step
-    if you work at Odoo.
+    if you work at Konvergo ERP.
 
     ``` console
     $ git remote add dev git@github.com:<your_github_account>/documentation.git
@@ -264,7 +264,7 @@ right corner of the page. \#. Click on the `Fork this repository` button
 to create a fork (`your own
 copy`) of the repository on your account. This creates a copy of the
 codebase to which you can make changes without affecting the main
-codebase. Skip this step if you work at Odoo.
+codebase. Skip this step if you work at Konvergo ERP.
 
 ![image](documentation/fork-repository.png)
 
@@ -290,7 +290,7 @@ button.
 1.  Review your changes and click on the `Create pull request` button.
 
 #\. Tick the `Allow edits from maintainer` checkbox. Skip this step if
-you work at Odoo. \#. Review the summary that you wrote about your
+you work at Konvergo ERP. \#. Review the summary that you wrote about your
 changes and click on the `Create
 pull request` button again. \#. .. include::
 check_mergeability_status.rst \#. .. include:: handle_reviews.rst \#. ..
@@ -314,16 +314,16 @@ the sources and follow the guide below.
 
 1.  Choose the version of the documentation to which you want to make
     changes. Keep in mind that contributions targeting an
-    `unsupported version of Odoo
+    `unsupported version of Konvergo ERP
     </administration/supported_versions>` are not accepted. This guide
-    assumes that the changes target the documentation of Odoo
+    assumes that the changes target the documentation of Konvergo ERP
     {CURRENT_VERSION}, which corresponds to branch
     <span class="title-ref">{CURRENT_BRANCH}</span>.
 
 2.  Create a new branch starting from branch {CURRENT_BRANCH}. Prefix
     the branch name with the base branch:
     <span class="title-ref">{CURRENT_BRANCH}-...</span>. If you work at
-    Odoo, suffix the branch name with your Odoo handle:
+    Konvergo ERP, suffix the branch name with your Konvergo ERP handle:
     <span class="title-ref">{CURRENT_BRANCH}-...-xyz</span>.
 
     <div class="example">
@@ -379,7 +379,7 @@ the sources and follow the guide below.
 
     </div>
 
-    If you work at Odoo, push your changes directly to the main codebase
+    If you work at Konvergo ERP, push your changes directly to the main codebase
     whose remote alias is <span class="title-ref">origin</span>.
 
     <div class="example">
@@ -400,11 +400,11 @@ the sources and follow the guide below.
     4.  Select **\<your_github_account\>/odoo** for the head repository.
         Replace <span class="title-ref">\<your_github_account\></span>
         with the name of the GitHub account on which you created the
-        fork. Skip this step if you work at Odoo.
+        fork. Skip this step if you work at Konvergo ERP.
     5.  Review your changes and click on the `Create pull request`
         button.
     6.  Tick the `Allow edits from maintainer` checkbox. Skip this step
-        if you work at Odoo.
+        if you work at Konvergo ERP.
     7.  Complete the description and click on the `Create pull request`
         button again.
 
@@ -412,7 +412,7 @@ the sources and follow the guide below.
     any issues.
 
 11. As soon as your `PR (Pull Request)` is ready for merging, a member
-    of the Odoo team will be automatically assigned for review. If the
+    of the Konvergo ERP team will be automatically assigned for review. If the
     reviewer has questions or remarks, they will post them as comments
     and you will be notified by email. Those comments must be resolved
     for the contribution to go forward.

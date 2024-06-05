@@ -8,10 +8,10 @@ By default, an *Apps* filter is applied. If you want to search for
 modules, click on *Filters* and select *Extra*.
 
 <img src="apps_modules/apps-search-filter.png" class="align-center"
-alt="Add &quot;Extra&quot; filter in Odoo Apps" />
+alt="Add &quot;Extra&quot; filter in Konvergo ERP Apps" />
 
 > [!WARNING]
-> Odoo is *not a smartphone*, and its apps shouldn't be installed or
+> Konvergo ERP is *not a smartphone*, and its apps shouldn't be installed or
 > uninstalled carelessly. Apply caution when adding or removing apps and
 > modules on your database since this may impact your subscription
 > costs.
@@ -21,7 +21,7 @@ alt="Add &quot;Extra&quot; filter in Odoo Apps" />
 >   As the administrator of your database, you are responsible for its
 >   usage, as you know best how your organization works.
 >
-> - **Odoo apps have dependencies.**  
+> - **Konvergo ERP apps have dependencies.**  
 >   Installing some apps and features with dependencies may also install
 >   additional apps and modules that are technically required, even if
 >   you won't actively use them.
@@ -46,7 +46,7 @@ install.
 ## Upgrade apps and modules
 
 On some occasions, new improvements or app features are added to
-`supported versions of Odoo
+`supported versions of Konvergo ERP
 </administration/supported_versions>`. To be able to use them, you must
 **upgrade** your app.
 
@@ -63,7 +63,7 @@ alt="image" />
 
 Some apps have dependencies, meaning that one app requires another.
 Therefore, uninstalling one app may uninstall multiple apps and modules.
-Odoo warns you which dependent apps and modules are affected by it.
+Konvergo ERP warns you which dependent apps and modules are affected by it.
 
 <img src="apps_modules/uninstall_deps.png" class="align-center"
 alt="image" />

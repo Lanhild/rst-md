@@ -1,6 +1,6 @@
-# Odoo mobile apps
+# Konvergo ERP mobile apps
 
-Two kind of Odoo mobile app exist: the progressive web app (PWA) and
+Two kind of Konvergo ERP mobile app exist: the progressive web app (PWA) and
 store apps. Using the PWA is recommended.
 
 ## Progressive web app (PWA)
@@ -9,15 +9,15 @@ PWAs are web-based applications designed to function across different
 devices and platforms, leveraging web browsers to deliver user
 experiences similar to native apps.
 
-The Odoo PWA features include:
+The Konvergo ERP PWA features include:
 
 - Quick access by adding the PWA to a device's home screen
 - Seamless and borderless navigation experience
 - Push notifications
 - SSO authentication
 
-To install the Odoo PWA, launch a browser supporting PWAs, and sign in
-to an Odoo database. The instructions to install a PWA depend on the
+To install the Konvergo ERP PWA, launch a browser supporting PWAs, and sign in
+to an Konvergo ERP database. The instructions to install a PWA depend on the
 platform and browser used.
 
 <div class="tabs">
@@ -30,7 +30,7 @@ Android
 `Install`.
 
 **Firefox**: open Firefox's menu (`⋮`), select `Install`, and either
-touch and hold the Odoo icon or tap `Add automatically`.
+touch and hold the Konvergo ERP icon or tap `Add automatically`.
 
 The PWA can also be installed with **Samsung Internet**, **Edge**, and
 **Opera**.
@@ -74,7 +74,7 @@ Edge](https://support.microsoft.com/en-us/topic/install-manage-or-uninstall-apps
 
 ## Store apps
 
-The Odoo mobile apps are available for download on the [Google Play
+The Konvergo ERP mobile apps are available for download on the [Google Play
 Store](https://play.google.com/store/apps/details?id=com.odoo.mobile)
 and [Apple App Store](https://apps.apple.com/app/odoo/id1272543640).
 

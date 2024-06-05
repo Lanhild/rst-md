@@ -13,7 +13,7 @@ There are 2 types: GSM7 and UNICODE.
 message, that includes the following characters:
 
 <img src="pricing_and_faq/faq1.png" class="align-center"
-alt="GSM7 characters available in Odoo SMS Marketing." />
+alt="GSM7 characters available in Konvergo ERP SMS Marketing." />
 
 **UNICODE** is the format applied if a special character, that *is not*
 in the GSM7 list, is used. Limit per SMS: 70 characters.
@@ -29,29 +29,29 @@ in the GSM7 list, is used. Limit per SMS: 70 characters.
 
 The price of an SMS depends on the destination and the length (number of
 characters) of the message. To see the **price per country, please
-consult**: [Odoo SMS -
+consult**: [Konvergo ERP SMS -
 FAQ](https://iap-services.odoo.com/iap/sms/pricing#sms_faq_01).
 
 The number of SMSs a message represents will always be available in the
 database.
 
 <img src="pricing_and_faq/faq2.png" class="align-center"
-alt="Number of GSM7 characters that fit in an SMS message in Odoo SMS Marketing." />
+alt="Number of GSM7 characters that fit in an SMS message in Konvergo ERP SMS Marketing." />
 
 ## How to buy credits
 
 Go to `Settings --> Buy Credits`.
 
 <img src="pricing_and_faq/faq3.png" class="align-center"
-alt="Buying credits for SMS Marketing in Odoo settings." />
+alt="Buying credits for SMS Marketing in Konvergo ERP settings." />
 
 Or go to `Settings --> View my Services`.
 
 <img src="pricing_and_faq/faq4.png" class="align-center"
-alt="Using Odoo IAP to recharge credits for SMS Marketing in Odoo settings." />
+alt="Using Konvergo ERP IAP to recharge credits for SMS Marketing in Konvergo ERP settings." />
 
 > [!TIP]
-> If Odoo Online (Saas) is being used, along with the Enterprise
+> If Konvergo ERP Online (Saas) is being used, along with the Enterprise
 > version, free trial credits are available to test the feature.
 
 ## More common questions
@@ -108,7 +108,7 @@ alt="Using Odoo IAP to recharge credits for SMS Marketing in Odoo settings." />
     here](https://iap.odoo.com/privacy#sms).
 
 12. **Can I use my own SMS provider?**  
-    Yes, but it is not possible out-of-the-box. Odoo experts can help
+    Yes, but it is not possible out-of-the-box. Konvergo ERP experts can help
     customize a database to allow for the use of a personal SMS
     provider. Please check our success packs
     [here](https://www.odoo.com/pricing-packs).

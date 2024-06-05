@@ -1,6 +1,6 @@
 # Manufacturing product configuration
 
-In order to manufacture a product in Odoo *Manufacturing*, the product
+In order to manufacture a product in Konvergo ERP *Manufacturing*, the product
 must be properly configured. Doing so consists of enabling the
 *Manufacturing* route and configuring a bill of materials (BoM) for the
 product. Once these steps are completed, the product is selectable when
@@ -14,7 +14,7 @@ page. To do so, begin by navigating to
 product, or create a new one by clicking `New`.
 
 On the product page, select the `Inventory` tab, then enable the
-`Manufacture` checkbox in the `Routes` section. This tells Odoo the
+`Manufacture` checkbox in the `Routes` section. This tells Konvergo ERP the
 product can be manufactured.
 
 <img src="configure_manufacturing_product/manufacturing-route.png"
@@ -23,7 +23,7 @@ alt="The Manufacturing route on the Inventory tab of a product page." />
 
 ## Configure a bill of materials (BoM)
 
-Next, a must be configured for the product so Odoo knows how it is
+Next, a must be configured for the product so Konvergo ERP knows how it is
 manufactured. A is a list of the components and operations required to
 manufacture a product.
 
@@ -70,7 +70,7 @@ class="align-center" alt="The Operations tab on a bill of materials." />
 Learn more
 
 The section above provides instructions for creating a basic that allows
-a product to be manufactured in Odoo. However, it is by no means an
+a product to be manufactured in Konvergo ERP. However, it is by no means an
 exhaustive summary of all the options available when configuring a . For
 more information about bills of materials, see the documentation on how
 to `create a bill of materials

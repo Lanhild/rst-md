@@ -4,7 +4,7 @@ nosearch
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Surveys](https://www.odoo.com/slides/surveys-62)
+\- [Konvergo ERP Tutorials: Surveys](https://www.odoo.com/slides/surveys-62)
 
 </div>
 

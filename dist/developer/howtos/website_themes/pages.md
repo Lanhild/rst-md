@@ -4,7 +4,7 @@ In this chapter, you will learn how to declare static pages.
 
 ## Default pages
 
-In Odoo, websites come with a few default static pages (Home, Contact
+In Konvergo ERP, websites come with a few default static pages (Home, Contact
 us, 404, ...). They are built the following way.
 
 ``` xml
@@ -86,9 +86,9 @@ Alternatively, replace the default content of these pages using XPath.
 
 <div class="seealso">
 
-\- [Odoo eLearning: Search Engine Optimization
+\- [Konvergo ERP eLearning: Search Engine Optimization
 (SEO)](https://www.odoo.com/slides/slide/search-engine-optimization-seo-648) -
-`Odoo Documentation on SEO <../../../applications/websites/website/pages/seo>`
+`Konvergo ERP Documentation on SEO <../../../applications/websites/website/pages/seo>`
 
 </div>
 
@@ -139,7 +139,7 @@ Missing description in table ...
 | arch         | View architecture                                      |
 
 With <span class="title-ref">\<t t-call="website.layout"\></span> you
-use the Odoo default page layout with your code.
+use the Konvergo ERP default page layout with your code.
 
 ### Header overlay
 

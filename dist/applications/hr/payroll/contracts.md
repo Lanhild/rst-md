@@ -1,6 +1,6 @@
 # Contracts
 
-Every employee in Odoo is required to have a contract in order to be
+Every employee in Konvergo ERP is required to have a contract in order to be
 paid. A contract outlines the terms of an employee's position, their
 compensation, working hours, and any other details about their position.
 

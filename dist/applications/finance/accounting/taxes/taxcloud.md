@@ -1,9 +1,9 @@
 # TaxCloud integration
 
 > [!WARNING]
-> The Odoo TaxCloud integration has begun its decommissioning, starting
-> in Odoo 17. New installations are prohibited in Odoo 17. In Odoo 18,
-> the TaxCloud module(s) will **not** exist at all. Odoo recommends the
+> The Konvergo ERP TaxCloud integration has begun its decommissioning, starting
+> in Konvergo ERP 17. New installations are prohibited in Konvergo ERP 17. In Konvergo ERP 18,
+> the TaxCloud module(s) will **not** exist at all. Konvergo ERP recommends the
 > use of the Avatax platform, instead.
 
 <div class="seealso">
@@ -44,7 +44,7 @@ alt="Example of a store&#39;s TaxCloud API Keys" />
     product categories, or when no product is found on an order/invoice.
 
     <img src="taxcloud/taxcloud-settings.png" class="align-center"
-    alt="Filling in TaxCloud API Keys in Odoo" />
+    alt="Filling in TaxCloud API Keys in Konvergo ERP" />
 
 ## Set TaxCloud categories on products
 
@@ -59,7 +59,7 @@ share the same `Product Category` and click on the external link button
 > [!NOTE]
 > If you set a `TaxCloud Category` on a product and another on its
 > `Product
-> Category`, Odoo only considers the `TaxCloud Category` found on the
+> Category`, Konvergo ERP only considers the `TaxCloud Category` found on the
 > product itself.
 >
 > A `TaxCloud Category` set on a **parent product category** does not
@@ -126,11 +126,11 @@ alt="Example of a User-defined Defaults configuration" />
 
 ## Automatically detect the fiscal position
 
-Sales taxes are calculated in Odoo based on
+Sales taxes are calculated in Konvergo ERP based on
 `fiscal positions <fiscal_positions>`. A fiscal position for the United
 States is created when enabling TaxCloud.
 
-You can configure Odoo to automatically detect to which customers the
+You can configure Konvergo ERP to automatically detect to which customers the
 fiscal position should be applied. To do so, go to
 `Accounting Dashboard --> Configuration --> Accounting:
 Fiscal Positions` and select `Automatic Tax Mapping (TaxCloud)`. Enable
@@ -165,7 +165,7 @@ Another unexpected behavior is possible. For example, you sell a product
 for which you have a promotion program that provides a 50% discount. If
 the product's tax rate is 7%, the tax rate computed from the TaxCloud
 integration displays 3.5%. This happens because the discount is included
-in the price sent to TaxCloud. However, in Odoo, the discount is on
+in the price sent to TaxCloud. However, in Konvergo ERP, the discount is on
 another line entirely. Still, the tax computation is correct. Indeed, a
 3.5% tax on the full price is the equivalent of a 7% tax on half the
 price, but this might be unexpected from a user point of view.

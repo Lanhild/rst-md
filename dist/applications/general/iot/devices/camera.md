@@ -1,7 +1,7 @@
 # Connect a camera
 
 A camera can be connected to an `IoT (Internet of Things)` box with an
-Odoo database in just a few steps. Once a camera is connected to an
+Konvergo ERP database in just a few steps. Once a camera is connected to an
 `IoT (Internet of Things)` box, it can be used in a manufacturing
 process, or it can be linked to a quality control point/quality check.
 Doing so allows for the taking of pictures when a chosen quality control

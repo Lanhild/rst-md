@@ -1,14 +1,14 @@
-# Configure DNS records to send emails in Odoo
+# Configure DNS records to send emails in Konvergo ERP
 
 ## SPAM labels overview
 
-Sometimes, emails from Odoo are misclassified by the different email
+Sometimes, emails from Konvergo ERP are misclassified by the different email
 providers and end up in spam folders. At the moment, some settings are
-out of Odoo's control, notably the way the different email providers
-classify Odoo's emails according to their own restriction policy and/or
+out of Konvergo ERP's control, notably the way the different email providers
+classify Konvergo ERP's emails according to their own restriction policy and/or
 limitations.
 
-It is standard in Odoo that emails are received from
+It is standard in Konvergo ERP that emails are received from
 `"name of the author" <notifications@mycompany.odoo.com>`. In other
 words this can be translated to:
 `"name of the author" <{ICP.mail.from.filter}@{mail.catchall.domain}>`.
@@ -17,20 +17,20 @@ In this case ICP stands for
 System Parameters. Deliverability is greatly improved with the
 `notifications configuration <email_servers/notifications>`.
 
-In order for servers to accept emails from Odoo on a more regular basis,
+In order for servers to accept emails from Konvergo ERP on a more regular basis,
 one of the solutions is for customers to create rules within their own
 mailbox. A filter can be added to the email inbox so that when email is
-received from Odoo
+received from Konvergo ERP
 (<span class="title-ref">notifications@mycompany.odoo.com</span>) it is
-moved to the inbox. It is also possible to add the Odoo database domain
+moved to the inbox. It is also possible to add the Konvergo ERP database domain
 onto a safe senders list or whitelist on the receiving domain.
 
-If an Odoo email server appears on a blacklist, notify Odoo via a [new
+If an Konvergo ERP email server appears on a blacklist, notify Konvergo ERP via a [new
 help ticket](https://www.odoo.com/help) and the support team will work
 to get the servers removed from the blacklist.
 
-Should the Odoo database be using a custom domain for sending emails
-from Odoo there are three records that should be implemented on the
+Should the Konvergo ERP database be using a custom domain for sending emails
+from Konvergo ERP there are three records that should be implemented on the
 custom domain's DNS to ensure deliverability of email. This includes
 setting records for `SPF (Sender Policy Framework)`,
 `DKIM (DomainKeys Identified Mail)` and
@@ -49,7 +49,7 @@ to the sender's `SPF (Sender Policy Framework)` record.
 > [!NOTE]
 > The `SPF (Sender Policy Framework)` verification is performed on the
 > domain mentioned in the <span class="title-ref">Return-Path</span>
-> field of the email. In the case of an email sent by Odoo, this domain
+> field of the email. In the case of an email sent by Konvergo ERP, this domain
 > corresponds to the value of the
 > <span class="title-ref">mail.catchall.domain</span> key in the
 > database system parameters.
@@ -84,7 +84,7 @@ tool like [MXToolbox SPF](https://mxtoolbox.com/spf.aspx).
 The DomainKeys Identified Mail (DKIM) allows a user to authenticate
 emails with a digital signature.
 
-When sending an email, the Odoo server includes a unique
+When sending an email, the Konvergo ERP server includes a unique
 `DKIM (DomainKeys Identified Mail)` signature in the headers. The
 recipient's server decrypts this signature using the `DKIM
 (DomainKeys Identified Mail)` record in the database's domain name. If
@@ -158,7 +158,7 @@ Framework)` compliant or enable `DKIM (DomainKeys Identified Mail)`.
 > Yahoo or AOL are examples of email providers with a
 > `DMARC (Domain-based Message
 > Authentication, Reporting, & Conformance)` policy set to
-> <span class="title-ref">p=reject</span>. Odoo strongly advises against
+> <span class="title-ref">p=reject</span>. Konvergo ERP strongly advises against
 > using an *@yahoo.com* or *@aol.com* address for the database users.
 > These emails will never reach their recipient.
 

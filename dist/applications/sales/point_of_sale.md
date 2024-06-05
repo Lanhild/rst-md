@@ -4,7 +4,7 @@ show-toc
 
 # Point of Sale
 
-With **Odoo Point of Sale**, run your shops and restaurants easily. The
+With **Konvergo ERP Point of Sale**, run your shops and restaurants easily. The
 app works on any device with a web browser, even if you are temporarily
 offline. Product moves are automatically registered in your stock, you
 get real-time statistics, and your data is consolidated across all
@@ -12,7 +12,7 @@ shops.
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Point of Sale
+\- [Konvergo ERP Tutorials: Point of Sale
 Tutorials](https://www.odoo.com/slides/point-of-sale-28) -
 `IoT Boxes Documentations </applications/general/iot>`
 

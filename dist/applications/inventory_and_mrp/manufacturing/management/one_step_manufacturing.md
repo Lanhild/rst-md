@@ -1,7 +1,7 @@
 # One-step manufacturing
 
-Odoo *Manufacturing* allows users to manufacture products using one,
-two, or three steps. When using one-step manufacturing, Odoo creates a
+Konvergo ERP *Manufacturing* allows users to manufacture products using one,
+two, or three steps. When using one-step manufacturing, Konvergo ERP creates a
 manufacturing order (MO), but does not generate transfers for the
 movement of components out of inventory or finished products into stock.
 Inventory counts still update based on the number of components used and
@@ -28,13 +28,13 @@ inventory is not tracked.
 
 > [!IMPORTANT]
 > Products must be properly configured before they can be manufactured
-> in Odoo. For details on how to do so, see the documentation on how to
+> in Konvergo ERP. For details on how to do so, see the documentation on how to
 > `configure a product for manufacturing
 > <manufacturing/management/configure-manufacturing-product>`.
 
 ## Create manufacturing order
 
-To manufacture a product in Odoo *Manufacturing*, begin by navigating to
+To manufacture a product in Konvergo ERP *Manufacturing*, begin by navigating to
 `Manufacturing --> Operations --> Manufacturing Orders`, and then click
 `New` to create a new `MO (Manufacturing Order)`.
 
@@ -67,7 +67,7 @@ begin by navigating to `Manufacturing
 
 On the `MO (Manufacturing Order)` page, select the `Work Orders` tab.
 Once work begins on the first work order that needs to be completed,
-click the `Start` button for that work order. Odoo *Manufacturing* then
+click the `Start` button for that work order. Konvergo ERP *Manufacturing* then
 starts a timer that keeps track of how long the work order takes to
 complete.
 
@@ -100,7 +100,7 @@ the tablet view.
 class="align-center"
 alt="The tablet view button for a work order on a manufacturing order." />
 
-After opening the tablet view, Odoo *Manufacturing* automatically starts
+After opening the tablet view, Konvergo ERP *Manufacturing* automatically starts
 a timer that keeps track of how long the work order takes to complete.
 After completing the work order, click the `Mark as Done` button in the
 top-right corner of the tablet view.

@@ -1,10 +1,10 @@
 # Configure ICE servers with Twilio
 
-Odoo Discuss uses WebRTC API and peer-to-peer connections for voice and
+Konvergo ERP Discuss uses WebRTC API and peer-to-peer connections for voice and
 video calls. If one of the call attendees is behind a symmetric NAT, you
 need to configure an ICE server to establish a connection to the call
 attendee. To set up an ICE server, first, create a Twilio account for
-video calls, and then, connect that Twilio account to Odoo.
+video calls, and then, connect that Twilio account to Konvergo ERP.
 
 ## Create a Twilio account
 
@@ -38,25 +38,25 @@ If necessary, change the billing country. Finally, click
 To locate the Account SID and Auth Token, go to the Twilio account
 dashboard. Then, click `Develop` on the sidebar. In the `Account Info`
 section, locate the `Account SID` and the `Auth Token`. Both of these
-are needed to connect Twilio to Odoo.
+are needed to connect Twilio to Konvergo ERP.
 
 <img src="ice_servers/twilio-acct-info.png" class="align-center"
 alt="The Twilio Account SID and Auth Token can be found uner the Account Info section." />
 
-## Connect Twilio to Odoo
+## Connect Twilio to Konvergo ERP
 
-Open the Odoo database and go to
+Open the Konvergo ERP database and go to
 `Settings --> General Settings --> Discuss`. Check the box next to
 `Use Twilio ICE servers` and enter the Twilio account's `Account SID`
 and `Auth Token`. Finally, click `Save` to apply these changes.
 
 <img src="ice_servers/connect-twilio-to-odoo.png" class="align-center"
-alt="Enable the &quot;Use Twilio ICE servers&quot; option in Odoo General Settings." />
+alt="Enable the &quot;Use Twilio ICE servers&quot; option in Konvergo ERP General Settings." />
 
 ## Define a list of custom ICE servers
 
 This step is not required for the Twilio configuration. However, if
-Twilio is not configured or is not working at any given moment, Odoo
+Twilio is not configured or is not working at any given moment, Konvergo ERP
 will fall back on the custom ICE servers list. The user must define the
 list of custom ICE servers.
 
@@ -64,15 +64,15 @@ In `Settings --> General Settings --> Discuss`, click the `ICE Servers`
 button under `Custom ICE server list`.
 
 <img src="ice_servers/custom-ice-servers-list.png" class="align-center"
-alt="The &quot;ICE Servers&quot; button in Odoo General Settings." />
+alt="The &quot;ICE Servers&quot; button in Konvergo ERP General Settings." />
 
-Odoo will redirect to the `ICE servers` page. Here you can define your
+Konvergo ERP will redirect to the `ICE servers` page. Here you can define your
 own list of ICE servers.
 
 <img src="ice_servers/ice-servers-page.png" class="align-center"
-alt="The &quot;ICE servers&quot; page in Odoo." />
+alt="The &quot;ICE servers&quot; page in Konvergo ERP." />
 
 > [!NOTE]
-> For on-premise instances of Odoo, the package
+> For on-premise instances of Konvergo ERP, the package
 > <span class="title-ref">python3-gevent</span> is necessary for the
 > Discuss module to run calls/video calls on Ubuntu (Linux) servers.

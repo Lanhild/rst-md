@@ -191,7 +191,7 @@ The server-side composition of the `views` sequence is the following:
 
 ## URL Actions (`ir.actions.act_url`)
 
-Allow opening a URL (website/web page) via an Odoo action. Can be
+Allow opening a URL (website/web page) via an Konvergo ERP action. Can be
 customized via two fields:
 
 `url`  
@@ -209,7 +209,7 @@ content with the page if `self`. Defaults to `new`
         "target": "self",
     }
 
-will replace the current content section by the Odoo home page.
+will replace the current content section by the Konvergo ERP home page.
 
 ## Server Actions (`ir.actions.server`)
 
@@ -233,7 +233,7 @@ specific or generic actions based on their `state`. Some fields (and
 corresponding behaviors) are shared between states:
 
 `model_id`  
-Odoo model linked to the action.
+Konvergo ERP model linked to the action.
 
 `state`
 
@@ -324,7 +324,7 @@ surrounding server actions:
 - `model` model object linked to the action via `model_id`
 - `record`/`records` record/recorset on which the action is triggered,
   can be void.
-- `env` Odoo Environment
+- `env` Konvergo ERP Environment
 - `datetime`, `dateutil`, `time`, `timezone` corresponding Python
   modules
 - `log: log(message, level='info')` logging function to record debug

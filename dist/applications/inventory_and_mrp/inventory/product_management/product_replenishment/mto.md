@@ -11,7 +11,7 @@ regardless of the current stock level of the product being ordered.
 
 ## Unarchive the Replenish on Order (MTO) route
 
-By default, Odoo sets the `MTO (make to order)` route as *archived*.
+By default, Konvergo ERP sets the `MTO (make to order)` route as *archived*.
 This is because `MTO (make to order)` is a somewhat niche workflow that
 is only used by certain companies. However, it is easy to unarchive the
 route in just a few simple steps.
@@ -53,7 +53,7 @@ Order (MTO)` route in the `Routes` section, along with one other route.
 
 > [!IMPORTANT]
 > The `Replenish on Order (MTO)` route **does not** work unless another
-> route is selected as well. This is because Odoo needs to know how to
+> route is selected as well. This is because Konvergo ERP needs to know how to
 > replenish the product when an order is placed for it (buy it,
 > manufacture it, etc.).
 

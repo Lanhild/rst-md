@@ -431,7 +431,7 @@ fields (including metadata) and python constraints.
 > Generally using raw SQL also bypasses ACLs and increases the risks of
 > injections.
 >
-> **Reference**: `Security in Odoo<reference/security>`
+> **Reference**: `Security in Konvergo ERP<reference/security>`
 
 - It can help to speed the import time by a lot [with huge
   files](https://github.com/odoo/enterprise/blob/d46cceef8c594b9056d0115edb7169e207a5986f/product_unspsc/hooks.py#L19).

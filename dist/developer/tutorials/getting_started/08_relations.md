@@ -93,14 +93,14 @@ Once again, restart the server and refresh to see the results!
 In the real estate module, there are still two missing pieces of
 information we want on a property: the buyer and the salesperson. The
 buyer can be any individual, but on the other hand the salesperson must
-be an employee of the real estate agency (i.e. an Odoo user).
+be an employee of the real estate agency (i.e. an Konvergo ERP user).
 
-In Odoo, there are two models which we commonly refer to:
+In Konvergo ERP, there are two models which we commonly refer to:
 
 - `res.partner`: a partner is a physical or legal entity. It can be a
   company, an individual or even a contact address.
 - `res.users`: the users of the system. Users can be 'internal', i.e.
-  they have access to the Odoo backend. Or they can be 'portal', i.e.
+  they have access to the Konvergo ERP backend. Or they can be 'portal', i.e.
   they cannot access the backend, only the frontend (e.g. to access
   their previous orders in eCommerce).
 
@@ -279,8 +279,8 @@ accessed only through another model. This is the case in our exercise:
 an offer is always accessed through a property.
 
 Second, despite the fact that the `property_id` field is required, we
-did not include it in the views. How does Odoo know which property our
-offer is linked to? Well that's part of the magic of using the Odoo
+did not include it in the views. How does Konvergo ERP know which property our
+offer is linked to? Well that's part of the magic of using the Konvergo ERP
 framework: sometimes things are defined implicitly. When we create a
 record through a one2many field, the corresponding many2one is populated
 automatically for convenience.

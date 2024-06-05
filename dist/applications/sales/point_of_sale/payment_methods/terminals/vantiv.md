@@ -10,7 +10,7 @@ flow to your customers and ease the work of your cashiers.
 > [!WARNING]
 > Vantiv card readers should be purchased exclusively from Vantiv, as
 > certain Vantiv terminals bought on Amazon do not include the correct
-> encryption needed to be used with an Odoo database.
+> encryption needed to be used with an Konvergo ERP database.
 
 ## Configuration
 

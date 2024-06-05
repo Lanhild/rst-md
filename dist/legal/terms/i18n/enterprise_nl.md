@@ -1,4 +1,4 @@
-# Odoo Enterprise Subscription Agreement (NL)
+# Konvergo ERP Enterprise Subscription Agreement (NL)
 
 <div class="only">
 
@@ -10,20 +10,20 @@ PDF](https://www.odoo.com/documentation/%7BCURRENT_BRANCH%7D/odoo_enterprise_agr
 </div>
 
 > [!WARNING]
-> Dit is een Nederlandse vertaling van de "Odoo Enterprise Subscription
+> Dit is een Nederlandse vertaling van de "Konvergo ERP Enterprise Subscription
 > Agreement". Deze vertaling wordt verstrekt in de hoop dat deze het
 > begrip zal vergemakkelijken, maar heeft geen juridische waarde. De
-> enige officiële referentie van de algemene voorwaarden van de "Odoo
+> enige officiële referentie van de algemene voorwaarden van de "Konvergo ERP
 > Enterprise Subscription Agreement" is
 > `de originele Engelse versie <enterprise_agreement>`
 
 > [!NOTE]
 > Version 10a - 2022-10-27
 
-Door u op de Odoo Enterprise-diensten (de “Diensten”) te abonneren die
-door Odoo NV en haar dochterondernemingen (gezamenlijk “Odoo NV”) worden
-verleend met betrekking tot de Odoo Enterprise Edition of de Odoo
-Community Edition (de “Software”) gehost op de Cloudplatforms van Odoo
+Door u op de Konvergo ERP Enterprise-diensten (de “Diensten”) te abonneren die
+door Konvergo ERP NV en haar dochterondernemingen (gezamenlijk “Konvergo ERP NV”) worden
+verleend met betrekking tot de Konvergo ERP Enterprise Edition of de Konvergo ERP
+Community Edition (de “Software”) gehost op de Cloudplatforms van Konvergo ERP
 NV (het "Cloudplatform") of op locatie ("Self-Hosting"), gaat u (de
 "Klant") ermee akkoord om gebonden te zijn door de volgende algemene
 voorwaarden (de “Overeenkomst”).
@@ -51,19 +51,19 @@ App
 Een "App" is een gespecialiseerde groep functies die beschikbaar is voor
 installatie in de Software.
 
-Odoo Partner  
-Een Odoo Partner is een derde bedrijf of persoon, gekozen door de Klant,
-die met de Klant samenwerkt voor zijn Odoo-gerelateerde diensten. De
-Klant kan op elk moment beslissen om met een andere Odoo Partner of
-rechtstreeks met Odoo NV samen te werken (mits voorafgaande
+Konvergo ERP Partner  
+Een Konvergo ERP Partner is een derde bedrijf of persoon, gekozen door de Klant,
+die met de Klant samenwerkt voor zijn Konvergo ERP-gerelateerde diensten. De
+Klant kan op elk moment beslissen om met een andere Konvergo ERP Partner of
+rechtstreeks met Konvergo ERP NV samen te werken (mits voorafgaande
 kennisgeving).
 
 Extra Module  
 Een extra module is een map met broncode bestanden of een reeks op
 Python gebaseerde aanpassingen die in een database zijn gemaakt (bijv.
-met Odoo Studio), die functies toevoegt of het standaardgedrag van de
-Software wijzigt. Het kan zijn ontwikkeld door een Klant, door Odoo NV,
-door een Odoo Partner namens de klant, of door derden.
+met Konvergo ERP Studio), die functies toevoegt of het standaardgedrag van de
+Software wijzigt. Het kan zijn ontwikkeld door een Klant, door Konvergo ERP NV,
+door een Konvergo ERP Partner namens de klant, of door derden.
 
 Ondersteunde Extra Module  
 Een Ondersteunde Extra Module is een extra module waarvoor de Klant
@@ -76,7 +76,7 @@ Ondersteunde Extra Module die resulteert in een volledige stilstand,
 foutopsporing of beveiligingsinbreuk en die niet rechtstreeks wordt
 veroorzaakt voor een gebrekkige installatie of configuratie. De
 niet-naleving van specificaties of vereisten zal als een Bug worden
-beschouwd naar goeddunken van Odoo NV (doorgaans wanneer de Software
+beschouwd naar goeddunken van Konvergo ERP NV (doorgaans wanneer de Software
 niet de resultaten of prestaties levert die hij moet leveren of wanneer
 een landspecifieke functie niet langer aan de wettelijke boekhoudkundige
 vereisten voldoet).
@@ -96,46 +96,46 @@ schriftelijk vastgelegd bij het afsluiten van deze Overeenkomst.
 
 De Klant kan de op het Cloudplatform gehoste Software gebruiken of
 kiezen voor de Self-Hosting optie. Het Cloudplatform wordt gehost en
-volledig beheerd door Odoo NV, en is op afstand toegankelijk voor de
+volledig beheerd door Konvergo ERP NV, en is op afstand toegankelijk voor de
 Klant. Met de Self-Hosting optie host de Klant de Software op een
-computersysteem naar keuze, die niet onder de controle staat van Odoo
+computersysteem naar keuze, die niet onder de controle staat van Konvergo ERP
 NV.
 
-Voor de duur van deze Overeenkomst verstrekt Odoo NV aan de Klant een
-niet-exclusieve, niet-overdraagbare licentie om de Odoo Enterprise
+Voor de duur van deze Overeenkomst verstrekt Konvergo ERP NV aan de Klant een
+niet-exclusieve, niet-overdraagbare licentie om de Konvergo ERP Enterprise
 Edition Software te gebruiken (uitvoeren, wijzigen, uitvoeren na
 wijziging) onder de voorwaarden uiteengezet in `appendix_a_nl`.
 
 De Klant gaat ermee akkoord alle nodige maatregelen te nemen om de
 ongewijzigde uitvoering te waarborgen van het deel van de Software dat
-de geldigheid van het gebruik van de Odoo Enterprise Edition controleert
+de geldigheid van het gebruik van de Konvergo ERP Enterprise Edition controleert
 en dat statistieken verzamelt voor dat doel, met inbegrip van, maar niet
 beperkt tot het uitvoeren van de Software, het aantal Gebruikers, de
 geïnstalleerde Apps en het aantal coderegels van de Ondersteunde Extra
 Modules.
 
-Odoo NV verbindt zich ertoe om individuele of persoonlijke cijfers niet
+Konvergo ERP NV verbindt zich ertoe om individuele of persoonlijke cijfers niet
 bekend te maken aan derden zonder de toestemming van de Klant en om alle
 verzamelde gegevens te behandelen in overeenstemming met haar officiële
 Privacybeleid, gepubliceerd op <https://www.odoo.com/privacy>.
 
 Bij het aflopen of beëindigen van deze Overeenkomst wordt deze licentie
-onmiddellijk ingetrokken en gaat de Klant ermee akkoord om de Odoo
+onmiddellijk ingetrokken en gaat de Klant ermee akkoord om de Konvergo ERP
 Enterprise Edition Software en het Cloudplatform niet meer te gebruiken.
 
 Indien de Klant de voorwaarden van deze sectie schendt, gaat de Klant
-ermee akkoord om aan Odoo NV een extra vergoeding te betalen gelijk aan
+ermee akkoord om aan Konvergo ERP NV een extra vergoeding te betalen gelijk aan
 300% van het toepasselijke tarief voor het werkelijke aantal Gebruikers.
 
 ## 4 Diensten
 
 ### 4.1 Bugfixingdienst
 
-Voor de duur van deze Overeenkomst verbindt Odoo NV zich ertoe alle
+Voor de duur van deze Overeenkomst verbindt Konvergo ERP NV zich ertoe alle
 redelijke inspanningen te leveren om elke Bug van de Software en de
 Ondersteunde Extra Modules die door de klant via het juiste kanaal
 (doorgaans het websiteformulier of de telefoonnummers vermeld op
-<https://odoo.com/help> of, in geval van een samenwerking met een Odoo
+<https://odoo.com/help> of, in geval van een samenwerking met een Konvergo ERP
 Partner, het door de partner verstrekte kanaal) te verhelpen en binnen
 de 2 werkdagen de behandeling van dergelijke door de Klant ingediende
 klachten aan te vatten.
@@ -145,12 +145,12 @@ worden meegedeeld. Indien de Klant een Ondersteunde Versie gebruikt, zal
 hem niet worden gevraagd te upgraden naar een recentere Ondersteunde
 Versie van de Software als oplossing voor een Bug.
 
-Wanneer een Bug verholpen is in een Ondersteunde Versie verbindt Odoo NV
+Wanneer een Bug verholpen is in een Ondersteunde Versie verbindt Konvergo ERP NV
 zich ertoe om de Bug in alle recentere Ondersteunde Versies van de
 Software te verhelpen.
 
 Beide partijen erkennen dat, zoals gespecificeerd in de licentie van de
-Software en in de sectie `liability_nl` van deze Overeenkomst, Odoo NV
+Software en in de sectie `liability_nl` van deze Overeenkomst, Konvergo ERP NV
 niet aansprakelijk kan worden gesteld voor Bugs in de Software of in de
 Ondersteunde Extra Modules.
 
@@ -158,7 +158,7 @@ Ondersteunde Extra Modules.
 
 #### Self-Hosting
 
-Voor de duur van deze Overeenkomst verbingt Odoo NV zich ertoe een
+Voor de duur van deze Overeenkomst verbingt Konvergo ERP NV zich ertoe een
 "Veiligheidsadvies" naar de Klant te sturen voor elke beveiligingsfout
 die wordt ontdekt in de Ondersteunde Versies van de Software (met
 uitzondering van de Extra Modules), ten minste 2 weken voordat het
@@ -175,7 +175,7 @@ worden behandeld als Vertrouwelijke Informatie zoals beschreven in
 
 #### Cloudplatform
 
-Odoo NV verbindt zich ertoe om de beveiligingsoplossingen voor elke
+Konvergo ERP NV verbindt zich ertoe om de beveiligingsoplossingen voor elke
 beveiligingsbug die wordt ontdekt in een versie van de Software die op
 het Cloudplatform wordt gehost, toe te passen op alle systemen onder
 zijn controle, zodra de oplossing beschikbaar is, zonder dat daarvoor
@@ -186,7 +186,7 @@ enige handmatige actie van de Klant nodig is.
 #### Upgradedienst voor de Software
 
 Voor de duur van deze Overeenkomst kan de Klant via het juiste kanaal
-(doorgaans de upgradedienstwebsite van Odoo NV) upgradeaanvragen
+(doorgaans de upgradedienstwebsite van Konvergo ERP NV) upgradeaanvragen
 indienen om een database van eender welke Versie van de Software om te
 zetten naar een meer recente Ondersteunde Versie (de "Doelversie").
 
@@ -220,7 +220,7 @@ een aanvaardbaar resultaat wordt bereikt.
 ### 4.4 Cloudhostingdiensten
 
 Voor de duur van deze Overeenkomst, indien de Klant ervoor kiest het
-Cloudplatform te gebruiken, verbindt Odoo SA zich ertoe ten minste de
+Cloudplatform te gebruiken, verbindt Konvergo ERP SA zich ertoe ten minste de
 volgende diensten aan te bieden:
 
 - Keuze uit meerdere hostingregio's (minimaal 3: Europa, Amerika,
@@ -247,37 +247,37 @@ standaardfuncties van de Software en de Ondersteunde Extra Modules.
 Andere ondersteuningsaanvragen, zoals vragen over ontwikkelingen of
 aanpassingen, kunnen worden gedekt door de aankoop van een afzonderlijke
 serviceovereenkomst. Als het niet duidelijk is of een verzoek onder deze
-Overeenkomst valt, ligt het uiteindelijke besluit bij Odoo NV.
+Overeenkomst valt, ligt het uiteindelijke besluit bij Konvergo ERP NV.
 
 #### Beschikbaarheid
 
 Tickets kunnen worden ingediend via het websiteformulier of de
 telefoonnummers vermeld op <https://www.odoo.com/help> of, in geval van
-samenwerking met een Odoo Partner, het door de partner verstrekt kanaal,
+samenwerking met een Konvergo ERP Partner, het door de partner verstrekt kanaal,
 afhankelijk van de lokale openingstijden.
 
-### 4.6 Werken met een Odoo Partner
+### 4.6 Werken met een Konvergo ERP Partner
 
 Voor bugfixing-, ondersteunings- en upgradediensten kan de Klant ofwel
-werken met een Odoo Partner als hoofdcontactpersoon, ofwel rechtstreeks
-met Odoo NV.
+werken met een Konvergo ERP Partner als hoofdcontactpersoon, ofwel rechtstreeks
+met Konvergo ERP NV.
 
-Als de Klant beslist met een Odoo Partner te werken, zal Odoo NV de
+Als de Klant beslist met een Konvergo ERP Partner te werken, zal Konvergo ERP NV de
 diensten met betrekking tot de Ondersteunde Extra Modules uitbesteden
-aan de Odoo Partner, die de hoofdcontactpersoon van de klant wordt. De
-Odoo Partner kan namens de klant contact opnemen met Odoo NV voor tweede
+aan de Konvergo ERP Partner, die de hoofdcontactpersoon van de klant wordt. De
+Konvergo ERP Partner kan namens de klant contact opnemen met Konvergo ERP NV voor tweede
 niveau ondersteuning met betrekking tot de standaardfuncties van de
 Software.
 
-Als de Klant beslist rechtstreeks met Odoo NV samen te werken, worden de
+Als de Klant beslist rechtstreeks met Konvergo ERP NV samen te werken, worden de
 diensten met betrekking tot de Ondersteunde Extra Modules geleverd *als
-en alleen als* de Klant wordt gehost op het Cloudplatform van Odoo.
+en alleen als* de Klant wordt gehost op het Cloudplatform van Konvergo ERP.
 
 ## 5 Kosten en vergoedingen
 
 ### 5.1 Standaardkosten
 
-De standaardkosten voor het Odoo Enterprise-abonnement en de diensten
+De standaardkosten voor het Konvergo ERP Enterprise-abonnement en de diensten
 zijn gebaseerd op het aantal Gebruikers en het Abonnementsplan die door
 de klant wordt gebruikt en schriftelijk wordt gespecificeerd bij het
 afsluiten van de Overeenkomst.
@@ -302,7 +302,7 @@ Javascript, XML, enz.), met uitzondering van lege regels,
 commentaarregels en bestanden die niet worden geladen bij het
 installeren of uitvoeren van de Software.
 
-Wanneer de Klant een upgrade aanvraagt, kan Odoo NV voor elke
+Wanneer de Klant een upgrade aanvraagt, kan Konvergo ERP NV voor elke
 Ondersteunde Extra Module die de afgelopen 12 maanden niet werd gedekt
 door een onderhoudsvergoeding, een eenmalige extra vergoeding aanrekenen
 voor elke ontbrekende maand dekking.
@@ -320,7 +320,7 @@ provinciale, gewestelijke, lokale of andere overheidsbelastingen,
 vergoedingen of heffingen (gezamenlijk "Belastingen"). De Klant is
 verantwoordelijk voor het betalen van alle Belastingen die verbonden
 zijn aan de aankopen die de Klant in het kader van deze Overeenkomst
-doet, behalve wanneer Odoo NV wettelijk verplicht is om Belastingen te
+doet, behalve wanneer Konvergo ERP NV wettelijk verplicht is om Belastingen te
 betalen of te heffen waarvoor de Klant verantwoordelijk is.
 
 ## 6 Voorwaarden van de Diensten
@@ -329,23 +329,23 @@ betalen of te heffen waarvoor de Klant verantwoordelijk is.
 
 De Klant gaat ermee akkoord om:
 
-- Odoo NV alle toepasselijke kosten voor de Diensten van deze
+- Konvergo ERP NV alle toepasselijke kosten voor de Diensten van deze
   Overeenkomst te betalen in overeenstemming met de betalingsvoorwaarden
   bepaald bij het afsluiten van deze Overeenkomst;
-- Odoo NV onmiddellijk op de hoogte te brengen wanneer het werkelijke
+- Konvergo ERP NV onmiddellijk op de hoogte te brengen wanneer het werkelijke
   aantal Gebruikers de aantallen overschrijden die bij het afsluiten van
   de Overeenkomst werden bepaald, en in dat geval de toepasselijke extra
   vergoeding te betalen zoals beschreven in de sectie
   `charges_standard_nl`;
 - alle nodige maatregelen te nemen om de ongewijzigde uitvoering te
   waarborgen van het deel van de Software dat de geldigheid van het
-  gebruik van de Odoo Enterprise Edition bevestigt, zoals beschreven in
+  gebruik van de Konvergo ERP Enterprise Edition bevestigt, zoals beschreven in
   `enterprise_access_nl`;
 - 1 toegewijde Klantcontactpersoon aan te duiden voor de volledige duur
   van de Overeenkomst;
-- Odoo NV 30 dagen voor het veranderen van zijn hoofdcontactpersoon
-  schriftelijk in kennis te stellen dat hij met een andere Odoo Partner
-  of rechtstreeks met Odoo NV wenst samen te werken.
+- Konvergo ERP NV 30 dagen voor het veranderen van zijn hoofdcontactpersoon
+  schriftelijk in kennis te stellen dat hij met een andere Konvergo ERP Partner
+  of rechtstreeks met Konvergo ERP NV wenst samen te werken.
 
 Wanneer de Klant kiest voor het Cloudplatform, gaat de Klant ermee
 akkoord om:
@@ -363,10 +363,10 @@ akkoord om:
 
 - alle redelijke maatregelen te nemen om de bestanden en databases van
   de Klant te beschermen en om ervoor te zorgen dat de gegevens van de
-  Klant veilig zijn, waarbij wordt erkend dat Odoo NV niet aansprakelijk
+  Klant veilig zijn, waarbij wordt erkend dat Konvergo ERP NV niet aansprakelijk
   kan worden gesteld voor enig verlies van gegevens;
-- Odoo NV de nodige toegang te verlenen om op verzoek de geldigheid van
-  het gebruik van de Odoo Enterprise Edition te controleren (bijv. als
+- Konvergo ERP NV de nodige toegang te verlenen om op verzoek de geldigheid van
+  het gebruik van de Konvergo ERP Enterprise Edition te controleren (bijv. als
   de automatische validatie voor de klant niet blijkt te werken).
 
 ### 6.2 Niet benaderen of aanwerven
@@ -427,30 +427,30 @@ dezelfde betekenis als in de Verordening (EU) 2016/679 en de Richtlijn
 
 De partijen erkennen dat de database van de Klant Persoonsgegevens kan
 bevatten, waarvoor de Klant de Verwerkingsverantwoordelijke is. Deze
-gegevens worden verwerkt door Odoo NV wanneer de Klant hiertoe opdracht
+gegevens worden verwerkt door Konvergo ERP NV wanneer de Klant hiertoe opdracht
 geeft, door gebruik te maken van een van de Diensten waarvoor een
 database nodig is (bijv. de Cloudhostingdiensten of de Database
 Upgradediensten) of wanneer de Klant zijn of haar database of een deel
-daarvan overdraagt aan Odoo NV om welke reden dan ook die verband houdt
+daarvan overdraagt aan Konvergo ERP NV om welke reden dan ook die verband houdt
 met deze Overeenkomst.
 
 Deze gegevensverwerking wordt uitgevoerd in overeenstemming met de
-Gegevensbeschermingswetgeving. In het bijzonder verbindt Odoo NV zich
+Gegevensbeschermingswetgeving. In het bijzonder verbindt Konvergo ERP NV zich
 ertoe:
 
 - \(a\) de Persoonsgegevens enkel te verwerken wanneer en zoals
   opgedragen door de Klant, en met oog op de uitvoering van één van de
   Diensten in het kader van deze Overeenkomst, tenzij de wet dit
-  vereist, in welk geval Odoo NV de Klant hiervan voorafgaand in kennis
+  vereist, in welk geval Konvergo ERP NV de Klant hiervan voorafgaand in kennis
   stelt, tenzij de wet dit verbiedt;
-- \(b\) ervoor te zorgen dat alle personen binnen Odoo NV die gemachtigd
+- \(b\) ervoor te zorgen dat alle personen binnen Konvergo ERP NV die gemachtigd
   zijn om de Persoonsgegevens te verwerken, zich tot geheimhouding
   verplichten;
 - \(c\) passende technische en organisatorische maatregelen te nemen en
   te handhaven om de Persoonsgegevens te beschermen tegen ongeoorloofde
   of onwettige verwerking en tegen onopzettelijk verlies, vernietiging,
   beschadiging, diefstal, wijziging of openbaarmaking;
-- \(d\) elk verzoek om gegevensbescherming dat is ingediend bij Odoo NV
+- \(d\) elk verzoek om gegevensbescherming dat is ingediend bij Konvergo ERP NV
   met betrekking tot de database van de Klant onverwijld door te sturen
   naar de Klant;
 - \(e\) de Klant onverwijld op de hoogte te stellen wanneer zij kennis
@@ -458,7 +458,7 @@ ertoe:
   onwettige verwerking van, openbaarmaking van of toegang tot de
   Persoonsgegevens;
 - \(f\) de Klant te informeren indien de verwerkingsinstructies naar het
-  oordeel van Odoo NV in strijd zijn met de toepasselijke
+  oordeel van Konvergo ERP NV in strijd zijn met de toepasselijke
   Gegevensbeschermingswetgeving;
 - \(g\) aan de Klant alle informatie ter beschikking te stellen die
   nodig is om de naleving van de Gegevensbeschermingswetgeving aan te
@@ -466,28 +466,28 @@ ertoe:
   uitgevoerd of opgedragen, toe te staan en er redelijkerwijs aan bij te
   dragen;
 - \(h\) alle kopieën van de database van de Klant die in het bezit zijn
-  van Odoo NV definitief te verwijderen, of dergelijke gegevens terug te
+  van Konvergo ERP NV definitief te verwijderen, of dergelijke gegevens terug te
   geven, naar keuze van de Klant, bij beëindiging van deze Overeenkomst,
   met inachtneming van de termijnen die in het
-  [Privacybeleid](https://www.odoo.com/privacy) van Odoo NV zijn
+  [Privacybeleid](https://www.odoo.com/privacy) van Konvergo ERP NV zijn
   bepaald.
 
-Met betrekking tot punten (d) tot (f) verbindt de klant zich ertoe Odoo
+Met betrekking tot punten (d) tot (f) verbindt de klant zich ertoe Konvergo ERP
 NV te allen tijde te voorzien van nauwkeurige contactgegevens, die nodig
 zijn om de verantwoordelijke van de gegevensbescherming van de Klant in
 kennis te stellen.
 
 #### Subverwerkers
 
-De Klant erkent en gaat ermee akkoord dat Odoo NV voor de levering van
+De Klant erkent en gaat ermee akkoord dat Konvergo ERP NV voor de levering van
 de Diensten een beroep kan doen op externe dienstverleners
-(Subverwerkers) om Persoonsgegevens te verwerken. Odoo NV verbindt zich
+(Subverwerkers) om Persoonsgegevens te verwerken. Konvergo ERP NV verbindt zich
 ertoe alleen Subverwerkers te gebruiken in overeenstemming met de
 Gegevensbeschermingswetgeving. Dit gebruik zal het voorwerp zijn van een
-contract tussen Odoo NV en de Subverwerker dat daartoe garanties biedt.
-Het Privacybeleid van Odoo NV, beschikbaar op
+contract tussen Konvergo ERP NV en de Subverwerker dat daartoe garanties biedt.
+Het Privacybeleid van Konvergo ERP NV, beschikbaar op
 <https://www.odoo.com/privacy> biedt actuele informatie over de namen en
-doeleinden van Subverwerkers waarop Odoo NV momenteel een beroep doet in
+doeleinden van Subverwerkers waarop Konvergo ERP NV momenteel een beroep doet in
 het kader van de uitvoering van de Diensten.
 
 ### 6.6 Beëindiging
@@ -498,7 +498,7 @@ niet binnen 30 kalenderdagen na de schriftelijke kennisgeving van deze
 nalatigheid verholpen is, kan de niet in gebreke blijvende Partij deze
 Overeenkomst onmiddellijk beëindigen.
 
-Bovendien kan Odoo NV de Overeenkomst onmiddellijk beëindigen in het
+Bovendien kan Konvergo ERP NV de Overeenkomst onmiddellijk beëindigen in het
 geval dat de Klant de toepasselijke vergoedingen voor de Diensten niet
 betaalt binnen de 21 dagen na de vervaldatum die op de desbetreffende
 factuur vermeld wordt, en na minstens 2 herinneringen.
@@ -512,12 +512,12 @@ afloop van deze Overeenkomst.
 
 ### 7.1 Garanties
 
-Odoo NV bezit het auteursrecht of een gelijkwaardig recht[^1] op 100 %
+Konvergo ERP NV bezit het auteursrecht of een gelijkwaardig recht[^1] op 100 %
 van de code van de Software en bevestigt dat alle softwarebibliotheken
 die nodig zijn om de Software te gebruiken beschikbaar zijn onder een
 licentie die compatibel is met de licentie van de Software.
 
-Voor de duur van deze Overeenkomst verbindt Odoo NV zich ertoe om
+Voor de duur van deze Overeenkomst verbindt Konvergo ERP NV zich ertoe om
 commercieel redelijke inspanningen aan te wenden om de Diensten uit te
 voeren in overeenstemming met de algemeen aanvaarde industrienormen op
 voorwaarde dat:
@@ -526,12 +526,12 @@ voorwaarde dat:
   geval van Self-Hosting, de Software geïnstalleerd is in een geschikte
   werkomgeving;
 - de Klant passende probleemoplossingsen verstrekt en, in geval van
-  Self-Hosting, Odoo NV de nodige toegang verleent opdat Odoo NV de
+  Self-Hosting, Konvergo ERP NV de nodige toegang verleent opdat Konvergo ERP NV de
   problemen zou kunnen identificeren, reproduceren en verhelpen;
-- alle aan Odoo NV verschuldigde bedragen zijn betaald.
+- alle aan Konvergo ERP NV verschuldigde bedragen zijn betaald.
 
 Het enige en exclusieve verhaal van de Klant en de enige verplichting
-van Odoo NV in geval van een inbreuk op deze garantie is dat Odoo NV de
+van Konvergo ERP NV in geval van een inbreuk op deze garantie is dat Konvergo ERP NV de
 uitvoering van de Diensten zonder extra kosten hervat.
 
 ### 7.2 Uitsluiting van garantie
@@ -543,7 +543,7 @@ met inbegrip van enige impliciete garanties van verkoopbaarheid,
 geschiktheid voor een bepaald doel of niet-inbreuk, voor zover
 toegestaan door de toepasselijke wetgeving.
 
-Odoo NV garandeert niet dat de Software voldoet aan alle lokale of
+Konvergo ERP NV garandeert niet dat de Software voldoet aan alle lokale of
 internationale wetgeving of regelgeving.
 
 ### 7.3 Beperking van aansprakelijkheid
@@ -603,13 +603,13 @@ onwettige of niet-afdwingbare bepaling van deze Overeenkomst te
 vervangen door een geldige bepaling met dezelfde effecten en
 doelstellingen.
 
-## 9 Bijlage A: Odoo Enterprise Edition-licentie
+## 9 Bijlage A: Konvergo ERP Enterprise Edition-licentie
 
 <div class="only">
 
 latex
 
-De Odoo Enterprise Edition wordt in licentie gegeven onder de Odoo
+De Konvergo ERP Enterprise Edition wordt in licentie gegeven onder de Konvergo ERP
 Enterprise Edition License v1.0, die als volgt wordt gedefinieerd:
 
 <div class="literalinclude">
@@ -630,5 +630,5 @@ Zie `odoo_enterprise_license`.
 
 [^1]: Externe bijdragen worden gedekt door een [Copyright License
     Agreement](https://www.odoo.com/cla) die een permanente, gratis en
-    onherroepelijke auteursrecht- en octrooilicentie aan Odoo NV
+    onherroepelijke auteursrecht- en octrooilicentie aan Konvergo ERP NV
     verstrekt.

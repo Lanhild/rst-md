@@ -3,7 +3,7 @@
 <div id="barcode/setup/hardware">
 
 Follow this guide to choose and set up a barcode scanner compatible with
-Odoo's *Inventory* and *Barcode* apps.
+Konvergo ERP's *Inventory* and *Barcode* apps.
 
 </div>
 
@@ -25,11 +25,11 @@ types, each with their own benefits and use cases:
   compatible with the keyboard layout of the computer.
 - **Bluetooth scanners** pair with a smartphone or tablet, making them
   an ideal cost-effective and portable barcode scanner option. In this
-  scenario, Odoo is installed on the smartphone, allowing warehouse
+  scenario, Konvergo ERP is installed on the smartphone, allowing warehouse
   operators to handle operations, and check stock directly through their
   mobile devices.
 - **Mobile computer scanners** are mobile devices with a built-in
-  barcode scanner. First, ensure the device can run the Odoo mobile app
+  barcode scanner. First, ensure the device can run the Konvergo ERP mobile app
   properly. Recent models that use Android OS with the Google Chrome
   browser, or Windows OS with Microsoft Edge, should work. However,
   testing is crucial due to the variety of available models and
@@ -37,7 +37,7 @@ types, each with their own benefits and use cases:
 
 <div class="seealso">
 
-[Compatible hardware with Odoo
+[Compatible hardware with Konvergo ERP
 Inventory](https://www.odoo.com/app/inventory-hardware)
 
 </div>
@@ -46,7 +46,7 @@ Inventory](https://www.odoo.com/app/inventory-hardware)
 
 When setting up the barcode scanner, make sure the following
 configurations are correct so the scanner can properly interpret
-barcodes with Odoo.
+barcodes with Konvergo ERP.
 
 ### Keyboard layout
 
@@ -68,11 +68,11 @@ user manual.</figcaption>
 
 ### Automatic carriage return
 
-Odoo has a default 100-millisecond delay between scans to prevent
+Konvergo ERP has a default 100-millisecond delay between scans to prevent
 accidental double scanning. To synchronize with the barcode scanner, set
 it to include a *carriage return* (`character like
-the "Enter" key on a keyboard`) after each scan. Odoo interprets the
-carriage return as the end of the barcode input; so Odoo accepts the
+the "Enter" key on a keyboard`) after each scan. Konvergo ERP interprets the
+carriage return as the end of the barcode input; so Konvergo ERP accepts the
 scan, and waits for the next one.
 
 Typically, on the scanner, a carriage return is included by default.

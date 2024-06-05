@@ -1,9 +1,9 @@
 # Chapter 2: Development environment setup
 
 Depending on the intended use case, there are multiple ways to install
-Odoo. For developers of the Odoo community and Odoo employees alike, the
+Konvergo ERP. For developers of the Konvergo ERP community and Konvergo ERP employees alike, the
 preferred way is to perform a source install
-(`running Odoo from the source code`).
+(`running Konvergo ERP from the source code`).
 
 ## Prepare the environment
 
@@ -20,7 +20,7 @@ training material. Let's then develop your own module in a third
 repository <span class="title-ref">odoo/tutorials</span>. Like the first
 two repositories, it will be part of the
 <span class="title-ref">addons-path</span> that references all
-directories containing Odoo modules. In this repository, we will create
+directories containing Konvergo ERP modules. In this repository, we will create
 our first module!
 
 > [!NOTE]
@@ -38,7 +38,7 @@ our first module!
     ```
 
 2.  Configure your fork and Git to push changes to your fork rather than
-    to the main codebase. If you work at Odoo, configure Git to push
+    to the main codebase. If you work at Konvergo ERP, configure Git to push
     changes to the shared fork created on the account **odoo-dev**.
 
     <div class="tabs">
@@ -77,12 +77,12 @@ our first module!
 
     </div>
 
-That's it! Your environment is now prepared to run Odoo from the
+That's it! Your environment is now prepared to run Konvergo ERP from the
 sources, and you have successfully created a repository to serve as an
 addons directory. This will allow you to push your work to GitHub.
 
 > [!IMPORTANT]
-> **For Odoo employees only:**
+> **For Konvergo ERP employees only:**
 >
 > 1.  Make sure to read very carefully
 >     `contributing/development/first-contribution`. In particular, your
@@ -99,7 +99,7 @@ addons directory. This will allow you to push your work to GitHub.
 >     with commits you push to **odoo-dev**, you don't need to open
 >     multiple PRs.
 >
-> 3.  At Odoo we use [Runbot](https://runbot.odoo.com) extensively for
+> 3.  At Konvergo ERP we use [Runbot](https://runbot.odoo.com) extensively for
 >     our `CI (Continuous
 >     Integration)` tests. When you push your changes to **odoo-dev**,
 >     Runbot creates a new build and test your code. Once logged in, you
@@ -119,7 +119,7 @@ addons directory. This will allow you to push your work to GitHub.
 
 ### Launch with <span class="title-ref">odoo-bin</span>
 
-Once all dependencies are set up, Odoo can be launched by running
+Once all dependencies are set up, Konvergo ERP can be launched by running
 <span class="title-ref">odoo-bin</span>, the command-line interface of
 the server.
 
@@ -202,7 +202,7 @@ a request.
 > result into an invalid addons-path folder error, but you will have to
 > add it back later on !
 
-### Log in to Odoo
+### Log in to Konvergo ERP
 
 Open <http://localhost:8069/> on your browser. We recommend using
 [Chrome](https://www.google.com/intl/en/chrome/),
@@ -260,7 +260,7 @@ Here are some useful Git commands for your day-to-day work.
 
 ### Code Editor
 
-If you are working at Odoo, many of your colleagues are using
+If you are working at Konvergo ERP, many of your colleagues are using
 [VSCode](https://code.visualstudio.com),
 [VSCodium](https://vscodium.com) (the open source equivalent),
 [PyCharm](https://www.jetbrains.com/pycharm/download/#section=linux), or
@@ -268,7 +268,7 @@ If you are working at Odoo, many of your colleagues are using
 choose your preferred editor.
 
 It is important to configure your linters correctly. Using a linter
-helps you by showing syntax and semantic warnings or errors. Odoo source
+helps you by showing syntax and semantic warnings or errors. Konvergo ERP source
 code tries to respect Python's and JavaScript's standards, but some of
 them can be ignored.
 

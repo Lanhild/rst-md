@@ -64,7 +64,7 @@ and `Batch Transfers` options.
 <img src="cluster_picking/configs.png" class="align-center"
 alt="Activate *Packages* and *Batch Transfers* features in the settings." />
 
-Since batch picking is used to optimize the *pick* operation in Odoo,
+Since batch picking is used to optimize the *pick* operation in Konvergo ERP,
 the `Storage
 Locations` and `Multi-Step Routes` options, under the `Warehouse`
 heading, must also be checked on this settings page.
@@ -111,7 +111,7 @@ alt="Create new package form." />
 
 ## Create cluster batch
 
-To see how cluster picking works in Odoo, navigate to the `Sales` app,
+To see how cluster picking works in Konvergo ERP, navigate to the `Sales` app,
 and create `SOs (Sales Orders)` that will be fulfilled together in the
 same batch. After confirming an `SO (Sales Order)`, the `Delivery` smart
 button becomes visible. Displayed inside the icon is a number
@@ -228,7 +228,7 @@ all three pickings to one of the three disposable packages,
 <span class="title-ref">CLUSTER-PACK-2</span>, or
 <span class="title-ref">CLUSTER-PACK-3</span>.
 
-Record this in Odoo using the `Destination Package` field in the
+Record this in Konvergo ERP using the `Destination Package` field in the
 `Detailed
 Operations` tab.
 
@@ -287,6 +287,6 @@ alt="Example of cluster batch from the *Barcode* app." />
 
 > [!TIP]
 > After creating a batch transfer and assigning a package to a picking,
-> Odoo suggests the specified package by displaying the name *in
+> Konvergo ERP suggests the specified package by displaying the name *in
 > italics* under the product name, ensuring pickers place products into
 > the correct boxes.

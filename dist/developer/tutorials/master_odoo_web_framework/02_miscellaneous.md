@@ -1,7 +1,7 @@
 # Chapter 2: Miscellaneous
 
 In the previous task, we learned how to create fields and views. There
-is still much more to discover in the feature-rich Odoo web framework,
+is still much more to discover in the feature-rich Konvergo ERP web framework,
 so let's dive in and explore more in this chapter!
 
 <figure>
@@ -26,7 +26,7 @@ alt="image" />
 Solutions
 
 The solutions for each exercise of the chapter are hosted on the
-[official Odoo tutorials
+[official Konvergo ERP tutorials
 repository](https://github.com/odoo/tutorials/commits/%7BCURRENT_MAJOR_BRANCH%7D-solutions/awesome_tshirt).
 
 </div>
@@ -144,7 +144,7 @@ addons/web/static/src/core/debug/profiling/profiling_service.js#L30\>]()
 Now, let us see how we can interact with the command palette. The
 command palette is a feature that allows users to quickly access various
 commands and functions within the application. It is accessed by
-pressing <span class="title-ref">CTRL+K</span> in the Odoo interface.
+pressing <span class="title-ref">CTRL+K</span> in the Konvergo ERP interface.
 
 <div class="exercise">
 
@@ -176,7 +176,7 @@ that allow for customization, such as registering something in a
 registry. Sometimes, however, it happens that we want to modify
 something that has no such mechanism. In that case, we must fall back on
 a less safe form of customization: monkey patching. Almost everything in
-Odoo can be monkey patched.
+Konvergo ERP can be monkey patched.
 
 Bafien, our beloved leader, heard about employees performing better if
 they are constantly being watched. Since he cannot be there in person
@@ -270,9 +270,9 @@ alt="image" />
 
 ## 7. Reintroduce Kitten Mode
 
-Let us add a special mode to Odoo: whenever the URL contains
+Let us add a special mode to Konvergo ERP: whenever the URL contains
 <span class="title-ref">kitten=1</span>, we will display a kitten in the
-background of Odoo, because we like kittens.
+background of Konvergo ERP, because we like kittens.
 
 <div class="exercise">
 

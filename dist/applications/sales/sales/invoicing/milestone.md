@@ -13,7 +13,7 @@ at once.
 
 ## Create milestone products
 
-In Odoo, each milestone of a project is considered as an individual
+In Konvergo ERP, each milestone of a project is considered as an individual
 product.
 
 To create and/or configure products to work like this, first navigate to
@@ -51,12 +51,12 @@ an option in the `Create on Order` field is selected.
 When the `Create on Order` default option of `Nothing` is clicked, a
 drop-down menu is revealed with the following options:
 
-- `Task`: Odoo creates a task related to this milestone product in the
+- `Task`: Konvergo ERP creates a task related to this milestone product in the
   *Projects* app when this specific product is ordered.
-- `Project \& Task`: Odoo creates a project and task related to this
+- `Project \& Task`: Konvergo ERP creates a project and task related to this
   milestone product in the *Projects* app when this specific product is
   ordered.
-- `Project`: Odoo creates a project related to this milestone product in
+- `Project`: Konvergo ERP creates a project related to this milestone product in
   the *Projects* app when this specific product is ordered.
 
 When `Task` is selected, a `Project` field appears. In this field,
@@ -148,7 +148,7 @@ appropriate milestone to which this task should be connected, in the
 
 <img src="milestone/milestone-field-on-task-form.png"
 class="align-center"
-alt="The milestone field on the task form when dealing with milestone products in Odoo Sales." />
+alt="The milestone field on the task form when dealing with milestone products in Konvergo ERP Sales." />
 
 Repeat this process for all milestone tasks.
 
@@ -178,7 +178,7 @@ has been reached, and therefore delivered.
 
 <img src="milestone/delivered-milestone-product-sales-order.png"
 class="align-center"
-alt="A milestone product that&#39;s been reached marked as delivered on the sales order in Odoo." />
+alt="A milestone product that&#39;s been reached marked as delivered on the sales order in Konvergo ERP." />
 
 Click `Create Invoice` in the upper-left corner. Doing so reveals a
 `Create
@@ -191,7 +191,7 @@ On the `Create invoices` pop-up window, leave the `Create Invoice`
 option on the default `Regular Invoice` selection, and click the
 `Create Draft Invoice` button.
 
-Upon clicking `Create Draft Invoice`, Odoo reveals the
+Upon clicking `Create Draft Invoice`, Konvergo ERP reveals the
 `Customer Invoice Draft`, *only* showing that reached milestone in the
 `Invoice Lines` tab.
 
@@ -211,7 +211,7 @@ alt="The Register Payment pop-up window that appears when Register Payment is cl
 On this pop-up window, confirm the accuracy of the auto-populated
 fields, then click `Create Payment`.
 
-When clicked, the pop-up window disappears, and Odoo returns to the
+When clicked, the pop-up window disappears, and Konvergo ERP returns to the
 invoice for that milestone, which now has a green `In Payment` banner in
 the upper-right corner. This banner signifies the invoice has been paid.
 

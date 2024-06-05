@@ -11,12 +11,12 @@ configuration of specific certificates, are also added to your
 Accounting app, following your fiscal administration requirements.
 
 > [!NOTE]
-> Odoo continuously adds new localizations and improves the existing
+> Konvergo ERP continuously adds new localizations and improves the existing
 > packages.
 
 ### Configuration
 
-Odoo automatically installs the appropriate package for your company,
+Konvergo ERP automatically installs the appropriate package for your company,
 according to the country selected at the creation of the database.
 
 > [!IMPORTANT]
@@ -29,13 +29,13 @@ country's module.
 
 <img src="fiscal_localizations/packages_modules.png"
 class="align-center"
-alt="Install the appropriate module as fiscal localization package in Odoo Accounting." />
+alt="Install the appropriate module as fiscal localization package in Konvergo ERP Accounting." />
 
 Once done, select your country's package, and click on *Save*.
 
 <img src="fiscal_localizations/packages_selection.png"
 class="align-center"
-alt="Select your country&#39;s fiscal localization package in Odoo Accounting." />
+alt="Select your country&#39;s fiscal localization package in Konvergo ERP Accounting." />
 
 ### Use
 
@@ -51,10 +51,10 @@ country-specific statements and certifications.
 
 ## List of supported countries
 
-Odoo Accounting can be used in many countries out of the box by
+Konvergo ERP Accounting can be used in many countries out of the box by
 installing the appropriate module. Here is a list of all
 `fiscal localization package <fiscal_localizations/packages>` that are
-available on Odoo.
+available on Konvergo ERP.
 
 - Algeria - Accounting
 - `Argentina - Accounting <fiscal_localizations/argentina>`

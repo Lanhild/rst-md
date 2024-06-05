@@ -1,6 +1,6 @@
 # Managing BoMs for product variants
 
-Odoo allows one bill of materials (BoM) to be used for multiple variants
+Konvergo ERP allows one bill of materials (BoM) to be used for multiple variants
 of the same product. Having a consolidated `BoM (bill of materials)` for
 a product with variants saves time by preventing the need to manage
 multiple `BoMs (bills of materials)`.

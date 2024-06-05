@@ -5,11 +5,11 @@ inventory. That value should be reflected in the company's accounting
 records to accurately show the value of the company and all of its
 assets.
 
-By default, Odoo uses a periodic inventory valuation (also known as
+By default, Konvergo ERP uses a periodic inventory valuation (also known as
 manual inventory valuation). This method implies that the accounting
 team posts journal entries based on the physical inventory of the
 company, and that warehouse employees take the time to count the stock.
-In Odoo, this method is reflected inside each product category, where
+In Konvergo ERP, this method is reflected inside each product category, where
 the `Costing Method` field will be set to
 <span class="title-ref">Standard Price</span> by default, and the
 `Inventory Valuation` field will be set to
@@ -92,7 +92,7 @@ alt="Show inventory valuation configuration options." />
 From the product category's configuration page, choose the desired
 `Costing Method`:
 
-- `Standard Price`: the default costing method in Odoo. The cost of the
+- `Standard Price`: the default costing method in Konvergo ERP. The cost of the
   product is manually defined on the product form, and this cost is used
   to compute the valuation. Even if the purchase price on a purchase
   order differs, the valuation will still use the cost defined on the
@@ -139,12 +139,12 @@ were using the `Standard` costing method **do not** change value;
 rather, the existing units keep their value, and any product moves from
 then on affect the average cost, and the cost of the product will
 change. If the value in the `Cost` field on a product form is changed
-manually, Odoo will generate a corresponding record in the *Inventory
+manually, Konvergo ERP will generate a corresponding record in the *Inventory
 Valuation* report.
 
 ### Inventory valuation
 
-Inventory valuation in Odoo can be set to be updated manually or
+Inventory valuation in Konvergo ERP can be set to be updated manually or
 automatically. While *Expense* accounts apply to both, the *Stock Input*
 and *Stock Output* accounts are only used for automated valuation.
 
@@ -346,4 +346,4 @@ box, and clicking `Save`.
 <img
 src="inventory_valuation_config/stock-valuation-breakdown-in-accounting.png"
 class="align-center"
-alt="See the full inventory valuation breakdown in Odoo Accounting app." />
+alt="See the full inventory valuation breakdown in Konvergo ERP Accounting app." />

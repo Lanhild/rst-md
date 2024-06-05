@@ -5,7 +5,7 @@ for smaller companies, bigger companies might need to keep stock in, or
 sell from, multiple warehouses in multiple locations.
 
 Sometimes products included in a single sales order might take stock
-from two (or more) warehouses; in Odoo, pulling products from multiple
+from two (or more) warehouses; in Konvergo ERP, pulling products from multiple
 warehouses to satisfy sales demands can be done using *virtual
 locations*.
 
@@ -72,7 +72,7 @@ warehouses could be used to fulfill a single sales order.
 
 The "virtual" warehouse acts as a single aggregator of all the inventory
 stored in a company's physical warehouses, and is used (for traceability
-purposes) to create a hierarchy of locations in Odoo.
+purposes) to create a hierarchy of locations in Konvergo ERP.
 
 </div>
 

@@ -29,7 +29,7 @@ Non-EEA territories:
 - Jersey;
 - Isle of Man.
 
-When paying a bill in Odoo, you can select SEPA mandates as a payment
+When paying a bill in Konvergo ERP, you can select SEPA mandates as a payment
 option. At the day's end, you can generate the SEPA file containing all
 bank wire transfers and send it to the bank.
 
@@ -40,7 +40,7 @@ used **'pain.001.001.03.ch.02'** for Switzerland and
 **'pain.001.003.03'** for Germany.
 
 Once the payments are processed by your bank, you can directly import
-the account statement in Odoo. The bank reconciliation process will
+the account statement in Konvergo ERP. The bank reconciliation process will
 seamlessly match the SEPA orders you sent to your bank with actual bank
 statements.
 
@@ -80,9 +80,9 @@ Vendors --> Payments`. When creating your payment, select
 The first time you pay a vendor with SEPA, you have to fill in the
 `Recipient Bank
 Account` field with the bank name, IBAN, and BIC (Bank Identifier Code).
-Odoo automatically verifies if the IBAN format is respected.
+Konvergo ERP automatically verifies if the IBAN format is respected.
 
-For future payments to this vendor, Odoo will automatically suggest you
+For future payments to this vendor, Konvergo ERP will automatically suggest you
 the bank account, but it remains possible to select a new one.
 
 Once your payment is registered, do not forget to confirm it. You can

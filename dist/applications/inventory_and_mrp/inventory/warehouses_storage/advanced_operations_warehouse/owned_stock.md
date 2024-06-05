@@ -26,7 +26,7 @@ alt="Enabled Consignment setting in Inventory configuration." />
 
 ## Receive (and store) consignment stock
 
-With the feature enabled in Odoo, consignment stock can now be received
+With the feature enabled in Konvergo ERP, consignment stock can now be received
 into a warehouse. From the main `Inventory` dashboard, click into the
 `Receipts` section. Then, click `Create`.
 

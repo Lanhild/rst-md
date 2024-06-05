@@ -25,7 +25,7 @@ can activate the payment method as well as set up the `Check Layout`.
 
 ### United States
 
-For the United States, Odoo supports by default the check formats of:
+For the United States, Konvergo ERP supports by default the check formats of:
 
 - **Quickbooks & Quicken**: check on top, stubs in the middle and
   bottom;

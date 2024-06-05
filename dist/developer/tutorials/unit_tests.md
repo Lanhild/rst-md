@@ -9,8 +9,8 @@
 > [technical-training-solutions](https://github.com/odoo/technical-training-solutions/tree/%7BBRANCH%7D-core)
 > repository if you want to start from a clean base.
 
-**Reference**: [Odoo's Test Framework: Learn Best
-Practices](https://www.youtube.com/watch?v=JEIscps0OOQ) (Odoo Experience
+**Reference**: [Konvergo ERP's Test Framework: Learn Best
+Practices](https://www.youtube.com/watch?v=JEIscps0OOQ) (Konvergo ERP Experience
 2020) on YouTube.
 
 Writing tests is a necessity for multiple reasons. Here is a
@@ -78,7 +78,7 @@ $ odoo-bin --test-tags=/account:TestAccountMove.test_custom_currency_on_account_
 ## Integration Bots
 
 > [!NOTE]
-> This section is only for Odoo employees and people that are
+> This section is only for Konvergo ERP employees and people that are
 > contributing to <span class="title-ref">github.com/odoo</span>. We
 > highly recommend having your own CI otherwise.
 
@@ -86,7 +86,7 @@ When a test is written, it is important to make sure it always passes
 when modifications are applied to the source code. To automate this
 task, we use a development practice called Continuous Integration (CI).
 This is why we have some bots running all the tests at different
-moments. Whether you are working at Odoo or not, if you are trying to
+moments. Whether you are working at Konvergo ERP or not, if you are trying to
 merge something inside <span class="title-ref">odoo/odoo</span>,
 <span class="title-ref">odoo/enterprise</span>,
 <span class="title-ref">odoo/upgrade</span> or on odoo.sh, you will have
@@ -170,7 +170,7 @@ This step can fail with a <span class="title-ref">Staging failed</span>
 error message. This could be due to
 
 - a nondeterministic bug that is already on the target. If you are an
-  Odoo employee, you can check those here:
+  Konvergo ERP employee, you can check those here:
   <https://runbot.odoo.com/runbot/errors>
 - a nondeterministic bug that you introduced but wasn't detected in the
   CI before
@@ -185,7 +185,7 @@ locally.
 
 ## Modules
 
-Because Odoo is modular, the tests need to be also modular. This means
+Because Konvergo ERP is modular, the tests need to be also modular. This means
 tests are defined in the module that adds the functionality you are
 adding in, and tests cannot depend on functionality coming from modules
 your module doesn't depend on.
@@ -220,7 +220,7 @@ and ensure it is not changed if it shouldn't.
 
 **Reference**: the documentation related to this topic can be found in
 [Python unittest](https://docs.python.org/3/library/unittest.html) and
-`Testing Odoo<reference/testing>`.
+`Testing Konvergo ERP<reference/testing>`.
 
 Here are a few things to take into consideration before writing a test
 

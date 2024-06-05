@@ -16,8 +16,8 @@ select the best products to optimize the distance for the worker, for
 quality control purposes, or to first move the products with the closest
 expiration date.
 
-When a product needs to be moved, Odoo finds available products that can
-be assigned to the transfer. The way Odoo assigns these products depends
+When a product needs to be moved, Konvergo ERP finds available products that can
+be assigned to the transfer. The way Konvergo ERP assigns these products depends
 on the `Removal Strategy` defined in either the `Product Category` or
 the `Location` dashboards.
 
@@ -52,19 +52,19 @@ are stored in their respective storage locations.
 <img src="removal/entering-stocks.png" class="align-center"
 alt="Products entering stock via the receiving area." />
 
-In Odoo, receive products by navigating to the `Inventory` application,
+In Konvergo ERP, receive products by navigating to the `Inventory` application,
 and in the kanban view, click on either the `Receipts` heading or
 `# TO PROCESS` button. On the `Receipts` dashboard, find and click on
 the individual receipt which will open the warehouse intake form. Click
 `Edit`, and then enter the received quantity in the `Done` column. To
-finish, `Validate` to receive the products and register them in the Odoo
+finish, `Validate` to receive the products and register them in the Konvergo ERP
 database.
 
 > [!TIP]
-> Receiving products can also be done within the Odoo *Barcode*
+> Receiving products can also be done within the Konvergo ERP *Barcode*
 > application. If using the *Barcode* app, scan the product(s), update
 > the quantity, and finally, click `Validate`. After products are
-> received in Odoo, the products can then be moved to their respective
+> received in Konvergo ERP, the products can then be moved to their respective
 > storage locations.
 
 Continuing with the same example, below, imagine several sales orders
@@ -74,7 +74,7 @@ don't have the same expiration date. In this situation, logically,
 sending products with the closest expiration date is preferred, instead
 of products received first or last. Using the chosen removal strategy
 configured for those products (in this example, `FEFO
-<routes/FEFO>`), Odoo generates a transfer for the products with the
+<routes/FEFO>`), Konvergo ERP generates a transfer for the products with the
 soonest expiration date to the picking area, then the packing area, and
 finally, to the shipping docks for delivery to the customer.
 

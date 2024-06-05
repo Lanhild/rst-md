@@ -20,7 +20,7 @@ features of the Indian localization:
 
 ## e-Invoice system
 
-Odoo is compliant with the **Indian Goods and Services Tax (GST)
+Konvergo ERP is compliant with the **Indian Goods and Services Tax (GST)
 e-Invoice system** requirements.
 
 ### Setup
@@ -29,7 +29,7 @@ e-Invoice system** requirements.
 
 You must register on the `NIC (National Informatics Centre)` e-Invoice
 portal to get your **API credentials**. You need these credentials to
-`configure your Odoo Accounting app
+`configure your Konvergo ERP Accounting app
 <india/e-invoicing-configuration>`.
 
 1.  Log in to the [NIC e-Invoice portal](https://einvoice1.gst.gov.in/)
@@ -39,7 +39,7 @@ portal to get your **API credentials**. You need these credentials to
     > If you are already registered on the NIC portal, you can use the
     > same login credentials.
 
-    ![Register Odoo ERP system on e-invoice web portal](india/e-invoice-system-login.png)
+    ![Register Konvergo ERP ERP system on e-invoice web portal](india/e-invoice-system-login.png)
 
 2.  From the dashboard, go to
     `API Registration --> User Credentials --> Create API
@@ -55,9 +55,9 @@ portal to get your **API credentials**. You need these credentials to
 
     ![Submit API specific Username and Password](india/submit-api-registration-details.png)
 
-#### Configuration in Odoo
+#### Configuration in Konvergo ERP
 
-To enable the e-Invoice service in Odoo, go to
+To enable the e-Invoice service in Konvergo ERP, go to
 `Accounting --> Configuration -->
 Settings --> Indian Electronic Invoicing`, and enter the `Username` and
 `Password` previously set for the API.
@@ -77,7 +77,7 @@ Interchange`, enable `E-Invoice (IN)` and save.
 #### Invoice validation
 
 Once an invoice is validated, a confirmation message is displayed at the
-top. Odoo automatically uploads the JSON-signed file of validated
+top. Konvergo ERP automatically uploads the JSON-signed file of validated
 invoices to the NIC e-Invoice portal after some time. If you want to
 process the invoice immediately, click `Process now`.
 
@@ -118,7 +118,7 @@ Cancel`.
 > - If you want to abort the cancellation before processing the invoice,
 > then click `Call
 > Off EDI Cancellation`. - Once you request to cancel the e-Invoice,
-> Odoo automatically submits the JSON-signed file to the NIC e-Invoice
+> Konvergo ERP automatically submits the JSON-signed file to the NIC e-Invoice
 > portal. You can click `Process now` if you want to process the invoice
 > immediately.
 
@@ -145,14 +145,14 @@ from the GST e-Invoice system website itself.
 
 ### Setup
 
-Odoo is compliant with the **Indian Goods and Services Tax (GST)
+Konvergo ERP is compliant with the **Indian Goods and Services Tax (GST)
 E-waybill system** requirements.
 
 #### API registration on NIC E-Way bill
 
 You must register on the `NIC (National Informatics Centre)` E-Way bill
 portal to create your **API credentials**. You need these credentials to
-`configure your Odoo Accounting app
+`configure your Konvergo ERP Accounting app
 <india/e-waybill-configuration>`.
 
 1.  Log in to the [NIC E-Way bill portal](https://ewaybillgst.gov.in/)
@@ -174,7 +174,7 @@ portal to create your **API credentials**. You need these credentials to
 
     ![Submit GSP API registration details](india/e-waybill-registration-details.png)
 
-#### Configuration in Odoo
+#### Configuration in Konvergo ERP
 
 To set up the E-Way bill service, go to
 `Accounting --> Configuration --> Settings
@@ -203,7 +203,7 @@ confirmation message is displayed.
 
 > [!NOTE]
 > - You can find the JSON-signed file in the attached files in the
-> chatter. - Odoo automatically uploads the JSON-signed file to the
+> chatter. - Konvergo ERP automatically uploads the JSON-signed file to the
 > government portal after some time. Click `Process now` if you want to
 > process the invoice immediately.
 
@@ -230,7 +230,7 @@ fields. Then, click `Request EDI Cancellation`.
 > [!NOTE]
 > - If you want to abort the cancellation before processing the invoice,
 > click `Call Off
-> EDI Cancellation`. - Once you request to cancel the E-Way bill, Odoo
+> EDI Cancellation`. - Once you request to cancel the E-Way bill, Konvergo ERP
 > automatically submits the JSON-signed file to the government portal.
 > You can click `Process Now` if you want to process the invoice
 > immediately.
@@ -239,7 +239,7 @@ fields. Then, click `Request EDI Cancellation`.
 
 ### Enable API access
 
-To file GST Returns in Odoo, you must first enable API access on the GST
+To file GST Returns in Konvergo ERP, you must first enable API access on the GST
 portal.
 
 1.  Log into the [GST
@@ -256,10 +256,10 @@ portal.
 3.  Doing so enables a `Duration` drop-down menu. Select the `Duration`
     of your preference, and click `Confirm`.
 
-### Indian GST Service In Odoo
+### Indian GST Service In Konvergo ERP
 
 Once you have enabled the `API access <india/gstr_api>` on the GST
-portal, you can set up the `Indian GST Service` in Odoo.
+portal, you can set up the `Indian GST Service` in Konvergo ERP.
 
 Go to `Accounting --> Configuration --> Settings --> Indian GST Service`
 and enter the `GST Username`. Click `Send OTP`, enter the code, and
@@ -273,7 +273,7 @@ When the `Indian GST Service` is configured, you can file your GST
 return. Go to
 `Accounting --> Reporting --> India --> GST Return periods` and create a
 new **GST Return Period** if it does not exist. GST Return file-in is
-done in **three steps** in Odoo:
+done in **three steps** in Konvergo ERP:
 
 > [!NOTE]
 > **Tax Return Periodicity** can be
@@ -320,26 +320,26 @@ done in **three steps** in Odoo:
 
 5.  Click `Mark as Filed` after filing the **GSTR-1** report on the
     **GST portal**. The status of the report changes to `Filed` in
-    **Odoo**.
+    **Konvergo ERP**.
 
     ![GSTR-1 in the Filed Status](india/gst-gstr-1-filed.png)
 
 #### Receive GSTR-2B
 
 Users can retrieve the **GSTR-2B Report** from the **GST portal**. This
-automatically reconciles the **GSTR-2B** report with your Odoo bills;
+automatically reconciles the **GSTR-2B** report with your Konvergo ERP bills;
 
 1.  Click `Fetch GSTR-2B Summary` to retrieve the **GSTR-2B** summary.
     After a few seconds, the status of the report changes to
-    `Waiting for Reception`. This means Odoo is trying to receive the
+    `Waiting for Reception`. This means Konvergo ERP is trying to receive the
     **GSTR-2B** report from the **GST portal**;
 
     ![GSTR-2B in Waiting for Reception](india/gst-gstr-2b-waiting.png)
 
 2.  Once more, after a few seconds, the status of the **GSTR-2B**
     changes to the `Being
-    Processed`. It means Odoo is reconciling the **GSTR-2B** report with
-    your Odoo bills;
+    Processed`. It means Konvergo ERP is reconciling the **GSTR-2B** report with
+    your Konvergo ERP bills;
 
     ![GSTR-2B in Waiting for Reception](india/gst-gstr-2b-processed.png)
 

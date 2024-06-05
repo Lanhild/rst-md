@@ -1,6 +1,6 @@
 # Quality control points
 
-In Odoo, *quality control points* (QCPs), are used to automatically
+In Konvergo ERP, *quality control points* (QCPs), are used to automatically
 create `quality checks
 <quality_checks>` at predetermined intervals.
 `QCPs (Quality Control Points)` can be configured to create quality
@@ -100,7 +100,7 @@ selected:
 > An *Instructions* check is the same as a step on a work order for an
 > MO.
 >
-> When a step is added to a work order, Odoo stores it in the Quality
+> When a step is added to a work order, Konvergo ERP stores it in the Quality
 > app as a `QCP (Quality Control Point)`. It is possible to manually
 > create a `QCP (Quality Control Point)` with the *Instructions* check
 > type, and even assign it to an operation other than manufacturing,

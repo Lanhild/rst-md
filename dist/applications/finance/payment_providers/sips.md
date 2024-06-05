@@ -13,7 +13,7 @@ the multinational Worldline.
 
 ### Credentials tab
 
-Odoo needs your **API Credentials** to connect with your SIPS account,
+Konvergo ERP needs your **API Credentials** to connect with your SIPS account,
 which comprise:
 
 - **Merchant ID**: The ID solely used to identify the merchant account
@@ -28,7 +28,7 @@ fields under the **Credentials** tab.
 
 > [!IMPORTANT]
 > If you are trying SIPS as a test, with the *TEST* credentials, change
-> the **State** to *Test Mode*. We recommend doing this on a test Odoo
+> the **State** to *Test Mode*. We recommend doing this on a test Konvergo ERP
 > database, rather than on your main database.
 
 <div class="seealso">

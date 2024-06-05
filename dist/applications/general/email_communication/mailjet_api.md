@@ -1,9 +1,9 @@
 # Mailjet API
 
-Odoo is compatible with Mailjet's
+Konvergo ERP is compatible with Mailjet's
 `API (Application Programming Interface)` for mass mailing. Set up a
 dedicated mass mailing server through Mailjet by configuring settings in
-the Mailjet account and the Odoo database. In some circumstances,
+the Mailjet account and the Konvergo ERP database. In some circumstances,
 settings need to be configured on the custom domain's
 `DNS (Domain Name System)` settings as well.
 
@@ -25,7 +25,7 @@ settings onto a notepad. They can be found under the
 Mail Transfer Protocol)` configuration settings include the server
 address, the security option needed (Use
 `SSL (Secure Sockets Layer)`/`TLS (Transport Layer Security)`), and the
-port number. The settings are needed to configure Mailjet in Odoo, which
+port number. The settings are needed to configure Mailjet in Konvergo ERP, which
 is covered in the `last section <maintain/mailjet-api/odoo-setup>`.
 
 <div class="seealso">
@@ -36,8 +36,8 @@ parameters?](https://documentation.mailjet.com/hc/articles/360043229473)
 </div>
 
 > [!IMPORTANT]
-> Odoo blocks <span class="title-ref">port 25</span> on Odoo Online and
-> Odoo.sh databases. `See reference here
+> Konvergo ERP blocks <span class="title-ref">port 25</span> on Konvergo ERP Online and
+> Konvergo ERP.sh databases. `See reference here
 > <email_servers/restriction>`.
 
 <img src="mailjet_api/smtp-config.png" class="align-center"
@@ -47,10 +47,10 @@ Next, click on the button labeled `Retrieve your API credentials` to
 retrieve the Mailjet API credentials.
 
 Then, click on the eye icon to reveal the `API key`. Copy this key to a
-notepad, as this serves as the `Username` in the Odoo configuration.
+notepad, as this serves as the `Username` in the Konvergo ERP configuration.
 Next, click on the `Generate Secret Key` button to generate the
 `Secret Key`. Copy this key to a notepad, as this serves as the
-`Password` in the Odoo configuration.
+`Password` in the Konvergo ERP configuration.
 
 ### Add verified sender address(es)
 
@@ -71,7 +71,7 @@ the `Add a domain <maintain/mailjet-api/add-domain>` section for steps
 on adding the domain.
 
 > [!NOTE]
-> Either all email addresses of the Odoo database users who are sending
+> Either all email addresses of the Konvergo ERP database users who are sending
 > emails using Mailjet's servers need to be configured or the domain(s)
 > of the users' email addresses can be configured.
 
@@ -89,7 +89,7 @@ provider and verified in Mailjet:
 
 > [!NOTE]
 > Replace <span class="title-ref">yourdomain</span> with the custom
-> domain for the Odoo database. If there isn't one, then use the
+> domain for the Konvergo ERP database. If there isn't one, then use the
 > `mail.catchall.domain` system parameter.
 
 After that, fill out the `Email Information` form, making sure to select
@@ -113,7 +113,7 @@ Conformance)` settings on the domain of the sender.
 > [!IMPORTANT]
 > If the database is not using a custom domain, then in order to verify
 > the sender's address, a temporary alias (of the three email addresses
-> mentioned above) should be set up in Odoo CRM to create a lead. Then,
+> mentioned above) should be set up in Konvergo ERP CRM to create a lead. Then,
 > the database is able to receive the verification email and verify the
 > accounts.
 
@@ -135,7 +135,7 @@ After that, fill out the `Add a new Domain` page on Mailjet and click
 `Continue`.
 
 After adding the domain, a validation page will populate. Unless the
-Odoo database is on-premise (in which case, choose `Option 1`), choose
+Konvergo ERP database is on-premise (in which case, choose `Option 1`), choose
 `Option 2: Create a DNS Record`. Copy the TXT record information to a
 notepad and then navigate to the domain's `DNS (Domain
 Name System)` provider to complete validation.
@@ -188,9 +188,9 @@ provider.
 <img src="mailjet_api/authenticate.png" class="align-center"
 alt="Authenticate the domain with SPF/DKIM records in Mailjet." />
 
-## Set up in Odoo
+## Set up in Konvergo ERP
 
-To complete the setup, navigate to the Odoo database and go to the
+To complete the setup, navigate to the Konvergo ERP database and go to the
 `Settings`. With `developer-mode` turned on, go to the
 `Technical Menu --> Email --> Outgoing
 Mail Servers`. Then, create a new outgoing server configuration by
@@ -217,11 +217,11 @@ Finally, save the settings and `Test the
 Connection`.
 
 <img src="mailjet_api/server-settings.png" class="align-center"
-alt="Odoo outgoing email server settings." />
+alt="Konvergo ERP outgoing email server settings." />
 
 > [!IMPORTANT]
 > In order for the notifications feature to work using Mailjet, there
-> are three settings that need to be set in Odoo.
+> are three settings that need to be set in Konvergo ERP.
 >
 > 1.  The `From Filter` needs to be set on the server configuration. It
 >     is recommended to set it as a domain and not a full email address.
@@ -233,7 +233,7 @@ alt="Odoo outgoing email server settings." />
 > 3.  The `mail.default.from_filter` system parameter must have the
 >     value <span class="title-ref">yourdomain.com</span>. Replace
 >     <span class="title-ref">yourdomain</span> with the custom domain
->     for the Odoo database. If there isn't one, then use the
+>     for the Konvergo ERP database. If there isn't one, then use the
 >     `mail.catchall.domain` system parameter.
 >
 > For more information see
@@ -243,5 +243,5 @@ alt="Odoo outgoing email server settings." />
 > `developer mode
 > <developer-mode>`.
 
-Once the setup is complete, the Odoo database is ready to use the
+Once the setup is complete, the Konvergo ERP database is ready to use the
 Mailjet email server for mass mailing or transactional emails!

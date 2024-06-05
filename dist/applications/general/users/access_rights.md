@@ -1,7 +1,7 @@
 # Access rights
 
 *Access rights* are permissions that determine the content and
-applications users can access and edit. In Odoo, these permissions can
+applications users can access and edit. In Konvergo ERP, these permissions can
 be set for individual users or for groups of users. Limiting permissions
 to only those who need them ensures that users do not modify or delete
 anything they should not have access to.
@@ -19,7 +19,7 @@ Danger
 Making changes to access rights can have a detrimental impact on the
 database. This includes *impotent admin*, which means that no user in
 the database can make changes to the access rights. For this reason,
-Odoo recommends contacting an Odoo Business Analyst, or our Support
+Konvergo ERP recommends contacting an Konvergo ERP Business Analyst, or our Support
 Team, before making changes.
 
 </div>
@@ -49,7 +49,7 @@ To make changes to a user's rights, click on the desired user to edit
 their profile.
 
 <img src="access_rights/navigate-to-users-menu.png" class="align-center"
-alt="Users menu in the Users &amp; Companies section of the Settings app of Odoo." />
+alt="Users menu in the Users &amp; Companies section of the Settings app of Konvergo ERP." />
 
 On the user's profile page, in the `Access Rights` tab, scroll down to
 view the current permissions.
@@ -70,16 +70,16 @@ alt="The Sales apps drop-down menu to set the user&#39;s level of permissions." 
 
 *Groups* are app-specific sets of permissions that are used to manage
 common access rights for a large amount of users. Administrators can
-modify the existing groups in Odoo, or create new ones to define rules
+modify the existing groups in Konvergo ERP, or create new ones to define rules
 for models within an application.
 
-To access groups, first activate Odoo's
+To access groups, first activate Konvergo ERP's
 `developer mode <developer-mode>`, then go to
 `Settings app --> Users & Companies --> Groups`.
 
 <img src="access_rights/click-users-and-companies.png"
 class="align-center"
-alt="Groups menu in the Users &amp; Companies section of the Settings app of Odoo." />
+alt="Groups menu in the Users &amp; Companies section of the Settings app of Konvergo ERP." />
 
 To create a new group from the `Groups` page, click `Create`. Then, from
 the blank group form, select an `Application`, and complete the group
@@ -124,7 +124,7 @@ alt="Tabs in the Groups form to modify the settings of the group." />
 - `Menus` tab: defines which menus/models the group can have access to.
   Click `Add a line` to add a specific menu.
 
-- `Views` tab: lists which views in Odoo the group has access to. Click
+- `Views` tab: lists which views in Konvergo ERP the group has access to. Click
   `Add a
   line` to add a view to the group.
 
@@ -150,7 +150,7 @@ alt="Tabs in the Groups form to modify the settings of the group." />
   > `developer mode <developer-mode>`.
   >
   > On a form, navigate to any field, and hover over the field name. A
-  > box of backend information reveals itself with the specific Odoo
+  > box of backend information reveals itself with the specific Konvergo ERP
   > `Object` name in the backend. This is the technical name of the
   > model that should be added.
   >
@@ -178,9 +178,9 @@ alt="Tabs in the Groups form to modify the settings of the group." />
   > This record rule is to enable MRP consumption warnings for
   > subcontractors.
   >
-  > Odoo has a library of preconfigured record rules for ease of use.
+  > Konvergo ERP has a library of preconfigured record rules for ease of use.
   > Users without knowledge of domains (and domain expressions) should
-  > consult an Odoo Business Analyst, or the Odoo Support Team, before
+  > consult an Konvergo ERP Business Analyst, or the Konvergo ERP Support Team, before
   > making changes.
 
 ## Superuser mode
@@ -212,14 +212,14 @@ Upon exiting *Superuser mode*, users may be locked out of the database,
 due to changes that were made. This can cause *impotent admin*, or an
 administrator without the ability to change access rights/settings.
 
-In this case contact Odoo Support here: [new help
+In this case contact Konvergo ERP Support here: [new help
 ticket](https://www.odoo.com/help). The support team is able to restore
 access using a support login.
 
 </div>
 
 To leave *Superuser mode*, log out of the account, by navigating to the
-upper-right corner, and clicking on the `OdooBot` username. Then, select
+upper-right corner, and clicking on the `Konvergo ERPBot` username. Then, select
 the `Log out` option.
 
 > [!TIP]

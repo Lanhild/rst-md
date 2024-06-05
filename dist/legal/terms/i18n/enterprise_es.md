@@ -1,4 +1,4 @@
-# Acuerdo de suscripción de Odoo Enterprise
+# Acuerdo de suscripción de Konvergo ERP Enterprise
 
 <div class="only">
 
@@ -12,11 +12,11 @@ PDF](https://www.odoo.com/documentation/%7BCURRENT_BRANCH%7D/odoo_enterprise_agr
 > [!NOTE]
 > Version 10a - 2022-10-27
 
-Al suscribirse a los servicios de Odoo Enterprise (en adelante “los
-Servicios”) proporcionados por Odoo SA y sus filiales (en adelante
-denominadas conjuntamente “Odoo SA”), relacionados con las versiones
-Odoo Enterprise o Odoo community (en adelante “el Software”) y alojados
-en los servidores de la nube de Odoo SA (en adelante “Servicio en la
+Al suscribirse a los servicios de Konvergo ERP Enterprise (en adelante “los
+Servicios”) proporcionados por Konvergo ERP SA y sus filiales (en adelante
+denominadas conjuntamente “Konvergo ERP SA”), relacionados con las versiones
+Konvergo ERP Enterprise o Konvergo ERP community (en adelante “el Software”) y alojados
+en los servidores de la nube de Konvergo ERP SA (en adelante “Servicio en la
 Nube”) o en servidores locales (en adelante “Auto-hospedaje”), usted (en
 adelante “el Cliente”) acepta los términos y condiciones establecidos a
 continuación (en adelante “el Acuerdo”).
@@ -44,20 +44,20 @@ Aplicación
 Una ‘Aplicación’ es un grupo especializado de funciones disponibles para
 ser instaladas en el Software.
 
-Partner de Odoo  
-Un ‘Partner’ de Odoo es una empresa o individuo externo a Odoo SA que
+Partner de Konvergo ERP  
+Un ‘Partner’ de Konvergo ERP es una empresa o individuo externo a Konvergo ERP SA que
 ofrece servicios relacionados con el Software, y quien ha sido
 seleccionado por el Cliente para trabajar directamente con él. En
 cualquier momento, el cliente puede decidir trabajar con un Partner
-diferente o con Odoo SA directamente (sujeto a previo aviso).
+diferente o con Konvergo ERP SA directamente (sujeto a previo aviso).
 
 Módulo Adicional  
 Un Módulo Adicional es un directorio de archivos de código fuente, o un
 conjunto de personalizaciones basadas en lenguaje de programación
-Python, creadas en una base de datos (por ejemplo, con Odoo Studio), que
+Python, creadas en una base de datos (por ejemplo, con Konvergo ERP Studio), que
 agrega características o cambia el comportamiento estándar de Software.
-Pueden haber sido desarrolladas por el Cliente, por Odoo SA, por un
-Partner de Odoo en nombre del Cliente o por terceros.
+Pueden haber sido desarrolladas por el Cliente, por Konvergo ERP SA, por un
+Partner de Konvergo ERP en nombre del Cliente o por terceros.
 
 Módulo Adicional Cubierto  
 Un Módulo Adicional Cubierto es un Módulo Adicional por el cual el
@@ -70,7 +70,7 @@ Adicional Cubierto que resulte en una parada completa, mensaje de error
 de fallo, o un fallo de seguridad, y que no es causado directamente por
 una instalación o configuración defectuosa. El incumplimiento de algunas
 especificaciones o requisitos será considerado como un Bug a la
-discreción de Odoo SA (por ejemplo, cuando el Software no cumple con el
+discreción de Konvergo ERP SA (por ejemplo, cuando el Software no cumple con el
 comportamiento ni los resultados para el cual fue diseñado, o cuando una
 característica específica del país deja de cumplir los requisitos
 legales de contabilidad).
@@ -90,15 +90,15 @@ escrito al concluir este Acuerdo.
 
 El Cliente puede hacer uso del Software alojado en la nube o instalar el
 Software en un servidor propio. La plataforma en la nube es ofrecida y
-administrada en su totalidad por Odoo SA, y el Cliente puede acceder a
+administrada en su totalidad por Konvergo ERP SA, y el Cliente puede acceder a
 ella de forma remota. Si el cliente elige la opción de instalar el
 Software en un servidor propio o un sistema informático de su elección,
-Odoo SA no tendrá control sobre el Software.
+Konvergo ERP SA no tendrá control sobre el Software.
 
-Durante la vigencia de este Acuerdo, Odoo SA le otorga al Cliente una
+Durante la vigencia de este Acuerdo, Konvergo ERP SA le otorga al Cliente una
 licencia no exclusiva e intransferible para usar (ejecutar, modificar,
 ejecutar después de las modificaciones) el Software, bajo los términos
-establecidos en el Anexo A: Licencia de la versión Enterprise de Odoo.
+establecidos en el Anexo A: Licencia de la versión Enterprise de Konvergo ERP.
 
 El Cliente acepta tomar todas las medidas necesarias para garantizar que
 no se modificará la parte del Software que ejecuta y verifica el uso y
@@ -107,18 +107,18 @@ la ejecución de una instancia, el número de usuarios, las aplicaciones
 instaladas y el número de líneas de códigos incluidas en los Módulos
 Adicionales Cubiertos.
 
-Odoo SA se compromete a no divulgar cifras individuales o mencionadas a
+Konvergo ERP SA se compromete a no divulgar cifras individuales o mencionadas a
 terceros sin el consentimiento del Cliente, y a tratar todos los datos
 recopilados de conformidad con la Política de Privacidad oficial
-publicada en [Odoo Privacy](https://www.odoo.com/privacy/)
+publicada en [Konvergo ERP Privacy](https://www.odoo.com/privacy/)
 
 Después de la expiración o terminación de este Acuerdo, la licencia
 concedida al Cliente será revocada inmediatamente y el Cliente acepta
-dejar de usar el Software, especialmente la versión Odoo Enterprise, y
+dejar de usar el Software, especialmente la versión Konvergo ERP Enterprise, y
 la plataforma en la nube.
 
 En caso de que exista algún incumplimiento por parte del Cliente a los
-términos de esta sección, el Cliente acuerda indemnizar a Odoo SA una
+términos de esta sección, el Cliente acuerda indemnizar a Konvergo ERP SA una
 cuota adicional equivalente al 300% del precio aplicable por el número
 actual de usuarios.
 
@@ -126,11 +126,11 @@ actual de usuarios.
 
 ### 4.1 Servicio de corrección de Bugs
 
-Durante la vigencia de este Acuerdo, Odoo SA se compromete a hacer todos
+Durante la vigencia de este Acuerdo, Konvergo ERP SA se compromete a hacer todos
 los esfuerzos razonables para remediar cualquier Bug presente en el
 Software y los Módulos Adicionales Cubiertos, que haya reportado el
 Cliente a través del medio apropiado (como el formulario del sitio web o
-vía llamada telefónica a los numeros enlistados en [Odoo
+vía llamada telefónica a los numeros enlistados en [Konvergo ERP
 Help](https://www.odoo.com/help/), o cuando se trabaja con un Partner a
 través del medio establecido por el Partner), y a manejar las
 solicitudes del Cliente dentro de 2 días hábiles posteriores a la
@@ -141,11 +141,11 @@ haya solucionado el Bug. En caso que el Cliente esté usando una versión
 cubierta, no se le pedirá que actualice el Software a una versión más
 reciente como solución a un Bug.
 
-Cuando se corrige un Bug de cualquiera de las versiones cubiertas, Odoo
+Cuando se corrige un Bug de cualquiera de las versiones cubiertas, Konvergo ERP
 SA se compromete a corregir el error en todas las versiones cubiertas
 más recientes del software.
 
-Las partes de este Acuerdo reconocen que Odoo SA no es responsable de
+Las partes de este Acuerdo reconocen que Konvergo ERP SA no es responsable de
 los Bugs en el Software o en los Módulos Adicionales Cubiertos de
 conformidad con lo establecido en la sección 7.3 de este Acuerdo y en la
 licencia del Software.
@@ -154,7 +154,7 @@ licencia del Software.
 
 #### Hospedaje en servidores propios
 
-Durante la vigencia de este Acuerdo, Odoo SA se compromete a enviar un
+Durante la vigencia de este Acuerdo, Konvergo ERP SA se compromete a enviar un
 “Aviso de Seguridad” al Cliente al identificar algún Bug de seguridad en
 las versiones cubiertas del Software (excluyendo módulos adicionales),
 al menos 2 semanas antes de hacer público el Aviso de Seguridad, al
@@ -171,10 +171,10 @@ hasta la fecha de publicación del Aviso de Seguridad.
 
 #### Plataforma en la nube
 
-En el momento que exista una medida de seguridad, Odoo SA se compromete
+En el momento que exista una medida de seguridad, Konvergo ERP SA se compromete
 a aplicar dicha medida de seguridad ante cualquier Bug que comprometa la
 seguridad del Software, siempre y cuando este Bug haya sido encontrado
-en la versión de Odoo Enterprise alojada en la nube y en todos los
+en la versión de Konvergo ERP Enterprise alojada en la nube y en todos los
 sistemas bajo el control de esta plataforma, sin requerir de alguna
 acción manual por parte del Cliente.
 
@@ -185,7 +185,7 @@ acción manual por parte del Cliente.
 Durante la vigencia de este Acuerdo, el Cliente puede solicitar la
 actualización de su versión del Software a través del medio apropiado
 (generalmente a través de la sección de servicios de actualizaciones del
-sitio web de Odoo SA), con la finalidad de actualizar la base de datos
+sitio web de Konvergo ERP SA), con la finalidad de actualizar la base de datos
 del Software que tiene a una versión más reciente de las versiones
 cubiertas (en adelante la “Versión Deseada”).
 
@@ -213,13 +213,13 @@ datos actualizada para detectar Bugs, analizar e impacto de los cambios
 y las nuevas funcionalidades implementadas en la Versión Deseada, y de
 convertir y adaptar cualquier extensión del Software desarrollada por
 terceros que haya sido instalada antes de la actualización a la Versión
-Deseada (por ejemplo, módulos adicionales sin mantenimiento de Odoo). El
+Deseada (por ejemplo, módulos adicionales sin mantenimiento de Konvergo ERP). El
 Cliente puede enviar múltiples solicitudes de actualización de una base
 de datos hasta que se haya logrado un resultado aceptable.
 
 ### 4.4 Servicios de alojamiento en la nube
 
-Si el Cliente decide alojar sus datos en la Plataforma en la Nube, Odoo
+Si el Cliente decide alojar sus datos en la Plataforma en la Nube, Konvergo ERP
 SA se compromete a proporcionar los siguientes servicios durante la
 vigencia de este Acuerdo:
 
@@ -248,41 +248,41 @@ estándares del Software y de los Módulos Adicionales Cubiertos.
 
 Otras solicitudes de asistencias como preguntas relacionadas con
 desarrollos o personalizaciones pueden ser cubiertas mediante otros
-servicios a contratar por parte de Odoo SA. En caso que no sea claro si
+servicios a contratar por parte de Konvergo ERP SA. En caso que no sea claro si
 una solicitud puede ser respondida por el Servicio de soporte, la
-decisión queda a discreción de Odoo SA.
+decisión queda a discreción de Konvergo ERP SA.
 
 #### Disponibilidad
 
 Los tickets de soporte pueden ser enviados a través del formulario en el
-sitio web o a los números de contacto que se encuentran en [Odoo
+sitio web o a los números de contacto que se encuentran en [Konvergo ERP
 Help](https://www.odoo.com/es_ES/help), o cuando se trabaje con un
 Partner, en el canal señalado por el Partner, sujeto a los horarios de
 apertura.
 
-### 4.6 Trabajar con un Partner de Odoo
+### 4.6 Trabajar con un Partner de Konvergo ERP
 
 Para la corrección de Bugs, soporte y servicios de actualización, el
-Cliente puede trabajar un Partner de Odoo como su principal punto de
-contacto, o directamente con Odoo SA.
+Cliente puede trabajar un Partner de Konvergo ERP como su principal punto de
+contacto, o directamente con Konvergo ERP SA.
 
-Odoo SA subcontratará los servicios relacionados a los Módulos
-Adicionales Cubiertos al Partner de Odoo, quien se convierte en el
+Konvergo ERP SA subcontratará los servicios relacionados a los Módulos
+Adicionales Cubiertos al Partner de Konvergo ERP, quien se convierte en el
 principal punto de contacto del Cliente en caso que el Cliente decida
-trabajar con un Partner de Odoo. El Partner de Odoo puede contactar a
-Odoo SA en nombre del Cliente para obtener asistencia de segundo nivel
+trabajar con un Partner de Konvergo ERP. El Partner de Konvergo ERP puede contactar a
+Konvergo ERP SA en nombre del Cliente para obtener asistencia de segundo nivel
 con respecto a las características estándar del Software.
 
-Si el cliente decide trabajar con Odoo SA directamente, los servicios
+Si el cliente decide trabajar con Konvergo ERP SA directamente, los servicios
 relacionados con los Módulos Adicionales Cubioertos serán cubiertos por
-Odoo SA siempre que el Cliente esté alojado en la plataforma de la nube
-de Odoo.
+Konvergo ERP SA siempre que el Cliente esté alojado en la plataforma de la nube
+de Konvergo ERP.
 
 ## 5 Cargos y Tarifas
 
 ### 5.1 Cargos estándares
 
-Los cargos estándares de la suscripción de Odoo Enterprise y los
+Los cargos estándares de la suscripción de Konvergo ERP Enterprise y los
 Servicios están basados en la cantidad de Usuarios y el Plan de
 Suscripción utilizado por el Cliente, y se especifican por escrito al
 concluir el Acuerdo.
@@ -310,7 +310,7 @@ ejecutar el software.
 
 Cuando el Cliente solicita una actualización, por cada Módulo Adicional
 Cubierto que no haya sido cubierto por los costos de mantenimiento
-durante los últimos 12 meses, Odoo SA puede cobrar una tarifa adicional
+durante los últimos 12 meses, Konvergo ERP SA puede cobrar una tarifa adicional
 única, por cada mes faltante de cobertura.
 
 ### 5.2 Cargos de renovación
@@ -326,7 +326,7 @@ Todas las tarifas y cargos son exclusivos de todos los impuestos,
 tarifas o cargos federales, provinciales, estatales, locales o
 gubernamentales aplicables (conjuntamente los “Impuestos”). El Cliente
 es responsable de pagar todos los Impuestos asociados con las compras
-realizadas por el Cliente en virtud de este Acuerdo, excepto cuando Odoo
+realizadas por el Cliente en virtud de este Acuerdo, excepto cuando Konvergo ERP
 SA esté legítimamente obligado a pagar o recolectar los Impuestos que el
 Cliente debe asumir.
 
@@ -336,24 +336,24 @@ Cliente debe asumir.
 
 El Cliente se compromete a:
 
-- Pagar a Odoo SA cualquier cargo aplicable por los Servicios del
+- Pagar a Konvergo ERP SA cualquier cargo aplicable por los Servicios del
   presente Acuerdo, según las condiciones de pago especificadas en la
   factura correspondiente;
-- Notificar inmediatamente a Odoo SA cuando su número real de Usarios
+- Notificar inmediatamente a Konvergo ERP SA cuando su número real de Usarios
   exceda la cantidad especificada al momento de la conclusión del
   Acuerdo, y en este caso, pagar la tarifa adicional aplicable como se
   describe en la sección `charges_standard_es`;
 - Tomar todas las medidas necesarias para garantizar la ejecución no
   modificada de la parte del Software que verifica la validez del uso de
-  Odoo Enterprise Edition, como se describe en la sección
+  Konvergo ERP Enterprise Edition, como se describe en la sección
   `enterprise_access_es`;
 - Designar a 1 persona de contacto dedicada del Cliente durante toda la
   duración del Acuerdo;
 - Designar a 1 persona de contacto que se dedique al Cliente a lo largo
   de la Duración del Acuerdo;
-- Notificar por escrito a Odoo SA 30 días antes de cambiar el punto
-  principal de contacto para trabajar con otro Partner de Odoo o
-  directamente con Odoo SA
+- Notificar por escrito a Konvergo ERP SA 30 días antes de cambiar el punto
+  principal de contacto para trabajar con otro Partner de Konvergo ERP o
+  directamente con Konvergo ERP SA
 
 Cuando el Cliente elige usar la Plataforma en la nube, el Cliente
 acuerda además:
@@ -371,10 +371,10 @@ además:
 
 - Tomar todas las medidas razonables para proteger los archivos y las
   bases de datos del Cliente y para garantizar que los datos del Cliente
-  sean seguros y estén protegidos, reconociendo que Odoo SA no se hace
+  sean seguros y estén protegidos, reconociendo que Konvergo ERP SA no se hace
   responsable de ninguna pérdida de datos
-- Otorgar a Odoo SA el acceso necesario para verificar la validez de la
-  Edición Enterprise de Odoo uso a solicitud (por ejemplo, si la
+- Otorgar a Konvergo ERP SA el acceso necesario para verificar la validez de la
+  Edición Enterprise de Konvergo ERP uso a solicitud (por ejemplo, si la
   validación automática no es válida para el Cliente).
 
 ### 6.2 No solicitar o contratar
@@ -437,22 +437,22 @@ Proteccion de Datos”).
 
 Las Partes reconocen que la base de datos del Cliente puede contener
 Datos Personales, de los cuales el Cliente es el Responsable del
-tratamiento. Esta data será procesada por Odoo SA cuando el Cliente lo
+tratamiento. Esta data será procesada por Konvergo ERP SA cuando el Cliente lo
 indique, al usar cualquiera de los Servicios que requieran una base de
 datos (por ejemplo, el servicio de hospedaje en la nube o los servicios
 de actualizaciones), o si el Cliente transfiere su base de datos o una
-parte de su base de datos a Odoo SA por cualquier motivo relacionado con
+parte de su base de datos a Konvergo ERP SA por cualquier motivo relacionado con
 este Acuerdo.
 
 Este procesamiento se realizará de conformidad con la legislación de
-protección de datos. En particular, Odoo SA se compromete a:
+protección de datos. En particular, Konvergo ERP SA se compromete a:
 
 - \(a\) Solo procesar los datos personales cuando y como lo indique el
   Cliente, y para elp ropósito de realizar uno de los Servicios en
   virtud de este Acuerdo, a menos que sea requerido por la ley, en cuyo
-  caso, Odoo SA proporcionará un aviso previo al Cliente, a menos que la
+  caso, Konvergo ERP SA proporcionará un aviso previo al Cliente, a menos que la
   ley lo prohíba;
-- \(b\) garantizar que todas las personas dentro de Odoo SA” autorizadas
+- \(b\) garantizar que todas las personas dentro de Konvergo ERP SA” autorizadas
   para procesar los Datos personales estén comprometidos con la
   confidencialidad;
 - \(c\) implementar y mantener medidas técnicas y organizativas
@@ -460,42 +460,42 @@ protección de datos. En particular, Odoo SA se compromete a:
   no autorizado o ilegal y contra la pérdida accidental, destrucción,
   daño, robo, alteración o divulgación;
 - \(d\) enviará sin demora al Cliente cualquier solicitud de protección
-  de datos que se haya enviado a Odoo SA con respecto a la base de datos
+  de datos que se haya enviado a Konvergo ERP SA con respecto a la base de datos
   del Cliente;
 - \(e\) notificar al Cliente inmediatamente al momento de conocer y
   confirmar cualquier accidente, el procesamiento no autorizado o ilegal
   de, la divulgación o el acceso a los datos personales;
 - \(f\) notificar al Cliente si las instrucciones de procesamiento
   infringen la Protección de datos aplicables a la legislación, en
-  opinión de Odoo SA;
+  opinión de Konvergo ERP SA;
 - \(g\) poner a disposición del Cliente toda la información necesaria
   para demostrar el cumplimiento con la legislación de protección de
   datos, permitir y contribuir razonablemente a las auditorías,
   incluidas las inspecciones, realizadas o exigidas por el Cliente;
 - \(h\) eliminar permanentemente todas las copias de la base de datos
-  del Cliente en posesión de Odoo SA, o devolver dichos datos, a
+  del Cliente en posesión de Konvergo ERP SA, o devolver dichos datos, a
   elección del Cliente, a la terminación de este Acuerdo, sujeto a los
-  retrasos especificados en la Política de privacidad de Odoo SA
+  retrasos especificados en la Política de privacidad de Konvergo ERP SA
   ([Privacy](https://www.odoo.com/privacy)).
 
 En relación a los puntos (d) y (f), el Cliente acepta proporcionar a
-Odoo SA información de contacto precisa en todo momento, según sea
+Konvergo ERP SA información de contacto precisa en todo momento, según sea
 necesario para notificar al responsable de la Legislación de Protección
 de Datos del Cliente.
 
 #### Sub procesadores
 
-El Cliente reconoce y acepta que, para proporcionar los Servicios, Odoo
+El Cliente reconoce y acepta que, para proporcionar los Servicios, Konvergo ERP
 SA puede utilizar a terceros como proveedores de servicios para procesar
-Datos Personales (en adelante “Sub-procesadores”). Odoo SA se compromete
+Datos Personales (en adelante “Sub-procesadores”). Konvergo ERP SA se compromete
 a utilizar Sub-procesadores únicamente de conformidad con la Legislación
 de Protección de Datos. Este uso estará amparado bajo un contrato entre
-Odoo SA y el Sub-procesador que de garantías para estos servicios.
+Konvergo ERP SA y el Sub-procesador que de garantías para estos servicios.
 
-La Política de privacidad de Odoo SA, publicada en [Odoo
+La Política de privacidad de Konvergo ERP SA, publicada en [Konvergo ERP
 Privacy](https://www.odoo.com/privacy) establece información actualizada
 en relación a los nombres y propósitos de los Sub-procesadores que se
-encuentran actualmente en uso por Odoo SA para la ejecución de los
+encuentran actualmente en uso por Konvergo ERP SA para la ejecución de los
 Servicios.
 
 ### 6.6 Terminación
@@ -507,7 +507,7 @@ contados a partir de la fecha de notificación escrita de dicho
 incumplimiento, este Acuerdo se considerará como terminado
 inmediatamente por la Parte que ha cumplido sus obligaciones.
 
-De igual manera, Odoo SA puede terminar el Acuerdo inmediatamente si el
+De igual manera, Konvergo ERP SA puede terminar el Acuerdo inmediatamente si el
 Cliente no cumple con su obligación de pago del Servicio dentro de los
 21 días siguientes a la fecha de la respectiva facturación, y después de
 haber emitido al menos 3 recordatorios de pago.
@@ -521,12 +521,12 @@ presente Acuerdo.
 
 ### 7.1 Garantías
 
-Odoo SA posee los derechos de autor o un equivalente[^1] sobre el 100%
-del código del Software. Odoo SA confirma que todas las bibliotecas de
+Konvergo ERP SA posee los derechos de autor o un equivalente[^1] sobre el 100%
+del código del Software. Konvergo ERP SA confirma que todas las bibliotecas de
 software necesarias para el uso del Software están disponibles bajo una
 licencia compatible con la licencia del Software.
 
-Durante la vigencia del presente Acuerdo, Odoo SA se compromete a
+Durante la vigencia del presente Acuerdo, Konvergo ERP SA se compromete a
 emplear esfuerzos comercialmente razonables para ejecutar los Servicios
 de conformidad con los estándares de la industria generalmente
 aceptados, siempre que:
@@ -536,17 +536,17 @@ aceptados, siempre que:
   será instalado en un ambiente adecuado y operativo;
 - El Cliente brindará información pertinente para la resolución de
   problemas y, para el alojamiento en servidores propios, cualquier
-  acceso que Odoo SA pueda necesitar para identificar, reproducir y
+  acceso que Konvergo ERP SA pueda necesitar para identificar, reproducir y
   solventar los problemas;
-- Todas las cantidades debidas a Odoo SA hayan sido pagadas.
+- Todas las cantidades debidas a Konvergo ERP SA hayan sido pagadas.
 
-Odoo SA está obligado únicamente a reanudar la ejecución de los
-Servicios sin cargos adicionales en caso que Odoo SA incumpla alguna de
+Konvergo ERP SA está obligado únicamente a reanudar la ejecución de los
+Servicios sin cargos adicionales en caso que Konvergo ERP SA incumpla alguna de
 las garantías establecidas. Este será el único y exclusivo recurso que
 el Cliente podrá usar.
 
 Contribuciones externas son cubiertas por el Acuerdo de Licencia de
-Derechos de Autor, el cual provee a Odoo SA una licencia de derechos de
+Derechos de Autor, el cual provee a Konvergo ERP SA una licencia de derechos de
 autor y de patente permanente, gratis e irrevocable.
 
 ### 7.2 Aviso legal
@@ -558,7 +558,7 @@ garantía implícita, tal y como garantías de comercialización, idóneas
 para un propósito especifico o de no cumplimiento, en la medida máxima
 permitida por la ley aplicable.
 
-Odoo SA no garantiza que el Software cumpla con leyes o regulaciones
+Konvergo ERP SA no garantiza que el Software cumpla con leyes o regulaciones
 locales o internacionales.
 
 ### 7.3 Limitación de responsabilidad
@@ -616,13 +616,13 @@ comprometen a reemplazar cualquier provisión inválida, ilegal o
 inaplicable de este Acuerdo por una provisión válida que tenga el mismo
 efecto y objetivo.
 
-## 9 Apéndice A: Licencia de Odoo Enterprise Edition
+## 9 Apéndice A: Licencia de Konvergo ERP Enterprise Edition
 
 <div class="only">
 
 latex
 
-La versión Enterprise de Odoo tiene la licencia Odoo Enterprise Edition
+La versión Enterprise de Konvergo ERP tiene la licencia Konvergo ERP Enterprise Edition
 v1.0, la cual es definida de la siguiente manera:
 
 > <div class="literalinclude">
@@ -644,4 +644,4 @@ Ver `odoo_enterprise_license`.
 [^1]: Las contribuciones externas están cubiertas por un [acuerdo de
     licencia de derechos de autor](https://www.odoo.com/cla), que
     proporciona una licencia de derechos de autor y patente permanente,
-    gratuita e irrevocable a Odoo SA.
+    gratuita e irrevocable a Konvergo ERP SA.

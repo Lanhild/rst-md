@@ -1,7 +1,7 @@
 # Generate leads/opportunities
 
 Two key ways to generate new leads or opportunities for your business
-are through email aliases and website contact forms. Odoo automatically
+are through email aliases and website contact forms. Konvergo ERP automatically
 creates leads in your CRM whenever someone sends a message to a Sales
 Team email alias or fills out a contact form on your website.
 
@@ -20,7 +20,7 @@ alt="Configuring Sales Teams" />
 
 ## Use Contact Forms on your website
 
-By default, your website's *Contact Us* page displays Odoo's
+By default, your website's *Contact Us* page displays Konvergo ERP's
 ready-to-use Contact Form. Whenever someone submits this form, a lead or
 an opportunity is generated in your database.
 
@@ -63,7 +63,7 @@ alt="Form Builder building blocks" />
 
 > [!TIP]
 > Forms can be created from scratch to serve a wide variety of purposes.
-> However, Odoo's default *Contact Us* page is designed to fit most
+> However, Konvergo ERP's default *Contact Us* page is designed to fit most
 > users' needs. Start with the default form and modify from there.
 
 ### Edit Contact Form fields

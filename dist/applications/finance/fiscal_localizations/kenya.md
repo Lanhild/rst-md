@@ -19,7 +19,7 @@ package to be able to report your taxes to the **Kenya Revenue Authority
 | `Kenya Tremol Device EDI Integration` | <span class="title-ref">l10n_ke_edi_tremol</span> | Installing this module integrates with the Kenyan G03 Tremol control unit device to report taxes to KRA through TIMS. |
 
 <img src="kenya/modules.png" class="align-center"
-alt="The three modules for the Kenya Fiscal Localization Package on Odoo" />
+alt="The three modules for the Kenya Fiscal Localization Package on Konvergo ERP" />
 
 ## Kenyan TIMS integration
 
@@ -31,7 +31,7 @@ compliance through standardization, validation, and transmission of
 invoices to KRA on a real-time or near real-time basis.
 
 All VAT-registered taxpayers should use a **compliant tax register**.
-Odoo decided to develop the integration of the **Tremol G03 Control Unit
+Konvergo ERP decided to develop the integration of the **Tremol G03 Control Unit
 (type C)**, which can be run locally through USB. This device validates
 invoices to ensure financial documents meet the new regulations and send
 the validated tax invoices directly to KRA. Installing a proxy server
@@ -47,9 +47,9 @@ alt="Install the Proxy Server on a Windows device" />
 
 Once it is loaded on your computer, a wizard opens. You have to read and
 agree with the terms of the agreement. On the next page, select the
-`type of install: Odoo IoT`. Then, click `Next` and `Install`. Once
-completed, click `Next`. Check the `Start Odoo` box to be redirected to
-Odoo automatically, and then click `Finish`.
+`type of install: Konvergo ERP IoT`. Then, click `Next` and `Install`. Once
+completed, click `Next`. Check the `Start Konvergo ERP` box to be redirected to
+Konvergo ERP automatically, and then click `Finish`.
 
 A new page opens, confirming your
 `IoT Box <../../general/iot/config/connect>` is up and running. Connect

@@ -1,7 +1,7 @@
 # Locations
 
 A *location* is a specific space within a warehouse. This can be a
-shelf, room, aisle, etc. There are three types of locations in Odoo:
+shelf, room, aisle, etc. There are three types of locations in Konvergo ERP:
 
 - *Physical locations* are spaces within a warehouse owned by the user's
   company. These can be a an area where items are stored like an aisle

@@ -1,6 +1,6 @@
 # Payment providers
 
-Odoo supports a multitude of online
+Konvergo ERP supports a multitude of online
 `payment providers </applications/finance/payment_providers>` for your
 website, allowing your customers to pay with their preferred payment
 methods.

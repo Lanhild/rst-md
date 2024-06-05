@@ -15,7 +15,7 @@ have been `Clicked`, and more.
 
 <img src="understanding_metrics/activity-analytics-block-sample.png"
 class="align-center"
-alt="An activity block in the workflow section with useful analytical data in Odoo." />
+alt="An activity block in the workflow section with useful analytical data in Konvergo ERP." />
 
 To the left of the activity block, the configured `trigger time
 <../getting_started/workflow_activities>` is displayed as a duration
@@ -31,7 +31,7 @@ period after the workflow begins.
 >
 > <img src="understanding_metrics/replied-after-activity-time-trigger.png"
 > class="align-center"
-> alt="Time trigger display when dependent on another activity in Odoo Marketing Automation." />
+> alt="Time trigger display when dependent on another activity in Konvergo ERP Marketing Automation." />
 
 In the activity block, an icon represents each activity type. An
 `✉️ (envelope)` icon means the activity is an email. Three tiny,
@@ -73,7 +73,7 @@ are shown to the right of the line graph.
 >
 > <img src="understanding_metrics/graph-breakdown-data.png"
 > class="align-center"
-> alt="Hovering over any point in line graph reveals notated breakdown of data in Odoo." />
+> alt="Hovering over any point in line graph reveals notated breakdown of data in Konvergo ERP." />
 
 Beneath the graph in the activity block, for *Email* or *SMS* activity
 types, a line of accessible data figures provide a bird's eye view of
@@ -92,7 +92,7 @@ open a `Filter` tab (represented by a `filter/funnel` icon).
 
 <img src="understanding_metrics/activity-filter-tab.png"
 class="align-center"
-alt="What a campaign activity filter tab looks like in Odoo Marketing Automation." />
+alt="What a campaign activity filter tab looks like in Konvergo ERP Marketing Automation." />
 
 Clicking the `Filter` tab on an activity block, reveals what the
 specific filters are for that particular campaign activity, and how many
@@ -105,7 +105,7 @@ records in the database match that specific criteria.
 
 ## Link tracker
 
-Odoo tracks all URLs used in marketing campaigns. To access and analyze
+Konvergo ERP tracks all URLs used in marketing campaigns. To access and analyze
 those URLs, navigate to
 `Marketing Automation app --> Reporting --> Link Tracker`. Doing so
 reveals a `Link Statistics` page, wherein all campaign-related URLs can
@@ -113,7 +113,7 @@ be analyzed.
 
 <img src="understanding_metrics/campaign-link-tracker.png"
 class="align-center"
-alt="What a campaign activity filter tab looks like in Odoo Marketing Automation." />
+alt="What a campaign activity filter tab looks like in Konvergo ERP Marketing Automation." />
 
 The default view on the `Link Statistics` page is the `Bar Chart` view,
 but there are different view options available in the upper-left corner.
@@ -137,14 +137,14 @@ view.
 
 ## Traces
 
-Odoo tracks all activities used in every marketing campaign. The data
+Konvergo ERP tracks all activities used in every marketing campaign. The data
 related to these activities can be accessed and analyzed in the `Traces`
 page, which can be found by navigating to
 `Marketing Automation app --> Reporting --> Traces`.
 
 <img src="understanding_metrics/traces-page-marketing-automation.png"
 class="align-center"
-alt="The Traces page in the Odoo Marketing Automation application." />
+alt="The Traces page in the Konvergo ERP Marketing Automation application." />
 
 The default view on the `Traces` page is the `Bar Chart` view, but there
 are different view options available in the upper-left corner. There is
@@ -172,7 +172,7 @@ view.
 
 ## Participants
 
-Odoo tracks all participants related to every marketing campaign. The
+Konvergo ERP tracks all participants related to every marketing campaign. The
 data related to these participants can be accessed and analyzed in the
 `Participants` page, which can be found by navigating to
 `Marketing Automation app --> Reporting --> Participants`.
@@ -180,7 +180,7 @@ data related to these participants can be accessed and analyzed in the
 <img
 src="understanding_metrics/participants-page-marketing-automation.png"
 class="align-center"
-alt="The Participants page in the Odoo Marketing Automation application." />
+alt="The Participants page in the Konvergo ERP Marketing Automation application." />
 
 The default view on the `Participants` page is the `Pie Chart` view, but
 there are different view options available in the upper-left corner.

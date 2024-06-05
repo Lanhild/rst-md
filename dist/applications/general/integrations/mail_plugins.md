@@ -8,12 +8,12 @@ mail_plugins/outlook mail_plugins/gmail
 
 </div>
 
-Mail Plugins are connectors that bridge your mailbox with your Odoo
-database. With them, you can interact with your Odoo database directly
+Mail Plugins are connectors that bridge your mailbox with your Konvergo ERP
+database. With them, you can interact with your Konvergo ERP database directly
 from your mailbox by:
 
 - Creating leads and centralizing prospects' emails into the CRM app.
-- Generating tasks in any Odoo project.
+- Generating tasks in any Konvergo ERP project.
 - Creating tickets in the Helpdesk app.
 - Searching and storing insights on your contacts.
 
@@ -50,7 +50,7 @@ package.
 
 <div class="seealso">
 
-\- `../../essentials/in_app_purchase` - [Odoo Tutorials: Lead
+\- `../../essentials/in_app_purchase` - [Konvergo ERP Tutorials: Lead
 Enrichment](https://www.odoo.com/r/p73)
 
 </div>

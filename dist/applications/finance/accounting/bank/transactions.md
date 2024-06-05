@@ -18,7 +18,7 @@ supported, other options exist:
 
 ## Import transactions
 
-Odoo supports multiple file formats to import transactions:
+Konvergo ERP supports multiple file formats to import transactions:
 
 - SEPA recommended Cash Management format (CAMT.053);
 - Comma-separated values (.CSV);
@@ -34,7 +34,7 @@ journal, click on `Import Transactions`.
 Next, select the file and upload it.
 
 After setting the necessary formatting options and mapping the file
-columns with their related Odoo fields, you can run a `Test` and
+columns with their related Konvergo ERP fields, you can run a `Test` and
 `Import` your bank transactions.
 
 <div class="seealso">
@@ -57,7 +57,7 @@ A **bank statement** is a document provided by a bank or financial
 institution that lists the transactions that have occurred in a
 particular bank account over a specified period of time.
 
-In Odoo Accounting, it is optional to group transactions by their
+In Konvergo ERP Accounting, it is optional to group transactions by their
 related statement, but depending on your business flow, you may want to
 record them for control purposes.
 

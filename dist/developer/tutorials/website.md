@@ -25,19 +25,19 @@ Warning
 
 - This guide assumes [basic knowledge of
   Python](http://docs.python.org/2/tutorial/)
-- This guide assumes `an installed Odoo </administration/on_premise>`
+- This guide assumes `an installed Konvergo ERP </administration/on_premise>`
 
 </div>
 
 ## Creating a basic module
 
-In Odoo, tasks are performed by creating modules.
+In Konvergo ERP, tasks are performed by creating modules.
 
-Modules customize the behavior of an Odoo installation, either by adding
+Modules customize the behavior of an Konvergo ERP installation, either by adding
 new behaviors or by altering existing ones (including behaviors added by
 other modules).
 
-`Odoo's scaffolding <reference/cmdline/scaffold>` can setup a basic
+`Konvergo ERP's scaffolding <reference/cmdline/scaffold>` can setup a basic
 module. To quickly get started simply invoke:
 
 ``` console
@@ -55,7 +55,7 @@ We have a "complete" module ready for installation.
 
 Although it does absolutely nothing we can install it:
 
-- start the Odoo server
+- start the Konvergo ERP server
 
   ``` console
   $ ./odoo-bin --addons-path addons,my-modules
@@ -78,7 +78,7 @@ Although it does absolutely nothing we can install it:
 send data back.
 
 Add a simple controller and ensure it is imported by `__init__.py` (so
-Odoo can find it):
+Konvergo ERP can find it):
 
 ``` python
 # -*- coding: utf-8 -*-
@@ -110,7 +110,7 @@ Generating HTML in Python isn't very pleasant.
 
 The usual solution is
 [templates](https://en.wikipedia.org/wiki/Web_template),
-pseudo-documents with placeholders and display logic. Odoo allows any
+pseudo-documents with placeholders and display logic. Konvergo ERP allows any
 Python templating system, but provides its own `QWeb <reference/qweb>`
 templating system which integrates with other features.
 
@@ -144,12 +144,12 @@ class Academy(http.Controller):
 The templates iterates (`t-foreach`) on all the teachers (passed through
 the *template context*), and prints each teacher in its own paragraph.
 
-Finally restart Odoo and update the module's data (to install the
+Finally restart Konvergo ERP and update the module's data (to install the
 template) by going to `Settings --> Modules --> Modules -->
 Academy` and clicking `Upgrade`.
 
 > [!TIP]
-> Alternatively, Odoo can be restarted `and update modules at
+> Alternatively, Konvergo ERP can be restarted `and update modules at
 > the same time<odoo-bin -u>`:
 >
 > ``` console
@@ -160,9 +160,9 @@ Going to <http://localhost:8069/academy/academy/> should now result in:
 
 ![image](website/basic-list.png)
 
-## Storing data in Odoo
+## Storing data in Konvergo ERP
 
-`Odoo models <reference/orm/model>` map to database tables.
+`Konvergo ERP models <reference/orm/model>` map to database tables.
 
 In the previous section we just displayed a list of string entered
 statically in the Python code. This doesn't allow modifications or
@@ -284,9 +284,9 @@ identifier for the teacher).
 
 ## Website support
 
-Odoo bundles a module dedicated to building websites.
+Konvergo ERP bundles a module dedicated to building websites.
 
-So far we've used controllers fairly directly, but Odoo 8 added deeper
+So far we've used controllers fairly directly, but Konvergo ERP 8 added deeper
 integration and a few other services (e.g. default styling, theming) via
 the `website` module.
 
@@ -348,7 +348,7 @@ The website layout also provides support for editing tools: click
 `Sign In` (in the top-right), fill the credentials in (`admin` / `admin`
 by default) then click `Log In`.
 
-You're now in Odoo "proper": the administrative interface. For now click
+You're now in Konvergo ERP "proper": the administrative interface. For now click
 on the `Website` menu item (top-left corner.
 
 We're back in the website but as an administrator, with access to
@@ -381,7 +381,7 @@ def teacher(self, name):
     return '<h1>{}</h1>'.format(name)
 ```
 
-restart Odoo, access <http://localhost:8069/academy/Alice/> and
+restart Konvergo ERP, access <http://localhost:8069/academy/Alice/> and
 <http://localhost:8069/academy/Bob/> and see the difference.
 
 As the name indicates, [converter
@@ -395,13 +395,13 @@ def teacher(self, id):
     return '<h1>{} ({})</h1>'.format(id, type(id).__name__)
 ```
 
-Restart Odoo, access <http://localhost:8069/academy/2>, note how the old
+Restart Konvergo ERP, access <http://localhost:8069/academy/2>, note how the old
 value was a string, but the new one was converted to an integers. Try
 accessing <http://localhost:8069/academy/Carol/> and note that the page
 was not found: since "Carol" is not an integer, the route was ignored
 and no route could be found.
 
-Odoo provides an additional converter called `model` which provides
+Konvergo ERP provides an additional converter called `model` which provides
 records directly when given their id. Let's use this to create a generic
 page for teacher biographies:
 
@@ -448,7 +448,7 @@ then change the list of model to link to our new controller:
 </template>
 ```
 
-Restart Odoo and upgrade the module, then you can visit each teacher's
+Restart Konvergo ERP and upgrade the module, then you can visit each teacher's
 page. As an exercise, try adding blocks to a teacher's page to write a
 biography, then go to another teacher's page and so forth. You will
 discover, that your biography is shared between all teachers, because
@@ -485,7 +485,7 @@ class Teachers(models.Model):
 </template>
 ```
 
-Restart Odoo and update the views, reload the teacher's page and… the
+Restart Konvergo ERP and update the views, reload the teacher's page and… the
 field is invisible since it contains nothing.
 
 <div class="todo">
@@ -508,7 +508,7 @@ interfaces. Change the *person* template to use `t-field`:
 </div>
 ```
 
-Restart Odoo and upgrade the module, there is now a placeholder under
+Restart Konvergo ERP and upgrade the module, there is now a placeholder under
 the teacher's name and a new zone for blocks in `Edit` mode. Content
 dropped there is stored in the corresponding teacher's `biography`
 field, and thus specific to that teacher.
@@ -557,28 +557,28 @@ or a relative display:
 
 ## Administration and ERP integration
 
-### A brief and incomplete introduction to the Odoo administration
+### A brief and incomplete introduction to the Konvergo ERP administration
 
-The Odoo administration was briefly seen during the [website
+The Konvergo ERP administration was briefly seen during the [website
 support](#website-support) section. We can go back to it using
 `Administrator --> Administrator` in the menu (or `Sign In` if you're
 signed out).
 
-The conceptual structure of the Odoo backend is simple:
+The conceptual structure of the Konvergo ERP backend is simple:
 
 1.  first are menus, a tree (menus can have sub-menus) of records. Menus
     without children map to…
-2.  actions. Actions have various types: links, reports, code which Odoo
+2.  actions. Actions have various types: links, reports, code which Konvergo ERP
     should execute or data display. Data display actions are called
-    *window actions*, and tell Odoo to display a given *model* according
+    *window actions*, and tell Konvergo ERP to display a given *model* according
     to a set of views…
 3.  a view has a type, a broad category to which it corresponds (a list,
     a graph, a calendar) and an *architecture* which customises the way
     the model is displayed inside the view.
 
-### Editing in the Odoo administration
+### Editing in the Konvergo ERP administration
 
-By default, an Odoo model is essentially invisible to a user. To make it
+By default, an Konvergo ERP model is essentially invisible to a user. To make it
 visible it must be available through an action, which itself needs to be
 reachable, generally through a menu.
 
@@ -616,7 +616,7 @@ to `Create` new teacher records, and to switch to the "form" by-record
 view.
 
 If there is no definition of how to present records (a
-`view <reference/views>`) Odoo will automatically create a basic one
+`view <reference/views>`) Konvergo ERP will automatically create a basic one
 on-the-fly. In our case it works for the "list" view for now (only
 displays the teacher's name) but in the "form" view the HTML `biography`
 field is displayed side-by-side with the `name` field and not given
@@ -758,11 +758,11 @@ class Courses(models.Model):
 
 ### Discussions and notifications
 
-Odoo provides technical models, which don't directly fulfill business
+Konvergo ERP provides technical models, which don't directly fulfill business
 needs but which add capabilities to business objects without having to
 build them by hand.
 
-One of these is the *Chatter* system, part of Odoo's email and messaging
+One of these is the *Chatter* system, part of Konvergo ERP's email and messaging
 system, which can add notifications and discussion threads to any model.
 The model simply has to `~odoo.models.Model._inherit` `mail.thread`, and
 add the `message_ids` field to its form view to display the discussion
@@ -815,9 +815,9 @@ unfollow discussions linked to specific courses.
 
 ### Selling courses
 
-Odoo also provides business models which allow using or opting in
+Konvergo ERP also provides business models which allow using or opting in
 business needs more directly. For instance the `website_sale` module
-sets up an e-commerce site based on the products in the Odoo system. We
+sets up an e-commerce site based on the products in the Konvergo ERP system. We
 can easily make course subscriptions sellable by making our courses
 specific kinds of products.
 
@@ -838,7 +838,7 @@ both products (via `sale`) and the ecommerce interface:
 'data': [
 ```
 
-restart Odoo, update your module, there is now a `Shop` section in the
+restart Konvergo ERP, update your module, there is now a `Shop` section in the
 website, listing a number of pre-filled (via demonstration data)
 products.
 

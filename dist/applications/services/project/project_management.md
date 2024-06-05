@@ -1,6 +1,6 @@
 # Project management
 
-Odoo Project uses the **Kanban** project management system. This means
+Konvergo ERP Project uses the **Kanban** project management system. This means
 all projects are broken down into tasks, which are categorized on a
 whiteboard according to what production phase they are in.
 
@@ -15,7 +15,7 @@ management method.
 
 <div class="seealso">
 
-[Odoo Tutorials: Kanban Project
+[Konvergo ERP Tutorials: Kanban Project
 Management](https://www.odoo.com/slides/slide/kanban-project-management-1664)
 
 </div>
@@ -60,7 +60,7 @@ class="align-center" alt="Project settings" />
 
 <div class="seealso">
 
-[Odoo Tutorials: Customize
+[Konvergo ERP Tutorials: Customize
 projects](https://www.odoo.com/slides/slide/customize-projects-3615?fullscreen=1)
 
 </div>

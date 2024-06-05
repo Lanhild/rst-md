@@ -10,7 +10,7 @@ show-toc
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Field
+\- [Konvergo ERP Tutorials: Field
 Service](https://www.odoo.com/slides/field-service-49)
 
 </div>

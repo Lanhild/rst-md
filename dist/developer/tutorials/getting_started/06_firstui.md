@@ -33,10 +33,10 @@ file. Actions and menus are standard records in the database.
 
 > [!NOTE]
 > When performance is important, the CSV format is preferred over the
-> XML format. This is the case in Odoo where loading a CSV file is
+> XML format. This is the case in Konvergo ERP where loading a CSV file is
 > faster than loading an XML file.
 
-In Odoo, the user interface (actions, menus and views) is largely
+In Konvergo ERP, the user interface (actions, menus and views) is largely
 defined by creating and composing records defined in an XML file. A
 common pattern is Menu \> Action \> View. To access records the user
 navigates through several menu levels; the deepest level is an action
@@ -90,7 +90,7 @@ A basic action for our <span class="title-ref">test_model</span> is:
   `later <tutorials/getting_started/15_qwebintro>` that there can be
   other view modes.
 
-Examples can be found everywhere in Odoo, but
+Examples can be found everywhere in Konvergo ERP, but
 [this](https://github.com/odoo/odoo/blob/09c59012bf80d2ccbafe21c39e604d6cfda72924/addons/crm/views/crm_lost_reason_views.xml#L57-L70)
 is a good example of a simple action. Pay attention to the structure of
 the XML data file since you will need it in the following exercise.
@@ -144,7 +144,7 @@ action can be seen as the link between the menu and the model.
 However, menus always follow an architecture, and in practice there are
 three levels of menus:
 
-1.  The root menu, which is displayed in the App switcher (the Odoo
+1.  The root menu, which is displayed in the App switcher (the Konvergo ERP
     Community App switcher is a dropdown menu)
 
 2.  The first level menu, displayed in the top bar
@@ -204,7 +204,7 @@ property advertisement!
 
 So far we have only used the generic view for our real estate property
 advertisements, but in most cases we want to fine tune the view. There
-are many fine-tunings possible in Odoo, but usually the first step is to
+are many fine-tunings possible in Konvergo ERP, but usually the first step is to
 make sure that:
 
 - some fields have a default value

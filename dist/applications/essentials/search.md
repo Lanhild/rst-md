@@ -1,6 +1,6 @@
 # Search and filter records
 
-Odoo uses filters to include only the most relevant records depending on
+Konvergo ERP uses filters to include only the most relevant records depending on
 the purpose of the view you are on. However, you can edit the default
 filter or search for specific values.
 

@@ -1,6 +1,6 @@
 # Marketing automation campaigns
 
-The Odoo *Marketing Automation* app automates a variety of marketing
+The Konvergo ERP *Marketing Automation* app automates a variety of marketing
 tasks by combining specific rules and filters to generate timed actions.
 Instead of manually having to build each stage of a campaign (like a
 series of timed massmails), the *Marketing Automation* app allows
@@ -15,13 +15,13 @@ To create a new automated marketing campaign, navigate to
 
 <img src="first_campaign/blank-marketing-campaign-form.png"
 class="align-center"
-alt="A blank marketing automation campaign form in Odoo Marketing Automation application." />
+alt="A blank marketing automation campaign form in Konvergo ERP Marketing Automation application." />
 
 After entering a name for the marketing campaign, configure the target
 audience in the remaining fields.
 
 A target audience can be configured by entering specific criteria for
-Odoo to use when determining to whom this marketing automation campaign
+Konvergo ERP to use when determining to whom this marketing automation campaign
 should be sent.
 
 In the `Target` field, use the drop-down menu to choose which model the
@@ -39,7 +39,7 @@ field is used to avoid duplicates based on the model chosen in the
 <div class="example">
 
 If `Customers` is chosen as the `Target`, select `Email` in the
-`Unicity based on` field so Odoo only processes one record for each
+`Unicity based on` field so Konvergo ERP only processes one record for each
 customer email address.
 
 </div>
@@ -53,7 +53,7 @@ narrow the number and type of recipients that receive the marketing
 automation material.
 
 If left alone, the `Filter` field reads: `Match all records`. That means
-Odoo uses the `Target` and `Unicity based on` fields to determine who
+Konvergo ERP uses the `Target` and `Unicity based on` fields to determine who
 the recipients will be. The number of recipients is represented beneath
 as `record(s)`.
 
@@ -64,13 +64,13 @@ the `Add
 condition` button in the `Filter` field. Doing so reveals a series of
 other configurable filter rule fields.
 
-In the rule fields, customizable equations can be configured for Odoo to
+In the rule fields, customizable equations can be configured for Konvergo ERP to
 use when filtering who to include or exclude in this specific marketing
 campaign.
 
 <img src="first_campaign/filter-node-equation-fields.png"
 class="align-center"
-alt="How the filter rule equation fields look in Odoo Marketing Automation campaigns." />
+alt="How the filter rule equation fields look in Konvergo ERP Marketing Automation campaigns." />
 
 > [!NOTE]
 > `Records` refer to contacts in the system that fit the specified

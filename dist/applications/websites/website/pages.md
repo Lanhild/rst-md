@@ -2,7 +2,7 @@ show-content
 
 # Pages
 
-Odoo allows you to create pages for your website and customize their
+Konvergo ERP allows you to create pages for your website and customize their
 content and appearance to your needs.
 
 <div id="website/page_type">
@@ -11,7 +11,7 @@ content and appearance to your needs.
 manually create new ones, define their URLs, adapt their
 `properties <website/page_properties>`, etc. **Dynamic** pages, on the
 other hand, are generated dynamically. All pages generated automatically
-by Odoo, for example, when you install an app or module (e.g.,
+by Konvergo ERP, for example, when you install an app or module (e.g.,
 <span class="title-ref">/shop</span> or
 <span class="title-ref">/blog</span>) or publish a new product or blog
 post, are dynamic pages and are therefore managed differently.
@@ -58,7 +58,7 @@ upper-right corner from `Unpublished` to `Published`, or vice versa.
 
 ### Homepage
 
-When you create a website, Odoo creates a dedicated `Home` page by
+When you create a website, Konvergo ERP creates a dedicated `Home` page by
 default, but you can define any website page as your homepage. To do so,
 go to `Website --> Configuration
 --> Settings`, then, in the `Website info` section, define the URL of
@@ -143,7 +143,7 @@ a URL different from the one they initially requested. This technique is
 used, for example, to prevent broken links when you
 `delete a page <website/delete-page>`,
 `modify its URL <website/page_properties>`, or migrate your site from
-another platform to an Odoo `domain <configuration/domain_names>`. It
+another platform to an Konvergo ERP `domain <configuration/domain_names>`. It
 can also be used to improve `pages/seo`.
 
 To access existing URL redirections and create new ones,

@@ -1,7 +1,7 @@
 # Multi-company Guidelines
 
 > [!WARNING]
-> This tutorial requires good knowledge of Odoo. Please refer to the
+> This tutorial requires good knowledge of Konvergo ERP. Please refer to the
 > `../tutorials/getting_started` tutorial first if needed.
 
 As of version 13.0, a user can be logged in to multiple companies at
@@ -15,7 +15,7 @@ companies A and B could create a sales order in company A and add
 products belonging to company B to it. It is only when the user logs out
 from company B that access errors will occur for the sales order.
 
-To correctly manage multi-company behaviors, Odoo's ORM provides
+To correctly manage multi-company behaviors, Konvergo ERP's ORM provides
 multiple features:
 
 - `Company-dependent fields <howto/company/company_dependent>`

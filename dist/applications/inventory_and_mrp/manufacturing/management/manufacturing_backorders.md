@@ -1,7 +1,7 @@
 # Manufacturing backorders
 
 In some cases, the full quantity of a manufacturing order cannot be
-produced immediately. When this happens, Odoo *Manufacturing* allows for
+produced immediately. When this happens, Konvergo ERP *Manufacturing* allows for
 the manufacturing of partial quantities of the order and creates a
 *backorder* for the remaining amount.
 

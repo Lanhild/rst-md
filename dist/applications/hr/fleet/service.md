@@ -19,7 +19,7 @@ The fields are:
 - `Service Type`: select the type of service performed from the
   drop-down menu, or type in a new type of service and click either
   `Create` or `Create & Edit...`. This list is not pre-configured in
-  Odoo. When creating a fleet and logging a service, the types of
+  Konvergo ERP. When creating a fleet and logging a service, the types of
   service need to be created.
 - `Date`: using the calendar module, select the date the service was
   provided or is scheduled to be performed. Navigate to the desired
@@ -76,7 +76,7 @@ Each service listed displays the following information:
   `Running`, `Canceled`, or `Done`.
 
 <img src="service/services.png" class="align-center"
-alt="The full list of services in the Odoo database." />
+alt="The full list of services in the Konvergo ERP database." />
 
 ### View services
 
@@ -138,13 +138,13 @@ serviced by them appears beneath each vendor. The column represent the
 different service types performed.
 
 The table can be inserted in a spreadsheet or downloaded. To add the
-pivot table to a spreadsheet in Odoo, click `Insert In Spreadsheet` and
+pivot table to a spreadsheet in Konvergo ERP, click `Insert In Spreadsheet` and
 a pop-up appears. Select the spreadsheet the data should be added to
 from the drop-down menu, and click `Confirm`. The spreadsheet then loads
-on the screen. The spreadsheets are stored in Odoo's *Documents*
+on the screen. The spreadsheets are stored in Konvergo ERP's *Documents*
 application. To download the table in an
 <span class="title-ref">xlsx</span> format, click the `Download` icon.
 
 <img src="service/pivot.png" class="align-center"
-alt="Download the pivot table to an xlsx file, or insert the data in a spreadsheet in Odoo&#39;s
+alt="Download the pivot table to an xlsx file, or insert the data in a spreadsheet in Konvergo ERP&#39;s
 Documents application." />

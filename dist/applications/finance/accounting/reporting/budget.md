@@ -4,7 +4,7 @@ Managing budgets is an essential part of running a business. Budgets
 help people become more intentional with how money is spent and direct
 people to organize and prioritize their work to meet financial goals.
 They allow the planning of a desired financial outcome and then measure
-the actual performance against the plan. Odoo manages budgets using both
+the actual performance against the plan. Konvergo ERP manages budgets using both
 **general** and **analytic accounts**.
 
 ## Configuration
@@ -52,7 +52,7 @@ alt="display the Smith and Co revenue" />
 
 ### Analytical accounts
 
-Odoo needs to know which costs or expenses are relevant to a specified
+Konvergo ERP needs to know which costs or expenses are relevant to a specified
 budget, as the above general accounts may be used for different
 projects. Go to `Accounting --> Configuration -->
 Analytic Accounting: Analytic Accounts` and click `New` to add a new

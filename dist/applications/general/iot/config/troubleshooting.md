@@ -10,7 +10,7 @@ Things)` box and should also be displayed on connected monitors.
 
 The pairing code does not show under the following circumstances:
 
-- The `IoT (Internet of Things)` box is already connected to an Odoo
+- The `IoT (Internet of Things)` box is already connected to an Konvergo ERP
   database.
 - The `IoT (Internet of Things)` box is not connected to the Internet.
 - The code is only valid for 5 minutes after the
@@ -41,7 +41,7 @@ environment.
 To access the database from the `IoT (Internet of Things)` box, open a
 browser and type in the database address.
 
-### The IoT box is connected to the Odoo database, but cannot be reached
+### The IoT box is connected to the Konvergo ERP database, but cannot be reached
 
 Make sure that the `IoT (Internet of Things)` box and the computer
 running the browser are located on the same network, as the
@@ -112,7 +112,7 @@ alt="Edit the printer connected to the IoT box." />
 
 #### Epson configuration special case
 
-Most Epson printers support printing receipts in Odoo
+Most Epson printers support printing receipts in Konvergo ERP
 `POS (Point of Sale)` using the <span class="title-ref">GS v 0</span>
 command. However, the following Epson printer models do not support this
 command:
@@ -273,11 +273,11 @@ done correctly, the page should redirect to the *Banners* page.
 
 At this point the printer should have been created, now the
 `IoT (Internet of Things)` box just needs to detect it and then sync to
-Odoo's server (this could take a few minutes).
+Konvergo ERP's server (this could take a few minutes).
 
-**Adding the printer to Odoo PoS**
+**Adding the printer to Konvergo ERP PoS**
 
-Once the printer is visible on the Odoo database, do not forget to
+Once the printer is visible on the Konvergo ERP database, do not forget to
 choose it in the `` PoS
 (Point of Sale)`configuration as the :abbr:`IoT (Internet of Things) ``
 printer. Navigate to
@@ -415,7 +415,7 @@ that occurs after updating the driver.
 
 > [!IMPORTANT]
 > The DYMO LabelWriter 450 DUO printer is the recommended DYMO printer
-> for use with Odoo and the `IoT (Internet of Things)` box. It **must**
+> for use with Konvergo ERP and the `IoT (Internet of Things)` box. It **must**
 > already be connected to, and recognized on, the
 > `IoT (Internet of Things)` box.
 >
@@ -603,7 +603,7 @@ alt="Modifying the form view of the barcode scanner." />
 
 ### Barcode scanner processes barcode characters individually
 
-When accessing the mobile version of Odoo from a mobile device, or
+When accessing the mobile version of Konvergo ERP from a mobile device, or
 tablet, paired with a barcode scanner, via the
 `IoT (Internet of Things)` box, the scanner may process each barcode
 character as an individual scan. In this case, the *Keyboard Layout*
@@ -640,11 +640,11 @@ products sold by weight, rather than fixed pricing.
 
 ### Set up Ariva S scales
 
-Odoo has determined that a specific setting in Ariva S series scales
+Konvergo ERP has determined that a specific setting in Ariva S series scales
 (manufactured by Mettler-Toledo, LLC.) needs modification, and a
 dedicated Mettler `USB (Universal Serial
 Bus)`-to-proprietary RJ45 cable is required for the scale to function
-with Odoo's `IoT
+with Konvergo ERP's `IoT
 (Internet of Things)` box.
 
 To correctly configure the scale for recognition by the

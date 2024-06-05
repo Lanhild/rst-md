@@ -1,6 +1,6 @@
 # Share job positions
 
-In Odoo *Referrals*, users can earn referral points by sharing job
+In Konvergo ERP *Referrals*, users can earn referral points by sharing job
 positions with potential applicants. Job positions can be shared in
 several ways, through the `View Jobs
 <referrals/view-jobs>` button and the

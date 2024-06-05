@@ -1,6 +1,6 @@
 # SMS campaign settings
 
-Utilizing `SMS (Short Message Service)` campaigns with Odoo *SMS
+Utilizing `SMS (Short Message Service)` campaigns with Konvergo ERP *SMS
 Marketing* isn't just an effective advertisement strategy, it's also a
 great way to remind people about upcoming events, issued invoices, and
 so much more.
@@ -10,14 +10,14 @@ sent), a few specific settings and features must be enabled first.
 
 ## SMS campaign setting
 
-To enable `SMS (Short Message Service)` campaigns in Odoo, make sure the
+To enable `SMS (Short Message Service)` campaigns in Konvergo ERP, make sure the
 *Mailing Campaigns* feature is activated by going to
 `Email Marketing --> Configuration --> Settings`, and then enable
 `Mailing Campaigns` and `Save` the changes.
 
 <img src="sms_campaign_settings/sms-mailing-campaigns.png"
 class="align-center"
-alt="View of the mailing campaigns setting in Odoo." />
+alt="View of the mailing campaigns setting in Konvergo ERP." />
 
 > [!NOTE]
 > Activating the *Mailing Campaigns* feature in the *General Settings*
@@ -42,21 +42,21 @@ tab, initially, there's only a single checkbox labeled:
 When clicked, a series of other options appear.
 
 <img src="sms_campaign_settings/ab-tests-sms.png" class="align-center"
-alt="The A/B Test tab is located on an Odoo SMS Marketing app campaign form." />
+alt="The A/B Test tab is located on an Konvergo ERP SMS Marketing app campaign form." />
 
 In the first field, enter a desired percentage of recipients to conduct
 the A/B Test on.
 
 Beneath the percentage field is the `Winner Selection` field. This is
-what Odoo will use to determine the successful result of an A/B Test. In
-other words, this tells Odoo how to pick a winning A/B test.
+what Konvergo ERP will use to determine the successful result of an A/B Test. In
+other words, this tells Konvergo ERP how to pick a winning A/B test.
 
 The following sections are available: `Manual`, `Highest Click Rate`,
 `Leads`, `Quotations`, or `Revenues`.
 
 Finally, the `Send Final On` field is listed. This represents the
-date-time that Odoo uses as a deadline to determine the winning mailing
-variation. Then, Odoo sends that winning mailing variation to the
+date-time that Konvergo ERP uses as a deadline to determine the winning mailing
+variation. Then, Konvergo ERP sends that winning mailing variation to the
 remaining recipients, who weren't involved in the test, at that prior
 date and time.
 
@@ -77,34 +77,34 @@ with that campaign (e.g. number of emails, social posts, SMSs, and push
 notifications).
 
 <img src="sms_campaign_settings/campaigns-page.png" class="align-center"
-alt="Dasbhoard view of different Campaigns in the Odoo SMS Marketing app, separated by stage." />
+alt="Dasbhoard view of different Campaigns in the Konvergo ERP SMS Marketing app, separated by stage." />
 
 ## Campaign templates
 
-Click `Create` to create a new campaign, and Odoo reveals a blank
+Click `Create` to create a new campaign, and Konvergo ERP reveals a blank
 campaign template form to fill out. Alternatively, select any
 previously-made campaign in order to duplicate, review, or edit its
 campaign template form.
 
 <img src="sms_campaign_settings/sms-campaign-template.png"
 class="align-center"
-alt="View of an SMS campaign template in Odoo SMS marketing." />
+alt="View of an SMS campaign template in Konvergo ERP SMS marketing." />
 
 With each campaign, the options to `Send New Mailing`, `Send SMS`,
 `Send Social Post`, and `Push Notifications` are available above the
 template form.
 
 Whenever one of those communication options is added to the campaign,
-Odoo will create a new corresponding tab on the template form, where
+Konvergo ERP will create a new corresponding tab on the template form, where
 those types of messages can be reviewed or edited, along with various
 data sets related to each specific mailing.
 
 At the top of the template, there are various analytical smart buttons.
-When clicked, Odoo reveals in-depth metrics related to that specific
+When clicked, Konvergo ERP reveals in-depth metrics related to that specific
 topic (e.g. `Engagement`, `Opportunities`, etc.) on a separate page.
 
 Beneath the smart buttons, are fields for `Campaign Name` and
-`Responsible`. Odoo also allows for various `Tags` to be added, as well
+`Responsible`. Konvergo ERP also allows for various `Tags` to be added, as well
 (if necessary).
 
 ## Sending SMSs through the Contacts app
@@ -119,7 +119,7 @@ database, and click on the `SMS` icon on the contact form (next to the
 
 <img src="sms_campaign_settings/sms-contact-form.png"
 class="align-center"
-alt="The SMS icon is located on an individual&#39;s contact form in Odoo Contacts." />
+alt="The SMS icon is located on an individual&#39;s contact form in Konvergo ERP Contacts." />
 
 To send a message to multiple contacts at once, navigate to the main
 `Contacts` app main dashboard, choose the `List View`, and select all
@@ -134,11 +134,11 @@ alt="Select a number of contacts, click action, and select send multiple SMSs." 
 
 In order to set up `SMS Templates` for future use, activate
 `developer mode
-<developer-mode>`, by navigating to the main Odoo dashboard that is full
+<developer-mode>`, by navigating to the main Konvergo ERP dashboard that is full
 of apps, and select the `Settings app`. Then, scroll down to the
 `Developer Tools` section, and click `Activate the Developer Mode`.
 
-Once *developer mode* is activated, the main Odoo dashboard appears once
+Once *developer mode* is activated, the main Konvergo ERP dashboard appears once
 more, with a now-visible bug icon, which is located at the top-right
 corner of the dashboard; this bug icon indicates that developer mode is
 currently active.
@@ -152,7 +152,7 @@ Service)` templates for future marketing campaigns.
 class="align-center"
 alt="Select the SMS Template option in the Technical dropdown on the Settings app." />
 
-Inside of the `SMS Templates` dashboard, Odoo reveals an entire page of
+Inside of the `SMS Templates` dashboard, Konvergo ERP reveals an entire page of
 `SMS (Short
 Message Service)` templates. The default `List` view showcases each
 template's name, and to which recipients it applies.
@@ -161,5 +161,5 @@ On this page, `SMS (Short Message Service)` templates can be edited or
 created from scratch.
 
 <img src="sms_campaign_settings/sms-template.png" class="align-center"
-alt="The SMS Templates page in Odoo is available after enabling developer mode in the General
+alt="The SMS Templates page in Konvergo ERP is available after enabling developer mode in the General
 Settings" />

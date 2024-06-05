@@ -15,15 +15,15 @@ presenting the untaxed amount of your purchase orders per day, and below
 it, key metrics and a pivot table.
 
 <img src="analyze/analyze-reporting-dashboard.png" class="align-center"
-alt="Reporting dashboard in Odoo Purchase" />
+alt="Reporting dashboard in Konvergo ERP Purchase" />
 
 While the data initially presented is useful, there are several tools
 and features you can use to get even more insights on your purchases.
 
 ### Use filters to select the data you need
 
-Odoo offers several default filters you can use and combine by clicking
-on *Filters*. When you select one or several filters, Odoo looks for all
+Konvergo ERP offers several default filters you can use and combine by clicking
+on *Filters*. When you select one or several filters, Konvergo ERP looks for all
 the orders that match at least one of the filters you have chosen and
 populates the chart, key metrics, and pivot table with the data. The
 pre-configured filters are:
@@ -49,7 +49,7 @@ pre-configured filters are:
 > compare the period you filtered with the previous one.
 
 <img src="analyze/analyze-filters.png" class="align-center"
-alt="Reporting filters in Odoo Purchase" />
+alt="Reporting filters in Konvergo ERP Purchase" />
 
 #### Add custom filters
 
@@ -64,7 +64,7 @@ custom filter. If you want to use the *or* operator, don't click on
 the desired filtering options, click on *Apply*.
 
 <img src="analyze/analyze-custom-filter.png" class="align-center"
-alt="Custom reporting filter in Odoo Purchase" />
+alt="Custom reporting filter in Konvergo ERP Purchase" />
 
 > [!TIP]
 > To avoid having to recreate custom filters every time, save them by
@@ -82,7 +82,7 @@ applied to both views. You can access each view separately by clicking
 on the icons at the top right of the dashboard.
 
 <img src="analyze/analyze-switch-view.png" class="align-center"
-alt="Switch reporting view in Odoo Purchase" />
+alt="Switch reporting view in Konvergo ERP Purchase" />
 
 #### Visualize your data
 
@@ -92,7 +92,7 @@ available, but you can only use one at a time. However, you can group
 the measure using one or several of the 19 *Groups*.
 
 <img src="analyze/analyze-graph-view.png" class="align-center"
-alt="Reporting graph view in Odoo Purchase" />
+alt="Reporting graph view in Konvergo ERP Purchase" />
 
 For bar and line charts, the selected measure is your y-axis, and the
 first group you select is used to create the x-axis. Adding more group
@@ -111,7 +111,7 @@ row, you can add *Groups*. If you click on a group's **+** sign, you can
 add a sub-group, and so on.
 
 <img src="analyze/analyze-pivot-view.png" class="align-center"
-alt="Pivot table view in Odoo Purchase" />
+alt="Pivot table view in Konvergo ERP Purchase" />
 
 > [!TIP]
 > You can insert your pivot table's data directly in the Spreadsheet app

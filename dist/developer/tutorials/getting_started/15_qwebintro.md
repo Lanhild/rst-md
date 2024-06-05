@@ -13,13 +13,13 @@ another tool to be created with more flexibility: a
 [templating](https://en.wikipedia.org/wiki/Template_processor) engine.
 
 You might already be familiar with existing engines such as Jinja
-(Python), ERB (Ruby) or Twig (PHP). Odoo comes with its own built-in
+(Python), ERB (Ruby) or Twig (PHP). Konvergo ERP comes with its own built-in
 engine: `reference/qweb`. QWeb is the primary templating engine used by
-Odoo. It is an XML templating engine and used mostly to generate HTML
+Konvergo ERP. It is an XML templating engine and used mostly to generate HTML
 fragments and pages.
 
 You probably already have come across the [kanban
-board](https://en.wikipedia.org/wiki/Kanban_board) in Odoo where the
+board](https://en.wikipedia.org/wiki/Kanban_board) in Konvergo ERP where the
 records are displayed in a card-like structure. We will build such a
 view for our real estate module.
 
@@ -36,7 +36,7 @@ view for our real estate module.
 > alt="Kanban view" />
 
 In our estate application, we would like to add a Kanban view to display
-our properties. Kanban views are a standard Odoo view (like the form and
+our properties. Kanban views are a standard Konvergo ERP view (like the form and
 list views), but their structure is much more flexible. In fact, the
 structure of each card is a mix of form elements (including basic HTML)
 and QWeb. The definition of a Kanban view is similar to the definition

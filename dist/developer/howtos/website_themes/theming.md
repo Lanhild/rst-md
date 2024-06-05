@@ -11,13 +11,13 @@ discover how to:
 
 ## Theme module
 
-Odoo comes with a default theme that provides minimal structure and
+Konvergo ERP comes with a default theme that provides minimal structure and
 layout. When you create a new theme, you are extending the default
 theme.
 
 Remember to add the directory containing your module to the
 <span class="title-ref">addons-path</span> command-line argument when
-running Odoo in your development environment.
+running Konvergo ERP in your development environment.
 
 ### Technical naming
 
@@ -36,7 +36,7 @@ website_airproof
 
 ### File structure
 
-Themes are packaged like any Odoo module. Even if you are designing a
+Themes are packaged like any Konvergo ERP module. Even if you are designing a
 basic website, you need to package its theme like a module.
 
     website_airproof
@@ -69,14 +69,14 @@ basic website, you need to package its theme like a module.
 
 ### Initialization
 
-An Odoo module is also a Python package with a `__init__.py` file
+An Konvergo ERP module is also a Python package with a `__init__.py` file
 containing import instructions for various Python files in the module.
 This file can remain empty for now.
 
 ### Declaration
 
-An Odoo module is declared by its manifest file. This file declares a
-Python package as an Odoo module and specifies the module's metadata. It
+An Konvergo ERP module is declared by its manifest file. This file declares a
+Python package as an Konvergo ERP module and specifies the module's metadata. It
 must at least contain the <span class="title-ref">name</span> field,
 which is always required. It usually contains much more information.
 
@@ -102,11 +102,11 @@ which is always required. It usually contains much more information.
 |-------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | name        | Human-readable name of the module (required)                                                                                                 |
 | description | Extended description of the module, in [reStructuredText](https://en.wikipedia.org/wiki/ReStructuredText)                                    |
-| category    | Classification category within Odoo                                                                                                          |
-| version     | Odoo version this module is addressing                                                                                                       |
+| category    | Classification category within Konvergo ERP                                                                                                          |
+| version     | Konvergo ERP version this module is addressing                                                                                                       |
 | author      | Name of the module author                                                                                                                    |
 | license     | Distribution license for the module                                                                                                          |
-| depends     | Odoo modules must be loaded before this one, either because this module uses features they create or because it alters resources they define |
+| depends     | Konvergo ERP modules must be loaded before this one, either because this module uses features they create or because it alters resources they define |
 | data        | List of XML files                                                                                                                            |
 | assets      | List of SCSS and JS files                                                                                                                    |
 
@@ -117,18 +117,18 @@ which is always required. It usually contains much more information.
 
 ## Default options
 
-First, try to construct your theme by using Odoo's default options. This
+First, try to construct your theme by using Konvergo ERP's default options. This
 ensures two things:
 
 1.  You do not re-invent something which already exists. For example, as
-    Odoo provides an option to add a border on the footer, you shouldn't
+    Konvergo ERP provides an option to add a border on the footer, you shouldn't
     recode it yourself. Instead, enable the default option first, then
     extend it if needed.
-2.  The user can still use all of Odoo's features with your theme. For
+2.  The user can still use all of Konvergo ERP's features with your theme. For
     example, if you recode the border on the footer, you may break the
     default option or make it useless, giving the user a bad experience.
     Also, your recode might not work as well as the default option, as
-    other Odoo features may rely on it.
+    other Konvergo ERP features may rely on it.
 
 > [!TIP]
 > - Use four spaces per indentation level. - Do not use tabs. - Never
@@ -136,13 +136,13 @@ ensures two things:
 
 <div class="seealso">
 
-`Odoo coding guidelines <../../../contributing/development/coding_guidelines>`
+`Konvergo ERP coding guidelines <../../../contributing/development/coding_guidelines>`
 
 </div>
 
-### Odoo variables
+### Konvergo ERP variables
 
-Odoo declares many CSS rules, most entirely customizable by overriding
+Konvergo ERP declares many CSS rules, most entirely customizable by overriding
 the related SCSS variables. To do so, create a `primary_variables.scss`
 file and add it to the
 <span class="title-ref">\_assets_primary_variables</span> bundle.
@@ -406,11 +406,11 @@ combinations of the theme color palette:
 
 ### Bootstrap variables
 
-Odoo includes Bootstrap by default. You can use all variables and mixins
+Konvergo ERP includes Bootstrap by default. You can use all variables and mixins
 of the framework.
 
-If Odoo does not provide the variable you are looking for, there could
-be a Bootstrap variable that allows it. Indeed all Odoo layouts respect
+If Konvergo ERP does not provide the variable you are looking for, there could
+be a Bootstrap variable that allows it. Indeed all Konvergo ERP layouts respect
 Bootstrap structures and use Bootstrap components or their extensions.
 If you customize a Bootstrap variable, you add a generic style for the
 whole user website.
@@ -449,7 +449,7 @@ $card-border-width:            0 !default;
 > variables and mixins.
 
 > [!WARNING]
-> Don't override Bootstrap variables that depend on Odoo variables.
+> Don't override Bootstrap variables that depend on Konvergo ERP variables.
 > Otherwise, you might break the possibility for the user to customize
 > them using the Website Builder.
 
@@ -499,7 +499,7 @@ found.
 </record>
 ```
 
-The same logic can be used for others Odoo apps as well.
+The same logic can be used for others Konvergo ERP apps as well.
 
 **eCommerce - Display products categories**
 
@@ -544,7 +544,7 @@ theme.
 ```
 
 Feel free to reuse the variables from your Bootstrap file and the ones
-used by Odoo in your `theme.scss` file.
+used by Konvergo ERP in your `theme.scss` file.
 
 <div class="example"
 caption="``/website_airproof/static/src/scss/theme.scss``">
@@ -561,24 +561,24 @@ o-website-value('headings-font');
 
 ### Interactivity
 
-Odoo supports three different kinds of JavaScript files:
+Konvergo ERP supports three different kinds of JavaScript files:
 
 - `plain JavaScript files <frontend/modules/plain_js>` (no module
   system),
 - `native JavaScript module <frontend/modules/native_js>`, and
-- `Odoo modules <frontend/modules/odoo_module>` (using a custom module
+- `Konvergo ERP modules <frontend/modules/odoo_module>` (using a custom module
   system).
 
-Most new Odoo JavaScript codes should use the native JavaScript module
+Most new Konvergo ERP JavaScript codes should use the native JavaScript module
 system. It's simpler and brings the benefit of a better developer
 experience with better integration with the IDE.
 
 > [!IMPORTANT]
-> Odoo needs to know which files should be translated into `Odoo modules
+> Konvergo ERP needs to know which files should be translated into `Konvergo ERP modules
 > <frontend/js_modules>` and which files should not. It's an opt-in
-> system: Odoo looks at the first line of a JavaScript file and checks
+> system: Konvergo ERP looks at the first line of a JavaScript file and checks
 > if it contains the string <span class="title-ref">@odoo-module</span>.
-> If so, it will automatically be converted to an Odoo module.
+> If so, it will automatically be converted to an Konvergo ERP module.
 
 ``` javascript
 /** @odoo-module **/
@@ -601,7 +601,7 @@ experience with better integration with the IDE.
 > [!TIP]
 > - Use a linter (JSHint, ...). - Never add minified JavaScript
 > libraries. - Add <span class="title-ref">'use strict';</span> on top
-> of every Odoo JavaScript module. - Variables and functions should be
+> of every Konvergo ERP JavaScript module. - Variables and functions should be
 > *camelcased* (<span class="title-ref">myVariable</span>) instead of
 > *snakecased* (<span class="title-ref">my_variable</span>). - Do not
 > name a variable <span class="title-ref">event</span>; use
@@ -618,11 +618,11 @@ experience with better integration with the IDE.
 
 <div class="seealso">
 
-\- [Odoo JavaScript coding
+\- [Konvergo ERP JavaScript coding
 guidelines](https://github.com/odoo/odoo/wiki/Javascript-coding-guidelines) -
-`Overview of the Odoo JavaScript framework
-<../../reference/frontend/javascript_reference>` - [Odoo Experience
+`Overview of the Konvergo ERP JavaScript framework
+<../../reference/frontend/javascript_reference>` - [Konvergo ERP Experience
 Talk: 10 Tips to take your website design to the next
-level!](https://www.youtube.com/watch?v=vAgE_fPVXUQ&ab_channel=Odoo)
+level!](https://www.youtube.com/watch?v=vAgE_fPVXUQ&ab_channel=Konvergo ERP)
 
 </div>

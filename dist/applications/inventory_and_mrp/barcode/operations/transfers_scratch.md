@@ -3,10 +3,10 @@
 The *Barcode* app can be used to process internal transfers for all
 types of products, including transfers for products tracked using lots
 or serial numbers. Transfers can be created from scratch in real time
-using an Odoo-compatible barcode scanner or the Odoo mobile app.
+using an Konvergo ERP-compatible barcode scanner or the Konvergo ERP mobile app.
 
-For a list of Odoo-compatible barcode mobile scanners, and other
-hardware for the *Inventory* app, refer to the [Odoo Inventory •
+For a list of Konvergo ERP-compatible barcode mobile scanners, and other
+hardware for the *Inventory* app, refer to the [Konvergo ERP Inventory •
 Hardware page](https://www.odoo.com/app/inventory-hardware).
 
 ## Enable Barcode app
@@ -25,7 +25,7 @@ When the page has refreshed, new options are displayed under the
 `Barcode Scanner` feature: `Barcode Nomenclature` (with a corresponding
 drop-down menu), where either `Default Nomenclature` or
 `Default GS1 Nomenclature` can be selected. The nomenclature selected
-changes how scanners interpret barcodes in Odoo.
+changes how scanners interpret barcodes in Konvergo ERP.
 
 There is also a `Configure Product Barcodes` internal link arrow, and a
 set of `Print` buttons for printing barcode commands and a barcode demo
@@ -39,7 +39,7 @@ alt="Enabled Barcode feature in Inventory app settings." />
 For more on setting up and configuring the `Barcode` app, refer to the
 `Set up your
 barcode scanner <../setup/hardware>` and
-`Activate the Barcodes in Odoo <../setup/software>` documentation pages.
+`Activate the Barcodes in Konvergo ERP <../setup/software>` documentation pages.
 
 ## Scan barcodes for internal transfers
 
@@ -122,7 +122,7 @@ screen.
 
 > [!NOTE]
 > When using the *Barcode* app without the *Inventory* app (**only** if
-> using a barcode scanner or the Odoo mobile app), the barcodes for each
+> using a barcode scanner or the Konvergo ERP mobile app), the barcodes for each
 > transfer of a corresponding operation type can be scanned to be
 > processed easily.
 >
@@ -193,7 +193,7 @@ processed, and the *Barcode* app can be closed out.
 > transfers containing unique lot numbers and serial numbers.
 >
 > From the barcode transfer screen, scan the barcode of a lot or serial
-> number, and Odoo automatically increases the quantity of the product
+> number, and Konvergo ERP automatically increases the quantity of the product
 > to the quantity recorded in the database. If the same lot or serial
 > number is shared between different products, scan the product barcode
 > first, then the barcode of the lot/serial number.
@@ -209,7 +209,7 @@ operation type barcode.
 
 Did you know?
 
-Odoo's *Barcode* application provides demo data with barcodes to explore
+Konvergo ERP's *Barcode* application provides demo data with barcodes to explore
 the features of the app. These can be used for testing purposes, and can
 be printed from the home screen of the app. To access this demo data,
 navigate to the `Barcode app` and click `stock

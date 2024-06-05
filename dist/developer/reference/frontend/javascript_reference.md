@@ -6,7 +6,7 @@ js
 
 # Javascript Reference
 
-This document presents the Odoo Javascript framework. This framework is
+This document presents the Konvergo ERP Javascript framework. This framework is
 not a large application in term of lines of code, but it is quite
 generic, because it is basically a machine to turn a declarative
 interface description into a live application, able to interact with
@@ -21,7 +21,7 @@ The Javascript framework is designed to work with three main use cases:
   view and edit business data. This is a single page application (the
   page is never reloaded, only the new data is fetched from the server
   whenever it is needed)
-- the *website*: this is the public part of Odoo. It allows an
+- the *website*: this is the public part of Konvergo ERP. It allows an
   unidentified user to browse some content, to shop or to perform many
   actions, as a client. This is a classical website: various routes with
   controllers and some javascript to make it work.
@@ -47,7 +47,7 @@ an action. Instead, it only requests what it needs, and then
 replaces/updates the view. Also, it manages the url: it is kept in sync
 with the web client state.
 
-It means that while a user is working on Odoo, the web client class (and
+It means that while a user is working on Konvergo ERP, the web client class (and
 the action manager) actually creates and destroys many sub components.
 The state is highly dynamic, and each widget could be destroyed at any
 time.
@@ -134,17 +134,17 @@ work done in the global scope directly.
   loading is respected, and because modules can precisely specify their
   exports it is less likely that they will leak implementation details.
 
-For most Odoo code, we want to use a module system. Because of the way
-assets work in Odoo (and in particular, the fact that each installed
-odoo addon can modify the list of files contained in a bundle), Odoo has
-to resolve modules browser side. To do that, Odoo provides a small
+For most Konvergo ERP code, we want to use a module system. Because of the way
+assets work in Konvergo ERP (and in particular, the fact that each installed
+odoo addon can modify the list of files contained in a bundle), Konvergo ERP has
+to resolve modules browser side. To do that, Konvergo ERP provides a small
 module system described just below (see `frontend/modules/odoo_module`).
 
-However, Odoo also provides support for native javascript modules (see
+However, Konvergo ERP also provides support for native javascript modules (see
 `frontend/modules/native_js`). These modules will simply be translated
 by the server into odoo modules. It is encouraged to write all
 javascript code as a native module, for a better IDE integration. In the
-future, the Odoo module system should be considered an implementation
+future, the Konvergo ERP module system should be considered an implementation
 detail, not the primary way to write javascript code.
 
 > [!NOTE]
@@ -153,12 +153,12 @@ detail, not the primary way to write javascript code.
 
 ## Class System
 
-Odoo was developed before ECMAScript 6 classes were available. In
+Konvergo ERP was developed before ECMAScript 6 classes were available. In
 Ecmascript 5, the standard way to define a class is to define a function
 and to add methods on its prototype object. This is fine, but it is
 slightly complex when we want to use inheritance, mixins.
 
-For these reasons, Odoo decided to use its own class system, inspired by
+For these reasons, Konvergo ERP decided to use its own class system, inspired by
 John Resig. The base Class is located in *web.Class*, in the file
 *class.js*.
 
@@ -262,7 +262,7 @@ Hamster.include({
 ```
 
 This is obviously a dangerous operation and should be done with care.
-But with the way Odoo is structured, it is sometimes necessary in one
+But with the way Konvergo ERP is structured, it is sometimes necessary in one
 addon to modify the behavior of a widget/class defined in another addon.
 Note that it will modify all instances of the class, even if they have
 already been created.
@@ -670,11 +670,11 @@ promise and are charged with three tasks:
   (creating "informal" namespaces, much as in C or Objective-C).
 
 - Global selectors should be avoided. Because a component may be used
-  several times in a single page (an example in Odoo is dashboards),
+  several times in a single page (an example in Konvergo ERP is dashboards),
   queries should be restricted to a given component's scope. Unfiltered
   selections such as `$(selector)` or
   `document.querySelectorAll(selector)` will generally lead to
-  unintended or incorrect behavior. Odoo Web's `~Widget` has an
+  unintended or incorrect behavior. Konvergo ERP Web's `~Widget` has an
   attribute providing its DOM root (`~Widget.$el`), and a shortcut to
   select nodes directly (`~Widget.$`).
 
@@ -759,7 +759,7 @@ is performed.
 
 ## Event system
 
-There are currently two event systems supported by Odoo: a simple system
+There are currently two event systems supported by Konvergo ERP: a simple system
 which allows adding listeners and triggering events, and a more complete
 system that also makes events 'bubble up'.
 
@@ -813,13 +813,13 @@ The custom event widgets is a more advanced system, which mimic the DOM
 events API. Whenever an event is triggered, it will 'bubble up' the
 component tree, until it reaches the root widget, or is stopped.
 
-- *trigger_up*: this is the method that will create a small *OdooEvent*
+- *trigger_up*: this is the method that will create a small *Konvergo ERPEvent*
   and dispatch it in the component tree. Note that it will start with
   the component that triggered the event
 - *custom_events*: this is the equivalent of the *event* dictionary, but
   for odoo events.
 
-The OdooEvent class is very simple. It has three public attributes:
+The Konvergo ERPEvent class is very simple. It has three public attributes:
 *target* (the widget that triggered the event), *name* (the event name)
 and *data* (the payload). It also has 2 methods: *stopPropagation* and
 *is_stopped*.
@@ -851,7 +851,7 @@ var MyWidget = Widget.extend({
 
 ## Registries
 
-A common need in the Odoo ecosystem is to extend/change the behaviour of
+A common need in the Konvergo ERP ecosystem is to extend/change the behaviour of
 the base system from the outside (by installing an application, i.e. a
 different module). For example, one may need to add a new widget type in
 some views. In that case, and many others, the usual process is to
@@ -1032,7 +1032,7 @@ var SomeWidget = Widget.extend({
 The rpc functionality is supplied by the ajax service. But most people
 will probably only interact with the *\_rpc* helpers.
 
-There are typically two usecases when working on Odoo: one may need to
+There are typically two usecases when working on Konvergo ERP: one may need to
 call a method on a (python) model (this goes through a controller
 *call_kw*), or one may need to directly call a controller (available on
 some route).
@@ -1058,7 +1058,7 @@ return this._rpc({
 
 ## Notifications
 
-The Odoo framework has a standard way to communicate various information
+The Konvergo ERP framework has a standard way to communicate various information
 to the user: notifications, which are displayed on the top right of the
 user interface.
 
@@ -1076,7 +1076,7 @@ sticky notification could be displayed with two buttons *Accept* and
 
 ### Notification system
 
-The notification system in Odoo is designed with the following
+The notification system in Konvergo ERP is designed with the following
 components:
 
 - a *Notification* widget: this is a simple widget that is meant to be
@@ -1283,7 +1283,7 @@ The word 'view' has more than one meaning. This section is about the
 design of the javascript code of the views, not the structure of the
 *arch* or anything else.
 
-In 2017, Odoo replaced the previous view code with a new architecture.
+In 2017, Konvergo ERP replaced the previous view code with a new architecture.
 The main need was to separate the rendering logic from the model logic.
 
 Views (in a generic sense) are now described with 4 pieces: a View, a

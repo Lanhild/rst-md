@@ -31,7 +31,7 @@ support a team provides.</figcaption>
 </figure>
 
 > [!WARNING]
-> As all of the after-sales services in Odoo require integration with
+> As all of the after-sales services in Konvergo ERP require integration with
 > other applications, enabling any of them may result in the
 > installation of additional modules or applications. *Installing a new
 > application on a One-App-Free database will trigger a 15-day trial. At

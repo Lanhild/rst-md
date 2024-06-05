@@ -2,11 +2,11 @@
 
 ## Overview
 
-This chapter helps you to create your first Odoo module and deploy it in
-your Odoo.sh project.
+This chapter helps you to create your first Konvergo ERP module and deploy it in
+your Konvergo ERP.sh project.
 
 This tutorial requires
-`you created a project on Odoo.sh <odoosh-gettingstarted-create>`, and
+`you created a project on Konvergo ERP.sh <odoosh-gettingstarted-create>`, and
 you know your Github repository's URL.
 
 Basic use of Git and Github is explained.
@@ -14,7 +14,7 @@ Basic use of Git and Github is explained.
 The below assumptions are made:
 
 - *~/src* is the directory where are located the Git repositories
-  related to your Odoo projects,
+  related to your Konvergo ERP projects,
 - *odoo* is the Github user,
 - *odoo-addons* is the Github repository,
 - *feature-1* is the name of a development branch,
@@ -25,7 +25,7 @@ Replace these by the values of your choice.
 
 ## Create the development branch
 
-### From Odoo.sh
+### From Konvergo ERP.sh
 
 In the branches view:
 
@@ -71,23 +71,23 @@ $ git checkout -b feature-1 master
 ### Scaffolding the module
 
 While not necessary, scaffolding avoids the tedium of setting the basic
-Odoo module structure. You can scaffold a new module using the
+Konvergo ERP module structure. You can scaffold a new module using the
 executable *odoo-bin*.
 
-From the Odoo.sh editor, in a terminal:
+From the Konvergo ERP.sh editor, in a terminal:
 
 ``` bash
 $ odoo-bin scaffold my_module ~/src/user/
 ```
 
 Or, from your computer, if you have an
-`installation of Odoo <../../on_premise/source>`:
+`installation of Konvergo ERP <../../on_premise/source>`:
 
 ``` bash
 $ ./odoo-bin scaffold my_module ~/src/odoo-addons/
 ```
 
-If you do not want to bother installing Odoo on your computer, you can
+If you do not want to bother installing Konvergo ERP on your computer, you can
 also
 `download this module structure template <first_module/my_module.zip>`
 in which you replace every occurrences of *my_module* to the name of
@@ -163,7 +163,7 @@ $ git commit -m "My first module"
 
 Push your changes to your remote repository
 
-From an Odoo.sh editor terminal:
+From an Konvergo ERP.sh editor terminal:
 
 ``` bash
 $ git push https HEAD:feature-1
@@ -211,7 +211,7 @@ set. Once the database ready, you can access it by clicking the
 <img src="first_module/firstmodule-test-database.png"
 class="align-center" alt="image" />
 
-If your Odoo.sh project is configured to install your module
+If your Konvergo ERP.sh project is configured to install your module
 automatically, you will directly see it amongst the database apps.
 Otherwise, it will be available in the apps to install.
 
@@ -311,7 +311,7 @@ manually as explained in the
 This section explains how to add a change in your module by adding a new
 field in a model and deploy it.
 
-From the Odoo.sh editor,  
+From the Konvergo ERP.sh editor,  
 - browse to your module folder *~/src/user/my_module*,
 - then, open the file *models/models.py*.
 
@@ -354,7 +354,7 @@ In order to be applied in existing databases, such as your production
 database, these changes requires the module to be updated.
 
 If you would like the update to be performed automatically by the
-Odoo.sh platform when you push your changes, increase your module
+Konvergo ERP.sh platform when you push your changes, increase your module
 version in its manifest.
 
 Open the module manifest *\_\_manifest\_\_.py*.
@@ -376,7 +376,7 @@ the module upon the new revision deployment.
 
 Browse to your Git folder.
 
-Then, from an Odoo.sh terminal:
+Then, from an Konvergo ERP.sh terminal:
 
 ``` bash
 $ cd ~/src/user/
@@ -402,7 +402,7 @@ $ git commit -m "[ADD] my_module: add the start_datetime field to the model my_m
 
 Push your changes:
 
-From an Odoo.sh terminal:
+From an Konvergo ERP.sh terminal:
 
 ``` bash
 $ git push https HEAD:feature-1
@@ -421,7 +421,7 @@ class="align-center" alt="image" />
 
 Once you tested your changes, you can merge your changes in the
 production branch, for instance by drag-and-dropping the branch on the
-production branch in the Odoo.sh interface. As you increased the module
+production branch in the Konvergo ERP.sh interface. As you increased the module
 version in the manifest, the platform will update the module
 automatically and your new field will be directly available. Otherwise
 you can manually update the module within the apps list.
@@ -434,11 +434,11 @@ the external libraries your modules depends on.
 
 > [!NOTE]
 > - It is not possible to install or upgrade system packages on an
-> Odoo.sh database (e.g., apt packages). However, under specific
+> Konvergo ERP.sh database (e.g., apt packages). However, under specific
 > conditions, packages can be considered for installation. This also
 > applies to **Python modules** requiring system packages for their
-> compilation, and **third-party Odoo modules**. - **PostgreSQL
-> extensions** are not supported on Odoo.sh. - For more information,
+> compilation, and **third-party Konvergo ERP modules**. - **PostgreSQL
+> extensions** are not supported on Konvergo ERP.sh. - For more information,
 > consult our [FAQ](https://www.odoo.sh/faq#install_dependencies).
 
 The platform will use this file to automatically install the Python
@@ -449,7 +449,7 @@ library](https://pypi.python.org/pypi/Unidecode) in your module.
 
 Create a file *requirements.txt* in the root folder of your repository
 
-From the Odoo.sh editor, create and open the file
+From the Konvergo ERP.sh editor, create and open the file
 ~/src/user/requirements.txt.
 
 Or, from your computer, create and open the file
@@ -526,7 +526,7 @@ $ git commit -m "[IMP] my_module: automatically remove special chars in my_modul
 
 Then, push your changes:
 
-In an Odoo.sh terminal:
+In an Konvergo ERP.sh terminal:
 
 ``` bash
 $ git push https HEAD:feature-1

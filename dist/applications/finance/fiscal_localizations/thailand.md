@@ -14,7 +14,7 @@ get all the features of the Thai localization:
 
 ## Chart of accounts and taxes
 
-Odoo's fiscal localization package for Thailand includes the following
+Konvergo ERP's fiscal localization package for Thailand includes the following
 taxes:
 
 - VAT 7%
@@ -24,7 +24,7 @@ taxes:
 
 ## Tax report
 
-Odoo allows users to generate Excel files to submit their VAT to the
+Konvergo ERP allows users to generate Excel files to submit their VAT to the
 **Revenue Department** of Thailand.
 
 ### Sales and purchase tax report
@@ -67,17 +67,17 @@ withholding tax.
 ![PND3 and PND53 CSV files](thailand/pnd3-pnd53.png)
 
 > [!WARNING]
-> Odoo cannot generate the PND or PDF report or **withholding tax
+> Konvergo ERP cannot generate the PND or PDF report or **withholding tax
 > certificate** directly. The generated `Tax Report PND3.csv` and
 > `Tax Report PND53.csv` files must be exported to an external tool to
 > convert them into a **withholding PND** report or a **PDF** file.
 
 ## Tax invoice
 
-The **tax invoice PDF** report can be generated from Odoo through the
+The **tax invoice PDF** report can be generated from Konvergo ERP through the
 **Invoicing** module. Users have the option to print PDF reports for
 normal invoices and tax invoices. To print out **tax invoices**, users
-can click on `Print Invoices` in Odoo. Regular invoices can be printed
+can click on `Print Invoices` in Konvergo ERP. Regular invoices can be printed
 as **commercial invoices** by clicking on `Cog button (⚙️) --> Print -->
 Commercial Invoice`.
 

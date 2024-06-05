@@ -1,9 +1,9 @@
 # Measure quality check
 
-In Odoo *Quality*, a *Measure* check is one of the quality check types
+In Konvergo ERP *Quality*, a *Measure* check is one of the quality check types
 that can be selected when creating a new quality check or quality
 control point (QCP). *Measure* checks prompt users to measure a certain
-aspect of a product and record the measurement in Odoo. For the quality
+aspect of a product and record the measurement in Konvergo ERP. For the quality
 check to pass, the recorded measurement must be within a certain
 *tolerance* of a *norm* value.
 

@@ -1,13 +1,13 @@
 # Deliveries and invoices to different addresses
 
 People and businesses often use separate addresses for billing
-(invoicing) and shipping (delivery) purposes. With the Odoo *Sales* app,
+(invoicing) and shipping (delivery) purposes. With the Konvergo ERP *Sales* app,
 contacts can have different specified addresses for delivery and
 invoicing.
 
 ## Settings
 
-To properly utilize multiple addresses in Odoo, go to
+To properly utilize multiple addresses in Konvergo ERP, go to
 `Sales app --> Configuration
 --> Settings` and scroll down to the `Quotations & Orders` heading.
 Then, check the box next to `Customer Addresses`, and click `Save`.
@@ -80,5 +80,5 @@ These addresses can be updated at any time to ensure accurate invoicing
 and delivery.
 
 > [!TIP]
-> If any changes are made on a form in Odoo, include *Contacts* forms,
+> If any changes are made on a form in Konvergo ERP, include *Contacts* forms,
 > remember to click `Save` to save the changes to the database.

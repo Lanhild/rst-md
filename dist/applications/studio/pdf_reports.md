@@ -6,7 +6,7 @@ quotations) or create new ones.
 > [!IMPORTANT]
 > To edit a standard PDF report, it is strongly recommended to
 > **duplicate** it and make changes to the duplicated version, as
-> changes made to standard reports will be overwritten after an Odoo
+> changes made to standard reports will be overwritten after an Konvergo ERP
 > upgrade. To duplicate a report, go to `Studio --> Reports`. Hover the
 > mouse pointer on the top right corner of the report, click the
 > vertical ellipsis icon (`⋮`), and then select `Duplicate`.

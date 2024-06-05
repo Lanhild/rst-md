@@ -1,13 +1,13 @@
 # Upgrade a customized database
 
-Upgrading to a new version of Odoo can be challenging, especially if the
+Upgrading to a new version of Konvergo ERP can be challenging, especially if the
 database you work on contains custom modules. This page intent is to
 explain the technical process of upgrading a database with customized
 modules. Refer to `Upgrade documentation </administration/upgrade>` for
 guidance on how to upgrade a database without customized modules.
 
 We consider a custom module, any module that extends the standard code
-of Odoo and that was not built with the Studio app. Before upgrading
+of Konvergo ERP and that was not built with the Studio app. Before upgrading
 such a module, or before requesting its upgrade, have a look at the
 `upgrade/sla` to make sure who's responsible for it.
 
@@ -20,7 +20,7 @@ database, keep in mind the goals of an upgrade:
 4.  Reduce the technical debt
 5.  Benefit from security improvements
 
-With every new version of Odoo, changes are introduced. These changes
+With every new version of Konvergo ERP, changes are introduced. These changes
 can impact modules on which customization have been developed. This is
 the reason why upgrading a database that contains custom modules
 requires additional steps in order to upgrade the source code.
@@ -47,7 +47,7 @@ developments made and compare them with the features introduced between
 your current version and the version you are targeting. Challenge the
 developments as much as possible and find functional workarounds.
 Removing redundancy between your developments and the standard version
-of Odoo will lead to an eased upgrade process and reduce technical debt.
+of Konvergo ERP will lead to an eased upgrade process and reduce technical debt.
 
 > [!NOTE]
 > You can find information on the changes between versions in the
@@ -65,7 +65,7 @@ The purpose of this stage is not to start working with the custom
 modules in the upgraded database, but to make sure the standard upgrade
 process works seamlessly, and the test database is delivered properly.
 If that's not the case, and the upgrade request fails, request the
-assistance of Odoo via the [support
+assistance of Konvergo ERP via the [support
 page](https://odoo.com/help?stage=migration) by selecting the option
 related to testing the upgrade.
 
@@ -74,7 +74,7 @@ related to testing the upgrade.
 Before working on an upgraded test database, we recommend to make the
 custom developments work on an empty database in the targeted version of
 your upgrade. This ensures that the customization is compatible with the
-new version of Odoo, allows to analyze how it behaves and interacts with
+new version of Konvergo ERP, allows to analyze how it behaves and interacts with
 the new features, and guarantees that they will not cause any issues
 when upgrading the database.
 
@@ -95,10 +95,10 @@ these steps:
 
 ### Make custom modules installable
 
-The first step is to make the custom modules installable in the new Odoo
+The first step is to make the custom modules installable in the new Konvergo ERP
 version. This means, starting by ensuring there are no tracebacks or
 warnings during their installation. For this, install the custom
-modules, one by one, in an empty database of the new Odoo version and
+modules, one by one, in an empty database of the new Konvergo ERP version and
 fix the tracebacks and warnings that arise from that.
 
 This process will help detect issues during the installation of the
@@ -139,7 +139,7 @@ We also encourage to write automated tests to save time during the
 testing iterations, increase the test coverage, and ensure that the
 changes and fixes introduced do not break the existing flows. If there
 are tests already implemented in the customization, make sure they are
-upgraded to the new Odoo version and run successfully, fixing issues
+upgraded to the new Konvergo ERP version and run successfully, fixing issues
 that might be present.
 
 ### Clean the code
@@ -148,7 +148,7 @@ At this stage of the upgrade process, we also suggest to clean the code
 as much as possible. This includes:
 
 - Remove redundant and unnecessary code.
-- Remove features that are now part of Odoo standard, as described in
+- Remove features that are now part of Konvergo ERP standard, as described in
   `upgrade_custom/stop_developments`.
 - Clean commented code if it is not needed anymore.
 - Refactor the code (functions, fields, views, reports, etc.) if needed.
@@ -196,14 +196,14 @@ scripts, you can also make use of the
   also: `rename_field`, `rename_model`, `rename_xmlid`.
 
 - Data from standard models removed from the source code of the newer
-  Odoo version and from the database during the standard upgrade process
+  Konvergo ERP version and from the database during the standard upgrade process
   might need to be recovered from the old model table if it is still
   present.
 
   > <div class="example">
   >
   > Custom fields for model `sale.subscription` are not automatically
-  > migrated from Odoo 15 to Odoo 16 (when the model was merged into
+  > migrated from Konvergo ERP 15 to Konvergo ERP 16 (when the model was merged into
   > `sale.order`). In this case, a SQL query can be executed on an
   > upgrade script to move the data from one table to the other. Take
   > into account that all columns/fields must already exist, so consider
@@ -246,20 +246,20 @@ Upgrade scripts can also be used to:
 
 <div class="group-tab">
 
-Odoo Online
+Konvergo ERP Online
 
 As the instalation of custom modules containing Python files is not
-allowed on Odoo Online databases, it is not possible to run upgrade
+allowed on Konvergo ERP Online databases, it is not possible to run upgrade
 scripts on this platform.
 
 </div>
 
 <div class="group-tab">
 
-Odoo.sh
+Konvergo ERP.sh
 
-As explained on the <span class="title-ref">Odoo.sh</span> tab of
-`upgrade/request-test-database`, Odoo.sh is integrated with the upgrade
+As explained on the <span class="title-ref">Konvergo ERP.sh</span> tab of
+`upgrade/request-test-database`, Konvergo ERP.sh is integrated with the upgrade
 platform.
 
 Once the upgrade of a staging branch is on "Update on commit" mode, each
@@ -286,7 +286,7 @@ modules, use the option: <span class="title-ref">-u \<modules\>,
 
 > [!IMPORTANT]
 > As mentioned in the `CLI documentation </developer/reference/cli>`,
-> the command used to call the CLI depends on how you installed Odoo.
+> the command used to call the CLI depends on how you installed Konvergo ERP.
 
 </div>
 

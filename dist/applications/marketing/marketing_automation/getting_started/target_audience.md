@@ -1,7 +1,7 @@
 # Target an audience
 
 Delivering marketing campaigns to the right audience is paramount when
-trying to grow a business. The Odoo *Marketing Automation* application
+trying to grow a business. The Konvergo ERP *Marketing Automation* application
 helps marketers to do just that by providing detailed filtering tools,
 which can be as simple (or as complex) as necessary, to reach the right
 customers at the right time.
@@ -78,12 +78,12 @@ Once again, leave the second portion of the filter equation on
 
 Lastly, highlight the default value in the third (and final) portion of
 the second filter equation, and type in
-<span class="title-ref">New</span>. With that in place, Odoo only
+<span class="title-ref">New</span>. With that in place, Konvergo ERP only
 targets opportunities that are in the "New" stage of the pipeline.
 
 <img src="target_audience/filters-opportunities.png"
 class="align-center"
-alt="A standard scenario using filters in the Odoo Marketing Automation app." />
+alt="A standard scenario using filters in the Konvergo ERP Marketing Automation app." />
 
 ### Scenario \#2: Narrow down target to event attendees who purchased a specific ticket
 
@@ -102,7 +102,7 @@ filter equation. This reveals a drop-down menu. From this drop-down
 menu, select `contains`.
 
 In the third (and final) empty portion of the filter equation, type in
-the name of the event(s) that Odoo should consider for this campaign
+the name of the event(s) that Konvergo ERP should consider for this campaign
 filter.
 
 Then, add another node to this filter by clicking the `➕ (plus sign)`
@@ -125,4 +125,4 @@ for the filter. In this case, `Standard` is the name of the event ticket
 type for this sample filter.
 
 <img src="target_audience/filters-event-ticket.png" class="align-center"
-alt="An event ticket filter in the Odoo Marketing Automation application." />
+alt="An event ticket filter in the Konvergo ERP Marketing Automation application." />

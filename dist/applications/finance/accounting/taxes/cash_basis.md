@@ -122,7 +122,7 @@ entry is automatically created:
 </table>
 
 The journal items `Income account` vs. `Income account` are neutral, but
-they are needed to ensure correct tax reports in Odoo with accurate base
+they are needed to ensure correct tax reports in Konvergo ERP with accurate base
 tax amounts.
 
 Using a default `Base Tax Received Account` is recommended so your

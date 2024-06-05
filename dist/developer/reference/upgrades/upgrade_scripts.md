@@ -20,7 +20,7 @@ installed version of the module
 </div>
 
 Typically, this function executes one or multiple SQL queries and can
-also access Odoo's ORM, as well as the `./upgrade_utils`.
+also access Konvergo ERP's ORM, as well as the `./upgrade_utils`.
 
 ## Writing upgrade scripts
 
@@ -31,7 +31,7 @@ The structure of an upgrade script path is
 `$module/migrations/$version/{pre,post,end}-*.py`, where
 <span class="title-ref">\$module</span> is the module for which the
 script will run, <span class="title-ref">\$version</span> is the full
-version of the module (including Odoo's major version and the module's
+version of the module (including Konvergo ERP's major version and the module's
 minor version) and <span class="title-ref">{pre\|post\|end}-\*.py</span>
 is the file that needs to be executed. The file's name will determine
 the `phase
@@ -39,10 +39,10 @@ the `phase
 module and version.
 
 > [!NOTE]
-> From Odoo 13 the top-level directory for the upgrade scripts can also
+> From Konvergo ERP 13 the top-level directory for the upgrade scripts can also
 > be named <span class="title-ref">upgrades</span>. This naming is
 > preferred since it has the correct meaning: *migrate* can be confused
-> with *moving out of Odoo*. Thus `$module/upgrades/$version/` is also
+> with *moving out of Konvergo ERP*. Thus `$module/upgrades/$version/` is also
 > valid.
 
 > [!NOTE]
@@ -56,7 +56,7 @@ module and version.
 
 Directory structure of an upgrade script for a custom module named
 <span class="title-ref">awesome_partner</span> upgraded to version
-<span class="title-ref">2.0</span> on Odoo 17.
+<span class="title-ref">2.0</span> on Konvergo ERP 17.
 
 ``` text
 awesome_partner/

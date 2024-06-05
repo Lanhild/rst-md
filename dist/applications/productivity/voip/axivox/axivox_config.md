@@ -1,8 +1,8 @@
-# VoIP services in Odoo with Axivox
+# VoIP services in Konvergo ERP with Axivox
 
 ## Introduction
 
-Odoo VoIP (Voice over Internet Protocol) can be set up to work together
+Konvergo ERP VoIP (Voice over Internet Protocol) can be set up to work together
 with [Axivox](https://www.axivox.com/). In that case, an Asterisk server
 is **not** necessary, as the infrastructure is hosted and managed by
 Axivox.
@@ -13,7 +13,7 @@ company's area, along with the areas the company's users wish to call.
 
 ## Configuration
 
-To configure Axivox in Odoo, go to the `Apps` application, and search
+To configure Axivox in Konvergo ERP, go to the `Apps` application, and search
 for <span class="title-ref">VoIP</span>. Then, install the `VoIP`
 module.
 
@@ -28,7 +28,7 @@ out the `Asterisk (VoIP)` field:
 - `VoIP Environment`: set as `Production`
 
 <img src="axivox_config/voip-configuration.png" class="align-center"
-alt="Integration of Axivox as VoIP provider in an Odoo database." />
+alt="Integration of Axivox as VoIP provider in an Konvergo ERP database." />
 
 > [!TIP]
 > Access the domain on the Axivox administrative panel by navigating to
@@ -36,12 +36,12 @@ alt="Integration of Axivox as VoIP provider in an Odoo database." />
 > `Users -->
 > Edit (next to any user) --> SIP Identifiers tab --> Domain`.
 
-### Configure VoIP user in Odoo
+### Configure VoIP user in Konvergo ERP
 
-Next, the user is configured in Odoo, which **must** take place for
-every Axivox/Odoo user using VoIP.
+Next, the user is configured in Konvergo ERP, which **must** take place for
+every Axivox/Konvergo ERP user using VoIP.
 
-In Odoo, go to `Settings app --> Users & Companies --> Users`, then open
+In Konvergo ERP, go to `Settings app --> Users & Companies --> Users`, then open
 the desired user's form to configure
 `VoIP (Voice over Internet Protocol)`. Under the `Preferences` tab, fill
 out the `VOIP Configuration` section:
@@ -57,7 +57,7 @@ out the `VOIP Configuration` section:
 - `Reject All Incoming Calls`: option to reject all incoming calls
 
 <img src="axivox_config/odoo-user.png" class="align-center"
-alt="Integration of Axivox user in the Odoo user preference." />
+alt="Integration of Axivox user in the Konvergo ERP user preference." />
 
 > [!TIP]
 > Access the domain on the Axivox administrative panel by navigating to

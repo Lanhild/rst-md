@@ -2,14 +2,14 @@
 
 <div id="inventory/shipping/third_party">
 
-Users can link third-party shipping carriers to Odoo databases, in order
+Users can link third-party shipping carriers to Konvergo ERP databases, in order
 to verify carriers' delivery to specific addresses,
 `automatically calculate shipping costs <delivery_method>`, and
 `generate shipping labels <labels>`.
 
 </div>
 
-In Odoo, shipping carriers can be applied to a sales order (SO),
+In Konvergo ERP, shipping carriers can be applied to a sales order (SO),
 invoice, or delivery order. For tips on resolving common issues when
 configuring shipping connectors, skip to the
 `Troubleshooting <inventory/shipping_receiving/third-party-troubles>`
@@ -21,7 +21,7 @@ section.
 
 </div>
 
-The following is a list of available shipping connectors in Odoo:
+The following is a list of available shipping connectors in Konvergo ERP:
 
 | Carrier                          | Region availability      |
 |----------------------------------|--------------------------|
@@ -36,7 +36,7 @@ The following is a list of available shipping connectors in Odoo:
 
 ## Configuration
 
-To ensure proper setup of a third-party shipping carrier with Odoo,
+To ensure proper setup of a third-party shipping carrier with Konvergo ERP,
 follow these steps:
 
 1.  `Install the shipping connector <inventory/shipping_receiving/shipping-connector>`.
@@ -62,7 +62,7 @@ connectors can be selected at once. Then, click `Save`.
 
 <img src="third_party_shipper/shipping-connectors.png"
 class="align-center"
-alt="Options of available shipping connectors in Odoo." />
+alt="Options of available shipping connectors in Konvergo ERP." />
 
 ### Delivery method
 
@@ -217,7 +217,7 @@ Shipping carriers can be applied on a `SO (Sales Order)`, invoice, or
 delivery order.
 
 After configuring the third-party carrier's `delivery method
-<inventory/shipping_receiving/configure-delivery-method>` in Odoo,
+<inventory/shipping_receiving/configure-delivery-method>` in Konvergo ERP,
 create or navigate to a quotation by going to
 `Sales app --> Orders --> Quotations`.
 
@@ -291,7 +291,7 @@ some checks to try when things are not working as expected:
 
 1.  Ensure the
     `warehouse information <inventory/shipping_receiving/configure-source-address>`
-    (e.g., address and phone number) in Odoo is correct **and** matches
+    (e.g., address and phone number) in Konvergo ERP is correct **and** matches
     the records saved in the shipping provider's website.
 
 2.  Verify that the
@@ -299,13 +299,13 @@ some checks to try when things are not working as expected:
     parameters are valid for the shipping carrier. To check, ensure the
     shipment can be directly created on the shipping carrier's website.
 
-3.  When encountering a price mismatch between Odoo's estimated cost and
+3.  When encountering a price mismatch between Konvergo ERP's estimated cost and
     the provider's charge, first ensure the delivery method is set to
     `production environment
     <inventory/shipping_receiving/production-env>`.
 
-    Then, create the shipment in both the carrier's website and Odoo,
-    and verify the prices are the same across Odoo, the shipping
+    Then, create the shipment in both the carrier's website and Konvergo ERP,
+    and verify the prices are the same across Konvergo ERP, the shipping
     provider, and in the *debug logs*.
 
     <div class="example">
@@ -345,7 +345,7 @@ Database Structure section --> Logging`.
 alt="Show how to find the &quot;Logging&quot; option from the &quot;Technical&quot; menu." />
 
 Click the *HTTP request* line item to open a detailed page, and verify
-the correct information is sent from Odoo to the shipping carrier. In
+the correct information is sent from Konvergo ERP to the shipping carrier. In
 the *HTTP response*, verify that the same information is received.
 
 <img src="third_party_shipper/logging.png" class="align-center"

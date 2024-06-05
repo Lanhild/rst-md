@@ -96,7 +96,7 @@ white tag indicating the name of the `SLA (Service Level Agreement)`
 applied.
 
 <img src="sla/sla-open-deadline.png" class="align-center"
-alt="View of a ticket&#39;s form emphasizing an open SLA deadline on a ticket in Odoo Helpdesk" />
+alt="View of a ticket&#39;s form emphasizing an open SLA deadline on a ticket in Konvergo ERP Helpdesk" />
 
 > [!IMPORTANT]
 > If a ticket fits the criteria for more than one
@@ -110,7 +110,7 @@ Level Agreement)` tag turns green, and the `Deadline` field disappears
 from view on the.
 
 <img src="sla/sla-deadline.png" class="align-center"
-alt="View of a ticket&#39;s form emphasizing a satisfied SLA in Odoo Helpdesk" />
+alt="View of a ticket&#39;s form emphasizing a satisfied SLA in Konvergo ERP Helpdesk" />
 
 If the `SLA (Service Level Agreement)` deadline passes and the ticket
 has not moved to the `Reach Stage`, the `SLA (Service Level Agreement)`
@@ -119,7 +119,7 @@ the red tag will stay on the ticket, even after the ticket is moved to
 the `Reach Stage`.
 
 <img src="sla/sla-passing-failing.png" class="align-center"
-alt="View of a ticket&#39;s form with a failing and passing SLA in Odoo Helpdesk" />
+alt="View of a ticket&#39;s form with a failing and passing SLA in Konvergo ERP Helpdesk" />
 
 ## Analyzing SLA performance
 
@@ -137,7 +137,7 @@ to show the number of SLAs failed and the failure rate over the last 30
 days, grouped by team.
 
 <img src="sla/sla-status-analysis.png" class="align-center"
-alt="View of the SLA status analysis report in Odoo Helpdesk" />
+alt="View of the SLA status analysis report in Konvergo ERP Helpdesk" />
 
 To add the number of SLAs passed or in progress, click the `Measures`
 button to reveal a drop-down menu of reporting criteria, and choose from

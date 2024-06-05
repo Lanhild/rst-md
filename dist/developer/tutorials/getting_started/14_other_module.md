@@ -3,7 +3,7 @@
 In the `previous chapter <tutorials/getting_started/13_inheritance>`, we
 used inheritance to modify the behavior of a module. In our real estate
 scenario, we would like to go a step further and be able to generate
-invoices for our customers. Odoo provides an Invoicing module, so it
+invoices for our customers. Konvergo ERP provides an Invoicing module, so it
 would be neat to create an invoice directly from our real estate module,
 i.e. once a property is set to 'Sold', an invoice is created in the
 Invoicing application.
@@ -98,7 +98,7 @@ imported.
 
 If the override is working, we can move forward and create the invoice.
 Unfortunately, there is no easy way to know how to create any given
-object in Odoo. Most of the time, it is necessary to have a look at its
+object in Konvergo ERP. Most of the time, it is necessary to have a look at its
 model to find the required fields and provide appropriate values.
 
 A good way to learn is to look at how other modules already do what you
@@ -192,7 +192,7 @@ For each line, we need a `name`, `quantity` and `price_unit`.
 </div>
 
 This chapter might be one of the most difficult that has been covered so
-far, but it is the closest to what Odoo development will be in practice.
+far, but it is the closest to what Konvergo ERP development will be in practice.
 In the `next chapter
 <tutorials/getting_started/15_qwebintro>`, we will introduce the
-templating mechanism used in Odoo.
+templating mechanism used in Konvergo ERP.

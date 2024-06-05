@@ -2,10 +2,10 @@
 
 At the end of the
 `previous chapter <tutorials/getting_started/03_newapp>`, we were able
-to create an Odoo module. However, at this point it is still an empty
+to create an Konvergo ERP module. However, at this point it is still an empty
 shell which doesn't allow us to store any data. In our real estate
 module, we want to store the information related to the properties
-(name, description, price, living area...) in a database. The Odoo
+(name, description, price, living area...) in a database. The Konvergo ERP
 framework provides tools to facilitate database interactions.
 
 Before moving forward in the exercise, make sure the `estate` module is
@@ -14,7 +14,7 @@ installed, i.e. it must appear as 'Installed' in the Apps list.
 > [!WARNING]
 > Do not use mutable global variables.
 >
-> A single Odoo instance can run several databases in parallel within
+> A single Konvergo ERP instance can run several databases in parallel within
 > the same python process. Distinct modules might be installed on each
 > of these databases, therefore we cannot rely on global variables that
 > would be updated depending on installed modules.
@@ -37,7 +37,7 @@ the `reference/orm/model` API.
 > (1 row)
 > ```
 
-A key component of Odoo is the
+A key component of Konvergo ERP is the
 [ORM](https://en.wikipedia.org/wiki/Object-relational_mapping) layer.
 This layer avoids having to manually write most
 [SQL](https://en.wikipedia.org/wiki/SQL) and provides extensibility and
@@ -49,7 +49,7 @@ persistence system.
 
 Models can be configured by setting attributes in their definition. The
 most important attribute is `~odoo.models.Model._name`, which is
-required and defines the name for the model in the Odoo system. Here is
+required and defines the name for the model in the Konvergo ERP system. Here is
 a minimum definition of a model:
 
     from odoo import models
@@ -86,7 +86,7 @@ When the files are created, add a minimum definition for the
 
 </div>
 
-Any modification of the Python files requires a restart of the Odoo
+Any modification of the Python files requires a restart of the Konvergo ERP
 server. When we restart the server, we will add the parameters `-d` and
 `-u`:
 
@@ -264,7 +264,7 @@ value or always be given a value when creating a record.
 Provides long-form help tooltip for users in the UI.
 
 `~odoo.fields.Field.index` (`bool`, default: `False`)  
-Requests that Odoo create a [database
+Requests that Konvergo ERP create a [database
 index](https://use-the-index-luke.com/sql/preface) on the column.
 
 <div class="exercise">
@@ -287,7 +287,7 @@ After restarting the server, both fields should be not nullable.
 **Reference**: the documentation related to this topic can be found in
 `reference/fields/automatic`.
 
-You may have noticed your model has a few fields you never defined. Odoo
+You may have noticed your model has a few fields you never defined. Konvergo ERP
 creates a few fields in all models[^2]. These fields are managed by the
 system and can't be written to, but they can be read if useful or
 necessary:
@@ -311,7 +311,7 @@ Now that we have created our first model, let's
 `add some security <tutorials/getting_started/05_securityintro>`!
 
 [^1]: writing raw SQL queries is possible, but requires caution as this
-    bypasses all Odoo authentication and security mechanisms.
+    bypasses all Konvergo ERP authentication and security mechanisms.
 
 [^2]: it is possible to `disable the automatic creation of some
     fields <reference/fields/automatic/log_access>`

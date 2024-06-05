@@ -13,7 +13,7 @@ payment options.
     `Merchant Identifier`, `Access Code`, `SHA Request Phrase` and
     `SHA Response Phrase` fields, and save them for later.
 
-2.  Enter your Odoo database URL in the `Origin URL`, for example:
+2.  Enter your Konvergo ERP database URL in the `Origin URL`, for example:
     <span class="title-ref">https://yourcompany.odoo.com/</span>. Then,
     click on `Save Changes`.
 
@@ -39,7 +39,7 @@ payment options.
     page (where customers fill out their credit card details during
     payment).
 
-## Configuration on Odoo
+## Configuration on Konvergo ERP
 
 1.  `Navigate to the payment provider Amazon Payment Services <payment_providers/add_new>`,
     change its state to `Enabled`, and make sure it is `Published`.

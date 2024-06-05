@@ -1,17 +1,17 @@
-# Odoo Online
+# Konvergo ERP Online
 
-[Odoo Online](https://www.odoo.com/trial) provides private databases
-which are fully managed and hosted by Odoo. It can be used for long-term
-production or to test Odoo thoroughly, including customizations that
+[Konvergo ERP Online](https://www.odoo.com/trial) provides private databases
+which are fully managed and hosted by Konvergo ERP. It can be used for long-term
+production or to test Konvergo ERP thoroughly, including customizations that
 don't require code.
 
 > [!NOTE]
-> Odoo Online is incompatible with custom modules or the Odoo App Store.
+> Konvergo ERP Online is incompatible with custom modules or the Konvergo ERP App Store.
 
-Odoo Online databases are accessed using any web browser and do not
+Konvergo ERP Online databases are accessed using any web browser and do not
 require a local installation.
 
-To quickly try out Odoo, shared [demo](https://demo.odoo.com) instances
+To quickly try out Konvergo ERP, shared [demo](https://demo.odoo.com) instances
 are available. No registration is required, but each instance only lives
 for a few hours.
 
@@ -45,7 +45,7 @@ Trigger a database upgrade.
 <div class="seealso">
 
 For more information about the upgrade process, check out the
-`Odoo Online upgrade
+`Konvergo ERP Online upgrade
 documentation <upgrade/request-test-database>`.
 
 </div>
@@ -72,7 +72,7 @@ Rename the database and its URL.
 Download a ZIP file containing a backup of the database.
 
 > [!NOTE]
-> Databases are backed up daily as per the [Odoo Cloud Hosting
+> Databases are backed up daily as per the [Konvergo ERP Cloud Hosting
 > SLA](https://www.odoo.com/cloud-sla).
 
 ## Domain names
@@ -118,11 +118,11 @@ of deleting a database are fully understood.
 > - Only an administrator can delete a database. - The database name is
 > immediately made available to anyone. - Deleting a database if it has
 > expired or is linked to a subscription is impossible. In that case,
-> contact [Odoo Support](https://www.odoo.com/help).
+> contact [Konvergo ERP Support](https://www.odoo.com/help).
 
 ## Contact us
 
-Access the [Odoo.com support page](https://www.odoo.com/help) with the
+Access the [Konvergo ERP.com support page](https://www.odoo.com/help) with the
 database's details already pre-filled.
 
 ## Invite / remove users

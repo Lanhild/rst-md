@@ -1,6 +1,6 @@
 # Version control
 
-Use Odoo's *Product Lifecycle Management (PLM)* to manage previous
+Use Konvergo ERP's *Product Lifecycle Management (PLM)* to manage previous
 versions of bills of materials (BoMs). Store former assembly
 instructions, component details, and past product design files while
 keeping the past details out of the production
@@ -159,7 +159,7 @@ one newly added attachment." />
 
 ## Apply rebase
 
-Odoo simplifies merge conflict resolution for concurrent
+Konvergo ERP simplifies merge conflict resolution for concurrent
 `ECOs (Engineering Change Orders)` on the same product.
 
 Conflicts can occur when the production `BoM (Bill of Materials)` is

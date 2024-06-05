@@ -1,7 +1,7 @@
 # Invoicing processes
 
 Depending on your business and the application you use, there are
-different ways to automate the customer invoice creation in Odoo.
+different ways to automate the customer invoice creation in Konvergo ERP.
 Usually, draft invoices are created by the system (with information
 coming from other documents like sales order or contracts) and
 accountant just have to validate draft invoices and send the invoices in
@@ -63,7 +63,7 @@ order.
 
 An eCommerce order will also trigger the creation of the order when it
 is fully paid. If you allow paying orders by check or wire transfer,
-Odoo only creates an order and the invoice will be triggered once the
+Konvergo ERP only creates an order and the invoice will be triggered once the
 payment is received.
 
 ## Contracts
@@ -151,7 +151,7 @@ restrictions:
 **Invoice digitization** is the process of automatically encoding
 traditional paper invoices into invoices forms in your accounting.
 
-Odoo uses OCR and artificial intelligence technologies to recognize the
+Konvergo ERP uses OCR and artificial intelligence technologies to recognize the
 content of the documents. Vendor bills and customer invoices forms are
 automatically created and populated based on scanned invoices.
 

@@ -29,7 +29,7 @@ lines.
 
 <img src="upselling/configuration-to-upsell-a-subscription.png"
 class="align-center"
-alt="Activation of the discount option in Odoo Sales" />
+alt="Activation of the discount option in Konvergo ERP Sales" />
 
 ## Upsell your first subscription
 
@@ -41,7 +41,7 @@ subscription has the status *In progress*. From there, you have the
 possibility to upsell your subscription.
 
 <img src="upselling/upsell-your-subscription.png" class="align-center"
-alt="Upsell your subscription with Odoo Subscriptions" />
+alt="Upsell your subscription with Konvergo ERP Subscriptions" />
 
 By using the smart button *Upsell*, you are able to create a new
 quotation with new subscription products and send it to your customers
@@ -49,7 +49,7 @@ for approval.
 
 <img src="upselling/use-of-the-upsell-button-in-odoo-sales.png"
 class="align-center"
-alt="Add products to your subscription via the upsell option in Odoo Subscriptions" />
+alt="Add products to your subscription via the upsell option in Konvergo ERP Subscriptions" />
 
 > [!IMPORTANT]
 > When the quotation is confirmed by your customers, the products are
@@ -67,7 +67,7 @@ can see that an additional line has been added to the subscription with
 the new extra service the customer wanted to purchase.
 
 <img src="upselling/subscriptions-updates.png" class="align-center"
-alt="Visualize all your subscriptions updates with Odoo Subscriptions" />
+alt="Visualize all your subscriptions updates with Konvergo ERP Subscriptions" />
 
 In addition, by clicking on the *Sales* button, you have a summary of
 your sales orders in a list view.

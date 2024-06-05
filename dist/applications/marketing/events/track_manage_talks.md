@@ -1,6 +1,6 @@
 # Track and manage talks
 
-With Odoo Events, it's possible to provide attendees with the power to
+With Konvergo ERP Events, it's possible to provide attendees with the power to
 propose presenters to speak at events.
 
 ## Configuration
@@ -41,7 +41,7 @@ the event, but in a calendar/time-slot format.
 
 <img src="track_manage_talks/events-talk-proposal-header.png"
 class="align-center"
-alt="View of the published website and the talks, talk proposals, and agenda in Odoo Events" />
+alt="View of the published website and the talks, talk proposals, and agenda in Konvergo ERP Events" />
 
 ## Manage talk proposals
 
@@ -54,7 +54,7 @@ a new `Proposal` is instantly created in the back end for the event.
 
 <img src="track_manage_talks/events-tracks-kanban.png"
 class="align-center"
-alt="View of the talks&#39; proposals page emphasizing the column proposal in Odoo Events." />
+alt="View of the talks&#39; proposals page emphasizing the column proposal in Konvergo ERP Events." />
 
 If a proposal is accepted, move the `Event Track` to the appropriate
 stage in the Kanban view (e.g. <span class="title-ref">Confirmed</span>,
@@ -70,7 +70,7 @@ In the upper right corner, toggle the switch from `Unpublished` to
 
 <img src="track_manage_talks/events-tracks-publish.png"
 class="align-center"
-alt="View of the website page to publish a proposed talk for Odoo Events." />
+alt="View of the website page to publish a proposed talk for Konvergo ERP Events." />
 
 ### Attendees list and attendance
 
@@ -87,9 +87,9 @@ the `Attendee List` for that event, which is accessible via the
 
 <img src="track_manage_talks/events-attendees-smartbutton.png"
 class="align-center"
-alt="Overview of events with the kanban view in Odoo Events." />
+alt="Overview of events with the kanban view in Konvergo ERP Events." />
 
-When analyzing an `Attendees list`, Odoo provides different ways to view
+When analyzing an `Attendees list`, Konvergo ERP provides different ways to view
 the information. Each view option presents the same information, but in
 a slightly different layout. To change the view, click on the icons in
 the upper right hand of the screen.
@@ -120,7 +120,7 @@ registration dates.
 
 ### Manage registrations
 
-Upon selecting an attendee, Odoo reveals that specific attendee's detail
+Upon selecting an attendee, Konvergo ERP reveals that specific attendee's detail
 form.
 
 From here, event badges can be sent manually, by selecting
@@ -130,12 +130,12 @@ button.
 
 <img src="track_manage_talks/events-send-email-button.png"
 class="align-center"
-alt="View of an attendee form emphasizing the send by email and cancel registration in Odoo
+alt="View of an attendee form emphasizing the send by email and cancel registration in Konvergo ERP
 Events." />
 
 ### Lead Generation Rules
 
-With Odoo, leads can be generated from events.
+With Konvergo ERP, leads can be generated from events.
 
 To create and configure a `Lead Generation Rule` related to events,
 navigate to `Events app --> Configuration --> Lead Generation`.
@@ -146,14 +146,14 @@ to those rules.
 
 <img src="track_manage_talks/events-lead-generation-rule-page.png"
 class="align-center"
-alt="How the Lead Generation Rule page looks in Odoo Events." />
+alt="How the Lead Generation Rule page looks in Konvergo ERP Events." />
 
 To create a new `Lead Generation Rule`, click `Create`, and fill out the
 `Lead Generation Rule` form.
 
 <img src="track_manage_talks/events-lead-generation-rule-template.png"
 class="align-center"
-alt="How the Lead Generation Rule template looks in Odoo Events." />
+alt="How the Lead Generation Rule template looks in Konvergo ERP Events." />
 
 After naming the rule, configure *how* the lead should be created
 (either `Per Attendee` or `Per Order`), and *when* they should be

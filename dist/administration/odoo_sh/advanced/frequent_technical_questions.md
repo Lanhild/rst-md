@@ -2,13 +2,13 @@
 
 ## "Scheduled actions do not run at the exact time they were expected"
 
-On the Odoo.sh platform, we cannot guarantee an exact running time for
+On the Konvergo ERP.sh platform, we cannot guarantee an exact running time for
 scheduled actions.
 
 This is due to the fact that there might be multiple customers on the
 same server, and we must guarantee a fair share of the server for every
 customer. Scheduled actions are therefore implemented slightly
-differently than on a regular Odoo server, and are run on a *best
+differently than on a regular Konvergo ERP server, and are run on a *best
 effort* policy.
 
 > [!WARNING]
@@ -17,7 +17,7 @@ effort* policy.
 
 ## Are there "best practices" regarding scheduled actions?
 
-**Odoo.sh always limits the execution time of scheduled actions (\*aka\*
+**Konvergo ERP.sh always limits the execution time of scheduled actions (\*aka\*
 crons).** Therefore, you must keep this fact in mind when developing
 your own crons.
 

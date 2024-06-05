@@ -4,8 +4,8 @@
 
 ### Warehouse
 
-In Odoo, a **Warehouse** is the actual building/place in which a
-company's items are stocked. Multiple warehouses can be set up in Odoo
+In Konvergo ERP, a **Warehouse** is the actual building/place in which a
+company's items are stocked. Multiple warehouses can be set up in Konvergo ERP
 and the user can create moves between warehouses.
 
 ### Location
@@ -13,7 +13,7 @@ and the user can create moves between warehouses.
 A **Location** is a specific space within the warehouse. It can be a
 sublocation of the warehouse (a shelf, a floor, an aisle, and so on).
 Therefore, a location is part of one warehouse only and it is not
-possible to link one location to multiple warehouses. In Odoo, as many
+possible to link one location to multiple warehouses. In Konvergo ERP, as many
 locations can be configured as needed under one warehouse.
 
 There are three types of locations:
@@ -30,7 +30,7 @@ There are three types of locations:
   (**Inventory Loss**), or accounting for products that are on their way
   to the warehouse (**Procurements**).
 
-In Odoo, locations are structured hierarchically. Locations can be
+In Konvergo ERP, locations are structured hierarchically. Locations can be
 structured as a tree, dependent on a parent-child relationship. This
 gives more detailed levels of analysis of the stock operations and the
 organization of the warehouses.
@@ -42,7 +42,7 @@ To activate locations, go to `Configuration --> Settings` and enable
 
 <img src="warehouses_locations/storage-location-warehouse-setting.png"
 class="align-center"
-alt="Enable the storage location feature in Odoo Inventory settings." />
+alt="Enable the storage location feature in Konvergo ERP Inventory settings." />
 
 > [!IMPORTANT]
 > To manage several routes within the warehouses, also enable
@@ -60,11 +60,11 @@ five characters maximum.
 
 <img src="warehouses_locations/create-new-warehouse.png"
 class="align-center"
-alt="Short name field of a warehouse on Odoo Inventory." />
+alt="Short name field of a warehouse on Konvergo ERP Inventory." />
 
 > [!IMPORTANT]
 > The `Short Name` appears on transfer orders and other warehouse
-> documents. Odoo recommends using an understandable one like
+> documents. Konvergo ERP recommends using an understandable one like
 > "WH/\[first letters of location\]".
 
 Now, go back to the `Inventory` dashboard. There, new operations related
@@ -89,4 +89,4 @@ Then, fill out a `Location Name` and a `Parent Location` and click
 
 <img src="warehouses_locations/create-new-location.png"
 class="align-center"
-alt="Create a new warehouse location in Odoo Inventory." />
+alt="Create a new warehouse location in Konvergo ERP Inventory." />

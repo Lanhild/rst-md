@@ -6,7 +6,7 @@ style, or color, just to name a few.
 
 Products variants can be managed via their individual product template,
 or by navigating to either the `Product Variants` or `Attributes` page.
-All of these options are located within the Odoo *Sales* application.
+All of these options are located within the Konvergo ERP *Sales* application.
 
 <div class="example">
 
@@ -26,7 +26,7 @@ is a specific product variant.
 In this instance, there is a total of twenty different product variants:
 four **Color** options multiplied by five **Size** options. Each variant
 has its own inventory count, sales totals, and other similar records in
-Odoo.
+Konvergo ERP.
 
 </div>
 
@@ -39,7 +39,7 @@ Odoo.
 ## Configuration
 
 To use product variants, the *Variants* setting **must** be activated in
-the Odoo *Sales* application.
+the Konvergo ERP *Sales* application.
 
 To do that, go to `Sales app --> Configuration --> Settings`, and locate
 the `Product Catalog` section at the top of the page.
@@ -47,7 +47,7 @@ the `Product Catalog` section at the top of the page.
 In that section, check the box to enable the `Variants` feature.
 
 <img src="variants/activating-variants-setting.png" class="align-center"
-alt="Activating product variants on the Settings page of the Odoo Sales application." />
+alt="Activating product variants on the Settings page of the Konvergo ERP Sales application." />
 
 Then, click `Save` at the top of the `Settings` page.
 
@@ -67,7 +67,7 @@ so reveals a blank attributes form that can be customized and configured
 in a number of ways.
 
 <img src="variants/attribute-creation.png" class="align-center"
-alt="A blank attribute creation form in the Odoo Sales application." />
+alt="A blank attribute creation form in the Konvergo ERP Sales application." />
 
 First, create an `Attribute Name`, such as
 <span class="title-ref">Color</span> or
@@ -121,9 +121,9 @@ The `Display Type` options are:
   HTML color codes set, on the product page of the online store.
 
 <img src="variants/display-types.png" class="align-center"
-alt="Display Types on Product Configurator on the online store in Odoo." />
+alt="Display Types on Product Configurator on the online store in Konvergo ERP." />
 
-The `Variants Creation Mode` field informs Odoo when to automatically
+The `Variants Creation Mode` field informs Konvergo ERP when to automatically
 create a new variant once an attribute is added to a product.
 
 - `Instantly`: creates all possible variants as soon as attributes and
@@ -200,7 +200,7 @@ On the product form, click the `Attributes \& Variants` tab to view,
 manage, and modify attributes and values for the product.
 
 <img src="variants/attributes-values-tab.png" class="align-center"
-alt="The attributes and values tab on a typical product form in Odoo Sales." />
+alt="The attributes and values tab on a typical product form in Konvergo ERP Sales." />
 
 To add an attribute to a product, and subsequent attribute values, click
 `Add a line` in the `Attributes \& Variants` tab. Then, choose the
@@ -231,7 +231,7 @@ drop-down menu available in the `Values` column.
 ### Configure variants
 
 To the far-right of the attribute line is a `Configure` button. When
-clicked, Odoo reveals a separate page showcasing those specific
+clicked, Konvergo ERP reveals a separate page showcasing those specific
 `Product Variant Values`.
 
 <img src="variants/product-variant-values.png" class="align-center"
@@ -244,7 +244,7 @@ Here, the specific `Value` name, `HTML Color Index` (if applicable), and
 > The `Value Price Extra` represents the increase in the sales price if
 > the attribute is selected.
 
-When a value is clicked on the `Product Variant Values` page, Odoo
+When a value is clicked on the `Product Variant Values` page, Konvergo ERP
 reveals a separate page, detailing that value's related details.
 
 <img src="variants/product-variant-value-page.png" class="align-center"
@@ -266,20 +266,20 @@ top of the product form. The `Variants` smart button indicates how many
 variants are currently configured for that specific product.
 
 <img src="variants/variants-smart-button.png" class="align-center"
-alt="The variants smart button at the top of the product form in Odoo Sales." />
+alt="The variants smart button at the top of the product form in Konvergo ERP Sales." />
 
-When the `Variants` smart button is clicked, Odoo reveals a separate
+When the `Variants` smart button is clicked, Konvergo ERP reveals a separate
 page showcasing all the specific product variant combinations configured
 for that specific product.
 
 <img src="variants/variants-page.png" class="align-center"
-alt="The variants page accessible via the variants smart button on the product form in Odoo." />
+alt="The variants page accessible via the variants smart button on the product form in Konvergo ERP." />
 
 ## Impact of variants
 
 In addition to offering more detailed product options to customers,
 product variants have their own impacts that can be taken advantage of
-throughout the Odoo database.
+throughout the Konvergo ERP database.
 
 - `Barcode`: barcodes are associated with each variant, instead of the
   product template. Each individual variant can have its own unique

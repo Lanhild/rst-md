@@ -1,6 +1,6 @@
 # Blog
 
-**Odoo Blog** allows you to create and manage blog posts on your website
+**Konvergo ERP Blog** allows you to create and manage blog posts on your website
 to engage your audience and build a community.
 
 > [!TIP]

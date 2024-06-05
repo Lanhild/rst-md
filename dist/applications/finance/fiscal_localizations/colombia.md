@@ -1,6 +1,6 @@
 # Colombia
 
-Odoo's Colombian localization package provides accounting, fiscal, and
+Konvergo ERP's Colombian localization package provides accounting, fiscal, and
 legal features for databases in Colombia – such as chart of accounts,
 taxes, and electronic invoicing.
 
@@ -32,7 +32,7 @@ features of the Colombian localization:
 
 > [!NOTE]
 > When <span class="title-ref">Colombia</span> is selected for a
-> company's `Fiscal Localization`, Odoo automatically installs certain
+> company's `Fiscal Localization`, Konvergo ERP automatically installs certain
 > modules.
 
 ### Company configuration
@@ -94,12 +94,12 @@ Carvajal:
 Enable the `Test mode` checkbox to connect with the Carvajal testing
 environment.
 
-Once Odoo and Carvajal are fully configured and ready for production,
+Once Konvergo ERP and Carvajal are fully configured and ready for production,
 deactivate the `Test
 mode` checkbox to use the production database.
 
 <img src="colombia/carvajal-configuration.png" class="align-center"
-alt="Configure credentials for Carvajal web service in Odoo." />
+alt="Configure credentials for Carvajal web service in Konvergo ERP." />
 
 > [!IMPORTANT]
 > `Test mode` must **only** be used on duplicated databases, **not** the
@@ -147,7 +147,7 @@ partners **must** have their `Identification Number` (VAT) and
 
 > [!TIP]
 > When the `Document Type` is <span class="title-ref">NIT</span>, the
-> `Identification Number` needs to be configured in Odoo, including the
+> `Identification Number` needs to be configured in Konvergo ERP, including the
 > *verification digit at the end of the ID, prefixed by a hyphen
 > (\`-\`)*.
 
@@ -198,14 +198,14 @@ Retention tax types (`ICA`, `IVA`, `Fuente`) are also included. This
 configuration is used to display taxes correctly in the invoice PDF.
 
 <img src="colombia/retention-tax-types.png" class="align-center"
-alt="The ICA, IVA and Fuente fields in the Advanced Options tab in Odoo." />
+alt="The ICA, IVA and Fuente fields in the Advanced Options tab in Konvergo ERP." />
 
 #### Sales journals
 
 Once the `DIAN (Dirección de Impuestos y Aduanas Nacionales)` has
 assigned the official sequence and prefix for the electronic invoice
 resolution, the sales journals related to the invoice documents **must**
-be updated in Odoo. To do so, navigate to
+be updated in Konvergo ERP. To do so, navigate to
 `Accounting --> Configuration --> Journals`, and select an existing
 sales journal, or create a new one with the `Create` button.
 
@@ -232,7 +232,7 @@ The invoice sequence and prefix **must** be correctly configured when
 the first document is created.
 
 > [!NOTE]
-> Odoo automatically assigns a prefix and sequence to the following
+> Konvergo ERP automatically assigns a prefix and sequence to the following
 > invoices.
 
 ##### Purchase journals
@@ -240,7 +240,7 @@ the first document is created.
 Once the `DIAN (Dirección de Impuestos y Aduanas Nacionales)` has
 assigned the official sequence and prefix for the *support document*
 related to vendor bills, the purchase journals related to their
-supporting documents need to be updated in Odoo. The process is similar
+supporting documents need to be updated in Konvergo ERP. The process is similar
 to the configuration of the `sales journals <co-journals>`.
 
 ##### Chart of accounts
@@ -309,7 +309,7 @@ by the E-invoicing service UBL 2.1 (Colombia). The file is also
 displayed in the chatter.
 
 <img src="colombia/invoice-sent.png" class="align-center"
-alt="Carvajal XML invoice file in Odoo chatter." />
+alt="Carvajal XML invoice file in Konvergo ERP chatter." />
 
 The `Electronic Invoice Name` field is now displayed in the
 `EDI Documents` tab, with the name of the XML file. Additionally, the
@@ -333,7 +333,7 @@ invoice in (PDF format) is downloaded and displayed in the invoice
 chatter:
 
 <img src="colombia/invoice-zip.png" class="align-center"
-alt="ZIP file displayed in the invoice chatter in Odoo." />
+alt="ZIP file displayed in the invoice chatter in Konvergo ERP." />
 
 The electronic invoice status changes to `Accepted`.
 
@@ -409,7 +409,7 @@ After the master data is corrected, it's possible to reprocess the XML
 with the new data and send the updated version, using the `Retry`
 button.
 
-![XML validation errors shown in the invoice chatter in Odoo.](colombia/xml-validation-error.png)
+![XML validation errors shown in the invoice chatter in Konvergo ERP.](colombia/xml-validation-error.png)
 
 ## Financial reports
 
@@ -421,7 +421,7 @@ Colombian Industry and Commerce (ICA) tax. The report can be found under
 Colombian Statements --> Certificado de Retención en ICA`.
 
 <img src="colombia/ica-report.png" class="align-center"
-alt="Certificado de Retención en ICA report in Odoo Accounting." />
+alt="Certificado de Retención en ICA report in Konvergo ERP Accounting." />
 
 ### Certificado de Retención en IVA
 
@@ -431,7 +431,7 @@ VAT withholding. The report can be found under
 de Retención en IVA`.
 
 <img src="colombia/iva-report.png" class="align-center"
-alt="Certificado de Retención en IVA report in Odoo Accounting." />
+alt="Certificado de Retención en IVA report in Konvergo ERP Accounting." />
 
 ### Certificado de Retención en la Fuente
 
@@ -441,4 +441,4 @@ have made. The report can be found under
 Retención en Fuente`.
 
 <img src="colombia/fuente-report.png" class="align-center"
-alt="Certificado de Retención en Fuente report in Odoo Accounting." />
+alt="Certificado de Retención en Fuente report in Konvergo ERP Accounting." />

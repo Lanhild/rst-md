@@ -12,7 +12,7 @@ chatbot depends on the page of the website they are assigned, and the
 messages included in the script, among other criteria.
 
 <img src="chatbots/chatbot-visitor-view.png" class="align-center"
-alt="View of the chat window with a helpdesk ticket created in Odoo Live Chat." />
+alt="View of the chat window with a helpdesk ticket created in Konvergo ERP Live Chat." />
 
 ## Build a chatbot
 
@@ -43,7 +43,7 @@ open it, and go to `Configuration --> Chatbots`.
 > *Welcome Bot* can be deleted (or archived).
 >
 > <img src="chatbots/chatbot-welcome-bot.png" class="align-center"
-> alt="View of the Welcome Bot script in Odoo Live Chat." />
+> alt="View of the Welcome Bot script in Konvergo ERP Live Chat." />
 
 To create a new chatbot, navigate to the `Chatbot` page
 (`Live Chat app -->

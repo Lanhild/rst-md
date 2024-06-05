@@ -1,6 +1,6 @@
 # Mailing lists and blacklists
 
-Creating or importing mailing lists in Odoo is very useful when curating
+Creating or importing mailing lists in Konvergo ERP is very useful when curating
 content to specific groups of people that already share similar
 demographics or interests. Mailing lists are also a great way to get
 started if a company is migrating from another system, and already has a
@@ -22,7 +22,7 @@ mailing lists in the database.
 
 <img src="mailing_lists_blacklists/mailing-list-main-page.png"
 class="align-center"
-alt="View of the main SMS mailing list page on the Odoo SMS Marketing application." />
+alt="View of the main SMS mailing list page on the Konvergo ERP SMS Marketing application." />
 
 To edit any existing list, select the desired list from the
 `Mailing Lists` page, and proceed to modify it in a number of ways.
@@ -33,7 +33,7 @@ template form.
 
 <img src="mailing_lists_blacklists/sms-mailing-list-popup.png"
 class="align-center"
-alt="View of the mailing list pop-up window in Odoo SMS Marketing." />
+alt="View of the mailing list pop-up window in Konvergo ERP SMS Marketing." />
 
 First, choose a name for the `Mailing List`, and activate the option `Is
 Public`, to make the mailing list accessible to recipients on the
@@ -66,7 +66,7 @@ the upper-left corner of the mailing list detail form.
 
 <img src="mailing_lists_blacklists/sms-mailing-list.png"
 class="align-center"
-alt="View of the mailing list template form in Odoo SMS Marketing." />
+alt="View of the mailing list template form in Konvergo ERP SMS Marketing." />
 
 > [!NOTE]
 > Don't forget to hit the `Save` button once changes have been made.
@@ -81,10 +81,10 @@ the database.
 
 <img src="mailing_lists_blacklists/mailing-list-contacts-page.png"
 class="align-center"
-alt="View of the mailing lists contact page in the Odoo SMS Marketing application." />
+alt="View of the mailing lists contact page in the Konvergo ERP SMS Marketing application." />
 
 > [!NOTE]
-> By default, Odoo reveals the `Mailing List Contacts` page with the
+> By default, Konvergo ERP reveals the `Mailing List Contacts` page with the
 > `Exclude
 > Blacklisted Phone` filter in the search bar. Therefore only showing
 > contact information for recipients who still want to receive
@@ -107,11 +107,11 @@ not received).
 
 <img src="mailing_lists_blacklists/sms-marketing-chatter.png"
 class="align-center"
-alt="View of what the chatter looks like in the Odoo Contacts app." />
+alt="View of what the chatter looks like in the Konvergo ERP Contacts app." />
 
 ## Blacklist
 
-Odoo *SMS Marketing* has a `Blacklist` feature that provides recipients
+Konvergo ERP *SMS Marketing* has a `Blacklist` feature that provides recipients
 with the power to add their phone number to a list of people who no
 longer want to receieve communications or mailings.
 
@@ -156,4 +156,4 @@ search bar), and click `Import records`.
 
 <img src="mailing_lists_blacklists/import-blacklist.png"
 class="align-center"
-alt="View of how to import a blacklist in Odoo SMS Marketing." />
+alt="View of how to import a blacklist in Konvergo ERP SMS Marketing." />

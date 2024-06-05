@@ -7,7 +7,7 @@ allows you to integrate other Git projects into your code, without the
 need to copy-paste all their code.
 
 Indeed, your custom modules can depend on modules from other
-repositories. Regarding Odoo, this feature allows you to add modules
+repositories. Regarding Konvergo ERP, this feature allows you to add modules
 from other Git repositories into the branches of your repository. Adding
 these dependencies in your branch through submodules makes the
 deployment of your code and servers easier, as you can clone the
@@ -19,28 +19,28 @@ and you have the control of the revision you want. It's up to you to
 decide whether you want to pin the submodule to a specific revision and
 when you want to update to a newer revision.
 
-In Odoo.sh, the submodules give you the possibility to use and depend on
+In Konvergo ERP.sh, the submodules give you the possibility to use and depend on
 modules available in other repositories. The platform will detect that
 you added modules through submodules in your branches and add them to
 your addons path automatically so you can install them in your
 databases.
 
 If you add private repositories as submodules in your branches, you need
-to configure a deploy key in your Odoo.sh project settings and in your
-repository settings. Otherwise Odoo.sh won't be allowed to download
+to configure a deploy key in your Konvergo ERP.sh project settings and in your
+repository settings. Otherwise Konvergo ERP.sh won't be allowed to download
 them. The procedure is detailed in the chapter
 `Settings > Submodules <odoosh-gettingstarted-settings-submodules>`.
 
 ## Adding a submodule
 
-### With Odoo.sh (simple)
+### With Konvergo ERP.sh (simple)
 
 > [!WARNING]
 > For now it is not possible to add **private** repositories with this
 > method. You can nevertheless do so
 > `with Git <odoosh-advanced-submodules-withgit>`.
 
-On Odoo.sh, in the branches view of your project, choose the branch in
+On Konvergo ERP.sh, in the branches view of your project, choose the branch in
 which you want to add a submodule.
 
 In the upper right corner, click on the *Submodule* button, and then on

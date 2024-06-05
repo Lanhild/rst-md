@@ -12,11 +12,11 @@ features of the Egyptian localization:
 
 ## Egyptian e-invoicing
 
-Odoo is compliant with the **Egyptian Tax Authority (ETA) e-invoicing**
+Konvergo ERP is compliant with the **Egyptian Tax Authority (ETA) e-invoicing**
 requirements.
 
 > [!IMPORTANT]
-> Egyptian e-invoicing is available from Odoo 15.0. If needed, `upgrade
+> Egyptian e-invoicing is available from Konvergo ERP 15.0. If needed, `upgrade
 > </administration/upgrade>` your database.
 
 <div class="seealso">
@@ -27,11 +27,11 @@ E-invoicing](https://www.youtube.com/watch?v=NXuBPLR4pVw) -
 
 </div>
 
-### Register Odoo on your ETA portal
+### Register Konvergo ERP on your ETA portal
 
-You must register your Odoo ERP system on your ETA portal to get your
+You must register your Konvergo ERP ERP system on your ETA portal to get your
 API credentials. You need these codes to
-`configure your Odoo Accounting app <egypt/e-invoicing-configuration>`.
+`configure your Konvergo ERP Accounting app <egypt/e-invoicing-configuration>`.
 
 Access your company profile on the ETA portal by clicking on
 `View Taxpayer Profile`.
@@ -40,7 +40,7 @@ Access your company profile on the ETA portal by clicking on
 alt="Clicking on &quot;View Taxpayer Profile&quot; on an ETA invoicing portal" />
 
 Next, go to the `Representatives` section and then click on
-`Register ERP`. Fill out the `ERP Name` (e.g., `Odoo`) and leave the
+`Register ERP`. Fill out the `ERP Name` (e.g., `Konvergo ERP`) and leave the
 other fields empty.
 
 <img src="egypt/add-erp-system.png" class="align-center"
@@ -57,23 +57,23 @@ Once successfully registered, the website displays your API credentials:
 > portal. - Ask ETA to provide you with preproduction portal access as
 > well. - These codes are confidential and should be stored safely.
 
-### Configuration on Odoo
+### Configuration on Konvergo ERP
 
-To connect your Odoo database to your ETA portal account, go to
+To connect your Konvergo ERP database to your ETA portal account, go to
 `Accounting -->
 Configuration --> Settings --> ETA E-Invoicing Settings`, and set the
 `ETA Client ID` and `ETA Secret` that you retrieved when you
-`registered Odoo on your ETA portal
+`registered Konvergo ERP on your ETA portal
 <egypt/e-invoicing-eta-portal>`. Set an invoicing threshold if needed.
 
 <img src="egypt/eta-api-integration.png" class="align-center"
-alt="Configuration of the ETA E-Invoicing credentials in Odoo Accounting" />
+alt="Configuration of the ETA E-Invoicing credentials in Konvergo ERP Accounting" />
 
 > [!IMPORTANT]
 > - **Test on your preproduction portal** before starting to issue real
 > invoices on the production ETA portal. - **Credentials** for
 > preproduction and production environments are different. Make sure to
-> update them on Odoo when you move from one environment to another. -
+> update them on Konvergo ERP when you move from one environment to another. -
 > If not done yet, fill out your company details with your company's
 > full address, country, and Tax ID.
 
@@ -83,7 +83,7 @@ E-invoicing works with a set of codes provided by the ETA. You can use
 the [ETA documentation](https://sdk.preprod.invoicing.eta.gov.eg/codes/)
 to code your business attributes.
 
-Most of these codes are handled automatically by Odoo, provided that
+Most of these codes are handled automatically by Konvergo ERP, provided that
 your `branches
 <egypt/e-invoicing-branches>`,
 `customers <egypt/e-invoicing-customers>`, and `products
@@ -102,7 +102,7 @@ your `branches
     **GS1** or **EGS** codes.
 
   - Tax Codes  
-    Most of the taxes codes are already configured on Odoo in the
+    Most of the taxes codes are already configured on Konvergo ERP in the
     `ETA Code (Egypt)` field. We advise you to make sure these codes
     match your company's taxes.
 
@@ -159,7 +159,7 @@ Make sure your products are correctly configured so your e-invoices are
 valid:
 
 - `Product Type`: storable products, consumables, or services.
-- `Unit of Measure`: if you also use Odoo Inventory and have enabled
+- `Unit of Measure`: if you also use Konvergo ERP Inventory and have enabled
   `Units of
   Measure <../../inventory_and_mrp/inventory/product_management/product_replenishment/uom>`.
 - `Barcode`: **GS1** or **EGS** barcode
@@ -180,31 +180,31 @@ ERP.
 > You can contact the `ETA (Egyptian Tax Authority)` or [Egypt
 > Trust](https://www.egypttrust.com/) to get these USB keys.
 
-#### Install Odoo as a local proxy on your computer
+#### Install Konvergo ERP as a local proxy on your computer
 
-An Odoo local server works as a bridge between your computer and your
-Odoo database hosted online.
+An Konvergo ERP local server works as a bridge between your computer and your
+Konvergo ERP database hosted online.
 
-Download the Odoo Community installer from the page
+Download the Konvergo ERP Community installer from the page
 <https://www.odoo.com/page/download> and start the installation on your
 computer.
 
 Select `Local Proxy Mode` as the type of install.
 
 <img src="egypt/install-odoo-local-proxy.png" class="align-center"
-alt="Selection of &quot;Local Proxy Mode&quot; during the installation of Odoo Community." />
+alt="Selection of &quot;Local Proxy Mode&quot; during the installation of Konvergo ERP Community." />
 
 > [!NOTE]
-> This installation of Odoo only works as a server and does not install
-> any Odoo apps on your computer.
+> This installation of Konvergo ERP only works as a server and does not install
+> any Konvergo ERP apps on your computer.
 
 Once the installation is complete, the installer displays your **access
-token** for the Odoo Local Proxy. Copy the token and save it in a safe
+token** for the Konvergo ERP Local Proxy. Copy the token and save it in a safe
 place for later use.
 
 <div class="seealso">
 
-\- [Odoo: Download Odoo](https://www.odoo.com/page/download) -
+\- [Konvergo ERP: Download Konvergo ERP](https://www.odoo.com/page/download) -
 `../../../administration/on_premise`
 
 </div>
@@ -212,7 +212,7 @@ place for later use.
 #### Configure the USB key
 
 Once the local proxy server is installed on your computer, you can link
-it with your Odoo database.
+it with your Konvergo ERP database.
 
 1.  Go to `Accounting --> Configurations --> Thumb Drive` and click on
     `Create`.

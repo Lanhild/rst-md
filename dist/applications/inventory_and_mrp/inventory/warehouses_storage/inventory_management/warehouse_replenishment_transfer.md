@@ -2,7 +2,7 @@
 
 For companies that use multiple warehouses, it is often necessary to
 transfer items between them. This is referred to as an *inter-warehouse
-transfer*. Odoo *Inventory* handles the administrative process of
+transfer*. Konvergo ERP *Inventory* handles the administrative process of
 inter-warehouse transfers to ensure that inventory counts remain
 accurate during and after the transfer. This document will detail the
 method for conducting an inter-warehouse transfer using replenishment.
@@ -15,7 +15,7 @@ under the `Warehouse` tab. This will provide additional configuration
 options when creating a second warehouse that are needed for
 inter-warehouse replenishment.
 
-By default, Odoo comes with a main warehouse already configured. If an
+By default, Konvergo ERP comes with a main warehouse already configured. If an
 additional warehouse has not already been created, do so now from the
 `Inventory` module by selecting
 `Configuration --> Warehouses --> Create`. Otherwise, select the

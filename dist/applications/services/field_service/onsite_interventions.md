@@ -19,14 +19,14 @@ a product.
 
 <img src="onsite_interventions/product-configuration.png"
 class="align-center"
-alt="Product configuration to create tasks from sales orders in Odoo Field Service" />
+alt="Product configuration to create tasks from sales orders in Konvergo ERP Field Service" />
 
 From the `Sales <../../sales/sales>` app, create a quotation with the
 product and confirm it. A task is automatically set up under your Field
 Service project. It is directly accessible from the sales order.
 
 <img src="onsite_interventions/task-on-so.png" class="align-center"
-alt="Field Service task on a sales order in Odoo Sales" />
+alt="Field Service task on a sales order in Konvergo ERP Sales" />
 
 ## From helpdesk tickets
 
@@ -41,7 +41,7 @@ enable `Onsite Interventions`.
 
 <img src="onsite_interventions/helpdesk-settings.png"
 class="align-center"
-alt="Onsite interventions settings in Odoo Helpdesk" />
+alt="Onsite interventions settings in Konvergo ERP Helpdesk" />
 
 The helpdesk tickets of the team now display the `Plan Intervention`
 button. Click on it to create a new task under your field service
@@ -49,4 +49,4 @@ project.
 
 <img src="onsite_interventions/plan-intervention-from-ticket.png"
 class="align-center"
-alt="Plan intervention from helpdesk tickets in Odoo Helpdesk" />
+alt="Plan intervention from helpdesk tickets in Konvergo ERP Helpdesk" />

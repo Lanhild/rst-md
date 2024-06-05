@@ -1,8 +1,8 @@
 # Contacts
 
-The *Contacts* application comes installed on all Odoo databases.
+The *Contacts* application comes installed on all Konvergo ERP databases.
 Contacts are created for customers the company does business with
-through Odoo. A contact is a repository of vital business information,
+through Konvergo ERP. A contact is a repository of vital business information,
 facilitating communication and business transactions.
 
 ## Contact form
@@ -13,7 +13,7 @@ added.
 
 ### Contact type
 
-Odoo allows for both `Individual` and `Company` contacts. Select either
+Konvergo ERP allows for both `Individual` and `Company` contacts. Select either
 `Individual` or `Company`, depending on the type of contact that is
 being added.
 
@@ -198,8 +198,8 @@ installed.
 At the top of the contact form, there are some additional options
 available, known as *smart buttons*.
 
-Here, Odoo displays a variety of records, related to this contact, that
-were created on other apps. Odoo integrates information from every
+Here, Konvergo ERP displays a variety of records, related to this contact, that
+were created on other apps. Konvergo ERP integrates information from every
 single app, so there are many smart buttons.
 
 <div class="example">
@@ -225,7 +225,7 @@ linked to smart buttons, like this, should there be any
 outstanding/on-file for this contact.
 
 If the contact is a partner, the user can visit their partner page on
-the Odoo-built website by clicking the `Go to Website` smart button.
+the Konvergo ERP-built website by clicking the `Go to Website` smart button.
 
 ### Archive contacts
 
@@ -249,7 +249,7 @@ be searched for with the `Archived` filter.
 
 \-
 `Add different addresses in CRM <../sales/sales/send_quotations/different_addresses>` -
-[Odoo's eLearning Contacts
+[Konvergo ERP's eLearning Contacts
 tutorial](https://www.odoo.com/slides/slide/contacts-2527?fullscreen=1)
 
 </div>

@@ -1,6 +1,6 @@
 # Bill control policies
 
-In Odoo, the *bill control* policy determines the quantities billed by
+In Konvergo ERP, the *bill control* policy determines the quantities billed by
 vendors on every purchase order, for ordered or received quantities. The
 policy selected in the settings will act as the default value and will
 be applied to any new product created.
@@ -92,13 +92,13 @@ class="align-center" alt="Draft bill should be paid field status." />
 
 > [!NOTE]
 > If the total quantity of products from a purchase order has not been
-> received, Odoo only includes the products that *have* been received in
+> received, Konvergo ERP only includes the products that *have* been received in
 > the draft vendor bill.
 
 Draft bills can be edited to increase the billed quantity, change the
 price of the products in the bill, and add additional products to the
 bill. If this is done, the `Should Be Paid` field status will be set to
-`Exception`. This means that Odoo notices the discrepancy, but doesn't
+`Exception`. This means that Konvergo ERP notices the discrepancy, but doesn't
 block the changes or display an error message, since there might be a
 valid reason for making changes to the draft bill.
 
@@ -107,7 +107,7 @@ green `Paid` banner, the `Should Be Paid` field status will be set to
 `No`.
 
 > [!TIP]
-> The `Should Be Paid` status on bills is set automatically by Odoo.
+> The `Should Be Paid` status on bills is set automatically by Konvergo ERP.
 > However, the status can be changed manually by clicking the field's
 > drop-down menu inside the `Other Info` tab.
 

@@ -1,7 +1,7 @@
 # Difference between lots and serial numbers
 
 *Lots* and *serial numbers* are the two ways to identify and track
-products in Odoo. While there are similarities between the two
+products in Konvergo ERP. While there are similarities between the two
 traceability methods, there are also notable differences that affect
 receipts, deliveries, and inventory reports.
 

@@ -4,7 +4,7 @@ show-content
 
 ## Main reports available
 
-Odoo includes **generic** and **dynamic** reports available for all
+Konvergo ERP includes **generic** and **dynamic** reports available for all
 countries, regardless of the
 `localization package <../../finance/fiscal_localizations>` installed:
 
@@ -34,7 +34,7 @@ selecting the periods you want to compare.
 The **Balance Sheet** shows a snapshot of your organization's assets,
 liabilities, and equity at a particular date.
 
-![Balance sheet report of Odoo.](reporting/reporting-balance-sheet.png)
+![Balance sheet report of Konvergo ERP.](reporting/reporting-balance-sheet.png)
 
 ### Profit and Loss
 
@@ -42,7 +42,7 @@ The **Profit and Loss** report (or **Income Statement**) shows your
 company's net income by deducting expenses from revenue for the
 reporting period.
 
-![Profit and Loss report of Odoo](reporting/reporting-profit-and-loss.png)
+![Profit and Loss report of Konvergo ERP](reporting/reporting-profit-and-loss.png)
 
 ### Executive Summary
 
@@ -88,7 +88,7 @@ In basic terms, this is what each item in the following section reports:
     that will be due in the next year`). It is typically used to measure
     a company's ability to service its debt.
 
-![Executive summary report in Odoo.](reporting/reporting-executive-summary.png)
+![Executive summary report in Konvergo ERP.](reporting/reporting-executive-summary.png)
 
 ### General Ledger
 
@@ -98,7 +98,7 @@ totals; from here, you can view a detailed transaction report or any
 exceptions. This report helps check every transaction that occurred
 during a specific period.
 
-![General Ledger report in Odoo.](reporting/reporting-general-ledger.png)
+![General Ledger report in Konvergo ERP.](reporting/reporting-general-ledger.png)
 
 ### Aged Payable
 
@@ -106,14 +106,14 @@ Run the **Aged Payable Details** report to display information on
 individual bills, credit notes, and overpayments you owe and how long
 these have gone unpaid.
 
-![Aged Payable report in Odoo.](reporting/reporting-aged-payable.png)
+![Aged Payable report in Konvergo ERP.](reporting/reporting-aged-payable.png)
 
 ### Aged Receivable
 
 The **Aged Receivables** report shows the sales invoices awaiting
 payment during a selected month and several months prior.
 
-![Aged Receivable report in Odoo.](reporting/reporting-aged-receivable.png)
+![Aged Receivable report in Konvergo ERP.](reporting/reporting-aged-receivable.png)
 
 ### Cash Flow Statement
 
@@ -121,14 +121,14 @@ The **Cash Flow Statement** shows how changes in balance sheet accounts
 and income affect cash and cash equivalents and breaks the analysis down
 to operating, investing, and financing activities.
 
-![Cash Flow Statement report in Odoo.](reporting/reporting-cash-flow-statement.png)
+![Cash Flow Statement report in Konvergo ERP.](reporting/reporting-cash-flow-statement.png)
 
 ### Tax Report
 
 This report allows you to see the **net** and **tax amounts** for all
 the taxes grouped by type (sale/purchase).
 
-![Tax report in Odoo.](reporting/reporting-tax-report.png)
+![Tax report in Konvergo ERP.](reporting/reporting-tax-report.png)
 
 <div class="toctree" titlesonly="">
 

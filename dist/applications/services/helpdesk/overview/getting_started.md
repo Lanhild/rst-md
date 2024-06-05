@@ -1,6 +1,6 @@
 # Getting started with Helpdesk
 
-Odoo `Helpdesk` is a ticket-based customer support application. Teams
+Konvergo ERP `Helpdesk` is a ticket-based customer support application. Teams
 can track, prioritize, and solve customer issues from their pipeline,
 which is organized in customizable stages. Multiple teams can be
 configured and managed in one dashboard.
@@ -17,7 +17,7 @@ new team, and fill out the remaining fields as defined in the following
 sections on the form.
 
 <img src="getting_started/helpdesk-teams-list.png" class="align-center"
-alt="View of the Helpdesk teams page in Odoo Helpdesk" />
+alt="View of the Helpdesk teams page in Konvergo ERP Helpdesk" />
 
 ### Assignment & Visibility
 
@@ -55,7 +55,7 @@ or through `Automatic Assignment`. Check the box next to
 <img src="getting_started/assignment-visibility.png"
 class="align-center"
 alt="View of a Helpdesk team settings page emphasizing the assignment and visibility features
-in Odoo Helpdesk" />
+in Konvergo ERP Helpdesk" />
 
 Select one of the following assignment methods, based on how workload
 should be allocated across the team:
@@ -118,7 +118,7 @@ dashboard. Next, choose a name for the new stage, and add a description
 steps below.
 
 <img src="getting_started/stage-settings.png" class="align-center"
-alt="View of a stage&#39;s settings page in Odoo Helpdesk" />
+alt="View of a stage&#39;s settings page in Konvergo ERP Helpdesk" />
 
 ### Add email and SMS templates to stages
 
@@ -144,7 +144,7 @@ details.
 Follow the same steps to select, edit, or create an `SMS Template`.
 
 <img src="getting_started/sms-template.png" class="align-center"
-alt="View of an SMS template setup page in Odoo Helpdesk" />
+alt="View of an SMS template setup page in Konvergo ERP Helpdesk" />
 
 <div class="seealso">
 

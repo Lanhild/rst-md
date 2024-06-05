@@ -1,6 +1,6 @@
 # Multi-employee management
 
-Odoo Point of Sale allows you to manage access to a specific POS by
+Konvergo ERP Point of Sale allows you to manage access to a specific POS by
 enabling the **Multi Employees per Session** feature. When activated,
 `you can select which users can log into the POS
 <employee_login/use>` and

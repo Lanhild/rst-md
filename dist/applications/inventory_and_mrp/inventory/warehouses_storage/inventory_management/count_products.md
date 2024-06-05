@@ -64,7 +64,7 @@ information:
   orders, purchase orders, or manufacturing orders that might change the
   available quantity once fulfilled.
 - `Accounting Date`: the date on which the adjustments will be accounted
-  in the Odoo *Accounting* app.
+  in the Konvergo ERP *Accounting* app.
 - `Company`: the company whose database these inventory adjustments are
   being made on. The company is listed in the top right corner of the
   database, next to the user currently logged in.
@@ -197,7 +197,7 @@ alt="Inventory Adjustments History dashboard detailing a list of prior product m
 > away. In the time between the actual count and applying the inventory
 > adjustment, product moves can occur. In that case, the on-hand
 > quantity in the database can change and no longer be consistent with
-> the counted quantity. As an extra precaution, Odoo asks for
+> the counted quantity. As an extra precaution, Konvergo ERP asks for
 > confirmation before applying the inventory adjustment.
 
 ## Change inventory count frequency
@@ -261,7 +261,7 @@ following information:
 Finally, once ready, click `Confirm` to request the count.
 
 > [!IMPORTANT]
-> In the Odoo *Barcode* app, users can only view inventory counts that
+> In the Konvergo ERP *Barcode* app, users can only view inventory counts that
 > are assigned to **them**, and are scheduled for **today** or
 > **earlier**.
 

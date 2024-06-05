@@ -1,12 +1,12 @@
 # Subscription products
 
-By closely integrating with the Odoo *Sales* app, the *Subscriptions*
+By closely integrating with the Konvergo ERP *Sales* app, the *Subscriptions*
 app enables users to sell subscription products alongside regular sales
 products. While regular products are sold on a one-time basis,
 subscription products are sold on a renewing basis, generating recurring
 revenue.
 
-In Odoo, subscription products are also called *recurring* products.
+In Konvergo ERP, subscription products are also called *recurring* products.
 
 ## Configure recurrence periods
 
@@ -22,7 +22,7 @@ To configure recurrence periods, go to
 Recurrence periods`.
 
 <img src="products/recurrence-periods-page.png" class="align-center"
-alt="The recurrence periods page in Odoo Subscriptions application." />
+alt="The recurrence periods page in Konvergo ERP Subscriptions application." />
 
 The *Subscriptions* app comes with some basic recurrence periods already
 configured:
@@ -42,7 +42,7 @@ To create a new recurrence period, click `New` on the
 form.
 
 <img src="products/recurrence-period-form.png" class="align-center"
-alt="A recurrence period form in Odoo Subscriptions application." />
+alt="A recurrence period form in Konvergo ERP Subscriptions application." />
 
 Then, type in the `Name` and `Duration` of the recurrence period, and
 select the `Unit` that defines the duration.
@@ -65,7 +65,7 @@ Doing so reveals a blank product form, which can be configured and
 customized in a number of ways.
 
 > [!NOTE]
-> By default, the `Recurring` option is already enabled, prompting Odoo
+> By default, the `Recurring` option is already enabled, prompting Konvergo ERP
 > to recognize it as a subscription product. Be sure to leave the
 > `Recurring` and `Can be Sold` options enabled.
 >
@@ -73,7 +73,7 @@ customized in a number of ways.
 > However, subscription products *can* be set to other types, if needed.
 
 <img src="products/subscription-product-form.png" class="align-center"
-alt="A basic subscription product form in Odoo Subscriptions application." />
+alt="A basic subscription product form in Konvergo ERP Subscriptions application." />
 
 ### Time-based pricing
 
@@ -81,7 +81,7 @@ Once the desired fields in the `General Information` tab have been
 entered, click the `Time-based pricing` tab on the product form.
 
 <img src="products/time-based-pricing-tab.png" class="align-center"
-alt="The time-based pricing tab on a subscription product form in Odoo Subscriptions." />
+alt="The time-based pricing tab on a subscription product form in Konvergo ERP Subscriptions." />
 
 From here, click `Add a price` to begin defining recurring prices.
 
@@ -93,7 +93,7 @@ column, enter the price for that recurrence period.
 > `Daily` and `Hourly` periods **cannot** be used on recurring products.
 >
 > <img src="products/validation-error-popup.png" class="align-center"
-> alt="The validation error pop-up window that appears in Odoo Subscriptions." />
+> alt="The validation error pop-up window that appears in Konvergo ERP Subscriptions." />
 
 > [!NOTE]
 > There is *no limit* to how many lines can be added to the
@@ -131,7 +131,7 @@ To do this, go to `Sales app --> Products --> Pricelists`, and select a
 pricelist (or click `New` to create a new pricelist).
 
 > [!NOTE]
-> Pricelists are also accessible through the Odoo *Subscriptions* app by
+> Pricelists are also accessible through the Konvergo ERP *Subscriptions* app by
 > following the same menu steps.
 
 Then, on the pricelist form, under the `Time-based rules` tab, click
@@ -140,7 +140,7 @@ line`.
 
 <img src="products/pricelist-form-time-based-rules-tab.png"
 class="align-center"
-alt="The time-based rules tab on a pricelist form in Odoo Sales." />
+alt="The time-based rules tab on a pricelist form in Konvergo ERP Sales." />
 
 Then, select a subscription product in the `Products` column, and select
 a recurrence period in the `Period` column. Lastly, enter a `Price` for

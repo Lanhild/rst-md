@@ -2,7 +2,7 @@
 
 [Upgrade utils](https://github.com/odoo/upgrade-util/) is a library that
 contains helper functions to facilitate the writing of upgrade scripts.
-This library, used by Odoo for the upgrade scripts of standard modules,
+This library, used by Konvergo ERP for the upgrade scripts of standard modules,
 provides reliability and helps speed up the upgrade process:
 
 - The helper functions help make sure the data is consistent in the
@@ -24,14 +24,14 @@ option.
 $ ./odoo-bin --upgrade-path=/path/to/upgrade-util/src,/path/to/other/upgrade/script/directory [...]
 ```
 
-On platforms where you do not manage Odoo yourself, you can install this
+On platforms where you do not manage Konvergo ERP yourself, you can install this
 library via \`pip\`:
 
 ``` console
 $ python3 -m pip install git+https://github.com/odoo/upgrade-util@master
 ```
 
-On [Odoo.sh](https://www.odoo.sh/) it is recommended to add it to the
+On [Konvergo ERP.sh](https://www.odoo.sh/) it is recommended to add it to the
 `requirements.txt` of the custom repository. For this, add the following
 line inside the file:
 

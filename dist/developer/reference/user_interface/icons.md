@@ -2,7 +2,7 @@ hide-page-toc
 
 # UI icons
 
-Odoo's user interface mostly relies on [FontAwesome4
+Konvergo ERP's user interface mostly relies on [FontAwesome4
 icons](https://fontawesome.com/v4/icons/).
 
 To cover FontAwesome's lack of iconography for specific functionalities,

@@ -1,6 +1,6 @@
 # Translations
 
-With Odoo, you can translate your website into different languages.
+With Konvergo ERP, you can translate your website into different languages.
 
 In this chapter, you will learn how to:
 
@@ -62,6 +62,6 @@ msgstr "..."
 
 ## Import
 
-To import your translation files into Odoo, go to
+To import your translation files into Konvergo ERP, go to
 `Settings --> Translations -->
 Import Translation` and upload them.

@@ -3,7 +3,7 @@
 Different business policies might require different options for
 invoicing:
 
-- The *Invoice what is ordered* rule is used as the default mode in Odoo
+- The *Invoice what is ordered* rule is used as the default mode in Konvergo ERP
   *Sales*, which means customers are invoiced once the sales order is
   confirmed.
 - The *Invoice what is delivered* rule invoices customers once the
@@ -26,7 +26,7 @@ delivered`.
 
 <img src="invoicing_policy/invoicing-policy-setting.png"
 class="align-center"
-alt="Choosing an invoicing policy on Odoo Sales." />
+alt="Choosing an invoicing policy on Konvergo ERP Sales." />
 
 > [!IMPORTANT]
 > If the `Invoice what is delivered` rule is chosen, it is **not**
@@ -42,11 +42,11 @@ It can be changed manually using the drop-down menu.
 
 <img src="invoicing_policy/invoicing-policy-general-info-tab.png"
 class="align-center"
-alt="How to change your invoicing policy on a product form on Odoo Sales." />
+alt="How to change your invoicing policy on a product form on Konvergo ERP Sales." />
 
 ## Impact on sales flow
 
-In Odoo *Sales*, the basic sales flow starts with the creation of a
+In Konvergo ERP *Sales*, the basic sales flow starts with the creation of a
 quotation. Then, that quotation is sent to a customer. Next, it needs to
 be confirmed, which turns the quotation into a sales order. This, in
 turn, creates an invoice.
@@ -79,9 +79,9 @@ aforementioned sales flow:
 >
 > <img src="invoicing_policy/invoicing-policy-order-lines.png"
 > class="align-center"
-> alt="How to see your delivered and invoiced quantities on Odoo Sales." />
+> alt="How to see your delivered and invoiced quantities on Konvergo ERP Sales." />
 >
-> Odoo automatically adds the quantities to the invoice, both
+> Konvergo ERP automatically adds the quantities to the invoice, both
 > `Delivered` and `Invoiced`, even if it's a partial delivery, when the
 > quotation is confirmed.
 

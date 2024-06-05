@@ -40,8 +40,8 @@ validated by the system before being delivered.
 
 To be able to receive invoices and notifications, the
 `SdI (Sistema di Interscambio)` service must be notified that the user's
-files are to be sent to **Odoo** and processed on their behalf. To so,
-you must set up Odoo's `Codice Destinatario` on the **Agenzia Delle
+files are to be sent to **Konvergo ERP** and processed on their behalf. To so,
+you must set up Konvergo ERP's `Codice Destinatario` on the **Agenzia Delle
 Entrate** portal.
 
 1.  Go to <https://ivaservizi.agenziaentrate.gov.it/portale/> and
@@ -52,12 +52,12 @@ Entrate** portal.
 4.  In
     `Servizi Disponibili --> Fatturazione Elettronica --> Registrazione
     dell’indirizzo telematico dove ricevere tutte le fatture elettroniche`,
-    insert Odoo's `Codice Destinatario`
+    insert Konvergo ERP's `Codice Destinatario`
     <span class="title-ref">K95IV18</span>, and confirm.
 
 #### Electronic Data Interchange (EDI)
 
-Odoo uses the **FatturaPA** `EDI (Electronic Data Interchange)` format
+Konvergo ERP uses the **FatturaPA** `EDI (Electronic Data Interchange)` format
 for the Italian localization and is enabled on the default journals when
 installed. When the **file processing authorization** has been set, all
 **invoices** and **bills** are automatically sent.
@@ -80,12 +80,12 @@ alt="Electronic invoicing status (waiting for confirmation)" />
 
 </div>
 
-### File processing authorization (Odoo)
+### File processing authorization (Konvergo ERP)
 
-Since the files are transmitted through Odoo's server before being sent
+Since the files are transmitted through Konvergo ERP's server before being sent
 to the `SdI (Sistema
 di Interscambio)` or received by your database, you need to authorize
-Odoo to process your files from your database. To do so, go to
+Konvergo ERP to process your files from your database. To do so, go to
 `Accounting --> Configuration --> Settings -->
 Electronic Document Invoicing`.
 
@@ -107,8 +107,8 @@ This is a production mode that sends your invoices directly to the
 
 Once a mode is selected, you need to accept the **terms and conditions**
 by ticking `Allow
-Odoo to process invoices`, and then `Save`. You can now record your
-transactions in Odoo Accounting.
+Konvergo ERP to process invoices`, and then `Save`. You can now record your
+transactions in Konvergo ERP Accounting.
 
 > [!WARNING]
 > Selecting either `Test (experimental)` or `Official` is
@@ -132,7 +132,7 @@ alt="Italy&#39;s electronic document invoicing options" />
 
 ## Taxes configuration
 
-Many of the e-invoicing features are implemented using Odoo's tax
+Many of the e-invoicing features are implemented using Konvergo ERP's tax
 system. As such, it is very important that taxes are properly configured
 in order to generate invoices correctly and handle other billing use
 cases. For example, specific configurations are required for the
@@ -192,7 +192,7 @@ field. You can find the following **additional info** by opening the
   Fiscale**, any recognizable identifier is valid.
 
 > [!NOTE]
-> Odoo does not support sending user-modified XML files.
+> Konvergo ERP does not support sending user-modified XML files.
 
 For **invoices**, multiple configurations are technically identified by
 a `Tipo Documento` code:
@@ -215,7 +215,7 @@ Down payments.
 `Tipo Documento` code <span class="title-ref">TDO2</span> than regular
 invoices. Upon import of the invoice, it creates a regular vendor bill.
 
-Odoo exports moves as <span class="title-ref">TD02</span> if the
+Konvergo ERP exports moves as <span class="title-ref">TD02</span> if the
 following conditions are met:
 
 - Is an invoice;
@@ -247,7 +247,7 @@ For a **simplified** invoice to be established, it must include:
 - `VAT`: the **buyer**'s VAT/TIN number (on their profile card);
 - `Total`: the total **amount** (VAT included) of the invoice.
 
-In the `EDI (Electronic Data Interchange)`, Odoo exports invoices as
+In the `EDI (Electronic Data Interchange)`, Konvergo ERP exports invoices as
 simplified if:
 
 - It is a **domestic** transaction (i.e., the partner is from Italy);
@@ -292,7 +292,7 @@ information for better tracing.
 > `module <italy/modules>`. In this case, a dedicated `Tipo Documento`
 > <span class="title-ref">TD24</span> is used in the e-invoice.
 
-Odoo exports moves as <span class="title-ref">TD24</span> if the
+Konvergo ERP exports moves as <span class="title-ref">TD24</span> if the
 following conditions are met:
 
 - Is an invoice;
@@ -353,7 +353,7 @@ as it is not taxable in Italy. The VAT is paid by the *buyer* in Italy;
 - Non-EU: the *buyer* sends themselves an invoice (i.e.,
   **self-billing**).
 
-Odoo exports a transaction as <span class="title-ref">TD17</span> if the
+Konvergo ERP exports a transaction as <span class="title-ref">TD17</span> if the
 following conditions are met:
 
 - Is a vendor bill;
@@ -373,7 +373,7 @@ Buying **goods** from **EU**:
 Invoices issued within the EU follow a **standard format**, therefore
 only an integration of the existing invoice is required.
 
-Odoo exports a transaction as <span class="title-ref">TD18</span> if the
+Konvergo ERP exports a transaction as <span class="title-ref">TD18</span> if the
 following conditions are met:
 
 - Is a vendor bill;
@@ -396,7 +396,7 @@ already in **Italy** in a **VAT deposit**:
 - Non-EU: the *buyer* sends an invoice to *themselves* (i.e.,
   **self-billing**).
 
-Odoo exports a move as a <span class="title-ref">TD19</span> if the
+Konvergo ERP exports a move as a <span class="title-ref">TD19</span> if the
 following conditions are met:
 
 - Is a vendor bill;
@@ -410,7 +410,7 @@ following conditions are met:
 </div>
 
 > [!WARNING]
-> Odoo does not offer the [Conservazione
+> Konvergo ERP does not offer the [Conservazione
 > Sostitutiva](https://www.agid.gov.it/index.php/it/piattaforme/conservazione)
 > requirements. Other providers and **Agenzia delle Entrate** supply
 > free and certified storage to meet the requested conditions.
@@ -418,7 +418,7 @@ following conditions are met:
 ### Internal reverse charge
 
 > [!WARNING]
-> Odoo currently does not support domestic **internal reverse charge**
+> Konvergo ERP currently does not support domestic **internal reverse charge**
 > processes.
 
 ### 'Reverse Charge' tax grids
@@ -437,7 +437,7 @@ alt="Italian reverse charge tax grids" />
 
 San Marino and Italy have special agreements on e-invoicing operations.
 As such, **invoices** follow the regular **reverse charge** rules.
-Additional requirements are not enforced by Odoo, however, the user is
+Additional requirements are not enforced by Konvergo ERP, however, the user is
 requested by the **State** to:
 
 - Select a tax with the option `Has exoneration of tax (Italy)` ticked,
@@ -459,7 +459,7 @@ indicating the e-invoice's `Tipo Documento` field with the special value
 
 <span class="title-ref">TD28</span>
 
-Odoo exports a move as <span class="title-ref">TD28</span> if the
+Konvergo ERP exports a move as <span class="title-ref">TD28</span> if the
 following conditions are met:
 
 - Is a vendor bill;
@@ -474,7 +474,7 @@ following conditions are met:
 ## Pubblica amministrazione (B2G)
 
 > [!WARNING]
-> Odoo does **not** send invoices directly to the government as they
+> Konvergo ERP does **not** send invoices directly to the government as they
 > need to be signed. If we see that the codice destinatario is 6 digits,
 > then it is not sent to the PA automatically, but you can download the
 > XML, sign it with an external program and send it through the portal.

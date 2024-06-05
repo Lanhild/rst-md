@@ -22,7 +22,7 @@ positions** and **taxes** based on your company's country. To enable it,
 go to `Accounting --> Configuration --> Settings --> Taxes`, tick
 `EU Intra-community Distance Selling`, and `Save`.
 
-![EU intra-community Distance Selling feature in Odoo Accounting settings](eu_distance_selling/enable-feature.png)
+![EU intra-community Distance Selling feature in Konvergo ERP Accounting settings](eu_distance_selling/enable-feature.png)
 
 > [!TIP]
 > Whenever you add or modify taxes, you can automatically update your

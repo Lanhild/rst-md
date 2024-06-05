@@ -14,7 +14,7 @@ subscription companies choose to automate their renewal processes but,
 in some cases, manual subscription renewals are still the preferred
 option.
 
-With **Odoo Subscriptions**, you can have all your subscriptions in one
+With **Konvergo ERP Subscriptions**, you can have all your subscriptions in one
 application, suggest an automatic subscription renewal to your customers
 (as well as a manual one) and, finally, filter all your subscriptions
 and easily find those to renew (with the help of the tag *To renew*).
@@ -32,7 +32,7 @@ activated, a yellow tag automatically appears in the upper right corner
 of the subscription.
 
 <img src="renewals/renew-your-subscription.png" class="align-center"
-alt="Renew your subscription with Odoo Subscriptions" />
+alt="Renew your subscription with Konvergo ERP Subscriptions" />
 
 > [!IMPORTANT]
 > The *To renew* tag is automatically ticked when a payment fails. This
@@ -42,14 +42,14 @@ alt="Renew your subscription with Odoo Subscriptions" />
 >
 > <img src="renewals/customer-preview-of-a-renewal.png"
 > class="align-center"
-> alt="Customer preview of a renewal with Odoo Subscriptions" />
+> alt="Customer preview of a renewal with Konvergo ERP Subscriptions" />
 
 When a subscription needs to be renewed, you have the possibility to use
 a new button called *Renewal quotation*. By clicking on it, a new
 quotation is created. From there, start a basic sales flow allowing you
 to send the quotation by email to your customers or to confirm it. It is
 better to first *Send by email* the quotation to your customers in order
-to have their confirmation and, then, *Confirm* it in **Odoo Sales**.
+to have their confirmation and, then, *Confirm* it in **Konvergo ERP Sales**.
 
 > [!NOTE]
 > In the Chatter of this new quotation, it is mentioned that "This
@@ -58,7 +58,7 @@ to have their confirmation and, then, *Confirm* it in **Odoo Sales**.
 > a new sale is mentioned in the upper right corner of the subscription.
 >
 > <img src="renewals/renew-a-quotation.png" class="align-center"
-> alt="Renew a quotation with Odoo Subscriptions" />
+> alt="Renew a quotation with Konvergo ERP Subscriptions" />
 >
 > By clicking on the *Sales* button, you have a summary of your sales
 > orders in a list view. The only difference between your two quotations
@@ -67,7 +67,7 @@ to have their confirmation and, then, *Confirm* it in **Odoo Sales**.
 >
 > <img src="renewals/subscription-management-category.png"
 > class="align-center"
-> alt="Renewal as Subscription Management form in Odoo Subscriptions" />
+> alt="Renewal as Subscription Management form in Konvergo ERP Subscriptions" />
 
 ## Visualize your subscriptions to renew
 
@@ -77,7 +77,7 @@ filter *To renew*.
 
 <img src="renewals/subscriptions-dashboard-with-the-to-renew-filter.png"
 class="align-center"
-alt="List view of all subscriptions and use of the filter to renew in Odoo Subscriptions" />
+alt="List view of all subscriptions and use of the filter to renew in Konvergo ERP Subscriptions" />
 
 <div class="seealso">
 

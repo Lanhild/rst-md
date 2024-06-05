@@ -5,7 +5,7 @@
 Configuring quality control points is a great way to ensure that quality
 checks are performed at routine stages during specific operations.
 However, quality issues can often appear outside of these scheduled
-checks. Using Odoo *Quality*, users can create quality alerts for issues
+checks. Using Konvergo ERP *Quality*, users can create quality alerts for issues
 that are not detected by automated processes.
 
 </div>
@@ -64,7 +64,7 @@ alt="An example of a completed quality alert form." />
 
 ## Add quality alerts during the manufacturing process
 
-Odoo enables manufacturing employees to create quality alerts within a
+Konvergo ERP enables manufacturing employees to create quality alerts within a
 work order without accessing the *Quality* module. From the work order
 tablet view, click the ` ☰ ` hamburger menu icon in the top left corner
 and select `Quality Alert`.

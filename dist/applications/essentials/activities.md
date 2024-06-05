@@ -1,6 +1,6 @@
 # Activities
 
-*Activities* are follow-up tasks tied to a record in an Odoo database.
+*Activities* are follow-up tasks tied to a record in an Konvergo ERP database.
 Activities can be scheduled on any page of the database that contains a
 chatter thread, kanban view, list view, or activities view of an
 application.
@@ -109,7 +109,7 @@ find the desired activity type, then click the `＋ (plus sign)`.
 
 > [!NOTE]
 > Activity colors, and their relation to an activity's due date, is
-> consistent throughout Odoo, regardless of the activity type, or the
+> consistent throughout Konvergo ERP, regardless of the activity type, or the
 > view.
 >
 > - Activities that appear in **green** indicate a due date sometime in

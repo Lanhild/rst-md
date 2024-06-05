@@ -8,7 +8,7 @@ components that should be displayed all the time.
 
 However, there are situations for which it is not sufficient. In those
 cases, we may need to modify an object or a class in place. To achieve
-that, Odoo provides the utility function
+that, Konvergo ERP provides the utility function
 <span class="title-ref">patch</span>. It is mostly useful to
 override/update the behavior of some other component/piece of code that
 one does not control.
@@ -69,7 +69,7 @@ patch(object, "patch name", {
 
 When patching functions, we usually want to be able to access the
 `parent` function. Since we are working with patch objects, not ES6
-classes, we cannot use the native `super` keyword. So, Odoo provides a
+classes, we cannot use the native `super` keyword. So, Konvergo ERP provides a
 special method to simulate this behaviour: `this._super`:
 
 ``` javascript

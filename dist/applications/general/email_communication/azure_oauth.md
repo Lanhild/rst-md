@@ -1,9 +1,9 @@
-# Connect Microsoft Outlook 365 to Odoo using Azure OAuth
+# Connect Microsoft Outlook 365 to Konvergo ERP using Azure OAuth
 
-Odoo is compatible with Microsoft's Azure OAuth for Microsoft 365. In
+Konvergo ERP is compatible with Microsoft's Azure OAuth for Microsoft 365. In
 order to send and receive secure emails from a custom domain, all that
 is required is to configure a few settings on the Azure platform and on
-the back end of the Odoo database. This configuration works with either
+the back end of the Konvergo ERP database. This configuration works with either
 a personal email address or an address created by a custom domain.
 
 <div class="seealso">
@@ -34,21 +34,21 @@ configuration. Next, navigate to the section labeled
 
 Now, click on `Add (+)`, located in the top menu, and then select `App
 registration`. On the `Register an application` screen, rename the
-`Name` to <span class="title-ref">Odoo</span> or something recognizable.
+`Name` to <span class="title-ref">Konvergo ERP</span> or something recognizable.
 Under the `Supported account types` section select
 `Accounts in any organizational directory (Any Microsoft Entra ID directory - Multitenant)
 and personal Microsoft accounts (e.g. Skype, Xbox)`.
 
 Under the `Redirect URL` section, select `Web` as the platform, and then
 input <span class="title-ref">https://\<odoo base
-url\>/microsoft_outlook/confirm</span> in the `URL` field. The Odoo base
-URL is the canonical domain at which your Odoo instance can be reached
+url\>/microsoft_outlook/confirm</span> in the `URL` field. The Konvergo ERP base
+URL is the canonical domain at which your Konvergo ERP instance can be reached
 in the URL field.
 
 <div class="example">
 
 *mydatabase.odoo.com*, where *mydatabase* is the actual prefix of the
-database's subdomain, assuming it's hosted on Odoo.com
+database's subdomain, assuming it's hosted on Konvergo ERP.com
 
 </div>
 
@@ -57,7 +57,7 @@ it is created.
 
 ### API permissions
 
-The `API permissions` should be set next. Odoo will need specific API
+The `API permissions` should be set next. Konvergo ERP will need specific API
 permissions to be able to read (IMAP) and send (SMTP) emails in the
 Microsoft 365 setup. First, click the `API permissions` link, located in
 the left menu bar. Next, click on the `(+)
@@ -75,7 +75,7 @@ click `Add permissions` for each one:
 > The `User.Read` permission will be added by default.
 
 <img src="azure_oauth/permissions.png" class="align-center"
-alt="API permissions needed for Odoo integration are listed under the Microsoft Graph." />
+alt="API permissions needed for Konvergo ERP integration are listed under the Microsoft Graph." />
 
 ## Assign users and groups
 
@@ -99,13 +99,13 @@ to be added.
 
 Under `Users` or `Groups`, click on `None Selected` and add the users or
 group of users that will be sending emails from the `Microsoft account`
-in Odoo. `Add` the users/groups, click `Select`, and then `Assign` them
+in Konvergo ERP. `Add` the users/groups, click `Select`, and then `Assign` them
 to the application.
 
 ### Create credentials
 
 Now that the Microsoft Azure app is set up, credentials need to be
-created for the Odoo setup. These include the `Client ID` and
+created for the Konvergo ERP setup. These include the `Client ID` and
 `Client Secret`. To start, the `Client ID` can be copied from the
 `Overview` page of the app. The `Client ID` or `Application ID` is
 located under the `Display Name` in the `Essentials` overview of the
@@ -121,7 +121,7 @@ the `(+) New Client Secret` button.
 
 A window on the right will populate with a button labeled
 `Add a client secret`. Under `Description`, type in
-<span class="title-ref">Odoo Fetchmail</span> or something recognizable,
+<span class="title-ref">Konvergo ERP Fetchmail</span> or something recognizable,
 and then set the `expiration date`.
 
 > [!IMPORTANT]
@@ -139,18 +139,18 @@ become encrypted after leaving this page. The `Secret ID` is not needed.
 alt="Client Secret Value or Value in the app&#39;s credentials." />
 
 After these steps, the following items should be ready to be set up in
-Odoo:
+Konvergo ERP:
 
 - A client ID (`Client ID` or `Application ID`)
 - A client secret (`Value` or `Client Secret Value`)
 
 This completes the setup on the `Microsoft Azure Portal` side.
 
-## Setup in Odoo
+## Setup in Konvergo ERP
 
 ### Enter Microsoft Outlook credentials
 
-First, open the Odoo database and navigate to the `Apps` module. Then,
+First, open the Konvergo ERP database and navigate to the `Apps` module. Then,
 remove the `Apps` filter from the search bar and type in
 <span class="title-ref">Outlook</span>. After that, install the module
 called `Microsoft Outlook`.
@@ -166,7 +166,7 @@ Then, copy and paste the `Client ID` (Application ID) and `Client Secret
 settings.
 
 <img src="azure_oauth/outlookcreds.png" class="align-center"
-alt="Outlook Credentials in Odoo General Settings." />
+alt="Outlook Credentials in Konvergo ERP General Settings." />
 
 ### Configure outgoing email server
 
@@ -186,22 +186,22 @@ Then, click on `Connect your Outlook account`.
 
 A new window from Microsoft opens to complete the
 `authorization process`. Select the appropriate email address that is
-being configured in Odoo.
+being configured in Konvergo ERP.
 
 <img src="azure_oauth/verify-outlook.png" class="align-center"
-alt="Permission page to grant access between newly created app and Odoo." />
+alt="Permission page to grant access between newly created app and Konvergo ERP." />
 
-Then, allow Odoo to access the Microsoft account by clicking on `Yes`.
+Then, allow Konvergo ERP to access the Microsoft account by clicking on `Yes`.
 After this, the page will navigate back to the newly configured
-`Outgoing Mail Server` in Odoo. The configuration automatically loads
-the `token` in Odoo, and a tag stating `Outlook Token Valid` appears in
+`Outgoing Mail Server` in Konvergo ERP. The configuration automatically loads
+the `token` in Konvergo ERP, and a tag stating `Outlook Token Valid` appears in
 green.
 
 <img src="azure_oauth/outlook-token.png" class="align-center"
 alt="Valid Outlook Token indicator." />
 
 Finally, click `Test Connection`. A confirmation message should appear.
-The Odoo database can now send safe, secure emails through Microsoft
+The Konvergo ERP database can now send safe, secure emails through Microsoft
 Outlook using OAuth authentication.
 
 #### Configuration with a single outgoing mail server
@@ -343,8 +343,8 @@ outgoing email account. Navigate to the `Incoming Mail Servers` in the
 `Technical Menu` and `Create` a new configuration. Check or Select the
 button next to `Outlook Oauth Authentication` and enter the
 `Microsoft Outlook username`. Click on `Connect your Outlook
-account`. Odoo will state: `Outlook Token Valid` Now `Test and Confirm`
-the account. The account should be ready to receive email to the Odoo
+account`. Konvergo ERP will state: `Outlook Token Valid` Now `Test and Confirm`
+the account. The account should be ready to receive email to the Konvergo ERP
 database.
 
 <div class="seealso">

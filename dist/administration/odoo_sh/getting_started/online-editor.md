@@ -4,7 +4,7 @@
 
 The online editor allows you to edit the source code of your builds from
 a web browser. It also gives you the possibility to open terminals,
-Python consoles, Odoo Shell consoles and
+Python consoles, Konvergo ERP Shell consoles and
 [Notebooks](https://jupyterlab.readthedocs.io/en/stable/user/notebook.html).
 
 <img src="online-editor/interface-editor.png" class="align-center"
@@ -24,10 +24,10 @@ The working directory is composed of the following folders:
     ├── home
     │    └── odoo
     │         ├── src
-    │         │    ├── odoo                Odoo Community source code
-    │         │    │    └── odoo-bin       Odoo server executable
-    │         │    ├── enterprise          Odoo Enterprise source code
-    │         │    ├── themes              Odoo Themes source code
+    │         │    ├── odoo                Konvergo ERP Community source code
+    │         │    │    └── odoo-bin       Konvergo ERP server executable
+    │         │    ├── enterprise          Konvergo ERP Enterprise source code
+    │         │    ├── themes              Konvergo ERP Themes source code
     │         │    └── user                Your repository branch source code
     │         ├── data
     │         │    ├── filestore           database attachments, as well as the files of binary fields
@@ -50,7 +50,7 @@ local changes on a production server is not a good practice.
 
 - The source code of your Github repository is located under
   */src/user*,
-- The source code of Odoo is located under
+- The source code of Konvergo ERP is located under
   - */src/odoo* ([odoo/odoo](https://github.com/odoo/odoo)),
   - */src/enterprise*
     ([odoo/enterprise](https://github.com/odoo/enterprise)),
@@ -69,8 +69,8 @@ the menu `File --> Save .. File` or by hitting the `Ctrl+S` shortcut.
 <img src="online-editor/interface-editor-save-file.png"
 class="align-center" alt="image" />
 
-If you save a Python file which is under your Odoo server addons path,
-Odoo will detect it and reload automatically so your changes are
+If you save a Python file which is under your Konvergo ERP server addons path,
+Konvergo ERP will detect it and reload automatically so your changes are
 reflected immediately, without having to restart the server manually.
 
 <img src="online-editor/interface-editor-automaticreload.gif"
@@ -79,7 +79,7 @@ class="align-center" alt="image" />
 However, if the change is a data stored in database, such as the label
 of a field, or a view, you have to update the according module to apply
 the change. You can update the module of the currently opened file by
-using the menu `Odoo --> Update current module`. Note that the file
+using the menu `Konvergo ERP --> Update current module`. Note that the file
 considered as currently opened is the file focused in the text editor,
 not the file highlighted in the file browser.
 
@@ -157,16 +157,16 @@ You can for instance display cells of a CSV file using
 <img src="online-editor/interface-editor-console-python-read-csv.png"
 class="align-center" alt="image" />
 
-You can also open an Odoo Shell console to play around with the Odoo
+You can also open an Konvergo ERP Shell console to play around with the Konvergo ERP
 registry and model methods of your database. You can also directly read
 or write on your records.
 
 > [!WARNING]
-> In an Odoo Console, transactions are automatically committed. This
+> In an Konvergo ERP Console, transactions are automatically committed. This
 > means, for instance, that changes in records are applied effectively
 > in the database. If you change the name of a user, the name of the
 > user is changed in your database as well. You therefore should use
-> Odoo consoles carefully on production databases.
+> Konvergo ERP consoles carefully on production databases.
 
 You can use *env* to invoke models of your database registry, e.g.
 `env['res.users']`.

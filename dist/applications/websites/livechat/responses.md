@@ -1,8 +1,8 @@
 # Commands and canned responses
 
-In the Odoo *Live Chat* application, *commands* allow the user to
+In the Konvergo ERP *Live Chat* application, *commands* allow the user to
 perform specific actions both inside the chat window, and through other
-Odoo applications. The *Live Chat* app also includes *canned responses*.
+Konvergo ERP applications. The *Live Chat* app also includes *canned responses*.
 These are customized, pre-configured substitutions that allow users to
 replace shortcut entries in place of longer, well-thought out responses
 to some of the most common questions and comments.
@@ -23,7 +23,7 @@ any commands that an operator uses in a conversation from their view of
 the chat.
 
 <img src="responses/responses-ticket-link.png" class="align-center"
-alt="View of the chat window with a helpdesk ticket created in Odoo Live Chat." />
+alt="View of the chat window with a helpdesk ticket created in Konvergo ERP Live Chat." />
 
 More information about each available command can be found below.
 
@@ -43,7 +43,7 @@ an operator can make is displayed.
   `canned response <live-chat/canned-responses>`.
 
 <img src="responses/responses-help.png" class="align-center"
-alt="View of the message generated from using the /help command in Odoo Live Chat." />
+alt="View of the message generated from using the /help command in Konvergo ERP Live Chat." />
 
 <div class="seealso">
 
@@ -210,7 +210,7 @@ am sorry to hear that.'</span>, they would type
 </div>
 
 <img src="responses/canned-responses.png" class="align-center"
-alt="View of a chat window and the use of a canned response in Odoo Live Chat." />
+alt="View of a chat window and the use of a canned response in Konvergo ERP Live Chat." />
 
 > [!TIP]
 > Typing <span class="title-ref">:</span> into a chat window on its own

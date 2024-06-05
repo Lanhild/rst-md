@@ -2,11 +2,11 @@
 
 ## Overview
 
-Odoo's eBay connector allows eBay listings to connect with Odoo
+Konvergo ERP's eBay connector allows eBay listings to connect with Konvergo ERP
 products. Once connected, `updates to the listings <linking_listings>`
-can be made in Odoo or in eBay. When an item sells on eBay, draft *sales
-orders* are created in Odoo for the user to review and confirm. Once the
-sales order is confirmed, Odoo *Inventory* and *Sales* apps function
+can be made in Konvergo ERP or in eBay. When an item sells on eBay, draft *sales
+orders* are created in Konvergo ERP for the user to review and confirm. Once the
+sales order is confirmed, Konvergo ERP *Inventory* and *Sales* apps function
 standard to pull products out of inventory, and allow the user to create
 invoices.
 
@@ -20,10 +20,10 @@ To learn more about the eBay connector visit these pages as well:
 
 </div>
 
-### eBay - Odoo linked fields
+### eBay - Konvergo ERP linked fields
 
 The following are eBay product details. Each of these eBay fields update
-corresponding fields in Odoo.
+corresponding fields in Konvergo ERP.
 
 - eBay URL
 - eBay status
@@ -56,16 +56,16 @@ corresponding fields in Odoo.
 ### eBay terms
 
 *Variations* group multiple products into one, with variation (or
-variant) options. Variations can sync to Odoo's attributes and values.
+variant) options. Variations can sync to Konvergo ERP's attributes and values.
 Variations will appear in drop down menus near the top of the page when
 viewing an eBay listing. These are comparable to product variants in
-Odoo.
+Konvergo ERP.
 
 <img src="setup/ebay-variation.png" class="align-center"
 alt="An example on eBay of the variations that can be added to a product." />
 
 *Item specifics*, located at the bottom of the listing, detail
-product-specific information. These specifics don't sync with Odoo
+product-specific information. These specifics don't sync with Konvergo ERP
 fields by default; a development is required to link these fields.
 
 <img src="setup/item-specifics.png" class="align-center"
@@ -88,41 +88,41 @@ the *Sandbox* to test, and then following the processes below, create a
 
 > [!IMPORTANT]
 > The environment selection **must** remain the same for all environment
-> settings on eBay and on Odoo throughout this setup.
+> settings on eBay and on Konvergo ERP throughout this setup.
 
-### eBay actions available on Odoo
+### eBay actions available on Konvergo ERP
 
-The following are built-in actions in Odoo that add or update eBay
+The following are built-in actions in Konvergo ERP that add or update eBay
 listings:
 
-- **List**/ **Link**: generate a new eBay listing with an Odoo product
+- **List**/ **Link**: generate a new eBay listing with an Konvergo ERP product
   by clicking `List
   Item on eBay` or `Link With Existing eBay Listing`.
-- `Revise item` button: after making changes to an eBay listing in Odoo,
-  save the record, and then click the `Revise Item` in Odoo to update
+- `Revise item` button: after making changes to an eBay listing in Konvergo ERP,
+  save the record, and then click the `Revise Item` in Konvergo ERP to update
   the eBay listing.
 - **Relist**: if an item's listing was ended early or `auto-relist` was
-  not selected, a user can relist the item from Odoo. The start date
+  not selected, a user can relist the item from Konvergo ERP. The start date
   will reset.
-- `End item's listing` button: end a listing on eBay directly from Odoo.
+- `End item's listing` button: end a listing on eBay directly from Konvergo ERP.
 - **Unlink product listings**: users can unlink a product from the eBay
   listing; the listing will stay intact on eBay.
 
-## Setup required on Odoo prior to eBay setup
+## Setup required on Konvergo ERP prior to eBay setup
 
-To link eBay with Odoo, install the eBay module by navigating to the
-Odoo dashboard and clicking into the `Apps` application. Search the term
+To link eBay with Konvergo ERP, install the eBay module by navigating to the
+Konvergo ERP dashboard and clicking into the `Apps` application. Search the term
 <span class="title-ref">eBay</span> and install the
 <span class="title-ref">eBay Connector</span> module.
 
 The following items must be configured before eBay is set up:
 
-- In Odoo, create and configure products that are intended to be listed
-  in eBay. eBay does not import new products into Odoo. All products
-  must first be created in Odoo, and then linked to listings.
+- In Konvergo ERP, create and configure products that are intended to be listed
+  in eBay. eBay does not import new products into Konvergo ERP. All products
+  must first be created in Konvergo ERP, and then linked to listings.
 
-  - Odoo does not allow multiple eBay listings to be linked per product
-    in Odoo. If the company sells the same product for multiple
+  - Konvergo ERP does not allow multiple eBay listings to be linked per product
+    in Konvergo ERP. If the company sells the same product for multiple
     listings, follow these instructions:
 
     - Set up one *base* product (noted in the `Component` field of the
@@ -135,7 +135,7 @@ The following items must be configured before eBay is set up:
       `BoM (Bill
       of Materials)`, one for each eBay listing. The product type will
       be determined by the company's accounting settings, as explained
-      in the Odoo documentation. Highlighted in yellow below, each
+      in the Konvergo ERP documentation. Highlighted in yellow below, each
       product should have a `BoM type` equal to `Kit` and have the base
       product as a `Component` of the kit. When this linked eBay product
       is sold, the delivery order created will have the base product
@@ -151,7 +151,7 @@ The following items must be configured before eBay is set up:
   > </div>
 
 - eBay does not automatically create invoices for eBay orders that get
-  pushed into Odoo. Set invoicing policy on eBay products: invoicing
+  pushed into Konvergo ERP. Set invoicing policy on eBay products: invoicing
   policy will dictate when the product can be invoiced. Since most eBay
   users collect payment before the product is shipped, “invoice on
   ordered” will allow users to mass create invoices for eBay orders
@@ -163,7 +163,7 @@ The following items must be configured before eBay is set up:
   > [!WARNING]
   > When the `Outgoing Shipments` route is set to two or three steps, a
   > known bug occurs: eBay wrongly marks orders as delivered when the
-  > pick operation in Odoo is confirmed. The expected behavior is to
+  > pick operation in Konvergo ERP is confirmed. The expected behavior is to
   > mark orders as delivered **after** the *delivery order* is
   > confirmed. This mislabeling prevents tracking numbers in eBay from
   > being imported onto the delivery order.
@@ -188,7 +188,7 @@ The following items must be configured before eBay is set up:
   deletion/closure notifications configuration.
 
 <img src="setup/generate-token.png" class="align-center"
-alt="Generate a verification token in Odoo." />
+alt="Generate a verification token in Konvergo ERP." />
 
 ## Set up on eBay
 
@@ -238,13 +238,13 @@ the email.
 
 Following this action, enter the
 `Marketplace account deletion notification endpoint` URL provided by
-Odoo. This HTTPs endpoint is found in Odoo by navigating to `Sales app
+Konvergo ERP. This HTTPs endpoint is found in Konvergo ERP by navigating to `Sales app
 --> Configuration --> Settings`, in the
 `eBay Marketplace Account Deletion/Closure
 Notifications` field.
 
-Clicking the `Generate Token` button in Odoo below this field creates a
-verification token for the eBay production environment. In Odoo, `Copy`
+Clicking the `Generate Token` button in Konvergo ERP below this field creates a
+verification token for the eBay production environment. In Konvergo ERP, `Copy`
 the newly created token and navigate to eBay to fill in the
 `Verification token` field. Click `Save` to enable the
 `Event Notification Delivery Method`.
@@ -263,7 +263,7 @@ After configuring notification settings, go back to the
 #### Creating the keyset
 
 A successful setup of the notifications enables the ability to create
-Production Keysets which are needed in the remainder of the Odoo
+Production Keysets which are needed in the remainder of the Konvergo ERP
 configuration. Navigate back to the `Application
 Keys` page generate a production keyset.
 
@@ -287,7 +287,7 @@ Secret)` all populate.
 <img src="setup/application-keys.png" class="align-center"
 alt="Application keys are populated after creating the app in eBay." />
 
-Copy these values down as they will be input into Odoo later in the
+Copy these values down as they will be input into Konvergo ERP later in the
 process.
 
 ### Create eBay user token
@@ -301,7 +301,7 @@ alt="Generate user token s on the eBay developer console." />
 
 Select the correct `Environment`: `Sandbox` for testing or `Production`
 for the live database. Maintain the same selection for all environment
-settings on both eBay and Odoo.
+settings on both eBay and Konvergo ERP.
 
 Next, select the radio button labeled `Auth'n'Auth`.
 
@@ -382,20 +382,20 @@ A basic search function is set to execute. Click on `Execute` to
 complete the test. A successful test will respond with a `Call Response`
 of <span class="title-ref">200 OK</span> with a corresponding `Time`.
 
-## Entering credentials into Odoo
+## Entering credentials into Konvergo ERP
 
 The previously copied `User Token` and `Application Keyset` are now
-ready to be entered into the Odoo database.
+ready to be entered into the Konvergo ERP database.
 
-Navigate back the eBay settings in Odoo
+Navigate back the eBay settings in Konvergo ERP
 (`Sales app --> Configuration --> Settings
 --> eBay`) and paste the following credentials from eBay into the
-corresponding fields in Odoo.
+corresponding fields in Konvergo ERP.
 
 | Platform | Dev Key/ID    | Token                    | App Key/ID                 | Cert Key/ID                 |
 |----------|---------------|--------------------------|----------------------------|-----------------------------|
 | eBay     | Dev ID        | User Token               | App ID (Client ID)         | Cert ID (Client Secret)     |
-| Odoo     | Developer Key | Production/Sandbox Token | Production/Sandbox App Key | Production/Sandbox Cert Key |
+| Konvergo ERP     | Developer Key | Production/Sandbox Token | Production/Sandbox App Key | Production/Sandbox Cert Key |
 
 > [!IMPORTANT]
 > The `Application Keyset` can be accessed by going to [eBay's developer
@@ -407,7 +407,7 @@ corresponding fields in Odoo.
 > `Sign in to Sandbox`. The `User Token` can also be accessed by
 > clicking on `User Tokens` from the `Application Keys` page.
 
-Confirm that the setup is correct by saving the credentials in Odoo.
+Confirm that the setup is correct by saving the credentials in Konvergo ERP.
 Once the initial setup is complete, a new menu tab in products will
 appear called <span class="title-ref">eBay</span> with the option to
 `Sell on
@@ -417,14 +417,14 @@ eBay`. See the `manage` documentation on how to list products.
 > Sync product categories by clicking `Product Categories`. After
 > syncing, a new menu item, <span class="title-ref">eBay
 > Category</span>, appears available for products to be configured with.
-> These eBay categories are imported from the Odoo database and are
-> available when listing an item on eBay through Odoo.
+> These eBay categories are imported from the Konvergo ERP database and are
+> available when listing an item on eBay through Konvergo ERP.
 >
 > > [!IMPORTANT]
 > > If Product Categories beyond four paths are required, users will
 > > need to manually add those paths. This has historically been done by
 > > getting a list of all product categories beyond four paths, manually
-> > importing them into the Product Category model in Odoo, and then
+> > importing them into the Product Category model in Konvergo ERP, and then
 > > linking them individually to the product.
 
 <div class="seealso">

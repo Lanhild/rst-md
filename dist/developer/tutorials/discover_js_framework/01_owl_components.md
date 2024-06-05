@@ -2,7 +2,7 @@
 
 This chapter introduces the [Owl
 framework](https://github.com/odoo/owl), a tailor-made component system
-for Odoo. The main building blocks of OWL are
+for Konvergo ERP. The main building blocks of OWL are
 [components](%7BOWL_PATH%7D/doc/reference/component.md) and
 [templates](%7BOWL_PATH%7D/doc/reference/templates.md).
 
@@ -20,7 +20,7 @@ steps described in this
 Solutions
 
 The solutions for each exercise of the chapter are hosted on the
-[official Odoo tutorials
+[official Konvergo ERP tutorials
 repository](https://github.com/odoo/tutorials/commits/%7BCURRENT_MAJOR_BRANCH%7D-solutions/owl_playground).
 It is recommended to try to solve them first without looking at the
 solution!
@@ -39,7 +39,7 @@ solution!
 In this chapter, we use the
 <span class="title-ref">owl_playground</span> addon, which provides a
 simplified environment that only contains Owl and a few other files. The
-goal is to learn Owl itself, without relying on Odoo web client code. To
+goal is to learn Owl itself, without relying on Konvergo ERP web client code. To
 get started, open the
 <span class="title-ref">/owl_playground/playground</span> route with
 your browser: it should display an Owl component with the text *hello
@@ -82,7 +82,7 @@ part of user interface:
 ```
 
 You maybe noticed the <span class="title-ref">owl="1"</span> temporary
-attribute, it allows Odoo to differentiate Owl templates from the old
+attribute, it allows Konvergo ERP to differentiate Owl templates from the old
 JavaScript framework templates. Note that Owl templates are not the same
 as QWeb templates: they can contain additional directives, such as
 <span class="title-ref">t-on-click</span>.
@@ -120,7 +120,7 @@ your browser.
 alt="image" />
 
 > [!TIP]
-> The Odoo JavaScript files downloaded by the browser are minified. For
+> The Konvergo ERP JavaScript files downloaded by the browser are minified. For
 > debugging purpose, it's easier when the files are not minified. Switch
 > to `debug mode with assets
 > <developer-mode/activation>` so that the files are not minified.

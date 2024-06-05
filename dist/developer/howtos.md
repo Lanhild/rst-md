@@ -28,7 +28,7 @@ control.
 
 Customize a field
 
-Learn how to customize field components in the Odoo JavaScript web
+Learn how to customize field components in the Konvergo ERP JavaScript web
 framework.
 
 </div>
@@ -37,7 +37,7 @@ framework.
 
 Customize a view type
 
-Learn how to customize view types in the Odoo JavaScript web framework.
+Learn how to customize view types in the Konvergo ERP JavaScript web framework.
 
 </div>
 
@@ -45,7 +45,7 @@ Learn how to customize view types in the Odoo JavaScript web framework.
 
 Create a client action
 
-Learn how to create client actions in the Odoo JavaScript web framework.
+Learn how to create client actions in the Konvergo ERP JavaScript web framework.
 
 </div>
 
@@ -53,7 +53,7 @@ Learn how to create client actions in the Odoo JavaScript web framework.
 
 Web services
 
-Learn more about Odoo's web services.
+Learn more about Konvergo ERP's web services.
 
 </div>
 

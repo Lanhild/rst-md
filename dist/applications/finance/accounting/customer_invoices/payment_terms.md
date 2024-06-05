@@ -40,7 +40,7 @@ following the invoice date.
 
 <div class="seealso">
 
-\- [Odoo Tutorials: payment
+\- [Konvergo ERP Tutorials: payment
 terms](https://www.odoo.com/slides/slide/payment-terms-1679) -
 `cash_discounts`
 
@@ -132,7 +132,7 @@ entries*, with one *journal item* for every computed *due date*.
 This makes for easier
 `follow-ups </applications/finance/accounting/payments/follow_up>` and
 `reconciliation </applications/finance/accounting/bank/reconciliation>`
-since Odoo takes each due date into account, rather than just the
+since Konvergo ERP takes each due date into account, rather than just the
 balance due date. It also helps to get an accurate
 `aged receivable report <customer-invoices/aging-report>`.
 

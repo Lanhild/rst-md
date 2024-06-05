@@ -9,7 +9,7 @@ services purchased, sales taxes, freight and delivery charges, and more.
 
 </div>
 
-In Odoo, a vendor bill can be created at different points in the
+In Konvergo ERP, a vendor bill can be created at different points in the
 purchasing process, depending on the *bill control* policy chosen in the
 *Purchase* app settings.
 

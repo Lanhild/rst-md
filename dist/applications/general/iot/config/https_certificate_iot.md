@@ -19,7 +19,7 @@ transmission of `TLS
 which verify that a particular provider is who they say they are.
 
 > [!NOTE]
-> In this documentation and throughout Odoo the term "HTTPS certificate"
+> In this documentation and throughout Konvergo ERP the term "HTTPS certificate"
 > will be used to define the fact that the `SSL (Secure Sockets Layer)`
 > certificate is valid and allows a `HTTPS
 > (Hypertext Transfer Protocol Secure)` connection.
@@ -49,7 +49,7 @@ The `IoT (Internet of Things)` Box will send a specific request to
 >     instance should not be a copy, a duplicate, a staging, or a
 >     development environment.
 >
-> 2.  The Odoo subscription must:
+> 2.  The Konvergo ERP subscription must:
 >
 >     > - Have an `IoT Box Subscription` line.
 >     > - `Status` must be `In Progress`.
@@ -89,7 +89,7 @@ generation or reception, a specific error will code be given on the
 
 Reason:  
 The configuration regarding the server is missing. In other words, the
-Odoo instance is not connected with the IoT box.
+Konvergo ERP instance is not connected with the IoT box.
 
 Solution:  
 Ensure that the server is configured.
@@ -144,7 +144,7 @@ Solution:
 > [!WARNING]
 > Consult with your system or network administrator should this issue
 > arise. This error code depends on the network infrastructure and goes
-> beyond Odoo support's service scope.
+> beyond Konvergo ERP support's service scope.
 
 ### <span class="title-ref">ERR_IOT_HTTPS_LOAD_REQUEST_STATUS</span>
 
@@ -189,13 +189,13 @@ If the certificate has been applied successfully, a new
 `HTTPS (Hypertext Transfer Protocol
 Secure)` `URL (Uniform Resource Locator)` for the
 `IoT (Internet of Things)` box ending with
-<span class="title-ref">.odoo-iot.com</span> will appear on the Odoo
+<span class="title-ref">.odoo-iot.com</span> will appear on the Konvergo ERP
 database, inside of the `IoT` application on that specific device's
 form.
 
 <img src="https_certificate_iot/odoo-new-domain.png"
 class="align-center"
-alt="Odoo IoT app IoT box with .odoo-iot.com domain." />
+alt="Konvergo ERP IoT app IoT box with .odoo-iot.com domain." />
 
 When navigating to the `URL (Uniform Resource Locator)` in a browser a
 secured `HTTPS
@@ -222,7 +222,7 @@ alt="IoT box homepage with HTTPS certificate OK status." />
 ## Domain Name System (DNS) issue
 
 If the `IoT (Internet of Things)` box can be accessed from its
-`IP (Intrernet Protocol)` address but not the Odoo assigned domain:
+`IP (Intrernet Protocol)` address but not the Konvergo ERP assigned domain:
 <span class="title-ref">.odoo-iot.com</span>; then the
 `IoT (Internet of Things)` box is likely running into a
 `DNS (Domain Name System)` issue. On some browsers, it will give an
@@ -296,4 +296,4 @@ alt="https_certificate_iot/dns-edge.png" />
     > [!WARNING]
     > Consult with your system or network administrator should this
     > issue arise. This error code depends on the network
-    > infrastructure, and it goes beyond Odoo support's service scope.
+    > infrastructure, and it goes beyond Konvergo ERP support's service scope.

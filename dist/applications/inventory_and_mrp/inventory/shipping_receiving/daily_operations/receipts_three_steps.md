@@ -3,7 +3,7 @@
 <div id="inventory/receipts_three_steps">
 
 Some companies require a quality control process before receiving goods
-from suppliers. To accomplish this, Odoo has a three-step process for
+from suppliers. To accomplish this, Konvergo ERP has a three-step process for
 receiving goods.
 
 </div>
@@ -16,7 +16,7 @@ transferred out of the quality area and into stock.
 
 ## Configuration
 
-Odoo is configured by default to `receive and deliver goods in one step
+Konvergo ERP is configured by default to `receive and deliver goods in one step
 <inventory/receipts_delivery_one_step>`, so the settings need to be
 changed in order to utilize three-step receipts. First, make sure the
 *Multi-Step Routes* option is enabled in

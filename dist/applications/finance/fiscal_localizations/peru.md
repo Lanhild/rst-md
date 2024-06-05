@@ -33,14 +33,14 @@ Peru](https://www.odoo.com/slides/smart-tutorial-localizacion-de-peru-133)
 
 Go to *Apps* and search for Peru, then click Install in the module Peru
 EDI. This module has a dependency with *Peru - Accounting*. In case this
-last one is not installed, Odoo installs it automatically within EDI.
+last one is not installed, Konvergo ERP installs it automatically within EDI.
 
 <img src="peru/peru-modules.png" class="align-center"
 alt="The &quot;Module&quot; filter is set on &quot;Peru&quot;" />
 
 > [!NOTE]
 > When you install a database from scratch selecting Peru as country,
-> Odoo automatically installs the base module: Peru - Accounting.
+> Konvergo ERP automatically installs the base module: Peru - Accounting.
 
 #### Configure your company
 
@@ -101,17 +101,17 @@ Here are some terms that are essential on the Peruvian localization:
 
 As part of the requirements for Electronic Invoice in Peru, your company
 needs to select a Signature Provider that will take care of the document
-signing process and manage the SUNAT validation response. Odoo offers
+signing process and manage the SUNAT validation response. Konvergo ERP offers
 three options:
 
-1.  IAP (Odoo In-App Purchase)
+1.  IAP (Konvergo ERP In-App Purchase)
 2.  Digiflow
 3.  SUNAT
 
 Please refer to the sections below to check the details and
 considerations for each option.
 
-##### IAP (Odoo In-App Purchase)
+##### IAP (Konvergo ERP In-App Purchase)
 
 This is the default and the suggested option, considering the digital
 ceritificate is included as part of the service.
@@ -121,7 +121,7 @@ alt="IAP option as signature providers" />
 
 ###### What is the IAP?
 
-This is a signature service offered directly by Odoo, the service takes
+This is a signature service offered directly by Konvergo ERP, the service takes
 care of the next process:
 
 1.  Provides the Electronic invoice Certificate, so you do not need to
@@ -132,7 +132,7 @@ care of the next process:
 ###### How does it work?
 
 The service requires Credits in order to process your electronic
-documents. Odoo provides 1000 credits for free in new databases. After
+documents. Konvergo ERP provides 1000 credits for free in new databases. After
 these credits are consumed, you need to buy a Credit Package.
 
 | Credits | EUR |
@@ -152,7 +152,7 @@ The credits are consumed per each document that is sent to the OSE.
 
 ###### What do you need to do?
 
-- In Odoo, once your enterprise contract is activated and you start
+- In Konvergo ERP, once your enterprise contract is activated and you start
   working in Production, you need to buy credits once the first 1000 are
   consumed.
 - As Digiflow is the OSE used in the IAP, you need to affiliate it as
@@ -196,7 +196,7 @@ need to consider: - Get the SUNAT Certification process accepted.
 
 #### Testing environment
 
-Odoo provides a testing environment that can be activated before your
+Konvergo ERP provides a testing environment that can be activated before your
 company goes into production.
 
 When using the testing environment and the IAP signature, you don’t need
@@ -209,7 +209,7 @@ validated by default.
 
 #### Certificate
 
-In case you don’t use Odoo IAP, in order to generate the electronic
+In case you don’t use Konvergo ERP IAP, in order to generate the electronic
 invoice signature, a digital certificate with the extension `.pfx` is
 required. Proceed to this section and load your file and password.
 
@@ -219,7 +219,7 @@ alt="EDI Certificate wizard" />
 #### Multicurrency
 
 The official currency exchange rate in Peru is provided by the Bank of
-Peru. Odoo can connect directly to its services and get the currency
+Peru. Konvergo ERP can connect directly to its services and get the currency
 rate either automatically or manually.
 
 <img src="peru/peru-multicurrency.png" class="align-center"
@@ -379,7 +379,7 @@ invoice has been posted.
 ##### Electronic Invoice Status
 
 **To be Sent**: Indicates the document is ready to be sent to the OSE,
-this can be done either automatically by Odoo with a *cron* that runs
+this can be done either automatically by Konvergo ERP with a *cron* that runs
 every hour, or the user can send it immediately by clicking on the
 button “Sent now”.
 
@@ -406,7 +406,7 @@ can be sent again.
 #### Common Errors
 
 There are multiple reasons behind a rejection from the OSE or the SUNAT,
-when this happens Odoo sends a message at the top of the invoice
+when this happens Konvergo ERP sends a message at the top of the invoice
 indicating the error details and in the most common cases a hint to fix
 the issue.
 
@@ -439,7 +439,7 @@ alt="Invoice PDF report" />
 
 #### IAP Credits
 
-Odoo’s Electronic IAP offers 1000 credits for free, after these credits
+Konvergo ERP’s Electronic IAP offers 1000 credits for free, after these credits
 are consumed in your production database, your company must buy new
 credits in order to process your transactions.
 
@@ -470,7 +470,7 @@ In order to cancel an invoice, please provide a cancellation Reason.
 ###### Electronic Invoice Status
 
 **To Cancel**: Indicates the cancellation request is ready to be sent to
-the OSE, this can be done either automatically by Odoo with a *cron*
+the OSE, this can be done either automatically by Konvergo ERP with a *cron*
 that runs every hour, or the user can send it immediately by clicking on
 the button “Send now”. Once it is sent, a cancellation ticket is
 created, as a result the next message and CDR File are logged in the
@@ -568,7 +568,7 @@ By default the Debit Note is set in the document type.
 The *Guía de Remisión Electrónica* (GRE) is an electronic document
 generated by the shipper to support the transportation or transfer of
 goods from one place to another, such as a warehouse or establishment.
-In Odoo, there are several configuration steps needed before you can
+In Konvergo ERP, there are several configuration steps needed before you can
 successfully use this feature.
 
 The use of the *guía de remisión electrónica* electronic document is
@@ -588,7 +588,7 @@ others.
 
 This delivery guide is issued by the owner of the goods (i.e., the
 sender) at the beginning of the shipment. The sender delivery guide is
-supported in Odoo.
+supported in Konvergo ERP.
 
 <div class="seealso">
 
@@ -605,7 +605,7 @@ This delivery guide is issued by the carrier and must be issued to each
 shipper when the shipment goes through public transport.
 
 > [!IMPORTANT]
-> The carrier delivery guide is **not** supported in Odoo.
+> The carrier delivery guide is **not** supported in Konvergo ERP.
 
 <div class="seealso">
 
@@ -631,7 +631,7 @@ sender's delivery guide and the carrier's delivery guide.
 #### Direct submission to SUNAT
 
 The creation of the `GRE (Guía de Remisión Electrónica)` delivery guide
-in Odoo **must** be sent directly to the
+in Konvergo ERP **must** be sent directly to the
 `SUNAT (Superintendencia Nacional de Aduanas y de Administración Tributaria)`,
 regardless of the electronic document provider: IAP, Digiflow, or
 `SUNAT (Superintendencia Nacional de Aduanas y de Administración Tributaria)`.
@@ -677,8 +677,8 @@ portal.
 
 > [!IMPORTANT]
 > - Electronic sender's `GRE (Guía de Remisión Electrónica)` is
-> currently the only supported type of waybill in Odoo. - The delivery
-> guide is dependent on the Odoo *Inventory* app, the `l10n_pe_edi` and
+> currently the only supported type of waybill in Konvergo ERP. - The delivery
+> guide is dependent on the Konvergo ERP *Inventory* app, the `l10n_pe_edi` and
 > `l10n_pe` modules. - A second user **must** be added for the creation
 > of electronic documents.
 
@@ -817,7 +817,7 @@ validated by
 - <span class="title-ref">Diferente prefijo para productos (T001 en
   algunos, T002 en otros)</span>
 
-  At the moment, Odoo does not support the automation of prefixes for
+  At the moment, Konvergo ERP does not support the automation of prefixes for
   products. This can be done manually for each product output. This can
   also be done for non-storable products. However, keep in mind that
   there will be no traceability.
@@ -850,7 +850,7 @@ validated by
 
 - <span class="title-ref">400 Client error: Bad Request for URL</span>
 
-  This error is not solvable from Odoo; it is advised you reach out to
+  This error is not solvable from Konvergo ERP; it is advised you reach out to
   the
   `SUNAT (Superintendencia Nacional de Aduanas y de Administración Tributaria)`
   and verify the user. It may be necessary to create a new user.
@@ -862,7 +862,7 @@ validated by
   select another option. Following to the official documentation of the
   `SUNAT (Superintendencia Nacional de Aduanas y de Administración Tributaria)`'s
   waybill guide, the transfer reasons *03 (sale with shipment to third
-  party)* or *12 (others)* does not work in Odoo, since you should not
+  party)* or *12 (others)* does not work in Konvergo ERP, since you should not
   have an empty or blank customer.
 
 - <span class="title-ref">Duda cliente: consumo de créditos IAP al usar
@@ -876,6 +876,6 @@ validated by
 - <span class="title-ref">Errores con formato credenciales GRE 2.0
   (traceback error)</span>
 
-  Odoo currently throws an error with a traceback instead of a message
+  Konvergo ERP currently throws an error with a traceback instead of a message
   that the credentials are not correctly configured in the database. If
   this occurs on your database, please verify your credentials.

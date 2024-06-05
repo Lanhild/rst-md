@@ -93,7 +93,7 @@ printed on their receipt. Upon scanning, they must fill in a form with
 their billing information and click `Get my
 invoice`. On the one hand, doing so generates an invoice available for
 download. On the other hand, the order status goes from `Paid` or
-`Posted` to `Invoiced` in the Odoo backend.
+`Posted` to `Invoiced` in the Konvergo ERP backend.
 
 ![order status change](receipts_invoices/order-status.png)
 

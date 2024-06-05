@@ -2,10 +2,10 @@
 
 ## Overview
 
-Managing SCSS assets in Odoo is not as straightforward as it is in some
+Managing SCSS assets in Konvergo ERP is not as straightforward as it is in some
 other environments, but it's highly efficient.
 
-Modularity is key. The inheritance scheme described further allows Odoo
+Modularity is key. The inheritance scheme described further allows Konvergo ERP
 to:
 
 - customize the Bootstrap CSS framework;
@@ -18,7 +18,7 @@ to:
 ## SCSS's <span class="title-ref">!default</span> directive
 
 "Direct variables’ overrides" are technically possible in SCSS but may
-lead to inconsistent results in complex environments like Odoo.
+lead to inconsistent results in complex environments like Konvergo ERP.
 
 <div class="example">
 
@@ -38,7 +38,7 @@ lead to unexpected cascading results.
 
 SCSS provides several techniques to overcome these issues (e.g.:
 [shadowing](https://sass-lang.com/documentation/variables#shadowing)),
-but the most critical procedure in Odoo is the use of the
+but the most critical procedure in Konvergo ERP is the use of the
 <span class="title-ref">!default</span> flag.
 
 When using the <span class="title-ref">!default</span> flag, the
@@ -74,7 +74,7 @@ Documentation](https://sass-lang.com/documentation/variables#default-values)
 
 </div>
 
-## Odoo's SCSS inheritance system
+## Konvergo ERP's SCSS inheritance system
 
 The following diagram conceptually illustrates the compilation order in
 which the CSS and SCSS variables are defined.

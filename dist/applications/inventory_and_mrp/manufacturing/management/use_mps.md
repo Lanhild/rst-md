@@ -57,7 +57,7 @@ easily access those by clicking on the *Actual Replenishment* cell.
 
 In case you manually edit the *Suggested Replenishment* quantity, a
 small cross will appear on the left hand side of the cell. In case you
-want to go back to the automatically computed value given by Odoo,
+want to go back to the automatically computed value given by Konvergo ERP,
 simply click the cross.
 
 ## Cells color signification

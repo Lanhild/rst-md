@@ -1,6 +1,6 @@
 # Connect a screen
 
-In Odoo, an `IoT (Internet of Things)` box can be connected to a screen
+In Konvergo ERP, an `IoT (Internet of Things)` box can be connected to a screen
 display. After being configured, the screen can be used to display a
 Point of Sale (PoS) order to a client.
 

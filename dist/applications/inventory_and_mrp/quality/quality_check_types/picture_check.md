@@ -1,6 +1,6 @@
 # Take a Picture quality check
 
-In Odoo *Quality*, a *Take a Picture* check is one of the quality check
+In Konvergo ERP *Quality*, a *Take a Picture* check is one of the quality check
 types that can be selected when creating a new quality check or quality
 control point (QCP). *Take a Picture* checks require a picture to be
 attached to the check, which can then be reviewed by a quality team.

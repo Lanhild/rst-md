@@ -6,7 +6,7 @@ buttons to business code, but how can we prevent users from entering
 incorrect data? For example, in our real estate module nothing prevents
 users from setting a negative expected price.
 
-Odoo provides two ways to set up automatically verified invariants:
+Konvergo ERP provides two ways to set up automatically verified invariants:
 `Python constraints <odoo.api.constrains>` and
 `SQL constraints <odoo.models.Model._sql_constraints>`.
 
@@ -50,7 +50,7 @@ Add the following constraints to their corresponding models:
 - An offer price must be strictly positive
 - A property tag name and property type name must be unique
 
-Tip: search for the `unique` keyword in the Odoo codebase for examples
+Tip: search for the `unique` keyword in the Konvergo ERP codebase for examples
 of unique names.
 
 </div>

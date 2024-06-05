@@ -1,6 +1,6 @@
 # Product management
 
-Odoo allows you to create, import, and manage your products' pages all
+Konvergo ERP allows you to create, import, and manage your products' pages all
 within the **Website** app.
 
 ## Add products to the catalog

@@ -1,6 +1,6 @@
-# Odoo Editor
+# Konvergo ERP Editor
 
-Odoo Editor is Odoo's own rich text editor. Its sources can be found in
+Konvergo ERP Editor is Konvergo ERP's own rich text editor. Its sources can be found in
 the [odoo-editor
 directory](%7BGITHUB_PATH%7D/addons/web_editor/static/src/js/editor/odoo-editor).
 
@@ -169,7 +169,7 @@ alt="The Powerbox with its commands filtered using the word &quot;head&quot;." /
 
 #### Options
 
-The following options can be passed to OdooEditor, that will then be
+The following options can be passed to Konvergo ERPEditor, that will then be
 passed to the instance of the Powerbox:
 
 | Name                                                    | Type                                                                                                     | Description                                                                                                                                     |

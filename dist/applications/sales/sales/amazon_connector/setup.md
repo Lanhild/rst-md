@@ -1,6 +1,6 @@
 # Amazon Connector configuration
 
-Odoo allows users to register an Amazon seller account in the database,
+Konvergo ERP allows users to register an Amazon seller account in the database,
 but the user **must** have a paid Amazon Seller account prior to
 completing the configuration.
 
@@ -11,7 +11,7 @@ located in the header section.
 
 Then on the `Sell with Amazon` page, follow the sign-up process and
 finally proceed to follow the instructions below to register and link
-that Amazon Seller account in Odoo.
+that Amazon Seller account in Konvergo ERP.
 
 <div class="seealso">
 
@@ -19,11 +19,11 @@ that Amazon Seller account in Odoo.
 
 </div>
 
-## Connect Amazon Seller account to Odoo
+## Connect Amazon Seller account to Konvergo ERP
 
 <div id="amazon/setup">
 
-To connect an Amazon Seller account in Odoo, navigate to `Sales app -->
+To connect an Amazon Seller account in Konvergo ERP, navigate to `Sales app -->
 Configuration --> Settings --> Connectors section`, activate the
 `Amazon Sync` feature, and click `Save`.
 
@@ -34,7 +34,7 @@ Then, return to
 click on the `Amazon Accounts` link under the `Amazon Sync` setting.
 
 <img src="setup/amazon-accounts-link-setting.png" class="align-center"
-alt="The Amazon Accounts link beneath the Amazon Sync settings in Odoo Sales." />
+alt="The Amazon Accounts link beneath the Amazon Sync settings in Konvergo ERP Sales." />
 
 Doing so reveals a separate `Amazon Accounts` page. From here, click
 `New` to create and link a new Amazon account.
@@ -46,7 +46,7 @@ seller account was initially created from the `Home Marketplace`
 drop-down menu.
 
 <img src="setup/amazon-accounts-form-page.png" class="align-center"
-alt="A typical Amazon Account form page in the Odoo Sales application." />
+alt="A typical Amazon Account form page in the Konvergo ERP Sales application." />
 
 After saving, the field in the `Credentials` tab is replaced by a
 `Link with
@@ -54,7 +54,7 @@ Amazon` button.
 
 <img src="setup/amazon-accounts-form-link-button.png"
 class="align-center"
-alt="A typical Amazon Account form page and Link with Amazon button in Odoo Sales." />
+alt="A typical Amazon Account form page and Link with Amazon button in Konvergo ERP Sales." />
 
 Clicking that button redirects to either the Amazon login page, or
 directly to the required consent page, if the user is already logged in
@@ -62,23 +62,23 @@ to Amazon.
 
 On the login page, log in to the desired Amazon seller account.
 
-On the consent page, confirm that Amazon is allowed to give Odoo access
+On the consent page, confirm that Amazon is allowed to give Konvergo ERP access
 to the account and related data.
 
-Upon confirmation, Amazon returns the user to Odoo, and the account has
+Upon confirmation, Amazon returns the user to Konvergo ERP, and the account has
 been registered.
 
 With the Amazon account successfully registered, the marketplaces
-available to this specific account are synchronized with Odoo and listed
+available to this specific account are synchronized with Konvergo ERP and listed
 under the `Marketplaces` tab.
 
 If desired, remove items from the list of synchronized marketplaces to
 disable synchronization.
 
-## Amazon orders in Odoo
+## Amazon orders in Konvergo ERP
 
 When an Amazon order is synchronized, up to three line items are created
-on the sales order in Odoo. Each one represents a product sold on
+on the sales order in Konvergo ERP. Each one represents a product sold on
 Amazon: one for the product that was sold on Amazon Marketplace, one for
 the shipping charges (if any), and one for the gift wrapping charges (if
 any).
@@ -87,7 +87,7 @@ any).
 
 The selection of a database product for a sales order item is done by
 matching its `Internal Reference` (a customizable product reference
-idenifier in Odoo, like <span class="title-ref">FURN001</span>) with the
+idenifier in Konvergo ERP, like <span class="title-ref">FURN001</span>) with the
 Amazon *SKU* for marketplace items, the Amazon *Shipping Code* for
 delivery charges, and the Amazon *Gift Wrapping* code for gift wrapping
 charges.
@@ -98,7 +98,7 @@ For marketplace products, pairings are saved as *Amazon Offers*, which
 are listed under the `Offers` smart button on the account form.
 
 <img src="setup/amazon-offers-button.png" class="align-center"
-alt="The Amazon Offers smart button on the account form in Odoo Sales." />
+alt="The Amazon Offers smart button on the account form in Konvergo ERP Sales." />
 
 Offers are automatically created when the pairing is established, and
 they're used for subsequent orders to lookup SKUs. If no offer with a
@@ -128,19 +128,19 @@ shipping code.
 
 ## Product tax configuration
 
-To allow for tax reporting of Amazon sales with Odoo, the taxes applied
+To allow for tax reporting of Amazon sales with Konvergo ERP, the taxes applied
 to the sales order items are those set on the product, or determined by
 the fiscal position.
 
-Make sure to have the correct taxes set on your products in Odoo, or
+Make sure to have the correct taxes set on your products in Konvergo ERP, or
 have it done by a fiscal position, to avoid discrepancies in the
-subtotals between *Amazon Seller Central* and Odoo.
+subtotals between *Amazon Seller Central* and Konvergo ERP.
 
 > [!NOTE]
 > As Amazon does not necessarily apply the same taxes as those
-> configured in Odoo, it may happen that order totals differ by a few
-> cents between Odoo and *Amazon Seller Central*. Those differences can
-> be resolved with a write-off when reconciling the payments in Odoo.
+> configured in Konvergo ERP, it may happen that order totals differ by a few
+> cents between Konvergo ERP and *Amazon Seller Central*. Those differences can
+> be resolved with a write-off when reconciling the payments in Konvergo ERP.
 
 ## Add a new marketplace
 

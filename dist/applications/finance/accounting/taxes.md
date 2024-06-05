@@ -4,24 +4,24 @@ show-content
 
 There are numerous types of **taxes**, and their application varies
 greatly, depending mostly on your company's localization. To make sure
-they are recorded with accuracy, Odoo's tax engine supports all kinds of
+they are recorded with accuracy, Konvergo ERP's tax engine supports all kinds of
 uses and computations.
 
 ## Default taxes
 
 **Default Taxes** define which taxes are automatically selected when
-there is no other indication about which tax to use. For example, Odoo
+there is no other indication about which tax to use. For example, Konvergo ERP
 prefills the **Taxes** field with the Default Taxes when you create a
 new product or add a new line on an invoice.
 
-![Odoo fills out the Tax field automatically according to the Default Taxes](taxes/default-invoice-line.png)
+![Konvergo ERP fills out the Tax field automatically according to the Default Taxes](taxes/default-invoice-line.png)
 
 To change your **Default Taxes**, go to
 `Accounting --> Configuration --> Settings
 --> Taxes --> Default Taxes`, select the appropriate taxes for your
 default **Sales Tax** and **Purchase Tax**, and click on *Save*.
 
-![Define which taxes to use by default on Odoo](taxes/default-configuration.png)
+![Define which taxes to use by default on Konvergo ERP](taxes/default-configuration.png)
 
 > [!NOTE]
 > **Default Taxes** are automatically set up according to the country
@@ -40,7 +40,7 @@ activate only the ones relevant for your business.
 To activate Sale Taxes, go to `Accounting --> Configuration --> Taxes`
 and use the *Activate* toggle button to activate or deactivate a tax.
 
-![Activate pre-configured taxes in Odoo Accounting](taxes/list.png)
+![Activate pre-configured taxes in Konvergo ERP Accounting](taxes/list.png)
 
 ## Configuration
 
@@ -48,7 +48,7 @@ To edit or create a **Tax**, go to
 `Accounting --> Configuration --> Taxes` and open a tax or click on
 *Create*.
 
-![Edition of a tax in Odoo Accounting](taxes/edit.png)
+![Edition of a tax in Konvergo ERP Accounting](taxes/edit.png)
 
 <div id="taxes/labels">
 
@@ -249,13 +249,13 @@ this tax, or add it directly to a product line.
 > `Accounting --> Configuration --> Taxes`, and drag and drop the lines
 > with the handles next to the tax names.
 >
-> ![The taxes' sequence in Odoo determines which tax is applied first](taxes/list-sequence.png)
+> ![The taxes' sequence in Konvergo ERP determines which tax is applied first](taxes/list-sequence.png)
 
 <div class="seealso">
 
 - `taxes/fiscal_positions`
 - `taxes/B2B_B2C`
-- `taxes/taxcloud` (decommissioning TaxCloud integration in Odoo 17+)
+- `taxes/taxcloud` (decommissioning TaxCloud integration in Konvergo ERP 17+)
 - `reporting/tax_returns`
 
 </div>

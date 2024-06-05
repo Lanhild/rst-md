@@ -1,18 +1,18 @@
 # Google Sign-In Authentication
 
 The *Google Sign-In Authentication* is a useful function that allows
-Odoo users to sign in to their database with their Google account.
+Konvergo ERP users to sign in to their database with their Google account.
 
 This is particularly helpful if the organization uses Google Workspace,
-and wants employees within the organization to connect to Odoo using
+and wants employees within the organization to connect to Konvergo ERP using
 their Google Accounts.
 
 > [!WARNING]
-> Databases hosted on Odoo.com should not use Oauth login for the owner
+> Databases hosted on Konvergo ERP.com should not use Oauth login for the owner
 > or administrator of the database as it would unlink the database from
-> their Odoo.com account. If Oauth is set up for that user, the database
+> their Konvergo ERP.com account. If Oauth is set up for that user, the database
 > will no longer be able to be duplicated, renamed or otherwise managed
-> from the Odoo.com portal.
+> from the Konvergo ERP.com portal.
 
 <div class="seealso">
 
@@ -24,7 +24,7 @@ their Google Accounts.
 ## Configuration
 
 The integration of the Google sign-in function requires configuration
-both on Google *and* Odoo.
+both on Google *and* Konvergo ERP.
 
 ### Google API Dashboard
 
@@ -91,7 +91,7 @@ both on Google *and* Odoo.
     alt="OAuth client id selection." />
 
 3.  Select `Web Application` as the `Application Type`. Now, configure
-    the allowed pages on which Odoo will be redirected.
+    the allowed pages on which Konvergo ERP will be redirected.
 
     In order to achieve this, in the `Authorized redirect URIs` field,
     enter the database's domain immediately followed by
@@ -101,10 +101,10 @@ both on Google *and* Odoo.
 
 4.  Now that the *OAuth client* has been created, a screen will appear
     with the `Client ID` and `Client Secret`. Copy the `Client ID` for
-    later, as it will be necessary for the configuration in Odoo, which
+    later, as it will be necessary for the configuration in Konvergo ERP, which
     will be covered in the following steps.
 
-### Google Authentication on Odoo
+### Google Authentication on Konvergo ERP
 
 #### Retrieve the Client ID
 
@@ -115,13 +115,13 @@ Google API Dashboard: `Client ID` and `Client Secret`. Copy the
 <img src="google/secret-ids.png" class="align-center"
 alt="Google OAuth Client ID generated." />
 
-#### Odoo activation
+#### Konvergo ERP activation
 
-1.  Go to `Odoo General Settings --> Integrations` and activate `OAuth
+1.  Go to `Konvergo ERP General Settings --> Integrations` and activate `OAuth
     Authentication`.
 
     > [!NOTE]
-    > Odoo may prompt the user to log-in again after this step.
+    > Konvergo ERP may prompt the user to log-in again after this step.
 
 2.  Go back to
     `General Settings --> Integrations --> OAuth Authentication`,
@@ -132,17 +132,17 @@ alt="Google OAuth Client ID generated." />
     Dashboard, and `Save`.
 
     <img src="google/odoo-client-id.png" class="align-center"
-    alt="Filling out the client id in Odoo settings." />
+    alt="Filling out the client id in Konvergo ERP settings." />
 
     > [!NOTE]
     > Google OAuth2 configuration can also be accessed by clicking on
     > `OAuth Providers` under the `OAuth Authentication` heading in
     > `Integrations`.
 
-## Log in to Odoo with Google
+## Log in to Konvergo ERP with Google
 
-To link the Google account to the Odoo profile, click on
-`Log in with Google` when first logging into Odoo.
+To link the Google account to the Konvergo ERP profile, click on
+`Log in with Google` when first logging into Konvergo ERP.
 
 > <img src="google/first-login.png" class="align-center"
 > alt="Reset password screen with &quot;Log in with Google&quot; button." />

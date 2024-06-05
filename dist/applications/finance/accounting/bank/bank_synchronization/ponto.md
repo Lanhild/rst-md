@@ -4,16 +4,16 @@
 aggregate their accounts in one place and directly see all their
 transactions within one app. It is a third-party solution that is
 continuously expanding the number of bank institutions that can be
-synchronized with Odoo.
+synchronized with Konvergo ERP.
 
 <img src="ponto/ponto-logo.png" class="align-center"
 alt="Logo of the Ponto brand" />
 
-**Odoo** can synchronize directly with your bank to get all bank
+**Konvergo ERP** can synchronize directly with your bank to get all bank
 statements imported automatically into your database.
 
 Ponto is a paid third-party provider that can handle the synchronization
-between your bank accounts and Odoo. [Its pricing is 4€/month per
+between your bank accounts and Konvergo ERP. [Its pricing is 4€/month per
 account/integration](https://myponto.com/en#pricing).
 
 <div class="seealso">
@@ -46,9 +46,9 @@ account/integration](https://myponto.com/en#pricing).
     alt="Add bank accounts to your Ponto account." />
 
 6.  Make sure to add all bank accounts you want to synchronize with your
-    Odoo database before moving on to the next steps.
+    Konvergo ERP database before moving on to the next steps.
 
-### Link your Ponto account with your Odoo database
+### Link your Ponto account with your Konvergo ERP database
 
 1.  Go to `Accounting --> Configuration --> Add a Bank Account`.
 
@@ -59,17 +59,17 @@ account/integration](https://myponto.com/en#pricing).
 3.  Click on *Connect* and follow the steps.
 
 4.  At some point, you will have to authorize the accounts you want to
-    access in Odoo. Please select **all the accounts** you want to
+    access in Konvergo ERP. Please select **all the accounts** you want to
     synchronize. Even the ones coming from other banking institutions.
 
     <img src="ponto/ponto-select-accounts.png" class="align-center"
-    alt="Selection of the accounts you wish to synchronize with Odoo." />
+    alt="Selection of the accounts you wish to synchronize with Konvergo ERP." />
 
 5.  Finish the flow.
 
 > [!NOTE]
-> You have to authorize all the accounts you want to access in Odoo, but
-> Odoo will filter the accounts based on the institution you selected in
+> You have to authorize all the accounts you want to access in Konvergo ERP, but
+> Konvergo ERP will filter the accounts based on the institution you selected in
 > the second step.
 
 ### Update your synchronization credentials
@@ -114,7 +114,7 @@ synchronization will stop for these accounts.
 ### I have some errors with my beta institution
 
 Ponto provides institutions in *beta*, these institutions are not
-directly supported by Odoo and we advise you to contact Ponto directly.
+directly supported by Konvergo ERP and we advise you to contact Ponto directly.
 
 > [!IMPORTANT]
 > Using an institution in beta is beneficial for Ponto, it allows them

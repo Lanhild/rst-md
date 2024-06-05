@@ -14,7 +14,7 @@ cards**.
 
 ### Credentials tab
 
-Odoo needs your **API Credentials & Keys** to connect with your
+Konvergo ERP needs your **API Credentials & Keys** to connect with your
 Authorize.Net account, which comprise:
 
 - **API Login ID**: The ID solely used to identify the account with
@@ -27,12 +27,12 @@ To retrieve them, log into your Authorize.Net account, go to
 `Account --> Settings
 --> Security Settings --> API Credentials & Keys`, generate your
 **Transaction Key** and **Signature Key**, and paste them on the related
-fields in Odoo. Then, click on **Generate Client Key**.
+fields in Konvergo ERP. Then, click on **Generate Client Key**.
 
 > [!IMPORTANT]
 > To test Authorize.Net with a *sandbox* account, change the `State` to
 > `Test
-> Mode`. We recommend doing this on a test Odoo database, rather than on
+> Mode`. We recommend doing this on a test Konvergo ERP database, rather than on
 > your main database.
 >
 > If you use the `Test Mode` with a regular account, it results in the
@@ -68,7 +68,7 @@ To give customers the possibility to pay using ACH, [sign up for
 Authorize.Net eCheck's
 service](https://www.authorize.net/payments/echeck.html). Once eCheck is
 activated, duplicate the previously configured Authorize.Net payment
-provider on Odoo by going to `Accounting
+provider on Konvergo ERP by going to `Accounting
 --> Configuration --> Payment Providers --> Authorize.net --> ⛭ Action --> Duplicate`.
 Then, change the provider's name to differentiate both versions (e.g.,
 <span class="title-ref">Authorize.net - Banks</span>).
@@ -102,7 +102,7 @@ To export a statement:
 - Go to `Account --> Statements --> eCheck.Net Settlement Statement`.
 - Define an export range using an *opening* and *closing* batch
   settlement. All transactions within the two batch settlements will be
-  exported to Odoo.
+  exported to Konvergo ERP.
 - Select all transactions within the desired range, copy them, and paste
   them into the `Report 1 Download` sheet of the `Excel import template
   <authorize-import-template>`.
@@ -146,20 +146,20 @@ Once the data is in the `Report 1 Download` sheet:
 > To get the correct closing balance, **do not remove** any line from
 > the Excel sheets.
 
-### Import into Odoo
+### Import into Konvergo ERP
 
-To import the data into Odoo:
+To import the data into Konvergo ERP:
 
 - Open the `Excel import template <authorize-import-template>`.
 - Copy the data from the `transit for report 2` sheet and use *paste
-  special* to only paste the values in the `Odoo Import to CSV` sheet.
-- Look for *blue* cells in the `Odoo Import to CSV` sheet. These are
+  special* to only paste the values in the `Konvergo ERP Import to CSV` sheet.
+- Look for *blue* cells in the `Konvergo ERP Import to CSV` sheet. These are
   chargeback entries without any reference number. As they cannot be
   imported as such, go to
   `Authorize.Net --> Account --> Statements --> eCheck.Net Settlement Statement`.
 - Look for `Charge Transaction/Chargeback`, and click it.
 - Copy the invoice description, paste it into the `Label` cell of the
-  `Odoo
+  `Konvergo ERP
   Import to CSV` sheet, and add <span class="title-ref">Chargeback
   /</span> before the description.
 - If there are multiple invoices, add a line into the
@@ -179,23 +179,23 @@ To import the data into Odoo:
 </div>
 
 - Next, delete *zero transaction* and *void transaction* line items, and
-  change the format of the `Amount` column in the `Odoo Import to CSV`
+  change the format of the `Amount` column in the `Konvergo ERP Import to CSV`
   sheet to *Number*.
 - Go back to
   `eCheck.Net Settlement Statement --> Search for a Transaction` and
   search again for the previously used batch settlements dates.
 - Verify that the batch settlement dates on eCheck.Net match the related
   payments' dates found in the `Date` column of the
-  `Odoo Import to CSV`.
+  `Konvergo ERP Import to CSV`.
 - If it does not match, replace the date with the one from eCheck.Net.
   Sort the column by *date*, and make sure the format is
   <span class="title-ref">MM/DD/YYYY</span>.
 - Copy the data - column headings included - from the
-  `Odoo Import to CSV` sheet, paste it into a new Excel file, and save
+  `Konvergo ERP Import to CSV` sheet, paste it into a new Excel file, and save
   it using the CSV format.
 - Open the Accounting app, go to `Configuration --> Journals`, tick the
   `Authorize.Net` box, and click `Favorites --> Import records --> Load
-  file`. Select the CSV file and upload it into Odoo.
+  file`. Select the CSV file and upload it into Konvergo ERP.
 
 > [!TIP]
 > List of [eCheck.Net return

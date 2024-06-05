@@ -21,7 +21,7 @@ To enable this feature, navigate to
 Invoice`. Then, click `Save` to save all changes.
 
 <img src="proforma/pro-forma-setting.png" class="align-center"
-alt="The Pro-Forma Invoice feature setting in the Odoo Sales application." />
+alt="The Pro-Forma Invoice feature setting in the Konvergo ERP Sales application." />
 
 ## Send pro-forma invoice
 
@@ -31,7 +31,7 @@ the `Send Pro-Forma Invoice` button.
 
 <img src="proforma/send-pro-forma-invoice-button.png"
 class="align-center"
-alt="The Send Pro-Forma Invoice button on a typical sales order in Odoo Sales." />
+alt="The Send Pro-Forma Invoice button on a typical sales order in Konvergo ERP Sales." />
 
 > [!NOTE]
 > Pro-forma invoices can **not** be sent for a sales order or quotation
@@ -55,12 +55,12 @@ body of the email can be modified, if necessary.
 The pro-forma invoice is automatically added as an attachment to the
 email.
 
-When ready, click `Send`, and Odoo instantly sends the email, with the
+When ready, click `Send`, and Konvergo ERP instantly sends the email, with the
 attached pro-forma invoice, to the customer.
 
 <img src="proforma/pro-forma-email-message-pop-up.png"
 class="align-center"
-alt="The email pop-up window that appears with pro-forma invoice attached in Odoo Sales." />
+alt="The email pop-up window that appears with pro-forma invoice attached in Konvergo ERP Sales." />
 
 > [!TIP]
 > To preview what the pro-forma invoice looks like, click on the PDF at
@@ -69,7 +69,7 @@ alt="The email pop-up window that appears with pro-forma invoice attached in Odo
 > to view (and review) the pro-forma invoice.
 >
 > <img src="proforma/pro-forma-pdf.png" class="align-center"
-> alt="Sample pro-forma invoice PDF from Odoo Sales." />
+> alt="Sample pro-forma invoice PDF from Konvergo ERP Sales." />
 
 <div class="seealso">
 

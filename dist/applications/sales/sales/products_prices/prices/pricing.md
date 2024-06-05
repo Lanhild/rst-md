@@ -1,9 +1,9 @@
 # Pricelists, discounts, and formulas
 
-Odoo *Sales* has a useful pricelist feature that can be tailored to fit
+Konvergo ERP *Sales* has a useful pricelist feature that can be tailored to fit
 any unique pricing strategy.
 
-A *pricelist* is a list of prices (or price rules) that Odoo uses to
+A *pricelist* is a list of prices (or price rules) that Konvergo ERP uses to
 determine the appropriate price for a customer. These pricelists can be
 set with specific criteria (such as time periods, minimum quantity sold,
 and more) in order to apply certain prices or discounts.
@@ -31,7 +31,7 @@ wherein pricelists can be created and/or modified.
   roundings.
 
 <img src="pricing/pricelist-feature-setting.png" class="align-center"
-alt="How the pricelist feature setting looks in Odoo Sales." />
+alt="How the pricelist feature setting looks in Konvergo ERP Sales." />
 
 After clicking the checkbox beside the `Pricelists` feature, select one
 of those two options, then click `Save` to save all changes.
@@ -47,10 +47,10 @@ Either option reveals the `Pricelists` page, in which pricelists can be
 created and/or modified at any time.
 
 <img src="pricing/pricelists-page.png" class="align-center"
-alt="How the pricelists page looks in Odoo Sales." />
+alt="How the pricelists page looks in Konvergo ERP Sales." />
 
 > [!NOTE]
-> The `Public Pricelist` is the default pricelist used with Odoo *Sales*
+> The `Public Pricelist` is the default pricelist used with Konvergo ERP *Sales*
 > and *eCommerce*.
 
 From the `Pricelists` page, either select the desired pricelist to edit,
@@ -58,7 +58,7 @@ or click `New` to create a new pricelist, which reveals a blank
 pricelist form that can be configured in a number of different ways.
 
 <img src="pricing/pricelist-detail-form.png" class="align-center"
-alt="How the pricelist detail form looks in Odoo Sales." />
+alt="How the pricelist detail form looks in Konvergo ERP Sales." />
 
 When creating a new pricelist, start by adding a name for the pricelist
 at the top of the form, in the blank field. Next, select which
@@ -124,7 +124,7 @@ pricelist.
 
 Time-based rules are used specifically with `subscription products
 </applications/sales/subscriptions/products>`. Be sure to check out the
-Odoo *Subscriptions*
+Konvergo ERP *Subscriptions*
 `documentation </applications/sales/subscriptions>`.
 
 Under the `Time-based rules` tab, the same functionality of the
@@ -145,7 +145,7 @@ create the time period, which can be edited later. Or, select
 recurrence period can be directly configured.
 
 <img src="pricing/time-period-popup.png" class="align-center"
-alt="Custom time period pop-up form in Odoo Sales." />
+alt="Custom time period pop-up form in Konvergo ERP Sales." />
 
 From this `Create Period` pop-up form, add a `Name`, `Duration`, then a
 `Unit` (e.g. <span class="title-ref">Days</span>,
@@ -167,14 +167,14 @@ Under the `Configuration` tab, there are a few options that can further
 customize the pricelist.
 
 <img src="pricing/configuration-tab.png" class="align-center"
-alt="Configuration tab on pricelist detail form in Odoo Sales." />
+alt="Configuration tab on pricelist detail form in Konvergo ERP Sales." />
 
 From here, under the `Availability` section, in the `Country Groups`
 field, certain country groups can be added to the pricelist. There is no
 limit to how many country groups can be added in this field.
 
 > [!NOTE]
-> If no country is set for a customer, Odoo takes the first pricelist
+> If no country is set for a customer, Konvergo ERP takes the first pricelist
 > without any country group.
 
 Under the `Website` section, there are a few options that can be
@@ -194,7 +194,7 @@ customer does not fall into the previously-specified criteria.
 
 #### Show discount percentage to customers
 
-With Odoo *Sales*, the option to show the public price *and* the
+With Konvergo ERP *Sales*, the option to show the public price *and* the
 computed discount percentage on the product catalog is available.
 
 To do that, navigate to `Sales app --> Configuration --> Settings`, and
@@ -212,7 +212,7 @@ available.
 
 <img src="pricing/configuration-discount-options.png"
 class="align-center"
-alt="What the discount options are on the configuration tab of a pricelist in Odoo Sales." />
+alt="What the discount options are on the configuration tab of a pricelist in Konvergo ERP Sales." />
 
 The options available in this section are:
 
@@ -224,7 +224,7 @@ The options available in this section are:
 ## Customer pricelist application
 
 While the default pricelist applied to any customer is the
-`Public Pricelist`, Odoo provides the opportunity to directly apply a
+`Public Pricelist`, Konvergo ERP provides the opportunity to directly apply a
 different pricelist to customers on their contact form.
 
 To do that, open the desired customer's contact form, either by
@@ -234,7 +234,7 @@ app --> Orders --> Customers` and selecting the customer from the main
 order.
 
 <img src="pricing/customer-detail-form.png" class="align-center"
-alt="Sample customer detail form in Odoo Sales." />
+alt="Sample customer detail form in Konvergo ERP Sales." />
 
 On the desired customer's contact form, under the `Sales & Purchase`
 tab, in the `Sales` section, designate what pricelist should be applied
@@ -243,7 +243,7 @@ field.
 
 <img src="pricing/customer-form-pricelist-field.png"
 class="align-center"
-alt="The pricelist field in a customer detail form in Odoo Sales." />
+alt="The pricelist field in a customer detail form in Konvergo ERP Sales." />
 
 ## Multiple prices per product
 
@@ -262,14 +262,14 @@ On the product form, click the `Extra Prices` smart button, located at
 the top of the form.
 
 <img src="pricing/extra-prices-smartbutton.png" class="align-center"
-alt="How the extra prices smart button appears in Odoo Sales." />
+alt="How the extra prices smart button appears in Konvergo ERP Sales." />
 
 Doing so reveals a separate page displaying the `Price Rules` that are
 specific to that particular product. Here, price rules can be edited or
 created at any time.
 
 <img src="pricing/price-rules-product-page.png" class="align-center"
-alt="How the extra price rules per product page appears in Odoo Sales." />
+alt="How the extra price rules per product page appears in Konvergo ERP Sales." />
 
 To create a new price rule for a product from this specific
 `Price Rules` page, click `New` to add a new, customizable row that has
@@ -279,7 +279,7 @@ Next, select which `Pricelist` this specific product price rule should
 apply to, via the drop-down menu in the `Pricelist` column.
 
 > [!NOTE]
-> The `Public Pricelist` is the default pricelist used with Odoo *Sales*
+> The `Public Pricelist` is the default pricelist used with Konvergo ERP *Sales*
 > and *eCommerce*.
 
 > [!TIP]
@@ -312,7 +312,7 @@ company this price rule should be applied to in the `Company` field.
 Leaving this field blank means the price rule applies for all companies
 in the database.
 
-Click away from the row to activate Odoo's auto-save capability, meaning
+Click away from the row to activate Konvergo ERP's auto-save capability, meaning
 that newly-created price rule is now ready to be used.
 
 Proceed to add as many unique price rules per product as desired. There
@@ -362,7 +362,7 @@ to add an advanced price rule. Doing so reveals a
 configured.
 
 <img src="pricing/create-pricelist-rules-popup.png" class="align-center"
-alt="How the Create Pricelist Rules pop-up form looks in Odoo Sales." />
+alt="How the Create Pricelist Rules pop-up form looks in Konvergo ERP Sales." />
 
 ### Price computation
 
@@ -383,7 +383,7 @@ discount percentage in the `Discount` field that appears.
 If `Formula` is selected, a number of configurable options appear.
 
 <img src="pricing/formula-computation-options.png" class="align-center"
-alt="The various formula computation options present in Odoo Sales." />
+alt="The various formula computation options present in Konvergo ERP Sales." />
 
 To configure the `Formula` computation option, start by selecting an
 option from the `Based on` field: `Sales Price`, `Cost`, or `Other
@@ -403,7 +403,7 @@ to <span class="title-ref">-100</span>, and the `Margins` to
 situations.
 
 <img src="pricing/formula-markup-cost-example.png" class="align-center"
-alt="How it looks to formulate a markup cost with 5 dollar minimum margin in Odoo Sales." />
+alt="How it looks to formulate a markup cost with 5 dollar minimum margin in Konvergo ERP Sales." />
 
 </div>
 
@@ -423,7 +423,7 @@ sets the price so that it is a multiple of the value in the field.
 Lastly, specify the minimum amount of margin over the base price in the
 `Margins` field.
 
-Once all formula-related configurations are complete, Odoo provides an
+Once all formula-related configurations are complete, Konvergo ERP provides an
 example of the formula in a blue block to the right of the
 configurations.
 
@@ -436,7 +436,7 @@ To apply 20% discounts, with prices rounded up to 9.99, set the
 <span class="title-ref">10</span>.
 
 <img src="pricing/formula-discount-example.png" class="align-center"
-alt="Example of a 20% discount with prices rounded to 9.99 in Odoo Sales." />
+alt="Example of a 20% discount with prices rounded to 9.99 in Konvergo ERP Sales." />
 
 </div>
 
@@ -471,7 +471,7 @@ create another advanced pricelist rule on a fresh form.
 
 > [!NOTE]
 > If a price rule is set for a particular product, and another one for
-> its product category, Odoo takes the rule of the product itself.
+> its product category, Konvergo ERP takes the rule of the product itself.
 
 <div class="seealso">
 

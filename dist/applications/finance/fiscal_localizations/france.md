@@ -13,7 +13,7 @@ purposes.
 
 ### FEC Import
 
-To make the onboarding of new users easier, Odoo Enterprise's French
+To make the onboarding of new users easier, Konvergo ERP Enterprise's French
 `fiscal localization
 package <fiscal_localizations/packages>` includes the **FEC Import**
 feature (module name: `l10n_fr_fec_import`), which enables the import of
@@ -38,7 +38,7 @@ Importing FEC files from different year takes no particular action or
 computation.  
 Should multiple files contain any "Reports à Nouveaux" (RAN) with the
 starting balance of the year, you might need to cancel those entries in
-the User Interface. Odoo makes those entries (RAN) useless.
+the User Interface. Konvergo ERP makes those entries (RAN) useless.
 
 </div>
 
@@ -251,20 +251,20 @@ determined by the field <span class="title-ref">CompteNum</span>.
 Should a similar account code already be present in the system, the
 existing one is used instead of creating a new one.
 
-Accounts in Odoo generally have a number of digits that are default for
+Accounts in Konvergo ERP generally have a number of digits that are default for
 the fiscal localization. As the FEC module is related to the French
 localization, the default number of relevant digits is 6.
 
 This means that the account codes the trailing zeroes are right-trimmed,
 and that the comparison between the account codes in the FEC file and
-the ones already existing in Odoo is performed only on the first six
+the ones already existing in Konvergo ERP is performed only on the first six
 digits of the codes.
 
 <div class="example">
 
 The account code <span class="title-ref">65800000</span> in the file is
 matched against an existing <span class="title-ref">658000</span>
-account in Odoo, and that account is used instead of creating a new one.
+account in Konvergo ERP, and that account is used instead of creating a new one.
 
 </div>
 
@@ -307,7 +307,7 @@ as per the account template.
 
 ##### Journals
 
-Journals are also checked against those already existing in Odoo to
+Journals are also checked against those already existing in Konvergo ERP to
 avoid duplicates, also in the case of multiple FEC files imports.
 
 Should a similar journal code already be present in the system, the
@@ -483,18 +483,18 @@ some accounting reports specific to France:
 - Compte de résultats
 - Plan de Taxes France
 
-## Get the VAT anti-fraud certification with Odoo
+## Get the VAT anti-fraud certification with Konvergo ERP
 
 As of January 1st 2018, a new anti-fraud legislation comes into effect
 in France and DOM-TOM. This new legislation stipulates certain criteria
 concerning the inalterability, security, storage and archiving of sales
-data. These legal requirements are implemented in Odoo, version 9
+data. These legal requirements are implemented in Konvergo ERP, version 9
 onward, through a module and a certificate of conformity to download.
 
 ### Is my company required to use anti-fraud software?
 
 Your company is required to use an anti-fraud cash register software
-like Odoo (CGI art. 286, I. 3° bis) if:
+like Konvergo ERP (CGI art. 286, I. 3° bis) if:
 
 - You are taxable (not VAT exempt) in France or any DOM-TOM,
 - Some of your customers are private individuals (B2C).
@@ -502,24 +502,24 @@ like Odoo (CGI art. 286, I. 3° bis) if:
 This rule applies to any company size. Auto-entrepreneurs are exempted
 from VAT and therefore are not affected.
 
-### Get certified with Odoo
+### Get certified with Konvergo ERP
 
-Getting compliant with Odoo is very easy.
+Getting compliant with Konvergo ERP is very easy.
 
 Your company is requested by the tax administration to deliver a
 certificate of conformity testifying that your software complies with
-the anti-fraud legislation. This certificate is granted by Odoo SA to
-Odoo Enterprise users
+the anti-fraud legislation. This certificate is granted by Konvergo ERP SA to
+Konvergo ERP Enterprise users
 [here](https://www.odoo.com/my/contract/french-certification/). If you
-use Odoo Community, you should `upgrade to Odoo Enterprise
+use Konvergo ERP Community, you should `upgrade to Konvergo ERP Enterprise
 </administration/on_premise/community_to_enterprise>` or contact your
-Odoo service provider.
+Konvergo ERP service provider.
 
 In case of non-conformity, your company risks a fine of €7,500.
 
 To get the certification, just follow the following steps:
 
-- If you use **Odoo Point of Sale**, `install <general/install>` the
+- If you use **Konvergo ERP Point of Sale**, `install <general/install>` the
   **France - VAT Anti-Fraud Certification for Point of Sale (CGI 286 I-3
   bis)** module by going to `Apps`, removing the *Apps* filter, then
   searching for *l10n_fr_pos_cert*, and installing the module.
@@ -527,7 +527,7 @@ To get the certification, just follow the following steps:
   won’t be encrypted for the inalterability check. To edit your
   company’s data, go to `Settings --> Users & Companies --> Companies`.
   Select a country from the list; Do not create a new country.
-- Download the mandatory certificate of conformity delivered by Odoo SA
+- Download the mandatory certificate of conformity delivered by Konvergo ERP SA
   [here](https://www.odoo.com/my/contract/french-certification/).
 
 <div class="note">
@@ -542,7 +542,7 @@ Note
   you should update the modules list. To do so, activate the
   `developer mode <developer-mode>`. Then go to the *Apps* menu and
   press *Update Modules List* in the top-menu.
-- In case you run Odoo on-premise, you need to update your installation
+- In case you run Konvergo ERP on-premise, you need to update your installation
   and restart your server beforehand.
 - If you have installed the initial version of the anti-fraud module
   (prior to December 18th 2017), you need to update it. The module's
@@ -645,13 +645,13 @@ Tip
 Do not uninstall the module! If you do so, the hashes will be reset and
 none of your past data will be longer guaranteed as being inalterable.
 
-Users remain responsible for their Odoo instance and must use it with
+Users remain responsible for their Konvergo ERP instance and must use it with
 due diligence. It is not permitted to modify the source code which
 guarantees the inalterability of data.
 
-Odoo absolves itself of all and any responsibility in case of changes in
+Konvergo ERP absolves itself of all and any responsibility in case of changes in
 the module’s functions caused by 3rd party applications not certified by
-Odoo.
+Konvergo ERP.
 
 ### More Information
 

@@ -9,13 +9,13 @@ show-toc
 <img src="website_themes/web-design.png" width="600"
 alt="Artistic illustration of &quot;Web design&quot;" />
 
-The Odoo Website Builder is an excellent tool for creating a website
-fully integrated with other Odoo apps. Using the theme's options and
+The Konvergo ERP Website Builder is an excellent tool for creating a website
+fully integrated with other Konvergo ERP apps. Using the theme's options and
 building blocks is easy and allows you to personalize your web presence
 the way you want. However, you can take things even further.
 
 In this documentation, you will learn to completely customize your
-website without touching Odoo's core files, and this way, preserve the
+website without touching Konvergo ERP's core files, and this way, preserve the
 editing options of the Website Builder.
 
 The information compiled in this documentation is based on our past

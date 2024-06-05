@@ -1,18 +1,18 @@
 # Email gateway
 
-The Odoo mail gateway allows you to inject directly all the received
-emails in Odoo.
+The Konvergo ERP mail gateway allows you to inject directly all the received
+emails in Konvergo ERP.
 
 Its principle is straightforward: your SMTP server executes the
 "mailgate" script for every new incoming email.
 
-The script takes care of connecting to your Odoo database through
+The script takes care of connecting to your Konvergo ERP database through
 XML-RPC, and send the emails via the
 <span class="title-ref">MailThread.message_process()</span> feature.
 
 ## Prerequisites
 
-- Administrator access to the Odoo database.
+- Administrator access to the Konvergo ERP database.
 - Your own mail server such as Postfix or Exim.
 - Technical knowledge on how to configure an email server.
 

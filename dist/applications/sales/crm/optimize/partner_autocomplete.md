@@ -20,8 +20,8 @@ number, `Timezone`, and `Technologies Used`.
 > [!IMPORTANT]
 > When getting a company's contact information make sure to be aware of
 > the latest EU regulations. For more information about General Data
-> Protection Regulation refer to: [Odoo GDPR](http://odoo.com/gdpr). In
-> Odoo, individual contact information cannot be searched for with the
+> Protection Regulation refer to: [Konvergo ERP GDPR](http://odoo.com/gdpr). In
+> Konvergo ERP, individual contact information cannot be searched for with the
 > partner autocomplete feature.
 
 ## Configuration
@@ -32,27 +32,27 @@ Autocomplete` feature, by ticking the checkbox beside it, and clicking
 
 <img src="partner_autocomplete/settings-partner-autocomplete.png"
 class="align-center"
-alt="View of settings page and the activations of the feature in Odoo." />
+alt="View of settings page and the activations of the feature in Konvergo ERP." />
 
 ## Enrich contacts with corporate data
 
 From any module, as the user is typing in the name of a new company
-contact, Odoo reveals a large drop-down menu of potential match
+contact, Konvergo ERP reveals a large drop-down menu of potential match
 suggestions. If any are selected, the contact is then populated with
 corporate data related to that specific selection.
 
-For example, after typing <span class="title-ref">Odoo</span>, the
+For example, after typing <span class="title-ref">Konvergo ERP</span>, the
 following information populates:
 
 <img src="partner_autocomplete/odoo-autocomplete.png"
-class="align-center" alt="Creating a new contact in Odoo" />
+class="align-center" alt="Creating a new contact in Konvergo ERP" />
 
 In the chatter, the following information populates about the company,
 after clicking on the desired pre-populated contact:
 
 <img src="partner_autocomplete/odoo-info-autocomplete.png"
 class="align-center"
-alt="View of the information being shown about odoo with the autocomplete option in Odoo" />
+alt="View of the information being shown about odoo with the autocomplete option in Konvergo ERP" />
 
 > [!TIP]
 > Partner Autocomplete also works if a `VAT (value-added tax)` number is
@@ -65,7 +65,7 @@ requires prepaid credits to be used. Each request consumes one credit.
 
 To buy credits, go to `Settings app --> Contacts section`. Then, locate
 either the `Partner Autocomplete` feature and click `Buy credits`, or
-locate the `Odoo IAP` feature and click `View My Services`. From the
+locate the `Konvergo ERP IAP` feature and click `View My Services`. From the
 resulting page, select a desired package.
 
 > [!NOTE]
@@ -76,7 +76,7 @@ resulting page, select a desired package.
 > Learn about our [Privacy Policy](https://iap.odoo.com/privacy).
 
 > [!NOTE]
-> Enterprise Odoo users with a valid subscription get free credits to
+> Enterprise Konvergo ERP users with a valid subscription get free credits to
 > test `IAP (In-App
 > Purchase)` features before deciding to purchase more credits for the
 > database. This includes demo/training databases, educational

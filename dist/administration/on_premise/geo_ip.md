@@ -28,7 +28,7 @@
 
 > [!NOTE]
 > If you can't/don't want to locate the geoip database in
-> `/usr/share/GeoIP/`, you can use the `--geoip-db` option of the Odoo
+> `/usr/share/GeoIP/`, you can use the `--geoip-db` option of the Konvergo ERP
 > command line interface. This option takes the absolute path to the
 > GeoIP database file and uses it as the GeoIP database. For example:
 >
@@ -47,7 +47,7 @@
 > discontinued since January 1. See [GeoLite Legacy databases are now
 > discontinued](https://support.maxmind.com/geolite-legacy-discontinuation-notice/)
 
-## How to test GeoIP geolocation in your Odoo website
+## How to test GeoIP geolocation in your Konvergo ERP website
 
 1.  Go to your website. Open the web page that you want to test `GeoIP`.
 2.  Choose `Customize --> HTML/CSS/JS Editor`.

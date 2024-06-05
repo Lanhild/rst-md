@@ -4,26 +4,26 @@ Domain names are text-based addresses identifying online locations, such
 as websites. They provide a more memorable and recognizable way for
 people to navigate the internet than numerical IP addresses.
 
-**Odoo Online** and **Odoo.sh** databases use a **subdomain** of the
+**Konvergo ERP Online** and **Konvergo ERP.sh** databases use a **subdomain** of the
 <span class="title-ref">odoo.com</span> **domain** by default (e.g.,
 <span class="title-ref">mycompany.odoo.com</span>).
 
 However, you can use a custom domain name instead by
 `registering a free domain name
-<domain-name/register>` (only available for Odoo Online databases) or by
+<domain-name/register>` (only available for Konvergo ERP Online databases) or by
 `configuring a
 domain name you already own <domain-name/existing>`.
 
 <div class="seealso">
 
-[Odoo Tutorials: Register a free domain name
+[Konvergo ERP Tutorials: Register a free domain name
 \[video\]](https://www.odoo.com/slides/slide/register-a-free-domain-name-1663)
 
 </div>
 
-## Register a free domain name with Odoo
+## Register a free domain name with Konvergo ERP
 
-To register a one-year free domain name for your Odoo Online database,
+To register a one-year free domain name for your Konvergo ERP Online database,
 sign in to your account and go to the [database
 manager](https://www.odoo.com/my/databases). Click the gear icon (`⚙️`)
 next to the database name and select `Domain Names`.
@@ -45,7 +45,7 @@ database.
 ![Filling in the domain owner information](domain_names/domain-owner.png)
 
 Next, you should
-`map your domain name to your Odoo website <domain-name/website-map>`.
+`map your domain name to your Konvergo ERP website <domain-name/website-map>`.
 
 > [!IMPORTANT]
 > A verification email from
@@ -55,23 +55,23 @@ Next, you should
 > and receive the renewal quote before expiration.
 
 The domain name registration is free for the first year. After this
-period, Odoo will continue to manage the domain in partnership with
+period, Konvergo ERP will continue to manage the domain in partnership with
 **Gandi.net**, the domain name registrar, and you will be charged
-[Gandi.net's renewal rate](https://www.gandi.net/en/domain). Odoo sends
+[Gandi.net's renewal rate](https://www.gandi.net/en/domain). Konvergo ERP sends
 a renewal quotation every year to the email address mentioned in the
 `Domain Owner` form several weeks before the expiration date of the
 domain. The domain is renewed automatically when the quotation is
 confirmed.
 
 > [!NOTE]
-> - The offer is only available for **Odoo Online** databases. - The
+> - The offer is only available for **Konvergo ERP Online** databases. - The
 > offer is limited to **one** domain name per client. - The offer is
 > limited to the registration of a **new** domain name. - The offer is
 > available to *One App Free* plans. Ensure that your website contains
-> enough original content for Odoo to verify that your request is
-> legitimate and respects [Odoo's Acceptable Use
+> enough original content for Konvergo ERP to verify that your request is
+> legitimate and respects [Konvergo ERP's Acceptable Use
 > Policy](https://www.odoo.com/acceptable-use). Given the high number of
-> requests, it can take Odoo several days to review them.
+> requests, it can take Konvergo ERP several days to review them.
 
 ### DNS records
 
@@ -150,7 +150,7 @@ email](https://learn.microsoft.com/en-us/microsoft-365/admin/get-help-with-domai
 
 ## Configure an existing domain name
 
-If you already have a domain name, you can use it for your Odoo website.
+If you already have a domain name, you can use it for your Konvergo ERP website.
 
 > [!WARNING]
 > It is strongly recommended to follow **in order** these three steps to
@@ -158,19 +158,19 @@ If you already have a domain name, you can use it for your Odoo website.
 > certificate validation <domain-name/ssl>` issues:
 >
 > 1.  `Add a CNAME record <domain-name/cname>`
-> 2.  `Map your domain name to your Odoo database <domain-name/db-map>`
-> 3.  `Map your domain name to your Odoo website <domain-name/website-map>`
+> 2.  `Map your domain name to your Konvergo ERP database <domain-name/db-map>`
+> 3.  `Map your domain name to your Konvergo ERP website <domain-name/website-map>`
 
 ### Add a CNAME record
 
 Adding a CNAME record to forward your domain name to the address of your
-Odoo database is required.
+Konvergo ERP database is required.
 
 <div class="tabs">
 
 <div class="group-tab">
 
-Odoo Online
+Konvergo ERP Online
 
 The CNAME record's target address should be your database's address as
 defined at its creation (e.g.,
@@ -180,10 +180,10 @@ defined at its creation (e.g.,
 
 <div class="group-tab">
 
-Odoo.sh
+Konvergo ERP.sh
 
 The CNAME record's target address should be the project's main address,
-which can be found on Odoo.sh by going to `Settings --> Project Name`,
+which can be found on Konvergo ERP.sh by going to `Settings --> Project Name`,
 or a specific branch (production, staging or development) by going to
 `Branches --> select the
 branch --> Settings --> Custom domains`, and clicking
@@ -210,7 +210,7 @@ records](https://support.cloudflare.com/hc/en-us/articles/360019093151)
 </div>
 
 > [!IMPORTANT]
-> Odoo only supports subdomains. To use your naked domain name
+> Konvergo ERP only supports subdomains. To use your naked domain name
 > `(a domain name without any
 > subdomains or prefixes)`
 > (<span class="title-ref">yourdomain.com</span>), create a redirection
@@ -220,9 +220,9 @@ records](https://support.cloudflare.com/hc/en-us/articles/360019093151)
 <div class="example">
 
 You own the domain name <span class="title-ref">yourdomain.com</span>,
-and your Odoo Online database's address is
+and your Konvergo ERP Online database's address is
 <span class="title-ref">mycompany.odoo.com</span>. You want to access
-your Odoo database primarily with the domain
+your Konvergo ERP database primarily with the domain
 <span class="title-ref">www.yourdomain.com</span> and also with the
 naked domain <span class="title-ref">yourdomain.com</span>.
 
@@ -235,11 +235,11 @@ visitors from <span class="title-ref">yourdomain.com</span> to
 
 </div>
 
-### Map a domain name to an Odoo database
+### Map a domain name to an Konvergo ERP database
 
 > [!WARNING]
 > Ensure you have `added a CNAME record <domain-name/cname>` to your
-> domain name's DNS **before** mapping your domain name to your Odoo
+> domain name's DNS **before** mapping your domain name to your Konvergo ERP
 > database.
 >
 > Failing to do so may prevent the validation of the
@@ -256,7 +256,7 @@ visitors from <span class="title-ref">yourdomain.com</span> to
 
 <div class="group-tab">
 
-Odoo Online
+Konvergo ERP Online
 
 Open the [database manager](https://www.odoo.com/my/databases), click
 the gear icon (`⚙️`) next to the database name, and go to
@@ -265,23 +265,23 @@ own domain`. Then, enter the domain name (e.g.,
 <span class="title-ref">yourdomain.com</span>), click `Verify` and
 `I confirm, it's done`.
 
-![Mapping a domain name to an Odoo Online database](domain_names/map-database-online.png)
+![Mapping a domain name to an Konvergo ERP Online database](domain_names/map-database-online.png)
 
 </div>
 
 <div class="group-tab">
 
-Odoo.sh
+Konvergo ERP.sh
 
-On Odoo.sh, go to
+On Konvergo ERP.sh, go to
 `Branches --> select your branch --> Settings --> Custom
 domains`, type the domain name to add, then click `Add domain`.
 
-![Mapping a domain name to an Odoo.sh branch](domain_names/map-database-sh.png)
+![Mapping a domain name to an Konvergo ERP.sh branch](domain_names/map-database-sh.png)
 
 <div class="seealso">
 
-`Odoo.sh branches: settings tab <odoosh-gettingstarted-branches-tabs-settings>`
+`Konvergo ERP.sh branches: settings tab <odoosh-gettingstarted-branches-tabs-settings>`
 
 </div>
 
@@ -296,7 +296,7 @@ secure connection, which appears as the *https://* protocol at the
 beginning of a web address rather than the non-secure *http://*
 protocol.
 
-Odoo generates a separate SSL certificate for each domain
+Konvergo ERP generates a separate SSL certificate for each domain
 `mapped to a database
 <domain-name/db-map>` using [Let's Encrypt's certificate authority and
 ACME protocol](https://letsencrypt.org/how-it-works/).
@@ -305,7 +305,7 @@ ACME protocol](https://letsencrypt.org/how-it-works/).
 > - Certificate generation may take up to 24 hours. - Several attempts
 > to validate your certificate are made for five days after you map your
 > domain name to your database. - If you use another service, you can
-> keep using it or change to Odoo's.
+> keep using it or change to Konvergo ERP's.
 
 > [!IMPORTANT]
 > No SSL certificate is generated for naked domains
@@ -329,7 +329,7 @@ administrator `(a user part of the Settings access right
 group under Administration)`.
 
 > [!IMPORTANT]
-> If you access your database with the original Odoo address (e.g.,
+> If you access your database with the original Konvergo ERP address (e.g.,
 > <span class="title-ref">mycompany.odoo.com</span>), the *web base URL*
 > of your database will be updated accordingly. To prevent the automatic
 > update of the *web base URL* when an administrator logs in to the
@@ -351,7 +351,7 @@ group under Administration)`.
 > (or <span class="title-ref">http://</span>) and *not* end with a slash
 > (<span class="title-ref">/</span>).
 
-### Map a domain name to an Odoo website
+### Map a domain name to an Konvergo ERP website
 
 Mapping your domain name to your website is different than mapping it to
 your database:
@@ -369,7 +369,7 @@ enter the address of your website (e.g.,
 <span class="title-ref">https://www.yourdomain.com</span>) and `Save`.
 
 > [!WARNING]
-> Mapping your domain name to your Odoo website prevents Google Search
+> Mapping your domain name to your Konvergo ERP website prevents Google Search
 > from indexing your original database address (e.g.,
 > <span class="title-ref">mycompany.odoo.com</span>).
 >
@@ -382,6 +382,6 @@ enter the address of your website (e.g.,
 > [!NOTE]
 > If you have multiple websites and companies on your database, make
 > sure to select the right `Company` under
-> `Website --> Configuration --> Settings`. Doing so indicates Odoo
+> `Website --> Configuration --> Settings`. Doing so indicates Konvergo ERP
 > which URL to use as the `base URL <domain-name/web-base-url>`
 > according to the company in use.

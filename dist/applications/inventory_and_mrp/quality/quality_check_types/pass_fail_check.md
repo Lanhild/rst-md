@@ -1,6 +1,6 @@
 # Pass - Fail quality check
 
-In Odoo *Quality*, a *Pass - Fail* check is one of the quality check
+In Konvergo ERP *Quality*, a *Pass - Fail* check is one of the quality check
 types that can be selected when creating a new quality check or quality
 control point (QCP). *Pass - Fail* checks consist of a text field that
 allows the creator to specify a certain criteria that a product must

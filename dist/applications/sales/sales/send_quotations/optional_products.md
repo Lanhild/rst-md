@@ -12,13 +12,13 @@ customer experience.
 
 ## Optional products on quotations
 
-With the Odoo *Sales* application, it is possible to add or modify
+With the Konvergo ERP *Sales* application, it is possible to add or modify
 optional products directly on quotations by navigating to the
 `Optional Products` tab on a quotation form.
 
 <img src="optional_products/optional-products-tab.png"
 class="align-center"
-alt="How to add optional products to your quotations on Odoo Sales." />
+alt="How to add optional products to your quotations on Konvergo ERP Sales." />
 
 To add an optional product(s) to a quotation, click `Add a product` in
 the `Optional Products` tab of a quotation. Doing so reveals a blank
@@ -47,7 +47,7 @@ via email, along with the optional products they can potentially add to
 their order, located in the `Options` section.
 
 <img src="optional_products/optional-products-checkout.png"
-class="align-center" alt="Preview your quotations on Odoo Sales." />
+class="align-center" alt="Preview your quotations on Konvergo ERP Sales." />
 
 Customers are able to add different optional products to an order by
 clicking the `🛒
@@ -86,7 +86,7 @@ product to add as an optional product to the quotation template.
 
 <img
 src="optional_products/optional-products-tab-quotation-template.png"
-class="align-center" alt="Preview your quotations on Odoo Sales." />
+class="align-center" alt="Preview your quotations on Konvergo ERP Sales." />
 
 The products added in the `Optional Products` tab are present in the
 quotation, by default, whenever that particular quotation template is

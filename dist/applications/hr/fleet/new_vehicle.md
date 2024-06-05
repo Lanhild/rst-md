@@ -1,6 +1,6 @@
 # Create new vehicles
 
-Odoo's *Fleet* app manages all vehicles and the accompanying
+Konvergo ERP's *Fleet* app manages all vehicles and the accompanying
 documentation that comes with vehicle maintenance and driver's records.
 
 All vehicles are organized on the main `Fleet` dashboard. Each vehicle
@@ -97,7 +97,7 @@ managing it.
 
 > [!IMPORTANT]
 > Creating a new company may cause a subscription price change depending
-> on the current plan. Refer to [Odoo's pricing
+> on the current plan. Refer to [Konvergo ERP's pricing
 > plan](https://www.odoo.com/pricing-plan) for more details.
 
 <img src="new_vehicle/new-vehicle-type.png" class="align-center"

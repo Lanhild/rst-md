@@ -1,17 +1,17 @@
 # Javascript Modules
 
-Odoo supports three different kinds of javascript files:
+Konvergo ERP supports three different kinds of javascript files:
 
 - `plain javascript files <frontend/modules/plain_js>` (no module
   system),
 - `native javascript module <frontend/modules/native_js>`.
-- `Odoo modules <frontend/modules/odoo_module>` (using a custom module
+- `Konvergo ERP modules <frontend/modules/odoo_module>` (using a custom module
   system),
 
 As described in the `assets management page <reference/assets>`, all
 javascript files are bundled together and served to the browser. Note
-that native javascript files are processed by the Odoo server and
-transformed into Odoo custom modules.
+that native javascript files are processed by the Konvergo ERP server and
+transformed into Konvergo ERP custom modules.
 
 Let us briefly explain the purpose behind each kind of javascript file.
 Plain javascript files should be reserved only for external libraries
@@ -41,20 +41,20 @@ system, so one needs to be careful about the order in the bundle (since
 the browser will execute them precisely in that order).
 
 > [!NOTE]
-> In Odoo, all external libraries are loaded as plain javascript files.
+> In Konvergo ERP, all external libraries are loaded as plain javascript files.
 
 ## Native Javascript Modules
 
-Most new Odoo javascript code should use the native javascript module
+Most new Konvergo ERP javascript code should use the native javascript module
 system. This is simpler, and brings the benefits of a better developer
 experience with a better integration with the IDE.
 
-There is a very important point to know: Odoo needs to know which files
-should be translated into `Odoo modules <frontend/modules/odoo_module>`
-and which files should not be translated. This is an opt-in system: Odoo
+There is a very important point to know: Konvergo ERP needs to know which files
+should be translated into `Konvergo ERP modules <frontend/modules/odoo_module>`
+and which files should not be translated. This is an opt-in system: Konvergo ERP
 will look at the first line of a JS file and check if it contains the
 string *@odoo-module*. If so, it will automatically be converted to an
-Odoo module.
+Konvergo ERP module.
 
 For example, let us consider the following module, located in
 `web/static/src/file_a.js`:
@@ -71,7 +71,7 @@ export function otherFunction(val) {
 Note the comment in the first line: it describes that this file should
 be converted. Any file without this comment will be kept as-is (which
 will most likely be an error). This file will then be translated into an
-Odoo module that look like this:
+Konvergo ERP module that look like this:
 
 ``` javascript
 odoo.define('@web/file_a', function (require) {
@@ -95,10 +95,10 @@ import/export statements.
 Another important point is that the translated module has an official
 name: *@web/file_a*. This is the actual name of the module. Every
 relative imports will be converted as well. Every file located in an
-Odoo addon `some_addon/static/src/path/to/file.js` will be assigned a
+Konvergo ERP addon `some_addon/static/src/path/to/file.js` will be assigned a
 name prefixed by the addon name like this: *@some_addon/path/to/file*.
 
-Relative imports work, but only if the modules are in the same Odoo
+Relative imports work, but only if the modules are in the same Konvergo ERP
 addon. So, imagine that we have the following file structure:
 
     addons/
@@ -128,7 +128,7 @@ import {something} from `@web/file_a`
 
 ### Aliased modules
 
-Because `Odoo modules <frontend/modules/odoo_module>` follow a different
+Because `Konvergo ERP modules <frontend/modules/odoo_module>` follow a different
 module naming pattern, a system exists to allow a smooth transition
 towards the new system. Currently, if a file is converted to a module
 (and therefore follow the new naming convention), other files not yet
@@ -190,7 +190,7 @@ odoo.define(`web.someName`, function(require) {
 
 ### Limitations
 
-For performance reasons, Odoo does not use a full javascript parser to
+For performance reasons, Konvergo ERP does not use a full javascript parser to
 transform native modules. There are, therefore, a number of limitations
 including but not limited to:
 
@@ -253,26 +253,26 @@ including but not limited to:
   } from "./file_a"
   ```
 
-- Odoo needs a way to determine if a module is described by a path (like
+- Konvergo ERP needs a way to determine if a module is described by a path (like
   `./views/form_view`) or a name (like
   <span class="title-ref">web.FormView</span>). It has to use a
   heuristic to do just that: if there is a
   <span class="title-ref">/</span> in the name, it is considered a path.
-  This means that Odoo does not really support module names with a
+  This means that Konvergo ERP does not really support module names with a
   <span class="title-ref">/</span> anymore.
 
 As "classic" modules are not deprecated and there is currently no plan
 to remove them, you can and should keep using them if you encounter
 issues with, or are constrained by the limitations of, native modules.
-Both styles can coexist within the same Odoo addon.
+Both styles can coexist within the same Konvergo ERP addon.
 
-## Odoo Module System
+## Konvergo ERP Module System
 
-Odoo has defined a small module system (located in the file
+Konvergo ERP has defined a small module system (located in the file
 `addons/web/static/src/js/boot.js`, which needs to be loaded first). The
-Odoo module system, inspired by AMD, works by defining the function
+Konvergo ERP module system, inspired by AMD, works by defining the function
 <span class="title-ref">define</span> on the global odoo object. We then
-define each javascript module by calling that function. In the Odoo
+define each javascript module by calling that function. In the Konvergo ERP
 framework, a module is a piece of code that will be executed as soon as
 possible. It has a name and potentially some dependencies. When its
 dependencies are loaded, a module will then be loaded as well. The value

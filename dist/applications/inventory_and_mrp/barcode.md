@@ -8,14 +8,14 @@ show-toc
 
 # Barcode
 
-**Odoo Barcode** allows users to assign barcodes to individual products
+**Konvergo ERP Barcode** allows users to assign barcodes to individual products
 and product categories, and track inventory movements using those
 barcodes. By connecting a barcode scanner, certain inventory processes
 can be triggered by scanning barcodes.
 
 <div class="seealso">
 
-[Odoo Tutorials: Barcode](https://www.odoo.com/slides/barcode-30)
+[Konvergo ERP Tutorials: Barcode](https://www.odoo.com/slides/barcode-30)
 
 </div>
 

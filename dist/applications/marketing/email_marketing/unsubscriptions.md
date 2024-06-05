@@ -15,10 +15,10 @@ Marketing app --> Configuration --> Settings`, enable to
 Unsubscribing`, and click `Save`.
 
 <img src="unsubscriptions/blacklist-feature.png" class="align-center"
-alt="View of the blacklist feature in the Settings page of the Odoo Email Marketing app." />
+alt="View of the blacklist feature in the Settings page of the Konvergo ERP Email Marketing app." />
 
 With that feature activated, an *Unsubscribe* link appears in mailings.
-If a recipient clicks that link, Odoo reveals a `Unsubscriptions` page,
+If a recipient clicks that link, Konvergo ERP reveals a `Unsubscriptions` page,
 where they can directly manage their subscriptions.
 
 > [!NOTE]
@@ -42,14 +42,14 @@ Marketing app --> Configuration --> Blacklisted Email Addresses`.
 
 <img src="unsubscriptions/blacklisted-email-addresses.png"
 class="align-center"
-alt="View of the blacklisted email addresses page in Odoo Email Marketing." />
+alt="View of the blacklisted email addresses page in Konvergo ERP Email Marketing." />
 
-When a blacklisted record is selected from this page, Odoo reveals a
+When a blacklisted record is selected from this page, Konvergo ERP reveals a
 separate page with that blacklisted recipient's contact information.
 
 <img src="unsubscriptions/blacklisted-contact-form.png"
 class="align-center"
-alt="View of a blacklisted contact detail form in Odoo Email Marketing." />
+alt="View of a blacklisted contact detail form in Konvergo ERP Email Marketing." />
 
 In the `Chatter` of this page, there's a time-stamped message, informing
 the user when that recipient blacklisted themselves (via a
@@ -67,7 +67,7 @@ a reason can be entered, explaining why this particular contact was
 removed from the blacklist.
 
 <img src="unsubscriptions/unblacklist-popup.png" class="align-center"
-alt="View of the unblacklist pop-up window in the Odoo Email Marketing application." />
+alt="View of the unblacklist pop-up window in the Konvergo ERP Email Marketing application." />
 
 After filling in the fields, click `Confirm` to officially remove that
 particular contact from the blacklist.

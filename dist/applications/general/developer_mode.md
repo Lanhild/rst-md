@@ -2,7 +2,7 @@
 
 The developer mode, also known as debug mode, unlocks access to advanced
 `tools and settings
-<developer-mode/tools>` in Odoo.
+<developer-mode/tools>` in Konvergo ERP.
 
 > [!WARNING]
 > Proceed with caution, as some developer tools and technical settings
@@ -47,7 +47,7 @@ assets.
 
 Browser extension
 
-The [Odoo Debug](https://github.com/Droggol/OdooDebug) browser extension
+The [Konvergo ERP Debug](https://github.com/Droggol/Konvergo ERPDebug) browser extension
 adds an icon to toggle developer mode on or off from the browser's
 toolbar. It is available on the [Chrome Web
 Store](https://chromewebstore.google.com/detail/odoo-debug/hmdmhilocobgohohpdpolmibjklfgkbi)

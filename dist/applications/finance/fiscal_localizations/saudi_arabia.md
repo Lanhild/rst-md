@@ -67,13 +67,13 @@ button to switch to the simulation portal.
 
 #### ZATCA API integration
 
-On Odoo, go to `Accounting --> Configuration --> Settings`. Under `ZATCA
+On Konvergo ERP, go to `Accounting --> Configuration --> Settings`. Under `ZATCA
 API Integration`, select the `Simulation (Pre-Production)` `API mode`
 and click `Save`.
 
 #### Sales journals
 
-Each sales journal on Odoo needs to be configured. To do so, go to
+Each sales journal on Konvergo ERP needs to be configured. To do so, go to
 `Accounting -->
 Configuration --> Journals`, open any sales journal (e.g., Customer
 Invoices), and go to the `ZATCA` tab. Once there, enter any
@@ -89,7 +89,7 @@ password)` code is required. To retrieve it, open the [Fatoora
 simulation portal](https://fatoora.zatca.gov.sa/), click
 `Onboard New Solution Unit/Device`, choose the number of OTP codes to
 generate (one per journal to configure), and click `Generate OTP
-Code`. Copy an OTP code, it into the dialog box on Odoo, and click
+Code`. Copy an OTP code, it into the dialog box on Konvergo ERP, and click
 `Request`.
 
 > [!NOTE]
@@ -102,16 +102,16 @@ Code`. Copy an OTP code, it into the dialog box on Odoo, and click
 #### Testing
 
 When confirming an invoice, there is now an option to process the
-invoice, sending it directly the Fatoora simulation portal. Odoo
+invoice, sending it directly the Fatoora simulation portal. Konvergo ERP
 displays the portal's response after each submission. Only rejected
-invoices can be reset to draft and edited on Odoo. Furthermore, at the
-end of each day, Odoo sends all unprocessed invoices to the portal.
+invoices can be reset to draft and edited on Konvergo ERP. Furthermore, at the
+end of each day, Konvergo ERP sends all unprocessed invoices to the portal.
 
 > [!TIP]
 > - Testing all invoicing workflows, preferably with real invoices and
 > for a reasonable amount of time, is recommended. - Compare the
 > invoices received statistics page on the Fatoora simulation portal
-> with the list of invoices on Odoo to ensure both align.
+> with the list of invoices on Konvergo ERP to ensure both align.
 
 #### Taxes
 

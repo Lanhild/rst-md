@@ -1,6 +1,6 @@
 # Rental
 
-**Odoo Rental** is a comprehensive solution to manage your rentals.
+**Konvergo ERP Rental** is a comprehensive solution to manage your rentals.
 
 From a single view, you can send out quotations, confirm orders,
 schedule rentals, register when products are picked up and returned, and
@@ -8,7 +8,7 @@ invoice your customers.
 
 <div class="seealso">
 
-\- [Odoo Rental: product page](https://www.odoo.com/app/rental) - [Odoo
+\- [Konvergo ERP Rental: product page](https://www.odoo.com/app/rental) - [Konvergo ERP
 Tutorials: Rental](https://www.odoo.com/slides/rental-48)
 
 </div>
@@ -24,7 +24,7 @@ price*. Then choose a *Unit* of time (hours, days, weeks, or months), a
 usually to give out discounts for longer rental durations.
 
 <img src="rental/rental-pricing-example.png" class="align-center"
-alt="Example of rental pricing configuration in Odoo Rental" />
+alt="Example of rental pricing configuration in Konvergo ERP Rental" />
 
 > [!TIP]
 > Under *Reservations*, you can add fines for any *Extra Hour* or *Extra
@@ -39,7 +39,7 @@ alt="Example of rental pricing configuration in Odoo Rental" />
 
 ### Computing
 
-Odoo always uses two rules to compute the price of a product when you
+Konvergo ERP always uses two rules to compute the price of a product when you
 create a rental order:
 
 1.  Only one price line is used.
@@ -56,7 +56,7 @@ Consider the following rental pricing configuration for a product:
 A customer wants to rent this product for eight days. What price will
 they pay?
 
-After an order is created, Odoo selects the second line as this is the
+After an order is created, Konvergo ERP selects the second line as this is the
 cheapest option. The customer has to pay three times '3 days' to cover
 the rental's eight days, for a total of \$750.
 
@@ -71,11 +71,11 @@ condition. To do so, go to `Rental --> Configuration --> Settings`,
 activate *Digital Documents*, and *Save*.
 
 <img src="rental/digital-documents-settings.png" class="align-center"
-alt="Digital Documents settings in Odoo Rental" />
+alt="Digital Documents settings in Konvergo ERP Rental" />
 
 > [!NOTE]
 > This feature requires the `Sign <../productivity/sign>` app. If
-> necessary, Odoo installs it after activating *Digital Documents*.
+> necessary, Konvergo ERP installs it after activating *Digital Documents*.
 
 Once the app settings are saved, you have the option to change the
 default *Rental Agreement* from the dropdown menu. You can pick any
@@ -90,7 +90,7 @@ document is completed, click on *Validate & Send Completed Document*.
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Sign](https://www.odoo.com/slides/sign-61)
+\- [Konvergo ERP Tutorials: Sign](https://www.odoo.com/slides/sign-61)
 
 </div>
 
@@ -98,10 +98,10 @@ document is completed, click on *Validate & Send Completed Document*.
 
 You can print and give your customers receipts when they pick up and/or
 return products. To do so, open any rental order, click on *Print* and
-select *Pickup and Return Receipt*. Odoo then generates a PDF detailing
+select *Pickup and Return Receipt*. Konvergo ERP then generates a PDF detailing
 all information about the current status of the rented items: which were
 picked up, when they are expected to be returned, which were returned,
 and potential rental delay costs.
 
 <img src="rental/print-receipt.png" class="align-center"
-alt="Printing a Pickup and Return receipt in Odoo Rental" />
+alt="Printing a Pickup and Return receipt in Konvergo ERP Rental" />

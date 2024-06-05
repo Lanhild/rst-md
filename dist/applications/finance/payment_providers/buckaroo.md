@@ -10,7 +10,7 @@ offers several online payment possibilities.
     Websites` and select the `Push settings` tab.
 2.  Tick the `Enable Push Response` check box in the
     `Delayed and Push responses` section.
-3.  Enter the URL of your Odoo database, followed by
+3.  Enter the URL of your Konvergo ERP database, followed by
     <span class="title-ref">/payment/buckaroo/webhook</span> in both the
     `Push URI Success/Pending` and `Push URI Failure` text fields. For
     example:
@@ -21,7 +21,7 @@ offers several online payment possibilities.
 6.  Go to `Configuration --> Security --> Secret key`, enter or
     `Generate` a `Secret key` and click `Save`. Save the key for later.
 
-## Configuration on Odoo
+## Configuration on Konvergo ERP
 
 1.  `Navigate to the payment provider Buckaroo <payment_providers/add_new>`
     and change its state to `Enabled`.

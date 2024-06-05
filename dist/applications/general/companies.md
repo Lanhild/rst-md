@@ -16,7 +16,7 @@ shared between the two companies (as long as both environments are
 active).
 
 <img src="companies/create_js_store_us.png" class="align-center"
-alt="Overview of a new company&#39;s form in Odoo" />
+alt="Overview of a new company&#39;s form in Konvergo ERP" />
 
 > [!TIP]
 > Activate the `developer mode <developer-mode>` to choose a *Favicon*
@@ -25,7 +25,7 @@ alt="Overview of a new company&#39;s form in Odoo" />
 > PNG, GIF, and ICO are extensions accepted.
 >
 > <img src="companies/favicon.png" class="align-center" height="200"
-> alt="View of a web browser and the favicon for a specific company chosen in Odoo" />
+> alt="View of a web browser and the favicon for a specific company chosen in Konvergo ERP" />
 
 Switch between or select multiple companies by enabling their selection
 boxes to activate them. The grayed company is the one which environment
@@ -35,7 +35,7 @@ activated, and the environment in use is of *JS Store US*.
 
 <img src="companies/multi_companies_menu_dashboard.png"
 class="align-center"
-alt="View of the companies menu through the main dashboard in Odoo" />
+alt="View of the companies menu through the main dashboard in Konvergo ERP" />
 
 Data such as Products, Contacts, and Equipment can be shared or set to
 be shown for a specific company only. To do so, on their forms, choose
@@ -46,7 +46,7 @@ between:
   specific company.
 
 <img src="companies/product_form_company.png" class="align-center"
-alt="View of a product&#39;s form emphasizing the company field in Odoo Sales" />
+alt="View of a product&#39;s form emphasizing the company field in Konvergo ERP Sales" />
 
 ## Employees' access
 
@@ -56,7 +56,7 @@ Once companies are created, manage your employees'
 <img src="companies/access_rights_multi_companies.png"
 class="align-center"
 alt="View of an user form emphasizing the multi companies field under the access rights tabs
-in Odoo" />
+in Konvergo ERP" />
 
 If a user has multiple companies *activated* on his database, and he is
 **editing** a record, the editing happens on the record's related
@@ -78,7 +78,7 @@ To set documents' formats according to each company, *activate* and
 Document Layout*.
 
 <img src="companies/document_layout.png" class="align-center"
-alt="View of the settings page emphasizing the document layout field in Odoo" />
+alt="View of the settings page emphasizing the document layout field in Konvergo ERP" />
 
 ## Inter-Company Transactions
 
@@ -98,7 +98,7 @@ would like operations between companies to be synchronized at an
 invoice/bills level or at a sales/purchase orders level.
 
 <img src="companies/inter_company_transactions.png" class="align-center"
-alt="View of the settings page emphasizing the inter company transaction field in Odoo" />
+alt="View of the settings page emphasizing the inter company transaction field in Konvergo ERP" />
 
 - **Synchronize invoice/bills**: generates a bill/invoice when a company
   confirms a bill/invoice for the selected company.
@@ -108,7 +108,7 @@ alt="View of the settings page emphasizing the inter company transaction field i
   Store Belgium.
 
 <img src="companies/invoice_inter_company.png" class="align-center"
-alt="View of an invoice for JS Store US created on JS Store Belgium in Odoo" />
+alt="View of an invoice for JS Store US created on JS Store Belgium in Konvergo ERP" />
 
 - **Synchronize sales/purchase order**: generates a drafted
   purchase/sales order using the selected company warehouse when a
@@ -122,7 +122,7 @@ alt="View of an invoice for JS Store US created on JS Store Belgium in Odoo" />
 
 <img src="companies/purchase_order_inter_company.png"
 class="align-center"
-alt="View of the purchase created on JS Store US from JS Store Belgium in Odoo" />
+alt="View of the purchase created on JS Store US from JS Store Belgium in Konvergo ERP" />
 
 > [!NOTE]
 > Products have to be configured as *Can be sold* and must be shared

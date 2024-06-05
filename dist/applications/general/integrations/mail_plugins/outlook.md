@@ -1,13 +1,13 @@
 # Outlook Plugin
 
 Outlook allows for third-party applications to connect in order to
-execute database actions from emails. Odoo has a plugin for Outlook that
+execute database actions from emails. Konvergo ERP has a plugin for Outlook that
 allows for the creation of an opportunity from the email panel.
 
 ## Configuration
 
 The Outlook `Mail Plugin <../mail_plugins>` needs to be configured both
-on Odoo and Outlook.
+on Konvergo ERP and Outlook.
 
 ### Enable Mail Plugin
 
@@ -56,19 +56,19 @@ alt="Custom add-in installation warning in Outlook" />
 
 ### Connect the database
 
-Now, Outlook will be connected to the Odoo database. First, open any
+Now, Outlook will be connected to the Konvergo ERP database. First, open any
 email in the Outlook mailbox, click on the `More actions` button in the
-upper right-side, and select `Odoo for
+upper right-side, and select `Konvergo ERP for
 Outlook`.
 
 <img src="outlook/odoo-for-outlook.png" class="align-center"
-alt="Odoo for Outlook add-in button" />
+alt="Konvergo ERP for Outlook add-in button" />
 
 The right-side panel can now display **Company Insights**. At the
 bottom, click on `Login`.
 
 <img src="outlook/panel-login.png" class="align-center"
-alt="Logging in the Odoo database" />
+alt="Logging in the Konvergo ERP database" />
 
 > [!NOTE]
 > Only a limited amount of **Company Insights** (*Lead Enrichment*)
@@ -81,7 +81,7 @@ alt="Logging in the Odoo database" />
 > settings also change if the browser is in "Incognito" mode.
 >
 > To fix this issue, configure the browser to always allow cookies on
-> Odoo's plugin page.
+> Konvergo ERP's plugin page.
 >
 > For Google Chrome, change the browser cookie settings by following the
 > guide at: <https://support.google.com/chrome/answer/95647> and adding
@@ -90,10 +90,10 @@ alt="Logging in the Odoo database" />
 >
 > Once this is complete, the Outlook panel needs to be opened again.
 
-Now, enter the Odoo database URL and click on `Login`.
+Now, enter the Konvergo ERP database URL and click on `Login`.
 
 <img src="outlook/enter-database-url.png" class="align-center"
-alt="Entering the Odoo database URL" />
+alt="Entering the Konvergo ERP database URL" />
 
 Next, click on `Allow` to open the pop-up window.
 
@@ -118,23 +118,23 @@ settings`.
 <img src="outlook/all-outlook-settings.png" class="align-center"
 alt="Viewing all Outlook settings" />
 
-Now, select `Customize actions` under `Mail`, click on `Odoo for
+Now, select `Customize actions` under `Mail`, click on `Konvergo ERP for
 Outlook`, and then `Save`.
 
 <img src="outlook/customize-actions.png" class="align-center"
-alt="Odoo for Outlook customized action" />
+alt="Konvergo ERP for Outlook customized action" />
 
 Following this step, open any email; the shortcut should be displayed.
 
 <img src="outlook/odoo-outlook-shortcut.png" class="align-center"
-alt="Odoo for Outlook customized action" />
+alt="Konvergo ERP for Outlook customized action" />
 
 ### Using the plugin
 
 Now that the plug-in is installed and operational, all that needs to be
 done to create a lead is to click on the
-<span class="title-ref">O</span> \[Odoo icon\] or navigate to
-`More actions` and click on `Odoo
+<span class="title-ref">O</span> \[Konvergo ERP icon\] or navigate to
+`More actions` and click on `Konvergo ERP
 for Outlook`. The side panel will appear on the right-side, and under
 `Opportunities` click on `New`. A new window with the created
-opportunity in the Odoo database will populate.
+opportunity in the Konvergo ERP database will populate.

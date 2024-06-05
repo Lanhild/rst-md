@@ -9,24 +9,24 @@ pay a specified total for the fulfillment of the contract---no matter
 what needs to be paid to the employees, sub-contractors, vendors,
 suppliers, and so on.
 
-The Odoo *Sales* app can invoice for time and various other expenses
+The Konvergo ERP *Sales* app can invoice for time and various other expenses
 (e.g. transport, lodging), as well as purchases needed to fulfill an
 order.
 
 ## App and settings configuration
 
 First, in order to accurately keep track of the progress of a project,
-the Odoo *Project* and *Accounting* apps **must** be installed.
+the Konvergo ERP *Project* and *Accounting* apps **must** be installed.
 
 To install the *Project* app, navigate to
-`Odoo main dashboard --> Apps`. Then, on the `Apps` page, locate the
+`Konvergo ERP main dashboard --> Apps`. Then, on the `Apps` page, locate the
 `Project` app block, and click `Activate`. The page automatically
-refreshes and returns to the main Odoo dashboard, where the *Project*
+refreshes and returns to the main Konvergo ERP dashboard, where the *Project*
 app is now available to access.
 
 Repeat the same process to install the *Accounting* application.
 
-After installation, click the `Accounting` app icon from the main Odoo
+After installation, click the `Accounting` app icon from the main Konvergo ERP
 dashboard, and navigate to `Configuration --> Settings`. On the
 `Settings` page, scroll down to the `Analytics` section, and ensure the
 box next to `Analytic
@@ -34,19 +34,19 @@ Accounting` is checked.
 
 <img src="time_materials/analytic-accounting-setting.png"
 class="align-center"
-alt="How it looks to activate the Analytic Accounting setting in Odoo Accounting Setting page." />
+alt="How it looks to activate the Analytic Accounting setting in Konvergo ERP Accounting Setting page." />
 
 Then, click `Save` to save all changes.
 
 Then, navigate to
-`Odoo main dashboard --> Project app --> Configuration -->
+`Konvergo ERP main dashboard --> Project app --> Configuration -->
 Settings`. On the `Settings` page, in the `Time Management` section,
 ensure the box beside the `Timesheets` feature is checked.
 
 Then, click `Save` to save all changes.
 
 <img src="time_materials/timesheets-feature.png" class="align-center"
-alt="What the Timesheets feature looks like on the Odoo Project settings page." />
+alt="What the Timesheets feature looks like on the Konvergo ERP Project settings page." />
 
 ## Service product configuration
 
@@ -102,7 +102,7 @@ the order form: `Projects` and `Tasks`.
 
 <img src="time_materials/projects-tasks-smart-buttons.png"
 class="align-center"
-alt="How the Projects and Tasks smart buttons look on a Sales Order in Odoo Sales." />
+alt="How the Projects and Tasks smart buttons look on a Sales Order in Konvergo ERP Sales." />
 
 If the `Projects` smart button is clicked, it reveals the specific
 project related to this sales order. If the `Tasks` smart button is
@@ -138,7 +138,7 @@ column, and click away to complete that line in the `Timesheets` tab.
 >
 > <img src="time_materials/timesheets-tab-on-task.png"
 > class="align-center"
-> alt="How the Timesheets tab appears on a task form in Odoo Sales and Odoo Project." />
+> alt="How the Timesheets tab appears on a task form in Konvergo ERP Sales and Konvergo ERP Project." />
 
 Repeat this process for however many employees and hours have been
 worked on the project.
@@ -169,7 +169,7 @@ work that's been done in the `Invoice Lines` tab.
 > time/material invoicing tasks are completed properly and accurately.
 >
 > <img src="time_materials/invoice-lines-time.png" class="align-center"
-> alt="Invoice draft showing time spent on sales order in Odoo Sales." />
+> alt="Invoice draft showing time spent on sales order in Konvergo ERP Sales." />
 
 Click `Confirm` to confirm the invoice and continue with the invoicing
 process.
@@ -183,13 +183,13 @@ process.
 ## Expenses configuration
 
 In order to track and invoice expenses related to a sales order, the
-Odoo *Expenses* app **must** be installed.
+Konvergo ERP *Expenses* app **must** be installed.
 
 To install the *Expenses* app, navigate to
-`Odoo main dashboard --> Apps`. Then, on the `Apps` page, locate the
+`Konvergo ERP main dashboard --> Apps`. Then, on the `Apps` page, locate the
 `Expenses` app block, and click `Activate`.
 
-The page automatically refreshes and returns to the main Odoo dashboard,
+The page automatically refreshes and returns to the main Konvergo ERP dashboard,
 where the `Expenses` app is now available to access.
 
 ## Add expenses to sales order
@@ -226,7 +226,7 @@ Distribution` field, as well.
 > Quantities*.
 
 <img src="time_materials/expense-detail-form.png" class="align-center"
-alt="How to properly fill out an expense form that&#39;s attached to a sales order in Odoo." />
+alt="How to properly fill out an expense form that&#39;s attached to a sales order in Konvergo ERP." />
 
 If there are any receipts that should be uploaded and attached to the
 expense, click the `Attach Receipt` button, and upload the necessary
@@ -239,7 +239,7 @@ just entered.
 
 <img src="time_materials/expense-report-summary.png"
 class="align-center"
-alt="How an Expense Report Summary looks in Odoo Expenses." />
+alt="How an Expense Report Summary looks in Konvergo ERP Expenses." />
 
 Then, there's the option to `Submit to Manager` for approval. Once
 approved, the `Report in Next Payslip` appears.
@@ -263,7 +263,7 @@ and can be invoiced to the customer.
 
 <img src="time_materials/invoice-expense-from-sales-order.png"
 class="align-center"
-alt="An expense appearing on Order Lines tab of a Sales Order in Odoo Sales application." />
+alt="An expense appearing on Order Lines tab of a Sales Order in Konvergo ERP Sales application." />
 
 To invoice the customer for the expense on the sales order, click
 `Create Invoice`, select `Regular Invoice` from the `Create invoices`
@@ -274,7 +274,7 @@ invoicing process can be completed as usual.
 
 <img src="time_materials/customer-invoice-for-expense.png"
 class="align-center"
-alt="Sample customer invoice for an expense generated from a sales order in Odoo Sales." />
+alt="Sample customer invoice for an expense generated from a sales order in Konvergo ERP Sales." />
 
 ## Purchase configuration
 
@@ -282,9 +282,9 @@ In order to invoice a customer for purchases made on a sales order, the
 *Purchase* application **must** be installed.
 
 To install the *Purchase* application, navigate to
-`Odoo main dashboard --> Apps`. Then, on the `Apps` page, locate the
+`Konvergo ERP main dashboard --> Apps`. Then, on the `Apps` page, locate the
 `Purchase` app block, and click `Activate`. The page automatically
-refreshes and returns to the main Odoo dashboard, where the `Purchase`
+refreshes and returns to the main Konvergo ERP dashboard, where the `Purchase`
 app is now available to access.
 
 ## Add purchase to sales order
@@ -301,7 +301,7 @@ column headers. From that drop-down menu, select
 
 <img src="time_materials/extra-column-analytic-distribution-option.png"
 class="align-center"
-alt="How to add analytic distribution column on purchase order form in Odoo Purchase." />
+alt="How to add analytic distribution column on purchase order form in Konvergo ERP Purchase." />
 
 After adding the `Analytic Distribution` column to the headers on the
 `Products` tab of the purchase order form, proceed to add the product(s)
@@ -318,7 +318,7 @@ add.
 >
 > <img src="time_materials/product-form-settings-invoice-purchase.png"
 > class="align-center"
-> alt="Product settings for a purchase order to be invoiced on a sales order in Odoo." />
+> alt="Product settings for a purchase order to be invoiced on a sales order in Konvergo ERP." />
 
 Then, select the appropriate `Analytic Distribution` associated with the
 sales order to which this purchase order is related. To do that, click
@@ -331,7 +331,7 @@ the purchase.
 
 <img src="time_materials/analytic-drop-down-distribution.png"
 class="align-center"
-alt="How to select the Analytic Distribution department from a purchase order in Odoo." />
+alt="How to select the Analytic Distribution department from a purchase order in Konvergo ERP." />
 
 Once all the information is entered in the `Products` tab of the
 purchase order, confirm the order by clicking `Confirm Order`. Then,
@@ -356,7 +356,7 @@ of the page, and click `Create Bill` to create a vendor bill that can be
 invoiced to the customer on the attached sales order.
 
 <img src="time_materials/vendor-bill-draft.png" class="align-center"
-alt="Vendor bill draft for a purchase order to be invoiced to a customer in Odoo." />
+alt="Vendor bill draft for a purchase order to be invoiced to a customer in Konvergo ERP." />
 
 > [!NOTE]
 > Make sure to enter a `Bill Date` on the `Vendor Bill Draft` before
@@ -381,7 +381,7 @@ tab, and it is ready to be invoiced.
 
 <img src="time_materials/purchase-order-on-sales-order.png"
 class="align-center"
-alt="Purchase order product on sales order to be invoiced to customer via Odoo Sales." />
+alt="Purchase order product on sales order to be invoiced to customer via Konvergo ERP Sales." />
 
 To invoice the customer for the purchase, simply click `Create Invoice`,
 select `Regular Invoice` from the `Create invoices` pop-up window, then
@@ -392,7 +392,7 @@ purchase order product in the `Invoice Lines` tab.
 
 <img src="time_materials/draft-invoice-with-purchase-product.png"
 class="align-center"
-alt="Customer invoice draft with purchase product attached to sales order in Odoo." />
+alt="Customer invoice draft with purchase product attached to sales order in Konvergo ERP." />
 
 To complete the invoicing process, click `Confirm` to confirm the
 invoice, and then click `Register Payment` in the `Register Payment`

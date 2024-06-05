@@ -6,7 +6,7 @@ show-toc
 
 # Knowledge
 
-**Odoo Knowledge** is a multipurpose productivity app that allows
+**Konvergo ERP Knowledge** is a multipurpose productivity app that allows
 internal users to enrich their business knowledge base and provide
 individually or collaboratively gathered information.
 

@@ -11,7 +11,7 @@ Spreadsheet functions are divided in the following categories:
 - `Lookup <functions/lookup>`
 - `Math <functions/math>`
 - `Misc <functions/misc>`
-- `Odoo <functions/odoo>`
+- `Konvergo ERP <functions/odoo>`
 - `Operators <functions/operators>`
 - `Statistical <functions/statistical>`
 - `Text <functions/text>`
@@ -241,7 +241,7 @@ Spreadsheet functions are divided in the following categories:
 |--------------------------------------|---------------------------------------------------------|
 | FORMAT.LARGE.NUMBER(value, \[unit\]) | Apply a large number format (not compatible with Excel) |
 
-## Odoo
+## Konvergo ERP
 
 | Name and arguments                                                                        | Description or link                                                                                                                                              |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|

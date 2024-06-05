@@ -37,7 +37,7 @@ because it is any good but because it is quite common).
 
 ## Setting up two-factor authentication
 
-Once you have your authenticator of choice, go to the Odoo instance you
+Once you have your authenticator of choice, go to the Konvergo ERP instance you
 want to setup `2FA (two-factor authentication)`, then open `Preferences`
 (or `My Profile`):
 
@@ -119,7 +119,7 @@ You should now `Log out` to follow along.
 
 On the login page, input the username and password of the account for
 which you set up `2FA (two-factor authentication)`, rather than
-immediately enter Odoo you will now get a second log-in screen:
+immediately enter Konvergo ERP you will now get a second log-in screen:
 
 <figure>
 <img src="2fa/2fa_input.png" class="align-center"
@@ -141,7 +141,7 @@ Danger
 
 </div>
 
-Don't lose your authenticator, if you do, you will need an *Odoo
+Don't lose your authenticator, if you do, you will need an *Konvergo ERP
 Administrator* to disable `2FA (two-factor
 authentication)` on the account.
 

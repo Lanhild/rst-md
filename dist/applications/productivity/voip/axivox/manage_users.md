@@ -2,7 +2,7 @@
 
 Managing Axivox `VoIP (Voice over Internet Protocol)` users is an
 important part of setting up `VoIP (Voice over Internet Protocol)` in an
-Odoo database. Each Axivox user has a unique name, phone number and/or
+Konvergo ERP database. Each Axivox user has a unique name, phone number and/or
 extension, and a voicemail. This way, they can be reached in a variety
 of convenient ways.
 
@@ -204,7 +204,7 @@ sliding the `seconds bar` to the desired ring time. Additional
 alt="Ring destinations like different users or phone numbers from the Follow Me tab." />
 
 > [!IMPORTANT]
-> The Odoo mobile app, or another `SIP (Session Initiation Protocol)`
+> The Konvergo ERP mobile app, or another `SIP (Session Initiation Protocol)`
 > mobile client, allows for simultaneous ringing of the user's extension
 > or incoming number. For more information, visit the
 > `VoIP Mobile Integrations <../devices_integrations>` documentation.
@@ -258,14 +258,14 @@ click `Apply changes` in the upper-right corner.
 *SIP*, which stands for Session Initiation Protocol telephony, allows
 one to make and receive calls through an internet connection. The
 `SIP Identifiers` tab on the `New user` form, contains credentials
-needed to configure Axivox users in Odoo and/or a different `SIP
+needed to configure Axivox users in Konvergo ERP and/or a different `SIP
 (Session Initiation Protocol)` mobile client.
 
 <div class="seealso">
 
 See the documentation on configuring Axivox, using the SIP identifiers:
 
-- `Use VoIP services in Odoo with Axivox <axivox_config>`
+- `Use VoIP services in Konvergo ERP with Axivox <axivox_config>`
 - `Axivox Mobile Integrations <../devices_integrations>`
 
 </div>
@@ -278,7 +278,7 @@ The `Domain` field is assigned to the company by the Axivox
 representative.
 
 The value in the `SIP Password` field is unique for every Axivox user.
-This value is used to sign into Axivox on Odoo, and for any mobile
+This value is used to sign into Axivox on Konvergo ERP, and for any mobile
 `SIP (Session Initiation Protocol)` clients.
 
 <img src="manage_users/sip-identifiers-tab.png" class="align-center"

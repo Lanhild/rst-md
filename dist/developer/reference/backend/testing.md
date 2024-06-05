@@ -1,6 +1,6 @@
-# Testing Odoo
+# Testing Konvergo ERP
 
-There are many ways to test an application. In Odoo, we have three kinds
+There are many ways to test an application. In Konvergo ERP, we have three kinds
 of tests
 
 - Python unit tests (see [Testing Python code](#testing-python-code)):
@@ -13,7 +13,7 @@ of tests
 
 ## Testing Python code
 
-Odoo provides support for testing modules using [Python's unittest
+Konvergo ERP provides support for testing modules using [Python's unittest
 library](https://docs.python.org/3/library/unittest.html).
 
 To write tests, simply define a `tests` sub-package in your module, it
@@ -41,7 +41,7 @@ and `__init__.py` contains:
 The test runner will simply run any test case, as described in the
 official [unittest
 documentation](https://docs.python.org/3/library/unittest.html), but
-Odoo provides a number of utilities and helpers related to testing Odoo
+Konvergo ERP provides a number of utilities and helpers related to testing Konvergo ERP
 content (modules, mainly):
 
 <div class="autoclass" members="browse_ref, ref">
@@ -126,11 +126,11 @@ odoo.tests.common.O2MProxy
 
 Tests are automatically run when installing or updating modules if
 `--test-enable <odoo-bin --test-enable>` was enabled when starting the
-Odoo server.
+Konvergo ERP server.
 
 ### Test selection
 
-In Odoo, Python tests can be tagged to facilitate the test selection
+In Konvergo ERP, Python tests can be tagged to facilitate the test selection
 when running tests.
 
 Subclasses of `odoo.tests.common.BaseCase` (usually through
@@ -147,7 +147,7 @@ specify `--test-enable <odoo-bin --test-enable>` when using
 `--test-tags <odoo-bin --test-tags>`.
 
 This option defaults to `+standard` meaning tests tagged `standard`
-(explicitly or implicitly) will be run by default when starting Odoo
+(explicitly or implicitly) will be run by default when starting Konvergo ERP
 with `--test-enable <odoo-bin --test-enable>`.
 
 When writing tests, the `~odoo.tests.common.tagged` decorator can be
@@ -256,7 +256,7 @@ functions can be specified at once separated by a
 
 #### Special tags
 
-- `standard`: All Odoo tests that inherit from
+- `standard`: All Konvergo ERP tests that inherit from
   `~odoo.tests.common.BaseCase` are implicitly tagged standard.
   `--test-tags <odoo-bin --test-tags>` also defaults to `standard`.
 
@@ -310,14 +310,14 @@ $ odoo-bin --test-tags '-standard, slow, /stock'
 
 Testing a complex system is an important safeguard to prevent
 regressions and to guarantee that some basic functionality still works.
-Since Odoo has a non trivial codebase in Javascript, it is necessary to
+Since Konvergo ERP has a non trivial codebase in Javascript, it is necessary to
 test it. In this section, we will discuss the practice of testing JS
 code in isolation: these tests stay in the browser, and are not supposed
 to reach the server.
 
 ### Qunit test suite
 
-The Odoo framework uses the [QUnit](https://qunitjs.com/) library
+The Konvergo ERP framework uses the [QUnit](https://qunitjs.com/) library
 testing framework as a test runner. QUnit defines the concepts of
 *tests* and *modules* (a set of related tests), and gives us a web based
 interface to execute the tests.
@@ -337,7 +337,7 @@ QUnit.test('simple arithmetic', function (assert) {
 });
 ```
 
-The main way to run the test suite is to have a running Odoo server,
+The main way to run the test suite is to have a running Konvergo ERP server,
 then navigate a web browser to `/web/tests`. The test suite will then be
 executed by the web browser Javascript engine.
 
@@ -392,7 +392,7 @@ infrastructure:
 
 ### Modularity and testing
 
-With the way Odoo is designed, any addon can modify the behaviour of
+With the way Konvergo ERP is designed, any addon can modify the behaviour of
 other parts of the system. For example, the *voip* addon can modify the
 *FieldPhone* widget to use extra features. This is not really good from
 the perspective of the testing system, since this means that a test in
@@ -464,7 +464,7 @@ new test case is the following:
 
 ### Helper functions and specialized assertions
 
-Without help, it is quite difficult to test some parts of Odoo. In
+Without help, it is quite difficult to test some parts of Konvergo ERP. In
 particular, views are tricky, because they communicate with the server
 and may perform many rpcs, which needs to be mocked. This is why we
 developed some specialized helper functions, located in
@@ -472,7 +472,7 @@ developed some specialized helper functions, located in
 
 - Mock test functions: these functions help setting up a test
   environment. The most important use case is mocking the answers given
-  by the Odoo server. These functions use a [mock
+  by the Konvergo ERP server. These functions use a [mock
   server](https://github.com/odoo/odoo/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/mock_server.js).
   This is a javascript class that simulates answers to the most common
   model methods: read, search_read, nameget, ...
@@ -489,7 +489,7 @@ developed some specialized helper functions, located in
   [createView](https://github.com/odoo/odoo/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/test_utils_create.js#L267).
 - [qunit
   assertions](https://github.com/odoo/odoo/blob/51ee0c3cb59810449a60dae0b086b49b1ed6f946/addons/web/static/tests/helpers/qunit_asserts.js):
-  QUnit can be extended with specialized assertions. For Odoo, we
+  QUnit can be extended with specialized assertions. For Konvergo ERP, we
   frequently test some DOM properties. This is why we made some
   assertions to help with that. For example, the *containsOnce*
   assertion takes a widget/jQuery/HtmlElement and a selector, then
@@ -860,7 +860,7 @@ written in
 '/tmp/odoo_tests/{db_name}/screenshots/'
 ```
 
-Two new command line arguments were added since Odoo 13.0 to control
+Two new command line arguments were added since Konvergo ERP 13.0 to control
 this behavior: `--screenshots <odoo-bin --screenshots>` and
 `--screencasts <odoo-bin --screencasts>`
 
@@ -916,7 +916,7 @@ Manually, this can be tested with the
 <span class="title-ref">--log-sql</span> CLI parameter. If you want to
 establish the maximum number of queries for an operation, you can use
 the `~odoo.tests.common.BaseCase.assertQueryCount` method, integrated in
-Odoo test classes.
+Konvergo ERP test classes.
 
 ``` python
 with self.assertQueryCount(11):

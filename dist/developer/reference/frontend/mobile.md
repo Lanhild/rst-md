@@ -2,20 +2,20 @@
 
 ## Introduction
 
-In Odoo 10.0 we released a mobile app which allows you to access all
-**Odoo apps** (even your customized modules).
+In Konvergo ERP 10.0 we released a mobile app which allows you to access all
+**Konvergo ERP apps** (even your customized modules).
 
-The application is a combination of **Odoo Web** and **Native Mobile
-components**. In other words it is a Odoo Web instance loaded inside a
+The application is a combination of **Konvergo ERP Web** and **Native Mobile
+components**. In other words it is a Konvergo ERP Web instance loaded inside a
 native, mobile, WebView container.
 
 This page documents how you can access mobile native components like
-Camera, Vibration, Notification and Toast through Odoo Web (via
+Camera, Vibration, Notification and Toast through Konvergo ERP Web (via
 JavaScript). For this, you do not need to be a mobile developer, if you
-know Odoo JavaScript API you can access all available mobile features.
+know Konvergo ERP JavaScript API you can access all available mobile features.
 
 > [!WARNING]
-> These features work with **Odoo Enterprise 10.0+** only
+> These features work with **Konvergo ERP Enterprise 10.0+** only
 
 ## How does it work?
 
@@ -27,8 +27,8 @@ Of course, it is a web page that loads on a Mobile Native Web container.
 But it is integrated in such a way that you can access native resources
 from your web JavaScript.
 
-WebPages (Odoo Web) is on the top of each layer, where the second layer
-is a Bridge between Odoo Web (JS) and the native mobile components.
+WebPages (Konvergo ERP Web) is on the top of each layer, where the second layer
+is a Bridge between Konvergo ERP Web (JS) and the native mobile components.
 
 When any call from JavaScript is triggered it passes through Bridge and
 Bridge passes it to the native invoker to perform that action.
@@ -42,7 +42,7 @@ Location.
 
 ## How to use it?
 
-Just like the Odoo Web Framework, the Mobile API can be used anywhere by
+Just like the Konvergo ERP Web Framework, the Mobile API can be used anywhere by
 getting the object from **web_mobile.rpc**
 
 ![image](mobile/odoo_mobile_api.png)

@@ -1,6 +1,6 @@
 # Use eWallets and gift cards
 
-With Odoo, customers can use **eWallets** and **gift cards** for online
+With Konvergo ERP, customers can use **eWallets** and **gift cards** for online
 and in-store shopping.
 
 To enable eWallets and gift cards for eCommerce and Point of Sale (PoS),

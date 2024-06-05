@@ -3,7 +3,7 @@
 Invoicing customers for shipping after delivery ensures accurate charges
 based on real-time shipping factors like distance, weight, and method.
 
-In Odoo, shipping costs can be invoiced in two ways:
+In Konvergo ERP, shipping costs can be invoiced in two ways:
 
 1.  Agree with the customer on a fixed cost and
     `include it in the sale order.
@@ -75,7 +75,7 @@ In the `Add a shipping method` pop-up window, choose the intended
 carrier in the `Shipping Method` field.
 
 Then, click the `Get Rate` button to the calculate shipping price based
-on real-time shipping data Odoo's shipping carrier integration.
+on real-time shipping data Konvergo ERP's shipping carrier integration.
 
 The `Cost` is automatically calculated using the weight of the items in
 the order. Finally, click the `Add` button to close the window.

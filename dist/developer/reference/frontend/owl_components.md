@@ -1,6 +1,6 @@
 # Owl Components
 
-The Odoo Javascript framework uses a custom component framework called
+The Konvergo ERP Javascript framework uses a custom component framework called
 Owl. It is a declarative component system, loosely inspired by Vue and
 React. Components are defined using `QWeb templates <qweb>`, enriched
 with some Owl specific directives. The official [Owl
@@ -14,14 +14,14 @@ contains a complete reference and a tutorial.
 > be made through a pull request on <https://github.com/odoo/owl>.
 
 > [!NOTE]
-> Currently, all Odoo versions (starting in version 14) share the same
+> Currently, all Konvergo ERP versions (starting in version 14) share the same
 > Owl version.
 
 ## Using Owl components
 
 The [Owl documentation]() already documents in detail the Owl framework,
-so this page will only provide Odoo specific information. But first, let
-us see how we can make a simple component in Odoo.
+so this page will only provide Konvergo ERP specific information. But first, let
+us see how we can make a simple component in Konvergo ERP.
 
 ``` javascript
 const { useState } = owl.hooks;
@@ -43,15 +43,15 @@ MyComponent.template = xml
 ```
 
 This example shows that Owl is available as a library in the global
-namespace as \`owl\`: it can simply be used like most libraries in Odoo.
+namespace as \`owl\`: it can simply be used like most libraries in Konvergo ERP.
 Note that we defined here the template as a static property, but without
 using the <span class="title-ref">static</span> keyword, which is not
-available in some browsers (Odoo javascript code should be Ecmascript
+available in some browsers (Konvergo ERP javascript code should be Ecmascript
 2019 compliant).
 
 We define here the template in the javascript code, with the help of the
 <span class="title-ref">xml</span> helper. However, it is only useful to
-get started. In practice, templates in Odoo should be defined in an xml
+get started. In practice, templates in Konvergo ERP should be defined in an xml
 file, so they can be translated. In that case, the component should only
 define the template name.
 
@@ -90,7 +90,7 @@ And the template is now located in the corresponding xml file:
 </templates>
 ```
 
-Odoo code is not yet completely made in Owl, so it needs a way to tell
+Konvergo ERP code is not yet completely made in Owl, so it needs a way to tell
 the difference between Owl templates (new code) and old templates (for
 components). To do that in a backward-compatible way, all new templates
 should be defined with the <span class="title-ref">owl</span> attribute
@@ -114,8 +114,8 @@ set to 1.
 
 First of all, components are classes, so they have a constructor. But
 constructors are special methods in javascript that are not overridable
-in any way. Since this is an occasionally useful pattern in Odoo, we
-need to make sure that no component in Odoo directly uses the
+in any way. Since this is an occasionally useful pattern in Konvergo ERP, we
+need to make sure that no component in Konvergo ERP directly uses the
 constructor method. Instead, components should use the
 <span class="title-ref">setup</span> method:
 
@@ -141,8 +141,8 @@ prevents name collision between odoo addons.
 
 ## Reference List
 
-The Odoo web client is built with [Owl](https://github.com/odoo/owl)
-components. To make it easier, the Odoo javascript framework provides a
+The Konvergo ERP web client is built with [Owl](https://github.com/odoo/owl)
+components. To make it easier, the Konvergo ERP javascript framework provides a
 suite of generic components that can be reused in some common
 situations, such as dropdowns, checkboxes or datepickers. This page
 explains how to use these generic components.
@@ -371,7 +371,7 @@ many features such as:
 - Smartly chose the direction it should open (right-to-left direction is
   automatically handled).
 
-To solve these issues once and for all, the Odoo framework provides a
+To solve these issues once and for all, the Konvergo ERP framework provides a
 set of two components: a <span class="title-ref">Dropdown</span>
 component (the actual dropdown), and
 <span class="title-ref">DropdownItem</span>, for each element in the

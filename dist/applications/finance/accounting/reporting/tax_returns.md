@@ -19,7 +19,7 @@ or be refunded.
 
 ### Tax Return Periodicity
 
-The configuration of the **Tax Return Periodicity** allows Odoo to
+The configuration of the **Tax Return Periodicity** allows Konvergo ERP to
 compute your tax return correctly and also to send you a reminder to
 never miss a tax return deadline.
 
@@ -28,12 +28,12 @@ To do so, go to `Accounting --> Configuration --> Settings`. Under the
 
 - `Periodicity`: define here whether you submit your tax return on a
   monthly or quarterly basis;
-- `Reminder`: define when Odoo should remind you to submit your tax
+- `Reminder`: define when Konvergo ERP should remind you to submit your tax
   return;
 - `Journal`: select the journal in which to record the tax return.
 
 <img src="tax_returns/tax_return_periodicity.png" class="align-center"
-alt="Configure how often tax returns have to be made in Odoo Accounting" />
+alt="Configure how often tax returns have to be made in Konvergo ERP Accounting" />
 
 > [!NOTE]
 > This is usually configured during the
@@ -41,13 +41,13 @@ alt="Configure how often tax returns have to be made in Odoo Accounting" />
 
 ### Tax Grids
 
-Odoo generates tax reports based on the `Tax Grids` settings that are
+Konvergo ERP generates tax reports based on the `Tax Grids` settings that are
 configured on your taxes. Therefore, it is crucial to make sure that all
 recorded transactions use the right taxes. You can see the `Tax Grids`
 by opening the `Journal Items` tab of any invoice and bill.
 
 <img src="tax_returns/tax_return_grids.png" class="align-center"
-alt="see which tax grids are used to record transactions in Odoo Accounting" />
+alt="see which tax grids are used to record transactions in Konvergo ERP Accounting" />
 
 To configure your tax grids, go to
 `Accounting --> Configuration --> Taxes`, and open the tax you want to
@@ -55,10 +55,10 @@ modify. There, you can edit your tax settings, along with the tax grids
 that are used to record invoices or credit notes.
 
 <img src="tax_returns/tax_return_taxes.png" class="align-center"
-alt="Configure taxes and their tax grids in Odoo Accounting" />
+alt="Configure taxes and their tax grids in Konvergo ERP Accounting" />
 
 > [!NOTE]
-> Taxes and reports are usually already pre-configured in Odoo: a
+> Taxes and reports are usually already pre-configured in Konvergo ERP: a
 > `fiscal localization package
 > <fiscal_localizations/packages>` is installed according to the country
 > you select at the creation of your database.
@@ -81,7 +81,7 @@ To check the current `Tax Lock Date`, or to edit it, go to
 `Accounting --> Accounting --> Actions: Lock Dates`.
 
 <img src="tax_returns/tax_return_lock.png" class="align-center"
-alt="Lock your tax for a specific period in Odoo Accounting" />
+alt="Lock your tax for a specific period in Konvergo ERP Accounting" />
 
 ### Tax Report
 
@@ -97,11 +97,11 @@ values to report to the tax authorities, along with the amount you have
 to pay or be refunded.
 
 <img src="tax_returns/tax_return_report.png" class="align-center"
-alt="download the PDF with your Tax Report in Odoo Accounting" />
+alt="download the PDF with your Tax Report in Konvergo ERP Accounting" />
 
 > [!NOTE]
 > If you forgot to lock your tax date before clicking on
-> `Closing Journal Entry`, then Odoo automatically locks your fiscal
+> `Closing Journal Entry`, then Konvergo ERP automatically locks your fiscal
 > period on the same date as the accounting date of your entry. This
 > safety mechanism can prevent some fiscal errors, but it is advised to
 > lock your tax date manually before, as described above.

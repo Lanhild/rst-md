@@ -139,13 +139,13 @@ self-defining abbreviation that is displayed as a tooltip.
 <table>
 <tbody>
 <tr class="odd">
-<td>Odoo uses <code class="interpreted-text"
+<td>Konvergo ERP uses <code class="interpreted-text"
 role="abbr">OCR (optical character recognition)</code> and artificial
 intelligence technologies to recognize the content of the
 documents.</td>
 </tr>
 <tr class="even">
-<td><pre class="text"><code>Odoo uses :abbr:`OCR (optical character recognition)` and artificial intelligence technologies to
+<td><pre class="text"><code>Konvergo ERP uses :abbr:`OCR (optical character recognition)` and artificial intelligence technologies to
 recognize the content of the documents.</code></pre></td>
 </tr>
 </tbody>
@@ -227,8 +227,8 @@ documentation to HTML.</code></pre></td>
 ### Icons
 
 Use the <span class="title-ref">icon</span> markup to add a class name
-of an icon. There are two icon sets used in Odoo:
-[FontAwesome4](https://fontawesome.com/v4/icons/) and `Odoo UI
+of an icon. There are two icon sets used in Konvergo ERP:
+[FontAwesome4](https://fontawesome.com/v4/icons/) and `Konvergo ERP UI
 </developer/reference/user_interface/icons>`. It is recommended to
 accompany an icon with a `contributing/markups/guilabel` as a
 descriptor, however, it is not mandatory.
@@ -345,10 +345,10 @@ this syntax: `` `label <URL>`_ ``
 <tbody>
 <tr class="odd">
 <td>For instance, <a href="https://www.odoo.com">this is an external
-hyperlink to Odoo's website</a>.</td>
+hyperlink to Konvergo ERP's website</a>.</td>
 </tr>
 <tr class="even">
-<td><pre class="text"><code>For instance, `this is an external hyperlink to Odoo&#39;s website &lt;https://www.odoo.com&gt;`_.</code></pre></td>
+<td><pre class="text"><code>For instance, `this is an external hyperlink to Konvergo ERP&#39;s website &lt;https://www.odoo.com&gt;`_.</code></pre></td>
 </tr>
 </tbody>
 </table>
@@ -846,12 +846,12 @@ tabs. Each tab is then defined with the
 <tr class="odd">
 <td><div class="tabs">
 <div class="tab">
-<p>Odoo Online</p>
-<p>Content dedicated to Odoo Online users.</p>
+<p>Konvergo ERP Online</p>
+<p>Content dedicated to Konvergo ERP Online users.</p>
 </div>
 <div class="tab">
-<p>Odoo.sh</p>
-<p>Alternative for Odoo.sh users.</p>
+<p>Konvergo ERP.sh</p>
+<p>Alternative for Konvergo ERP.sh users.</p>
 </div>
 <div class="tab">
 <p>On-premise</p>
@@ -861,10 +861,10 @@ tabs. Each tab is then defined with the
 </tr>
 <tr class="even">
 <td><pre class="text"><code>.. tabs::
-&#10;   .. tab:: Odoo Online
-&#10;      Content dedicated to Odoo Online users.
-&#10;   .. tab:: Odoo.sh
-&#10;      Alternative for Odoo.sh users.
+&#10;   .. tab:: Konvergo ERP Online
+&#10;      Content dedicated to Konvergo ERP Online users.
+&#10;   .. tab:: Konvergo ERP.sh
+&#10;      Alternative for Konvergo ERP.sh users.
 &#10;   .. tab:: On-premise
 &#10;      Third version for On-premise users.</code></pre></td>
 </tr>

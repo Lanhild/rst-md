@@ -1,7 +1,7 @@
 # Bills
 
 Typical practices in restaurants or bars are to request the bill before
-proceeding to payment or splitting it based on the items ordered. Odoo
+proceeding to payment or splitting it based on the items ordered. Konvergo ERP
 POS provides two features to perform these tasks seamlessly: **Bill
 Printing** and **Bill Splitting**.
 

@@ -1,7 +1,7 @@
 # Avalara (Avatax) portal
 
 Avalara's (*AvaTax*) management console offers account management
-options including: viewing/editing the transactions sent from Odoo to
+options including: viewing/editing the transactions sent from Konvergo ERP to
 *AvaTax*, details on how the taxes are calculated, tax reporting, tax
 exemption management, and tax return resources.
 
@@ -55,7 +55,7 @@ and `To` fields, and configuring other fields to filter by, including:
   `Committed`, `Uncommitted`, or `Locked`.
 - `Document Code`: any of the following options, `Exactly match`,
   `Starts with`, or `Contains`.
-- `Customer/Vendor Code`: the customer/vendor code in Odoo (e.g.
+- `Customer/Vendor Code`: the customer/vendor code in Konvergo ERP (e.g.
   <span class="title-ref">Contact18</span>).
 - `Country`: the country this tax was calculated in; this is a text
   field.
@@ -81,11 +81,11 @@ descending order:
   `Starts with`, or `Contains`.
 - `Doc Status`: either of the following options, `All`, `Voided`,
   `Committed`, `Uncommitted`, or `Locked`.
-- `Cust/Vendor Code` : this is the customer/vendor code in Odoo (e.g.
+- `Cust/Vendor Code` : this is the customer/vendor code in Konvergo ERP (e.g.
   Contact18).
 - `Region`: this is the region of the country, this will vary based on
   the `Country` selection.
-- `Amount`: the numeric amount of the total amount on the Odoo document.
+- `Amount`: the numeric amount of the total amount on the Konvergo ERP document.
 - `Tax`: the numeric amount of the tax applied to the total.
 
 <img src="avalara_portal/transactions.png" class="align-center"
@@ -103,7 +103,7 @@ information:
 - `AvaTax calculated`: the amount of tax calculated by *AvaTax*.
 - `Country`: the country this tax was calculated in; this is a text
   field.
-- `Cust/vendor code`: the customer/vendor code in Odoo (e.g.
+- `Cust/vendor code`: the customer/vendor code in Konvergo ERP (e.g.
   <span class="title-ref">Contact18</span>).
 - `Currency`: the standardized abbreviation for the currency the amount
   total is in.
@@ -119,11 +119,11 @@ information:
 - `Location code`: the location code used to calculate the tax, based on
   the delivery address.
 - `PO number`: the purchase order number.
-- `Reference code`: the Odoo reference code (e.g. NV/2024/00003)
+- `Reference code`: the Konvergo ERP reference code (e.g. NV/2024/00003)
 - `Region`: the region of the country,which varies based on the
   `Country` selection.
 - `Salesperson code`: the numeric ID of the user assigned to the sales
-  order in Odoo.
+  order in Konvergo ERP.
 - `Tax date`: the month/day/year of the tax calculation.
 - `Tax override type`: where an exemption would appear, should there be
   none, the field populates with `None`.

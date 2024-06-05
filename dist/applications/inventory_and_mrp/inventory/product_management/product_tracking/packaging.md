@@ -1,6 +1,6 @@
 # Packaging
 
-In Odoo *Inventory*, *packaging* refers to disposable containers holding
+In Konvergo ERP *Inventory*, *packaging* refers to disposable containers holding
 multiple units of a specific product. Each specific packaging **must**
 be defined on the individual product form.
 
@@ -112,7 +112,7 @@ alt="Assign packagings on the Sales Order Line." />
 </div>
 
 > [!TIP]
-> Packaging can be used in conjunction with Odoo
+> Packaging can be used in conjunction with Konvergo ERP
 > `Barcode <inventory/barcode/software>`. When receiving products from
 > suppliers, scanning the packaging barcode automatically adds the
 > number of units in the packaging to the internal count of the product.

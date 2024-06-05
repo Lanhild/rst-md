@@ -17,7 +17,7 @@ established in China by Alibaba Group.
 
 ### Credentials tab
 
-Odoo needs your **API Credentials** to connect with your Alipay account,
+Konvergo ERP needs your **API Credentials** to connect with your Alipay account,
 which comprise:
 
 - **Account**: Depending on where you are situated
@@ -38,7 +38,7 @@ page.
 
 > [!IMPORTANT]
 > If you are trying Alipay as a test, in the *sandbox*, change the
-> **State** to *Test Mode*. We recommend doing this on a test Odoo
+> **State** to *Test Mode*. We recommend doing this on a test Konvergo ERP
 > database, rather than on your main database.
 
 <div class="seealso">

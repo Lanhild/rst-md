@@ -30,7 +30,7 @@ class="align-center" alt="image" />
 
 There are two levels of users:
 
-- Admin: has access to all features of Odoo.sh.
+- Admin: has access to all features of Konvergo ERP.sh.
 - User: does not have access to the project settings nor to the
   production and staging databases.
 
@@ -102,7 +102,7 @@ branch's `settings tab
 ## Submodules
 
 Configure the deploy keys for the private repositories you use as
-submodules in your branches to allow Odoo.sh to download them.
+submodules in your branches to allow Konvergo ERP.sh to download them.
 
 > [!WARNING]
 > These settings are required for **private repositories** only. If you
@@ -115,7 +115,7 @@ class="align-center" alt="image" />
 
 When a repository is private, it is not possible to publicly download
 its branches and revisions. For that reason, you need to configure a
-deploy key for Odoo.sh, so the remote Git server allows our platform to
+deploy key for Konvergo ERP.sh, so the remote Git server allows our platform to
 download the revisions of this private repository.
 
 To configure the deploy key for a private repository, proceed as

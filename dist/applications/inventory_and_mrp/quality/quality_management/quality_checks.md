@@ -1,7 +1,7 @@
 # Quality checks
 
 Quality checks are manual inspections conducted by employees, and are
-used to ensure the quality of products. In Odoo, a quality check can be
+used to ensure the quality of products. In Konvergo ERP, a quality check can be
 conducted for a single product, or multiple products within the same
 inventory operation or manufacturing order.
 
@@ -38,7 +38,7 @@ by selecting an option from the `Control per` drop-down menu:
 
 Next, select an inventory operation from the `Picking` drop-down menu or
 a manufacturing order from the `Production Order` drop-down menu. This
-is necessary because Odoo needs to know for which operation the quality
+is necessary because Konvergo ERP needs to know for which operation the quality
 check is being conducted.
 
 If the quality check should be assigned to a specific , select it from

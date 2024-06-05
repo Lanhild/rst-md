@@ -2,7 +2,7 @@
 
 ## German Chart of Accounts
 
-The chart of accounts SKR03 and SKR04 are both supported in Odoo. You
+The chart of accounts SKR03 and SKR04 are both supported in Konvergo ERP. You
 can choose the one you want by going in `Accounting --> Configuration`
 then choose the package you want in the Fiscal Localization section.
 
@@ -10,12 +10,12 @@ Be careful, you can only change the accounting package as long as you
 have not created any accounting entry.
 
 > [!TIP]
-> When you create a new Odoo Online database, the SKR03 is installed by
+> When you create a new Konvergo ERP Online database, the SKR03 is installed by
 > default.
 
 ## German Accounting Reports
 
-Here is the list of German-specific reports available on Odoo
+Here is the list of German-specific reports available on Konvergo ERP
 Enterprise:
 
 - Balance Sheet
@@ -23,11 +23,11 @@ Enterprise:
 - Tax Report (Umsatzsteuervoranmeldung)
 - Partner VAT Intra
 
-## Export from Odoo to Datev
+## Export from Konvergo ERP to Datev
 
-It is possible to export your accounting entries from Odoo to Datev. To
+It is possible to export your accounting entries from Konvergo ERP to Datev. To
 be able to use this feature, the german accounting localization needs to
-be installed on your Odoo Enterprise database. Then you can go in
+be installed on your Konvergo ERP Enterprise database. Then you can go in
 `Accounting --> Reporting --> General Ledger` then click on the **Export
 Datev (csv)** button.
 
@@ -39,7 +39,7 @@ systems - including the `point of sale
 </applications/sales/point_of_sale>` systems - must be equipped with a
 **Technical Security System** (also called **TSS** or **TSE**).
 
-Odoo offers a service that is compliant with the help of
+Konvergo ERP offers a service that is compliant with the help of
 [fiskaly](https://fiskaly.com), a *cloud-based solution*.
 
 > [!IMPORTANT]
@@ -71,7 +71,7 @@ Odoo offers a service that is compliant with the help of
     > `update the app list <general/install>`.
 
 <img src="germany/pos-upgrade.png" class="align-center"
-alt="Upgrading Odoo Point of Sale from the Apps dashboard" />
+alt="Upgrading Konvergo ERP Point of Sale from the Apps dashboard" />
 
 #### Register your company at the financial authority
 
@@ -92,7 +92,7 @@ You can then **register your company through fiskaly** by opening the
 *fiskaly* tab and clicking on the *fiskaly Registration* button.
 
 <img src="germany/fiskaly-registration.png" class="align-center"
-alt="Button to register a company through fiskaly in Odoo" />
+alt="Button to register a company through fiskaly in Konvergo ERP" />
 
 > [!TIP]
 > If you do not see the *fiskaly Registration* button, make sure that
@@ -107,7 +107,7 @@ Once the registration has been finalized, new fields appear:
   to access the services offered by fiskaly.
 
 <img src="germany/fiskaly-keys.png" class="align-center"
-alt="fiskaly keys as displayed on Odoo" />
+alt="fiskaly keys as displayed on Konvergo ERP" />
 
 > [!NOTE]
 > It is possible to request new credentials if there is any issue with
@@ -127,7 +127,7 @@ open the point of sale you want to edit, then check the box next to
 **Create TSS** and *Save*.
 
 <img src="germany/tss-ids.png" class="align-right"
-alt="Example of TSS ID and Client ID from fiskaly in Odoo Point of Sale" />
+alt="Example of TSS ID and Client ID from fiskaly in Konvergo ERP Point of Sale" />
 
 Once the creation of the TSS is successful, you can find your **TSS ID**
 and **Client ID** under the *fiskaly API* section.
@@ -164,13 +164,13 @@ export this specific PoS' data only.
 The creation of a DSFinV-K export triggers on export at fiskaly's side.
 
 <img src="germany/dsfinv-k-export-fields.png" class="align-center"
-alt="Pending DSFinV-K export on Odoo" />
+alt="Pending DSFinV-K export on Konvergo ERP" />
 
 As you can see, the **State** is *Pending*. This means that the export
 has been successfully triggered and is being processed. You have to
 click on *Refresh State* to check if it is ready.
 
-## German Tax Accounting Standards: Odoo's guide to GoBD Compliance
+## German Tax Accounting Standards: Konvergo ERP's guide to GoBD Compliance
 
 **GoBD** stands for [Grundsätze zur ordnungsmäßigen Führung und
 Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in
@@ -190,7 +190,7 @@ development of digital solutions (cloud hosting, paperless companies,
 etc.).
 
 > [!IMPORTANT]
-> Odoo gives you **the means to be compliant with GoBD**.
+> Konvergo ERP gives you **the means to be compliant with GoBD**.
 
 ### What do you need to know about GoBD when relying on accounting software?
 
@@ -236,13 +236,13 @@ accordance with the GoBD guidelines.
 Once bookings have been finally posted, they can no longer be changed or
 deleted via the application.
 
-- If Odoo is used in the cloud, regular backups are part of the Odoo
+- If Konvergo ERP is used in the cloud, regular backups are part of the Konvergo ERP
   Online service. In addition, regular backups can be downloaded and
   backed up on external systems.
 
   <div class="seealso">
 
-  [Odoo Cloud Hosting - Service Level
+  [Konvergo ERP Cloud Hosting - Service Level
   Agreement](https://www.odooo.com/cloud-sla)
 
   </div>
@@ -263,52 +263,52 @@ the accurate and compliant documentation of financial transactional data
 of their users**. It can merely provide the necessary tools for the user
 to respect the software related guidelines described in the GoBD.
 
-### How can Odoo help you achieve Compliance?
+### How can Konvergo ERP help you achieve Compliance?
 
 The key words, when it comes to GoBD, are: **traceable, verifiable,
 true, clear, and continuous**. In short, you need to have audit-proof
-archiving in place and Odoo provides you with the means to achieve all
+archiving in place and Konvergo ERP provides you with the means to achieve all
 of these objectives:
 
 1.  **Traceability and verifiability**  
-    Each record in Odoo is stamped with the creator of the document, the
+    Each record in Konvergo ERP is stamped with the creator of the document, the
     creation date, the modification date, and who modified it. In
     addition, relevant fields are tracked thus it can be seen which
     value was changed by whom in the chatter of the relevant object.
 
 2.  **Completeness**  
     All financial data must be recorded in the system, and there can be
-    no gaps. Odoo ensures that there is no gap in the numbering of the
+    no gaps. Konvergo ERP ensures that there is no gap in the numbering of the
     financial transactions. It is the responsibility of the user to
     encode all financial data in the system. As most financial data in
-    Odoo is generated automatically, it remains the responsibility of
+    Konvergo ERP is generated automatically, it remains the responsibility of
     the user to encode all vendor bills and miscellaneous operations
     completely.
 
 3.  **Accuracy**  
-    Odoo ensures with the correct configuration that the correct
+    Konvergo ERP ensures with the correct configuration that the correct
     accounts are used. In addition, the control mechanisms between
     purchase orders and sales orders and their respective invoices
     reflect the business reality. It is the responsibility of the user
     to scan and attach the paper-based vendor bill to the respective
-    record in Odoo. *Odoo Document helps you automate this task*.
+    record in Konvergo ERP. *Konvergo ERP Document helps you automate this task*.
 
 4.  **Timely booking and record-keeping**  
-    As most financial data in Odoo is generated by the transactional
-    objects (for example, the invoice is booked at confirmation), Odoo
+    As most financial data in Konvergo ERP is generated by the transactional
+    objects (for example, the invoice is booked at confirmation), Konvergo ERP
     ensures out-of-the-box timely record-keeping. It is the
     responsibility of the user to encode all incoming vendor bills in a
     timely manner, as well as the miscellaneous operations.
 
 5.  **Order**  
-    Financial data stored in Odoo is per definition ordered and can be
+    Financial data stored in Konvergo ERP is per definition ordered and can be
     reordered according to most fields present in the model. A specific
     ordering is not enforced by the GoBD, but the system must ensure
     that a given financial transaction can be quickly found by a
-    third-party expert. Odoo ensures this out-of-the-box.
+    third-party expert. Konvergo ERP ensures this out-of-the-box.
 
 6.  **Inalterability**  
-    With the German Odoo localization, Odoo is in standard configured in
+    With the German Konvergo ERP localization, Konvergo ERP is in standard configured in
     such a way that the inalterability clause can be adhered to without
     any further customization.
 
@@ -321,7 +321,7 @@ financial data on a storage device.
 
 In case of a handover of the financial data on a storage device, the
 format is **not** enforced by the GoBD. It can be, for example, in XLS,
-CSV, XML, Lotus 123, SAP-format, AS/400-format, or else. Odoo supports
+CSV, XML, Lotus 123, SAP-format, AS/400-format, or else. Konvergo ERP supports
 the CSV and XLS-export of financial data out-of-the-box. The GoBD
 **recommends** the export in a specific XML-based GoBD-format (see
 "Ergänzende Informationen zur Datenntträgerüberlassung" §3) but it is

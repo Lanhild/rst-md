@@ -4,15 +4,15 @@ In a warehouse, the recorded inventory counts in the database might not
 always match the actual, real inventory counts. In such cases, inventory
 adjustments can be made to reconcile the differences, and ensure that
 the recorded counts in the database match the actual counts in the
-warehouse. In Odoo, the *Barcode* app can be used to make these
+warehouse. In Konvergo ERP, the *Barcode* app can be used to make these
 adjustments.
 
-These adjustments can be done in real time using an Odoo-compatible
-barcode scanner or the Odoo mobile app.
+These adjustments can be done in real time using an Konvergo ERP-compatible
+barcode scanner or the Konvergo ERP mobile app.
 
 > [!NOTE]
-> For a list of Odoo-compatible barcode mobile scanners, and other
-> hardware for the *Inventory* and *Barcode* apps, refer to the [Odoo
+> For a list of Konvergo ERP-compatible barcode mobile scanners, and other
+> hardware for the *Inventory* and *Barcode* apps, refer to the [Konvergo ERP
 > Inventory • Hardware
 > page](https://www.odoo.com/app/inventory-hardware).
 
@@ -39,7 +39,7 @@ After saving, a new drop-down menu appears under the `Barcode Scanner`
 option, labeled `Barcode Nomenclature`, where either
 `Default Nomenclature` or `Default GS1 Nomenclature` can be selected.
 Each nomenclature option determines how scanners interpret barcodes in
-Odoo.
+Konvergo ERP.
 
 There is also a `Configure Product Barcodes` internal link arrow, along
 with a set of `Print` buttons for printing barcode commands and a
@@ -53,7 +53,7 @@ alt="Enabled Barcode feature in Inventory app settings." />
 
 For more information on setting up and configuring the `Barcode` app,
 refer to the `Set up your barcode scanner <../setup/hardware>` and
-`Activate the Barcodes in Odoo
+`Activate the Barcodes in Konvergo ERP
 <../setup/software>` docs.
 
 </div>
@@ -114,7 +114,7 @@ alt="Barcode Inventory Client Action page with inventory adjustment." />
 To complete the inventory adjustment, click the green `✅ Apply` button
 with the check mark at the bottom of the page.
 
-Once applied, Odoo navigates back to the `Barcode Scanning` screen. A
+Once applied, Konvergo ERP navigates back to the `Barcode Scanning` screen. A
 small green banner appears in the top right corner, confirming
 validation of the adjustment.
 
@@ -122,7 +122,7 @@ validation of the adjustment.
 
 Did you know?
 
-Odoo's *Barcode* application provides demo data with barcodes to explore
+Konvergo ERP's *Barcode* application provides demo data with barcodes to explore
 the features of the app. These can be used for testing purposes, and can
 be printed from the home screen of the app.
 
@@ -138,7 +138,7 @@ alt="Demo data prompt pop-up on Barcode app main screen." />
 
 ## Manually add products to inventory adjustment
 
-When the barcodes for the location or product are not available, Odoo
+When the barcodes for the location or product are not available, Konvergo ERP
 *Barcode* can still be used to perform inventory adjustments.
 
 To do this, navigate to the
@@ -175,6 +175,6 @@ Once ready, click `Confirm` to confirm the changes.
 To apply the inventory adjustment, click the green `✅ Apply` button
 with the check mark, at the bottom of the page.
 
-Once applied, Odoo navigates back to the `Barcode Scanning` screen. A
+Once applied, Konvergo ERP navigates back to the `Barcode Scanning` screen. A
 small green banner appears in the top right corner, confirming
 validation of the adjustment.

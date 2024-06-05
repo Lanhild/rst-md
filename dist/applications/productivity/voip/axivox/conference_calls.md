@@ -6,7 +6,7 @@ limited, via a sign-in code. That way, confidential matters stay
 private.
 
 This document covers the configuration of conference calls in Axivox for
-use in Odoo *VoIP*.
+use in Konvergo ERP *VoIP*.
 
 ## Add a virtual conference
 
@@ -90,15 +90,15 @@ conference, if there is not an `Access code` required. If there *is* an
 `Access code` required, the caller is then prompted to enter the
 `Access code` to enter the conference.
 
-## Start call in Odoo
+## Start call in Konvergo ERP
 
-Anywhere in the Odoo database, open the *VoIP* widget, by clicking the
+Anywhere in the Konvergo ERP database, open the *VoIP* widget, by clicking the
 `☎️ (phone)` icon, located in the upper-right corner. Then, dial the
 specific extension number for the conference, and click the `📞 (phone)`
 icon.
 
 <img src="conference_calls/phone-widget.png" class="align-center"
-alt="Connecting to a conference extension using the Odoo VoIP widget." />
+alt="Connecting to a conference extension using the Konvergo ERP VoIP widget." />
 
 Once the digital receptionist answers, enter the `Access code` (if
 needed), and press the `# (pound)` icon/key.

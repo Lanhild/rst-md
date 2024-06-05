@@ -1,9 +1,9 @@
 # Use channels for team communication
 
-Use channels in the Odoo *Discuss* app to organize discussions between
+Use channels in the Konvergo ERP *Discuss* app to organize discussions between
 individual teams, departments, projects, or any other group that
 requires regular communication. With channels, employees can communicate
-inside dedicated spaces within the Odoo database around specific topics,
+inside dedicated spaces within the Konvergo ERP database around specific topics,
 updates, and latest developments having to do with the organization.
 
 ## Public and private channels
@@ -21,7 +21,7 @@ communication needs.
 
 <img src="team_communication/public-private-channel.png"
 class="align-center"
-alt="View of discuss&#39;s sidebar and a channel being created in Odoo Discuss." />
+alt="View of discuss&#39;s sidebar and a channel being created in Konvergo ERP Discuss." />
 
 > [!TIP]
 > A public channel is best used when many employees need to access
@@ -36,7 +36,7 @@ modified by clicking on the channel's settings, represented by a
 `⚙️ (gear)` icon in the left sidebar menu, next to the channel's name.
 
 <img src="team_communication/channel-settings.png" class="align-center"
-alt="View of a channel&#39;s settings form in Odoo Discuss." />
+alt="View of a channel&#39;s settings form in Konvergo ERP Discuss." />
 
 #### Privacy and Members tabs
 
@@ -54,7 +54,7 @@ members should be invited. Inviting members can also be done from the
 clicking `Invite to Channel` once all the users have been added.
 
 <img src="team_communication/invite-channel.png" class="align-center"
-alt="View of Discuss&#39; option to invite members in Odoo Discuss." />
+alt="View of Discuss&#39; option to invite members in Konvergo ERP Discuss." />
 
 When the `Selected group of users` option is selected, it reveals the
 ability to add an `Authorized Group`, along with the options to
@@ -76,7 +76,7 @@ convenient way to filter conversations and quickly find relevant
 communications.
 
 <img src="team_communication/quick-search.png" class="align-center"
-alt="View of the Discuss&#39; sidebar emphasizing the quick search bar in Odoo Discuss." />
+alt="View of the Discuss&#39; sidebar emphasizing the quick search bar in Konvergo ERP Discuss." />
 
 ### Finding channels
 
@@ -93,11 +93,11 @@ specific searches can be saved by using the
 `Favorites --> Save Current Search` drop-down menu.
 
 <img src="team_communication/filter.png" class="align-center"
-alt="View of a channel being searched through filters in Odoo Discuss" />
+alt="View of a channel being searched through filters in Konvergo ERP Discuss" />
 
 ## Linking channel in chatter
 
-Channels can be linked in the chatter (log note) of a record in Odoo. To
+Channels can be linked in the chatter (log note) of a record in Konvergo ERP. To
 do so, simply type: <span class="title-ref">\#</span> and the channel
 name. Click or press enter on the *channel* name. Upon logging the note
 a link to the channel will appear. After clicking on the link a chat

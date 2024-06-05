@@ -27,7 +27,7 @@ Product</span> under the `General Information` tab.
 
 <img src="reordering/product-configured-for-reordering.png"
 class="align-center"
-alt="Configure a product for reordering in Odoo." />
+alt="Configure a product for reordering in Konvergo ERP." />
 
 ## Add a reordering rule to a product
 
@@ -37,7 +37,7 @@ that product's form, and then clicking `Create` on the
 `Reordering Rules` dashboard.
 
 <img src="reordering/reordering-rules-tab.png" class="align-center"
-alt="Access reordering rules for a product from the product page in Odoo." />
+alt="Access reordering rules for a product from the product page in Konvergo ERP." />
 
 Once created, the reordering rule can be configured to generate purchase
 orders automatically by defining the following fields:
@@ -84,7 +84,7 @@ orders automatically by defining the following fields:
   water or bricks.
 
 <img src="reordering/reordering-rule-configuration.png"
-class="align-center" alt="Configure the reordering rule in Odoo." />
+class="align-center" alt="Configure the reordering rule in Konvergo ERP." />
 
 ## Manually trigger reordering rules using the scheduler
 
@@ -107,7 +107,7 @@ the form.
 
 To manage all reordering rules for every product, go to
 `Inventory --> Configuration
---> Reordering Rules`. From this dashboard, typical bulk actions in Odoo
+--> Reordering Rules`. From this dashboard, typical bulk actions in Konvergo ERP
 can be performed such as exporting data or archiving rules that are no
 longer needed. As well, the `Filters`, `Group By` or triple-dotted menu
 on the form are available to search for and/or organize the reordering

@@ -1,4 +1,4 @@
-# Odoo essentials
+# Konvergo ERP essentials
 
 <div class="toctree">
 

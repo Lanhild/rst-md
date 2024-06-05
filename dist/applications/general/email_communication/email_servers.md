@@ -1,17 +1,17 @@
-# Send and receive emails in Odoo with an email server
+# Send and receive emails in Konvergo ERP with an email server
 
-## Odoo Online or Odoo.sh users
+## Konvergo ERP Online or Konvergo ERP.sh users
 
-Since **Odoo sets up its own mail servers for the database**, outgoing
-and incoming emails already work out-of-the-box. So for **Odoo Online**
-and **Odoo.sh** customers, nothing needs to be configured!
+Since **Konvergo ERP sets up its own mail servers for the database**, outgoing
+and incoming emails already work out-of-the-box. So for **Konvergo ERP Online**
+and **Konvergo ERP.sh** customers, nothing needs to be configured!
 
 Unless an external mail server is required to send large batches of mass
-emails, simply use the standard online Odoo database normally since it
+emails, simply use the standard online Konvergo ERP database normally since it
 has already been pre-configured to send email.
 
 > [!IMPORTANT]
-> The Odoo server is subject to a daily email limit to prevent abuse.
+> The Konvergo ERP server is subject to a daily email limit to prevent abuse.
 > The default limit is 200 emails sent per day for databases with an
 > **Enterprise** subscription. This limit can be increased under certain
 > conditions. See the `FAQ <faq>` or contact support for more
@@ -19,33 +19,33 @@ has already been pre-configured to send email.
 
 ## Scope of this documentation
 
-This document is **mainly dedicated to Odoo on-premise databases** that
+This document is **mainly dedicated to Konvergo ERP on-premise databases** that
 do not benefit from an out-of-the-box solution to send and receive
-emails in Odoo, unlike [Odoo Online \<https://www.odoo. com/trial\>]()
-and [Odoo.sh](https://www.odoo.sh). Incoming and outgoing servers must
+emails in Konvergo ERP, unlike [Konvergo ERP Online \<https://www.odoo. com/trial\>]()
+and [Konvergo ERP.sh](https://www.odoo.sh). Incoming and outgoing servers must
 be configured for on-premise databases.
 
 The following sections below contain information on how to integrate an
-external email server with Odoo.
+external email server with Konvergo ERP.
 
 > [!WARNING]
-> If no one in the company is employed to manage email servers, Odoo
-> Online and Odoo.sh are strongly recommended. In these Odoo hosting
+> If no one in the company is employed to manage email servers, Konvergo ERP
+> Online and Konvergo ERP.sh are strongly recommended. In these Konvergo ERP hosting
 > types email sending and receiving works instantly and is monitored by
 > professionals. Nevertheless, a company can use their own email server
 > if they want to manage the email server's reputation themselves. For
 > more information see
-> `Configure DNS records to send emails in Odoo <email_domain>`
+> `Configure DNS records to send emails in Konvergo ERP <email_domain>`
 
 ## Default notifications system
 
-Documents in Odoo (such as a CRM opportunity, a sales order, an invoice,
+Documents in Konvergo ERP (such as a CRM opportunity, a sales order, an invoice,
 etc.) have a discussion thread, called *chatter*.
 
 When a database user posts a message in the chatter, this message is
 sent by email to the followers of the document as a notification (except
 to the sender). If a follower replies to the message, the reply updates
-the chatter, and Odoo relays another reply to the followers as a
+the chatter, and Konvergo ERP relays another reply to the followers as a
 notification. Messages sent back to the chatter from users or external
 users will appear in the chatter from their respective email, or as the
 name listed in their *Contacts* record.
@@ -57,10 +57,10 @@ information see
 ## Manage outbound messages
 
 As a system administrator, go to
-`Settings --> General Settings --> Discuss` in Odoo, and enable the
+`Settings --> General Settings --> Discuss` in Konvergo ERP, and enable the
 `Custom Email Servers` option. Then, click `Save`. Next, click
 `Outgoing Email Servers` and click `Create` to create a new outgoing
-mail server record in Odoo. Reference the SMTP data of the external
+mail server record in Konvergo ERP. Reference the SMTP data of the external
 email server. Once all the information has been filled out, click
 `Test Connection`.
 
@@ -80,8 +80,8 @@ email server. Once all the information has been filled out, click
 
 ### Port restriction
 
-Note that port 25 is blocked for security reasons on the Odoo Online and
-Odoo.sh platforms. Try using ports 465, 587, or 2525 instead.
+Note that port 25 is blocked for security reasons on the Konvergo ERP Online and
+Konvergo ERP.sh platforms. Try using ports 465, 587, or 2525 instead.
 
 ### Use a default "From" email address
 
@@ -90,13 +90,13 @@ different domain, and that can be a problem.
 
 For example, if a customer with the email address
 <span class="title-ref">mary@customer.example.com</span> responds to a
-message, Odoo will try to redistribute that same email to the other
+message, Konvergo ERP will try to redistribute that same email to the other
 subscribers in the thread. However, if the domain
 <span class="title-ref">customer.example.com</span> forbids that kind of
-usage for security, the email that Odoo is trying to redistribute would
+usage for security, the email that Konvergo ERP is trying to redistribute would
 get rejected by some recipients' email servers.
 
-To avoid that problem, Odoo sends all emails using a "From" address from
+To avoid that problem, Konvergo ERP sends all emails using a "From" address from
 the same authorized domain.
 
 Access the `System Parameters` by activating
@@ -115,7 +115,7 @@ database:
 > [!NOTE]
 > The <span class="title-ref">mail.default.from_filter</span> works only
 > for <span class="title-ref">odoo-bin</span> configurations or the
-> default Odoo email server, otherwise this parameter can be set using
+> default Konvergo ERP email server, otherwise this parameter can be set using
 > the <span class="title-ref">from_filter</span> field on
 > <span class="title-ref">ir.mail_server</span>.
 
@@ -131,7 +131,7 @@ In the following example, the from email address is replaced with the
 combination of the the two system parameters
 (<span class="title-ref">mail.default.from</span> and
 <span class="title-ref">mail.catchall.domain</span>). This is the
-defaultnotifications configuration in Odoo:
+defaultnotifications configuration in Konvergo ERP:
 `“Admin” <admin@example.com>` =\>
 `“Admin” <notifications@mycompany.com>`.
 
@@ -153,47 +153,47 @@ encapsulated in <span class="title-ref">mail.default.from</span>.
 ### Utilizing the "From" filter on an outgoing email server
 
 The `FROM Filtering` field allows for the use of a specific outgoing
-email server depending on the `From` email address or domain that Odoo
+email server depending on the `From` email address or domain that Konvergo ERP
 is sending on behalf of. This setting can be used to improve the
 deliverability or sending success rate of emails sent from the database.
 Setting the `FROM Filtering` field can also be used to send from
 different domains in a multi-company environment. Access this field in
-Odoo by navigating to
+Konvergo ERP by navigating to
 `Settings --> Discuss --> Custom Mail Servers --> Outgoing Mail Servers --> New`.
 
 <img src="email_servers/from-filter-setting.png" class="align-center"
 alt="Outgoing email server settings and the FROM filter settings." />
 
-When an email is sent from Odoo while the `FROM Filtering` field is set,
+When an email is sent from Konvergo ERP while the `FROM Filtering` field is set,
 an email server is chosen in the following sequence:
 
-1.  First, Odoo searches for an email server that has the same
+1.  First, Konvergo ERP searches for an email server that has the same
     `FROM Filtering` value as the `From` value (email address) defined
     in the outgoing email. For example, if the `From` value (email
     address) is <span class="title-ref">test@example.com</span>, only
     the email servers that have the `FROM Filtering` value equal to
     <span class="title-ref">test@example.com</span> are returned.
 2.  However, if no email servers are found that use the `From` value,
-    then Odoo searches for an email server that has the same *domain* as
+    then Konvergo ERP searches for an email server that has the same *domain* as
     the `From` value (email address) defined in the outgoing email. For
     example, if the `From` email address is
     <span class="title-ref">test@example.com</span>, only the email
     servers that have the `FROM Filtering` value equal to
     <span class="title-ref">example.com</span> are returned.
 
-If no email servers are found after checking for the domain, then Odoo
+If no email servers are found after checking for the domain, then Konvergo ERP
 returns all email servers that do not have any `FROM Filtering` value(s)
 set.
 
-Should this query return no results, then Odoo performs a search for an
+Should this query return no results, then Konvergo ERP performs a search for an
 email server using the system parameter:
 <span class="title-ref">mail.default.from</span>. First, the email
 address listed attempts to match an email server, and then the domain
-attempts to find a match. If no email server is found, Odoo returns the
+attempts to find a match. If no email server is found, Konvergo ERP returns the
 first outgoing email server (sorted by priority).
 
 > [!NOTE]
-> If several email servers are found, then Odoo uses the first one
+> If several email servers are found, then Konvergo ERP uses the first one
 > according to its priority. For example, if there are two email
 > servers, one with a priority of <span class="title-ref">10</span> and
 > the other with a priority of <span class="title-ref">20</span>, then
@@ -202,7 +202,7 @@ first outgoing email server (sorted by priority).
 
 ### Set up different dedicated servers for transactional and mass emails
 
-In Odoo a separate email server can be used for transactional emails and
+In Konvergo ERP a separate email server can be used for transactional emails and
 mass mailings. Example: Use Postmark or SendinBlue for transactional
 emails, and Amazon SES, Mailgun, Sendgrid or `Mailjet <mailjet_api>` for
 mass mailings.
@@ -220,7 +220,7 @@ to the transactional server over the mass mailing server by providing a
 lower priority number for the transactional email server.
 
 Now, go to `Email Marketing --> Settings` and enable `Dedicated Server`.
-Choose the appropriate email server. With these settings, Odoo uses the
+Choose the appropriate email server. With these settings, Konvergo ERP uses the
 server with the lower priority for transactional emails, and the server
 here selected for mass mails. Note that in this case, the domain's
 Sender Policy Framework (SPF) records must be set to include both
@@ -234,9 +234,9 @@ transactional and mass mail servers.
 
 ## Manage inbound messages
 
-Odoo relies on generic email aliases to fetch incoming messages.
+Konvergo ERP relies on generic email aliases to fetch incoming messages.
 
-- **Reply messages** of messages sent from Odoo are routed to their
+- **Reply messages** of messages sent from Konvergo ERP are routed to their
   original discussion thread (and to the inbox of all its followers) by
   the alias of the model if there is any or by the catchall alias
   (**catchall@**). Replies to messages of models that do not have a
@@ -246,7 +246,7 @@ Odoo relies on generic email aliases to fetch incoming messages.
   like other aliases might, it is only used to collect replies.
 
 - **Bounced messages** are used as a Return-Path. One example this is
-  especially useful for is in [Odoo Email
+  especially useful for is in [Konvergo ERP Email
   Marketing](https://www.odoo.com/page/email-marketing). In this case
   bounces are opt-out based on if the email bounced too many times (5)
   in the last month and the bounces are separated by one week. This is
@@ -262,20 +262,20 @@ Odoo relies on generic email aliases to fetch incoming messages.
   final destination.
 
 - **Original messages**: several business objects have their own alias
-  to create new records in Odoo from incoming emails:
+  to create new records in Konvergo ERP from incoming emails:
 
-  > - Sales channel (to create *Leads* or *Opportunities* in [Odoo CRM
+  > - Sales channel (to create *Leads* or *Opportunities* in [Konvergo ERP CRM
   >   \<https://www.odoo.com/page/ crm\>]())
-  > - Support channel (to create *Tickets* in [Odoo
+  > - Support channel (to create *Tickets* in [Konvergo ERP
   >   Helpdesk](https://www.odoo.com/page/helpdesk))
-  > - Projects (to create new *Tasks* in [Odoo Project
+  > - Projects (to create new *Tasks* in [Konvergo ERP Project
   >   \<https://www.odoo.com/page /project-management\>]())
-  > - Job positions (to create *Applicants* in [Odoo Recruitment
+  > - Job positions (to create *Applicants* in [Konvergo ERP Recruitment
   >   \<https://www.odoo.com/page /recruitment\>]())
 
 Depending on the mail server, there might be several methods to fetch
 emails. The easiest and most recommended method is to manage one email
-address per Odoo alias in the mail server.
+address per Konvergo ERP alias in the mail server.
 
 - Create the corresponding email addresses in the mail server
   (**catchall@**, **bounce@**, **sales@**, etc.).
@@ -284,8 +284,8 @@ address per Odoo alias in the mail server.
   Discuss`. Changing the `Alias Domain` will change the catchall's
   domain for the database.
 
-- If the database's hosting type is Odoo on-premise, create an
-  `Incoming Mail Server` in Odoo for each alias. To create a new
+- If the database's hosting type is Konvergo ERP on-premise, create an
+  `Incoming Mail Server` in Konvergo ERP for each alias. To create a new
   incoming server go to: `Settings --> Discuss
   --> Custom Mail Servers --> Incoming Mail Servers --> New` Fill out
   the form according to the email provider's settings. Leave the
@@ -293,17 +293,17 @@ address per Odoo alias in the mail server.
   information has been filled out, click on `TEST & CONFIRM`.
 
   <img src="email_servers/incoming-server.png" class="align-center"
-  alt="Incoming mail server configuration on Odoo." />
+  alt="Incoming mail server configuration on Konvergo ERP." />
 
-- If the database's hosting type is Odoo Online or Odoo.sh, redirecting
-  or forwarding incoming messages to Odoo's domain name instead of the
+- If the database's hosting type is Konvergo ERP Online or Konvergo ERP.sh, redirecting
+  or forwarding incoming messages to Konvergo ERP's domain name instead of the
   external email server is recommended. That way, incoming messages can
   be received without delay. Redirections for all email addresses should
-  be set to Odoo's domain name in the email server (e.g.
+  be set to Konvergo ERP's domain name in the email server (e.g.
   <span class="title-ref">catchall@mydomain.ext</span> to
   <span class="title-ref">catchall@mycompany.odoo.com</span>).
 
-All the aliases are customizable in Odoo. Object aliases can be edited
+All the aliases are customizable in Konvergo ERP. Object aliases can be edited
 from their respective configuration view by navigating to
 `Settings --> Technical Menu --> Email -->
 Aliases`.
@@ -329,7 +329,7 @@ databases.
 ### System parameters that prevent feedback loops
 
 There are two system parameters that help prevent email loops from
-occurring in Odoo. These parameters were introduced in Odoo 16 to
+occurring in Konvergo ERP. These parameters were introduced in Konvergo ERP 16 to
 prevent aliases from creating too many records and to prevent feedback
 loops on the catchall reply-to email address. They are present in
 database but not in the *System Parameters*. To override the following
@@ -342,33 +342,33 @@ The two system parameters are as follows:
 - <span class="title-ref">mail.gateway.loop.threshold</span> (20 by
   default)
 
-Add these fields in Odoo by first enabling
+Add these fields in Konvergo ERP by first enabling
 `developer mode <developer-mode>`, and then navigating to
 `Settings --> Technical Menu --> Parameters --> System Parameters`.
 Change the value of these parameters, as needed.
 
-When an email is received in the Odoo database on the catchall email
-address or on any alias, Odoo looks at the mail received for the given
+When an email is received in the Konvergo ERP database on the catchall email
+address or on any alias, Konvergo ERP looks at the mail received for the given
 period of time defined in the system parameter
 <span class="title-ref">mail.gateway.loop.minutes</span>. If the
-received email was sent to an alias then Odoo will reference the
+received email was sent to an alias then Konvergo ERP will reference the
 <span class="title-ref">mail.gateway.loop.threshold</span> system
 parameter and determine the value as the number of records this alias is
 allowed to create in the given period of time (value of
 <span class="title-ref">mail.gateway.loop.minutes</span>).
 
-In addition, when email is received to the catchall email address, Odoo
+In addition, when email is received to the catchall email address, Konvergo ERP
 will reference the emails received to the database during the set period
 of time (as stated by the value in the system parameter:
-<span class="title-ref">mail.gateway.loop.minutes</span>). Odoo will
+<span class="title-ref">mail.gateway.loop.minutes</span>). Konvergo ERP will
 then determine whether any of the emails received match that of the
 email(s) being received during the specified time-frame, and will
 prevent a feedback loop from occurring if a duplicate email is detected.
 
 ### Allow alias domain system parameter
 
-Incoming aliases are set in the Odoo database to create records by
-receiving incoming emails. To view aliases set in the Odoo database,
+Incoming aliases are set in the Konvergo ERP database to create records by
+receiving incoming emails. To view aliases set in the Konvergo ERP database,
 first activate the `developer mode <developer-mode>`. Then, go to
 `Settings app --> Technical --> Email section --> Aliases`.
 
@@ -380,14 +380,14 @@ can create a ticket, lead, opportunity, etc., eliminates false positives
 where email addresses with only the prefix alias (not the domain) are
 present.
 
-In some instances, matches have been made in the Odoo database when an
+In some instances, matches have been made in the Konvergo ERP database when an
 email is received with the same alias prefix and a different domain on
 the incoming email address. This is true in the sender, recipient, and
 `CC (Carbon Copy)` email addresses of an incoming email.
 
 <div class="example">
 
-When Odoo receives emails that have the name
+When Konvergo ERP receives emails that have the name
 <span class="title-ref">commercial</span> prefix alias in the sender,
 recipient, or `CC (Carbon Copy)` email address(es) (e.g.
 <commercial@gmail.com>, <commercial@odoo.net>), the database falsely

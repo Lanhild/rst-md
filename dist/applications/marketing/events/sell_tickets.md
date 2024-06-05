@@ -2,7 +2,7 @@
 
 Create custom ticket tiers (with various price points) for potential
 attendees to choose from, directly on the event template form, under the
-`Tickets` tab. Odoo simplifies the ticket-purchasing process by
+`Tickets` tab. Konvergo ERP simplifies the ticket-purchasing process by
 providing plenty of payment method options.
 
 ## Configuration
@@ -21,7 +21,7 @@ through the website.
 > be available for free registrations.
 
 <img src="sell_tickets/events-settings-tickets.png" class="align-center"
-alt="View of the settings page for Odoo Events." />
+alt="View of the settings page for Konvergo ERP Events." />
 
 ## Sell tickets through sales orders
 
@@ -33,7 +33,7 @@ ticket is then attached to the sales order.
 
 <img src="sell_tickets/events-through-sales-order.png"
 class="align-center"
-alt="View of a sales order and option to choose the specific event in Odoo Events." />
+alt="View of a sales order and option to choose the specific event in Konvergo ERP Events." />
 
 Events with tickets sold online or through sales orders have a
 `Sales Smart Button` shortcut, located at the top of the event template
@@ -44,11 +44,11 @@ orders related to that event.
 
 <img src="sell_tickets/events-sales-smartbutton.png"
 class="align-center"
-alt="View of an event&#39;s form and the sales smart button in Odoo Events." />
+alt="View of an event&#39;s form and the sales smart button in Konvergo ERP Events." />
 
 <img src="sell_tickets/events-tickets-registration-product.png"
 class="align-center"
-alt="View of an event form highlighting the column product under the tickets tab in Odoo
+alt="View of an event form highlighting the column product under the tickets tab in Konvergo ERP
 Events." />
 
 ## Sell tickets through the website
@@ -65,4 +65,4 @@ which can be easily accessed in the back end of the database.
 
 <img src="sell_tickets/events-online-ticket-purchase.png"
 class="align-center"
-alt="View of website transaction for Odoo Events." />
+alt="View of website transaction for Konvergo ERP Events." />

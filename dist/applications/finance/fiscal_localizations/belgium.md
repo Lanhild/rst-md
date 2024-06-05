@@ -59,7 +59,7 @@ In Belgium, some taxes are not fully deductible, such as taxes on the
 maintenance of cars. This means a part of these taxes is considered as
 an expense.
 
-In Odoo, you can configure non-deductible taxes by creating tax rules
+In Konvergo ERP, you can configure non-deductible taxes by creating tax rules
 for these taxes and linking them to the corresponding accounts. This
 way, the system automatically calculates the taxes and allocates them to
 the appropriate accounts.
@@ -224,7 +224,7 @@ Belgium: Open 325 forms`.
 
 **CODA** is an electronic XML format used to import Belgian bank
 statements. You can download CODA files from your bank and import them
-directly into Odoo by clicking `Import Statement` from your `Bank`
+directly into Konvergo ERP by clicking `Import Statement` from your `Bank`
 journal on your dashboard.
 
 ![Import CODA files](belgium/coda-import.png)
@@ -254,7 +254,7 @@ automatically in your 'salary' journal.
 
 ## Electronic invoicing
 
-Odoo supports the **E-FFF** and **Peppol BIS Billing 3.0 (UBL)**
+Konvergo ERP supports the **E-FFF** and **Peppol BIS Billing 3.0 (UBL)**
 electronic invoicing formats. To enable them, go to
 `Accounting --> Configuration --> Journals --> Customer Invoices
 --> Advanced Settings --> Electronic Invoicing`, and tick `E-FFF (BE)`
@@ -301,16 +301,16 @@ This government-certified system entails the use of a
 
 ### Certified POS system
 
-The Odoo POS system is certified for the major versions of databases
-hosted on **Odoo Online** and **Odoo.sh**. Please refer to the following
+The Konvergo ERP POS system is certified for the major versions of databases
+hosted on **Konvergo ERP Online** and **Konvergo ERP.sh**. Please refer to the following
 table to ensure that your POS system is certified.
 
-|           | Odoo Online   | Odoo.sh       | On-Premise    |
+|           | Konvergo ERP Online   | Konvergo ERP.sh       | On-Premise    |
 |-----------|---------------|---------------|---------------|
-| Odoo 16.0 | Certified     | Certified     | Not certified |
-| Odoo 15.2 | Not certified | Not certified | Not certified |
-| Odoo 15.0 | Certified     | Certified     | Not certified |
-| Odoo 14.0 | Certified     | Certified     | Not certified |
+| Konvergo ERP 16.0 | Certified     | Certified     | Not certified |
+| Konvergo ERP 15.2 | Not certified | Not certified | Not certified |
+| Konvergo ERP 15.0 | Certified     | Certified     | Not certified |
+| Konvergo ERP 14.0 | Certified     | Certified     | Not certified |
 
 <div class="seealso">
 
@@ -366,7 +366,7 @@ verify that all revenue is declared.
 > [!WARNING]
 > Only the FDM from **Boîtenoire.be** with the [FDM certificate number
 > BMC04](https://www.systemedecaisseenregistreuse.be/fr/systemes-certifies#FDM%20certifiés)
-> is supported by Odoo. [Contact the manufacturer (GCV
+> is supported by Konvergo ERP. [Contact the manufacturer (GCV
 > BMC)](https://www.boîtenoire.be/contact) to order one.
 
 #### Configuration

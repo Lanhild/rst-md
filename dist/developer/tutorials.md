@@ -20,9 +20,9 @@ large="">
 
 Getting started
 
-Develop your own module with the Odoo framework. This step-by-step
+Develop your own module with the Konvergo ERP framework. This step-by-step
 tutorial is crafted for newcomers and any other individual curious about
-Odoo development.
+Konvergo ERP development.
 
 </div>
 
@@ -31,18 +31,18 @@ tag="Beginner" large="">
 
 Discover the JavaScript Framework
 
-Learn the basics of the JavaScript framework of Odoo. This tutorial will
+Learn the basics of the JavaScript framework of Konvergo ERP. This tutorial will
 teach you how to work with Owl components and introduce the basic
-principles underlying the Odoo JavaScript codebase.
+principles underlying the Konvergo ERP JavaScript codebase.
 
 </div>
 
 <div class="card" target="tutorials/master_odoo_web_framework"
 tag="Advanced">
 
-Master the Odoo Web Framework
+Master the Konvergo ERP Web Framework
 
-Become an expert in the Odoo Web Framework. A large variety of features
+Become an expert in the Konvergo ERP Web Framework. A large variety of features
 are covered such as fields, views, and even the kitten mode.
 
 </div>
@@ -51,7 +51,7 @@ are covered such as fields, views, and even the kitten mode.
 
 Define module data
 
-Define master and demo data for an Odoo module, leveraging the strengths
+Define master and demo data for an Konvergo ERP module, leveraging the strengths
 of the CSV and XML file formats to accommodate specific data
 requirements.
 
@@ -88,7 +88,7 @@ Create mixins to code features once and reuse them in multiple models.
 
 Build PDF reports
 
-Use QWeb, Odoo's powerful templating engine, to create custom PDF
+Use QWeb, Konvergo ERP's powerful templating engine, to create custom PDF
 reports for your documents.
 
 </div>

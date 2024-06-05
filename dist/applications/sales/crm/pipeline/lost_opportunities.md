@@ -31,7 +31,7 @@ pop-up window, click `Submit`.
 <img src="lost_opportunities/lost-opps-lost-reason.png"
 class="align-center" alt="Lost reasons popup with sample reasons." />
 
-Upon clicking `Submit`, the pop-up window disappears, and Odoo returns
+Upon clicking `Submit`, the pop-up window disappears, and Konvergo ERP returns
 to the lead detail form, where a new red `Lost` banner is now present in
 the upper-right corner of the lead.
 
@@ -53,7 +53,7 @@ that new line. Once ready, click `Save`.
 
 ## Retrieve lost opportunities
 
-To retrieve lost opportunities in Odoo *CRM*, open the `CRM app` to the
+To retrieve lost opportunities in Konvergo ERP *CRM*, open the `CRM app` to the
 main `Pipeline` dashboard. Then, click the `Filters` drop-down menu,
 located beneath the search bar.
 
@@ -71,7 +71,7 @@ with three fields.
 In the top field drop-down menu, select `Lost Reason`. In the second
 field drop-down menu, select `Contains`. Then, in the third field of the
 `Add Custom Field` sub menu, type in the specific keyword(s). Lastly,
-click `Apply`. Upon clicking `Apply`, Odoo reveals all the lost leads
+click `Apply`. Upon clicking `Apply`, Konvergo ERP reveals all the lost leads
 with a reason that contains that specified keyword(s).
 
 <img src="lost_opportunities/lost-opps-lost-custom-filter.png"

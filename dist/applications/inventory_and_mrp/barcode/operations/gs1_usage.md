@@ -10,19 +10,19 @@ consistently.
 
 </div>
 
-Odoo *Barcode* interprets and prints GS1 barcodes, automating product
+Konvergo ERP *Barcode* interprets and prints GS1 barcodes, automating product
 identification and tracking in warehouse operations such as receiving,
 picking, and shipping.
 
-The following sections contain examples of how Odoo uses GS1 barcodes
+The following sections contain examples of how Konvergo ERP uses GS1 barcodes
 provided by the business to identify common warehouse items and automate
 certain warehouse workflows.
 
 > [!IMPORTANT]
-> Odoo **does not** create GS1 barcodes. Businesses must purchase a
+> Konvergo ERP **does not** create GS1 barcodes. Businesses must purchase a
 > unique Global Trade Item Number (GTIN) from GS1. Then, they can
 > combine their existing GS1 barcodes with product and supply chain
-> information (also provided by GS1) to create barcodes in Odoo.
+> information (also provided by GS1) to create barcodes in Konvergo ERP.
 
 <div class="seealso">
 
@@ -58,7 +58,7 @@ Application Identifiers (A.I.) are used:
 <p>Barcode Pattern</p>
 </blockquote></th>
 <th><blockquote>
-<p>Field in Odoo</p>
+<p>Field in Konvergo ERP</p>
 </blockquote></th>
 </tr>
 </thead>
@@ -127,7 +127,7 @@ alt="Enter 14-digit GTIN into the Barcode field on product form." />
 
 > [!TIP]
 > To view a list of *all* products and their corresponding barcodes in
-> the Odoo database, navigate to
+> the Konvergo ERP database, navigate to
 > `Inventory app --> Configuration --> Settings`. Under the `Barcode`
 > heading, click on the `Configure Product Barcodes` button under the
 > `Barcode
@@ -151,7 +151,7 @@ alt="Enable product tracking by lots in the &quot;Inventory&quot; tab of the pro
 
 ### Scan barcode on receipt
 
-To ensure accurate lot interpretation in Odoo on product barcodes
+To ensure accurate lot interpretation in Konvergo ERP on product barcodes
 scanned during a receipt operation, navigate to the `Barcode` app to
 manage the `receipt picking process
 <barcode/operations/scan-received-products>`.
@@ -227,7 +227,7 @@ are used:
 <p>Barcode Pattern</p>
 </blockquote></th>
 <th><blockquote>
-<p>Field in Odoo</p>
+<p>Field in Konvergo ERP</p>
 </blockquote></th>
 </tr>
 </thead>
@@ -253,7 +253,7 @@ transfer form</td>
 
 ### Scan barcode on receipt
 
-To confirm that quantities are correctly interpreted in Odoo, place an
+To confirm that quantities are correctly interpreted in Konvergo ERP, place an
 order in the *Purchase* app using the appropriate unit of measure
 (`UoM`) for the quantity of products to be purchased.
 

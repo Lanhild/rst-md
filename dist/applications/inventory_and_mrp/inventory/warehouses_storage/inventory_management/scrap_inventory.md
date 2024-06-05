@@ -1,7 +1,7 @@
 # Scrap inventory
 
 In some cases, a product in inventory may be damaged or found to be
-defective. If it is not possible to repair or return the product, Odoo
+defective. If it is not possible to repair or return the product, Konvergo ERP
 *Inventory* allows users to scrap it, ensuring that usable inventory
 counts remain accurate.
 
@@ -21,7 +21,7 @@ counts remain accurate.
 By default, scrapping a product removes it from physical inventory, and
 places it in a virtual location titled *Virtual Locations/Scrap*. A
 virtual location is **not** a physical space, but rather a designation
-in Odoo that is used to track items that are no longer in physical
+in Konvergo ERP that is used to track items that are no longer in physical
 inventory.
 
 <div class="admonition">
@@ -87,7 +87,7 @@ alt="The scrap pop-up in the Inventory app." />
 
 > [!IMPORTANT]
 > The `Scrap` button will only appear on a receipt that has been
-> validated. This is because Odoo only allows products to be scrapped
+> validated. This is because Konvergo ERP only allows products to be scrapped
 > once they have been entered into inventory.
 
 On the `Scrap` pop-up window, select the product being scrapped from the

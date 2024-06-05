@@ -18,12 +18,12 @@ Starting January 1, 2023, companies registered for tax purposes in
 Romania must report their accounting data to the Romanian Tax Agency
 monthly or quarterly in the D.406 declaration.
 
-Odoo provides all you need to export the data of this declaration in the
+Konvergo ERP provides all you need to export the data of this declaration in the
 SAF-T XML format, which you can validate and sign using the software
 provided by the Romanian Tax Agency.
 
 > [!NOTE]
-> Currently, Odoo only supports the generation of the monthly/quarterly
+> Currently, Konvergo ERP only supports the generation of the monthly/quarterly
 > D.406 declaration (containing journal entries, invoices, vendor bills,
 > and payments). The yearly declaration (including assets) and the
 > on-demand declaration (including inventory) are not yet supported.
@@ -91,7 +91,7 @@ a company based in Romania, you may instead fill in the CUI number
 You must indicate the `Romanian SAF-T Tax Type` (3-digit number) and
 `Romanian
 SAF-T Tax Code` (6-digit number) on each of the taxes you use. This is
-already done for the taxes that exist by default in Odoo. To do so, go
+already done for the taxes that exist by default in Konvergo ERP. To do so, go
 to `Accounting --> Configuration -->
 Taxes`, select the tax you wish to modify, click the `Advanced Options`
 tab, and fill in the **tax type** and **tax code** fields.

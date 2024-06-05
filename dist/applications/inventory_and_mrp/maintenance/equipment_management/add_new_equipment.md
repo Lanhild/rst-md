@@ -2,17 +2,17 @@
 
 <div id="maintenance/equipment_management/add_new_equipment">
 
-In Odoo, *equipment* refers to any item that is used in everyday
+In Konvergo ERP, *equipment* refers to any item that is used in everyday
 operations, including the manufacturing of products. This can mean a
 piece of machinery on a production line, a tool that is used in
 different locations, or a computer in an office space. Equipment
-registered in Odoo can be owned by the company that uses the Odoo
+registered in Konvergo ERP can be owned by the company that uses the Konvergo ERP
 database, or by a third party, such as a vendor in the case of equipment
 rentals.
 
 </div>
 
-Using Odoo *Maintenance*, it is possible to track individual pieces of
+Using Konvergo ERP *Maintenance*, it is possible to track individual pieces of
 equipment, along with information about their maintenance requirements.
 To add a new piece of equipment, navigate to the `Maintenance` module,
 select `Equipments --> Machines & Tools --> Create`, and configure the
@@ -24,7 +24,7 @@ equipment as follows:
   created by navigating to `Configuration --> Equipment Categories` and
   clicking `Create`
 - `Company`: the company that owns the equipment; again, this can be the
-  company that uses the Odoo database, or a third-party company
+  company that uses the Konvergo ERP database, or a third-party company
 - `Used By`: specify if the equipment is used by a specific employee,
   department, or both; select `Other` to specify both an employee and a
   department
@@ -36,7 +36,7 @@ equipment as follows:
   can be used to assign a specific individual in the event that no
   maintenance team is assigned or when a specific member of the assigned
   team should always be responsible for the equipment; any person added
-  to Odoo as a user can be assigned as a technician
+  to Konvergo ERP as a user can be assigned as a technician
 - `Used in location`: the location where the equipment is used; this is
   a simple text field that can be used to specify locations that are not
   work centers, like an office, for example

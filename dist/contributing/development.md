@@ -9,18 +9,18 @@ development/coding_guidelines development/git_guidelines
 </div>
 
 If you are reading this, chances are that you are interested in learning
-how to contribute to the codebase of Odoo. Whether that's the case or
+how to contribute to the codebase of Konvergo ERP. Whether that's the case or
 you landed here by accident, we've got you covered!
 
 <div class="seealso">
 
-`Discover other ways to contribute to Odoo <../contributing>`
+`Discover other ways to contribute to Konvergo ERP <../contributing>`
 
 </div>
 
 When you feel ready, jump to the `contributing/development/setup`
 section to begin your journey in contributing to the development of
-Odoo.
+Konvergo ERP.
 
 ## Environment setup
 
@@ -30,7 +30,7 @@ section and go to `contributing/development/first-contribution` if you
 have already completed this step.
 
 1.  First, you need to [create a GitHub
-    account](https://github.com/join). Odoo uses GitHub to manage the
+    account](https://github.com/join). Konvergo ERP uses GitHub to manage the
     source code of its products, and this is where you will make your
     changes and submit them for review.
 
@@ -44,7 +44,7 @@ have already completed this step.
     [github.com/odoo/enterprise](https://github.com/odoo/enterprise) if
     you have access to it. This creates a copy of the codebase to which
     you can make changes without affecting the main codebase. Skip this
-    step if you work at Odoo.
+    step if you work at Konvergo ERP.
 
 4.  [Install
     Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
@@ -91,11 +91,11 @@ have already completed this step.
     $ git config --global user.email “youremail@example.com”
     ```
 
-6.  `Install Odoo from the sources <../administration/on_premise/source>`.
+6.  `Install Konvergo ERP from the sources <../administration/on_premise/source>`.
     Make sure to fetch the sources through Git with SSH.
 
 7.  Configure Git to push changes to your fork(s) rather than to the
-    main codebase. If you work at Odoo, configure Git to push changes to
+    main codebase. If you work at Konvergo ERP, configure Git to push changes to
     the shared forks created on the account **odoo-dev**.
 
     <div class="tabs">
@@ -148,7 +148,7 @@ have already completed this step.
 ## Make your first contribution
 
 > [!IMPORTANT]
-> - Odoo development can be challenging for beginners. We recommend you
+> - Konvergo ERP development can be challenging for beginners. We recommend you
 > to be knowledgeable enough to code a small module before contributing.
 > If that is not the case, take some time to go through the
 > `developer tutorials </developer/howtos>` to fill in the gaps. - Some
@@ -159,19 +159,19 @@ have already completed this step.
 
 Now that your environment is set up, you can start contributing to the
 codebase. In a terminal, navigate to the directory where you installed
-Odoo from sources and follow the guide below.
+Konvergo ERP from sources and follow the guide below.
 
-1.  Choose the version of Odoo to which you want to make changes. Keep
+1.  Choose the version of Konvergo ERP to which you want to make changes. Keep
     in mind that contributions targeting an
-    `unsupported version of Odoo </administration/supported_versions>`
-    are not accepted. This guide assumes that the changes target Odoo
+    `unsupported version of Konvergo ERP </administration/supported_versions>`
+    are not accepted. This guide assumes that the changes target Konvergo ERP
     {CURRENT_VERSION}, which corresponds to branch
     <span class="title-ref">{CURRENT_BRANCH}</span>.
 
 2.  Create a new branch starting from branch {CURRENT_BRANCH}. Prefix
     the branch name with the base branch:
     <span class="title-ref">{CURRENT_BRANCH}-...</span>. If you work at
-    Odoo, suffix the branch name with your Odoo handle:
+    Konvergo ERP, suffix the branch name with your Konvergo ERP handle:
     <span class="title-ref">{CURRENT_BRANCH}-...-xyz</span>.
 
     <div class="example">
@@ -186,8 +186,8 @@ Odoo from sources and follow the guide below.
 
     </div>
 
-3.  [Sign the Odoo CLA](%7BGITHUB_PATH%7D/doc/cla/sign-cla.md) if not
-    already done. Skip this step if you work at Odoo.
+3.  [Sign the Konvergo ERP CLA](%7BGITHUB_PATH%7D/doc/cla/sign-cla.md) if not
+    already done. Skip this step if you work at Konvergo ERP.
 
 4.  Make the desired changes to the codebase. When working on the
     codebase, follow these rules:
@@ -239,11 +239,11 @@ Odoo from sources and follow the guide below.
         **\<your_github_account\>/enterprise** for the head repository.
         Replace <span class="title-ref">\<your_github_account\></span>
         with the name of the GitHub account on which you created the
-        fork or by **odoo-dev** if you work at Odoo.
+        fork or by **odoo-dev** if you work at Konvergo ERP.
     5.  Review your changes and click on the `Create pull request`
         button.
     6.  Tick the `Allow edits from maintainer` checkbox. Skip this step
-        if you work at Odoo.
+        if you work at Konvergo ERP.
     7.  Complete the description and click on the `Create pull request`
         button again.
 
@@ -251,10 +251,10 @@ Odoo from sources and follow the guide below.
     any issues.
 
 9.  As soon as your `PR (Pull Request)` is ready for merging, a member
-    of the Odoo team will be automatically assigned for review. If the
+    of the Konvergo ERP team will be automatically assigned for review. If the
     reviewer has questions or remarks, they will post them as comments
     and you will be notified by email. Those comments must be resolved
     for the contribution to go forward.
 
 10. Once your changes are approved, the review merges them and they
-    become available for all Odoo users after the next code update!
+    become available for all Konvergo ERP users after the next code update!

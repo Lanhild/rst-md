@@ -418,7 +418,7 @@ different locations, however some sections appear regardless.
 
 > [!IMPORTANT]
 > Employees do not also need to be users. *Employees* do **not** count
-> towards the Odoo subscription billing, while *Users* **do** count
+> towards the Konvergo ERP subscription billing, while *Users* **do** count
 > towards billing. If the new employee should also be a user, the user
 > must be created. After the `User` is created and saved, the new user
 > will appear in the `Related User` field.

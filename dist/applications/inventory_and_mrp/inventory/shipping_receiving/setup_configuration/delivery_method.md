@@ -1,6 +1,6 @@
 # Delivery methods
 
-When activated in Odoo, the *Delivery Methods* setting adds the option
+When activated in Konvergo ERP, the *Delivery Methods* setting adds the option
 of calculating the cost of shipping on sales orders and e-commerce
 shopping carts.
 
@@ -12,7 +12,7 @@ are calculated based on the carrier's pricing and packaging information.
 
 \-
 `Third-party shipping carrier setup <inventory/shipping/third_party>` -
-[Odoo Tutorials: Delivery
+[Konvergo ERP Tutorials: Delivery
 Prices](https://www.odoo.com/slides/slide/delivery-prices-613?fullscreen=1)
 
 </div>
@@ -21,7 +21,7 @@ Prices](https://www.odoo.com/slides/slide/delivery-prices-613?fullscreen=1)
 
 To calculate shipping on sales orders and e-commerce, the *Delivery
 Costs* module must be installed. To do so, navigate to the `Apps`
-application from the main Odoo dashboard.
+application from the main Konvergo ERP dashboard.
 
 Then, remove the `Apps` filter, and type in
 <span class="title-ref">Delivery Costs</span> in the `Search...` bar.

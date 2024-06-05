@@ -22,10 +22,10 @@ A variety of settings can be configured for digest emails, such as:
   required)
 
 > [!NOTE]
-> By default, the `Digest Email` feature is enabled. `Your Odoo Periodic
+> By default, the `Digest Email` feature is enabled. `Your Konvergo ERP Periodic
 > Digest` serves as the primary template, which includes all
 > `KPI (key performance
-> indicator)` measurements across the Odoo database, and is sent daily
+> indicator)` measurements across the Konvergo ERP database, and is sent daily
 > to administrators.
 
 > [!WARNING]
@@ -40,10 +40,10 @@ A variety of settings can be configured for digest emails, such as:
 
 ## Customize default digest email
 
-To customize the default digest email (*Your Odoo Periodic Digest*), go
+To customize the default digest email (*Your Konvergo ERP Periodic Digest*), go
 to `Settings
 app --> Statistics section --> Digest Email field`. Then, select
-`Your Odoo Periodic
+`Your Konvergo ERP Periodic
 Digest`, and click on the `↗️ (External link)` icon, next to the
 drop-down menu selection.
 
@@ -63,7 +63,7 @@ which include:
   the section on `digest-emails/recipients`.
 
 > [!NOTE]
-> The `KPIs (key performance indicators)` can be customized using Odoo
+> The `KPIs (key performance indicators)` can be customized using Konvergo ERP
 > *Studio*. Additional costs to the database subscription are incurred
 > should *Studio* need to be installed. See this section on
 > `digest-emails/custom-kpi`.
@@ -109,7 +109,7 @@ all `KPIs (key performance indicators)` are added (or deselected), click
 `Save`.
 
 The following `KPIs (key performance indicators)` are available in the
-`KPIs` tab on a digest email template form out-of-box in Odoo:
+`KPIs` tab on a digest email template form out-of-box in Konvergo ERP:
 
 <img src="digest_emails/oob-kpis.png" class="align-right"
 alt="KPIs listed in the out-of-box digest email." />
@@ -197,17 +197,17 @@ After clicking `Save`, the new custom digest email is available as a
 selection in the `Digest Email` field, located in the
 `Settings app --> Statistics section`.
 
-## Custom KPIs with Odoo Studio
+## Custom KPIs with Konvergo ERP Studio
 
 The `KPIs (key performance indicators)` on a digest email template form,
-in the `KPIs` tab, can be customized using Odoo *Studio*.
+in the `KPIs` tab, can be customized using Konvergo ERP *Studio*.
 
 > [!WARNING]
 > Additional costs to the database subscription are incurred, should
-> Odoo *Studio* need to be installed.
+> Konvergo ERP *Studio* need to be installed.
 
 To begin, click the `🛠️ (tools)` icon in the top-right of the screen.
-This is the link to the Odoo *Studio* application.
+This is the link to the Konvergo ERP *Studio* application.
 
 In order to create additional fields, create two fields on the digest
 object:

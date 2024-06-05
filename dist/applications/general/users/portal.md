@@ -3,12 +3,12 @@
 <div id="portal/main">
 
 Portal access is given to users who need the ability to view certain
-documents or information within an Odoo database.
+documents or information within an Konvergo ERP database.
 
 </div>
 
 Some common use cases for providing portal access include allowing
-customers to read/view any or all of the following in Odoo:
+customers to read/view any or all of the following in Konvergo ERP:
 
 - leads/opportunities
 - quotations/sales orders
@@ -27,7 +27,7 @@ customers to read/view any or all of the following in Odoo:
 
 ## Provide portal access to customers
 
-From the main Odoo dashboard, select the `Contacts` application. If the
+From the main Konvergo ERP dashboard, select the `Contacts` application. If the
 contact is not yet created in the database, click on the `Create`
 button, enter the details of the contact, and then click `Save`.
 Otherwise, choose an existing contact, and then click on the `Action`
@@ -39,7 +39,7 @@ alt="Use the Contacts application to give portal access to users." />
 Then select `Grant portal access`. A pop-up window appears, listing
 three fields:
 
-- `Contact`: the recorded name of the contact in the Odoo database
+- `Contact`: the recorded name of the contact in the Konvergo ERP database
 - `Email`: the contact's email address that they will use to log into
   the portal
 - `In Portal`: whether or not the user has portal access
@@ -54,7 +54,7 @@ alt="An email address and corresponding checkbox for the contact need to be fill
 sending a portal invitation." />
 
 An email will be sent to the specified email address, indicating that
-the contact is now a portal user for that Odoo database.
+the contact is now a portal user for that Konvergo ERP database.
 
 > [!TIP]
 > To grant portal access to multiple users at once, navigate to a
@@ -91,7 +91,7 @@ search for (and open) the portal user that needs to be edited.
 
 Next, click `Edit` (if necessary), click into the `Email Address` field,
 and proceed to make any necessary changes to this field. The
-`Email Address` field is used to log into the Odoo portal.
+`Email Address` field is used to log into the Konvergo ERP portal.
 
 > [!NOTE]
 > Changing the `Email Address` (or login) only changes the *username* on
@@ -116,7 +116,7 @@ information.
 First enter the username and password (login) into the database login
 page to access the portal user account. A portal dashboard will appear
 upon successfully logging in. Portal documents from the various
-installed Odoo applications will appear with the number count of each.
+installed Konvergo ERP applications will appear with the number count of each.
 
 <div class="seealso">
 
@@ -143,11 +143,11 @@ make the necessary changes, by typing in the current `Password`,
 
 > [!NOTE]
 > If a customer would like to change the login, as documented above,
-> contact the Odoo database point-of-contact.
+> contact the Konvergo ERP database point-of-contact.
 > `See above documentation on changing the portal username <portal/login>`.
 
 > [!NOTE]
-> Passwords for portal users and Odoo.com users remain separate, even if
+> Passwords for portal users and Konvergo ERP.com users remain separate, even if
 > the same email address is used.
 
 ### Add two-factor authentication

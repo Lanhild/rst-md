@@ -45,7 +45,7 @@ class="align-center" alt="image" />
 Solutions
 
 The solutions for each exercise of the chapter are hosted on the
-[official Odoo tutorials
+[official Konvergo ERP tutorials
 repository](https://github.com/odoo/tutorials/commits/%7BCURRENT_MAJOR_BRANCH%7D-solutions/awesome_gallery).
 
 </div>
@@ -183,7 +183,7 @@ class="align-center" alt="image" />
 ## 5. Reorganize code
 
 Real views are a little bit more organized. This may be overkill in this
-example, but it is intended to learn how to structure code in Odoo.
+example, but it is intended to learn how to structure code in Konvergo ERP.
 Also, this will scale better with changing requirements.
 
 <div class="exercise">
@@ -264,7 +264,7 @@ hook](%7BGITHUB_PATH%7D/addons/web/static/src/core/tooltip/tooltip_hook.js)
 <div class="exercise">
 
 Let's add a pager on the control panel and manage all the pagination
-like in a normal Odoo view. Note that it is surprisingly difficult.
+like in a normal Konvergo ERP view. Note that it is surprisingly difficult.
 
 <img src="04_creating_view_from_scratch/pagination.png"
 class="align-center" alt="image" />
@@ -285,7 +285,7 @@ issue with users incorrectly encoding the
 <span class="title-ref">arch</span> of their Gallery view: it is
 currently only an unstructured piece of XML.
 
-Let us add some validation! In Odoo, XML documents can be described with
+Let us add some validation! In Konvergo ERP, XML documents can be described with
 an RN file `(Relax NG file)`, and then validated.
 
 <div class="exercise">

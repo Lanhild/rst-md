@@ -5,7 +5,7 @@ that let you analyze and visualize the data of your records.
 
 ## Selecting a view
 
-Depending on the report, Odoo can display the data in various ways.
+Depending on the report, Konvergo ERP can display the data in various ways.
 Sometimes, a unique view fully tailored to the report is available,
 while several views are available for others. However, two generic views
 are dedicated to reporting: the graph and pivot views.
@@ -37,7 +37,7 @@ default, a measure is always selected. If you wish to edit it, click
 `Measures` and choose one or, only for pivots, multiple measures.
 
 > [!NOTE]
-> When you select a measure, Odoo aggregates the values recorded on that
+> When you select a measure, Konvergo ERP aggregates the values recorded on that
 > field for the filtered records. Only numerical fields
 > (`integer <studio/fields/simple-fields/integer>`,
 > `decimal <studio/fields/simple-fields/decimal>`, `monetary

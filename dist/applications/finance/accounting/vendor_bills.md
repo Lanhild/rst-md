@@ -2,7 +2,7 @@ show-content
 
 # Vendor bills
 
-In Odoo, we can register vendor bills **manually** or **automatically**,
+In Konvergo ERP, we can register vendor bills **manually** or **automatically**,
 while the **Aged Payable report** provides an overview of all
 outstanding bills to help us pay the correct amounts on time.
 
@@ -34,7 +34,7 @@ and then clicking `Upload`.
 Whether the bill is created manually or automatically, make sure the
 following fields are appropriately completed:
 
-- `Vendor`: Odoo automatically fills some information based on the
+- `Vendor`: Konvergo ERP automatically fills some information based on the
   vendor's registered information, previous purchase orders, or bills.
 - `Bill Reference`: add the sales order reference provided by the vendor
   and is used to do the `matching <payments/matching>` when you receive
@@ -79,7 +79,7 @@ Upon payment of the vendor bill, click on `Register Payment`. A new
 window pops up.
 
 Select the `Journal`, the `Payment Method`, the `Amount` you wish to pay
-(full or partial payment), and the `Currency`. Odoo fills the `Memo`
+(full or partial payment), and the `Currency`. Konvergo ERP fills the `Memo`
 field automatically if the `Payment Reference` has been set correctly in
 the vendor bill. If the field is empty, we recommend you select the
 vendor invoice number as a reference.

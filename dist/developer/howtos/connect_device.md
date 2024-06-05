@@ -1,8 +1,8 @@
 # Connect with a device
 
-IoT Drivers allow any Odoo module to communicate in real-time with any
+IoT Drivers allow any Konvergo ERP module to communicate in real-time with any
 device connected to the IoT Box. Communication with the IoT Box goes
-both ways, so the Odoo client can send commands to and receive
+both ways, so the Konvergo ERP client can send commands to and receive
 information from any of the supported devices.
 
 To add support for a device, all we need is:
@@ -13,7 +13,7 @@ To add support for a device, all we need is:
   individual device
 
 At each boot, the IoT Box will load all of the Interfaces and Drivers
-that can be located on the connected Odoo instance. Each module can
+that can be located on the connected Konvergo ERP instance. Each module can
 contain an <span class="title-ref">iot_handlers</span> directory that
 will be copied to the IoT Box. The structure of this directory is the
 following
@@ -41,7 +41,7 @@ them with the right Driver.
 
 Supported devices will appear both on the IoT Box Homepage that you can
 access through its IP address and in the IoT module of the connected
-Odoo instance.
+Konvergo ERP instance.
 
 ### Interface
 
@@ -161,7 +161,7 @@ iot_device.action(data);
 ```
 
 In your driver, define an <span class="title-ref">action</span> method
-that will be executed when called from an Odoo module. It takes the data
+that will be executed when called from an Konvergo ERP module. It takes the data
 given during the call as argument.
 
 ``` python
@@ -171,7 +171,7 @@ def action(self, data):
 
 ### Longpolling
 
-When any module in Odoo wants to read data from a specific device, it
+When any module in Konvergo ERP wants to read data from a specific device, it
 creates a listener identified by the IP/domain of the box and the device
 identifier and passes it a callback function to be called every time the
 device status changes. The callback is called with the new data as

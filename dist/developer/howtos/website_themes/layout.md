@@ -10,7 +10,7 @@ In this chapter, you will learn how to:
 
 ## Default
 
-An Odoo page combines cross-page and unique elements. Cross-page
+An Konvergo ERP page combines cross-page and unique elements. Cross-page
 elements are the same on every page, while unique elements are only
 related to a specific page. By default, a page has two cross-page
 elements, the header and the footer, and a unique main element that
@@ -28,7 +28,7 @@ contains the specific content of that page.
 </div>
 ```
 
-Any Odoo XML file starts with encoding specifications. After that, you
+Any Konvergo ERP XML file starts with encoding specifications. After that, you
 must write your code inside an <span class="title-ref">\<odoo\></span>
 tag.
 
@@ -51,7 +51,7 @@ tag.
 
 XPath (XML Path Language) is an expression language that enables you to
 navigate through elements and attributes in an XML document easily.
-XPath is used to extend standard Odoo templates.
+XPath is used to extend standard Konvergo ERP templates.
 
 A view is coded the following way.
 
@@ -90,7 +90,7 @@ This XPath adds a welcome message right before the page content.
 > [!WARNING]
 > Be careful when replacing default elements' attributes. As your theme
 > extends the default one, your changes will take priority over any
-> future Odoo update.
+> future Konvergo ERP update.
 
 > [!NOTE]
 > - You should update your module every time you create a new template
@@ -192,7 +192,7 @@ sheet](https://devhints.io/xpath).
 
 ## QWeb
 
-QWeb is the primary templating engine used by Odoo. It is an XML
+QWeb is the primary templating engine used by Konvergo ERP. It is an XML
 templating engine mainly used to generate HTML fragments and pages.
 
 <div class="seealso">
@@ -287,7 +287,7 @@ the Website Builder.
 | data-img                        | The thumbnail of the custom template shown in the templates selection on the Website Builder |
 
 Now you have to explicitly define that you want to use your custom
-template in the Odoo SASS variables.
+template in the Konvergo ERP SASS variables.
 
 ``` scss
 $o-website-values-palettes: (

@@ -2,7 +2,7 @@
 
 Companies often have multiple locations, and it is common that a
 customer invoice should be sent to one address and the delivery should
-be sent to another. Odoo's **Customer Addresses** feature is designed to
+be sent to another. Konvergo ERP's **Customer Addresses** feature is designed to
 handle this scenario by making it easy to specify which address to use
 for each case.
 

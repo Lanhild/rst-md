@@ -13,7 +13,7 @@ payment methods.
 
 2.  Go to `Profile --> Payment Account Settings` and enable the options
     `Return Value Link (Datefeed)`  
-    Enter your Odoo database URL followed by
+    Enter your Konvergo ERP database URL followed by
     <span class="title-ref">/payment/asiapay/webhook</span> in the
     `Return Value Link (Datefeed)` text field.  
     For example:
@@ -22,7 +22,7 @@ payment methods.
 
 3.  Click on `Update` to finalize the configuration.
 
-## Configuration on Odoo
+## Configuration on Konvergo ERP
 
 1.  `Navigate to the payment provider AsiaPay <payment_providers/add_new>`
     and change its state to `Enabled`.
@@ -35,7 +35,7 @@ payment methods.
     <span class="title-ref">SHA1</span>. If a different function is
     `set on your account  <payment_providers/asiapay/configure_dashboard>`,
     activate the `developer mode  <developer-mode>` and set the same
-    value to the field `Secure Hash Function` in Odoo.
+    value to the field `Secure Hash Function` in Konvergo ERP.
 
 3.  Configure the rest of the options to your liking.
 

@@ -7,7 +7,7 @@ efficiently.
 
 ## Categorize the product catalog
 
-In Odoo, there is a **specific category model** for your eCommerce.
+In Konvergo ERP, there is a **specific category model** for your eCommerce.
 Using eCommerce categories for your products allows you to add a
 navigation menu on your eCommerce page. Visitors can then use it to view
 all products under the category they select.
@@ -74,7 +74,7 @@ you can also enable `Price Filtering` to enable price filters.
 > [!TIP]
 > You can use **attribute filters** even if you do not work with product
 > variants. When adding attributes to your products, make sure only to
-> specify *one* value per attribute. Odoo does not create variants if no
+> specify *one* value per attribute. Konvergo ERP does not create variants if no
 > combination is possible.
 
 #### Sort-by search

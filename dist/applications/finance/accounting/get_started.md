@@ -2,7 +2,7 @@ show-content
 
 # Get started
 
-When you first open your Odoo Accounting app, the *Accounting Overview*
+When you first open your Konvergo ERP Accounting app, the *Accounting Overview*
 page welcomes you with a step-by-step onboarding banner, a wizard that
 helps you get started. This onboarding banner is displayed until you
 choose to close it.
@@ -11,7 +11,7 @@ The settings visible in the onboarding banner can still be modified
 later by going to `Accounting --> Configuration --> Settings`.
 
 > [!NOTE]
-> Odoo Accounting automatically installs the appropriate **Fiscal
+> Konvergo ERP Accounting automatically installs the appropriate **Fiscal
 > Localization Package** for your company, according to the country
 > selected at the creation of the database. This way, the right
 > accounts, reports, and taxes are ready-to-go.
@@ -22,7 +22,7 @@ later by going to `Accounting --> Configuration --> Settings`.
 
 The step-by-step Accounting onboarding banner is composed of four steps:
 
-![Step-by-step onboarding banner in Odoo Accounting](get_started/setup_accounting_onboarding.png)
+![Step-by-step onboarding banner in Konvergo ERP Accounting](get_started/setup_accounting_onboarding.png)
 
 1.  `accounting-setup-company`
 2.  `accounting-setup-bank`
@@ -36,7 +36,7 @@ address, logo, website, phone number, email address, and Tax ID, or VAT
 number. These details are then displayed on your documents, such as on
 invoices.
 
-![Add your company's details in Odoo Accounting and Odoo Invoicing](get_started/setup_company.png)
+![Add your company's details in Konvergo ERP Accounting and Konvergo ERP Invoicing](get_started/setup_company.png)
 
 > [!NOTE]
 > You can also change these settings by going to
@@ -58,13 +58,13 @@ prefer not to sync it with your database, you may also configure your
 bank account manually by clicking on *Create it*, and filling out the
 form.
 
-- **Name**: the bank account's name, as displayed on Odoo.
+- **Name**: the bank account's name, as displayed on Konvergo ERP.
 - **Account Number**: your bank account number (IBAN in Europe).
 - **Bank**: click on *Create and Edit* to configure the bank's details.
   Add the bank institution's name and its Identifier Code (BIC or
   SWIFT).
 - **Code**: this code is your Journal's *Short Code*, as displayed on
-  Odoo. By default, Odoo creates a new Journal with this Short Code.
+  Konvergo ERP. By default, Konvergo ERP creates a new Journal with this Short Code.
 - **Journal**: This field is displayed if you have an existing Bank
   Journal that is not linked yet to a bank account. If so, then select
   the *Journal* you want to use to record the financial transactions
@@ -101,7 +101,7 @@ Basic settings are displayed on this page to help you review your Chart
 of Accounts. To access all the settings of an account, click on the
 *double arrow button* at the end of the line.
 
-![Setup of the Chart of Accounts and their opening balances in Odoo Accounting](get_started/setup_chart_of_accounts.png)
+![Setup of the Chart of Accounts and their opening balances in Konvergo ERP Accounting](get_started/setup_chart_of_accounts.png)
 
 > [!NOTE]
 > `Click here <get_started/chart_of_accounts>` for more information on
@@ -110,16 +110,16 @@ of Accounts. To access all the settings of an account, click on the
 ## Invoicing onboarding banner
 
 There is another step-by-step onboarding banner that helps you take
-advantage of your Odoo Invoicing and Accounting apps. The *Invoicing
+advantage of your Konvergo ERP Invoicing and Accounting apps. The *Invoicing
 onboarding banner* is the one that welcomes you if you use the Invoicing
 app rather than the Accounting app.
 
-If you have Odoo Accounting installed on your database, you can reach it
+If you have Konvergo ERP Accounting installed on your database, you can reach it
 by going to `Accounting --> Customers --> Invoices`.
 
 The Invoicing onboarding banner is composed of four main steps:
 
-![Step-by-step onboarding banner in Odoo Invoicing](get_started/setup_invoicing_onboarding.png)
+![Step-by-step onboarding banner in Konvergo ERP Invoicing](get_started/setup_invoicing_onboarding.png)
 
 1.  `invoicing-setup-company`
 2.  `invoicing-setup-layout`
@@ -139,13 +139,13 @@ selecting which layout template, paper format, colors, font, and logo
 you want to use.
 
 You can also add your *Company Tagline* and the content of the
-documents’ *footer*. Note that Odoo automatically adds the company's
+documents’ *footer*. Note that Konvergo ERP automatically adds the company's
 phone number, email, website URL, and Tax ID (or VAT number) to the
 footer, according to the values you previously configured in the
 `Company Data
 <accounting-setup-company>`.
 
-![Document layout configuration in Odoo Invoicing](get_started/setup_document_layout.png)
+![Document layout configuration in Konvergo ERP Invoicing](get_started/setup_document_layout.png)
 
 > [!TIP]
 > Add your **bank account number** and a link to your **General Terms &
@@ -176,7 +176,7 @@ correctly configured.
 <div class="seealso">
 
 \* `bank` \* `get_started/chart_of_accounts` \*
-`bank/bank_synchronization` \* `../fiscal_localizations` \* [Odoo
+`bank/bank_synchronization` \* `../fiscal_localizations` \* [Konvergo ERP
 Tutorials: Accounting and Invoicing - Getting started
 \[video\]](https://www.odoo.com/slides/slide/getting-started-1692)
 

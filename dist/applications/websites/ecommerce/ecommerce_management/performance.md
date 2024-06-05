@@ -1,6 +1,6 @@
 # Performance monitoring
 
-Odoo integrates a variety of tools to analyze and improve the
+Konvergo ERP integrates a variety of tools to analyze and improve the
 performance of your eCommerce website.
 
 ## Data monitoring
@@ -28,5 +28,5 @@ periods or years, and directly `insert in spreadsheet`, etc.
 
 ## Analytics
 
-It is possible to link your Odoo website with `analytics/plausible` and
+It is possible to link your Konvergo ERP website with `analytics/plausible` and
 `analytics/google-analytics`.

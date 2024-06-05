@@ -1,11 +1,11 @@
 # Change language
 
-Odoo provides you with the option to manage Odoo in different languages,
-and each user can use Odoo in his own language .
+Konvergo ERP provides you with the option to manage Konvergo ERP in different languages,
+and each user can use Konvergo ERP in his own language .
 
 ## Load your desired language
 
-The first thing to do is to load your desired language on your Odoo
+The first thing to do is to load your desired language on your Konvergo ERP
 instance.
 
 From the general dashboard click on the **Settings** app; on the top
@@ -38,7 +38,7 @@ Open a new menu to view the changes.
 
 ## Change another user's language
 
-Odoo also gives you the possibility for each user to choose his
+Konvergo ERP also gives you the possibility for each user to choose his
 preferred language.
 
 To change the language for a different user, choose `Users --> Users`

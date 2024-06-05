@@ -65,7 +65,7 @@ Internal users can also do this from
 To send messages to a mail group, website users can email the
 `mail group's email address
 <website/mailing_lists/configure_groups>`. Internal users can also
-create messages directly from Odoo. To do so, go to
+create messages directly from Konvergo ERP. To do so, go to
 `Website --> Configuration --> Mailing Lists`, select the mail group,
 click the `Emails` smart button, and click `New`. Then, fill in the
 fields and click `Send`.

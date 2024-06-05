@@ -23,7 +23,7 @@ non-essential cookies on their device.
 
 ## Configuration
 
-To enable the cookies bar on your Odoo website, go to
+To enable the cookies bar on your Konvergo ERP website, go to
 `Website --> Configuration` and enable `Cookies Bar` in the `Privacy`
 section.
 
@@ -57,11 +57,11 @@ You can also:
 To edit the contents of the cookies bar (i.e., the consent message),
 click directly in the building block.
 
-![Odoo Website's edit panel to customize the cookies bar.](cookies_bar/customization.png)
+![Konvergo ERP Website's edit panel to customize the cookies bar.](cookies_bar/customization.png)
 
 ## Cookie policy
 
-When you enable the cookies bar for your website, Odoo creates the
+When you enable the cookies bar for your website, Konvergo ERP creates the
 **Cookie Policy** page (<span class="title-ref">/cookie-policy</span>)
 with the list of essential and optional cookies. To access it, click the
 `Cookie Policy` hyperlink in the cookies bar or open the page from

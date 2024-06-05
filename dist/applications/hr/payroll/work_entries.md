@@ -31,7 +31,7 @@ Time</span> or any other short description. Select the `Employee` and
 the `Work Entry Type` from the respective drop-down lists.
 
 <img src="work_entries/create.png" class="align-center"
-alt="Filling in the work entry Create form in Odoo." />
+alt="Filling in the work entry Create form in Konvergo ERP." />
 
 Next, enter the date and time for the work entry in the `From` and `To`
 drop-downs. First, select the date by navigating to the correct month

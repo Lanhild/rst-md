@@ -1,6 +1,6 @@
 # Demo
 
-Odoo's **Demo Payment Provider** allows you to test business flows
+Konvergo ERP's **Demo Payment Provider** allows you to test business flows
 involving online transactions without requiring real banking
 credentials.
 

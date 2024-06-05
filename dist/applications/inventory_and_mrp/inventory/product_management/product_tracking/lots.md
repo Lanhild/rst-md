@@ -1,6 +1,6 @@
 # Lot numbers
 
-*Lots* are one of the two ways to identify and track products in Odoo.
+*Lots* are one of the two ways to identify and track products in Konvergo ERP.
 They typically represent a specific batch of products that were
 received, stored, shipped, or manufactured in-house.
 
@@ -144,7 +144,7 @@ alt="lots/bulk-sn.png" />
 number on its own line.</figcaption>
 </figure>
 
-After clicking away from the text field, Odoo automatically generates
+After clicking away from the text field, Konvergo ERP automatically generates
 the necessary lot number lines. The quantities in the `Done` column
 match the first entry. Manually adjust the `To` locations and `Done`
 quantities for each lot number, as needed.
@@ -161,7 +161,7 @@ receipt form.
 
 ### On delivery orders
 
-Odoo makes it possible to specify which lot numbers for a product are
+Konvergo ERP makes it possible to specify which lot numbers for a product are
 chosen for outgoing shipment on a delivery order form.
 
 To begin, create or select an existing quotation from the `Sales` app.
@@ -241,7 +241,7 @@ Clicking a lot from the `Lot/Serial Number` dashboard reveals a separate
 page where additional information can be provided about the lot.
 
 > [!TIP]
-> Odoo automatically generates a new `Lot/Serial Number` to follow the
+> Konvergo ERP automatically generates a new `Lot/Serial Number` to follow the
 > most recent number. However, it can be edited, by clicking the line
 > under the `Lot/Serial Number` field, and changing the generated number
 > to any desired one.
@@ -282,7 +282,7 @@ To create a lot number for a product, begin by going to
 > <inventory/product_management/assign-lots>`.
 
 > [!TIP]
-> While Odoo automatically generates a new `Lot/Serial Number` to follow
+> While Konvergo ERP automatically generates a new `Lot/Serial Number` to follow
 > the most recent number, it can be edited and changed to any desired
 > number, by clicking the line under the `Lot/Serial Number` field on
 > the lot form, and changing the generated number.

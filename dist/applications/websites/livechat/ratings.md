@@ -19,7 +19,7 @@ represent the following ratings:
 > - **Dissatisfied** - *red frowning face*
 
 <img src="ratings/live-chat-ratings-faces.png" class="align-center"
-alt="View of the chat window from a user&#39;s side for Odoo Live Chat." />
+alt="View of the chat window from a user&#39;s side for Konvergo ERP Live Chat." />
 
 > [!NOTE]
 > When customers end a conversation, a field marked
@@ -41,7 +41,7 @@ icon.
 
 <img src="ratings/live-chat-ratings-operator-window.png"
 class="align-center"
-alt="View of a chat window from an operator&#39;s window highlighting a rating for Odoo Live Chat." />
+alt="View of a chat window from an operator&#39;s window highlighting a rating for Konvergo ERP Live Chat." />
 
 ## Publish customer ratings
 
@@ -56,7 +56,7 @@ slider. The slider changes from `Unpublished` to `Published`.
 
 <img src="ratings/live-chat-ratings-unpublished.png"
 class="align-center"
-alt="View of the published ratings on the portal for Odoo Live Chat." />
+alt="View of the published ratings on the portal for Konvergo ERP Live Chat." />
 
 > [!NOTE]
 > The customer notes that are submitted with the rating will *not* be
@@ -67,7 +67,7 @@ alt="View of the published ratings on the portal for Odoo Live Chat." />
 ### Add ratings page to site
 
 Once the rating page has been published, it has to be manually added to
-the website. To do this, go to the main Odoo dashboard and open the
+the website. To do this, go to the main Konvergo ERP dashboard and open the
 *Website* application. `Website app--> Site
 --> Content --> Pages`, then click `New`.
 
@@ -125,7 +125,7 @@ the ratings received on individual support tickets, as well as any
 additional comments submitted with the rating.
 
 <img src="ratings/live-chat-ratings-report.png" class="align-center"
-alt="View of the customer ratings report in Odoo Live Chat." />
+alt="View of the customer ratings report in Konvergo ERP Live Chat." />
 
 The report defaults to a kanban view, with each rating represented by a
 different card. To switch to a different view, click on one of the icons

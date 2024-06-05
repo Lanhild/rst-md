@@ -4,13 +4,13 @@ Companies often use surveys to collect valuable information from their
 customers and employees, which in turn, allows them to make more
 informed business decisions.
 
-In Odoo, surveys are used to collect customer feedback, evaluate the
+In Konvergo ERP, surveys are used to collect customer feedback, evaluate the
 success of a recent event, measure the satisfaction of customers (or
 employees), and gain more insight into shifting market sentiments.
 
 ## Getting started
 
-To begin, open the `Surveys` application and click `Create`. Odoo then
+To begin, open the `Surveys` application and click `Create`. Konvergo ERP then
 redirects the page to a blank survey template form.
 
 On the survey form, add a `Survey Title` and then add a cover image to
@@ -164,7 +164,7 @@ check the box next to the option labeled `Is a Certification`, and two
 additional fields appear. Select a color theme in the
 `Certification Template` field and then choose an `Email
 Template`. When a participant passes the certification with the required
-score, an email from Odoo will automatically be sent to that person
+score, an email from Konvergo ERP will automatically be sent to that person
 using the selected email template.
 
 If the `Give Badge` feature is enabled and the `Certification Badge` is
@@ -204,7 +204,7 @@ it, attendees will get more points if they answer quickly.
 Back on the main survey template page is the `Description` tab, where a
 custom description of the survey can be added. This is displayed beneath
 the title on the survey's homepage, which is on the front end of the
-website made through the Odoo `Website` app.
+website made through the Konvergo ERP `Website` app.
 
 ## Test and share the survey
 
@@ -212,7 +212,7 @@ Once the survey is created and saved, run a test to check for possible
 errors before finally sending it out to the participants by clicking
 `Test` in the upper left corner of the survey template page.
 
-When activated, Odoo redirects the page to a test version of the survey
+When activated, Konvergo ERP redirects the page to a test version of the survey
 on the front end of the website. This page displays how the survey will
 look to participants. Proceed to run through the survey, like a normal
 participant, to check for errors.
@@ -220,7 +220,7 @@ participant, to check for errors.
 To return to the survey template form in the backend, simply click the
 `This is a test
 survey. Edit Survey` link in the blue banner along the top of the page.
-Once Odoo redirects the page to the survey template in the backend, make
+Once Konvergo ERP redirects the page to the survey template in the backend, make
 any further changes, as needed, before officially sending the survey out
 to participants.
 
@@ -229,9 +229,9 @@ When the survey is ready to be shared with the audience, click the
 form. Then, click `Share`.
 
 In the pop-up window, add the survey recipients in the `Recipients`
-field (for existing contacts in the Odoo database) or the
+field (for existing contacts in the Konvergo ERP database) or the
 `Additional emails` field (for contacts that do not want to be listed in
-the Odoo database). Finally, click `Send`.
+the Konvergo ERP database). Finally, click `Send`.
 
 As answers are received, check them by clicking the `Answers` smart
 button on the survey template form, or the `See Results` button in the

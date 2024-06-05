@@ -294,7 +294,7 @@ Text()
 
 `Dates <odoo.fields.Date>` and `Datetimes <odoo.fields.Datetime>` are
 very important fields in any kind of business application. Their misuse
-can create invisible yet painful bugs, this section aims to provide Odoo
+can create invisible yet painful bugs, this section aims to provide Konvergo ERP
 developers with the knowledge required to avoid misusing these fields.
 
 When assigning a value to a Date/Datetime field, the following options
@@ -345,7 +345,7 @@ available by importing
 >
 > Datetime fields are stored as <span class="title-ref">timestamp
 > without timezone</span> columns in the database and are stored in the
-> UTC timezone. This is by design, as it makes the Odoo database
+> UTC timezone. This is by design, as it makes the Konvergo ERP database
 > independent from the timezone of the hosting server system. Timezone
 > conversion is managed entirely by the client side.
 
@@ -710,7 +710,7 @@ the tree structure of `~._parent_name`, and to optimize the operators
 
 Model.company_id
 
-Main field name used for Odoo multi-company behavior.
+Main field name used for Konvergo ERP multi-company behavior.
 
 Used by
 <span class="title-ref">:meth:~odoo.models.\_check_company</span> to
@@ -784,7 +784,7 @@ recordset, empty if the field is not set.
 
 ### Record cache and prefetching
 
-Odoo maintains a cache for the fields of the records, so that not every
+Konvergo ERP maintains a cache for the fields of the records, so that not every
 field access issues a database request, which would be terrible for
 performance. The following example queries the database only for the
 first statement:
@@ -792,7 +792,7 @@ first statement:
     record.name             # first access reads value from database
     record.name             # second access gets value from cache
 
-To avoid reading one field on one record at a time, Odoo *prefetches*
+To avoid reading one field on one record at a time, Konvergo ERP *prefetches*
 records and fields following some heuristics to get good performance.
 Once a field must be read on a given record, the ORM actually reads that
 field on a larger recordset, and stores the returned values in cache for
@@ -988,7 +988,7 @@ complex joins) or for performance reasons:
     self.env.cr.execute("some_sql", params)
 
 > [!WARNING]
-> Executing raw SQL bypasses the ORM and, by consequent, Odoo security
+> Executing raw SQL bypasses the ORM and, by consequent, Konvergo ERP security
 > rules. Please make sure your queries are sanitized when using user
 > input and prefer using ORM utilities if you don't really need to use
 > SQL queries.
@@ -1457,7 +1457,7 @@ Model.sorted
 
 ## Inheritance and extension
 
-Odoo provides three different mechanisms to extend models in a modular
+Konvergo ERP provides three different mechanisms to extend models in a modular
 way:
 
 - creating a new model from an existing one, adding new information to
@@ -1472,7 +1472,7 @@ alt="image" />
 ### Classical inheritance
 
 When using the `~odoo.models.Model._inherit` and
-`~odoo.models.Model._name` attributes together, Odoo creates a new model
+`~odoo.models.Model._name` attributes together, Konvergo ERP creates a new model
 using the existing one (provided via `~odoo.models.Model._inherit`) as a
 base. The new model gets all the fields, methods and meta-information
 (defaults & al) from its base.

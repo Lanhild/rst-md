@@ -13,7 +13,7 @@ established in the Netherlands.
 
 ### Credentials tab
 
-Odoo needs your **API Credentials** to connect with your Mollie account,
+Konvergo ERP needs your **API Credentials** to connect with your Mollie account,
 which comprise:
 
 - **API Key**: The test or live API Key depending on the configuration
@@ -27,7 +27,7 @@ To retrieve your API key, log into your Mollie account, go to
 
 > [!IMPORTANT]
 > If you are trying Mollie as a test, with the Test API key, change the
-> **State** to *Test Mode*. We recommend doing this on a test Odoo
+> **State** to *Test Mode*. We recommend doing this on a test Konvergo ERP
 > database, rather than on your main database.
 
 <div class="seealso">

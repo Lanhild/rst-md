@@ -4,7 +4,7 @@ nosearch
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Events](https://www.odoo.com/slides/surveys-63)
+\- [Konvergo ERP Tutorials: Events](https://www.odoo.com/slides/surveys-63)
 
 </div>
 

@@ -19,23 +19,23 @@ To access your PayPal account settings, log into PayPal, open the
 alt="PayPal account menu" />
 
 > [!IMPORTANT]
-> Note that for PayPal to work **in Odoo**, the options
+> Note that for PayPal to work **in Konvergo ERP**, the options
 > `Auto Return <paypal/auto-return>`, `PDT <paypal/pdt>`, and
 > `IPN <paypal/ipn>` **must** all be enabled.
 
 ### Auto Return
 
-The **Auto Return** feature automatically redirects customers to Odoo
+The **Auto Return** feature automatically redirects customers to Konvergo ERP
 once the payment is processed.
 
 From `Website payments`, go to `Website preferences --> Update --> Auto
 return for website payments --> Auto return` and select `On`. Enter the
-address of your Odoo database (e.g.,
+address of your Konvergo ERP database (e.g.,
 <span class="title-ref">https://yourcompany.odoo.com</span>) in the
 `Return URL` field, and `Save`.
 
 > [!NOTE]
-> Any URL does the job. Odoo only needs the setting to be enabled since
+> Any URL does the job. Konvergo ERP only needs the setting to be enabled since
 > it uses another URL.
 
 ### Payment Data Transfer (PDT)
@@ -74,7 +74,7 @@ debit/credit card. To disable that prompt, go to
 
 If you use accented characters (or anything other than primary Latin
 characters) for customer names or addresses, then you **must** configure
-the encoding format of the payment request sent by Odoo to PayPal. If
+the encoding format of the payment request sent by Konvergo ERP to PayPal. If
 you do not, some transactions fail without notice.
 
 To do so, go to [your production account
@@ -90,7 +90,7 @@ set the two default encoding formats as `UTF-8`.
 > [link](https://sandbox.paypal.com/cgi-bin/customerprofileweb?cmd=_profile-language-encoding)
 > to configure the encoding format in a test environment.
 
-## Settings in Odoo
+## Settings in Konvergo ERP
 
 <div class="seealso">
 
@@ -100,7 +100,7 @@ set the two default encoding formats as `UTF-8`.
 
 ### Credentials
 
-Odoo needs your **API Credentials** to connect with your PayPal account.
+Konvergo ERP needs your **API Credentials** to connect with your PayPal account.
 To do so, go to `Accounting --> Configuration --> Payment Providers` and
 `Activate` PayPal. Then, enter your PayPal account credentials in the
 `Credentials` tab:
@@ -108,7 +108,7 @@ To do so, go to `Accounting --> Configuration --> Payment Providers` and
 - `Email`: the login email address in Paypal;
 - `PDT Identity Token`: the key used to verify the authenticity of
   transactions;
-- `Use IPN`: enable for PayPal to work properly in Odoo.
+- `Use IPN`: enable for PayPal to work properly in Konvergo ERP.
 
 > [!TIP]
 > Save the `PDT Identity Token` for later use.
@@ -118,12 +118,12 @@ To set the `PDT Identity Token`, switch to
 the configuration steps at `paypal/pdt`.
 
 > [!NOTE]
-> The PayPal **Merchant ID** is not required in Odoo.
+> The PayPal **Merchant ID** is not required in Konvergo ERP.
 
 > [!IMPORTANT]
 > If you are trying PayPal as a test, using a
 > `PayPal Sandbox account <paypal/testing>`, change the `State` to
-> `Test Mode`. We recommend doing this on a test Odoo database rather
+> `Test Mode`. We recommend doing this on a test Konvergo ERP database rather
 > than on your main database.
 
 ### Extra fees
@@ -144,7 +144,7 @@ PayPal charges you.
 ### Configuration
 
 Thanks to PayPal sandbox accounts, you can test the entire payment flow
-in Odoo.
+in Konvergo ERP.
 
 Log into the [Paypal Developer Site](https://developer.paypal.com/)
 using your PayPal credentials, which creates two sandbox accounts:
@@ -155,13 +155,13 @@ using your PayPal credentials, which creates two sandbox accounts:
   <pp.merch01-buyer@example.com>).
 
 Log into PayPal sandbox using the merchant account and follow the same
-configuration instructions. Enter your sandbox credentials in Odoo
+configuration instructions. Enter your sandbox credentials in Konvergo ERP
 (`Accounting --> Configuration --> Payment
 Providers --> PayPal` in the `Credentials` tab, and make sure the status
-is set on `Test Mode`. We recommend doing this on a test Odoo database
+is set on `Test Mode`. We recommend doing this on a test Konvergo ERP database
 rather than your main database.
 
-Run a test transaction from Odoo using the sandbox personal account.
+Run a test transaction from Konvergo ERP using the sandbox personal account.
 
 <div class="seealso">
 

@@ -1,8 +1,8 @@
-# Connect Windows IoT Odoo
+# Connect Windows IoT Konvergo ERP
 
 A Virtual IoT box is a computer program that needs to be downloaded and
 installed on a Windows computer. This requires a Windows operating
-system with an Odoo 16 or later database.
+system with an Konvergo ERP 16 or later database.
 
 The Windows virtual `IoT (Internet of Things)` box works the same way as
 a physical `IoT
@@ -18,25 +18,25 @@ include cameras or measurement tools.*
 The following items will be needed to complete the Windows
 `IoT (Internet of Things)` installation.
 
-- Odoo 16 database or any version above.
+- Konvergo ERP 16 database or any version above.
 
 - `IoT (Internet of Things)` compatible devices (except those mentioned
-  above). Refer to: [Odoo's compatible IoT
+  above). Refer to: [Konvergo ERP's compatible IoT
   devices](https://www.odoo.com/app/iot-hardware).
 
 - Device drivers for Windows.
 
   > [!NOTE]
-  > Odoo recommends using an updated, recent version of Windows (Windows
+  > Konvergo ERP recommends using an updated, recent version of Windows (Windows
   > 10/11) as some older operating systems can cause the Windows virtual
   > `IoT (Internet of Things)` to not work.
 
 - Windows computer (laptop, desktop, or server).
 
-- Odoo `IoT (Internet of Things)` subscription. Refer to:
+- Konvergo ERP `IoT (Internet of Things)` subscription. Refer to:
   `iot/iot-eligibility`.
 
-## Connect the Windows virtual IoT box to an Odoo database
+## Connect the Windows virtual IoT box to an Konvergo ERP database
 
 The Windows virtual IoT box is simple to setup in just a few easy steps.
 Follow this process when installing the Windows virtual IoT software for
@@ -44,13 +44,13 @@ the first time.
 
 ### Download and initial installation
 
-To begin the installation, navigate to the Odoo 16 or higher
-installation package for Community -Windows edition at [Odoo's download
-page](https://odoo.com/download). Next, install and setup the Odoo
+To begin the installation, navigate to the Konvergo ERP 16 or higher
+installation package for Community -Windows edition at [Konvergo ERP's download
+page](https://odoo.com/download). Next, install and setup the Konvergo ERP
 `.exe` file. After the instructions screen, click `Next` to start the
 installation and agree to the `TOS (Terms of Service)`.
 
-During the next step of the installation, select `Odoo IoT` from the
+During the next step of the installation, select `Konvergo ERP IoT` from the
 `Select the
 type of install` drop-down menu.
 
@@ -58,8 +58,8 @@ type of install` drop-down menu.
 
 For reference, the following should be installed:
 
-- **Odoo server**
-- **Odoo IoT**
+- **Konvergo ERP server**
+- **Konvergo ERP IoT**
 - **Nginx WebServer**
 - **Ghostscript interpreter**
 
@@ -80,15 +80,15 @@ To complete the installation, select the `Destination Folder` and click
 > drive.
 
 > [!WARNING]
-> Odoo's Windows virtual IoT software should not be installed inside any
+> Konvergo ERP's Windows virtual IoT software should not be installed inside any
 > of the Window's User's directories. Doing so will not allow for Nginx
 > to initialize.
 
 The installation may take a few minutes. When complete, click `Next` to
 continue.
 
-Ensure that the `Start Odoo` box is checked and click `Finish`. After
-installation, the Odoo server will run and automatically open
+Ensure that the `Start Konvergo ERP` box is checked and click `Finish`. After
+installation, the Konvergo ERP server will run and automatically open
 <span class="title-ref">http://localhost:8069</span> on a web browser.
 The webpage should display the `IoT (Internet of Things)` box homepage.
 
@@ -156,15 +156,15 @@ In some instances a manual restart of the physical
 `IoT (Internet of Things)` box can resolve the issue of an
 `IoT (Internet of Things)` box not showing up on the database. For the
 Windows virtual `IoT (Internet of Things)` box a manual restart of the
-Odoo server can resolve database connection issues.
+Konvergo ERP server can resolve database connection issues.
 
 To restart the virtual Windows IoT server:
 
 1.  Type <span class="title-ref">Services</span> into the Windows
     `Search Bar`.
-2.  Select the `Services` App and scroll down to the `Odoo` service.
-3.  Right click on `Odoo` and select `Start` or `Restart`. This action
-    will manually restart the Odoo IoT server.
+2.  Select the `Services` App and scroll down to the `Konvergo ERP` service.
+3.  Right click on `Konvergo ERP` and select `Start` or `Restart`. This action
+    will manually restart the Konvergo ERP IoT server.
 
 ### Firewalls
 
@@ -221,21 +221,21 @@ connection while allowing the selected port to communicate. Click `Next`
 to continue.
 
 Finally, assign a new, unique name to the rule. For example, this name
-can be <span class="title-ref">Odoo</span>. Optionally, add a brief
+can be <span class="title-ref">Konvergo ERP</span>. Optionally, add a brief
 description in the `Description` field. Click `Finish` to complete the
 `Rule Configuration` wizard. Now, the new rule is active and devices can
 connect to the Windows virtual `IoT (Internet of Things)` box.
 
 #### Worldline exception
 
-*Worldline* is a payment terminal that can be connected to Odoo's *PoS*
+*Worldline* is a payment terminal that can be connected to Konvergo ERP's *PoS*
 (point of sale) system. It allows for a comprehensive and fluid payment
 experience for customers. Worldline is available in Belgium, the
 Netherlands, and Luxembourg.
 
 When using the Windows IoT server to connect the Worldline payment
 terminal, it is necessary to create an exception in the Windows firewall
-so that a connection can be made between the Odoo
+so that a connection can be made between the Konvergo ERP
 database/`IoT (Internet of Things)` box and Worldline.
 
 <div class="seealso">
@@ -291,13 +291,13 @@ A `Profile` page appears. Under `When does this rule apply?`, leave the
 three boxes checked for: `Domain`, `Private`, and `Public`. Click `Next`
 to continue to the naming convention page.
 
-On the `Name` page, enter <span class="title-ref">Odoo Worldline</span>,
+On the `Name` page, enter <span class="title-ref">Konvergo ERP Worldline</span>,
 under the `Name` field. Enter a `Description (optional)`. Finally, once
 ready, click `Finish`.
 
 The final `Inbound rule` should appear as follows:
 
-|                             | Odoo Worldline |
+|                             | Konvergo ERP Worldline |
 |-----------------------------|----------------|
 | Profile                     | All            |
 | Enabled                     | Yes            |
@@ -322,8 +322,8 @@ Uninstalling the Windows virtual `IoT (Internet of Things)` box is done
 through the Windows program manager. Using any Windows version, search
 for <span class="title-ref">program</span>. Then, select `Add or
 Remove Programs` located in the control panel. Search for
-<span class="title-ref">Odoo</span> and click the `three dot
+<span class="title-ref">Konvergo ERP</span> and click the `three dot
 menu` to uninstall.
 
 Confirm the un-installation and follow the steps to uninstall through
-the Odoo uninstall guide.
+the Konvergo ERP uninstall guide.

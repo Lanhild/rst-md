@@ -1,7 +1,7 @@
 # Email issues
 
 This document contains an explanation of the most recurring emailing
-issues in Odoo.
+issues in Konvergo ERP.
 
 ## Outgoing emails
 
@@ -15,7 +15,7 @@ the chatter.
 <img src="faq/red-envelop.png" class="align-center"
 alt="Red envelope icon displayed in chatter." />
 
-Unsent emails also appear in the Odoo email queue. In
+Unsent emails also appear in the Konvergo ERP email queue. In
 `developer mode <developer-mode>`, the email queue can be accessed by
 going to `Settings app --> Technical menu --> Email
 --> Emails`. Unsent emails appear in turquoise, while sent emails appear
@@ -26,16 +26,16 @@ in grey.
 ##### Daily limit reached
 
 <img src="faq/email-limit.png" class="align-center"
-alt="Warning in Odoo upon email limit reached." />
+alt="Warning in Konvergo ERP upon email limit reached." />
 
 Each email service provider has its own email sending limits. The limits
 may be daily, hourly, or sometimes, per minute. This is the same for
-Odoo, which limits a customer's sending to prevent Odoo's email servers
+Konvergo ERP, which limits a customer's sending to prevent Konvergo ERP's email servers
 from being blacklisted.
 
 Here are the default limits for new databases:
 
-- **200 emails per day** for Odoo Online and Odoo.sh databases with an
+- **200 emails per day** for Konvergo ERP Online and Konvergo ERP.sh databases with an
   active subscription.
 - **20 emails per day** for one-app free databases.
 - **50 emails per day** for trial databases.
@@ -44,14 +44,14 @@ Here are the default limits for new databases:
 
 If the daily limit is reached:
 
-- Contact the Odoo support team, who may increase the daily limit
+- Contact the Konvergo ERP support team, who may increase the daily limit
   depending on the following factors:
   1.  How many users are in the database?
   2.  Which apps are installed?
   3.  The bounce rate: the percentage of email addresses that did not
       receive emails because they were returned by a mail server on its
       way to the final recipient.
-- Use an external outgoing email server to be independent of Odoo's mail
+- Use an external outgoing email server to be independent of Konvergo ERP's mail
   limit (refer to the corresponding `email documentation
   </applications/general/email_communication/email_servers>`).
 - Wait until 11 PM (UTC) for the daily limit to reset, and retry sending
@@ -64,7 +64,7 @@ If the daily limit is reached:
 > The daily email limit is comprehensive to the database. By default,
 > any internal message, notification, logged note, etc. counts as an
 > email in the daily limit if it notifies someone via email. This can be
-> mitigated by receiving `notifications in Odoo
+> mitigated by receiving `notifications in Konvergo ERP
 > <discuss_app/notification_preferences>`, instead of emails.
 
 ##### SMTP error
@@ -96,24 +96,24 @@ particular record. Within each message there is information on sending,
 including the type, and subtype, of the message.
 
 Other information includes to whom the message was sent, and whether
-Odoo received a bounce-back message from an email server.
+Konvergo ERP received a bounce-back message from an email server.
 
 <img src="faq/manage-messages.png" class="align-center"
 alt="Manage messages menu option on the debug menu." />
 
 > [!NOTE]
-> A user must be on a view in Odoo that has a chatter in order for the
+> A user must be on a view in Konvergo ERP that has a chatter in order for the
 > `Manage Messages` menu option to appear.
 
 ###### No error populated
 
-Odoo is not always capable of providing information for the reason it
+Konvergo ERP is not always capable of providing information for the reason it
 failed. The different email providers implement a personalized policy of
-bounced emails, and it is not always possible for Odoo to interpret it
+bounced emails, and it is not always possible for Konvergo ERP to interpret it
 correctly.
 
 If this is a recurring problem with the same client, or the same domain,
-do not hesitate to contact [Odoo Support](https://www.odoo.com/help) for
+do not hesitate to contact [Konvergo ERP Support](https://www.odoo.com/help) for
 help in finding a reason.
 
 > [!NOTE]
@@ -129,11 +129,11 @@ help in finding a reason.
 ### Email is sent late
 
 Email campaigns send at a scheduled time, using a delay pre-programed in
-the database. Odoo uses a delayed task to send emails that are
+the database. Konvergo ERP uses a delayed task to send emails that are
 considered "not urgent" (newsletter formats, such as: mass mailing,
 marketing automation, and events). The system utility **cron** can be
 used to schedule programs to run automatically at predetermined
-intervals. Odoo uses that policy in order to avoid cluttering the mail
+intervals. Konvergo ERP uses that policy in order to avoid cluttering the mail
 servers and, instead, prioritizes individual communication. This
 **cron** is called `Mail: Email Queue Manager`, and can be accessed in
 `developer mode
@@ -145,13 +145,13 @@ Scheduled Actions`.
 alt="Email scheduled to be sent later." />
 
 > [!TIP]
-> What is a **cron**? A cron is an action that Odoo runs in the
+> What is a **cron**? A cron is an action that Konvergo ERP runs in the
 > background to execute particular code to complete a task.
 
 > [!IMPORTANT]
 > By default, the *Mass Mailing cron* runs every 60 minutes. This can be
 > changed to no less than 5 minutes. However, running the action every 5
-> minutes would bog down the Odoo database (stress the system), so this
+> minutes would bog down the Konvergo ERP database (stress the system), so this
 > is not recommended. To edit the mass mailing cron, select the
 > scheduled action `Mail: Email Queue Manager`, and proceed to make any
 > necessary adjustments.
@@ -163,26 +163,26 @@ immediately.
 ## Incoming emails
 
 When there is an issue with incoming emails, there might not be an
-indication, per se, in Odoo. It is the sending email client, who tries
+indication, per se, in Konvergo ERP. It is the sending email client, who tries
 to contact a database, that will get a bounce-back message (most of the
 time a `550: mailbox unavailable` error message).
 
 ### Email is not received
 
-The steps that should be taken depend on the Odoo platform where the
+The steps that should be taken depend on the Konvergo ERP platform where the
 database is hosted.
 
-**Odoo.sh** users can find their live logs on the folder `~/logs/`.
+**Konvergo ERP.sh** users can find their live logs on the folder `~/logs/`.
 
 Logs are a stored collection of all the tasks completed in a database.
 They are a text-only representation, complete with timestamps of every
-action taken on the Odoo database. This can be helpful to track emails
+action taken on the Konvergo ERP database. This can be helpful to track emails
 leaving the database. Failure to send can also be seen by logs that
 indicate that the message tried to send repeatedly. Logs will show every
 action to the email servers from the database.
 
-The folder `~/logs/` (accessed by the command line or on the Odoo.sh
-dashboard) of an Odoo.sh database contains a list of files containing
+The folder `~/logs/` (accessed by the command line or on the Konvergo ERP.sh
+dashboard) of an Konvergo ERP.sh database contains a list of files containing
 the logs of the database. The log files are created everyday at 5:00 AM
 (UTC).
 
@@ -198,7 +198,7 @@ the logs of the database. The log files are created everyday at 5:00 AM
 
 <div class="seealso">
 
-For more information on logs and how to access them via the Odoo.sh
+For more information on logs and how to access them via the Konvergo ERP.sh
 dashboard, see `this
 administration documentation <odoosh/logs>`.
 
@@ -208,23 +208,23 @@ documentation <reference/cmdline/server/logging>`.
 
 </div>
 
-**Odoo Online** users won't have access to the logs. However [Odoo
+**Konvergo ERP Online** users won't have access to the logs. However [Konvergo ERP
 Support](https://www.odoo.com/help) can be contacted if there is a
 recurring issue with the same client or domain.
 
-## Get help from Odoo support
+## Get help from Konvergo ERP support
 
 In order to get helped efficiently, please provide as much information
 as possible. Here is a list of what can be helpful when reaching out to
-the Odoo Support team about an issue:
+the Konvergo ERP Support team about an issue:
 
 1.  Send a copy of the email headers. The
     <span class="title-ref">.EML</span> file (or **headers**) of the
     email is the file format containing all the technical information
     required for an investigation. The documentation from the email
     provider might explain how to access the EML file/header files. Once
-    the headers of the email are obtained, adding it into the Odoo
-    Support ticket is the most efficient way for the Odoo Support team
+    the headers of the email are obtained, adding it into the Konvergo ERP
+    Support ticket is the most efficient way for the Konvergo ERP Support team
     to investigate.
 
     <div class="seealso">
@@ -238,12 +238,12 @@ the Odoo Support team about an issue:
     </div>
 
 2.  Explain the exact flow that is being followed to normally receive
-    those emails in Odoo. Here are examples of questions whose answers
+    those emails in Konvergo ERP. Here are examples of questions whose answers
     can be useful:
 
     - Is this a notification message from a reply being received in
-      Odoo?
-    - Is this a message being sent from the Odoo database?
+      Konvergo ERP?
+    - Is this a message being sent from the Konvergo ERP database?
     - Is there an incoming email server being used, or is the email
       somehow being redirected?
     - Is there an example of an email that has been correctly forwarded?
@@ -252,8 +252,8 @@ the Odoo Support team about an issue:
 
     - Is it a generic issue, or is it specific to a use case? If
       specific to a use case, which one exactly?
-    - Is it working as expected? In case the email is sent using Odoo,
-      the bounce email should reach the Odoo database, and display the
+    - Is it working as expected? In case the email is sent using Konvergo ERP,
+      the bounce email should reach the Konvergo ERP database, and display the
       `red envelope <red_envelop>`.
 
 > [!NOTE]

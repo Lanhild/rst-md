@@ -15,7 +15,7 @@ errors that would potentially make for payment issues.
 
 <div class="seealso">
 
-\- `../bank` - [Odoo Academy: QR Code on Invoices for European
+\- `../bank` - [Konvergo ERP Academy: QR Code on Invoices for European
 Customers](https://www.odoo.com/r/VuU)
 
 </div>
@@ -27,7 +27,7 @@ Codes` feature in the `Customer Payments` section.
 
 ### Configure your bank account's journal
 
-Make sure that your `Bank Account` is correctly configured in Odoo with
+Make sure that your `Bank Account` is correctly configured in Konvergo ERP with
 your IBAN and BIC.
 
 To do so, go to `Accounting --> Configuration --> Journals`, open your
@@ -45,12 +45,12 @@ code and pay the invoice.
 
 Go to `Accounting --> Customers --> Invoices`, and create a new invoice.
 
-Before posting it, open the `Other Info` tab. Odoo automatically fills
+Before posting it, open the `Other Info` tab. Konvergo ERP automatically fills
 out the `Recipient Bank` field with your IBAN.
 
 > [!NOTE]
 > In the `Other Info` tab, the account indicated in the `Recipient Bank`
-> field is used to receive your customer's payment. Odoo automatically
+> field is used to receive your customer's payment. Konvergo ERP automatically
 > populates this field with your IBAN by default and uses it to generate
 > the EPC QR code.
 

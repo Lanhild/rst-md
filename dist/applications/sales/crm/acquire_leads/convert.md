@@ -46,7 +46,7 @@ On the `Convert to opportunity` pop-up window, in the
 
 > [!NOTE]
 > If a lead, or an opportunity, already exists in the database for this
-> customer, Odoo automatically suggests merging both
+> customer, Konvergo ERP automatically suggests merging both
 > leads/opportunities. For more information on merging leads and
 > opportunities, see the section on how to `merge leads
 > <sales/crm/acquire_leads/merge-leads>` below.
@@ -75,7 +75,7 @@ Lastly, when all configurations are complete, click
 
 ## Merge leads and opportunities
 
-Odoo automatically detects similar leads and opportunities by comparing
+Konvergo ERP automatically detects similar leads and opportunities by comparing
 the email addresses of the associated contacts. If a similar
 lead/opportunity is found, a `Similar Lead` smart button appears at the
 top of the lead/opportunity record.
@@ -89,7 +89,7 @@ leads/opportunities. Click into each card to view the details for each
 lead/opportunity, and confirm if they should be merged.
 
 > [!IMPORTANT]
-> When merging, Odoo gives priority to whichever lead/opportunity was
+> When merging, Konvergo ERP gives priority to whichever lead/opportunity was
 > created in the system first, merging the information into the first
 > created lead/opportunity. However, if a lead and an opportunity are
 > being merged, the resulting record is referred to as an opportunity,

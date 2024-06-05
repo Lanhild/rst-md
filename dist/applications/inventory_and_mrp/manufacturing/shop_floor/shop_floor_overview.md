@@ -14,14 +14,14 @@ then click `Install` on the `Manufacturing` app card.
 
 > [!IMPORTANT]
 > The *Shop Floor* module replaces the tablet view functionality of the
-> *Manufacturing* app, and is only available in Odoo versions 16.4 and
+> *Manufacturing* app, and is only available in Konvergo ERP versions 16.4 and
 > later.
 >
-> To check the version number of an Odoo database, navigate to
+> To check the version number of an Konvergo ERP database, navigate to
 > `Settings` and scroll down to the `About` section at the bottom of the
 > page. The version number is displayed there.
 >
-> To switch to a newer version of Odoo, see the documentation on
+> To switch to a newer version of Konvergo ERP, see the documentation on
 > `upgrading a database
 > <../../../../administration/upgrade>`.
 

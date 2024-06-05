@@ -2,7 +2,7 @@
 
 An upgrade is the process of moving your database from an older version
 to a newer `supported
-version <supported_versions>` (e.g., Odoo 14.0 to Odoo 16.0). Frequently
+version <supported_versions>` (e.g., Konvergo ERP 14.0 to Konvergo ERP 16.0). Frequently
 upgrading is essential as each version comes with new and improved
 features, bug fixes, and security patches.
 
@@ -10,9 +10,9 @@ features, bug fixes, and security patches.
 
 <div class="spoiler">
 
-Automatic upgrades: Odoo Online's Rolling Release process
+Automatic upgrades: Konvergo ERP Online's Rolling Release process
 
-The Rolling Release process allows Odoo Online customers to upgrade
+The Rolling Release process allows Konvergo ERP Online customers to upgrade
 their database directly from a message prompt sent to the database
 administrator as soon as a new version is released. The invitation to
 upgrade is only sent if no issues are detected during the automatic
@@ -38,17 +38,17 @@ will be deactivated until the issue is resolved.
 
 An upgrade does not cover:
 
-> - Downgrading to a previous version of Odoo
+> - Downgrading to a previous version of Konvergo ERP
 > - `Switching editions <on_premise/community_to_enterprise>` (e.g.,
 >   from Community to Enterprise)
 > - `Changing hosting type <hosting/change-solution>` (e.g., from
->   on-premise to Odoo Online)
-> - Migrating from another ERP to Odoo
+>   on-premise to Konvergo ERP Online)
+> - Migrating from another ERP to Konvergo ERP
 
 > [!WARNING]
 > If your database contains custom modules, it cannot be upgraded until
 > a version of your custom modules is available for the target version
-> of Odoo. For customers maintaining their own custom modules, we
+> of Konvergo ERP. For customers maintaining their own custom modules, we
 > recommend to parallelize the process by
 > `requesting an upgraded database
 > <upgrade/request-test-database>` while also
@@ -61,12 +61,12 @@ An upgrade does not cover:
     `obtaining an upgraded test database
     <upgrade/request-test-database>`).
 2.  If applicable, upgrade the source code of your custom module to be
-    compatible with the new version of Odoo (see
+    compatible with the new version of Konvergo ERP (see
     `/developer/howtos/upgrade_custom_db`).
 3.  Thoroughly test the upgraded database (see
     `testing the new version of the database
     <upgrade/test_your_db>`).
-4.  Report any issue encountered during the testing to Odoo by
+4.  Report any issue encountered during the testing to Konvergo ERP by
     [submitting a ticket for an issue related to my future upgrade (I am
     testing an upgrade)](https://odoo.com/help?stage=migration).
 5.  Once all issues are resolved and you are confident that the upgraded
@@ -75,7 +75,7 @@ An upgrade does not cover:
 6.  Request the upgrade for the production database, rendering it
     unavailable for the time it takes to complete the process (see
     `upgrading the production database <upgrade/upgrade-prod>`).
-7.  Report any issue encountered during the upgrade to Odoo by
+7.  Report any issue encountered during the upgrade to Konvergo ERP by
     [submitting a ticket for an issue related to my upgrade
     (production)](https://odoo.com/help?stage=post_upgrade).
 
@@ -83,28 +83,28 @@ An upgrade does not cover:
 
 The [Upgrade page](https://upgrade.odoo.com/) is the main platform for
 requesting an upgraded database. However, depending on the hosting type,
-you can upgrade from the command line (on-premise), the [Odoo Online
-database manager](https://odoo.com/my/databases), or your [Odoo.sh
+you can upgrade from the command line (on-premise), the [Konvergo ERP Online
+database manager](https://odoo.com/my/databases), or your [Konvergo ERP.sh
 project](https://odoo.sh/project).
 
 > [!NOTE]
 > The Upgrade platform follows the same [Privacy
-> Policy](https://www.odoo.com/privacy) as the other Odoo.com services.
+> Policy](https://www.odoo.com/privacy) as the other Konvergo ERP.com services.
 > Visit the [General Data Protection Regulation
-> page](https://www.odoo.com/gdpr) to learn more about how Odoo handles
+> page](https://www.odoo.com/gdpr) to learn more about how Konvergo ERP handles
 > your data and privacy.
 
 <div class="tabs">
 
 <div class="group-tab">
 
-Odoo Online
+Konvergo ERP Online
 
-Odoo Online databases can be manually upgraded via the [database
+Konvergo ERP Online databases can be manually upgraded via the [database
 manager](https://odoo.com/my/databases).
 
 The database manager displays all databases associated with the user's
-account. Databases not on the most recent version of Odoo display an
+account. Databases not on the most recent version of Konvergo ERP display an
 arrow in a circle icon next to their name, indicating that they can be
 upgraded.
 
@@ -113,7 +113,7 @@ upgraded.
 Click the **arrow in a circle** icon to start the upgrade process. In
 the popup, fill in:
 
-- The **version** of Odoo you want to upgrade to, usually the latest
+- The **version** of Konvergo ERP you want to upgrade to, usually the latest
   version
 - The **email** address that should receive the link to the upgraded
   database
@@ -134,12 +134,12 @@ dropdown arrow before the database name.
 
 <div class="group-tab">
 
-Odoo.sh
+Konvergo ERP.sh
 
-Odoo.sh is integrated with the upgrade platform to simplify the upgrade
+Konvergo ERP.sh is integrated with the upgrade platform to simplify the upgrade
 process.
 
-![Odoo.sh project and tabs](upgrade/odoo-sh-staging.png)
+![Konvergo ERP.sh project and tabs](upgrade/odoo-sh-staging.png)
 
 The **latest production daily automatic backup** is then sent to the
 [upgrade platform](https://upgrade.odoo.com).
@@ -154,7 +154,7 @@ staging build by going to `~/logs/upgrade.log`.
 
 > [!IMPORTANT]
 > In databases where custom modules are installed, their source code
-> must be up-to-date with the target version of Odoo before the upgrade
+> must be up-to-date with the target version of Konvergo ERP before the upgrade
 > can be performed. If there are none, the "update on commit" mode is
 > skipped, the upgraded database is built as soon as it is transferred
 > from the upgrade platform, and the upgrade mode is exited.
@@ -187,7 +187,7 @@ page](https://upgrade.odoo.com/).
 
 > [!IMPORTANT]
 > In databases where custom modules are installed, their source code
-> must be up-to-date with the target version of Odoo before the upgrade
+> must be up-to-date with the target version of Konvergo ERP before the upgrade
 > can be performed. Check out the `/developer/howtos/upgrade_custom_db`
 > page for more information.
 
@@ -205,7 +205,7 @@ page](https://upgrade.odoo.com/).
 >   upgraded database
 > - A <span class="title-ref">filestore</span> folder containing files
 >   extracted from in-database records into attachments (if there are
->   any) and new standard Odoo files from the targeted Odoo version
+>   any) and new standard Konvergo ERP files from the targeted Konvergo ERP version
 >   (e.g., new images, icons, payment provider's logos, etc.). This is
 >   the folder that should be merged with the production filestore in
 >   order to get the full upgraded filestore.
@@ -298,12 +298,12 @@ Example of end-to-end testing
   behaves as in your production database.
 
 This list is **not** exhaustive. Extend the example to your other apps
-based on your use of Odoo.
+based on your use of Konvergo ERP.
 
 </div>
 
 If you face an issue while testing your upgraded test database, you can
-request the assistance of Odoo by [submitting a ticket for an issue
+request the assistance of Konvergo ERP by [submitting a ticket for an issue
 related to my future upgrade (I am testing an
 upgrade)](https://odoo.com/help?stage=migration). In any case, it is
 essential to report any problem encountered during the testing to fix it
@@ -314,7 +314,7 @@ features, fields, and models during testing. Those changes cannot be
 reverted on a case-by-case basis. However, if a change introduced by a
 new version breaks a customization, it is the responsibility of the
 maintainer of your custom module to make it compatible with the new
-version of Odoo.
+version of Konvergo ERP.
 
 > [!TIP]
 > Do not forget to test:
@@ -333,7 +333,7 @@ version of Odoo.
 Once the `tests <upgrade/test_your_db>` are completed and you are
 confident that the upgraded database can be used as your main database
 without any issues, it is time to plan the go-live day. It can be
-planned in coordination with Odoo's upgrade support analysts by
+planned in coordination with Konvergo ERP's upgrade support analysts by
 [submitting a ticket for an issue related to my future upgrade (I am
 testing an upgrade)](https://odoo.com/help?stage=migration).
 
@@ -364,7 +364,7 @@ test database with a few exceptions.
 
 <div class="group-tab">
 
-Odoo Online
+Konvergo ERP Online
 
 The process is similar to `obtaining an upgraded test database
 <upgrade/request-test-database>`, except for the purpose option, which
@@ -379,7 +379,7 @@ must be set to `Production` instead of `Test`.
 
 <div class="group-tab">
 
-Odoo.sh
+Konvergo ERP.sh
 
 The process is similar to `obtaining an upgraded test database
 <upgrade/request-test-database>` on the `Production` branch.
@@ -435,23 +435,23 @@ upgrade process.
 </div>
 
 In case of an issue with your production database, you can request the
-assistance of Odoo by [submitting a ticket for an issue related to my
+assistance of Konvergo ERP by [submitting a ticket for an issue related to my
 upgrade (production)](https://odoo.com/help?stage=post_upgrade).
 
 ## Service-level agreement (SLA)
 
-With Odoo Enterprise, upgrading a database to the most recent version of
-Odoo is **free**, including any support required to rectify potential
+With Konvergo ERP Enterprise, upgrading a database to the most recent version of
+Konvergo ERP is **free**, including any support required to rectify potential
 discrepancies in the upgraded database.
 
 Information about the upgrade services included in the Enterprise
 Licence is available in the
-`Odoo Enterprise Subscription Agreement <upgrade>`. However, this
+`Konvergo ERP Enterprise Subscription Agreement <upgrade>`. However, this
 section clarifies what upgrade services you can expect.
 
 ### Upgrade services covered by the SLA
 
-Databases hosted on Odoo's cloud platforms (Odoo Online and Odoo.sh) or
+Databases hosted on Konvergo ERP's cloud platforms (Konvergo ERP Online and Konvergo ERP.sh) or
 self-hosted (On-Premise) can benefit from upgrade services at all times
 for:
 
@@ -473,7 +473,7 @@ The following upgrade-related services are **not** included:
 - the **cleaning** of pre-existing data and configurations while
   upgrading;
 - the upgrade of **custom modules created in-house or by third
-  parties**, including Odoo partners;
+  parties**, including Konvergo ERP partners;
 - lines of **code added to standard modules**, i.e., customizations
   created outside the Studio app, code entered manually, and
   `automated actions using Python code
@@ -482,7 +482,7 @@ The following upgrade-related services are **not** included:
 
 <div class="seealso">
 
-\- `Odoo.sh documentation <odoo_sh>` -
-`Supported Odoo versions <supported_versions>`
+\- `Konvergo ERP.sh documentation <odoo_sh>` -
+`Supported Konvergo ERP versions <supported_versions>`
 
 </div>

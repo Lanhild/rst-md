@@ -1,6 +1,6 @@
 # Mixins and Useful Classes
 
-Odoo implements some useful classes and mixins that make it easy for you
+Konvergo ERP implements some useful classes and mixins that make it easy for you
 to add often-used behaviours on your objects. This guide will details
 most of them, with examples and use cases.
 
@@ -618,19 +618,19 @@ record (which usually inherits the `mail.alias.mixin` model) that will
 create new records when contacted via e-mail. They are an easy way to
 make your system accessible from the outside, allowing users or
 customers to quickly create records in your database without needing to
-connect to Odoo directly.
+connect to Konvergo ERP directly.
 
 #### Aliases vs. Incoming Mail Gateway
 
 Some people use the Incoming Mail Gateway for this same purpose. You
 still need a correctly configured mail gateway to use aliases, however a
 single catchall domain will be sufficient since all routing will be done
-inside Odoo. Aliases have several advantages over Mail Gateways:
+inside Konvergo ERP. Aliases have several advantages over Mail Gateways:
 
 - Easier to configure  
   - A single incoming gateway can be used by many aliases; this avoids
     having to configure multiple emails on your domain name (all
-    configuration is done inside Odoo)
+    configuration is done inside Konvergo ERP)
   - No need for System access rights to configure aliases
 
 - More coherent  
@@ -988,7 +988,7 @@ You can find concrete examples of integration in the following models:
 - `crm.lead` in the CRM (*crm*) Application
 - `hr.applicant` in the Recruitment Process (*hr_recruitment*)
   Application
-- `helpdesk.ticket` in the Helpdesk (*helpdesk* - Odoo Enterprise only)
+- `helpdesk.ticket` in the Helpdesk (*helpdesk* - Konvergo ERP Enterprise only)
   Application
 
 ### Website visibility
@@ -1200,5 +1200,5 @@ allow you a quick bird's eye view of your customer ratings.
 You can find concrete examples of integration in the following models:
 
 - `project.task` in the Project (*rating_project*) Application
-- `helpdesk.ticket` in the Helpdesk (*helpdesk* - Odoo Enterprise only)
+- `helpdesk.ticket` in the Helpdesk (*helpdesk* - Konvergo ERP Enterprise only)
   Application

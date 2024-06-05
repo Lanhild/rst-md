@@ -1,20 +1,20 @@
 # Make work centers unavailable using Time Off
 
-In Odoo, *work centers* are used to carry out manufacturing operations
+In Konvergo ERP, *work centers* are used to carry out manufacturing operations
 at specific locations. However, if a work center cannot be used for some
 reason, work orders begin to pile up at the work center until it is
 operational again.
 
-As a result, it is necessary to make the work center unavailable in Odoo
+As a result, it is necessary to make the work center unavailable in Konvergo ERP
 so that the platform routes new work orders to alternative work centers
-that are operational. Using Odoo *Time Off*, it is possible to designate
+that are operational. Using Konvergo ERP *Time Off*, it is possible to designate
 a work center as being unavailable for a set period of time. Doing so
 ensures that manufacturing operations can continue until the impacted
 work center is available again.
 
 ## Configuration
 
-Before a work center can be designated as unavailable, the Odoo platform
+Before a work center can be designated as unavailable, the Konvergo ERP platform
 must be properly configured. First, it is necessary to enable
 `developer mode <developer-mode>`. This allows the `Time Off` smart
 button to appear on each work center's `Working Hours` pop-up window.
@@ -28,7 +28,7 @@ class="align-center"
 alt="The &quot;Activate the developer mode&quot; button." />
 
 Next, install the *Time Off* app. This is the app used for assigning
-time off to all resources within Odoo, including employees and work
+time off to all resources within Konvergo ERP, including employees and work
 centers. Navigate to `Apps`, then type <span class="title-ref">Time
 Off</span> in the `Search...` bar. The card for the `Time Off` module
 should be the only one that appears on the page. Click the green
@@ -40,7 +40,7 @@ class="align-center" alt="The Time Off module installation card." />
 The last step is to properly configure work centers. For this workflow,
 it is necessary to have at least two work centers: one that is made
 unavailable and a second that receives the work orders that the other
-cannot accept. If no second work center is configured, Odoo cannot route
+cannot accept. If no second work center is configured, Konvergo ERP cannot route
 work orders away from the unavailable work center and they will pile up
 in its queue.
 
@@ -56,7 +56,7 @@ work center can also be performed at the other.
 class="align-center" alt="The equipment tab on a work center form." />
 
 For the work center that will be made unavailable, select the second
-work center on the `Alternative Workcenters` drop-down menu. Now, Odoo
+work center on the `Alternative Workcenters` drop-down menu. Now, Konvergo ERP
 knows to send work orders to the second work center when the first is
 unavailable for any reason.
 
@@ -92,7 +92,7 @@ maintenance, etc.), select the affected work center as the `Resource`,
 and choose a `Start Date` and `End
 Date` to specify the period during which the work center will be
 unavailable. Click `Save` and the time off for the work center is logged
-in Odoo.
+in Konvergo ERP.
 
 <img src="work_center_time_off/time-off-form.png" class="align-center"
 alt="The &quot;Resource Time Off&quot; form." />
@@ -122,7 +122,7 @@ automatically changed to the alternative work center.
 class="align-center"
 alt="The selected work center updates automatically after clicking the Plan button." />
 
-Once the time-off period for the unavailable work center ends, Odoo
+Once the time-off period for the unavailable work center ends, Konvergo ERP
 recognizes that the work center is available again. At this point,
 clicking the `Plan` button does not route work orders to an alternative
 work center unless the first one is at capacity.

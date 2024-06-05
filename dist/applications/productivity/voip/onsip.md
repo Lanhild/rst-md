@@ -1,4 +1,4 @@
-# Use VoIP services in Odoo with OnSIP
+# Use VoIP services in Konvergo ERP with OnSIP
 
 > [!IMPORTANT]
 > OnSIP `VoIP (voice over internet protocol)` services are only
@@ -19,7 +19,7 @@
 
 ## Introduction
 
-Odoo *VoIP* can be set up to work together with [OnSIP (Odoo Landing
+Konvergo ERP *VoIP* can be set up to work together with [OnSIP (Konvergo ERP Landing
 Page)](https://info.onsip.com/odoo/). OnSIP is a VoIP provider. An
 account is needed with OnSIP in order to use this service.
 
@@ -27,12 +27,12 @@ Before setting up an account with OnSIP, make sure the company's home
 area, and the areas that will be called, are covered by OnSIP services.
 
 After opening an OnSIP account, follow the configuration procedure below
-to configure it on an Odoo database.
+to configure it on an Konvergo ERP database.
 
 ## Configuration
 
-To configure the Odoo database to connect to OnSIP services, first
-navigate to the `Apps application` from the main Odoo dashboard. Then,
+To configure the Konvergo ERP database to connect to OnSIP services, first
+navigate to the `Apps application` from the main Konvergo ERP dashboard. Then,
 remove the default <span class="title-ref">Apps</span> filter from the
 `Search...` bar, and search for <span class="title-ref">VoIP
 OnSIP</span>.
@@ -42,7 +42,7 @@ Next, install the `VOIP OnSIP` module.
 <img src="onsip/install-onsip.png" class="align-center"
 alt="View of OnSIP app in the app search results." />
 
-### Odoo VoIP setting
+### Konvergo ERP VoIP setting
 
 After installing the *VOIP OnSIP* module, go to the `Settings app`,
 scroll down to the `Integrations` section, and locate the
@@ -55,7 +55,7 @@ with the following information:
 - `VoIP Environment`: `Production`
 
 <img src="onsip/asterisk-setting.png" class="align-center"
-alt="VoIP configuration settings in Odoo Settings app." />
+alt="VoIP configuration settings in Konvergo ERP Settings app." />
 
 > [!TIP]
 > To access the OnSIP domain, navigate to
@@ -72,10 +72,10 @@ alt="VoIP configuration settings in Odoo Settings app." />
 > alt="Domain setting revealed (highlighted) on administrative panel of OnSIP management
 > console." />
 
-### Odoo user setting
+### Konvergo ERP user setting
 
-Next, the user needs to be set up in Odoo. Every user associated with an
-OnSIP user **must** also be configured in the Odoo user's
+Next, the user needs to be set up in Konvergo ERP. Every user associated with an
+OnSIP user **must** also be configured in the Konvergo ERP user's
 settings/preferences.
 
 To do that, navigate to
@@ -103,11 +103,11 @@ highlighted." />
 > The OnSIP extension can be found in the *User* banner line above the
 > tabs.
 
-When these steps are complete, navigate away from the user form in Odoo
+When these steps are complete, navigate away from the user form in Konvergo ERP
 to save the configurations.
 
-Once saved, Odoo users can make phone calls by clicking the `☎️ (phone)`
-icon in the top-right corner of Odoo.
+Once saved, Konvergo ERP users can make phone calls by clicking the `☎️ (phone)`
+icon in the top-right corner of Konvergo ERP.
 
 <div class="seealso">
 
@@ -118,14 +118,14 @@ knowledge base](https://support.onsip.com/hc/en-us).
 
 ### Incoming calls
 
-The Odoo database also receives incoming calls that produce pop-up
-windows in Odoo. When those call pop-up windows appear, click the green
+The Konvergo ERP database also receives incoming calls that produce pop-up
+windows in Konvergo ERP. When those call pop-up windows appear, click the green
 `📞 (phone)` icon to answer the call.
 
 To ignore the call, click the red `📞 (phone)` icon.
 
 <img src="onsip/incoming-call.png" class="align-center"
-alt="Incoming call shown in the Odoo VoIP widget." />
+alt="Incoming call shown in the Konvergo ERP VoIP widget." />
 
 <div class="seealso">
 
@@ -137,15 +137,15 @@ alt="Incoming call shown in the Odoo VoIP widget." />
 
 #### Missing parameters
 
-If a *Missing Parameters* message appears in the Odoo widget, make sure
-to refresh the Odoo browser window (or tab), and try again.
+If a *Missing Parameters* message appears in the Konvergo ERP widget, make sure
+to refresh the Konvergo ERP browser window (or tab), and try again.
 
 <img src="onsip/onsip04.png" class="align-center"
-alt="Missing parameter message in the Odoo VoIP widget." />
+alt="Missing parameter message in the Konvergo ERP VoIP widget." />
 
 #### Incorrect number
 
-If an *Incorrect Number* message appears in the Odoo widget, make sure
+If an *Incorrect Number* message appears in the Konvergo ERP widget, make sure
 to use the international format for the number. This means leading with
 the international country code.
 
@@ -159,7 +159,7 @@ For example, <span class="title-ref">16505555555</span> (where
 United States).
 
 <img src="onsip/onsip05.png" class="align-center"
-alt="Incorrect number message populated in the Odoo VoIP widget." />
+alt="Incorrect number message populated in the Konvergo ERP VoIP widget." />
 
 <div class="seealso">
 
@@ -171,8 +171,8 @@ For a list of comprehensive country codes, visit:
 ## OnSIP on mobile phone
 
 In order to make and receive phone calls when the user is not in front
-of Odoo on their computer, a softphone app on a mobile phone can be used
-in parallel with Odoo *VoIP*.
+of Konvergo ERP on their computer, a softphone app on a mobile phone can be used
+in parallel with Konvergo ERP *VoIP*.
 
 This is useful for convenient, on-the-go calls, and to make sure
 incoming calls are heard. Any SIP softphone will work.

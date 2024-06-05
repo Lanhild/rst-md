@@ -8,12 +8,12 @@ compulsory for most businesses, but it also offers several benefits,
 such as reduced risk of errors in financial reports, detection of
 fraudulent activities, and improved cash flow management.
 
-Thanks to the bank `reconciliation models <reconciliation_models>`, Odoo
+Thanks to the bank `reconciliation models <reconciliation_models>`, Konvergo ERP
 pre-selects the matching entries automatically.
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Bank
+\- [Konvergo ERP Tutorials: Bank
 reconciliation](https://www.odoo.com/slides/slide/bank-reconciliation-2724) -
 `bank_synchronization` - `transactions`
 
@@ -26,7 +26,7 @@ To access a bank journal's **reconciliation view**, go to your
 
 - click the journal name (e.g., `Bank`) to display all transactions,
   including those previously reconciled or
-- click the `Reconcile items` button to display all transactions Odoo
+- click the `Reconcile items` button to display all transactions Konvergo ERP
   pre-selected for reconciliation. You can remove the `Not Matched`
   filter from the search bar to include previously reconciled
   transactions.
@@ -96,7 +96,7 @@ Transactions can be matched automatically with the use of
 
 ### Match existing entries
 
-This tab contains matching entries Odoo automatically pre-selects
+This tab contains matching entries Konvergo ERP automatically pre-selects
 according to the reconciliation models. The entry order is based on
 `reconciliation models <reconciliation_models>`, with suggested entries
 appearing first.

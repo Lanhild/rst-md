@@ -1,11 +1,11 @@
 # Foreign currencies
 
-With Odoo, pricelists can be used to manage prices in a number of
-foreign currencies. Specifically, Odoo has the ability to work with 167
+With Konvergo ERP, pricelists can be used to manage prices in a number of
+foreign currencies. Specifically, Konvergo ERP has the ability to work with 167
 total currencies.
 
 > [!NOTE]
-> In order to use multiple currencies in Odoo *Sales*, the *Accounting*
+> In order to use multiple currencies in Konvergo ERP *Sales*, the *Accounting*
 > application **must** be installed.
 
 ## Settings
@@ -17,9 +17,9 @@ added to the database. Navigate to
 
 <img src="currencies/main-currency-setting-page.png"
 class="align-center"
-alt="How the main currency feature appears on settings page in Odoo Accounting." />
+alt="How the main currency feature appears on settings page in Konvergo ERP Accounting." />
 
-Odoo automatically sets the main currency as the currency of the country
+Konvergo ERP automatically sets the main currency as the currency of the country
 the company is based in.
 
 To change the main currency of the company, select the drop-down menu in
@@ -33,7 +33,7 @@ the changes.
 > --> Currencies section`).
 >
 > <img src="currencies/automatic-currency-rates.png" class="align-center"
-> alt="How the main currency feature appears on settings page in Odoo Accounting." />
+> alt="How the main currency feature appears on settings page in Konvergo ERP Accounting." />
 >
 > Click the checkbox beside the `Automatic Currency Rates` feature,
 > choose a designated bank to get the currency rates from in the
@@ -64,9 +64,9 @@ When the `Currencies` link is clicked, a separate `Currencies` page is
 revealed.
 
 <img src="currencies/main-currencies-page.png" class="align-center"
-alt="How the main currencies page appears in Odoo Accounting." />
+alt="How the main currencies page appears in Konvergo ERP Accounting." />
 
-On this page, Odoo provides a master list of 167 global currencies. Each
+On this page, Konvergo ERP provides a master list of 167 global currencies. Each
 row shows the corresponding `Currency`, `Symbol`, `Name`, date of the
 `Last Update`, and `Current Rate` (compared to the default currency of
 the country in which the company is based).
@@ -100,7 +100,7 @@ currency to reveal the detail form for that specific currency, and
 proceed to make any necessary changes.
 
 <img src="currencies/currency-detail-form.png" class="align-center"
-alt="How a currency detail form looks in Odoo Accounting." />
+alt="How a currency detail form looks in Konvergo ERP Accounting." />
 
 On the currency detail form, the relevant currency code appears in the
 `Currency` field. Beneath that, the name for the currency is in the
@@ -139,7 +139,7 @@ banner appears at the top of the currency detail form with the message:
 `This is your company's currency.`.
 
 <img src="currencies/main-currency-detail-form.png" class="align-center"
-alt="How a main currency detail form looks in Odoo Accounting." />
+alt="How a main currency detail form looks in Konvergo ERP Accounting." />
 
 All the fields are the same as a typical currency detail form, but there
 will **not** be a `Rates` tab because all other currency rates are based
@@ -156,7 +156,7 @@ button to open a blank currency template form.
 
 <img src="currencies/blank-currency-detail-form.png"
 class="align-center"
-alt="How a blank currency detail form looks in Odoo Accounting." />
+alt="How a blank currency detail form looks in Konvergo ERP Accounting." />
 
 On the blank currency detail form, proceed to enter the desired currency
 code in the `Currency` field. Beneath that, enter the name for the
@@ -229,7 +229,7 @@ located in the upper-left corner. Doing so reveals a separate
 `Price Rules` page, specific to that particular product.
 
 <img src="currencies/price-rules-currencies.png" class="align-center"
-alt="How to set product prices based on foreign currency pricelists in Odoo Sales." />
+alt="How to set product prices based on foreign currency pricelists in Konvergo ERP Sales." />
 
 Click `New`, and select the desired pricelist from the drop-down menu in
 the `Pricelist` column.

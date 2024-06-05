@@ -89,11 +89,11 @@ The process above can also be used for a *single* vendor
 > [!NOTE]
 > - If no withholding tax is applied, then the XLS file will not
 > generate records for those vendor bill lines. - When grouping payments
-> for multiple bills, Odoo splits the payments based on the contact.
+> for multiple bills, Konvergo ERP splits the payments based on the contact.
 > From a payment, clicking `Action --> Download BIR 2307 XLS` generates
 > a report that only includes vendor bills related to that contact.
 
 > [!IMPORTANT]
-> Odoo cannot generate the BIR 2307 PDF report or DAT files directly.
+> Konvergo ERP cannot generate the BIR 2307 PDF report or DAT files directly.
 > The generated `Form_2307.xls` file can be exported to an *external*
 > tool to convert it to BIR DAT or PDF format.

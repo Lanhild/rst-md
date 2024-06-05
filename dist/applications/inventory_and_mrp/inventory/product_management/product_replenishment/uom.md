@@ -10,12 +10,12 @@ Another case for unit conversion is when a business buys products in a
 big pack from a supplier, and then sells those products in individual
 units.
 
-Odoo can be set up to use different *units of measure (UoM)* for one
+Konvergo ERP can be set up to use different *units of measure (UoM)* for one
 product.
 
 ## Configuration
 
-To use different units of measure in Odoo, first go to
+To use different units of measure in Konvergo ERP, first go to
 `Inventory app -->
 Configuration --> Settings`, and under the `Products` section, activate
 the `Units of Measure` setting. Then, click `Save`.
@@ -28,7 +28,7 @@ alt="Enable Units of Measure in the Inventory settings." />
 After enabling the *Units of Measure* setting, view the default units of
 measure categories in
 `Inventory app --> Configuration --> UoM Categories`. The category is
-important for unit conversion; Odoo can convert a product's units from
+important for unit conversion; Konvergo ERP can convert a product's units from
 one unit to another **only** if both units belong to the same category.
 
 <img src="uom/category.png" class="align-center"
@@ -36,7 +36,7 @@ alt="Set units of measure categories." />
 
 Each units of measure category has a reference unit. The reference unit
 is highlighted in blue in the `Uom` column of the
-`Units of Measure Categories` page. Odoo uses the reference unit as a
+`Units of Measure Categories` page. Konvergo ERP uses the reference unit as a
 base for any new units.
 
 To create a new unit, first select the correct category from the
@@ -78,7 +78,7 @@ product is purchased in.
 
 ## Unit conversion
 
-Odoo automatically converts unit measurements when products have
+Konvergo ERP automatically converts unit measurements when products have
 different `UoMs (Units of
 Measure)` and purchase `UoMs (Units of Measure)`.
 
@@ -100,7 +100,7 @@ This occurs in various scenarios, including:
 ### Buy products in the purchase UoM
 
 When creating a new request for quotation (RFQ) in the *Purchase* app,
-Odoo automatically uses the product's specified purchase unit of
+Konvergo ERP automatically uses the product's specified purchase unit of
 measure. If needed, manually edit the `UoM` value on the
 `RFQ (Request for Quotation)`.
 
@@ -108,7 +108,7 @@ After the `RFQ (Request for Quotation)` is confirmed into a
 `PO (Purchase Order)`, click the `Receipt` smart button at the top of
 the `PO (Purchase Order)`.
 
-Odoo automatically converts the purchase unit of measure into the
+Konvergo ERP automatically converts the purchase unit of measure into the
 product's sales/inventory unit of measure, so the `Demand` column of the
 delivery receipt shows the converted quantity.
 
@@ -163,13 +163,13 @@ the purchase `UoM (Unit of Measure)` can be edited directly on the
 
 ### Sell in a different UoM
 
-When creating a new quotation in the *Sales* app, Odoo automatically
+When creating a new quotation in the *Sales* app, Konvergo ERP automatically
 uses the product's specified unit of measure. If needed, the `UoM` can
 be manually edited on the quotation.
 
 After the quotation is sent to the customer, and confirmed into a sales
 order (SO), click the `Delivery` smart button at the top of the
-`SO (Sales Order)`. Odoo automatically converts the unit of measure into
+`SO (Sales Order)`. Konvergo ERP automatically converts the unit of measure into
 the product's inventory unit of measure, so the `Demand` column of the
 delivery shows the converted quantity.
 

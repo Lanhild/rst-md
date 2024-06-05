@@ -1,6 +1,6 @@
 # Geolocation
 
-You can locate contacts or places and generate routes on a map in Odoo.
+You can locate contacts or places and generate routes on a map in Konvergo ERP.
 
 ![Map displaying a contact's location.](geolocation/contacts.png)
 

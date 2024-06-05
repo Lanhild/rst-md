@@ -12,7 +12,7 @@ Packages are commonly used for the following purposes:
     compliance with carrier shipping specifications.
 3.  Storing items in bulk.
 
-*Package use* is a field on the package form in Odoo that is only
+*Package use* is a field on the package form in Konvergo ERP that is only
 visible by enabling the *Batch Transfers* and *Packages* features
 (`Inventory app --> Configuration --> Settings`).
 
@@ -136,7 +136,7 @@ form. The fields of the form are as follows:
 - `Weight`: weight of an empty package (e.g. an empty box, pallet).
 
 > [!NOTE]
-> Odoo calculates the package's weight by adding the weight of the empty
+> Konvergo ERP calculates the package's weight by adding the weight of the empty
 > package plus the weight of the item(s), which can be found in the
 > `Weight` field, in the `Inventory` tab, of each product form.
 

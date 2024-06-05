@@ -5,7 +5,7 @@ navigate through your web pages effectively. User-friendly and
 well-structured website menus also play a crucial role in improving
 `search engine rankings <seo>`.
 
-Odoo allows you to customize the content and appearance of your
+Konvergo ERP allows you to customize the content and appearance of your
 website's menu to your needs.
 
 ## Menu editor

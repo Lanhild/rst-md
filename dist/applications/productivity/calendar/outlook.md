@@ -1,6 +1,6 @@
 # Outlook Calendar synchronization
 
-Synchronizing a user's *Outlook Calendar* with Odoo is useful for
+Synchronizing a user's *Outlook Calendar* with Konvergo ERP is useful for
 keeping track of tasks and appointments across all related applications.
 
 <div class="seealso">
@@ -12,7 +12,7 @@ keeping track of tasks and appointments across all related applications.
 
 ## Microsoft Azure setup
 
-To sync the *Outlook Calendar* with Odoo's *Calendar*, a Microsoft
+To sync the *Outlook Calendar* with Konvergo ERP's *Calendar*, a Microsoft
 *Azure* account is required. Creating an account is free for users who
 have never tried, or paid for, *Azure*. For more information, view the
 account options on the [Azure
@@ -44,14 +44,14 @@ Enter a unique `Name` for the connected application.
 
 Choosing the appropriate `Supported account type` is essential, or else
 the connected application will not work. Users who wish to connect their
-*Outlook Calendar* to Odoo should select the
+*Outlook Calendar* to Konvergo ERP should select the
 `Accounts in any organizational directory (Any Microsoft Entra ID directory -
 Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)` option
 for `Supported
 account types`.
 
 When configuring the `Redirect URI`, choose the `Web` option from the
-first drop-down menu. Then, enter the Odoo database URI (URL) followed
+first drop-down menu. Then, enter the Konvergo ERP database URI (URL) followed
 by <span class="title-ref">/microsoft_account/authentication</span>.
 
 <div class="example">
@@ -96,7 +96,7 @@ application." />
 
 The second credential needed to complete the synchronization of the
 Microsoft *Outlook Calendar* is the *Client Secret*. The user **must**
-add a client secret, as this allows Odoo to authenticate itself,
+add a client secret, as this allows Konvergo ERP to authenticate itself,
 requiring no interaction from the user's side. *Certificates* are
 optional.
 
@@ -115,7 +115,7 @@ option allows the administrator to set a `Start` and `End` date.
 Finally, click `Add` to `Add a client secret`.
 
 > [!TIP]
-> Since resetting the synchronization can be tricky, Odoo recommends
+> Since resetting the synchronization can be tricky, Konvergo ERP recommends
 > setting the maximum allowed expiration date for the client secret (24
 > months or custom), so there is no need to re-synchronize soon.
 
@@ -126,82 +126,82 @@ Copy the `Value` for use in the next section.
 > creation. Be sure to save the secret when created *before* leaving the
 > page.
 
-## Configuration in Odoo
+## Configuration in Konvergo ERP
 
-In the Odoo database, go to `Settings app --> Integrations section`, and
+In the Konvergo ERP database, go to `Settings app --> Integrations section`, and
 tick the checkbox beside the `Outlook Calendar` setting. Remember to
 click `Save` to implement the changes.
 
 <img src="outlook/outlook-calendar-setting.png" class="align-center"
-alt="The &quot;Outlook Calendar&quot; setting activated in Odoo." />
+alt="The &quot;Outlook Calendar&quot; setting activated in Konvergo ERP." />
 
 From the Microsoft *Azure* portal, under the `Overview` section of the
 application, copy the `Application (Client) ID`, if it has not already
-been copied, and paste it into the `Client ID` field in Odoo.
+been copied, and paste it into the `Client ID` field in Konvergo ERP.
 
 <img src="outlook/client-id.png" class="align-center"
 alt="The &quot;Client ID&quot; in the Microsoft Azure portal." />
 
 Copy the previously-acquired `Value` (Client Secret Value), and paste it
-into the `Client Secret` field in Odoo.
+into the `Client Secret` field in Konvergo ERP.
 
 <img src="outlook/client-secret-value.png" class="align-center"
-alt="The &quot;Client Secret&quot; token to be copied from Microsoft to Odoo." />
+alt="The &quot;Client Secret&quot; token to be copied from Microsoft to Konvergo ERP." />
 
-Finally, on the Odoo `Settings --> General Settings` page, click `Save`.
+Finally, on the Konvergo ERP `Settings --> General Settings` page, click `Save`.
 
 ## Sync with Outlook
 
 > [!WARNING]
-> Odoo highly recommends testing the Outlook calendar synchronization on
+> Konvergo ERP highly recommends testing the Outlook calendar synchronization on
 > a test database and a test email address (that is not used for any
 > other purpose) before attempting to sync the desired Outlook Calendar
 > with the user's production database.
 >
-> If the user has any past, present, or future events on their Odoo
+> If the user has any past, present, or future events on their Konvergo ERP
 > calendar before syncing their Outlook calendar, Outlook will treat the
-> events pulled from Odoo's calendar during the sync as new events,
+> events pulled from Konvergo ERP's calendar during the sync as new events,
 > causing an email notification to be sent from Outlook to all the event
 > attendees.
 >
 > To avoid unwanted emails being sent to all past, present, and future
-> event attendees, the user must add the events from the Odoo calendar
+> event attendees, the user must add the events from the Konvergo ERP calendar
 > to the Outlook calendar before the first ever sync, delete the events
-> from Odoo, and then start the sync.
+> from Konvergo ERP, and then start the sync.
 >
-> Even after synchronizing the Odoo Calendar with the Outlook calendar,
+> Even after synchronizing the Konvergo ERP Calendar with the Outlook calendar,
 > Outlook will still send a notification to all event participants every
 > time an event is edited (created, deleted, unarchived, or event
 > date/time changed), with no exceptions. This is a limitation that
-> cannot be fixed from Odoo's side.
+> cannot be fixed from Konvergo ERP's side.
 >
 > In summary, once a user synchronizes their Outlook calendar with the
-> Odoo calendar:
+> Konvergo ERP calendar:
 >
-> - Creating an event in Odoo causes Outlook to send an invitation to
+> - Creating an event in Konvergo ERP causes Outlook to send an invitation to
 >   all event attendees.
-> - Deleting an event in Odoo causes Outlook to send a cancellation to
+> - Deleting an event in Konvergo ERP causes Outlook to send a cancellation to
 >   all event attendees.
-> - Unarchiving an event in Odoo causes Outlook to send an invitation to
+> - Unarchiving an event in Konvergo ERP causes Outlook to send an invitation to
 >   all event attendees.
-> - Archiving an event in Odoo causes Outlook to send a cancellation to
+> - Archiving an event in Konvergo ERP causes Outlook to send a cancellation to
 >   all event attendees.
 > - Adding a contact to an event causes Outlook to send an invitation to
 >   all event attendees.
 > - Removing a contact from an event causes Outlook to send a
 >   cancellation to all event attendees.
 
-### Sync Odoo Calendar and Outlook
+### Sync Konvergo ERP Calendar and Outlook
 
-In the Odoo database, open to the *Calendar* module, and click the
+In the Konvergo ERP database, open to the *Calendar* module, and click the
 `Outlook` sync button on the right-side of the page, beneath the monthly
 calendar.
 
 <img src="outlook/outlook-sync-button.png" class="align-center"
-alt="The &quot;Outlook&quot; sync button in Odoo Calendar." />
+alt="The &quot;Outlook&quot; sync button in Konvergo ERP Calendar." />
 
 The synchronization is a two-way process, meaning that events are
-reconciled in both accounts (*Outlook* and Odoo). The page redirects to
+reconciled in both accounts (*Outlook* and Konvergo ERP). The page redirects to
 a Microsoft login page, and the user is asked to log in to their
 account, if they are not already. Finally, grant the required
 permissions by clicking `Accept`.
@@ -226,7 +226,7 @@ alt="Authentication process on Microsoft Outlook OAuth page." />
 ## Troubleshoot sync
 
 There may be times when the *Microsoft Outlook Calendar* account does
-not sync correctly with Odoo. Sync issues can be seen in the database
+not sync correctly with Konvergo ERP. Sync issues can be seen in the database
 logs.
 
 In these cases, the account needs troubleshooting. A reset can be
@@ -243,26 +243,26 @@ Next, click `Reset Account` under the correct calendar.
 ### Reset options
 
 The following reset options are available for troubleshooting *Microsoft
-Outlook Calendar* sync with Odoo:
+Outlook Calendar* sync with Konvergo ERP:
 
 <img src="outlook/reset-calendar.png" class="align-center"
-alt="Outlook calendar reset options in Odoo." />
+alt="Outlook calendar reset options in Konvergo ERP." />
 
 `User's Existing Events`:
 
 > - `Leave them untouched`: no changes to the events.
 > - `Delete from the current Microsoft Calendar account`: delete the
 >   events from *Microsoft Outlook Calendar*.
-> - `Delete from Odoo`: delete the events from the Odoo calendar.
+> - `Delete from Konvergo ERP`: delete the events from the Konvergo ERP calendar.
 > - `Delete from both`: delete the events from both *Microsoft Outlook
->   Calendar* and Odoo calendar.
+>   Calendar* and Konvergo ERP calendar.
 
 `Next Synchronization`:
 
 > - `Synchronize only new events`: sync new events on *Microsoft Outlook
->   Calendar* and/or Odoo calendar.
+>   Calendar* and/or Konvergo ERP calendar.
 > - `Synchronize all existing events`: sync all events on *Microsoft
->   Outlook Calendar* and/or Odoo calendar.
+>   Outlook Calendar* and/or Konvergo ERP calendar.
 
 Click `Confirm` after making the selection to modify the user's events
 and the calendar synchronization.

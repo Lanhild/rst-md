@@ -2,7 +2,7 @@ show-content
 
 # Payments
 
-In Odoo, payments can either be automatically linked to an invoice or
+In Konvergo ERP, payments can either be automatically linked to an invoice or
 bill or be stand-alone records for use at a later date:
 
 - If a payment is **linked to an invoice or bill**, it reduces/settles
@@ -16,7 +16,7 @@ bill or be stand-alone records for use at a later date:
 <div class="seealso">
 
 \- `Internal transfers <payments/internal_transfers>` -
-`bank/reconciliation` - [Odoo Tutorials: Bank
+`bank/reconciliation` - [Konvergo ERP Tutorials: Bank
 Configuration](https://www.odoo.com/slides/slide/bank-configuration-1880)
 
 </div>
@@ -50,7 +50,7 @@ related journal, by clicking `View`.
 
 > [!TIP]
 > - If your main bank account is set as an `outstanding account
-> <bank/outstanding-accounts>`, and the payment is registered in Odoo
+> <bank/outstanding-accounts>`, and the payment is registered in Konvergo ERP
 > (not through a related bank statement), invoices and bills are
 > directly registered as `Paid`.
 

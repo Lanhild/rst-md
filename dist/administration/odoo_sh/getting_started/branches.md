@@ -10,7 +10,7 @@ alt="image" />
 
 ## Stages
 
-Odoo.sh offers three different stages for your branches: production,
+Konvergo ERP.sh offers three different stages for your branches: production,
 staging and development.
 
 You can change the stage of a branch by drag and dropping it into the
@@ -80,10 +80,10 @@ make sure to document them or write them directly in the modules of the
 branch, using XML data files overriding the default configuration or
 views.
 
-The unit tests are not performed as, in Odoo, they currently rely on the
+The unit tests are not performed as, in Konvergo ERP, they currently rely on the
 demo data, which is not loaded in the production database. In the
-future, if Odoo supports to run the unit tests without the demo data,
-Odoo.sh will then consider running the tests on staging databases.
+future, if Konvergo ERP supports to run the unit tests without the demo data,
+Konvergo ERP.sh will then consider running the tests on staging databases.
 
 ### Development
 
@@ -136,7 +136,7 @@ You can merge your development branches into each other, and your
 staging branches into each other.
 
 Of course, you can also use `git merge` directly on your workstation to
-merge your branches. Odoo.sh will be notified when new revisions have
+merge your branches. Konvergo ERP.sh will be notified when new revisions have
 been pushed in your branches.
 
 Merging a staging branch in the production branch only merges the source
@@ -204,7 +204,7 @@ as you wish, for instance side by side.
 ### Editor
 
 An online integrated development environment (IDE) to edit the source
-code. You can also open terminals, Python consoles and even Odoo Shell
+code. You can also open terminals, Python consoles and even Konvergo ERP Shell
 consoles.
 
 <img src="branches/interface-branches-editor.png" class="align-center"
@@ -257,7 +257,7 @@ perform a manual backup and to import a database.
 <img src="branches/interface-branches-backups.png" class="align-center"
 alt="image" />
 
-Odoo.sh makes daily backups of the production database. It keeps 7
+Konvergo ERP.sh makes daily backups of the production database. It keeps 7
 daily, 4 weekly and 3 monthly backups. Each backup includes the database
 dump, the filestore (attachments, binary fields), logs and sessions.
 
@@ -276,7 +276,7 @@ please [contact us](https://www.odoo.com/help).
 
 If you merge a commit updating the version of one or several modules (in
 `__manifest__.py`), or their linked python dependencies (in
-`requirements.txt`), then Odoo.sh performs a backup automatically
+`requirements.txt`), then Konvergo ERP.sh performs a backup automatically
 (flagged with type Update in the list), as either the container will be
 changed by the installation of new pip packages, either the database
 itself will be changed with the module update triggered afterwards. In
@@ -284,7 +284,7 @@ these two cases, we are doing a backup as it may potentially break
 things.
 
 If you merge a commit that only changes some code without the
-above-mentioned modifications, then no backup is done by Odoo.sh, as
+above-mentioned modifications, then no backup is done by Konvergo ERP.sh, as
 neither the container nor the database is modified so the platform
 considers this safe enough. Of course, as an extra precaution, you can
 make a backup manually before making big changes in your production
@@ -295,11 +295,11 @@ day.
 The *import database* feature accepts database archives in the format
 provided by:
 
-- the standard Odoo databases manager, (available for on-premise Odoo
+- the standard Konvergo ERP databases manager, (available for on-premise Konvergo ERP
   servers under `/web/database/manager`)
-- the Odoo online databases manager,
-- the Odoo.sh backup download button of this *Backups* tab,
-- the Odoo.sh dump download button in the
+- the Konvergo ERP online databases manager,
+- the Konvergo ERP.sh backup download button of this *Backups* tab,
+- the Konvergo ERP.sh dump download button in the
   `Builds view <odoosh-gettingstarted-builds>`.
 
 ### Upgrade
@@ -345,13 +345,13 @@ class="align-center" alt="image" />
   `submodules <odoosh-advanced-submodules>` are excluded.
 - *Full installation (all modules)* will install the modules of the
   branch, the modules included in the submodules and all standard
-  modules of Odoo. When running the full installation, the test suite is
+  modules of Konvergo ERP. When running the full installation, the test suite is
   disabled.
 - *Install a list of modules* will install the modules specified in the
   input just below this option. The names are the technical name of the
   modules, and they must be comma-separated.
 
-If the tests are enabled, the standard Odoo modules suite can take up to
+If the tests are enabled, the standard Konvergo ERP modules suite can take up to
 1 hour. This setting applies to development builds only. Staging builds
 duplicate the production build and the production build only installs
 base.
@@ -363,9 +363,9 @@ suite. It's enabled by default. When the test suite is enabled, you can
 restrict them by specifying test tags `test tags
 <developer/reference/testing/selection>`.
 
-**Odoo Version**
+**Konvergo ERP Version**
 
-For development branches only, you can change the version of Odoo,
+For development branches only, you can change the version of Konvergo ERP,
 should you want to test upgraded code or develop features while your
 production database is in the process of being upgraded to a newer
 version.
@@ -374,9 +374,9 @@ In addition, for each version you have two options regarding the code
 update.
 
 - You can choose to benefit from the latest bug, security and
-  performance fixes automatically. The sources of your Odoo server will
+  performance fixes automatically. The sources of your Konvergo ERP server will
   be updated weekly. This is the 'Latest' option.
-- You can choose to pin the Odoo sources to a specific revision by
+- You can choose to pin the Konvergo ERP sources to a specific revision by
   selecting them from a list of dates. Revisions will expire after 3
   months. You will be notified by mail when the expiration date
   approaches and if you don't take action afterwards, you will
@@ -396,7 +396,7 @@ domains. For the latter you have to:
 For instance, to associate *www.mycompany.com* to your database
 *mycompany.odoo.com*:
 
-- in Odoo.sh, add *www.mycompany.com* in the custom domains of your
+- in Konvergo ERP.sh, add *www.mycompany.com* in the custom domains of your
   project settings,
 - in your domain name manager (e.g. *godaddy.com*, *gandi.net*,
   *ovh.com*), configure *www.mycompany.com* with a `CNAME` record with
@@ -431,21 +431,21 @@ Encrypt](https://letsencrypt.org/about/) within the hour and your domain
 will be accessible through HTTPS.
 
 While it is currently not possible to configure your own SSL
-certificates on the Odoo.sh platform we are considering the feature if
+certificates on the Konvergo ERP.sh platform we are considering the feature if
 there is enough demand.
 
 **SPF and DKIM compliance**
 
 In case the domain of your users email addresses use SPF (Sender Policy
 Framework) or DKIM (DomainKeys Identified Mail), don't forget to
-authorize Odoo as a sending host in your domain name settings to
+authorize Konvergo ERP as a sending host in your domain name settings to
 increase the deliverability of your outgoing emails. The configuration
 steps are explained in the documentation about `SPF
 <email_communication/spf_compliant>` and
 `DKIM <email_communication/dkim_compliant>`.
 
 > [!WARNING]
-> Forgetting to configure your SPF or DKIM to authorize Odoo as a
+> Forgetting to configure your SPF or DKIM to authorize Konvergo ERP as a
 > sending host can lead to the delivery of your emails as spam in your
 > contacts inbox.
 
@@ -458,7 +458,7 @@ available.
 class="align-center" alt="image" />
 
 Each command can be copied in the clipboard to be used in a terminal,
-and some of them can be used directly from Odoo.sh by clicking the *run*
+and some of them can be used directly from Konvergo ERP.sh by clicking the *run*
 button in such case a popup will prompt the user in order to define
 eventual placeholders such as `<URL>`, `<PATH>`, ...
 

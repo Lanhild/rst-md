@@ -4,23 +4,23 @@ Website analytics helps website owners monitor how people use their
 site. It provides data on visitor demographics, behavior, and
 interactions, helping improve websites and marketing strategies.
 
-You can track your Odoo website's traffic using `analytics/plausible` or
+You can track your Konvergo ERP website's traffic using `analytics/plausible` or
 `analytics/google-analytics`. We recommend using Plausible.io as it is
 privacy-friendly, lightweight, and easy to use.
 
-The Plausible analytics dashboard is also integrated into Odoo and can
+The Plausible analytics dashboard is also integrated into Konvergo ERP and can
 be accessed via `Website --> Reporting --> Analytics`.
 
 ## Plausible.io
 
-Odoo hosts its own Plausible.io server and provides a free and
-ready-to-work Plausible.io solution for **Odoo Online** databases. Odoo
+Konvergo ERP hosts its own Plausible.io server and provides a free and
+ready-to-work Plausible.io solution for **Konvergo ERP Online** databases. Konvergo ERP
 automatically creates and sets up your account. You can start using it
 by going to `Website --> Reporting --> Analytics`.
 
 > [!NOTE]
 > **If you already have a Plausible.io account** and you want to connect
-> it to your Odoo Online database, you must create two
+> it to your Konvergo ERP Online database, you must create two
 > <span class="title-ref">ir.config.parameters</span> to use
 > Plausible.io's servers. To do so, enable the
 > `developer mode <developer-mode>` and go to `General Settings -->
@@ -35,7 +35,7 @@ by going to `Website --> Reporting --> Analytics`.
 > Then, follow the steps below to connect your existing account with
 > Plausible.io servers.
 
-If your database is hosted on **Odoo.sh** or **On-premise**, or if you
+If your database is hosted on **Konvergo ERP.sh** or **On-premise**, or if you
 wish to use your own Plausible.io account, proceed as follows:
 
 1.  Create or sign in to a Plausible account using the following link:
@@ -58,7 +58,7 @@ wish to use your own Plausible.io account, proceed as follows:
 4.  In the sidebar, select `Visibility`, then click `+ New link`.
 
 5.  Enter a `Name`, leave the `Password` field empty, as the Plausible
-    analytics dashboard integration in Odoo doesn't support it, then
+    analytics dashboard integration in Konvergo ERP doesn't support it, then
     click `Create shared link`.
 
     ![Credentials creation for the new shared link](analytics/plausible-create-sharedlink.png)
@@ -67,7 +67,7 @@ wish to use your own Plausible.io account, proceed as follows:
 
     ![Copy the shared link URL from Plausible.io](analytics/plausible-copy-sharedlink.png)
 
-7.  In Odoo, go to `Website --> Configuration --> Settings`.
+7.  In Konvergo ERP, go to `Website --> Configuration --> Settings`.
 
 8.  In the `SEO` section, enable `Plausible Analytics`, then paste the
     `Shared Link` and click `Save`.
@@ -76,12 +76,12 @@ wish to use your own Plausible.io account, proceed as follows:
 > If you have `multiple websites <../configuration/multi_website>`, add
 > your websites to your Plausible.io account by going to
 > <https://plausible.io/sites> and clicking `+ Add
-> website`. In Odoo, in the **Website settings**, make sure to select
+> website`. In Konvergo ERP, in the **Website settings**, make sure to select
 > the website in the `Settings of Website` field before pasting the
 > `Shared link`.
 
 > [!NOTE]
-> Odoo automatically pushes two custom goals:
+> Konvergo ERP automatically pushes two custom goals:
 > <span class="title-ref">Lead Generation</span> and
 > <span class="title-ref">Shop</span>.
 
@@ -93,7 +93,7 @@ wish to use your own Plausible.io account, proceed as follows:
 
 ## Google Analytics
 
-To follow your Odoo website's traffic with Google Analytics:
+To follow your Konvergo ERP website's traffic with Google Analytics:
 
 1.  Create or sign in to a Google account using the following link:
     <https://analytics.google.com>.
@@ -124,7 +124,7 @@ To follow your Odoo website's traffic with Google Analytics:
 
     ![Measurement ID in Google Analytics.](analytics/GA-measurement-id.png)
 
-7.  In Odoo, go to `Website --> Configuration --> Settings`.
+7.  In Konvergo ERP, go to `Website --> Configuration --> Settings`.
 
 8.  In the `SEO` section, enable `Google Analytics`, then paste the
     `Measurement ID` and click `Save`.
@@ -133,7 +133,7 @@ To follow your Odoo website's traffic with Google Analytics:
 > If you have `multiple websites <../configuration/multi_website>` with
 > separate domains, it is recommended to create [one
 > property](https://support.google.com/analytics/answer/9304153?hl=en/&visit_id=638278591144564289-3612494643&rd=2#property)
-> per domain. In Odoo, in the **Website settings**, make sure to select
+> per domain. In Konvergo ERP, in the **Website settings**, make sure to select
 > the website in the `Settings of Website` field before pasting the
 > `Measurement ID`.
 
@@ -181,4 +181,4 @@ To use GTM, proceed as follows:
 > [!NOTE]
 > The data is collected in the marketing tools used to monitor the
 > website (e.g., Google Analytics, Plausible, Facebook Pixel), not in
-> Odoo.
+> Konvergo ERP.

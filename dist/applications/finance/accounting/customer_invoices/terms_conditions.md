@@ -10,7 +10,7 @@ web page.
 
 <div class="seealso">
 
-[Odoo Tutorial: Terms &
+[Konvergo ERP Tutorial: Terms &
 Conditions](https://www.odoo.com/slides/slide/terms-conditions-1680)
 
 </div>

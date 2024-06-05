@@ -106,7 +106,7 @@ alt="Selection of a fiscal position on a customer" />
 <div class="seealso">
 
 - `../taxes`
-- `taxcloud` (decommissioning TaxCloud integration in Odoo 17+)
+- `taxcloud` (decommissioning TaxCloud integration in Konvergo ERP 17+)
 - `B2B_B2C`
 
 </div>

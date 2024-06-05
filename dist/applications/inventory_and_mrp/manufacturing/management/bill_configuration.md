@@ -9,7 +9,7 @@ guidelines needed to complete a production process.
 
 </div>
 
-In Odoo Manufacturing, multiple `BoMs (Bills of Materials)` can be
+In Konvergo ERP Manufacturing, multiple `BoMs (Bills of Materials)` can be
 linked to each product, so even product variants can have their own
 tailored `BoMs (Bills of Materials)`.
 
@@ -72,7 +72,7 @@ Operations`.
 Then, when creating a new `BoM (Bill of Materials)`, click on the
 `Operations` tab and click `Add a line` to add a new operation. In the
 `Create Operations` box, give the operation a name, specify the
-`Work Center` and duration settings. Like components, Odoo gives the
+`Work Center` and duration settings. Like components, Konvergo ERP gives the
 option to specify a product variant in the `Apply on Variants` field so
 the operation only applies to that variant. Finally, click
 `Save & Close`.

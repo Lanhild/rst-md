@@ -2,7 +2,7 @@
 
 ## Deploy your platform
 
-Go to [Odoo.sh](https://www.odoo.sh/) and hit the *Deploy your platform*
+Go to [Konvergo ERP.sh](https://www.odoo.sh/) and hit the *Deploy your platform*
 button.
 
 <img src="create/deploy.png" class="align-center" alt="image" />
@@ -14,15 +14,15 @@ the *Create an account* link.
 
 <img src="create/github-signin.png" class="align-center" alt="image" />
 
-## Authorize Odoo.sh
+## Authorize Konvergo ERP.sh
 
-Grant Odoo.sh the required accesses to your account by clicking the
+Grant Konvergo ERP.sh the required accesses to your account by clicking the
 *Authorize* button.
 
 <img src="create/github-authorize.png" class="align-center"
 alt="image" />
 
-Odoo.sh basically needs:
+Konvergo ERP.sh basically needs:
 
 - to know your Github login and email,
 - to create a new repository in case you decide to start from scratch,
@@ -41,7 +41,7 @@ or if you want to use an existing repository.
 
 Then, choose a name or select the repository you want to use.
 
-Choose the Odoo version you want to use. If you plan to import an
+Choose the Konvergo ERP version you want to use. If you plan to import an
 existing database or an existing set of applications, you might need to
 choose the according version. If you start from scratch, use the latest
 version.
@@ -50,11 +50,11 @@ Enter your *subscription code*. This is also called *subscription
 referral*, *contract number* or *activation code*.
 
 It should be the code of your Enterprise subscription that includes
-Odoo.sh.
+Konvergo ERP.sh.
 
 Partners can use their partnership codes to start a trial. Should their
 clients start a project, they ought to get an Enterprise subscription
-including Odoo.sh and use its subscription code. The partner will get
+including Konvergo ERP.sh and use its subscription code. The partner will get
 50% of the amount back as commission. Contact your sales representative
 or account manager in order to get it.
 
@@ -63,37 +63,37 @@ valid, it either means:
 
 - it is not an existing subscription,
 - it is not a partnership subscription,
-- it is an enterprise subscription, but which does not include Odoo.sh,
+- it is an enterprise subscription, but which does not include Konvergo ERP.sh,
 - it is neither a partnership subscription or an enterprise subscription
   (e.g. an online subscription).
 
-In case of doubt with your subscription, please contact the [Odoo
+In case of doubt with your subscription, please contact the [Konvergo ERP
 support](https://www.odoo.com/help).
 
 <img src="create/deploy-form.png" class="align-center" alt="image" />
 
 ## You're done !
 
-You can start using Odoo.sh. Your first build is about to be created.
+You can start using Konvergo ERP.sh. Your first build is about to be created.
 You will soon be able to connect to your first database.
 
 <img src="create/deploy-done.png" class="align-center" alt="image" />
 
 ## Import your database
 
-You can import your database in your Odoo.sh project as long as it is in
+You can import your database in your Konvergo ERP.sh project as long as it is in
 a `supported version
-</administration/supported_versions>` of Odoo.
+</administration/supported_versions>` of Konvergo ERP.
 
 ### Push your modules in production
 
 If you use community or custom modules, add them in a branch in your
-Github repository. Databases hosted on the Odoo.com online platform do
+Github repository. Databases hosted on the Konvergo ERP.com online platform do
 not have any custom modules. Users of these databases can therefore skip
 this step.
 
-You can structure your modules as you wish, Odoo.sh will automatically
-detect the folders containing Odoo addons. For instance, you can put all
+You can structure your modules as you wish, Konvergo ERP.sh will automatically
+detect the folders containing Konvergo ERP addons. For instance, you can put all
 your modules folder in the root directory of your repository, or group
 the modules in folders by categories that you define (accounting,
 project, ...).
@@ -129,7 +129,7 @@ Choose a zip including the filestore as the backup format.
 <img src="create/create-import-onpremise-backup-dialog.png"
 class="align-center" alt="image" />
 
-#### Odoo Online databases
+#### Konvergo ERP Online databases
 
 [Access your databases
 manager](https://accounts.odoo.com/my/databases/manage) and download a
@@ -139,11 +139,11 @@ backup of your database.
 alt="image" />
 
 > [!WARNING]
-> Online versions (e.g. *saas-*\*) are not supported on Odoo.sh.
+> Online versions (e.g. *saas-*\*) are not supported on Konvergo ERP.sh.
 
 ### Upload the backup
 
-Then, in your Odoo.sh project, in the backups tab of your production
+Then, in your Konvergo ERP.sh project, in the backups tab of your production
 branch, import the backup you just downloaded.
 
 <img src="create/create-import-production.png" class="align-center"
@@ -157,13 +157,13 @@ alt="image" />
 
 ### Check your outgoing email servers
 
-There is a default mail server provided with Odoo.sh. To use it, there
+There is a default mail server provided with Konvergo ERP.sh. To use it, there
 must be no enabled outgoing mail server configured in your database in
 `Settings --> Technical --> Outgoing Mail Servers` (`Developer mode
 <developer-mode>` must be activated).
 
 After the import of your database, all outgoing email servers are
-disabled so you use the Odoo.sh email server provided by default.
+disabled so you use the Konvergo ERP.sh email server provided by default.
 
 > [!WARNING]
 > Port 25 is (and will stay) closed. If you want to connect to an

@@ -4,7 +4,7 @@ show-toc
 
 # Live Chat
 
-Odoo *Live Chat* allows users to communicate with website visitors in
+Konvergo ERP *Live Chat* allows users to communicate with website visitors in
 real time. With *Live Chat*, leads can be qualified for their sales
 potential, support questions can be answered quickly, and issues can be
 directed to the appropriate team for further investigation (or follow
@@ -22,7 +22,7 @@ installed. This can be done in one of two ways.
   `Livechat`, and click `Save`.
 
 <img src="livechat/enable-setting.png" class="align-center"
-alt="View of the settings page and the live chat feature for Odoo Live Chat." />
+alt="View of the settings page and the live chat feature for Konvergo ERP Live Chat." />
 
 After the `Live Chat` application is installed, a live chat `Channel`
 will be created by default and automatically selected in the drop-down.
@@ -30,12 +30,12 @@ will be created by default and automatically selected in the drop-down.
 ## Create a new live chat channel
 
 To create a new live chat *Channel*, go to
-`Main Odoo Dashboard --> Live Chat app -->
+`Main Konvergo ERP Dashboard --> Live Chat app -->
 New`. This will open a blank channel detail form. Enter the name of the
 new channel in the `Channel Name` field.
 
 <img src="livechat/open-channel.png" class="align-center"
-alt="View of a live chat channel form for Odoo Live Chat." />
+alt="View of a live chat channel form for Konvergo ERP Live Chat." />
 
 To configure the remaining tabs on the channel detail form (`Operators`,
 `Options`, `Channel Rules`, and `Widgets`), follow the steps below.
@@ -49,7 +49,7 @@ are in the database. Chat windows will open in the bottom right corner
 of the screen.
 
 <img src="livechat/pop-up.png" class="align-center"
-alt="View of a live chat pop up window in an Odoo database." />
+alt="View of a live chat pop up window in an Konvergo ERP database." />
 
 The user who originally created the live chat channel will be added as
 an operator by default.
@@ -86,7 +86,7 @@ The *Livechat Button* is the icon that appears in the bottom corner of
 the website.
 
 <img src="livechat/chat-button.png" class="align-center"
-alt="View of an Odoo website emphasizing the livechat button." />
+alt="View of an Konvergo ERP website emphasizing the livechat button." />
 
 Change the text in the `Text of the Button` field to update the greeting
 displayed in the text bubble when the live chat button appears on the
@@ -138,7 +138,7 @@ To create a new channel rule, click `Add a line`. This opens the
 `Open: Rules` pop-up.
 
 <img src="livechat/create-rules.png" class="align-center"
-alt="View of a channel&#39;s rules form for Odoo Live Chat." />
+alt="View of a channel&#39;s rules form for Konvergo ERP Live Chat." />
 
 #### Create new rules
 
@@ -210,7 +210,7 @@ location.
 > [!NOTE]
 > In order to track the geographical location of visitors, `GeoIP` must
 > be installed on the database. While this feature is installed by
-> default on *Odoo Online*, *On-Premise* databases will require
+> default on *Konvergo ERP Online*, *On-Premise* databases will require
 > additional `setup steps </administration/on_premise/geo_ip>`.
 
 ### Widget
@@ -219,7 +219,7 @@ The `Widget` tab on the live chat channel details form provides the
 shortcode for an embeddable website widget. This code can be added to a
 website to provide access to a live chat window.
 
-The live chat widget can be added to websites created through Odoo by
+The live chat widget can be added to websites created through Konvergo ERP by
 navigating to the `Website --> Configuration --> Settings`. Then scroll
 to the `Livechat` section, and select the channel to add to the site.
 Click `Save` to apply.
@@ -233,14 +233,14 @@ Likewise, to send a live chat session to a customer, click the second
 customer, and once they click the link, it will open a new chat.
 
 <img src="livechat/widget-code.png" class="align-center"
-alt="View of the widget tab for Odoo Live Chat." />
+alt="View of the widget tab for Konvergo ERP Live Chat." />
 
 ## Participate in a conversation
 
 As explained above, *operators* are the users who will respond to live
 chat requests from customers. The information below outlines the
 necessary steps for operators participating in live chat conversations
-on an Odoo database.
+on an Konvergo ERP database.
 
 ### Set an online chat name
 
@@ -254,7 +254,7 @@ open the Profile page. On the right side of the `Preferences` tab,
 locate the `Online Chat Name` field and enter the preferred name.
 
 <img src="livechat/my-profile.png" class="align-center"
-alt="View of the My Profile option in Odoo." />
+alt="View of the My Profile option in Konvergo ERP." />
 
 If a users `Online Chat Name` is not set, the name displayed will
 default to the `User Name`.
@@ -266,7 +266,7 @@ include their last name in a live chat conversation. They would then set
 their `Online Chat Name` to include only their first name.
 
 <img src="livechat/online-chat-name.png" class="align-center"
-alt="View of user profile in Odoo, emphasizing the Online Chat name field." />
+alt="View of user profile in Konvergo ERP, emphasizing the Online Chat name field." />
 
 </div>
 
@@ -279,10 +279,10 @@ Any channel where the user is currently active will show a `LEAVE`
 button. Click this button to disconnect from the channel.
 
 <img src="livechat/leave-channel.png" class="align-center"
-alt="View of a channel form and the option to join a channel for Odoo Live Chat." />
+alt="View of a channel form and the option to join a channel for Konvergo ERP Live Chat." />
 
 > [!IMPORTANT]
-> *Operators* that do not show any activity in Odoo for more than thirty
+> *Operators* that do not show any activity in Konvergo ERP for more than thirty
 > minutes will be considered disconnected, and subsequently removed from
 > the channel.
 
@@ -298,14 +298,14 @@ current location.
 > icon in the menu bar.
 >
 > <img src="livechat/menu-bar.png" class="align-center"
-> alt="View of the menu bar in Odoo emphasizing the conversations icon." />
+> alt="View of the menu bar in Konvergo ERP emphasizing the conversations icon." />
 
 Live chat conversations can also be viewed by navigating to
 `Dashboard --> Discuss`. New conversations will appear in bold under the
 `LIVECHAT` heading along the left panel.
 
 <img src="livechat/managing-chat-responses.png" class="align-center"
-alt="View of the discuss application with a message sent through live chat in Odoo." />
+alt="View of the discuss application with a message sent through live chat in Konvergo ERP." />
 
 Click on a conversation in the left panel to select it. This will open
 the conversation. From this view, an operator can participate in the

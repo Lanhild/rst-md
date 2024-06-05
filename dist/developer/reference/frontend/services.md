@@ -5,7 +5,7 @@ be imported by components (with `useService`) or by other services.
 Also, they can declare a set of dependencies. In that sense, services
 are basically a DI `dependency injection` system. For example, the
 `notification` service provides a way to display a notification, or the
-`rpc` service is the proper way to perform a request to the Odoo server.
+`rpc` service is the proper way to perform a request to the Konvergo ERP server.
 
 The following example registers a simple service that displays a
 notification every 5 seconds:
@@ -68,7 +68,7 @@ A service needs to implement the following interface:
 > Some services need to provide an asynchronous API. For example, the
 > <span class="title-ref">rpc</span> service is an asynchronous
 > function, or the <span class="title-ref">orm</span> service provides a
-> set of functions to call the Odoo server.
+> set of functions to call the Konvergo ERP server.
 >
 > In that case, it is possible for components that use a service to be
 > destroyed before the end of an asynchronous function call. Most of the
@@ -346,7 +346,7 @@ effectService.add({ type: "sepia" });
 ```
 
 <img src="services/odoo_sepia.png" class="align-center" width="600"
-alt="Odoo in sepia" />
+alt="Konvergo ERP in sepia" />
 
 ### Http Service
 
@@ -592,7 +592,7 @@ const result = await this.rpc("/my/route", { some: "value" });
 
 > [!NOTE]
 > Note that the `rpc` service is considered a low-level service. It
-> should only be used to interact with Odoo controllers. To work with
+> should only be used to interact with Konvergo ERP controllers. To work with
 > models (which is by far the most important usecase), one should use
 > the `orm` service instead.
 
@@ -674,7 +674,7 @@ automatically scrolls to the target (if appropriate).
 The service adds an event listener to get
 <span class="title-ref">click</span>'s on the document. The service
 checks if the selector contained in its href attribute is valid to
-distinguish anchors and Odoo actions (e.g. <span class="title-ref">\<a
+distinguish anchors and Konvergo ERP actions (e.g. <span class="title-ref">\<a
 href="#target_element"\>\</a\></span>). It does nothing if it is not the
 case.
 
@@ -718,14 +718,14 @@ explained above.
 
 The <span class="title-ref">title</span> service offers a simple API
 that allows to read/modify the document title. For example, if the
-current document title is "Odoo", we can change it to "Odoo 15 - Apple"
+current document title is "Konvergo ERP", we can change it to "Konvergo ERP 15 - Apple"
 by using the following command:
 
 ``` javascript
 // in some component setup method
 const titleService = useService("title");
 
-titleService.setParts({ odoo: "Odoo 15", fruit: "Apple" });
+titleService.setParts({ odoo: "Konvergo ERP 15", fruit: "Apple" });
 ```
 
 #### API
@@ -760,10 +760,10 @@ Its API is:
 > parts:
 >
 > ``` javascript
-> { odoo: "Odoo", action: "Import" }
+> { odoo: "Konvergo ERP", action: "Import" }
 > ```
 >
-> with `current` value being `Odoo - Import` , then
+> with `current` value being `Konvergo ERP - Import` , then
 >
 > ``` javascript
 > setParts({
@@ -771,7 +771,7 @@ Its API is:
 > });
 > ```
 >
-> will change the title to `Odoo`.
+> will change the title to `Konvergo ERP`.
 
 ### User service
 

@@ -90,7 +90,7 @@ To write good titles and headings:
 - Quotation templates
 - Lead mining
 - Resupply from another warehouse
-- Synchronize Google Calendar with Odoo
+- Synchronize Google Calendar with Konvergo ERP
 - Batch payments: SEPA Direct Debit (SDD)
 - Digitize vendor bills with optical character recognition (OCR)
 - **Headings** (H2, H3)
@@ -122,7 +122,7 @@ Your <em>page title</em> gives your reader a quick and clear
 understanding of what your content is about.</div>
 <p>The <em>content</em> in this section describes the upcoming content
 from a <strong>business point of view</strong>, and shouldn't put the
-emphasis on Odoo, as this is documentation and not marketing.</p>
+emphasis on Konvergo ERP, as this is documentation and not marketing.</p>
 <p>Start first with a <strong>lead paragraph</strong>, which helps the
 reader make sure that they've found the right page, then explain the
 <strong>business aspects of this topic</strong> in the following
@@ -221,13 +221,13 @@ A few tips to improve your screenshots:
     `F12` key) and resizing the width.
 3.  **Select** the relevant area, rather than keeping the full window.
 4.  If necessary, you can **edit** the screenshot to remove unnecessary
-    fields and to narrow even more Odoo's display.
+    fields and to narrow even more Konvergo ERP's display.
 
 <img src="content_guidelines/screenshot-tips.gif" class="align-center"
-alt="Three tips to take good screenshots for the Odoo documentation." />
+alt="Three tips to take good screenshots for the Konvergo ERP documentation." />
 
 > [!NOTE]
-> Resizing the window's width is the most important step to do as Odoo's
+> Resizing the window's width is the most important step to do as Konvergo ERP's
 > responsive design automatically resizes all fields to match the
 > window's width.
 

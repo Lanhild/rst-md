@@ -1,7 +1,7 @@
 # Chapter 9: Computed Fields And Onchanges
 
 The `relations between models <tutorials/getting_started/08_relations>`
-are a key component of any Odoo module. They are necessary for the
+are a key component of any Konvergo ERP module. They are necessary for the
 modelization of any business case. However, we may want links between
 the fields within a given model. Sometimes the value of one field is
 determined from the values of other fields and other times we want to
@@ -88,7 +88,7 @@ have been modified:
 > is itself a collection of size 1. You can access/assign fields on
 > single records by using the dot notation, e.g. `record.name`.
 
-Many examples of computed fields can be found in Odoo.
+Many examples of computed fields can be found in Konvergo ERP.
 [Here](https://github.com/odoo/odoo/blob/713dd3777ca0ce9d121d5162a3d63de3237509f4/addons/account/models/account_move.py#L3420-L3423)
 is a simple one.
 
@@ -147,7 +147,7 @@ directly. In our real estate example, we can define a validity duration
 for an offer and set a validity date. We would like to be able to set
 either the duration or the date with one impacting the other.
 
-To support this Odoo provides the ability to use an `inverse` function:
+To support this Konvergo ERP provides the ability to use an `inverse` function:
 
     from odoo import api, fields, models
 

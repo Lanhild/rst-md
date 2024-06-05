@@ -2,7 +2,7 @@
 
 When manufacturing certain products, specific operations may need to be
 completed before others can begin. In order to ensure operations are
-carried out in the correct order, Odoo *Manufacturing* features a *work
+carried out in the correct order, Konvergo ERP *Manufacturing* features a *work
 order dependencies* setting. Enabling this setting allows for operations
 on a Bill of Materials (BoM) to be *blocked* by other operations that
 should occur first.
@@ -67,7 +67,7 @@ Finally, save the `BoM (Bill of Materials)` by clicking `Save`.
 ## Plan work orders using dependencies
 
 Once work order dependencies have been configured on a
-`BoM (Bill of Materials)`, Odoo *Manufacturing* is able to plan when
+`BoM (Bill of Materials)`, Konvergo ERP *Manufacturing* is able to plan when
 work orders are scheduled, based on their dependencies. To plan the work
 orders for a manufacturing order, begin by navigating to
 `Manufacturing --> Operations -->

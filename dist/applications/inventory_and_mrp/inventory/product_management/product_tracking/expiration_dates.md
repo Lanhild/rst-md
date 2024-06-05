@@ -2,14 +2,14 @@
 
 <div id="inventory/product_management/product_tracking/expiration_dates">
 
-In Odoo, *expiration dates* can be used to manage and track the
+In Konvergo ERP, *expiration dates* can be used to manage and track the
 lifecycles of perishable products, from purchase to sale. Using
 expiration dates reduces product loss due to unexpected expiry, and
 helps to avoid sending expired products to customers.
 
 </div>
 
-In Odoo, only products that are tracked using *lots* and *serial
+In Konvergo ERP, only products that are tracked using *lots* and *serial
 numbers* can be assigned expiration information. Once a lot or serial
 number has been assigned, an expiration date can be set. This is
 especially helpful for companies (such as food manufacturers) that
@@ -248,7 +248,7 @@ form, then no alerts will be created.
 > `Removal Strategy` for the `Location` the products are stored in must
 > be set to `FEFO (First Expiry, First
 > Out)`. If there is not enough stock of perishable products in one lot,
-> Odoo will automatically take the remaining quantity required from a
+> Konvergo ERP will automatically take the remaining quantity required from a
 > second lot with the next-soonest expiration date. Removal strategies
 > can also be set on `Product Categories`.
 

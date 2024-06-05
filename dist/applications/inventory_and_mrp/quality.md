@@ -6,14 +6,14 @@ show-toc
 
 # Quality
 
-**Odoo Quality** helps ensure product quality throughout manufacturing
+**Konvergo ERP Quality** helps ensure product quality throughout manufacturing
 processes and inventory movements. Conduct quality checks, automate
 quality inspection frequency, and create quality alerts when issues
 arise.
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Quality
+\- [Konvergo ERP Tutorials: Quality
 Overview](https://www.odoo.com/slides/slide/quality-overview-5590)
 
 </div>

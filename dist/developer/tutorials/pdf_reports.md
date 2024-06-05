@@ -16,7 +16,7 @@ other main uses: creating PDF reports. A common business requirement is
 the ability to create documents to send to customers and to use
 internally. These reports can be used to summarize and display
 information in an organized template to support the business in
-different ways. Odoo can additionally add our company's header and
+different ways. Konvergo ERP can additionally add our company's header and
 footer to our reports with minimal extra effort.
 
 The documentation related to this topic can be found in
@@ -151,7 +151,7 @@ file:
 </odoo>
 ```
 
-Most of the Odoo specific (i.e. non-HTML) items in our file are
+Most of the Konvergo ERP specific (i.e. non-HTML) items in our file are
 explained in the minimal viable template section. Some additional
 features in our template are:
 
@@ -170,7 +170,7 @@ probably don't need much explanation and you can just look at its
 Otherwise you are encouraged to read more about them (
 [Wikipedia](https://en.wikipedia.org/wiki/Template_processor) has a good
 high level description), but the general idea is that QWeb provides the
-ability to dynamically generate web code based on Odoo data and simple
+ability to dynamically generate web code based on Konvergo ERP data and simple
 commands. I.e. QWeb can access recordset data (and methods) and process
 simple programming operations such as setting and accessing temporary
 variables. For example, in the above example:
@@ -196,7 +196,7 @@ Its contents are all explained in
 
 An `ir.actions.report` is primarily used via the Print menu of a model's
 view. In the practical example, the `binding_model_id` specifies which
-model's views the report should show, and Odoo will auto-magically add
+model's views the report should show, and Konvergo ERP will auto-magically add
 it for you. Another common use case of the report action is to link it
 to a button as we learned in `tutorials/getting_started/10_actions`.
 This is handy for reports that only make sense under specific
@@ -256,7 +256,7 @@ See if you can understand how to call a sub-template by reading the
 at an
 [example](https://github.com/odoo/odoo/blob/0e12fa135882cd5095dbf15fe2f64231c6a84336/addons/portal/static/src/xml/portal_chatter.xml#L147-L160)
 (remember QWeb uses the same control flows regardless if it is for a
-report or a view in Odoo.)
+report or a view in Konvergo ERP.)
 
 <div class="exercise">
 
@@ -321,7 +321,7 @@ each of them.
 
 ### Translations
 
-We all know Odoo is used in multiple languages thanks to automated and
+We all know Konvergo ERP is used in multiple languages thanks to automated and
 manual translating. QWeb reports are no exception! Note that sometimes
 the translations do not work properly if there are unnecessary spaces in
 your template's text content, so try to avoid them when possible
@@ -338,7 +338,7 @@ from accessing the reports.
 
 ### Barcodes
 
-Odoo has a built-in barcode image creator that allows for barcodes to be
+Konvergo ERP has a built-in barcode image creator that allows for barcodes to be
 embedded in your reports. Check out the corresponding
 [code](https://github.com/odoo/odoo/blob/0e12fa135882cd5095dbf15fe2f64231c6a84336/addons/web/controllers/main.py#L2044-L2046)
 to see all the supported barcode types.

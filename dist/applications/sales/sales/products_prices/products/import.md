@@ -1,11 +1,11 @@
 # Import products
 
-Odoo *Sales* provides a template for importing products with categories
+Konvergo ERP *Sales* provides a template for importing products with categories
 and variants, which can be opened and edited with any spreadsheet
 software (Microsoft Excel, OpenOffice, Google Sheets, etc.).
 
 When this spreadsheet is filled out properly, it can be quickly uploaded
-to the Odoo database. When uploaded, those products are instantly added,
+to the Konvergo ERP database. When uploaded, those products are instantly added,
 accessible, and editable in the product catalog.
 
 ## Import template
@@ -13,7 +13,7 @@ accessible, and editable in the product catalog.
 In order to import products with categories and variants, the *Import
 Template for Products* **must** be downloaded. Once downloaded, the
 template can be adjusted and customized, and then uploaded back into the
-Odoo database.
+Konvergo ERP database.
 
 To download the necessary import template, navigate to
 `Sales app --> Products -->
@@ -23,14 +23,14 @@ upper-left corner. Doing so reveals a drop-down menu.
 From this drop-down menu, select the `Import records` option.
 
 <img src="import/gear-import-records-option.png" class="align-center"
-alt="The Import records option selectable from the gear icon on the Products page in Odoo Sales." />
+alt="The Import records option selectable from the gear icon on the Products page in Konvergo ERP Sales." />
 
 Selecting `Import records` reveals a separate page with a link to
 download the `Import Template for Products`. Click that link to download
 the template.
 
 <img src="import/import-template-products.png" class="align-center"
-alt="The Import records option selectable from the gear icon on the Products page in Odoo Sales." />
+alt="The Import records option selectable from the gear icon on the Products page in Konvergo ERP Sales." />
 
 Once the template download is complete, open the spreadsheet file to
 customize it.
@@ -48,61 +48,61 @@ few elements to keep in mind during the process:
   <span class="title-ref">FURN_001</span>) in the `Internal
   Reference` column for each product can be helpful in many cases. This
   can even be from previous software spreadsheets to ease the transition
-  into Odoo.
+  into Konvergo ERP.
 
   For example, when updating imported products, the same file can be
   imported several times without creating duplicates, thus enhancing the
   efficiency and simplicity of imported product management.
 
 - Do **not** change the labels of columns that are meant to be imported.
-  Otherwise, Odoo won't recognize them, forcing the user to map them on
+  Otherwise, Konvergo ERP won't recognize them, forcing the user to map them on
   the import screen manually.
 
 - Feel free to add new columns to the template spreadsheet, if desired.
-  However, to be added, those fields **must** exist in Odoo. If Odoo
+  However, to be added, those fields **must** exist in Konvergo ERP. If Konvergo ERP
   can't match the column name with a field, it can be matched manually
   during the import process.
 
-  During the import process of the completed template, Odoo reveals a
+  During the import process of the completed template, Konvergo ERP reveals a
   page showcasing all the elements of the newly-configured product
   template spreadsheet, separated by `File
-  Column`, `Odoo Field`, and `Comments`.
+  Column`, `Konvergo ERP Field`, and `Comments`.
 
-  To manually match a column name with a field in Odoo, click the
-  `Odoo Field` drop-down menu next to the `File Column` that needs a
+  To manually match a column name with a field in Konvergo ERP, click the
+  `Konvergo ERP Field` drop-down menu next to the `File Column` that needs a
   manual adjustment, and select the appropriate field from that
   drop-down menu.
 
   <img src="import/odoo-field-dropdown-menu.png" class="align-center"
-  alt="The Odoo Field drop-down menu next to a Field Column that needs to be manually adjusted." />
+  alt="The Konvergo ERP Field drop-down menu next to a Field Column that needs to be manually adjusted." />
 
 ## Import product template spreadsheet
 
-After customizing the product template spreadsheet, return to the Odoo
+After customizing the product template spreadsheet, return to the Konvergo ERP
 product import page, where the template download link is found, and
 click the `Upload File` button in the upper-left corner.
 
 <img src="import/upload-file-button.png" class="align-center"
-alt="The upload file button on the import products template download page in Odoo Sales." />
+alt="The upload file button on the import products template download page in Konvergo ERP Sales." />
 
 Then, a pop-up window appears, in which the completed product template
-spreadsheet file should be selected and uploaded to Odoo.
+spreadsheet file should be selected and uploaded to Konvergo ERP.
 
-After that, Odoo reveals a page showcasing all the elements of the
+After that, Konvergo ERP reveals a page showcasing all the elements of the
 newly-configured product template spreadsheet, separated by
-`File Column`, `Odoo Field`, and `Comments`.
+`File Column`, `Konvergo ERP Field`, and `Comments`.
 
 <img src="import/import-a-file-page.png" class="align-center"
-alt="The import a file page in Odoo Sales after a product template has been uploaded." />
+alt="The import a file page in Konvergo ERP Sales after a product template has been uploaded." />
 
 From here, the `File Column` can be manually assigned to an
-`Odoo Field`, if necessary.
+`Konvergo ERP Field`, if necessary.
 
 To make sure everything is appropriate, and all the columns and fields
 are lined up accurately, click the `Test` button in the upper-left
 corner.
 
-If everything is lined up and applied correctly, Odoo reveals a blue
+If everything is lined up and applied correctly, Konvergo ERP reveals a blue
 banner at the top of the page, informing the user that
 `Everything seems valid`.
 
@@ -110,12 +110,12 @@ banner at the top of the page, informing the user that
 class="align-center"
 alt="The everything seems valid message that appears if file columns are entered correctly." />
 
-If there are any errors, Odoo reveals a red banner at the top of the
+If there are any errors, Konvergo ERP reveals a red banner at the top of the
 page, with instructions of where to locate the specific issues, and how
 to fix them.
 
 <img src="import/import-error-message.png" class="align-center"
-alt="The import error message that appears if file columns don&#39;t match an Odoo Field." />
+alt="The import error message that appears if file columns don&#39;t match an Konvergo ERP Field." />
 
 Once those errors are fixed, click `Test` again to ensure all necessary
 issues have been remedied appropriately.
@@ -126,20 +126,20 @@ and repeat the process.
 
 When everything is ready, click the `Import` button.
 
-When clicked, Odoo instantly imports those products, and reveals the
+When clicked, Konvergo ERP instantly imports those products, and reveals the
 main `Products` page, with a pop-up message in the upper-right corner.
 This pop-up message informs the user how many products were successfully
 imported.
 
 <img src="import/successful-import-popup.png" class="align-center"
-alt="The pop-up window that appears after a successful product import process in Odoo Sales." />
+alt="The pop-up window that appears after a successful product import process in Konvergo ERP Sales." />
 
 At this point, all the newly-imported products are accessible and
 editable via the `Products` page.
 
 ## Import relation fields, attributes, and variants
 
-It's important to note that an Odoo object is always related to many
+It's important to note that an Konvergo ERP object is always related to many
 other objects. For example, a product is linked to product categories,
 attributes, vendors, and things of this nature. These links/connections
 are known as relations.
@@ -150,7 +150,7 @@ are known as relations.
 
 ### Relation fields
 
-On product forms in Odoo, there are a number of fields that can be
+On product forms in Konvergo ERP, there are a number of fields that can be
 modified and customized at any time. These fields are found under every
 tab on a product form. While these fields are easily editable directly
 on the product form, they can also be modified via a product import.
@@ -172,7 +172,7 @@ above (`Sales app --> Products -->
 Products --> ⚙️ (gear) icon --> Import records --> Upload File`).
 
 Once the spreadsheet with the newly-configured relation field
-information has been uploaded, click `Import`, and Odoo returns to the
+information has been uploaded, click `Import`, and Konvergo ERP returns to the
 `Products` page.
 
 When the newly-changed/modified products, complete with the new relation
@@ -181,7 +181,7 @@ can be found on the `Products` page.
 
 ### Attributes and values
 
-Odoo also allows users to import product attributes and values that can
+Konvergo ERP also allows users to import product attributes and values that can
 be used for products that already exist in the database, and/or with
 imported products.
 
@@ -222,17 +222,17 @@ alt="An attributes and values spreadsheet template for imports." />
   be in individual lines on the spreadsheet.
 
 Once the desired attributes and values have been entered and saved in
-the spreadsheet, it's time to import and upload it into Odoo. To do
+the spreadsheet, it's time to import and upload it into Konvergo ERP. To do
 that, navigate to `Sales app --> Configuration
 --> Attributes --> ⚙️ (gear) icon --> Import records --> Upload File`.
 
 Once the spreadsheet with the newly-configured attributes and values has
-been uploaded, click `Import`, and Odoo returns to the `Attributes`
+been uploaded, click `Import`, and Konvergo ERP returns to the `Attributes`
 page. That's where those newly-added attributes and values can be found
 and edited, if necessary.
 
 As mentioned previously, when attributes and values have been added to
-the Odoo database, they can be used for existing or imported products.
+the Konvergo ERP database, they can be used for existing or imported products.
 
 ### Product variants
 
@@ -263,12 +263,12 @@ alt="Product variants spreadsheet with product attributes and variants for impor
 > (e.g. <span class="title-ref">furniture,couch,home</span>).
 
 When the desired products and product variants have been entered and
-saved in the spreadsheet, it's time to import and upload them into Odoo.
+saved in the spreadsheet, it's time to import and upload them into Konvergo ERP.
 To do that, navigate to `Sales app -->
 Products --> Products --> ⚙️ (gear) icon --> Import records --> Upload File`.
 
 Once the spreadsheet with the newly-configured products and product
-variants has been uploaded, click `Import`, and Odoo returns to the
+variants has been uploaded, click `Import`, and Konvergo ERP returns to the
 `Products` page. That's where the newly-added products can be found.
 
 To view and modify the attributes and variants on any products, select

@@ -22,8 +22,8 @@ documentation](https://epayments-support.ingenico.com/get-started/).
 Log into your Ogone account and head to the `Configuration` tab.
 
 You need to create an **API user** to be used in the creation of
-transactions from Odoo. While you can use your main account to do so,
-using an **API user** ensures that if the credentials used in Odoo are
+transactions from Konvergo ERP. While you can use your main account to do so,
+using an **API user** ensures that if the credentials used in Konvergo ERP are
 leaked, no access to your Ogone configuration is possible. Additionally,
 passwords for **API users** do not need to be updated regularly, unlike
 normal users.
@@ -50,9 +50,9 @@ during the setup.
 > any error. If not, simply click the `Activate(Errors)` button to reset
 > the user.
 
-### Set up Ogone for Odoo
+### Set up Ogone for Konvergo ERP
 
-Ogone must now be configured to accept payments from Odoo. Head to
+Ogone must now be configured to accept payments from Konvergo ERP. Head to
 `Configuration -->
 Technical Information --> Global Security Parameters`, select `SHA-512`
 as `Hash Algorithm` and `UTF-8` as `character encoding`. Then, go to the
@@ -62,7 +62,7 @@ field of the `e-Commerce and Alias Gateway` section blank.
 > [!TIP]
 > If you need to use another algorithm, such as
 > <span class="title-ref">sha-1</span> or
-> <span class="title-ref">sha-256</span>, within Odoo, activate the
+> <span class="title-ref">sha-256</span>, within Konvergo ERP, activate the
 > `developer mode <developer-mode>` and go to the **Payment Providers**
 > page in `Accounting --> Configuration --> Payment Providers`. Click on
 > `Ogone`, and in the `Credentials` tab, select the algorithm you wish
@@ -70,7 +70,7 @@ field of the `e-Commerce and Alias Gateway` section blank.
 
 You are now required to generate **SHA-IN** passphrases. **SHA-IN** and
 **SHA-OUT** passphrases are used to digitally sign the transaction
-requests and responses between Odoo and Ogone. By using these secret
+requests and responses between Konvergo ERP and Ogone. By using these secret
 passphrases and the <span class="title-ref">sha-1</span> algorithm, both
 systems can ensure that the information they receive from the other was
 not altered or tampered with.
@@ -83,7 +83,7 @@ address field blank.
 Your **SHA-IN** and **SHA-OUT** passphrases should be different, and
 between 16 and 32 characters long. Make sure to use the same **SHA-IN**
 and **SHA-OUT** passphrases throughout the entire Ogone configuration,
-as Odoo only allows a single **SHA-IN** and single **SHA-OUT**
+as Konvergo ERP only allows a single **SHA-IN** and single **SHA-OUT**
 passphrase.
 
 In order to retrieve the **SHA-OUT** key, log into your Ogone account,
@@ -98,7 +98,7 @@ When done, head to
 check the following options:
 
 - The `URL` fields for `HTTP redirection in the browser` can be left
-  empty, as Odoo will specify these URLs for every transaction request.
+  empty, as Konvergo ERP will specify these URLs for every transaction request.
 - `I would like to receive transaction feedback parameters on the redirection URLs`:
   should be checked.
 - `Direct HTTP server-to-server request`: should to be set to
@@ -132,9 +132,9 @@ this tab, you can configure how the user can have its card details
 saved, for how long the information is saved, if a checkbox to save the
 card information should be displayed, etc.
 
-## Settings in Odoo
+## Settings in Konvergo ERP
 
-To set up Ogone in Odoo, head to
+To set up Ogone in Konvergo ERP, head to
 `Accounting --> Configuration --> Payment Providers` and open the Ogone
 provider. In the `Credentials` tab, enter the **PSPID** of your Ogone
 account, and fill out the other fields as configured in your

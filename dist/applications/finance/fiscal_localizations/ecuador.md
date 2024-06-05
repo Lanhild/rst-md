@@ -47,7 +47,7 @@ features of the Ecuadorian localization:
 
 > [!NOTE]
 > When you install a database from scratch selecting
-> <span class="title-ref">Ecuador</span> as the country, Odoo
+> <span class="title-ref">Ecuador</span> as the country, Konvergo ERP
 > automatically installs the base module `Ecuadorian - Accounting`.
 
 ### Configure your company
@@ -68,7 +68,7 @@ information:
 2.  Upload company logo and save
 
 <img src="ecuador/ecuador-company.png" class="align-center"
-alt="Populate company data for Ecuador in Odoo Contacts." />
+alt="Populate company data for Ecuador in Konvergo ERP Contacts." />
 
 ### Electronic documents
 
@@ -577,7 +577,7 @@ matches the total from the `Vendor Bill`.
 ## Financial Reports
 
 In Ecuador, there are fiscal reports that the company presents to SRI.
-In Odoo, we have two of the main financial reports used by companies.
+In Konvergo ERP, we have two of the main financial reports used by companies.
 These are the reports 103 and 104.
 
 To get these reports go to the `Accounting` app and select
@@ -627,7 +627,7 @@ explained in the `electronic invoice <l10n_ec/configure-your-company>`
 section.
 
 In the `ATS (Anexo Transaccional Simplificado)`, every document
-generated in Odoo (invoices, vendor bills, sales and purchases
+generated in Konvergo ERP (invoices, vendor bills, sales and purchases
 withholdings, credit notes, and debit notes) will be included.
 
 ##### Vendor bills
@@ -661,10 +661,10 @@ desired `ATS (Anexo Transaccional Simplificado)` report, then click
 The downloaded XML file is ready to be uploaded to *DIMM Formularios*.
 
 <img src="ecuador/ats-report.png" class="align-center"
-alt="ATS report download for Ecuador in Odoo Accounting." />
+alt="ATS report download for Ecuador in Konvergo ERP Accounting." />
 
 > [!NOTE]
 > When downloading the `ATS (Anexo Transaccional Simplificado)` report,
-> Odoo generates a warning pop-up alerting the user if a document(s) has
+> Konvergo ERP generates a warning pop-up alerting the user if a document(s) has
 > missing or incorrect data. Nevertheless, the user can still download
 > the XML file.

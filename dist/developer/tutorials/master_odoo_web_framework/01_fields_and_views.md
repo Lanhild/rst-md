@@ -10,13 +10,13 @@ Chart.js. Now, let's learn how to create new fields and views.
 Solutions
 
 The solutions for each exercise of the chapter are hosted on the
-[official Odoo tutorials
+[official Konvergo ERP tutorials
 repository](https://github.com/odoo/tutorials/commits/%7BCURRENT_MAJOR_BRANCH%7D-solutions/awesome_tshirt).
 It is recommended not to look at them before trying the exercises.
 
 </div>
 
-Fields and views are among the most important concepts in the Odoo user
+Fields and views are among the most important concepts in the Konvergo ERP user
 interface. They are key to many important user interactions, and should
 therefore work perfectly. In the context of the JavaScript framework,
 fields are components specialized for visualizing/editing a specific
@@ -212,7 +212,7 @@ another](%7BGITHUB_PATH%7D/addons/account/static/src/components/account_type_sel
 
 ## 4. Message for some customers
 
-Odoo form views support a <span class="title-ref">widget</span> API,
+Konvergo ERP form views support a <span class="title-ref">widget</span> API,
 which is like a field, but more generic. It is useful to insert
 arbitrary components in the form view. Let us see how we can use it.
 
@@ -277,10 +277,10 @@ alt="image" />
 
 ## 6. Add buttons in the control panel
 
-Views are among the most important components in Odoo: they allow users
-to interact with their data. Let us discuss how Odoo views are designed.
+Views are among the most important components in Konvergo ERP: they allow users
+to interact with their data. Let us discuss how Konvergo ERP views are designed.
 
-The power of Odoo views is that they declare how a particular screen
+The power of Konvergo ERP views is that they declare how a particular screen
 should work with an XML document (usually named
 <span class="title-ref">arch</span>, short for architecture). This
 description can be extended/modified by xpaths serverside. Then, the
@@ -346,7 +346,7 @@ registry.category("views").add("hello", helloView);
 
 </div>
 
-Most (or all?) Odoo views share a common architecture:
+Most (or all?) Konvergo ERP views share a common architecture:
 
 <img src="01_fields_and_views/view_architecture.svg"
 class="o-no-modal o-no-modalalign-center" style="width:75.0%"
@@ -407,7 +407,7 @@ setup() {
 
 2.  Add a
     <span class="title-ref">js_class="awesome_tshirt.order_form_view"</span>
-    attribute to the arch of the form view so that Odoo will load it.
+    attribute to the arch of the form view so that Konvergo ERP will load it.
 
 3.  Create a new template inheriting from the form controller template
     and add a "Print Label" button after the "New" button.

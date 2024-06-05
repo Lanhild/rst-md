@@ -22,7 +22,7 @@ way to go?</b> </div>
     opportunity to close their own subscriptions, your customers do not
     feel trapped because they subscribed to your products/services.
 
-In summary, the **Odoo Subscriptions** application gives you the
+In summary, the **Konvergo ERP Subscriptions** application gives you the
 **possibility to choose what you want to apply**. Indeed, you can decide
 whether to give your customers the option to close their subscriptions
 whenever they want to or to restrict this possibility. It depends on you
@@ -39,12 +39,12 @@ own subscriptions.
 
 <img src="closing/configuration-to-close-your-subscriptions.png"
 class="align-center"
-alt="Configuration to close your subscription with Odoo Subscriptions" />
+alt="Configuration to close your subscription with Konvergo ERP Subscriptions" />
 
 > [!NOTE]
 > Be sure to check out our documentation on how to
 > `Use subscription templates <plans>` to fully understand the
-> importance of this feature in a basic flow using the **Odoo
+> importance of this feature in a basic flow using the **Konvergo ERP
 > Subscriptions** application.
 
 ## Close your first subscription
@@ -58,7 +58,7 @@ subscription.
 
 <img src="closing/close-your-subscriptions-as-an-administrator.png"
 class="align-center"
-alt="Close your subscription from an administration point of view with Odoo Subscriptions" />
+alt="Close your subscription from an administration point of view with Konvergo ERP Subscriptions" />
 
 By using the smart button *Close*, you have to enter a close reason. For
 example, "Subscription too expensive", "Subscription does not meet my
@@ -68,7 +68,7 @@ the subscription is now *Closed* and that the close reason is mentioned
 on the subscription.
 
 <img src="closing/use-of-close-reasons.png" class="align-center"
-alt="What happens when you close your subscription with Odoo Subscriptions?" />
+alt="What happens when you close your subscription with Konvergo ERP Subscriptions?" />
 
 ### Customer view
 
@@ -81,14 +81,14 @@ Subscription* button.
 
 <img src="closing/close-your-subscriptions-as-a-customer.png"
 class="align-center"
-alt="Close your subscription from a customer point of view with Odoo Subscriptions" />
+alt="Close your subscription from a customer point of view with Konvergo ERP Subscriptions" />
 
 By using this button, the customer can specify the reason for cancelling
 his/her subscription and he/she can even leave a message.
 
 <img src="closing/use-of-close-reasons-as-a-customer.png"
 class="align-center"
-alt="What happens when customers close their subscription with Odoo Subscriptions?" />
+alt="What happens when customers close their subscription with Konvergo ERP Subscriptions?" />
 
 By confirming the cancellation, the customer is redirected to his/her
 portal. The administrator is informed of this modification. Indeed, the
@@ -99,12 +99,12 @@ closing text added by the customer.
 <img
 src="closing/chatter-history-when-a-customer-closes-a-subscription.png"
 class="align-center"
-alt="What happens when customers close their subscription in Odoo Subscriptions?" />
+alt="What happens when customers close their subscription in Konvergo ERP Subscriptions?" />
 
 > [!NOTE]
 > Before closing a subscription, check out our documentation on how to
 > `Create a quotation using subscription products <../subscriptions>` to
-> understand how subscriptions are managed in the **Odoo Subscriptions**
+> understand how subscriptions are managed in the **Konvergo ERP Subscriptions**
 > application.
 
 <div class="seealso">

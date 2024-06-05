@@ -1,28 +1,28 @@
 # Assign leads with predictive lead scoring
 
-The Odoo *CRM* app can automatically assign leads/opportunities to sales
+The Konvergo ERP *CRM* app can automatically assign leads/opportunities to sales
 teams and salespeople. A standard practice is to assign leads based on
 the probability of winning each lead. Companies can prioritize the leads
 that are more likely to result in successful deals by quickly assigning
 them to the appropriate salespeople.
 
-Odoo automatically calculates the probability of winning each lead using
+Konvergo ERP automatically calculates the probability of winning each lead using
 a method called *predictive lead scoring*.
 
 ## Predictive lead scoring
 
 Predictive lead scoring is a machine-learning model that uses historical
-data from Odoo *CRM* to score open leads/opportunities.
+data from Konvergo ERP *CRM* to score open leads/opportunities.
 
-As a company processes opportunities through the CRM pipeline, Odoo
+As a company processes opportunities through the CRM pipeline, Konvergo ERP
 collects data on which opportunities are won and lost. Predictive lead
 scoring uses this data to predict the probability of winning each new
 lead or opportunity.
 
 The more opportunities that are sent through the CRM pipeline, the more
-data Odoo collects, resulting in more accurate probabilities.
+data Konvergo ERP collects, resulting in more accurate probabilities.
 
-Specifically, Odoo's predictive lead scoring uses the *naive Bayes*
+Specifically, Konvergo ERP's predictive lead scoring uses the *naive Bayes*
 probability model:
 
 $$\begin{equation}
@@ -43,7 +43,7 @@ algorithm.
 
 ### Configuration
 
-Predictive lead scoring is always active in Odoo *CRM*. However, the
+Predictive lead scoring is always active in Konvergo ERP *CRM*. However, the
 variables used to calculate the probability of success can be customized
 in the settings.
 
@@ -106,7 +106,7 @@ alt="The gear icon used to reactivate automatic probability on an opportunity fo
 
 ## Assign leads based on probability
 
-Odoo *CRM* can assign leads/opportunities to sales teams and salespeople
+Konvergo ERP *CRM* can assign leads/opportunities to sales teams and salespeople
 based on specified rules. Create assignment rules based on the leads'
 probability of success to prioritize those that are more likely to
 result in deals.
@@ -118,12 +118,12 @@ To activate *rule-based assignment*, navigate to
 Settings`, and activate `Rule-Based Assignment`.
 
 The rule-based assignment feature can be set to run `Manually`, meaning
-an Odoo user must manually trigger the assignment, or `Repeatedly`,
-meaning Odoo will automatically trigger the assignment according to the
+an Konvergo ERP user must manually trigger the assignment, or `Repeatedly`,
+meaning Konvergo ERP will automatically trigger the assignment according to the
 chosen time period.
 
 To set up automatic lead assignment, select `Repeatedly` for the
-`Running` section. Then, customize how often Odoo will trigger the
+`Running` section. Then, customize how often Konvergo ERP will trigger the
 automatic assignment in the `Repeat every` section.
 
 <img src="lead_scoring/rule-based-assignment.png" class="align-center"
@@ -137,13 +137,13 @@ the sales team configuration page).
 ### Configure assignment rules
 
 Next, configure the *assignment rules* for each sales team and/or
-salesperson. These rules determine which leads Odoo assigns to which
+salesperson. These rules determine which leads Konvergo ERP assigns to which
 people. To get started, navigate to `CRM
 --> Configuration --> Sales Teams`, and select a sales team.
 
 On the sales team configuration form, under `Assignment Rules`, click on
 `Edit
-Domain` to configure the rules that Odoo uses to determine lead
+Domain` to configure the rules that Konvergo ERP uses to determine lead
 assignment for this sales team. The rules can include anything that may
 be relevant for this company or team, and any number of rules can be
 added.
@@ -182,7 +182,7 @@ save changes.
 If automatic lead assignment is configured in the settings, both the
 sales team and individual team members have the option to
 `Skip auto assignment`. Check this box to omit a particular sales team
-or salesperson from being assigned leads automatically by Odoo's
+or salesperson from being assigned leads automatically by Konvergo ERP's
 rule-based assignment feature. If `Skip auto assignment` is activated,
 the sales team or salesperson can still be assigned leads manually.
 

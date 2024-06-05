@@ -4,7 +4,7 @@ By offering discounts, you can entice your customers and drastically
 increase your revenue. It is vital to offer discounts, whether they are
 time-limited, seasonal or manually given.
 
-To manage discounts, Odoo has powerful features that help set up a
+To manage discounts, Konvergo ERP has powerful features that help set up a
 pricing strategy tailored to every business.
 
 ## Apply manual discounts
@@ -65,7 +65,7 @@ available in the PoS and define a default one.
 
 ### Create a pricelist
 
-By default, Odoo has a *Public Pricelist* configured. To create more, go
+By default, Konvergo ERP has a *Public Pricelist* configured. To create more, go
 to `Point of Sale --> Products --> Pricelists`. Then click on create.
 
 When creating a pricelist, you can set several criteria to use a

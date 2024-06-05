@@ -112,7 +112,7 @@ Add an inline list view.
 Whenever we've added fields to our models, we've (almost) never had to
 worry about how these fields would look like in the user interface. For
 example, a date picker is provided for a `Date` field and a `One2many`
-field is automatically displayed as a list. Odoo chooses the right
+field is automatically displayed as a list. Konvergo ERP chooses the right
 'widget' depending on the field type.
 
 However, in some cases, we want a specific representation of a field
@@ -161,7 +161,7 @@ offers on top of the list.
 
 ### Model
 
-Odoo provides several ways to set a default order. The most common way
+Konvergo ERP provides several ways to set a default order. The most common way
 is to define the `_order` attribute directly in the model. This way, the
 retrieved records will follow a deterministic order which will be
 consistent in all views including when records are searched
@@ -306,7 +306,7 @@ Use the `states` attribute to display the header buttons conditionally
 as depicted in this section's **Goal** (notice how the 'Sold' and
 'Cancel' buttons change when the state is modified).
 
-Tip: do not hesitate to search for `states=` in the Odoo XML files for
+Tip: do not hesitate to search for `states=` in the Konvergo ERP XML files for
 some examples.
 
 </div>
@@ -507,7 +507,7 @@ area equal to or greater than the given value.
 > <img src="12_sprinkles/stat_button.gif" class="align-center"
 > alt="Stat button" />
 
-If you've already used some functional modules in Odoo, you've probably
+If you've already used some functional modules in Konvergo ERP, you've probably
 already encountered a 'stat button'. These buttons are displayed on the
 top right of a form view and give a quick access to linked documents. In
 our real estate module, we would like to have a quick link to the offers
@@ -518,7 +518,7 @@ At this point of the tutorial we have already seen most of the concepts
 to do this. However, there is not a single solution and it can still be
 confusing if you don't know where to start from. We'll describe a
 step-by-step solution in the exercise. It can always be useful to find
-some examples in the Odoo codebase by looking for `oe_stat_button`.
+some examples in the Konvergo ERP codebase by looking for `oe_stat_button`.
 
 The following exercise might be a bit more difficult than the previous
 ones since it assumes you are able to search for examples in the source

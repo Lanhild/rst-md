@@ -4,8 +4,8 @@ This section explains how to provide translation abilities to your
 module.
 
 > [!NOTE]
-> If you want to contribute to the translation of Odoo itself, please
-> refer to the [Odoo Wiki
+> If you want to contribute to the translation of Konvergo ERP itself, please
+> refer to the [Konvergo ERP Wiki
 > page](https://github.com/odoo/odoo/wiki/Translations).
 
 ## Exporting translatable term
@@ -43,7 +43,7 @@ files) can be created. PO files can be created using
 with a dedicated translation tool like [POEdit](https://poedit.net/) or
 by simply copying the template to a new file called `{language}.po`.
 Translation files should be put in `{yourmodule}/i18n/`, next to
-`{yourmodule}.pot`, and will be automatically loaded by Odoo when the
+`{yourmodule}.pot`, and will be automatically loaded by Konvergo ERP when the
 corresponding language is installed (via
 `Settings --> Translations --> Languages`)
 
@@ -53,7 +53,7 @@ corresponding language is installed (via
 
 ## Implicit exports
 
-Odoo automatically exports translatable strings from "data"-type
+Konvergo ERP automatically exports translatable strings from "data"-type
 content:
 
 - in non-QWeb views, all text nodes are exported as well as the content
@@ -74,7 +74,7 @@ content:
 ## Explicit exports
 
 When it comes to more "imperative" situations in Python code or
-Javascript code, Odoo cannot automatically export translatable terms so
+Javascript code, Konvergo ERP cannot automatically export translatable terms so
 they must be marked explicitly for export. This is done by wrapping a
 literal string in a function call.
 

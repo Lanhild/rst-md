@@ -1,7 +1,7 @@
 # Order handling
 
 When a customer orders on your eCommerce, there are **three** record
-types required to be handle in Odoo:
+types required to be handle in Konvergo ERP:
 
 - `Sales orders <handling/sales>`;
 - `Delivery orders <handling/delivery>`;
@@ -63,10 +63,10 @@ created. The next step is to process this delivery.
 Packing eCommerce orders usually requires picking the product, preparing
 the packaging, printing the shipping label(s) and shipping to the
 customer. Depending on the number of orders, strategy, or resources,
-those steps can be considered as one or multiple actions in Odoo.
+those steps can be considered as one or multiple actions in Konvergo ERP.
 
 An automatic email can be sent to the customer when the transfer status
-in Odoo is “done”. To do so, enable the feature in the settings of the
+in Konvergo ERP is “done”. To do so, enable the feature in the settings of the
 `Inventory </applications/inventory_and_mrp/inventory>` app.
 
 > [!NOTE]

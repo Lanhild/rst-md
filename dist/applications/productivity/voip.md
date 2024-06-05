@@ -8,7 +8,7 @@ show-toc
 
 <div class="seealso">
 
-For more information, reference the [Odoo eLearning (video tutorials) on
+For more information, reference the [Konvergo ERP eLearning (video tutorials) on
 VoIP](https://www.odoo.com/slides/voip-voice-over-ip-315)
 
 </div>

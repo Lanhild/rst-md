@@ -21,7 +21,7 @@ Years`. From there, click `Create`, give it a `Name`, and both a
 `Start Date` and `End Date`.
 
 > [!NOTE]
-> Once the set fiscal period is over, Odoo automatically reverts to the
+> Once the set fiscal period is over, Konvergo ERP automatically reverts to the
 > default periodicity, taking into account the value specified in the
 > `Last Day` field.
 
@@ -54,7 +54,7 @@ Then, to close the fiscal year:
   information is correct.
 - Reconcile all accounts on the
   `balance sheet <reporting/balance-sheet>`:
-  - Update the bank balances in Odoo according to the actual balances
+  - Update the bank balances in Konvergo ERP according to the actual balances
     found on the bank statements.
   - Reconcile all transactions in the cash and bank accounts by running
     the `aged receivables
@@ -81,7 +81,7 @@ entries for:
 If the accountant is going through the year-end audit, they may want to
 have paper copies of all balance sheet items (such as loans, bank
 accounts, prepayments, sales tax statements, etc.) to compare these with
-the balances in Odoo.
+the balances in Konvergo ERP.
 
 > [!TIP]
 > During this process, it is good practice to set a
@@ -94,7 +94,7 @@ the balances in Odoo.
 
 #### Current year's earnings
 
-Odoo uses a unique account type called **current year's earnings** to
+Konvergo ERP uses a unique account type called **current year's earnings** to
 display the amount difference between the **income** and **expenses**
 accounts.
 
@@ -119,7 +119,7 @@ Dates`.
 > A specific year-end closing entry is **optional** in order to close
 > out the **profit and loss statement**. The reports are created in
 > real-time, meaning that the profit and loss statement corresponds
-> directly with the year-end date specified in Odoo. Therefore, any time
+> directly with the year-end date specified in Konvergo ERP. Therefore, any time
 > the **income statement** is generated, the beginning date corresponds
 > with the beginning of the **fiscal year** and all account balances
 > should equal zero.

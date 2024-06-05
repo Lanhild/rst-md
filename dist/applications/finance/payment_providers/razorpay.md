@@ -11,7 +11,7 @@ established in India and covering more than 100 payment methods.
     later.
 
 2.  Go to `Settings --> Webhooks`, click on `Create New Webhook`, and
-    enter your Odoo database URL followed by
+    enter your Konvergo ERP database URL followed by
     <span class="title-ref">/payment/razorpay/webhook</span> in the
     `Webhook URL` text field.  
     For example:
@@ -26,7 +26,7 @@ established in India and covering more than 100 payment methods.
 
 5.  Click on `Create Webhook` to finalize the configuration.
 
-## Configuration on Odoo
+## Configuration on Konvergo ERP
 
 1.  `Navigate to the payment provider Razorpay <payment_providers/add_new>`
     and change its state to `Enabled`.
@@ -36,7 +36,7 @@ established in India and covering more than 100 payment methods.
 3.  Configure the rest of the options to your liking.
 
 > [!IMPORTANT]
-> If you configure Odoo to capture amounts manually:
+> If you configure Konvergo ERP to capture amounts manually:
 >
 > - Be aware that the **manual voiding** of a transaction is not
 >   supported by Razorpay.

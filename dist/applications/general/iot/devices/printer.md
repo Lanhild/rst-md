@@ -2,7 +2,7 @@
 
 Printer installation can be done in a few easy steps. The printer can be
 used to print receipts, labels, orders, or even reports from the
-different Odoo apps. In addition, printer actions can be assigned as an
+different Konvergo ERP apps. In addition, printer actions can be assigned as an
 *action on a trigger* during the manufacturing process, or added onto a
 quality control point or a quality check.
 
@@ -118,7 +118,7 @@ alt="The printer devices listed in the IoT Devices menu." />
 
 Now, each time `Print` is selected in the control panel, instead of
 downloading a PDF, a pop-up appears which displays all the printer(s)
-linked to the report. Then Odoo sends the report to the selected
+linked to the report. Then Konvergo ERP sends the report to the selected
 printer(s), and automatically prints it.
 
 <div class="seealso">

@@ -2,7 +2,7 @@
 
 QWeb is the primary
 [templating](https://en.wikipedia.org/wiki/Template_processor) engine
-used by Odoo[^1]. It is an XML templating engine[^2] and used mostly to
+used by Konvergo ERP[^1]. It is an XML templating engine[^2] and used mostly to
 generate [HTML](https://en.wikipedia.org/wiki/HTML) fragments and pages.
 
 Template directives are specified as XML attributes prefixed with `t-`,
@@ -673,7 +673,7 @@ being modified, the cached value is discarded.
 
 Values in `t-cache` are scoped, this involves a change in behavior
 between having or not having `t-cache` on one of the parent nodes. Don't
-forget to take into account that Odoo uses a lot of templates, `t-call`
+forget to take into account that Konvergo ERP uses a lot of templates, `t-call`
 and view inheritance. Adding a `t-cache` can therefore modify the
 rendering of a template that you do not see when editing. (`t-foreach`
 it's like a `t-set` for each iteration)
@@ -882,7 +882,7 @@ use the database):
 > context values to pass to QWeb for rendering
 >
 > param str engine  
-> name of the Odoo model to use for rendering, can be used to expand or
+> name of the Konvergo ERP model to use for rendering, can be used to expand or
 > customize QWeb locally (by creating a "new" qweb based on `ir.qweb`
 > with alterations)
 
@@ -1092,7 +1092,7 @@ context will be available in the `t-js`'s body:
 > The QWeb "renderer", handles most of QWeb's logic (loading, parsing,
 > compiling and rendering templates).
 >
-> Odoo Web instantiates one for the user in the core module, and exports
+> Konvergo ERP Web instantiates one for the user in the core module, and exports
 > it to `core.qweb`. It also loads all the template files of the various
 > modules into that QWeb instance.
 >
@@ -1112,7 +1112,7 @@ context will be available in the `t-js`'s body:
 > > String
 >
 > The engine exposes an other method which may be useful in some cases
-> (e.g. if you need a separate template namespace with, in Odoo Web,
+> (e.g. if you need a separate template namespace with, in Konvergo ERP Web,
 > Kanban views get their own `QWeb2.Engine` instance so their templates
 > don't collide with more general "module" templates):
 >
@@ -1150,11 +1150,11 @@ context will be available in the `t-js`'s body:
 > > Defaults to `window.jQuery`.
 >
 > > A `Function`. If present, called before compiling each DOM node to
-> > template code. In Odoo Web, this is used to automatically translate
+> > template code. In Konvergo ERP Web, this is used to automatically translate
 > > text content and some attributes in templates. Defaults to `null`.
 
 [^1]: although it uses a few others, either for historical reasons or
-    because they remain better fits for the use case. Odoo 9.0 still
+    because they remain better fits for the use case. Konvergo ERP 9.0 still
     depends on [Jinja](http://jinja.pocoo.org) and
     [Mako](https://www.makotemplates.org).
 

@@ -12,7 +12,7 @@ in-depth look at several specific use cases, as well.
 
 ## Introduction
 
-The Odoo Mexican localization modules allow for the signing of
+The Konvergo ERP Mexican localization modules allow for the signing of
 electronic invoices, according to the specifications of the
 `SAT (Servicio de Administración Tributaria)` for [version 4.0 of the
 CFDI \<http://omawww.sat.gob.mx/
@@ -23,7 +23,7 @@ relevant accounting reports (such as: the
 foreign trade, and the creation of delivery guides).
 
 > [!NOTE]
-> In order to electronically sign any documents in Odoo, ensure the
+> In order to electronically sign any documents in Konvergo ERP, ensure the
 > *Sign* application is installed.
 
 ## Configuration
@@ -31,7 +31,7 @@ foreign trade, and the creation of delivery guides).
 ### Requirements
 
 It is necessary to meet the following requirements before configuring
-the Mexican localization modules in Odoo:
+the Mexican localization modules in Konvergo ERP:
 
 <div id="mx-requirements">
 
@@ -41,14 +41,14 @@ the Mexican localization modules in Odoo:
     \<https://www.gob.mx/sat/acciones-y-programas/
     certificado-de-sello-digital\>]() (CSD).
 3.  Choose a PAC (Proveedor Autorizado de Certificación / Authorized
-    Certification Provider). Currently, Odoo works with the following
+    Certification Provider). Currently, Konvergo ERP works with the following
     `PAC (Proveedor Autorizado de Certificación / Authorized Certification
     Provider)`s: [Solución Factible](https://solucionfactible.com/),
     [Quadrum (formerly Finkok)](https://cfdiquadrum.com.mx/) and [SW
     Sapien - Smarter Web](https://sw.com.mx/).
 4.  Have knowledge and experience with billing, sales, and accounting in
-    Odoo. This documentation **only** contains the necessary information
-    needed to use Odoo.
+    Konvergo ERP. This documentation **only** contains the necessary information
+    needed to use Konvergo ERP.
 
 </div>
 
@@ -64,14 +64,14 @@ configuration:
 | `Mexico - Accounting`                        | <span class="title-ref">l10n_mx</span>                 | The default `fiscal localization package <../fiscal_localizations>`, adds accounting characteristics for the Mexican localization, such as: the most common taxes and the chart of accounts – based on [the SAT account grouping code](https://www.gob.mx/cms/uploads/attachment/file/151586/codigo_agrupador.pdf).                                                          |
 | `EDI for Mexico`                             | <span class="title-ref">l10n_mx_edi</span>             | Includes all the technical and functional requirements to generate and validate `Electronics Documents <../accounting/customer_invoices/electronic_invoicing>` — based on the technical documentation published by the `SAT (Servicio de Administración Tributaria)`. This allows you to send invoices (with or without addedums) and payment complements to the government. |
 | `EDI v4.0 for Mexico`                        | <span class="title-ref">l10n_mx_edi_40</span>          | Necessary to create XML documents with the correct specifications of the CFDI 4.0.                                                                                                                                                                                                                                                                                           |
-| `Odoo Mexican Localization Reports`          | <span class="title-ref">l10n_mx_reports</span>         | Adapts reports for Mexico's Electronic Accounting: Chart of Accounts, Trial Balance, and `DIOT (Declaración Informativa de Operaciones con Terceros)`.                                                                                                                                                                                                                       |
+| `Konvergo ERP Mexican Localization Reports`          | <span class="title-ref">l10n_mx_reports</span>         | Adapts reports for Mexico's Electronic Accounting: Chart of Accounts, Trial Balance, and `DIOT (Declaración Informativa de Operaciones con Terceros)`.                                                                                                                                                                                                                       |
 | `Mexico - Localization Reports for Closing`  | <span class="title-ref">l10n_mx_reports_closing</span> | Necessary to create the Closing Entry (Also known as the *month 13th move*).                                                                                                                                                                                                                                                                                                 |
-| `Odoo Mexican XML Polizas Export`            | <span class="title-ref">l10n_mx_xml_polizas</span>     | Allows the export of XML files of Journal Entries for a compulsory audit.                                                                                                                                                                                                                                                                                                    |
-| `Odoo Mexican XML Polizas Export Edi bridge` | <span class="title-ref">l10n_mx_xml_polizas_edi</span> | Complements the module <span class="title-ref">l10n_mx_xml_polizas</span>.                                                                                                                                                                                                                                                                                                   |
+| `Konvergo ERP Mexican XML Polizas Export`            | <span class="title-ref">l10n_mx_xml_polizas</span>     | Allows the export of XML files of Journal Entries for a compulsory audit.                                                                                                                                                                                                                                                                                                    |
+| `Konvergo ERP Mexican XML Polizas Export Edi bridge` | <span class="title-ref">l10n_mx_xml_polizas_edi</span> | Complements the module <span class="title-ref">l10n_mx_xml_polizas</span>.                                                                                                                                                                                                                                                                                                   |
 
 > [!NOTE]
 > When installing a database from scratch and selecting `Mexico` as the
-> country, Odoo automatically installs the following modules:
+> country, Konvergo ERP automatically installs the following modules:
 > `Mexico - Accounting`, `EDI for
 > Mexico`, and `EDI v4.0 for Mexico`.
 
@@ -85,7 +85,7 @@ for the business.
 | `EDI v4.0 for Mexico (COMEX)`                   | <span class="title-ref">l10n_mx_edi_extended_40</span> | Adapts the module <span class="title-ref">l10n_mx_edi_extended</span> for CFDI 4.0.                                                                    |
 | `Mexico - Electronic Delivery Guide`            | <span class="title-ref">l10n_mx_edi_stock</span>       | Lets you create a *Carta Porte*: A bill of lading that proves to the government you are sending goods between A & B with a signed electronic document. |
 | `Electronic Delivery Guide for Mexico CFDI 4.0` | <span class="title-ref">l10n_mx_edi_stock_40</span>    | Adapts the module <span class="title-ref">l10n_mx_edi_stock</span> for CFDI 4.0                                                                        |
-| `Odoo Mexico Localization for Stock/Landing`    | <span class="title-ref">l10n_mx_edi_landing</span>     | Allows managing customs numbers related to landed costs in electronic documents.                                                                       |
+| `Konvergo ERP Mexico Localization for Stock/Landing`    | <span class="title-ref">l10n_mx_edi_landing</span>     | Allows managing customs numbers related to landed costs in electronic documents.                                                                       |
 
 ### Configure your company
 
@@ -108,7 +108,7 @@ alt="Main company contact requirements for a correct invoicing." />
 
 > [!IMPORTANT]
 > From a legal point of view, a Mexican company **must** use the local
-> currency (MXN). Therefore, Odoo does not provide features to manage an
+> currency (MXN). Therefore, Konvergo ERP does not provide features to manage an
 > alternative configuration. If you want to manage another currency, let
 > MXN be the default currency and use a `pricelist
 > <../../sales/sales/products_prices/prices/pricing>`, instead.
@@ -192,7 +192,7 @@ alt="No Tax Breakdown option on the MX EDI tab of the customer&#39;s invoice." /
 
 #### Other tax configurations
 
-When registering a payment, Odoo will carry out the movement of taxes
+When registering a payment, Konvergo ERP will carry out the movement of taxes
 from the *Cash Basis Transition Account* to the account set in the
 `Definition` tab. For such movement, a tax base account will be used:
 (<span class="title-ref">Base Imponible de Impuestos en Base a Flujo de
@@ -202,11 +202,11 @@ delete this account**.
 If you create a new tax in `Accounting --> Configuration --> Taxes`, you
 need to add the correct `Tax Grids` for it
 (<span class="title-ref">IVA</span>, <span class="title-ref">ISR</span>
-or <span class="title-ref">IEPS</span>). Odoo **only** supports these
+or <span class="title-ref">IEPS</span>). Konvergo ERP **only** supports these
 three groups of taxes.
 
 <img src="mexico/mx-taxes-config.png" class="align-center"
-alt="Tax accounts available for Odoo." />
+alt="Tax accounts available for Konvergo ERP." />
 
 ### Products
 
@@ -229,7 +229,7 @@ After you have processed your [Private Key (CSD)
 \<https://www.sat.gob.mx/aplicacion/16660/genera-y-descarga-tus-archivos-a-traves-de-la-aplicacion-
 certifica\>]() with the `SAT (Servicio de Administración Tributaria)`,
 you **must** register directly with the `PAC <mx-requirements>` of your
-choice before you start creating invoices from Odoo.
+choice before you start creating invoices from Konvergo ERP.
 
 Once you've created your account with any of these providers, go to
 `Settings -->
@@ -280,14 +280,14 @@ alt="Certificate and key upload inputs." />
 
 ### Electronic invoicing
 
-The invoicing process in Odoo is based on [Annex
+The invoicing process in Konvergo ERP is based on [Annex
 20](http://omawww.sat.gob.mx/tramitesyservicios/Paginas/anexo_20.htm)
 version 4.0 of electronic invoicing of the
 `SAT (Servicio de Administración Tributaria)`.
 
 #### Customer invoices
 
-To start invoicing from Odoo, a customer invoice must be created using
+To start invoicing from Konvergo ERP, a customer invoice must be created using
 the `standard invoicing
 flow <../accounting/customer_invoices>`.
 
@@ -313,7 +313,7 @@ XML file is attached in the chatter.
 > message `Not Found`.
 
 To send the signed invoice to your client by mail, you can send both the
-XML and PDF files together, directly from Odoo, by clicking the
+XML and PDF files together, directly from Konvergo ERP, by clicking the
 `Send & Print` button. You can also download the PDF file to your
 computer, by clicking the `Print` button, and selecting the desired
 print option.
@@ -398,7 +398,7 @@ alt="Example of an invoice with the PPD requirements." />
 
 ##### Payment flow
 
-In both cases, the payment process in Odoo
+In both cases, the payment process in Konvergo ERP
 `is the same <../accounting/customer_invoices>`, the main difference
 being payments related to
 `PPD (Pago en Parcialidades o Diferido/Payment in Installements or
@@ -440,7 +440,7 @@ a customer's contact card, it must have a valid account number.
 > 16 for credit or debit cards.
 
 If a payment is related to a signed invoice with the `Payment Policy`
-<span class="title-ref">PPD</span>, Odoo generates the corresponding
+<span class="title-ref">PPD</span>, Konvergo ERP generates the corresponding
 payment complement automatically, once you click `Process
 Now`.
 
@@ -465,19 +465,19 @@ since January 1st, 2022, there are two requirements for this:
 - After 24 hours have passed since the creation of the invoice, the
   client **must** be asked to accept the cancellation.
 
-There are four different cancellation reasons. In Odoo, you can cancel
+There are four different cancellation reasons. In Konvergo ERP, you can cancel
 invoices with the reasons *01 Invoices sent with errors with a
 relation*, and *02 Invoices sent with errors without a relation*.
 
 The following sections break down the process of canceling invoices for
-each cancellation reason in Odoo.
+each cancellation reason in Konvergo ERP.
 
 > [!IMPORTANT]
-> Odoo has certain limitations to canceling invoices in the
+> Konvergo ERP has certain limitations to canceling invoices in the
 > `SAT (Servicio de Administración Tributaria)`: The reasons 03 and 04
 > (*Operation did not take place* and *Nominative transactions related
 > to a global invoice*, respectively) are not currently supported by
-> Odoo. For this, you need to cancel the invoice directly in the
+> Konvergo ERP. For this, you need to cancel the invoice directly in the
 > `SAT (Servicio de Administración Tributaria)`, and press `Retry` in
 > the `SAT Status field`.
 
@@ -510,7 +510,7 @@ Tributario” directly from the [SAT
 website](https://www.sat.gob.mx/home).
 
 > [!NOTE]
-> The <span class="title-ref">04\|</span> is only a code that helps Odoo
+> The <span class="title-ref">04\|</span> is only a code that helps Konvergo ERP
 > to perform this process. It has no relation to the method 04 reason
 > for cancellation.
 
@@ -563,7 +563,7 @@ invoice, a *CFDI to Public* has to be created.
 If you use the `Customer` name <span class="title-ref">PUBLICO EN
 GENERAL</span>, an error will be triggered. This is a main change in the
 CFDI 4.0 that requires invoices with that specific name to need
-additional fields, which Odoo does not currently support. So, for a
+additional fields, which Konvergo ERP does not currently support. So, for a
 *CFDI to Public* to be created, you need to add any name to your
 customer that is **not** <span class="title-ref">PUBLICO EN
 GENERAL</span>. (For example: <span class="title-ref">CLIENTE
@@ -605,7 +605,7 @@ alt="Multi-currency configuration in the Accounting settings." />
 
 There can be cases where you receive a payment in advance from a
 customer that needs to be applied to an invoice later. In order to do
-this in Odoo, it is required to properly link invoices to each other
+this in Konvergo ERP, it is required to properly link invoices to each other
 with the `CFDI Origin` field. To do so, it is necessary to have the
 `Sales
 <../../sales>` app installed.
@@ -789,12 +789,12 @@ is a bill of lading: a document that states the type, quantity, and
 destination of goods being carried.
 
 On December 1st, 2021, version 2.0 of this CFDI was implemented for all
-transportation providers, intermediaries, and owners of goods. Odoo is
+transportation providers, intermediaries, and owners of goods. Konvergo ERP is
 able to generate a document type "T" (Traslado), which, unlike other
 documents, is created in a delivery order instead of an invoice or
 payment.
 
-Odoo can create XML and PDF files with (or without) ground transport,
+Konvergo ERP can create XML and PDF files with (or without) ground transport,
 and can process materials that are treated as *Dangerous Hazards*.
 
 In order to use this feature, the modules `l10n_mx_edi_extended`,
@@ -806,13 +806,13 @@ In addition to this, it is necessary to have the `Inventory
 apps installed, as well.
 
 > [!IMPORTANT]
-> Odoo does not support Carta Porte type document type "I" (Ingreso),
+> Konvergo ERP does not support Carta Porte type document type "I" (Ingreso),
 > air, or marine transport. Consult your accountant first if this
 > feature is needed before doing any modifications.
 
 #### Configuration
 
-Odoo manages two different types of CFDI:
+Konvergo ERP manages two different types of CFDI:
 
 - **No Federal Highways**: Is used when the *Distance to Destination* is
   [less than 30
@@ -970,7 +970,7 @@ apps.
 #### Configuration
 
 In order to track the correct customs number for a specific invoice,
-Odoo uses `landed costs
+Konvergo ERP uses `landed costs
 <../../inventory_and_mrp/inventory/warehouses_storage/inventory_valuation/integrating_landed_costs>`.
 Go to `Inventory --> Configuration --> Settings --> Valuation`. Make
 sure that `Landed Costs` is activated.
@@ -1128,7 +1128,7 @@ created, if you go to
 alt="Trial balance report." />
 
 > [!NOTE]
-> Odoo does not generate the *Balanza de Comprobación Complementaria*.
+> Konvergo ERP does not generate the *Balanza de Comprobación Complementaria*.
 
 An additional report is the *Month 13*: a closing balance sheet that
 shows any adjustments or movements made in the accounting to close the
@@ -1155,7 +1155,7 @@ class="align-center" alt="Trial Balance Month 13 report." />
 #### General ledger
 
 By law, all transactions in Mexico must be recorded digitally. Since
-Odoo automatically creates all the underlying journal entries of your
+Konvergo ERP automatically creates all the underlying journal entries of your
 invoicing and payments, you can export your journal entries to comply
 with `SAT (Servicio de Administración Tributaria)`'s audits and/or tax
 refunds.
@@ -1200,7 +1200,7 @@ Unlike other reports, the
 `DIOT (Declaración Informativa de Operaciones con Terceros)` is uploaded
 to a software provided by the
 `SAT (Servicio de Administración Tributaria)` that contains the A-29
-form. In Odoo, you can download the records of your transactions as a
+form. In Konvergo ERP, you can download the records of your transactions as a
 `.txt` file that can be uploaded to the form, avoiding direct capture of
 this data.
 

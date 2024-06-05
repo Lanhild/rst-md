@@ -88,7 +88,7 @@ In order to enable communication with the AFIP, the first step is to
 request a `Digital
 Certificate` if you do not have one already.
 
-1.  `Generate Certificate Sign Request (Odoo)`. When this option is
+1.  `Generate Certificate Sign Request (Konvergo ERP)`. When this option is
     selected, a file with extension <span class="title-ref">.csr</span>
     (certificate signing request) is generated to be used in the AFIP
     portal to request the certificate.
@@ -100,8 +100,8 @@ Certificate` if you do not have one already.
     \<https://drive.google.com/file/d/17OKX2lNWd1bjUt3NxfqcCKBkBh-Xlpo-/
     view\>]() to get a certificate.
 
-3.  `Upload Certificate and Private Key (Odoo)`. Once the certificate is
-    generated, upload it to Odoo using the `Pencil` icon next to the
+3.  `Upload Certificate and Private Key (Konvergo ERP)`. Once the certificate is
+    generated, upload it to Konvergo ERP using the `Pencil` icon next to the
     field `Certificado` and select the corresponding file.
 
     ![Upload Certificate and Private Key.](argentina/upload-certificate-private-key.png)
@@ -110,7 +110,7 @@ Certificate` if you do not have one already.
 > In case you need to configure the Homologation Certificate, please
 > refer to the AFIP official documentation: [Homologation
 > Certificate](http://www.afip.gob.ar/ws/documentacion/certificados.asp).
-> Furthermore, Odoo allows the user to test electronic invoicing locally
+> Furthermore, Konvergo ERP allows the user to test electronic invoicing locally
 > without a Homologation Certificate. The following message will be in
 > the chatter when testing locally:
 >
@@ -128,11 +128,11 @@ for most transactions. There are six `Identification Types` available by
 default, as well as 32 inactive types.
 
 <img src="argentina/identification-types.png" class="align-center"
-alt="A list of AR Localization document types in Odoo, as defined by AFIP." />
+alt="A list of AR Localization document types in Konvergo ERP, as defined by AFIP." />
 
 > [!NOTE]
 > The complete list of `Identification Types` defined by the AFIP is
-> included in Odoo, but only the common ones are active.
+> included in Konvergo ERP, but only the common ones are active.
 
 ##### AFIP responsibility type
 
@@ -152,7 +152,7 @@ for `Responsable Inscripto`.
 
 <img src="argentina/automatic-tax-configuration.png"
 class="align-center"
-alt="A list of AR Localization taxes with financial amount and configuration in Odoo." />
+alt="A list of AR Localization taxes with financial amount and configuration in Konvergo ERP." />
 
 ##### Taxes types
 
@@ -165,12 +165,12 @@ Argentina has several tax types, the most common ones are:
 ##### Special taxes
 
 Some Argentinean taxes are not commonly used for all companies, and
-those less common options are labeled as inactive in Odoo by default.
+those less common options are labeled as inactive in Konvergo ERP by default.
 Before creating a new tax, be sure to check if that tax is not already
 included as inactive.
 
 <img src="argentina/special-inactive-taxes.png" class="align-center"
-alt="A list showing less common Argentinean tax options, which are labeled as inactive in Odoo
+alt="A list showing less common Argentinean tax options, which are labeled as inactive in Konvergo ERP
 by default." />
 
 #### Document types
@@ -194,7 +194,7 @@ The information required for the `Document Types` is included by default
 so the user does not need to fill anything on this view:
 
 <img src="argentina/default-document-type-info.png" class="align-center"
-alt="A list of document types in Odoo." />
+alt="A list of document types in Konvergo ERP." />
 
 > [!NOTE]
 > There are several `Document Types` types that are inactive by default,
@@ -257,7 +257,7 @@ The AFIP POS defines the following:
 2.  the structure and data of the electronic invoice file.
 
 <img src="argentina/sales-journal.png" class="align-center"
-alt="A AFIP POS System field which is available on Sales journals in Odoo." />
+alt="A AFIP POS System field which is available on Sales journals in Konvergo ERP." />
 
 ##### Web services
 
@@ -296,7 +296,7 @@ Here are some useful fields to know when working with web services:
 
 #### Sequences
 
-For the first invoice, Odoo synchronizes with the AFIP automatically and
+For the first invoice, Konvergo ERP synchronizes with the AFIP automatically and
 displays the last sequence used.
 
 > [!NOTE]
@@ -415,7 +415,7 @@ alt="Exporation journal." />
 
 When the customer selected in the invoice is configured with an AFIP
 responsibility type `Cliente / Proveedor del Exterior` -
-`Ley N° 19.640`, Odoo automatically assigns the:
+`Ley N° 19.640`, Konvergo ERP automatically assigns the:
 
 - Journal related to the exportation Web Service;
 - Exportation document type;
@@ -424,7 +424,7 @@ responsibility type `Cliente / Proveedor del Exterior` -
 - Exempt Taxes.
 
 <img src="argentina/export-invoice.png" class="align-center"
-alt="Export invoice fields autofilled in Odoo." />
+alt="Export invoice fields autofilled in Konvergo ERP." />
 
 > [!NOTE]
 > The Exportation Documents require Incoterms to be enabled and
@@ -545,7 +545,7 @@ class="align-center" alt="Details of invoice consulted in AFIP." />
 
 It is also possible to retrieve the last number used in AFIP for a
 specific document type and POS Number as a reference for any possible
-issues on the sequence synchronization between Odoo and AFIP.
+issues on the sequence synchronization between Konvergo ERP and AFIP.
 
 <img src="argentina/consult-last-invoice-number.png"
 class="align-center" alt="Consult the last invoice number." />
@@ -591,10 +591,10 @@ the following levels:
 <img src="argentina/verify-vendor-bills.png" class="align-center"
 alt="Verify Vendor Bills validity in AFIP." />
 
-##### Validate vendor bills in Odoo
+##### Validate vendor bills in Konvergo ERP
 
 With the vendor validation settings enabled, a new button shows up on
-the vendor bills inside of Odoo, labeled `Verify on AFIP`, which is
+the vendor bills inside of Konvergo ERP, labeled `Verify on AFIP`, which is
 located next to the `AFIP
 Authorization code` field.
 
@@ -720,7 +720,7 @@ alt="Own checks menu organization and filtering." />
 
 ##### Cancel an own check
 
-To cancel an own check created in Odoo, navigate to
+To cancel an own check created in Konvergo ERP, navigate to
 `Accounting --> Vendors --> Own
 Checks` and select the check to be canceled, then click on the
 `Void Check` button. This will break the reconciliation with the vendor

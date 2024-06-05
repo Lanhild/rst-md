@@ -1,6 +1,6 @@
 # Split and merge manufacturing orders
 
-In Odoo *Manufacturing*, it is possible to create manufacturing orders
+In Konvergo ERP *Manufacturing*, it is possible to create manufacturing orders
 for a single unit of an item, or multiple units of the same item. In
 some cases, it may be necessary to split a manufacturing order that
 contains multiple units into two or more orders, or to merge two or more

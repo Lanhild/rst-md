@@ -11,7 +11,7 @@ removed and turned into a testing environment.
 >
 > - testing backup databases
 > - duplicate databases
-> - for Odoo.sh: staging and development databases
+> - for Konvergo ERP.sh: staging and development databases
 
 > [!IMPORTANT]
 > A database can also be neutralized when upgrading, as it is vital to

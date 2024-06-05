@@ -2,7 +2,7 @@ show-content
 
 # Referrals
 
-Odoo's *Referrals* application is a centralized place where all
+Konvergo ERP's *Referrals* application is a centralized place where all
 information regarding referrals is housed, from points earned, coworkers
 hired, and rewards selected. Users can recommend people they know for
 job positions, then earn referral points as those people progress
@@ -14,7 +14,7 @@ applications, all of which must be installed in order for the
 
 The only configuration needed for the Referrals application after it is
 installed are the `rewards <referrals/rewards>`; everything else is
-pre-configured when Odoo Referrals is installed.
+pre-configured when Konvergo ERP Referrals is installed.
 
 Any user with either `Referral User`, `Officer`, or `Administrator`
 rights for the Recruitment application has access to the Referrals
@@ -352,7 +352,7 @@ can modify levels. The pre-configured levels can be seen and modified by
 navigating to `Referrals app
 --> Configuration --> Levels`. Each avatar appears in the `Image`
 column, and the corresponding level number appears in the `Level Name`
-column. The default images are of Odoo superheroes, and each level adds
+column. The default images are of Konvergo ERP superheroes, and each level adds
 an additional element to their avatar, such as capes and shields.
 
 To modify a level's image, name, or points required to reach the level,

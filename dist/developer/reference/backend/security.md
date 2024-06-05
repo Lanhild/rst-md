@@ -1,6 +1,6 @@
-# Security in Odoo
+# Security in Konvergo ERP
 
-Aside from manually managing access using custom code, Odoo provides two
+Aside from manually managing access using custom code, Konvergo ERP provides two
 main data-driven mechanisms to manage or restrict access to data.
 
 Both mechanisms are linked to specific users through *groups*: a user
@@ -22,7 +22,7 @@ role / purpose of the group)
 
 category_id
 
-The *module category*, serves to associate groups with an Odoo App (~a
+The *module category*, serves to associate groups with an Konvergo ERP App (~a
 set of related business models) and convert them into an exclusive
 selection in the user form.
 

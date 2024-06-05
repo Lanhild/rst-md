@@ -10,7 +10,7 @@ payment methods.
     and go to `Settings --> API`. Copy the values of the `Public Key`
     and `Secret Key` fields and save them for later.
 
-2.  Go to `Settings --> Webhooks` and enter your Odoo database URL
+2.  Go to `Settings --> Webhooks` and enter your Konvergo ERP database URL
     followed by
     <span class="title-ref">/payment/flutterwave/webhook</span> in the
     `URL` text field.  
@@ -26,7 +26,7 @@ payment methods.
 
 ![Flutterwave settings](flutterwave/flutterwave-settings.png)
 
-## Configuration on Odoo
+## Configuration on Konvergo ERP
 
 1.  `Navigate to the payment provider Flutterwave <payment_providers/add_new>`
     and change its state to `Enabled`.

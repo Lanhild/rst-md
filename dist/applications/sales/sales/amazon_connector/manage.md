@@ -2,33 +2,33 @@
 
 ## Order synchronization
 
-Orders are automatically fetched from Amazon, and synchronized in Odoo,
+Orders are automatically fetched from Amazon, and synchronized in Konvergo ERP,
 at regular intervals.
 
 The synchronization is based on the Amazon status: only orders whose
 status has changed since the last synchronization are fetched from
-Amazon. This includes changes on either end (Amazon or Odoo).
+Amazon. This includes changes on either end (Amazon or Konvergo ERP).
 
 For *FBA* (Fulfilled by Amazon), only *Shipped* and *Canceled* orders
 are fetched.
 
 For *FBM* (Fulfilled by Merchant), the same is done for *Unshipped* and
 *Canceled* orders. For each synchronized order, a sales order and
-customer are created in Odoo (if the customer is not already registered
+customer are created in Konvergo ERP (if the customer is not already registered
 in the database).
 
 > [!NOTE]
 > When an order is canceled in Amazon, and was already synchronized in
-> Odoo, the corresponding sales order is automatically canceled in Odoo.
+> Konvergo ERP, the corresponding sales order is automatically canceled in Konvergo ERP.
 
 ## Force synchronization
 
 In order to force the synchronization of an order, whose status has
 **not** changed since the previous synchronization, start by activating
 the `developer mode <developer-mode>`. This includes changes on either
-end (Amazon or Odoo).
+end (Amazon or Konvergo ERP).
 
-Then, navigate to the Amazon account in Odoo
+Then, navigate to the Amazon account in Konvergo ERP
 (`Sales app --> Configuration -->
 Settings --> Connectors --> Amazon Sync --> Amazon Accounts`), and
 modify the date under `Orders Follow-up --> Last Order Sync`.
@@ -40,13 +40,13 @@ synchronization occurs correctly.
 > [!TIP]
 > To immediately synchronize the orders of an Amazon account, switch to
 > `developer mode
-> <developer-mode>`, head to the Amazon account in Odoo, and click
+> <developer-mode>`, head to the Amazon account in Konvergo ERP, and click
 > `Sync Orders`. The same can be done with pickings by clicking
 > `Sync Pickings`.
 
 ## Manage deliveries in FBM
 
-Whenever an FBM (Fulfilled by Merchant) order is synchronized in Odoo, a
+Whenever an FBM (Fulfilled by Merchant) order is synchronized in Konvergo ERP, a
 picking is instantly created in the *Inventory* app, along with a sales
 order and customer record. Then, decide to either ship all the ordered
 products to the customer at once, or ship products partially using
@@ -64,7 +64,7 @@ part of it) is on its way.
 > must be set manually. This rule applies to all Amazon marketplaces.
 
 > [!TIP]
-> If the chosen carrier isn't supported by Odoo, a carrier with the same
+> If the chosen carrier isn't supported by Konvergo ERP, a carrier with the same
 > name can still be created (e.g. create a carrier named
 > <span class="title-ref">easyship</span>). The name used is **not**
 > case sensitive, but be mindful to avoid typos. If there are typos,
@@ -83,7 +83,7 @@ part of it) is on its way.
 
 ## Follow deliveries in FBA
 
-When an FBA (Fulfilled by Amazon) order is synchronized in Odoo, a stock
+When an FBA (Fulfilled by Amazon) order is synchronized in Konvergo ERP, a stock
 move is recorded in the *Inventory* app for each sales order item. That
 way, it's saved in the system.
 
@@ -91,19 +91,19 @@ Inventory managers can access these stock moves by navigating to
 `Inventory app -->
 Reporting --> Moves History`.
 
-For FBA orders, the stock move is automatically created in Odoo by the
+For FBA orders, the stock move is automatically created in Konvergo ERP by the
 Amazon connector, thanks to the shipping status of Amazon. When sending
 new products to Amazon, the user should manually create a picking
 (delivery order) to transfer these products from their warehouse to the
 Amazon location.
 
 > [!TIP]
-> To follow *Amazon (FBA)* stock in Odoo, make an inventory adjustment
+> To follow *Amazon (FBA)* stock in Konvergo ERP, make an inventory adjustment
 > after replenishing stock. An automated replenishment from reordering
 > rules can also be triggered on the Amazon location.
 
 The Amazon location is configurable by accessing the Amazon account
-managed in Odoo. To access Amazon accounts in Odoo navigate to
+managed in Konvergo ERP. To access Amazon accounts in Konvergo ERP navigate to
 `Sales app --> Configuration --> Settings -->
 Connectors --> Amazon Sync --> Amazon Accounts`.
 
@@ -130,12 +130,12 @@ account.
 
 Due to Amazon's policy of not sharing customer email addresses, it is
 **not** possible to send invoices directly to Amazon customers from
-Odoo. However, it **is** possible to manually upload the generated
-invoices from Odoo to the Amazon back-end.
+Konvergo ERP. However, it **is** possible to manually upload the generated
+invoices from Konvergo ERP to the Amazon back-end.
 
 Additionally, for B2B clients, it is currently required to manually
 retrieve VAT numbers from the Amazon back-end **before** creating an
-invoice in Odoo.
+invoice in Konvergo ERP.
 
 > [!NOTE]
 > For `TaxCloud <../../../finance/accounting/taxes/taxcloud>` users:
@@ -144,7 +144,7 @@ invoice in Odoo.
 > report to TaxCloud.
 
 > [!WARNING]
-> TaxCloud integration will be decommissioned in Odoo 17+.
+> TaxCloud integration will be decommissioned in Konvergo ERP 17+.
 
 ### Register payments
 
@@ -174,7 +174,7 @@ Then, select all the generated payments, and click
 
 ## Follow Amazon sales in sales reporting
 
-On the Amazon account profile in Odoo , a sales team is set under the
+On the Amazon account profile in Konvergo ERP , a sales team is set under the
 `Order Follow-up` tab.
 
 This gives quick access to important metrics related to sales reporting.
@@ -190,7 +190,7 @@ order to perform a separate reporting for the sales of this account.
 > First, remove the desired marketplace from the list of synchronized
 > marketplaces.
 >
-> To access the list of synchronized marketplaces in Odoo, navigate to
+> To access the list of synchronized marketplaces in Konvergo ERP, navigate to
 > `Sales app
 > --> Configuration --> Settings --> Connectors --> Amazon Sync --> Amazon Accounts`.
 >

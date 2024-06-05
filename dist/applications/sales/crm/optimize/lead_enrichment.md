@@ -3,7 +3,7 @@
 *Lead enrichment* is a service that provides business information for a
 contact attached to a lead. Lead enrichment is an In-App Purchase (IAP)
 that requires credits to use, and is available for existing leads in an
-Odoo database.
+Konvergo ERP database.
 
 The information provided by lead enrichment can include general
 information about the business (including full business name and logo),
@@ -12,7 +12,7 @@ information, the number of `Employees`, `Estimated revenue`, `Phone`
 number, `Timezone`, and `Technologies Used`.
 
 > [!NOTE]
-> Enterprise Odoo users with a valid subscription get free credits to
+> Enterprise Konvergo ERP users with a valid subscription get free credits to
 > test `IAP (In-App
 > Purchase)` features before deciding to purchase more credits for the
 > database. This includes demo/training databases, educational
@@ -106,7 +106,7 @@ Lead enrichment is an In-App Purchase (IAP) feature, and each enriched
 lead costs one credit.
 
 > [!NOTE]
-> See here for full pricing information: [Lead Generation by Odoo
+> See here for full pricing information: [Lead Generation by Konvergo ERP
 > IAP](https://iap.odoo.com/iap/in-app-services/273).
 
 To buy credits, navigate to `CRM app --> Configuration --> Settings`. In
@@ -118,12 +118,12 @@ class="align-center"
 alt="Buy credits from the lead enrichment settings." />
 
 Credits and balances may also be purchased by navigating to the
-`Settings app`. In the `Contacts` section, under the `Odoo IAP` feature,
+`Settings app`. In the `Contacts` section, under the `Konvergo ERP IAP` feature,
 click on `View
 My Services`.
 
 <img src="lead_enrichment/view-my-services-setting.png"
-class="align-center" alt="Buy credits in the Odoo IAP settings." />
+class="align-center" alt="Buy credits in the Konvergo ERP IAP settings." />
 
 <div class="seealso">
 
@@ -134,4 +134,4 @@ class="align-center" alt="Buy credits in the Odoo IAP settings." />
 > [!IMPORTANT]
 > When collecting a company's contact information, make sure to be aware
 > of the latest EU regulations. For more information about General Data
-> Protection Regulation, refer to: [Odoo GDPR](http://odoo.com/gdpr).
+> Protection Regulation, refer to: [Konvergo ERP GDPR](http://odoo.com/gdpr).

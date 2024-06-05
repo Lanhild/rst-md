@@ -1,6 +1,6 @@
 # Customer interaction
 
-Odoo offers many ways to interact with customers and for customers to
+Konvergo ERP offers many ways to interact with customers and for customers to
 interact with your website.
 
 ## Product reviews

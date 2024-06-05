@@ -1,6 +1,6 @@
 # Start receiving tickets
 
-Odoo *Helpdesk* offers multiple channels where customers can reach out
+Konvergo ERP *Helpdesk* offers multiple channels where customers can reach out
 for assistance, such as email, live chat, and through a website's
 submission form. The variety of these contact options provides customers
 with multiple opportunities to receive support quickly, while also
@@ -39,7 +39,7 @@ well. This alias can be changed in the `Alias` field.
 
 <img src="receiving_tickets/receiving-tickets-email-alias.png"
 class="align-center"
-alt="View of the settings page of a helpdesk team emphasizing the email alias feature in Odoo
+alt="View of the settings page of a helpdesk team emphasizing the email alias feature in Konvergo ERP
 Helpdesk." />
 
 When an email is received, the subject line from the email becomes the
@@ -48,8 +48,8 @@ the ticket under the `Description` tab and in the ticket's `Chatter`
 section.
 
 > [!IMPORTANT]
-> The configuration steps outlined above are for **Odoo Online** and
-> **Odoo.sh** databases. For **On-premise** databases, additional
+> The configuration steps outlined above are for **Konvergo ERP Online** and
+> **Konvergo ERP.sh** databases. For **On-premise** databases, additional
 > configuration for custom email servers and email aliases may be
 > required.
 
@@ -66,7 +66,7 @@ section, and check the box.
 
 After the feature is activated, click the `Go to Website` smart button
 at the top of the that `Teams` settings page to view and edit the new
-website form, which is created automatically by Odoo.
+website form, which is created automatically by Konvergo ERP.
 
 > [!NOTE]
 > After enabling the website form, the *Teams* settings page may need to
@@ -79,7 +79,7 @@ website form, which is created automatically by Odoo.
 <img src="receiving_tickets/receiving-tickets-go-to-website.png"
 class="align-center"
 alt="View of the settings page of a helpdesk team emphasizing the Go to Website button in
-Odoo Helpdesk." />
+Konvergo ERP Helpdesk." />
 
 #### Customize the website ticket form
 
@@ -93,7 +93,7 @@ toggling the switch from gray to blue in the website builder's editor
 window, located under the `Field` section. As well, other pertinent
 field information can be edited here, such as:
 
-- `Type`: which matches an Odoo model value to the field (e.g.
+- `Type`: which matches an Konvergo ERP model value to the field (e.g.
   <span class="title-ref">Customer Name</span>).
 - `Input Type`: to determine what time of input the field should be,
   like <span class="title-ref">Text</span>,
@@ -124,7 +124,7 @@ field information can be edited here, such as:
 
 <img src="receiving_tickets/receiving-tickets-web-form.png"
 class="align-center"
-alt="View of the unpublished website form to submit a ticket for Odoo Helpdesk." />
+alt="View of the unpublished website form to submit a ticket for Konvergo ERP Helpdesk." />
 
 Once the form has been optimized and is ready for public use, `Save` the
 changes, and then publish the form by clicking on the `Unpublished`
@@ -156,8 +156,8 @@ await on the channel's form.
 #### Customize the live chat channel
 
 When an individual channel is clicked on the
-`Website Live Chat Channels` dashboard, Odoo directs the page to the
-channel form. From there, the `Channel Name` can be edited, however Odoo
+`Website Live Chat Channels` dashboard, Konvergo ERP directs the page to the
+channel form. From there, the `Channel Name` can be edited, however Konvergo ERP
 names this to match the *Helpdesk* team's kanban pipeline, by default.
 
 <div class="example">
@@ -273,7 +273,7 @@ The `Widget` tab on the live chat channel form offers an embeddable
 website widget, or a shortcode for instant customer/supplier access to a
 live chat window.
 
-The live chat `Widget` can be applied to websites created through Odoo
+The live chat `Widget` can be applied to websites created through Konvergo ERP
 by navigating to the `Website --> Configuration --> Settings`. Then
 scroll to the `Live
 Chat` section, and select the channel to add to the site. Click `Save`
@@ -304,7 +304,7 @@ will appear at the top of the kanban and list views.
 
 <img src="receiving_tickets/receiving-tickets-priority.png"
 class="align-center"
-alt="View of a team&#39;s kanban view and the prioritized tasks in Odoo Helpdesk." />
+alt="View of a team&#39;s kanban view and the prioritized tasks in Konvergo ERP Helpdesk." />
 
 The priority levels are represented by stars:
 

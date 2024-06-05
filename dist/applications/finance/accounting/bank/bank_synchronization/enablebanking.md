@@ -8,7 +8,7 @@ data.
 <img src="enablebanking/enablebanking.png" class="align-center"
 alt="Enable Banking logo" />
 
-**Odoo** synchronizes directly with banks to get access to all bank
+**Konvergo ERP** synchronizes directly with banks to get access to all bank
 transactions and automatically import them into your database.
 
 <div class="seealso">
@@ -20,7 +20,7 @@ website](https://enablebanking.com/)
 
 ## Configuration
 
-### Link bank accounts with Odoo
+### Link bank accounts with Konvergo ERP
 
 1.  Start synchronization by clicking on
     `Accounting --> Configuration -->
@@ -29,7 +29,7 @@ website](https://enablebanking.com/)
 2.  Select your bank;
 
 3.  Make sure you give your consent to share your account information
-    with Odoo by clicking `Continue authentication`;
+    with Konvergo ERP by clicking `Continue authentication`;
 
     <img src="enablebanking/enablebankingauth.png" class="align-center"
     alt="Enable Banking authentication page" />

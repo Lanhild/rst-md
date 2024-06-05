@@ -1,7 +1,7 @@
 # Registries
 
 Registries are (ordered) key/value maps. They are the main web client
-extension points: many features provided by the Odoo javascript
+extension points: many features provided by the Konvergo ERP javascript
 framework simply look up into a registry whenever it needs a definition
 for some object (such as fields, views, client actions or services).
 Customizing the web client is then simply done by adding specific values
@@ -196,7 +196,7 @@ to parse values. Each parser has the following API:
 
 The service registry (category: <span class="title-ref">services</span>)
 contains all `services <frontend/services>` that should be activated by
-the Odoo framework.
+the Konvergo ERP framework.
 
 ``` javascript
 import { registry } from "@web/core/registry";

@@ -1,6 +1,6 @@
 # Quotation templates
 
-In Odoo *Sales*, salespeople have the ability to create reusable
+In Konvergo ERP *Sales*, salespeople have the ability to create reusable
 quotation templates for common products or services that the business
 offers.
 
@@ -20,7 +20,7 @@ quotation template can be chosen from a drop-down menu.
 
 <img src="quote_template/quotations-templates-setting.png"
 class="align-center"
-alt="How to enable quotation templates on Odoo Sales." />
+alt="How to enable quotation templates on Konvergo ERP Sales." />
 
 Also, upon activating the `Quotation Template` feature, an internal `➡️
 Quotation Templates` link appears beneath the `Default Template` field.
@@ -40,14 +40,14 @@ created, viewed, and edited.
 
 <img src="quote_template/quotation-templates-page.png"
 class="align-center"
-alt="Quotation templates page in the Odoo Sales application." />
+alt="Quotation templates page in the Konvergo ERP Sales application." />
 
 To create a new quotation template, click the `New` button, located in
 the upper-left corner. Doing so reveals a blank quotation template form
 that can be customized in a number of ways.
 
 <img src="quote_template/blank-quotation-form.png" class="align-center"
-alt="Create a new quotation template on Odoo Sales." />
+alt="Create a new quotation template on Konvergo ERP Sales." />
 
 Start by entering a name for the template in the `Quotation Template`
 field.
@@ -87,7 +87,7 @@ template to be sent to customers upon confirmation of an order.
 >
 > <img src="quote_template/create-confirmation-mail-popup.png"
 > class="align-center"
-> alt="Create confirmation mail pop-up window from the quotation template form in Odoo Sales." />
+> alt="Create confirmation mail pop-up window from the quotation template form in Konvergo ERP Sales." />
 >
 > When all modifications are complete, click `Save \& Close` to save the
 > email template and return to the quotation form.
@@ -114,7 +114,7 @@ clicking `Add a note`.
 
 <img src="quote_template/lines-tab-quotation-template.png"
 class="align-center"
-alt="Populated lines tab on a quotation template form in Odoo Sales." />
+alt="Populated lines tab on a quotation template form in Konvergo ERP Sales." />
 
 To add a product to a quotation template, click `Add a product` in the
 `Lines` tab of a quotation template form. Doing so reveals a blank field
@@ -177,7 +177,7 @@ sales orders themselves, if desired.
 
 <img src="quote_template/optional-products-on-sales-order.png"
 class="align-center"
-alt="Optional products appearing on a typical sales order with Odoo Sales." />
+alt="Optional products appearing on a typical sales order with Konvergo ERP Sales." />
 
 In the `Optional Products` tab, `Add a line` for each cross-selling
 product related to the original items in the `Lines` tab, if applicable.
@@ -186,7 +186,7 @@ added value for the prospective buyer.
 
 <img src="quote_template/optional-products-tab-quotation-template.png"
 class="align-center"
-alt="Populated optional products tab on a quotation template in Odoo Sales." />
+alt="Populated optional products tab on a quotation template in Konvergo ERP Sales." />
 
 Clicking `Add a line` reveals a blank field in the `Product` column.
 
@@ -210,7 +210,7 @@ tab.
 
 <img src="quote_template/terms-and-conditions-tab.png"
 class="align-center"
-alt="Terms and conditions tab in a quotation template form in Odoo Sales." />
+alt="Terms and conditions tab in a quotation template form in Konvergo ERP Sales." />
 
 <div class="seealso">
 
@@ -231,15 +231,15 @@ In the upper-left corner of the quotation template form, there's a
 class="align-center"
 alt="Design template button in the upper-left corner of quotation template form." />
 
-When clicked, Odoo reveals a preview of the quotation template, through
-the Odoo *Website* application, as it will appear on the front-end of
+When clicked, Konvergo ERP reveals a preview of the quotation template, through
+the Konvergo ERP *Website* application, as it will appear on the front-end of
 the website to the customer.
 
 > [!NOTE]
 > This feature is **only** available if the *Website* application is
 > installed.
 
-Odoo uses numerous blue placeholder blocks to signify where certain
+Konvergo ERP uses numerous blue placeholder blocks to signify where certain
 elements appear, and what they contain (e.g. `Template Header`,
 `Product`).
 
@@ -251,20 +251,20 @@ upper-right corner.
 class="align-center"
 alt="Design template edit button in the upper-right corner of quotation template design." />
 
-When `Edit` is clicked, Odoo reveals a sidebar filled with a variety of
+When `Edit` is clicked, Konvergo ERP reveals a sidebar filled with a variety of
 design elements and feature-rich building blocks. These building blocks
 can be dragged-and-dropped anywhere on the quotation template design.
 
 <img src="quote_template/design-quotation-building-blocks.png"
 class="align-center"
-alt="Design quotation template building blocks sidebar in Odoo Website." />
+alt="Design quotation template building blocks sidebar in Konvergo ERP Website." />
 
 After a block has been dropped in the desired position, it can be
 customized and configured to fit any unique need, look, or style.
 
 > [!TIP]
 > Quotation template design uses the same methodology and functionality
-> with design building blocks as a typical web page design with Odoo
+> with design building blocks as a typical web page design with Konvergo ERP
 > *Website*. Be sure to check out the `../../../websites/website`
 > documentation to learn more.
 
@@ -272,7 +272,7 @@ When all blocks and customizations are complete, click the `Save` button
 to put those configurations into place.
 
 There is also a blue banner at the top of the quotation template design
-with a link to quickly return `Back to edit mode`. When clicked, Odoo
+with a link to quickly return `Back to edit mode`. When clicked, Konvergo ERP
 returns to the quotation template form in the back-end of the *Sales*
 application.
 
@@ -283,15 +283,15 @@ template in the `Quotation Template` field.
 
 <img src="quote_template/quotation-templates-field.png"
 class="align-center"
-alt="Quotation templates field on a standard quotation form in Odoo Sales." />
+alt="Quotation templates field on a standard quotation form in Konvergo ERP Sales." />
 
 To view what the customer will see, click the `Preview` button at the
 top of the page to see how the quotation template appears on the
-front-end of the website through Odoo's customer portal.
+front-end of the website through Konvergo ERP's customer portal.
 
 <img src="quote_template/quotations-templates-preview.png"
 class="align-center"
-alt="Customer preview of a quotation template in Odoo Sales." />
+alt="Customer preview of a quotation template in Konvergo ERP Sales." />
 
 <div class="seealso">
 

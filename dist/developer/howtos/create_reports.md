@@ -128,7 +128,7 @@ companies.
 ## Use the model
 
 Views and menu items for your SQL views are created and used in the same
-way as any other Odoo model. You are all set to start using your SQL
+way as any other Konvergo ERP model. You are all set to start using your SQL
 view. Have fun!
 
 ## Extra tips

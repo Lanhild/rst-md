@@ -16,12 +16,12 @@ valuation is used to:
 
 Because `AVCO (Average Cost Valuation)` uses the weighted average to
 evaluate the cost, it is a good fit for companies that sell only a few
-different products in large quantities. In Odoo, this costing analysis
+different products in large quantities. In Konvergo ERP, this costing analysis
 is *automatically updated* each time products are received.
 
-Thus, when shipments are returned to their supplier, Odoo automatically
+Thus, when shipments are returned to their supplier, Konvergo ERP automatically
 generates accounting entries to reflect the change in inventory
-valuation. However, Odoo does **not** automatically update the
+valuation. However, Konvergo ERP does **not** automatically update the
 `AVCO (Average Cost Valuation)` calculation, because
 `this can potentially create inconsistencies with inventory
 valuation <inventory/avg_price/leaving_inventory>`.
@@ -134,7 +134,7 @@ $$Avg~Cost = \frac{0 + 8 \times $10}{8} = \frac{$80}{8} = $10$$
 - <span class="title-ref">\$10</span> is the average cost of a single
   table from the first shipment.
 
-To verify this in Odoo, in the *Purchase* app, order
+To verify this in Konvergo ERP, in the *Purchase* app, order
 <span class="title-ref">8</span> quantities of a new product,
 <span class="title-ref">Table</span>, with no previous stock moves, for
 <span class="title-ref">\$10</span> each.
@@ -159,7 +159,7 @@ The 8 tables in-stock are worth \$80.
 
 <img src="avg_price_valuation/inventory-val-8-tables.png"
 class="align-center"
-alt="Show inventory valuation of 8 tables in Odoo." />
+alt="Show inventory valuation of 8 tables in Konvergo ERP." />
 
 </div>
 
@@ -203,7 +203,7 @@ $$Avg~Cost = \frac{12 \times $12 + (-10) \times $12}{12-10} = \frac{24}{2} = $12
 5.  <span class="title-ref">\$24 / 2 = \$12</span>, which is the same
     average cost as the previous operation.
 
-To verify this in Odoo, sell <span class="title-ref">10</span> tables in
+To verify this in Konvergo ERP, sell <span class="title-ref">10</span> tables in
 the *Sales* app, validate the delivery, and then review the inventory
 valuation record by going to in `Inventory --> Reporting -->
 Inventory Valuation`. In the topmost valuation layer, delivering
@@ -224,7 +224,7 @@ alt="Show how deliveries decrease inventory valuation." />
 
 Because the price paid to suppliers can differ from the price the
 product is valued at with the `AVCO (Average Cost Valuation)` method,
-Odoo handles returned items in a specific way.
+Konvergo ERP handles returned items in a specific way.
 
 1.  Products are returned to suppliers at the original purchase price,
     but;
@@ -238,8 +238,8 @@ follows:
 |                               |               | \$24            | 2           | \$12     |
 | Return 1 table bought at \$10 | -1 \* \$12    | \$12            | 1           | \$12     |
 
-In other words, returns to vendors are perceived by Odoo as another form
-of a product exiting the warehouse. To Odoo, because the table is valued
+In other words, returns to vendors are perceived by Konvergo ERP as another form
+of a product exiting the warehouse. To Konvergo ERP, because the table is valued
 at \$12 per unit, the inventory value is reduced by
 <span class="title-ref">\$12</span> when the product is returned; the
 initial purchase price of <span class="title-ref">\$10</span> is
@@ -340,7 +340,7 @@ created.
 
 #### Summary
 
-At product reception, Odoo ensures companies can pay for goods that were
+At product reception, Konvergo ERP ensures companies can pay for goods that were
 purchased by preemptively moving an amount matching the price of
 received goods into the `liability account
 </applications/finance/accounting/get_started/cheat_sheet>`, **Stock
@@ -374,9 +374,9 @@ received from the vendor:
     received goods (**credit** the *Stock Input* account
     <span class="title-ref">\$80</span>).
 
-##### In Odoo
+##### In Konvergo ERP
 
-Odoo generates an accounting journal entry when shipments that use
+Konvergo ERP generates an accounting journal entry when shipments that use
 `AVCO (Average Cost Valuation)` costing method are received. Configure a
 `Price Difference Account` by selecting the `➡️ (arrow)` icon next to
 the `Product Category` field on the product page.
@@ -424,7 +424,7 @@ received from vendor for 8 tables:
     This account stores the amount the company owes others, so
     accountants use the amount to write checks to vendors.
 
-##### In Odoo
+##### In Konvergo ERP
 
 Once the vendor requests payment, navigate to the
 `Purchase app --> Orders -->

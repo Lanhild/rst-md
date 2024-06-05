@@ -60,7 +60,7 @@ Tags are used to prefix your commit. They should be one of the following
   version are incremental improvements not related to another tag;
 - **\[MERGE\]** for merge commits: used in forward port of bug fixes but
   also as main commit for feature involving several separated commits;
-- **\[CLA\]** for signing the Odoo Individual Contributor License;
+- **\[CLA\]** for signing the Konvergo ERP Individual Contributor License;
 - **\[I18N\]** for changes in translation files;
 
 After tag comes the modified module name. Use the technical name as
@@ -94,7 +94,7 @@ it. It is the purpose of the change.
 
 What you did can be found in the commit itself. If there was some
 technical choices involved it is a good idea to explain it also in the
-commit message after the why. For Odoo R&D developers "PO team asked me
+commit message after the why. For Konvergo ERP R&D developers "PO team asked me
 to do it" is not a valid why, by the way.
 
 Please avoid commits which simultaneously impact multiple modules. Try
@@ -110,7 +110,7 @@ those few sentences. No pressure at all.
 Take some time to calm down and write clear and understandable commit
 messages.**
 
-If you are an Odoo R&D developer the WHY should be the purpose of the
+If you are an Konvergo ERP R&D developer the WHY should be the purpose of the
 task you are working on. Full specifications make the core of the commit
 message. **If you are working on a task that lacks purpose and
 specifications please consider making them clear before continuing.**

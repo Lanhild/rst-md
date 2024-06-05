@@ -53,15 +53,15 @@ alt="payment method creation form" />
 > Find your payment terminal serial number under the device or on
 > [Stripe's dashboard](https://dashboard.stripe.com).
 
-### Connect Stripe to Odoo
+### Connect Stripe to Konvergo ERP
 
 Click `Connect Stripe`. Doing so redirects you automatically to a
 configuration page. Fill in all the information to create your Stripe
-account and link it with Odoo. Once the forms are completed, the API
+account and link it with Konvergo ERP. Once the forms are completed, the API
 keys (`Publishable Key` and `Secret Key`) can be retrieved on
 **Stripe's** website. To do so, click
 `Get your Secret and Publishable keys`, click the keys to copy them, and
-paste them into the corresponding fields in Odoo. Your terminal is ready
+paste them into the corresponding fields in Konvergo ERP. Your terminal is ready
 to be configured in a POS.
 
 <img src="stripe/stripe-connect.png" class="align-center"
@@ -83,7 +83,7 @@ Swipe right on your payment terminal, click `Settings`, enter the admin
 PIN code, validate and select your network.
 
 > [!NOTE]
-> - The device must be connected to a secured WI-FI network. - Your Odoo
+> - The device must be connected to a secured WI-FI network. - Your Konvergo ERP
 > database and payment terminal must share the same network. - You must
 > enter the admin PIN code to access your payment terminal settings. By
 > default, this code is <span class="title-ref">07139</span>.
@@ -104,7 +104,7 @@ changes to `Payment
 Successful`. To cancel the payment request, click `cancel`.
 
 > [!NOTE]
-> - \| In case of connection issues between Odoo and the payment
+> - \| In case of connection issues between Konvergo ERP and the payment
 > terminal, force the payment by clicking on `Force Done`, which allows
 > you to validate the order. \| This option is only available after
 > receiving an error message informing you that the connection failed. -

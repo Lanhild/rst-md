@@ -1,6 +1,6 @@
 # Time Off
 
-Odoo's *Time Off* application is a centralized place, where all time off
+Konvergo ERP's *Time Off* application is a centralized place, where all time off
 information is housed. The *Time Off* app manages everything related to
 requests, balances, allocations, approvals, and reports.
 
@@ -159,7 +159,7 @@ list.
 > mode. Refer to the `developer-mode` document for details on how to
 > access the developer mode.
 
-When an employee takes time off and is also using timesheets, Odoo
+When an employee takes time off and is also using timesheets, Konvergo ERP
 creates entries in the timesheet for the time off. This section defines
 how they are entered.
 
@@ -238,7 +238,7 @@ Fill out the following fields on the form:
 
 - `Based on worked time`: tick this box if the accrual of time off is
   based on the time the employee has worked. If an employee takes time
-  off that is *not* considered a worked day, Odoo will not count that
+  off that is *not* considered a worked day, Konvergo ERP will not count that
   day towards their accrual plan.
 
 - `Rate (#) (time)`: enter the rate of time off that is accumulated. The
@@ -296,7 +296,7 @@ alt="An accrual form with all the entries filled out." />
 Most countries have public or national holidays, and some companies may
 have specific days they are closed and/or give extra days as holidays.
 
-It is important to configure these days in Odoo, so employees are aware
+It is important to configure these days in Konvergo ERP, so employees are aware
 of the days they have off, and do not request time off on days that are
 already set as a public holiday (non-working days).
 

@@ -1,6 +1,6 @@
 # Custom reports
 
-Odoo comes with a powerful and easy-to-use reporting framework. The
+Konvergo ERP comes with a powerful and easy-to-use reporting framework. The
 engine allows you to create new reports, such as **tax reports**, or
 **balance sheets** and **income statements** with **specific groupings**
 and **layouts**.
@@ -91,10 +91,10 @@ using different computation engines under the same line if you need to.
 > [!NOTE]
 > Depending on the engine, `subformulas` may also be required.
 
-### 'Odoo Domain' engine
+### 'Konvergo ERP Domain' engine
 
 With this engine, a formula is interpreted as an
-`Odoo domain <reference/orm/domains>` targeting
+`Konvergo ERP domain <reference/orm/domains>` targeting
 <span class="title-ref">account.move.line</span> objects.
 
 The subformula allows you to define how the move lines matching the

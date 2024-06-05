@@ -5,7 +5,7 @@ strategies can help companies expand their market reach, especially in
 some countries, where emails might not be very common, or even used at
 all.
 
-Odoo's *SMS Marketing* application can also help boost conversion rates
+Konvergo ERP's *SMS Marketing* application can also help boost conversion rates
 around valuable actions, such as event registrations, free trials,
 purchases, etc., since text and mobile-based marketing channels
 typically yield higher `CTOR (click-to-open rate)` and
@@ -14,12 +14,12 @@ rate)` outcomes.
 
 ## SMS marketing dashboard
 
-When the application is opened, Odoo displays the main `SMS Marketing`
+When the application is opened, Konvergo ERP displays the main `SMS Marketing`
 dashboard, which showcases the various SMS mailings that have been
 created, along with pertinent information and data related to that
 specific message.
 
-The `Kanban` view is the default Odoo uses when the application is
+The `Kanban` view is the default Konvergo ERP uses when the application is
 opened, which provides an organized display of the SMS mailings that
 have been created, and what their current status is at the moment.
 
@@ -36,16 +36,16 @@ but in a more traditional list layout.
 
 The `Calendar` view provides a simple calendar, making it easy to see
 when SMS mailings are going to be sent (or have been sent). If a future
-date is clicked, Odoo reveals a blank SMS template that, when completed,
+date is clicked, Konvergo ERP reveals a blank SMS template that, when completed,
 will be scheduled to be sent on that specific future date.
 
 Lastly, the `Graph` view visualizes that same SMS-related data in series
-of graphs and charts. Odoo also provides various ways to sort and group
+of graphs and charts. Konvergo ERP also provides various ways to sort and group
 the data for more detailed analysis.
 
 ## Create SMS messages
 
-To start, click `Create` on the main `SMS Marketing` dashboard, and Odoo
+To start, click `Create` on the main `SMS Marketing` dashboard, and Konvergo ERP
 reveals a blank SMS template form, which can be configured in a number
 of different ways.
 
@@ -56,14 +56,14 @@ First, give the mailing a `Subject`, which describes what the mailing is
 about.
 
 Next, in the `Recipients` field, choose to whom this
-`SMS (Short Message Service)` will be sent. By default, Odoo has
+`SMS (Short Message Service)` will be sent. By default, Konvergo ERP has
 `Mailing List` selected. If this is the desired `Recipients` field
-option, specify which mailing list Odoo should send this `SMS
+option, specify which mailing list Konvergo ERP should send this `SMS
 (Short Message Service)` to in the `Select Mailing List` field.
 
 > [!NOTE]
 > To create (or edit) a mailing list, go to
-> `Mailing Lists --> Mailing List`. There, Odoo displays all previously
+> `Mailing Lists --> Mailing List`. There, Konvergo ERP displays all previously
 > created mailing lists, along with various types of data related to
 > that specific list (e.g. number of contacts, mailings, recipients,
 > etc.).
@@ -75,7 +75,7 @@ option, specify which mailing list Odoo should send this `SMS
 alt="View of the mailing list page in the SMS marketing application." />
 
 To reveal all the possible options in the `Recipients` field, click the
-field to see all the choices Odoo makes available.
+field to see all the choices Konvergo ERP makes available.
 
 When another field (other than `Mailing List`) is selected, the option
 to specify that chosen field even further becomes available — either
@@ -88,13 +88,13 @@ Clicking the `Add Filter` button, reveals fully customizable domain rule
 fields, which can be configured similar to an equation. You can create
 multiple recipient rules, if necessary.
 
-Then, Odoo will only send the `SMS (Short Message Service)` to
+Then, Konvergo ERP will only send the `SMS (Short Message Service)` to
 recipients who fit into whatever criteria is configured in those fields.
 Multiple rules can be added.
 
 <div class="example">
 
-If `Contact` is chosen, all of the *Contacts* records in the Odoo
+If `Contact` is chosen, all of the *Contacts* records in the Konvergo ERP
 database (vendors, customers, etc.) will receive the
 `SMS (Short Message Service)`, by default — unless more specific
 recipient rules are entered.
@@ -118,7 +118,7 @@ alt="Contact recipients on SMS marketing." />
 
 Enter the content of the `SMS (Short Message Service)` in the text
 field, found in the `SMS Content` tab. Links and emojis can also be
-included. Beneath the text field, Odoo displays how many characters are
+included. Beneath the text field, Konvergo ERP displays how many characters are
 used in the message, along with how many `SMS (Short Message
 Service)` mailings it will take to deliver the complete message.
 
@@ -130,19 +130,19 @@ Service)` mailings it will take to deliver the complete message.
 alt="SMS price check icon." />
 
 > [!NOTE]
-> Credits must be purchased from Odoo in order to take advantage of the
+> Credits must be purchased from Konvergo ERP in order to take advantage of the
 > *SMS Marketing* app; `SMS (Short Message Service)` messages will not
 > be sent without credits.
 
 <div class="seealso">
 
-[Odoo SMS - FAQ](https://iap-services.odoo.com/iap/sms/pricing)
+[Konvergo ERP SMS - FAQ](https://iap-services.odoo.com/iap/sms/pricing)
 
 </div>
 
 ### Track links used in SMS messages
 
-When links are used in `SMS (Short Message Service)` messages, Odoo
+When links are used in `SMS (Short Message Service)` messages, Konvergo ERP
 automatically generates link trackers to gather analytical data and
 metrics related to those specific links, which can be found by going to
 `Configuration --> Link Tracker`.
@@ -165,13 +165,13 @@ alt="SMS Settings tab." />
 
 ## Send SMS messages
 
-Once a mailing is created, choose when Odoo should deliver the message
+Once a mailing is created, choose when Konvergo ERP should deliver the message
 from the following options:
 
 - `Send`: sends the message immediately. Consider using this option if
   the recipient list is highly refined, or in cases that involve fast
   approaching deadlines, such as a "flash sale."
-- `Schedule`: choose a day (and time) for Odoo to send the mailing. This
+- `Schedule`: choose a day (and time) for Konvergo ERP to send the mailing. This
   is typically the best option for mailings related to a specific event.
   Such a method can also be used to promote a limited-time offer, or to
   help plan a company's content strategy in advance.
@@ -198,10 +198,10 @@ drop down menu).
 alt="Reporting page in SMS Marketing." />
 
 > [!TIP]
-> SMS messages can be sent using automated actions in Odoo. Odoo
+> SMS messages can be sent using automated actions in Konvergo ERP. Konvergo ERP
 > *Studio* is required to use automated actions.
 >
-> To install Odoo *Studio*, go to `Apps application`. Then, using the
+> To install Konvergo ERP *Studio*, go to `Apps application`. Then, using the
 > `Search...` bar, and search for <span class="title-ref">studio</span>.
 >
 > If it is not already installed, click `Install`.

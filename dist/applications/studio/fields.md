@@ -7,7 +7,7 @@ stored within them. How the data is presented and formatted on the
 `UI (User
 Interface)` is defined by their widget.
 
-From a technical point of view, there are 15 field types in Odoo.
+From a technical point of view, there are 15 field types in Konvergo ERP.
 However, you can choose from 20 fields in Studio, as some field types
 are available more than once with a different default widget.
 
@@ -42,13 +42,13 @@ text line is displayed when filling out the field.
   > [!NOTE]
   > This works differently than selecting the `Image field
   > <studio/fields/simple-fields/image>` directly, as the image is not
-  > stored in Odoo when using a `Text` field with the `Image` widget.
+  > stored in Konvergo ERP when using a `Text` field with the `Image` widget.
   > For example, it can be useful if you want to save disk space.
 
 - `Phone`: the value becomes a clickable *tel* link.
 
   > [!TIP]
-  > Tick `Enable SMS` to add an option to send an SMS directly from Odoo
+  > Tick `Enable SMS` to add an option to send an SMS directly from Konvergo ERP
   > next to the field.
 
 - `URL`: the value becomes a clickable URL.
@@ -136,7 +136,7 @@ The `Monetary` field is used for all monetary values.
 
 > [!NOTE]
 > When you first add a `Monetary` field, you are prompted to add a
-> `Currency` field if none exists already on the model. Odoo offers to
+> `Currency` field if none exists already on the model. Konvergo ERP offers to
 > add the `Currency` field for you. Once it is added, add the `Monetary`
 > field again.
 
@@ -149,10 +149,10 @@ alt="Example of a Monetary field along with its Currency field" />
 
 ### Html (<span class="title-ref">html</span>)
 
-The `Html` field is used to add text that can be edited using the Odoo
+The `Html` field is used to add text that can be edited using the Konvergo ERP
 HTML editor.
 
-- `Multiline Text`: disables the Odoo HTML editor to allow editing raw
+- `Multiline Text`: disables the Konvergo ERP HTML editor to allow editing raw
   HTML.
 
 <div class="example">

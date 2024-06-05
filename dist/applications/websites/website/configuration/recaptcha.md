@@ -42,9 +42,9 @@ On the website registration page:
 ![reCAPTCHA website registration example](recaptcha/recaptcha-google-configuration.png)
 
 A new page with the generated keys is then displayed. Leave it open for
-convenience, as copying the keys to Odoo is required next.
+convenience, as copying the keys to Konvergo ERP is required next.
 
-### On Odoo
+### On Konvergo ERP
 
 - From the database dashboard, click `Settings`. Under `Integrations`,
   enable `reCAPTCHA` if needed.
@@ -55,10 +55,10 @@ convenience, as copying the keys to Odoo is required next.
   > integration` module, as many other modules would also be removed.
 
 - Open the Google reCAPTCHA page, copy the `Site key`, and paste it into
-  the `Site Key` field in Odoo.
+  the `Site Key` field in Konvergo ERP.
 
 - Open the Google reCAPTCHA page, copy the `Secret key`, and paste it
-  into the `Secret Key` field in Odoo.
+  into the `Secret Key` field in Konvergo ERP.
 
 - Change the default `Minimum score`
   (<span class="title-ref">0.5</span>) if necessary, using a value

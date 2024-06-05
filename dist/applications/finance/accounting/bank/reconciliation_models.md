@@ -12,7 +12,7 @@ conditions`.
 
 <div class="seealso">
 
-\- `bank_synchronization` - [Odoo Tutorials: Reconciliation
+\- `bank_synchronization` - [Konvergo ERP Tutorials: Reconciliation
 models](https://www.odoo.com/slides/slide/reconciliation-models-1841?fullscreen=1)
 
 </div>
@@ -39,7 +39,7 @@ The reconciliation models are available by going to
 
 ## Default reconciliation models
 
-In Odoo, different models are available by default depending on the
+In Konvergo ERP, different models are available by default depending on the
 company's fiscal localization. These can be updated if needed. Users can
 also create their own reconciliation models by clicking `New`.
 
@@ -53,12 +53,12 @@ also create their own reconciliation models by clicking `New`.
 ### Invoices/Bills perfect match
 
 This model should be at the top of the *sequence* of models, as it
-enables Odoo to suggest matching existing invoices or bills with a bank
+enables Konvergo ERP to suggest matching existing invoices or bills with a bank
 transaction based on set conditions.
 
 ![Set rules to trigger the reconciliation.](reconciliation_models/invoices-bills-perfect-match.png)
 
-Odoo automatically reconciles the payment when the `Auto-validate`
+Konvergo ERP automatically reconciles the payment when the `Auto-validate`
 option is selected, and the model conditions are perfectly met. In this
 case, it expects to find on the bank statement's line the
 invoice/payment's reference (as `Label` is selected) and the partner's
@@ -100,17 +100,17 @@ label of the transaction.
 
 > [!NOTE]
 > [Regular expressions](https://regexone.com/), often abbreviated as
-> **Regex**, can be used in Odoo in various ways to search, validate,
+> **Regex**, can be used in Konvergo ERP in various ways to search, validate,
 > and manipulate data within the system. Regex can be powerful but also
 > complex, so it's essential to use it judiciously and with a good
 > understanding of the patterns you're working with.
 >
 > To use regular expressions in your reconciliation models, set the
-> `Transaction Type` to `Match Regex` and add your expression. Odoo
+> `Transaction Type` to `Match Regex` and add your expression. Konvergo ERP
 > automatically retrieves the transactions that match your Regex
 > expression and the conditions specified in your model.
 >
-> ![Using Regex in Odoo](reconciliation_models/regex.png)
+> ![Using Regex in Konvergo ERP](reconciliation_models/regex.png)
 
 ## Partner mapping
 
@@ -119,7 +119,7 @@ transactions to the correct partner account, saving time and reducing
 the risk of errors that can occur during manual reconciliation. For
 example, you can create a partner mapping rule for incoming payments
 with specific reference numbers or keywords in the transaction
-description. When an incoming payment meets these criteria, Odoo
+description. When an incoming payment meets these criteria, Konvergo ERP
 automatically maps it to the corresponding customer's account.
 
 To create a partner mapping rule, go to the `Partner Mapping` tab and

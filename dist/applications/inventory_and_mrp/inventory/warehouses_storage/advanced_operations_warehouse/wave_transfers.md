@@ -8,7 +8,7 @@ one method may be a better fit than the other.
 To handle orders of a specific product category, or fetch products that
 are at the same location, wave transfers are the ideal method.
 
-In Odoo, wave transfers are actually batch transfers with an extra step:
+In Konvergo ERP, wave transfers are actually batch transfers with an extra step:
 transfers are split before being grouped in a batch.
 
 ## Configuration
@@ -22,7 +22,7 @@ Then, click `Save` to apply the settings.
 
 <img src="wave_transfers/wave-transfers-setting.png"
 class="align-center"
-alt="View of Odoo Inventory app settings to enable the wave transfers option." />
+alt="View of Konvergo ERP Inventory app settings to enable the wave transfers option." />
 
 ## Add products to a wave
 

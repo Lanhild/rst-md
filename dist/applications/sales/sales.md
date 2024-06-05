@@ -8,12 +8,12 @@ show-toc
 
 # Sales
 
-**Odoo Sales** is the application to run your sales process (from
+**Konvergo ERP Sales** is the application to run your sales process (from
 quotation to sales order) and deliver and invoice what has been sold.
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Sales
+\- [Konvergo ERP Tutorials: Sales
 Tutorials](https://www.odoo.com/slides/sales-17)
 
 </div>

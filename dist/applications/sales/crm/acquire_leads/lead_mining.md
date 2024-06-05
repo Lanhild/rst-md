@@ -1,7 +1,7 @@
 # Lead mining
 
 Lead mining is a feature that allows CRM users to generate new leads
-directly into their Odoo database. To ensure lead qualification, lead
+directly into their Konvergo ERP database. To ensure lead qualification, lead
 mining output is determined by a variety of filtering criteria, such as
 the country, the company size, and the industry.
 
@@ -11,7 +11,7 @@ To get started, go to `CRM --> Configuration --> Settings` and activate
 `Lead Mining`.
 
 <img src="lead_mining/activate-lead-mining.png" class="align-center"
-alt="Activate lead mining in Odoo CRM settings." />
+alt="Activate lead mining in Konvergo ERP CRM settings." />
 
 ## Generate leads
 
@@ -30,7 +30,7 @@ Click on the `Generate Leads` button, and a window will appear offering
 a variety of criteria by which to generate leads.
 
 <img src="lead_mining/generate-leads-popup.png" class="align-center"
-alt="The pop-up window with the selection criteria in order to generate leads in Odoo." />
+alt="The pop-up window with the selection criteria in order to generate leads in Konvergo ERP." />
 
 Choose to generate leads for `Companies` to get company information
 only, or choose `Companies and their Contacts` to get company
@@ -55,7 +55,7 @@ Additional filtering options include:
 > [!NOTE]
 > Make sure to be aware of the latest EU regulations when receiving
 > contact information. Get more information about the General Data
-> Protection Regulation on [Odoo GDPR](http://odoo.com/gdpr).
+> Protection Regulation on [Konvergo ERP GDPR](http://odoo.com/gdpr).
 
 ## Pricing
 
@@ -66,7 +66,7 @@ Choosing to generate `Companies and their Contacts` costs one additional
 credit for each contact generated.
 
 > [!NOTE]
-> See here for full pricing information: [Lead Generation by Odoo IAP
+> See here for full pricing information: [Lead Generation by Konvergo ERP IAP
 > \<https://iap.odoo.com/iap/ in-app-services/167?\>]().
 
 To buy credits, navigate to `CRM --> Configuration --> Settings`. In the
@@ -78,13 +78,13 @@ class="align-center" alt="Buy credits from the lead mining settings." />
 
 Credits may also be purchased by navigating to the
 `Settings --> General Settings`. In the `In-App Purchases` section,
-under the `Odoo IAP` feature, click on `View My Services`.
+under the `Konvergo ERP IAP` feature, click on `View My Services`.
 
 <img src="lead_mining/view-my-services-setting.png" class="align-center"
-alt="Buy credits in the Odoo IAP settings." />
+alt="Buy credits in the Konvergo ERP IAP settings." />
 
 > [!NOTE]
-> Enterprise Odoo users with a valid subscription get free credits to
+> Enterprise Konvergo ERP users with a valid subscription get free credits to
 > test `IAP (In-App
 > Purchase)` features before deciding to purchase more credits for the
 > database. This includes demo/training databases, educational

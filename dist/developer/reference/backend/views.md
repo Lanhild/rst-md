@@ -736,7 +736,7 @@ itself, generally used to display workflow buttons and status widgets
 
 #### Semantic components
 
-Semantic components tie into and allow interaction with the Odoo system.
+Semantic components tie into and allow interaction with the Konvergo ERP system.
 Available semantic components are:
 
 <div class="rst-class">
@@ -746,7 +746,7 @@ o-definition-list
 </div>
 
 `button`  
-call into the Odoo system, similar to `list view buttons
+call into the Konvergo ERP system, similar to `list view buttons
 <reference/views/list/button>`. In addition, the following attribute can
 be specified:
 
@@ -762,7 +762,7 @@ the dialog, `cancel` to close the dialog without saving.
 
 `confirm`  
 confirmation message to display (and for the user to accept) before
-performing the button's Odoo call (also works in Kanban views).
+performing the button's Konvergo ERP call (also works in Kanban views).
 
 `field`  
 renders (and allow editing of, possibly) a single field of the current
@@ -1356,7 +1356,7 @@ architecture root element
   grid.
 
 `<button>` (0+)  
-Regular Odoo action buttons, displayed in the view header
+Regular Konvergo ERP action buttons, displayed in the view header
 
 - mandatory `string` attribute (the button label)
 
@@ -1757,7 +1757,7 @@ Kanban view processes `field`, `button` and `a` elements specially:
 
   </div>
 
-- buttons and links with a `type` attribute become perform Odoo-related
+- buttons and links with a `type` attribute become perform Konvergo ERP-related
   operations rather than their standard HTML function. Possible types
   are:
 
@@ -1768,9 +1768,9 @@ Kanban view processes `field`, `button` and `a` elements specially:
   </div>
 
   `action`, `object`  
-  standard behavior for `Odoo buttons
+  standard behavior for `Konvergo ERP buttons
   <reference/views/list/button>`, most attributes relevant to standard
-  Odoo buttons can be used.
+  Konvergo ERP buttons can be used.
 
   `open`  
   opens the card's record in the form view in read-only mode
@@ -1888,7 +1888,7 @@ icon to use to display the button
 - if there is an `icon`, `alt` text for the icon
 
 `type`  
-type of button, indicates how it clicking it affects Odoo:
+type of button, indicates how it clicking it affects Konvergo ERP:
 
 <div class="rst-class">
 
@@ -1945,7 +1945,7 @@ results as domains are combined with a logical AND.
 </div>
 
 `context`  
-merged into the view's context when performing the button's Odoo call
+merged into the view's context when performing the button's Konvergo ERP call
 
 <div class="todo">
 
@@ -2495,7 +2495,7 @@ o-definition-list
 the label of the filter
 
 `domain` (optional)  
-an Odoo `domain <reference/orm/domains>`, will be appended to the
+an Konvergo ERP `domain <reference/orm/domains>`, will be appended to the
 action's domain as part of the search domain.
 
 `date` (optional)  

@@ -24,7 +24,7 @@ online payment possibilities.
 
 ### Credentials tab
 
-Odoo needs your **API Credentials** to connect with your Adyen account,
+Konvergo ERP needs your **API Credentials** to connect with your Adyen account,
 which comprise:
 
 - **Merchant Account**: The code of the merchant account to use with
@@ -104,7 +104,7 @@ Adyen. To configure the URLs, proceed as follows:
 
     ![Copy the prefix for the Adyen APIs](adyen/adyen-api-urls.png)
 
-3.  In Odoo,
+3.  In Konvergo ERP,
     `navigate to the payment provider Adyen <payment_providers/add_new>`.
 
 4.  In the `Checkout API URL` field, enter the following URL and replace
@@ -133,7 +133,7 @@ Adyen. To configure the URLs, proceed as follows:
 To allow payment originated from your website, follow the steps in
 `adyen/api_and_client_keys` to navigate to your API user and go to
 `Add allowed origins`, then add the URLs from where payments will be
-made (the URLs of the servers hosting your Odoo instances).
+made (the URLs of the servers hosting your Konvergo ERP instances).
 
 <img src="adyen/adyen-allowed-origins.png" class="align-center"
 alt="Allows payments originated from a specific domain." />
@@ -143,7 +143,7 @@ alt="Allows payments originated from a specific domain." />
 Adyen allows you to capture an amount manually instead of having an
 immediate capture.
 
-To set it up, enable the **Capture Amount Manually** option on Odoo, as
+To set it up, enable the **Capture Amount Manually** option on Konvergo ERP, as
 explained in the
 `payment providers documentation <payment_providers/manual_capture>`.
 
@@ -154,11 +154,11 @@ and set the **Capture Delay** to **manual**.
 alt="Capture Delay settings in Adyen" />
 
 > [!CAUTION]
-> - If you configure Odoo to capture amounts manually, make sure to set
+> - If you configure Konvergo ERP to capture amounts manually, make sure to set
 > the **Capture Delay** to **manual** on Adyen. Otherwise, the
-> transaction will be blocked in the authorized state in Odoo. - Odoo
+> transaction will be blocked in the authorized state in Konvergo ERP. - Konvergo ERP
 > doesn't support the partial capture yet. Be aware that if you make a
-> partial capture from Adyen's interface, Odoo will manage it as if it
+> partial capture from Adyen's interface, Konvergo ERP will manage it as if it
 > was a full capture.
 
 > [!NOTE]

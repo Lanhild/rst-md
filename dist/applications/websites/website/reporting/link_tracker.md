@@ -11,7 +11,7 @@ Go to `Website --> Configuration --> Settings` and activate *Link
 Trackers*.
 
 <img src="link_tracker/enable_link_tracker.png" class="align-center"
-alt="View of Website settings page emphasizing the link trackers field in Odoo Website" />
+alt="View of Website settings page emphasizing the link trackers field in Konvergo ERP Website" />
 
 ### Set up traceable URLs
 
@@ -20,7 +20,7 @@ you are able to get a specific tracked URL based on the campaign,
 medium, and source being used.
 
 <img src="link_tracker/link_tracker_fields.png" class="align-center"
-alt="View of the link tracker fields for Odoo Website" />
+alt="View of the link tracker fields for Konvergo ERP Website" />
 
 - **URL**: url of the page you want to track (e.g. the home page or a
   product's page).
@@ -43,7 +43,7 @@ on *Stats*, including the number of clicks, and the country of origin
 for those clicks.
 
 <img src="link_tracker/links_statistics.png" class="align-center"
-alt="View of the tracked list emphasizing the statistics buttons in Odoo Website" />
+alt="View of the tracked list emphasizing the statistics buttons in Konvergo ERP Website" />
 
 <div class="tip">
 

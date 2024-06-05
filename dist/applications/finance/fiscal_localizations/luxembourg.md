@@ -12,7 +12,7 @@ features of the Luxembourgish localization:
 | `Luxembourg - Annual VAT Report`  | <span class="title-ref">l10n_lu_reports_annual_vat</span> | Country-specific reports                                              |
 
 <img src="luxembourg/modules.png" class="align-center"
-alt="The three modules for the Luxembourgish Fiscal Localization Package on Odoo" />
+alt="The three modules for the Luxembourgish Fiscal Localization Package on Konvergo ERP" />
 
 > [!TIP]
 > Installing the module `Luxembourg - Accounting Reports` installs all
@@ -20,7 +20,7 @@ alt="The three modules for the Luxembourgish Fiscal Localization Package on Odoo
 
 ## Standard Chart of Accounts - PCN 2020
 
-Odoo's `fiscal localization package <fiscal_localizations/packages>` for
+Konvergo ERP's `fiscal localization package <fiscal_localizations/packages>` for
 Luxembourg includes the current **Standard Chart of Accounts (PCN
 2020)**, effective since January 2020.
 
@@ -54,7 +54,7 @@ can manually add values in all the fields to get a **complete annual
 declaration**.
 
 <img src="luxembourg/annual-tax-report.png" class="align-center"
-alt="Odoo Accounting (Luxembourg localization) generates an annual tax declaration." />
+alt="Konvergo ERP Accounting (Luxembourg localization) generates an annual tax declaration." />
 
 To help you complete it, you can use the information provided on the
 `Tax Report`. To do so, go to
@@ -78,7 +78,7 @@ structured file that facilitates the exchange of information between the
 taxpayers' accounting system and the tax office. It is the Luxembourgish
 version of the OECD-recommended SAF-T (Standard Audit File for Tax).
 
-Odoo can generate an XML file that contains all the content of an
+Konvergo ERP can generate an XML file that contains all the content of an
 accounting period according to the rules imposed by the Luxembourg tax
 authorities on digital audit files.
 

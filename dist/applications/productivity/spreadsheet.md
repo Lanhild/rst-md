@@ -13,7 +13,7 @@ spreadsheet/insert spreadsheet/functions spreadsheet/templates
 Spreadsheet lets you organize, analyze, and visualize your data in
 tabular form. Among others, you can:
 
-- `Insert and link your Odoo data (pivots, graphs, lists, and menus) <spreadsheet/insert>`.
+- `Insert and link your Konvergo ERP data (pivots, graphs, lists, and menus) <spreadsheet/insert>`.
 - `Use formulas and functions <spreadsheet/functions>`.
 - `Use default templates or create new ones <spreadsheet/templates>`.
 - Format data.

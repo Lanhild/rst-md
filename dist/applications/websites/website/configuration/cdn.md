@@ -9,7 +9,7 @@ Delivery Network)` provides quick, high-quality content delivery for
 content-heavy websites.
 
 This document will guide you through the setup of a
-[KeyCDN](https://www.keycdn.com) account with an Odoo powered website.
+[KeyCDN](https://www.keycdn.com) account with an Konvergo ERP powered website.
 
 ### Create a pull zone in the KeyCDN dashboard
 
@@ -20,7 +20,7 @@ appear as part of the `CDN
 set the `Zone
 Status` to `active` to engage the zone. For the `Zone Type` set the
 value to `Pull`, and then, finally, under the `Pull Settings`, enter the
-`Origin URL`— this address should be the full Odoo database
+`Origin URL`— this address should be the full Konvergo ERP database
 `URL (Uniform Resource
 Locator)`.
 
@@ -29,7 +29,7 @@ Locator)`.
 Use `https://yourdatabase.odoo.com` and replace the *yourdatabase*
 subdomain prefix with the actual name of the database. A custom
 `URL (Uniform Resource Locator)` can be used, as well, in place of the
-Odoo subdomain that was provided to the database.
+Konvergo ERP subdomain that was provided to the database.
 
 </div>
 
@@ -57,9 +57,9 @@ alt="KeyCDN deploying the new Zone." />
 Copy this `Zone URL` to a text editor for later, as it will be used in
 the next steps.
 
-### Configure the Odoo instance with the new zone
+### Configure the Konvergo ERP instance with the new zone
 
-In the Odoo `Website` app, go to the `Settings` and then activate the
+In the Konvergo ERP `Website` app, go to the `Settings` and then activate the
 `Content Delivery Network (CDN)` setting and copy/paste the `Zone URL`
 value from the earlier step into the `CDN Base URL` field. This field is
 only visible and configurable when the `developer mode <developer-mode>`
@@ -74,20 +74,20 @@ is activated.
 `Save` the settings when complete.
 
 <img src="cdn/cdn-base-url.png" class="align-center"
-alt="Activate the CDN setting in Odoo." />
+alt="Activate the CDN setting in Konvergo ERP." />
 
 Now the website is using the CDN for the resources matching the
 `CDN filters` regular expressions.
 
-In the HTML of the Odoo website, the `CDN (content delivery network)`
+In the HTML of the Konvergo ERP website, the `CDN (content delivery network)`
 integration is evidenced as working properly by checking the
 `URL (Uniform Resource Locators)` of images. The *CDN Base URL* value
-can be seen by using your web browser's `Inspect` feature on the Odoo
+can be seen by using your web browser's `Inspect` feature on the Konvergo ERP
 website. Look for it's record by searching within the `Network` tab
 inside of devtools.
 
 <img src="cdn/test-pull.png" class="align-center"
-alt="The CDN Base URL can be seen using the inspect function on the Odoo website." />
+alt="The CDN Base URL can be seen using the inspect function on the Konvergo ERP website." />
 
 ### Prevent security issues by activating cross-origin resource sharing (CORS)
 
@@ -97,7 +97,7 @@ resources on this same external server.
 
 If the `CORS (Cross-Origin Resource Sharing)` option isn't enabled in
 the `CDN
-Zone`, the more obvious resulting problem on a standard Odoo website
+Zone`, the more obvious resulting problem on a standard Konvergo ERP website
 will be the lack of *Font Awesome* icons because the font file declared
 in the *Font Awesome* CSS won't be loaded from the remote server.
 

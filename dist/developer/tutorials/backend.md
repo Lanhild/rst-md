@@ -17,12 +17,12 @@ instead.
 
 > [!WARNING]
 > This tutorial requires
-> `having installed Odoo </administration/on_premise>`
+> `having installed Konvergo ERP </administration/on_premise>`
 
-## Start/Stop the Odoo server
+## Start/Stop the Konvergo ERP server
 
-Odoo uses a client/server architecture in which clients are web browsers
-accessing the Odoo server via RPC.
+Konvergo ERP uses a client/server architecture in which clients are web browsers
+accessing the Konvergo ERP server via RPC.
 
 Business logic and extension is generally performed on the server side,
 although supporting client features (e.g. new data representation such
@@ -39,26 +39,26 @@ odoo-bin
 The server is stopped by hitting `Ctrl-C` twice from the terminal, or by
 killing the corresponding OS process.
 
-## Build an Odoo module
+## Build an Konvergo ERP module
 
 Both server and client extensions are packaged as *modules* which are
 optionally loaded in a *database*.
 
-Odoo modules can either add brand new business logic to an Odoo system,
+Konvergo ERP modules can either add brand new business logic to an Konvergo ERP system,
 or alter and extend existing business logic: a module can be created to
-add your country's accounting rules to Odoo's generic accounting
+add your country's accounting rules to Konvergo ERP's generic accounting
 support, while the next module adds support for real-time visualisation
 of a bus fleet.
 
-Everything in Odoo thus starts and ends with modules.
+Everything in Konvergo ERP thus starts and ends with modules.
 
 ### Composition of a module
 
-An Odoo module can contain a number of elements:
+An Konvergo ERP module can contain a number of elements:
 
 Business objects  
 Declared as Python classes, these resources are automatically persisted
-by Odoo based on their configuration
+by Konvergo ERP based on their configuration
 
 `Object views <reference/views>`  
 Definition of business objects UI display
@@ -88,7 +88,7 @@ directories are specified by using the
 > most command-line options can also be set using `a configuration file
 > <reference/cmdline/config>`
 
-An Odoo module is declared by its
+An Konvergo ERP module is declared by its
 `manifest <reference/module/manifest>`.
 
 A module is also a [Python
@@ -101,7 +101,7 @@ For instance, if the module has a single `mymodule.py` file
 
     from . import mymodule
 
-Odoo provides a mechanism to help set up a new module, `odoo-bin
+Konvergo ERP provides a mechanism to help set up a new module, `odoo-bin
 <reference/cmdline/server>` has a subcommand `scaffold
 <reference/cmdline/scaffold>` to create an empty module:
 
@@ -119,13 +119,13 @@ explained along this tutorial.
 Module creation
 
 Use the command line above to create an empty module Open Academy, and
-install it in Odoo.
+install it in Konvergo ERP.
 
 </div>
 
 ### Object-Relational Mapping
 
-A key component of Odoo is the `ORM (Object-Relational Mapping)` layer.
+A key component of Konvergo ERP is the `ORM (Object-Relational Mapping)` layer.
 This layer avoids having to write most `SQL (Structured Query Language)`
 by hand and provides extensibility and security services[^1].
 
@@ -135,7 +135,7 @@ persistence system.
 
 Models can be configured by setting a number of attributes at their
 definition. The most important attribute is `~odoo.models.Model._name`
-which is required and defines the name for the model in the Odoo system.
+which is required and defines the name for the model in the Konvergo ERP system.
 Here is a minimally complete definition of a model:
 
     from odoo import models
@@ -175,7 +175,7 @@ value or always be given a value when creating a record.
 Long-form, provides a help tooltip to users in the UI.
 
 `~odoo.fields.Field.index` (`bool`, default: `False`)  
-Requests that Odoo create a [database
+Requests that Konvergo ERP create a [database
 index](https://use-the-index-luke.com/sql/preface) on the column.
 
 #### Simple fields
@@ -189,7 +189,7 @@ Example of simple fields are `~odoo.fields.Boolean`,
 
 #### Reserved fields
 
-Odoo creates a few fields in all models[^2]. These fields are managed by
+Konvergo ERP creates a few fields in all models[^2]. These fields are managed by
 the system and shouldn't be written to. They can be read if useful or
 necessary:
 
@@ -210,7 +210,7 @@ user who last modified the record.
 
 #### Special fields
 
-By default, Odoo also requires a `name` field on all models for various
+By default, Konvergo ERP also requires a `name` field on all models for various
 display and search behaviors. The field used for these purposes can be
 overridden by setting `~odoo.models.Model._rec_name`.
 
@@ -225,12 +225,12 @@ has a title and a description. Courses must have a title.
 
 ### Data files
 
-Odoo is a highly data driven system. Although behavior is customized
+Konvergo ERP is a highly data driven system. Although behavior is customized
 using [Python](https://python.org) code part of a module's value is in
 the data it sets up when loaded.
 
 > [!TIP]
-> some modules exist solely to add data into Odoo
+> some modules exist solely to add data into Konvergo ERP
 
 Module data is declared via `data files <reference/data>`, XML files
 with `<record>` elements. Each `<record>` element creates or updates a
@@ -246,7 +246,7 @@ database record.
 </odoo>
 ```
 
-- `model` is the name of the Odoo model for the record.
+- `model` is the name of the Konvergo ERP model for the record.
 - `id` is an `external identifier`, it allows referring to the record
   (without having to know its in-database identifier).
 - `<field>` elements have a `name` which is the name of the field in the
@@ -475,7 +475,7 @@ they're composed of fields defining which fields can be searched on:
 </search>
 ```
 
-If no search view exists for the model, Odoo generates one which only
+If no search view exists for the model, Konvergo ERP generates one which only
 allows searching on the `name` field.
 
 <div class="exercise">
@@ -598,7 +598,7 @@ represented by partner records, so we will relate to the built-in model
 
 ### Model inheritance
 
-Odoo provides two *inheritance* mechanisms to extend an existing model
+Konvergo ERP provides two *inheritance* mechanisms to extend an existing model
 in a modular way.
 
 The first inheritance mechanism allows a module to modify the behavior
@@ -625,7 +625,7 @@ class="align-center" alt="image" />
 
 ### View inheritance
 
-Instead of modifying existing views in place (by overwriting them), Odoo
+Instead of modifying existing views in place (by overwriting them), Konvergo ERP
 provides view inheritance where children "extension" views are applied
 on top of root views, and can add or remove content from their parent.
 
@@ -703,7 +703,7 @@ Alter existing content
 
 #### Domains
 
-In Odoo, `reference/orm/domains` are values that encode conditions on
+In Konvergo ERP, `reference/orm/domains` are values that encode conditions on
 records. A domain is a list of criteria used to select a subset of a
 model's records. Each criteria is a triple with a field name, an
 operator and a value.
@@ -912,7 +912,7 @@ number of seats, or more participants than seats.
 
 ## Model constraints
 
-Odoo provides two ways to set up automatically verified invariants:
+Konvergo ERP provides two ways to set up automatically verified invariants:
 `Python constraints <odoo.api.constrains>` and
 `SQL constraints <odoo.models.Model._sql_constraints>`.
 
@@ -1253,7 +1253,7 @@ access_idea_vote,idea.vote,model_idea_vote,base.group_user,1,1,1,0
 
 <div class="exercise">
 
-Add access control through the Odoo interface
+Add access control through the Konvergo ERP interface
 
 Create a new user "John Smith". Then create a group "OpenAcademy /
 Session Read" with read access to the *Session* model.
@@ -1400,30 +1400,30 @@ sessions.
 Each module can provide its own translations within the i18n directory,
 by having files named LANG.po where LANG is the locale code for the
 language, or the language and country combination when they differ (e.g.
-pt.po or pt_BR.po). Translations will be loaded automatically by Odoo
+pt.po or pt_BR.po). Translations will be loaded automatically by Konvergo ERP
 for all enabled languages. Developers always use English when creating a
-module, then export the module terms using Odoo's gettext POT export
+module, then export the module terms using Konvergo ERP's gettext POT export
 feature (`Settings --> Translations --> Import/Export --> Export
 Translation` without specifying a language), to create the module
 template POT file, and then derive the translated PO files. Many IDE's
 have plugins or modes for editing and merging PO/POT files.
 
 > [!TIP]
-> The Portable Object files generated by Odoo are published on
+> The Portable Object files generated by Konvergo ERP are published on
 > [Transifex](https://www.transifex.com/odoo/public/), making it easy to
 > translate the software.
 
 ``` text
 |- idea/ # The module directory
    |- i18n/ # Translation files
-      | - idea.pot # Translation Template (exported from Odoo)
+      | - idea.pot # Translation Template (exported from Konvergo ERP)
       | - fr.po # French translation
       | - pt_BR.po # Brazilian Portuguese translation
       | (...)
 ```
 
 > [!TIP]
-> By default Odoo's POT export only extracts labels inside XML files or
+> By default Konvergo ERP's POT export only extracts labels inside XML files or
 > inside field definitions in Python code, but any Python string can be
 > translated this way by surrounding it with the function `odoo._` (e.g.
 > `_("Label")`)
@@ -1432,8 +1432,8 @@ have plugins or modes for editing and merging PO/POT files.
 
 Translate a module
 
-Choose a second language for your Odoo installation. Translate your
-module using the facilities provided by Odoo.
+Choose a second language for your Konvergo ERP installation. Translate your
+module using the facilities provided by Konvergo ERP.
 
 </div>
 
@@ -1441,7 +1441,7 @@ module using the facilities provided by Odoo.
 
 ### Printed reports
 
-Odoo uses a report engine based on `reference/qweb`, [Twitter
+Konvergo ERP uses a report engine based on `reference/qweb`, [Twitter
 Bootstrap](https://getbootstrap.com) and
 [Wkhtmltopdf](https://wkhtmltopdf.org).
 
@@ -1567,7 +1567,7 @@ main menu is selected.
 </div>
 
 [^1]: writing raw SQL queries is possible, but requires care as it
-    bypasses all Odoo authentication and security mechanisms.
+    bypasses all Konvergo ERP authentication and security mechanisms.
 
 [^2]: it is possible to `disable the automatic creation of some
     fields <reference/fields/automatic/log_access>`

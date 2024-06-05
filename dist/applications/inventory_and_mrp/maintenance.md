@@ -8,12 +8,12 @@ show-toc
 
 # Maintenance
 
-**Odoo Maintenance** helps extend the effectiveness of equipment by
+**Konvergo ERP Maintenance** helps extend the effectiveness of equipment by
 keeping track of maintenance requirements.
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Managing Equipment
+\- [Konvergo ERP Tutorials: Managing Equipment
 Maintenance](https://www.odoo.com/slides/slide/managing-equipment-maintenance-709)
 
 </div>

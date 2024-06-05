@@ -7,7 +7,7 @@ Configuring them well allows you to have all your banking data
 up-to-date and ready for `reconciliation
 <bank/reconciliation>` with your journal entries.
 
-In Odoo Accounting, each bank account has a dedicated journal set to
+In Konvergo ERP Accounting, each bank account has a dedicated journal set to
 post all entries in a dedicated account. Both the journal and the
 account are automatically created and configured whenever you add a bank
 account.
@@ -37,7 +37,7 @@ To connect your bank account to your database, go to
 
 ### Create a bank account
 
-If your banking institution is not available in Odoo, or if you don't
+If your banking institution is not available in Konvergo ERP, or if you don't
 want to connect your bank account to your database, you can configure
 your bank account manually.
 
@@ -47,7 +47,7 @@ Add a Bank Account`, click on `Create it` (at the bottom right), and
 fill out the form.
 
 > [!NOTE]
-> - Odoo automatically detects the bank account type (e.g., IBAN) and
+> - Konvergo ERP automatically detects the bank account type (e.g., IBAN) and
 > enables some features accordingly. - A default bank journal is
 > available and can be used to configure your bank account by going to
 > `Accounting --> Configuration --> Accounting: Journals --> Bank`. Open
@@ -181,7 +181,7 @@ alt="Select the toggle button and click on outstanding Accounts" />
 
 > [!NOTE]
 > - If you do not specify an outstanding payments account or an
-> outstanding receipts account for a specific journal, Odoo uses the
+> outstanding receipts account for a specific journal, Konvergo ERP uses the
 > default outstanding accounts. - If your main bank account is added as
 > an outstanding receipts account or outstanding payments account, when
 > a payment is registered, the invoice or bill's status is directly set

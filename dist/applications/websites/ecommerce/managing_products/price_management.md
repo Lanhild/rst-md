@@ -1,6 +1,6 @@
 # Price management
 
-Odoo offers multiple options to select the price displayed on your
+Konvergo ERP offers multiple options to select the price displayed on your
 website, as well as condition-specific prices based on set criteria.
 
 ## Taxes
@@ -91,7 +91,7 @@ allow you to define website-specific prices - different from the price
 on the product template - based on the **country group**, **currency**,
 **minimum quantity**, **period**, or **variant**. You can create as many
 pricelists as needed, but it is mandatory to have at least one pricelist
-configured per website. If no custom pricelists are added, Odoo defaults
+configured per website. If no custom pricelists are added, Konvergo ERP defaults
 to the **Public Pricelist** for all websites.
 
 <div class="seealso">

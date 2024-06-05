@@ -1,6 +1,6 @@
 # Multiple websites
 
-Odoo allows you to create multiple websites from the same database. This
+Konvergo ERP allows you to create multiple websites from the same database. This
 can be useful, for example, if you have multiple brands operating under
 your organization, or to create separate websites for different
 products/services, or different audiences. In these cases, having

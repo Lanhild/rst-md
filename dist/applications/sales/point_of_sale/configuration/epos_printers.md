@@ -9,7 +9,7 @@ printer.
 > - Epson printers using Wi-Fi/Ethernet connections and following the
 > [EPOS SDK Javascript
 > protocol](https://download4.epson.biz/sec_pubs/pos/reference_en/technology/epson_epos_sdk.html)
-> are compatible with Odoo **without** needing an `IoT Box
+> are compatible with Konvergo ERP **without** needing an `IoT Box
 > </applications/general/iot/devices/printer>`. - Thermal printers using
 > ESC/POS or StarPRNT protocol are compatible **with** an `IoT Box
 > </applications/general/iot/devices/printer>`. - Epson printers using
@@ -25,7 +25,7 @@ printer.
 
 ## Directly supported ePOS printers
 
-The following ePOS printers are directly compatible with Odoo without
+The following ePOS printers are directly compatible with Konvergo ERP without
 needing an `IoT Box
 </applications/general/iot/devices/printer>`.
 
@@ -49,7 +49,7 @@ needing an `IoT Box
 
 The following printers require an
 `IoT Box </applications/general/iot/devices/printer>` to be compatible
-with Odoo:
+with Konvergo ERP:
 
 - Epson TM-T20 family (incompatible ePOS software)
 - Epson TM-T88 family (incompatible ePOS software)

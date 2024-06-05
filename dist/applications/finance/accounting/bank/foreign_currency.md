@@ -1,15 +1,15 @@
 # Manage a bank account in a foreign currency
 
-In Odoo, every transaction is recorded in the default currency of the
+In Konvergo ERP, every transaction is recorded in the default currency of the
 company, and reports are all based on that default currency. When you
-have a bank account in a foreign currency, for every transaction, Odoo
+have a bank account in a foreign currency, for every transaction, Konvergo ERP
 stores two values:
 
 - The debit/credit in the currency of the *company*;
 - The debit/credit in the currency of the *bank account*.
 
 Currency rates are updated automatically using the web services of a
-banking institution. By default, Odoo uses the European Central Bank's
+banking institution. By default, Konvergo ERP uses the European Central Bank's
 web services but other options are available.
 
 ## Configuration
@@ -25,7 +25,7 @@ and then click on `Save`.
 
 ### Configure currencies
 
-Once Odoo is configured to support multiple currencies, they are all
+Once Konvergo ERP is configured to support multiple currencies, they are all
 created by default, but not necessarily active. To activate the new
 currencies, click on `Activate Other Currencies` under the
 `Multi-Currencies` setting or go to `Accounting --> Configuration
@@ -59,14 +59,14 @@ and save. When you are back on the **journal**, click on the
 <img src="foreign_currency/foreign-journal.png" class="align-center"
 alt="Example of a created bank journal." />
 
-Upon creation of the journal, Odoo automatically links the bank account
+Upon creation of the journal, Konvergo ERP automatically links the bank account
 to the journal. It can be found under
 `Accounting --> Configuration --> Accounting: Chart of Accounts`.
 
 ## Vendor bill in a foreign currency
 
 To pay a bill in a foreign currency, simply select the currency next to
-the `Journal` field and register the payment. Odoo automatically creates
+the `Journal` field and register the payment. Konvergo ERP automatically creates
 and posts the foreign **exchange gain or loss** as a new journal entry.
 
 <img src="foreign_currency/foreign-bill-currency.png"
@@ -74,7 +74,7 @@ class="align-center" alt="How to set a bill currency." />
 
 > [!NOTE]
 > Note that you can pay a foreign bill with another currency. In that
-> case, Odoo automatically converts between the two currencies.
+> case, Konvergo ERP automatically converts between the two currencies.
 
 ## Unrealized Currency Gains/Losses Report
 
@@ -97,11 +97,11 @@ button and change the rate of the foreign currencies in the report.
 class="align-center" alt="Menu to manually change exchange rates." />
 
 When manually changing **exchange rates**, a yellow banner appears
-allowing you to reset back to Odoo's rate. To do so, simply click on
-`Reset to Odoo's Rate`.
+allowing you to reset back to Konvergo ERP's rate. To do so, simply click on
+`Reset to Konvergo ERP's Rate`.
 
 <img src="foreign_currency/foreign-reset-rates.png" class="align-center"
-alt="Banner to reset back to Odoo&#39;s rates." />
+alt="Banner to reset back to Konvergo ERP&#39;s rates." />
 
 In order to update your **balance sheet** with the amount of the
 `adjustment` column, click on the `Adjustment Entry` button. In the
@@ -109,7 +109,7 @@ pop-up window, select a `Journal`, `Expense Account` and
 `Income Account` to calculate and process the **unrealized gains and
 losses**.
 
-You can set the date of the report in the `Date` field. Odoo
+You can set the date of the report in the `Date` field. Konvergo ERP
 automatically reverses the booking entry to the date set in
 `Reversal Date`.
 

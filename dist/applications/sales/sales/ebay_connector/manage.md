@@ -2,18 +2,18 @@
 
 <div id="ebay-connector/listing">
 
-In order to list a product on eBay and Odoo there are two methods in
-Odoo to do so:
+In order to list a product on eBay and Konvergo ERP there are two methods in
+Konvergo ERP to do so:
 
 </div>
 
-1.  (*Preferred method*) Make a product in Odoo and list the item eBay.
+1.  (*Preferred method*) Make a product in Konvergo ERP and list the item eBay.
     - Click `List Item on eBay` in the top menu of the product template.
       The product template can be accessed by navigating to
       `Sales app --> Products --> Product` and selecting the individual
       product.
 2.  (*Less preferred method*) List the item on eBay, then create the
-    product in Odoo, and finally link product to the item on eBay.
+    product in Konvergo ERP, and finally link product to the item on eBay.
     - Click `Link With Existing eBay Listing` in the top menu on the
       product template.The product template can be accessed by
       navigating to `Sales app --> Product -->
@@ -48,15 +48,15 @@ template. `Sell on eBay` is either in an `eBay` tab or under the
 name`. Click `Save` if necessary.
 
 <img src="manage/manage-ebay-template.png" class="align-center"
-alt="The eBay template form listed in the product template in Odoo." />
+alt="The eBay template form listed in the product template in Konvergo ERP." />
 
 When the `Use Stock Quantity` field is checked, the quantity set on eBay
-will be the Odoo *Forecast Quantity* (Odoo *Inventory* app).
+will be the Konvergo ERP *Forecast Quantity* (Konvergo ERP *Inventory* app).
 
 The `Description Template` allows the administrator to use templates in
 listings. The default template only use the `eBay Description` field of
 the product. HTML can be used inside the `Description Template` and in
-the `eBay Description` in Odoo 14. Starting in Odoo 15, the powerbox
+the `eBay Description` in Konvergo ERP 14. Starting in Konvergo ERP 15, the powerbox
 feature is available to use in the template and description. Simply type
 a forward slash <span class="title-ref">/</span> to reveal a menu with
 formatting, layout, and text options. To add an image, type
@@ -67,7 +67,7 @@ To use images in the listing, another option is to add them as
 
 <div class="seealso">
 
-For more information on template configuration in Odoo visit:
+For more information on template configuration in Konvergo ERP visit:
 `../../../general/companies/email_template`.
 
 </div>
@@ -80,13 +80,13 @@ different. Go to the `Variants` tab to or click `Configure Variants` in
 the top menu to configure the variant settings. Pricing can be
 configured for each variation.
 
-When the `Listing Type` is changed to `Fixed Price`, Odoo presents a
+When the `Listing Type` is changed to `Fixed Price`, Konvergo ERP presents a
 variant table at the bottom of the `eBay` tab, in which the
 `Fixed Price` can be entered, and the decision to `Publish on eBay` can
 be made for specific variants, along with other options.
 
 <img src="manage/fixed-listing-price.png" class="align-center"
-alt="The fixed price listing type in the eBay tab on a product form in Odoo sales." />
+alt="The fixed price listing type in the eBay tab on a product form in Konvergo ERP sales." />
 
 ## Product identifiers
 
@@ -121,9 +121,9 @@ set, 'Does not apply' will be used for the eBay listing.
 ### Posting payment
 
 When eBay orders are placed they are always paid for up front, via the
-eBay site. At no point will users pay for items on eBay through Odoo.
-Therefore, once orders are synced into Odoo from eBay they are already
-paid for. Odoo's invoicing and payment functionalities are not utilized.
+eBay site. At no point will users pay for items on eBay through Konvergo ERP.
+Therefore, once orders are synced into Konvergo ERP from eBay they are already
+paid for. Konvergo ERP's invoicing and payment functionalities are not utilized.
 However, invoices need to be created and marked as Paid to “close” the
 *Sales Order*.
 

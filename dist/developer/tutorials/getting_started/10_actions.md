@@ -75,13 +75,13 @@ class TestAction(models.Model):
         return True
 ```
 
-By assigning `type="object"` to our button, the Odoo framework will
+By assigning `type="object"` to our button, the Konvergo ERP framework will
 execute a Python method with `name="action_do_something"` on the given
 model.
 
 The first important detail to note is that our method name isn't
 prefixed with an underscore (`_`). This makes our method a **public**
-method, which can be called directly from the Odoo interface (through an
+method, which can be called directly from the Konvergo ERP interface (through an
 RPC call). Until now, all methods we created (compute, onchange) were
 called internally, so we used **private** methods prefixed by an
 underscore. You should always define your methods as private unless they
@@ -93,7 +93,7 @@ called on multiple records; it's better for reusability.
 Finally, a public method should always return something so that it can
 be called through XML-RPC. When in doubt, just `return True`.
 
-There are hundreds of examples in the Odoo source code. One example is
+There are hundreds of examples in the Konvergo ERP source code. One example is
 this [button in a
 view](https://github.com/odoo/odoo/blob/cd9af815ba591935cda367d33a1d090f248dd18d/addons/crm/views/crm_lead_views.xml#L9-L11)
 and its [corresponding Python
@@ -111,7 +111,7 @@ Cancel and set a property as sold.
 
   Tip: in order to raise an error, you can use the
   `UserError<reference/exceptions>` function. There are plenty of
-  examples in the Odoo source code ;-)
+  examples in the Konvergo ERP source code ;-)
 
 - Add the buttons 'Accept' and 'Refuse' to the `estate.property.offer`
   model.
@@ -145,4 +145,4 @@ We use `type="action"` and we refer to the `external identifier` in the
 `name`.
 
 In the `next chapter <tutorials/getting_started/11_constraints>` we'll
-see how we can prevent encoding incorrect data in Odoo.
+see how we can prevent encoding incorrect data in Konvergo ERP.

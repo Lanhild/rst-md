@@ -15,7 +15,7 @@ Google.
 
 ![Verify domain or URL prefix](google_search_console/verify.png)
 
-Then, access your Odoo database, go to
+Then, access your Konvergo ERP database, go to
 `Website --> Configuration --> Settings`, and enable
 `Google Search Console` in the `SEO` section. Paste the code in the
 dedicated field.
@@ -24,9 +24,9 @@ dedicated field.
 
 > [!IMPORTANT]
 > To prevent Google from indexing both your custom domain name
-> <span class="title-ref">www.example.com</span> and your original Odoo
+> <span class="title-ref">www.example.com</span> and your original Konvergo ERP
 > database URL <span class="title-ref">www.example.odoo.com</span>,
-> `map your domain name with your Odoo website
+> `map your domain name with your Konvergo ERP website
 > <domain-name/website-map>`.
 
 <div class="seealso">

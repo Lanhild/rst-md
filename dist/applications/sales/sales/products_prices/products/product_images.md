@@ -1,16 +1,16 @@
 # Product images with Google Images
 
-Having appropriate product images in Odoo is useful for a number of
+Having appropriate product images in Konvergo ERP is useful for a number of
 reasons. However, if a lot of products need images, assigning them can
 become incredibly time-consuming.
 
 Fortunately, by configuring the *Google Custom Search* API within an
-Odoo database, finding product images for products (based on their
+Konvergo ERP database, finding product images for products (based on their
 barcode) is extremely efficient.
 
 ## Configuration
 
-In order to utilize *Google Custom Search* within an Odoo database, both
+In order to utilize *Google Custom Search* within an Konvergo ERP database, both
 the database and the Google API must be properly configured.
 
 > [!NOTE]
@@ -90,20 +90,20 @@ the database and the Google API must be properly configured.
 
 5.  From this page, click `Customize` to open the `Overview --> Basic`
     page. Then, copy the ID in the `Search engine ID` field. This ID is
-    needed for the Odoo configuration.
+    needed for the Konvergo ERP configuration.
 
     <img src="product_images/basic-overview-search-engine-id.png"
     class="align-center"
     alt="Basic overview page with search engine ID field." />
 
-### Odoo
+### Konvergo ERP
 
-1.  In the Odoo database, go to the `Settings app` and scroll to the
+1.  In the Konvergo ERP database, go to the `Settings app` and scroll to the
     `Integrations` section. From here, check the box beside
     `Google Images`. Then, click `Save`.
 
     <img src="product_images/google-images-setting.png" class="align-center"
-    alt="The Google Images setting in the Odoo Settings app page." />
+    alt="The Google Images setting in the Konvergo ERP Settings app page." />
 
 2.  Next, return to the `Settings app`, and scroll to the `Integrations`
     section. Then, enter the `API Key` and `Search Engine ID` in the
@@ -111,15 +111,15 @@ the database and the Google API must be properly configured.
 
 3.  Click `Save`.
 
-## Product images in Odoo with Google Custom Search API
+## Product images in Konvergo ERP with Google Custom Search API
 
-Adding images to products in Odoo can be done on any product or product
-variant. This process can be completed in any Odoo application that
+Adding images to products in Konvergo ERP can be done on any product or product
+variant. This process can be completed in any Konvergo ERP application that
 provides access to product pages (e.g. *Sales* app, *Inventory* app,
 etc.).
 
 Below is a step-by-step guide detailing how to utilize the *Google
-Custom Search API* to assign images to products in Odoo using the Odoo
+Custom Search API* to assign images to products in Konvergo ERP using the Konvergo ERP
 *Sales* application:
 
 1.  Navigate to the `Products` page in the *Sales* app (`Sales app -->
@@ -141,13 +141,13 @@ Custom Search API* to assign images to products in Odoo using the Odoo
 
     <img src="product_images/get-pictures-from-google-action.png"
     class="align-center"
-    alt="The Get Pictures from Google Images option from the Action drop-down menu in Odoo." />
+    alt="The Get Pictures from Google Images option from the Action drop-down menu in Konvergo ERP." />
 
 4.  On the pop-up window that appears, click `Get Pictures`.
 
     <img src="product_images/click-get-picture-from-pop-up.png"
     class="align-center"
-    alt="The pop-up that appears in which the user should click Get Picture in Odoo Sales." />
+    alt="The pop-up that appears in which the user should click Get Picture in Konvergo ERP Sales." />
 
 5.  Once clicked, the image(s) will appear incrementally.
 

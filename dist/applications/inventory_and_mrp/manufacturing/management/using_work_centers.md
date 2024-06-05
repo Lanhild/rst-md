@@ -1,6 +1,6 @@
 # Manage work orders using work centers
 
-Odoo Manufacturing allows for work orders to be carried out at specific
+Konvergo ERP Manufacturing allows for work orders to be carried out at specific
 work centers. When a manufacturing order is created for a product, any
 work orders listed in the `Operations` tab of the product bill of
 materials (BoM) will be automatically created as well and assigned to

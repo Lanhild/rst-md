@@ -1,7 +1,7 @@
-# Chapter 2: Odoo Web Framework
+# Chapter 2: Konvergo ERP Web Framework
 
 The first part of this tutorial introduced you to most of Owl ideas. It
-is now time to learn about the Odoo JavaScript framework in its
+is now time to learn about the Konvergo ERP JavaScript framework in its
 entirety, as used by the web client.
 
 <figure>
@@ -11,7 +11,7 @@ style="width:50.0%" alt="02_web_framework/previously_learned.svg" />
 
 For this chapter, we will start from the empty dashboard provided by the
 <span class="title-ref">awesome_tshirt</span> addon. We will
-progressively add features to it, using the Odoo JavaScript framework.
+progressively add features to it, using the Konvergo ERP JavaScript framework.
 
 <div class="admonition">
 
@@ -27,14 +27,14 @@ alt="image" />
 Solutions
 
 The solutions for each exercise of the chapter are hosted on the
-[official Odoo tutorials
+[official Konvergo ERP tutorials
 repository](https://github.com/odoo/tutorials/commits/%7BCURRENT_MAJOR_BRANCH%7D-solutions/awesome_tshirt).
 
 </div>
 
 ## 1. A new Layout
 
-Most screens in the Odoo web client uses a common layout: a control
+Most screens in the Konvergo ERP web client uses a common layout: a control
 panel on top, with some buttons, and a main content zone just below.
 This is done using the [Layout
 component](%7BGITHUB_PATH%7D/addons/web/static/src/search/layout.js),
@@ -71,9 +71,9 @@ alt="image" />
 ## 2. Add some buttons for quick navigation
 
 Let us now use the action service for an easy access to the common views
-in Odoo.
+in Konvergo ERP.
 
-`Services <frontend/services>` is a notion defined by the Odoo
+`Services <frontend/services>` is a notion defined by the Konvergo ERP
 JavaScript framework; it is a persistent piece of code that exports a
 state and/or functions. Each service can depend on other services, and
 components can import a service with the

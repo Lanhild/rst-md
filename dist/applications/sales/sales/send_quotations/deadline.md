@@ -1,6 +1,6 @@
 # Quotation deadlines
 
-In the Odoo *Sales* application, it is possible to set deadlines on
+In the Konvergo ERP *Sales* application, it is possible to set deadlines on
 sales quotations. Doing so encourages customers to act quickly during
 sales negotiations, for they might fear for missing out on a good deal.
 As well, deadlines also can also act as protection for a company in case
@@ -9,7 +9,7 @@ the business.
 
 ## Quotation expiration
 
-In Odoo *Sales*, there's the option to add an expiration date to a
+In Konvergo ERP *Sales*, there's the option to add an expiration date to a
 quotation.
 
 To add an expiration date to a quotation, navigate to `Sales app`, and
@@ -21,18 +21,18 @@ as the expiration date for the quotation.
 
 <img src="deadline/quotation-deadlines-expiration-field.png"
 class="align-center"
-alt="The expiration field on a standard quotation form in Odoo Sales." />
+alt="The expiration field on a standard quotation form in Konvergo ERP Sales." />
 
 > [!TIP]
-> By clicking the `Preview` button on a quotation, Odoo clearly displays
+> By clicking the `Preview` button on a quotation, Konvergo ERP clearly displays
 > when that specific offer expires.
 >
 > <img src="deadline/quotation-deadlines-preview.png" class="align-center"
-> alt="How customers will see deadlines on Odoo Sales." />
+> alt="How customers will see deadlines on Konvergo ERP Sales." />
 
 ## Quotation template expiration
 
-The Odoo *Sales* application also makes it possible to add a deadline
+The Konvergo ERP *Sales* application also makes it possible to add a deadline
 expiration date to quotation templates.
 
 To add a deadline expiration date to a quotation template, navigate to
@@ -49,7 +49,7 @@ expires.
 
 <img src="deadline/quotation-deadlines-expires-after.png"
 class="align-center"
-alt="The quotation expires after field on a quotation template form in Odoo Sales." />
+alt="The quotation expires after field on a quotation template form in Konvergo ERP Sales." />
 
 Then, whenever that specific quotation template is used in a quote, an
 expiration date is automatically calculated, based on the number of days

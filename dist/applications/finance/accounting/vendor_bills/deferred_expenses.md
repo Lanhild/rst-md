@@ -20,7 +20,7 @@ we post this new expense in a *prepayment account* and decide to
 recognize it on a monthly basis. Each month, for the next 12 months, \$
 100 will be recognized as an expense.
 
-Odoo Accounting handles deferred expenses and prepayments by spreading
+Konvergo ERP Accounting handles deferred expenses and prepayments by spreading
 them in multiple entries that are automatically created in *draft mode*
 and then posted periodically.
 
@@ -42,7 +42,7 @@ the form.
 
 <img src="deferred_expenses/deferred_expenses01.png"
 class="align-center"
-alt="Configuration of a Deferred Expense Account in Odoo Accounting" />
+alt="Configuration of a Deferred Expense Account in Konvergo ERP Accounting" />
 
 > [!NOTE]
 > This account's type must be either *Current Assets* or *Prepayments*
@@ -56,7 +56,7 @@ the expenses must be deferred.
 
 <img src="deferred_expenses/deferred_expenses02.png"
 class="align-center"
-alt="Selection of a Deferred Expense Account on a draft bill in Odoo Accounting" />
+alt="Selection of a Deferred Expense Account on a draft bill in Konvergo ERP Accounting" />
 
 #### Choose a different Expense Account for specific products
 
@@ -65,7 +65,7 @@ Start editing the product, go to the *Accounting* tab, select the right
 
 <img src="deferred_expenses/deferred_expenses03.png"
 class="align-center"
-alt="Change of the Expense Account for a product in Odoo" />
+alt="Change of the Expense Account for a product in Konvergo ERP" />
 
 > [!TIP]
 > It is possible to automate the creation of expense entries for these
@@ -81,7 +81,7 @@ account, and select the right one.
 
 <img src="deferred_expenses/deferred_expenses04.png"
 class="align-center"
-alt="Modification of a posted journal item&#39;s account in Odoo Accounting" />
+alt="Modification of a posted journal item&#39;s account in Konvergo ERP Accounting" />
 
 ## Deferred Expenses entries
 
@@ -100,15 +100,15 @@ to this new entry. Some fields are then automatically filled out, and
 the journal item is now listed under the **Related Expenses** tab.
 
 <img src="deferred_expenses/deferred_expenses05.png"
-class="align-center" alt="Deferred Expense entry in Odoo Accounting" />
+class="align-center" alt="Deferred Expense entry in Konvergo ERP Accounting" />
 
 Once done, you can click on *Compute Deferral* (next to the *Confirm*
 button) to generate all the values of the **Expense Board**. This board
-shows you all the entries that Odoo will post to recognize your expense,
+shows you all the entries that Konvergo ERP will post to recognize your expense,
 and at which date.
 
 <img src="deferred_expenses/deferred_expenses06.png"
-class="align-center" alt="Expense Board in Odoo Accounting" />
+class="align-center" alt="Expense Board in Konvergo ERP Accounting" />
 
 #### What does "Prorata Temporis" mean?
 
@@ -141,7 +141,7 @@ entry](#create-a-new-entry).
 
 <img src="deferred_expenses/deferred_expenses07.png"
 class="align-center"
-alt="Create Deferred Entry from a journal item in Odoo Accounting" />
+alt="Create Deferred Entry from a journal item in Konvergo ERP Accounting" />
 
 ## Deferred Expense Models
 
@@ -169,7 +169,7 @@ that model.
 
 <img src="deferred_expenses/deferred_expenses08.png"
 class="align-center"
-alt="Deferred Expense model button in Odoo Accounting" />
+alt="Deferred Expense model button in Konvergo ERP Accounting" />
 
 ## Automate the Deferred Expenses
 
@@ -191,7 +191,7 @@ You have three choices for the **Automate Deferred Expense** field:
 
 <img src="deferred_expenses/deferred_expenses09.png"
 class="align-center"
-alt="Automate Deferred Expense on an account in Odoo Accounting" />
+alt="Automate Deferred Expense on an account in Konvergo ERP Accounting" />
 
 > [!TIP]
 > You can, for example, select this account as the default **Expense

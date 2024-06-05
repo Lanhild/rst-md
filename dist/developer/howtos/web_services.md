@@ -9,12 +9,12 @@ Business objects can also be accessed via the distributed object
 mechanism. They can all be modified via the client interface with
 contextual views.
 
-Odoo is accessible through XML-RPC/JSON-RPC interfaces, for which
+Konvergo ERP is accessible through XML-RPC/JSON-RPC interfaces, for which
 libraries exist in many languages.
 
 ## XML-RPC Library
 
-The following example is a Python 3 program that interacts with an Odoo
+The following example is a Python 3 program that interacts with an Konvergo ERP
 server with the library `xmlrpc.client`:
 
     import xmlrpc.client
@@ -38,7 +38,7 @@ server with the library `xmlrpc.client`:
 Add a new service to the client
 
 Write a Python program able to send XML-RPC requests to a PC running
-Odoo (yours, or your instructor's). This program should display all the
+Konvergo ERP (yours, or your instructor's). This program should display all the
 sessions, and their corresponding number of seats. It should also create
 a new session for one of the courses.
 
@@ -98,7 +98,7 @@ examples spanning multiple programming languages.
 
 ## JSON-RPC Library
 
-The following example is a Python 3 program that interacts with an Odoo
+The following example is a Python 3 program that interacts with an Konvergo ERP
 server with the standard Python libraries `urllib.request` and `json`.
 This example assumes the **Productivity** app (`note`) is installed:
 
@@ -146,11 +146,11 @@ Examples can be easily adapted from XML-RPC to JSON-RPC.
 
 > [!NOTE]
 > There are a number of high-level APIs in various languages to access
-> Odoo systems without *explicitly* going through XML-RPC or JSON-RPC,
+> Konvergo ERP systems without *explicitly* going through XML-RPC or JSON-RPC,
 > such as:
 >
 > - <https://github.com/akretion/ooor>
 > - <https://github.com/OCA/odoorpc>
 > - <https://github.com/nicolas-van/openerp-client-lib>
-> - <http://pythonhosted.org/OdooRPC>
+> - <http://pythonhosted.org/Konvergo ERPRPC>
 > - <https://github.com/abhishek-jaiswal/php-openerp-lib>

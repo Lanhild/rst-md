@@ -40,7 +40,7 @@ The **Adyen API key** is used to authenticate requests from your Adyen
 terminal. To generate an API key, go to your
 `Adyen account --> Developers --> API credentials`, and **create** new
 credentials or select **existing** ones. Click `Generate an API key` and
-save the key to paste it into the Odoo `Adyen API key` field at
+save the key to paste it into the Konvergo ERP `Adyen API key` field at
 `the payment method creation
 <adyen/method-creation>`.
 
@@ -58,13 +58,13 @@ is used to identify the hardware.
 
 To find this number, go to your
 `Adyen account --> Point of Sale --> Terminals`, select the terminal to
-link with, and save its serial number to paste it into the Odoo
+link with, and save its serial number to paste it into the Konvergo ERP
 `Adyen Terminal Identifier` field at `the payment method creation
 <adyen/method-creation>`.
 
 ### Set the Event URLs
 
-For Odoo to know when a payment is made, you must configure the terminal
+For Konvergo ERP to know when a payment is made, you must configure the terminal
 **Event URLs**. To do so,
 
 1.  Log in to [Adyen's website](https://www.adyen.com/);
@@ -104,7 +104,7 @@ status changes to `Payment
 Successful`.
 
 > [!NOTE]
-> - \| In case of connection issues between Odoo and the payment
+> - \| In case of connection issues between Konvergo ERP and the payment
 > terminal, force the payment by clicking on `Force Done`, which allows
 > you to validate the order. \| This option is only available after
 > receiving an error message informing you that the connection failed. -

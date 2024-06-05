@@ -14,7 +14,7 @@ produced out of raw materials “A” and “B”.
 <img src="subcontracting/subcontracting_01.png" class="align-center"
 alt="" />
 
-With its MRP subcontracting feature, Odoo helps you handle this flow
+With its MRP subcontracting feature, Konvergo ERP helps you handle this flow
 easily.
 
 ## Configuration
@@ -50,7 +50,7 @@ alt="" />
 
 Once the *PO* is validated (1), a pending receipt is created. When the
 products are received, validate the receipt (2), with the actual
-quantity received. As a result, Odoo does the following things for you:
+quantity received. As a result, Konvergo ERP does the following things for you:
 
 - Consumes the respective components at the subcontractor’s location,
   based on the *BoM* and your input (3);
@@ -60,7 +60,7 @@ quantity received. As a result, Odoo does the following things for you:
 
 > [!NOTE]
 > The *PO* is optional. If you create a receipt manually, with the right
-> subcontractor, Odoo still performs all the moves. This can be useful
+> subcontractor, Konvergo ERP still performs all the moves. This can be useful
 > if the subcontractor does not bill a fixed price per item, but rather
 > the time and materials used.
 

@@ -2,8 +2,8 @@
 
 <div id="iot/devices/measurement-tool">
 
-With Odoo's `IoT (Internet of Things)` box, it is possible to connect
-measurement tools to the Odoo database for use in the *Quality app* on a
+With Konvergo ERP's `IoT (Internet of Things)` box, it is possible to connect
+measurement tools to the Konvergo ERP database for use in the *Quality app* on a
 quality control point/quality check, or for use in a work center during
 the manufacturing process.
 
@@ -17,7 +17,7 @@ devices](https://www.odoo.com/page/iot-hardware).
 To add a device connected by `USB (Universal Serial Bus)`, plug the
 `USB (Universal
 Serial Bus)` cable into the `IoT (Internet of Things)` box, and the
-device appears in the Odoo database.
+device appears in the Konvergo ERP database.
 
 <img src="measurement_tool/device-dropdown.png" class="align-center"
 alt="Measurement tool recognized on the IoT box." />
@@ -51,7 +51,7 @@ automatically updated while the tool is being used.
 
 <img src="measurement_tool/measurement-control-point.png"
 class="align-center"
-alt="Measurement tool input in the Odoo database." />
+alt="Measurement tool input in the Konvergo ERP database." />
 
 > [!TIP]
 > Quality control points can also be accessed by navigating to

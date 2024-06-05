@@ -1,7 +1,7 @@
 # Use serial numbers to track products
 
 *Serial numbers* are one of the two ways to identify and track products
-in Odoo. A serial number is a unique identifier assigned incrementally
+in Konvergo ERP. A serial number is a unique identifier assigned incrementally
 (or sequentially) to an item or product, used to distinguish it from
 other items and products.
 
@@ -66,7 +66,7 @@ Doing so reveals a blank lots/serial numbers form. On this form, a new
 `Lot/Serial Number` is generated automatically.
 
 > [!TIP]
-> While Odoo automatically generates a new lot/serial number to follow
+> While Konvergo ERP automatically generates a new lot/serial number to follow
 > the most recent number, it can be edited and changed to any desired
 > number, by clicking the line under the `Lot/Serial Number` field, and
 > changing the generated number.
@@ -168,7 +168,7 @@ field, and until the `Quantity Done` field displays the correct
 #### Assign serial numbers automatically
 
 If a large quantity of products need individual serial numbers assigned
-to them, Odoo can automatically generate and assign serial numbers to
+to them, Konvergo ERP can automatically generate and assign serial numbers to
 each of the individual products.
 
 To accomplish this, start with the `First SN` field in the
@@ -190,7 +190,7 @@ alt="Automatic serial number assignment in detailed operations popup." />
 To copy and paste serial numbers from an existing spreadsheet, first
 populate a spreadsheet with all of the serial numbers received from the
 supplier (or manually chosen upon receipt). Then, copy and paste them in
-the `Lot/Serial Number Name` column. Odoo will automatically create the
+the `Lot/Serial Number Name` column. Konvergo ERP will automatically create the
 necessary number of lines based on the amount of numbers pasted in the
 column.
 
@@ -278,7 +278,7 @@ shared a serial number assigned during receipt of that specific
 
 ## Manage serial numbers for different operations types
 
-By default in Odoo, the creation of new serial numbers is only allowed
+By default in Konvergo ERP, the creation of new serial numbers is only allowed
 upon **receiving** products from a purchase order. **Existing** serial
 numbers cannot be used. For sales orders, the opposite is true: new
 serial numbers cannot be created on the delivery order, only existing

@@ -1,20 +1,20 @@
 # VoIP widget
 
-The *VoIP* widget is an add-on made available to Odoo users through the
+The *VoIP* widget is an add-on made available to Konvergo ERP users through the
 *VoIP* module. It is used to incorporate virtual telephony into the
 database. The widget is the control center for making and managing calls
-in Odoo.
+in Konvergo ERP.
 
 ## Phone calls
 
-To make phone calls while in the Odoo database, click the `☎️ (phone)`
+To make phone calls while in the Konvergo ERP database, click the `☎️ (phone)`
 icon, located in the top navigation bar.
 
 When clicked, a `VOIP` pop-up widget appears in the lower-left corner of
-the Odoo database. The widget allows users to freely navigate throughout
+the Konvergo ERP database. The widget allows users to freely navigate throughout
 the database, while making and receiving calls.
 
-When receiving calls in Odoo, the `VOIP` widget rings,and displays a
+When receiving calls in Konvergo ERP, the `VOIP` widget rings,and displays a
 notification. To close the widget, click the `X (close)` icon in the
 upper-right of the widget's screen.
 
@@ -25,19 +25,19 @@ upper-right of the widget's screen.
 > `Users --> Outgoing number` (column).
 
 <img src="voip_widget/call.png" class="align-center"
-alt="VoIP call in Odoo." />
+alt="VoIP call in Konvergo ERP." />
 
 ## Troubleshooting
 
 > [!TIP]
-> If a *Missing Parameter* error message appears in the Odoo *VoIP*
-> widget, refresh the Odoo window, and try again.
+> If a *Missing Parameter* error message appears in the Konvergo ERP *VoIP*
+> widget, refresh the Konvergo ERP window, and try again.
 >
 > <img src="voip_widget/missing-parameter.png" class="align-center"
-> alt="&quot;Missing Parameter&quot; error message in the Odoo softphone." />
+> alt="&quot;Missing Parameter&quot; error message in the Konvergo ERP softphone." />
 
 > [!TIP]
-> If an *Incorrect Number* error message appears in the Odoo *VoIP*
+> If an *Incorrect Number* error message appears in the Konvergo ERP *VoIP*
 > widget, make sure to use the international format, leading with the
 > `+ (plus)` sign, followed by the international country code.
 >
@@ -45,13 +45,13 @@ alt="VoIP call in Odoo." />
 > international prefix for the United States.)
 >
 > <img src="voip_widget/incorrect-number.png" class="align-center"
-> alt="&quot;Incorrect Number&quot; error message in the Odoo softphone." />
+> alt="&quot;Incorrect Number&quot; error message in the Konvergo ERP softphone." />
 
 ## Tabs
 
 In all, there are three tabs (`Recent`, `Next Activities`, and
 `Contacts`) present in the *VoIP* widget, which are used for managing
-calls and day-to-day activities in Odoo.
+calls and day-to-day activities in Konvergo ERP.
 
 ### Recent
 
@@ -87,7 +87,7 @@ Under the `Document` section, from right to left:
 
 - `✉️ (envelope)` icon: sends an email
 - `👤 (person icon)` icon: redirects to the contact card
-- `📄 (document)` icon: redirects to the attached record in Odoo
+- `📄 (document)` icon: redirects to the attached record in Konvergo ERP
 - `🕓 (clock)` icon: schedule an activity
 
 Under the `Activity` section, from left to right:

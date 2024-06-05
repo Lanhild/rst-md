@@ -1,13 +1,13 @@
 # Reporting
 
-Odoo *Helpdesk* includes several reports that provide the opportunity to
+Konvergo ERP *Helpdesk* includes several reports that provide the opportunity to
 track trends for customer support tickets, identify areas for
 improvement, manage employee workloads, and confirm when customer
 expectations are met.
 
 ## Available reports
 
-Details about the reports available in Odoo *Helpdesk* can be found
+Details about the reports available in Konvergo ERP *Helpdesk* can be found
 below. To view the different reports, go to `Helpdesk --> Reporting`.
 
 ### Ticket Analysis
@@ -163,7 +163,7 @@ but can also be displayed in graph, list, or pivot view.
 
 ## View and filter options
 
-On any Odoo report, the view and filter options vary, depending on what
+On any Konvergo ERP report, the view and filter options vary, depending on what
 data is being analyzed, measured, and grouped. See below for additional
 information on the available views for the *Helpdesk* reports.
 
@@ -180,7 +180,7 @@ The pivot view can be accessed on any report by selecting the
 `grid icon` at the top right of the screen.
 
 <img src="reports/pivot-view.png" class="align-center"
-alt="View of the SLA status analysis report in Odoo Helpdesk." />
+alt="View of the SLA status analysis report in Konvergo ERP Helpdesk." />
 
 To add a group to a row or column to the pivot view, click the
 `➕ (plus sign)` next to `Total`, and then select one of the groups. To
@@ -253,12 +253,12 @@ To create and save new *Favorites* on a report, follow the steps below:
 6.  Click `Save` to preserve the configuration for future use.
 
 <img src="reports/save-filters.png" class="align-center"
-alt="View of the save favorites option in Odoo Helpdesk." />
+alt="View of the save favorites option in Konvergo ERP Helpdesk." />
 
 <div class="seealso">
 
 \-
 `Start receiving tickets </applications/services/helpdesk/overview/receiving_tickets>` -
-`Odoo reporting </applications/essentials/reporting>`
+`Konvergo ERP reporting </applications/essentials/reporting>`
 
 </div>

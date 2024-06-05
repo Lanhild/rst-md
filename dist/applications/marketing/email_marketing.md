@@ -9,7 +9,7 @@ are able to reach any target audience - large or small. The success of
 an email is easily measurable, especially when a creative call-to-action
 is involved.
 
-Odoo *Email Marketing* provides professional-grade email design tools,
+Konvergo ERP *Email Marketing* provides professional-grade email design tools,
 templates, and features, designed to simplify the otherwise complex
 process required to create engaging emails, build successful campaigns,
 and track their overall effectiveness in a single application.
@@ -24,14 +24,14 @@ and track their overall effectiveness in a single application.
 ## Email marketing dashboard
 
 To get started, click on the `Email Marketing` app icon, located on the
-main Odoo dashboard, which leads to the main `Email Marketing` dashboard
+main Konvergo ERP dashboard, which leads to the main `Email Marketing` dashboard
 (in the default kanban view).
 
 To see all the mailings in the database, remove the default
 `My Mailings` filter from the search bar.
 
 <img src="email_marketing/dashboard.png" class="align-center"
-alt="View of the main dashboard of the Odoo Email Marketing application." />
+alt="View of the main dashboard of the Konvergo ERP Email Marketing application." />
 
 > [!NOTE]
 > In the search bar, by default, the filter: `My Mailings` is present.
@@ -68,7 +68,7 @@ menu reveals the option to color-code the email `Delete` the email
 altogether, or `Archive` the message for potential future use.
 
 <img src="email_marketing/three-dot-dropdown.png" class="align-center"
-alt="View of the three-dot drop-down menu on the Odoo Email Marketing dashboard." />
+alt="View of the three-dot drop-down menu on the Konvergo ERP Email Marketing dashboard." />
 
 In the upper-right corner of the main `Email Marketing` dashboard, there
 are other view options to choose from: `List` and `Graph`.
@@ -79,7 +79,7 @@ The `List` view (represented by the `☰ (three vertical lines)` icon)
 provides the same key information, but in a classic list format.
 
 <img src="email_marketing/list-view.png" class="align-center"
-alt="How the List view appears in the Odoo Email Marketing application." />
+alt="How the List view appears in the Konvergo ERP Email Marketing application." />
 
 ### Graph view
 
@@ -88,7 +88,7 @@ same key information, but in a variety of customizable graph (and chart)
 layouts.
 
 <img src="email_marketing/graph-view.png" class="align-center"
-alt="How the Graph view appears in the Odoo Email Marketing application." />
+alt="How the Graph view appears in the Konvergo ERP Email Marketing application." />
 
 In the upper-left corner, there is a `Measures` menu, providing even
 more filter options to further customize the graph views.
@@ -112,11 +112,11 @@ Filters
 
 This drop-down menu provides different ways to filter email campaigns on
 the dashboard. The options are: `My Mailings`, `Sent Date`, `Archived`,
-and `Add Custom Filter`. If `Add Custom Filter` is selected, Odoo
+and `Add Custom Filter`. If `Add Custom Filter` is selected, Konvergo ERP
 reveals an additional drop-down menu, with three customizable fields to
 fill in, in order to retrieve results that fit more specific criteria.
 
-![View of filters drop-down menu options on the Odoo Email Marketing dashboard.](email_marketing/filters-dropdown.png)
+![View of filters drop-down menu options on the Konvergo ERP Email Marketing dashboard.](email_marketing/filters-dropdown.png)
 
 </div>
 
@@ -138,7 +138,7 @@ click `Add Custom Group` at the bottom of the drop-down menu. Doing so
 reveals a new field, wherein custom criteria can be selected and
 applied, thus delivering any grouping of data that may be desired.
 
-![View of the Group By drop-down menu on the Odoo Email Marketing application.](email_marketing/group-by-dropdown.png)
+![View of the Group By drop-down menu on the Konvergo ERP Email Marketing application.](email_marketing/group-by-dropdown.png)
 
 </div>
 
@@ -152,7 +152,7 @@ options are: `Save current
 search`, `Import records`, `Add to my dashboard`, and `Add to
 Google Spreadsheet`.
 
-![View of the Favorites drop-down menu on the Odoo Email Marketing application.](email_marketing/favorites-dropdown.png)
+![View of the Favorites drop-down menu on the Konvergo ERP Email Marketing application.](email_marketing/favorites-dropdown.png)
 
 </div>
 
@@ -165,7 +165,7 @@ To view (and modify) the *Email Marketing* settings, navigate to
 application --> Configuration --> Settings`.
 
 <img src="email_marketing/settings-page.png" class="align-center"
-alt="View of the Settings page in the Odoo Email Marketing application." />
+alt="View of the Settings page in the Konvergo ERP Email Marketing application." />
 
 On this `Settings` page, there are three features available. The
 features are: `Mailing Campaigns`,
@@ -176,9 +176,9 @@ features are: `Mailing Campaigns`,
 - `Blacklist Option when Unsubscribing`: allows recipients to blacklist
   themselves from future mailings during the unsubscribing process.
 - `Dedicated Server`: provides the option to utilize a separate,
-  dedicated server for mailings. When enabled, Odoo reveals a new field
+  dedicated server for mailings. When enabled, Konvergo ERP reveals a new field
   (and link), in which the specific server configurations must be
-  entered, in order for it to connect properly to Odoo.
+  entered, in order for it to connect properly to Konvergo ERP.
 
 ## Create an email
 
@@ -189,7 +189,7 @@ Clicking `Create` reveals a blank email detail form.
 
 <img src="email_marketing/blank-email-detail-form.png"
 class="align-center"
-alt="View of a blank email detail form in Odoo Email Marketing application." />
+alt="View of a blank email detail form in Konvergo ERP Email Marketing application." />
 
 First, enter a `Subject` to the email. The `Subject` is visible in the
 recipients' inbox, allowing them to get quickly see what the message is
@@ -218,14 +218,14 @@ After that, it's time to choose the recipients of this email, which can
 be completed in the `Recipients` field.
 
 <img src="email_marketing/recipients-dropdown.png" class="align-center"
-alt="View of recipients drop-down menu in the Odoo Email Marketing application." />
+alt="View of recipients drop-down menu in the Konvergo ERP Email Marketing application." />
 
 The default option is `Mailing List`. If `Mailing List` option is
 selected, a specific `Mailing List` needs to be chosen from the adjacent
 `Select mailing
 lists` field drop-down menu.
 
-Then, Odoo will only send this email to contacts on that specific
+Then, Konvergo ERP will only send this email to contacts on that specific
 mailing list.
 
 <div class="seealso">
@@ -235,7 +235,7 @@ mailing list.
 </div>
 
 When the `Recipients` field is clicked, a drop-down menu of other
-options is revealed. Each option provides different ways Odoo can create
+options is revealed. Each option provides different ways Konvergo ERP can create
 a target audience for the email.
 
 Those options (excluding the default `Mailing List`) provide the option
@@ -259,7 +259,7 @@ The `Recipients` field options are as follows:
 
 If the specified recipient fields don't automatically reveal themselves,
 simply click the `Add Filter` button beneath the `Recipients` field, and
-Odoo reveals the necessary equation fields to further drill down the
+Konvergo ERP reveals the necessary equation fields to further drill down the
 target recipients for this mailing.
 
 ### Add a recipient filter
@@ -275,7 +275,7 @@ number of `Records` that match the rule(s) are indicated to the right of
 the `Recipients` field, in green.
 
 <img src="email_marketing/add-filter-button.png" class="align-center"
-alt="View of how recipient filters can be customized in Odoo Email Marketing." />
+alt="View of how recipient filters can be customized in Konvergo ERP Email Marketing." />
 
 > [!NOTE]
 > Some sub-menu options in the first rule field allow for a second
@@ -298,16 +298,16 @@ At the bottom of the email form are two tabs: `Mail Body` and
 
 In the `Mail Body` tab, there are a number of pre-configured message
 templates to choose from. Select the desired template, and modify every
-element of its design details with Odoo's drag-and-drop building blocks,
+element of its design details with Konvergo ERP's drag-and-drop building blocks,
 located on the right sidebar. Each building block provides unique
 features and professional design elements.
 
 <img src="email_marketing/mail-blocks.png" class="align-center"
-alt="View of the building blocks used to create mailings in Odoo Email Marketing application." />
+alt="View of the building blocks used to create mailings in Konvergo ERP Email Marketing application." />
 
 > [!TIP]
 > To build an email from scratch, select the `Plain Text` template, and
-> Odoo provides a blank email canvas, which can be customized in a
+> Konvergo ERP provides a blank email canvas, which can be customized in a
 > number of ways - either by using the front-end rich text editor that
 > accepts slash (`/`) commands, or with the XML code editor when
 > `Developer Mode (debug mode) <developer-mode>` is engaged, and the
@@ -329,7 +329,7 @@ the email detail form looks like this:
 
 <img src="email_marketing/settings-without-features.png"
 class="align-center"
-alt="View of settings tab in Odoo Email Marketing app, without settings activated." />
+alt="View of settings tab in Konvergo ERP Email Marketing app, without settings activated." />
 
 - `Responsible`: choose an employee (in the database) to be responsible
   for this particular email.
@@ -346,7 +346,7 @@ When the `Mailing Campaigns` feature *is* activated, additional
 
 <img src="email_marketing/settings-tab-with-settings.png"
 class="align-center"
-alt="View of settings tab in Odoo Email Marketing when settings are activated." />
+alt="View of settings tab in Konvergo ERP Email Marketing when settings are activated." />
 
 The additional features are: `Mailing Campaign`, `Allow A/B Testing`,
 and `A/B Testing percentage`.
@@ -360,13 +360,13 @@ mailing campaigns in the database.
 
 <img src="email_marketing/mailing-campaign-dropdown.png"
 class="align-center"
-alt="View of a mailing campaign drop-down menu in Odoo Email Marketing application." />
+alt="View of a mailing campaign drop-down menu in Konvergo ERP Email Marketing application." />
 
 If the desired campaign isn't available in the initial drop-down menu,
 select `Search
 More` to reveal a complete list of all mailing campaigns in the
 database. Or, type the name of the desired mailing campaign in the
-`Mailing Campaign` field, until Odoo reveals the desired campaign in the
+`Mailing Campaign` field, until Konvergo ERP reveals the desired campaign in the
 drop-down menu. Then, select the desired campaign.
 
 ### Create new mailing campaign (from Settings tab)
@@ -377,19 +377,19 @@ typing the name of this new campaign, and select
 
 Click `Create` to add this new mailing campaign to the database, and
 modify its settings in the future. And click `Create and Edit...` to add
-this new mailing campaign to the database, and Odoo reveals a pop-up
+this new mailing campaign to the database, and Konvergo ERP reveals a pop-up
 window.
 
 <img src="email_marketing/mailing-campaign-popup.png"
 class="align-center"
-alt="View of the email mailing campaign pop-up window in Odoo Email Marketing application." />
+alt="View of the email mailing campaign pop-up window in Konvergo ERP Email Marketing application." />
 
 Here, the new mailing campaign can be further customized. Adjust the
 `Campaign Name`, assign a `Responsible`, and add `Tags`.
 
 The top row of the `Create: Mailing Campaign` pop-up window is filled
 with analytical smart buttons. Each of which displays various metrics
-related to the campaign. When clicked, Odoo reveals a separate, more
+related to the campaign. When clicked, Konvergo ERP reveals a separate, more
 detailed page with even more in-depth statistics.
 
 The option to instantly a new communication from this pop-up window is
@@ -412,10 +412,10 @@ When that's clicked, a pop-up window appears, in which the
 `Campaigns` dashboard.
 
 <img src="email_marketing/campaigns-page-popup.png" class="align-center"
-alt="View of the campaign pop-up window in Odoo Email Marketing." />
+alt="View of the campaign pop-up window in Konvergo ERP Email Marketing." />
 
 Click `Add` to add the campaign to the database, and freely edit it
-later on. Or, click `Edit` and Odoo reveals the campaign template form
+later on. Or, click `Edit` and Konvergo ERP reveals the campaign template form
 on a separate page, providing the opportunity to further edit the
 campaign, send communications related to the campaign, and analyze
 various metrics related to the campaign, via the smart buttons at the
@@ -437,20 +437,20 @@ chosen.
 
 ## Send, schedule, or test
 
-After finalizing the mailing, Odoo provides the following options in the
+After finalizing the mailing, Konvergo ERP provides the following options in the
 upper-left corner of the email template page. Those options are: `Send`,
 `Schedule`, and `Test`.
 
 While in `Edit` mode, there are also buttons to `Save` or `Discard` the
 mailing, as well.
 
-- `Send` - Click to have Odoo send the email to the desired recipients.
-  When Odoo has sent the mailing, the status changes to *Sent*.
+- `Send` - Click to have Konvergo ERP send the email to the desired recipients.
+  When Konvergo ERP has sent the mailing, the status changes to *Sent*.
 - `Schedule` - Click to reveal a pop-up window, in which a future
-  date-time is chosen. Odoo sends the mailing to the desired recipients
+  date-time is chosen. Konvergo ERP sends the mailing to the desired recipients
   at that specified date-time. When a date-time is chosen, the status of
   the mailing changes to *In Queue*.
-- `Test` - Click to reveal a pop-up window, in which Odoo allows a
+- `Test` - Click to reveal a pop-up window, in which Konvergo ERP allows a
   sample email to be sent for testing purposes. Enter the desired
   recipient's email address in the `Recipients` field, and click
   `Send Sample Mail`.

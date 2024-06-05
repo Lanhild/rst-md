@@ -101,4 +101,4 @@ found on the left sidebar. These categories give articles default
 - `Private`: Articles displayed in that category are only available to
   you.
 
-![Categories displayed in the left sidebar of Odoo Knowledge](management/left-sidebar-cat.png)
+![Categories displayed in the left sidebar of Konvergo ERP Knowledge](management/left-sidebar-cat.png)

@@ -4,7 +4,7 @@ show-toc
 
 # Discuss
 
-Odoo *Discuss* is an internal communication app that allows users to
+Konvergo ERP *Discuss* is an internal communication app that allows users to
 connect through messages, notes, and file sharing, either through a
 persistent chat window that works across applications, or through the
 dedicated *Discuss* dashboard.
@@ -15,17 +15,17 @@ Access user-specific preferences for the *Discuss* app by navigating to
 `Settings app
 --> Users --> User --> Preferences tab`.
 
-![View of the Preferences tab for Odoo Discuss.](discuss/preferences-user.png)
+![View of the Preferences tab for Konvergo ERP Discuss.](discuss/preferences-user.png)
 
 By default, the `Notification` field is set as `Handle by Emails`. With
-this setting enabled, a notification email will be sent by Odoo every
+this setting enabled, a notification email will be sent by Konvergo ERP every
 time a message is sent from the chatter, a note is sent with an
 <span class="title-ref">@</span> mention (from chatter), or a
 notification is sent for a record that the user follows. Something that
 triggers a notification is changing of the stage (if an emailis
 configured to be sent, for example if the task is set to `Done`).
 
-By choosing `Handle in Odoo`, the above notifications are shown in the
+By choosing `Handle in Konvergo ERP`, the above notifications are shown in the
 *Discuss* app's *inbox*. Messages can have the following actions taken
 on them: respond with an emoji by clicking `Add a Reaction`, or reply to
 the message by clicking on `Reply`. Additional actions may include
@@ -33,23 +33,23 @@ starring the message by clicking `Marked as Todo`, or pinning the
 message by selecting `Pin` or even mark the message as unread by
 selecting `Marked as unread`.
 
-![View of an inbox message and its action options in Odoo Discuss.](discuss/reactions-discuss.png)
+![View of an inbox message and its action options in Konvergo ERP Discuss.](discuss/reactions-discuss.png)
 
 Clicking `Mark as Todo` on a message causes it to appear on the
 `Starred` page, while clicking `Mark as Read` moves the message to
 `History`.
 
-![View of messages marked as todo in Odoo Discuss.](discuss/starred-messages.png)
+![View of messages marked as todo in Konvergo ERP Discuss.](discuss/starred-messages.png)
 
 ## Start chatting
 
-The first time a user logs in to their account, OdooBot sends a message
+The first time a user logs in to their account, Konvergo ERPBot sends a message
 asking for permission to send desktop notifications for chats. If
 accepted, the user will receive push notifications on their desktop for
-the messages they receive, regardless of where the user is in Odoo.
+the messages they receive, regardless of where the user is in Konvergo ERP.
 
 ![View of the messages under the messaging menu emphasizing the request for push
-notifications for Odoo Discuss.](discuss/odoobot-push.png)
+notifications for Konvergo ERP Discuss.](discuss/odoobot-push.png)
 
 > [!TIP]
 > To stop receiving desktop notifications, reset the notifications
@@ -60,7 +60,7 @@ icon next to `Direct Messages` or `Channels` in the left menu of the
 dashboard.
 
 <img src="discuss/channels-direct-messages.png" height="400"
-alt="View of Discuss&#39;s panel emphasizing the titles channels and direct messages in Odoo
+alt="View of Discuss&#39;s panel emphasizing the titles channels and direct messages in Konvergo ERP
 Discuss." />
 
 A company can also easily create
@@ -74,7 +74,7 @@ To mention a user within a chat or the chatter, type
 be notified in their *inbox* or through an email, depending on their
 communication settings.
 
-![View of a couple of chat window messages for Odoo Discuss.](discuss/chat-windows.png)
+![View of a couple of chat window messages for Konvergo ERP Discuss.](discuss/chat-windows.png)
 
 > [!TIP]
 > When a user is mentioned, the search list (list of names) suggests
@@ -95,7 +95,7 @@ the left side of a contact's name on the `Discuss` sidebar, on the
 - Airplane = out of the office
 
 <img src="discuss/status.png" height="300"
-alt="View of the contacts&#39; status for Odoo Discuss." />
+alt="View of the contacts&#39; status for Konvergo ERP Discuss." />
 
 <div class="seealso">
 

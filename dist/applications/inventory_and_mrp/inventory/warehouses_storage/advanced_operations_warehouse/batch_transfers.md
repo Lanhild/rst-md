@@ -37,7 +37,7 @@ class="align-center"
 alt="Enable the *Batch Transfers* in Inventory &gt; Configuration &gt; Settings." />
 
 Since batch picking is a method to optimize the *pick* operation in
-Odoo, the `Storage
+Konvergo ERP, the `Storage
 Locations` and `Multi-Step Routes` options under the `Warehouse` heading
 must also be checked on this settings page. When finished, click `Save`.
 
@@ -264,7 +264,7 @@ product pickings are complete.
 <span class="title-ref">1/2</span> units of the
 <span class="title-ref">Cabinet with Doors</span> has already been
 picked, and after scanning the product barcode for the second cabinet,
-Odoo prompts the user to <span class="title-ref">Scan a serial
+Konvergo ERP prompts the user to <span class="title-ref">Scan a serial
 number</span> to record the unique serial number for
 `product tracking <inventory/serial_numbers/configure>`.
 

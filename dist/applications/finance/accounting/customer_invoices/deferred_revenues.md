@@ -20,7 +20,7 @@ we post this new income in a deferred revenue account and decide to
 recognize it on a yearly basis. Each year, for the next 5 years, \$ 70
 will be recognized as revenue.
 
-Odoo Accounting handles deferred revenues by spreading them in multiple
+Konvergo ERP Accounting handles deferred revenues by spreading them in multiple
 entries that are automatically created in *draft mode* and then posted
 periodically.
 
@@ -42,7 +42,7 @@ the form.
 
 <img src="deferred_revenues/deferred_revenues01.png"
 class="align-center"
-alt="Configuration of a Deferred Revenue Account in Odoo Accounting" />
+alt="Configuration of a Deferred Revenue Account in Konvergo ERP Accounting" />
 
 > [!NOTE]
 > This account's type must be either *Current Liabilities* or
@@ -57,7 +57,7 @@ which the incomes must be deferred.
 
 <img src="deferred_revenues/deferred_revenues02.png"
 class="align-center"
-alt="Selection of a Deferred Revenue Account on a draft invoice in Odoo Accounting" />
+alt="Selection of a Deferred Revenue Account on a draft invoice in Konvergo ERP Accounting" />
 
 #### Choose a different Income Account for specific products
 
@@ -66,7 +66,7 @@ Start editing the product, go to the *Accounting* tab, select the right
 
 <img src="deferred_revenues/deferred_revenues03.png"
 class="align-center"
-alt="Change of the Income Account for a product in Odoo" />
+alt="Change of the Income Account for a product in Konvergo ERP" />
 
 > [!TIP]
 > It is possible to automate the creation of revenue entries for these
@@ -81,7 +81,7 @@ to modify, click on the account, and select the right one.
 
 <img src="deferred_revenues/deferred_revenues04.png"
 class="align-center"
-alt="Modification of a posted journal item&#39;s account in Odoo Accounting" />
+alt="Modification of a posted journal item&#39;s account in Konvergo ERP Accounting" />
 
 ## Deferred Revenues entries
 
@@ -100,15 +100,15 @@ to this new entry. Some fields are then automatically filled out, and
 the journal item is now listed under the **Related Sales** tab.
 
 <img src="deferred_revenues/deferred_revenues05.png"
-class="align-center" alt="Deferred Revenue entry in Odoo Accounting" />
+class="align-center" alt="Deferred Revenue entry in Konvergo ERP Accounting" />
 
 Once done, you can click on *Compute Revenue* (next to the *Confirm*
 button) to generate all the values of the **Revenue Board**. This board
-shows you all the entries that Odoo will post to recognize your revenue,
+shows you all the entries that Konvergo ERP will post to recognize your revenue,
 and at which date.
 
 <img src="deferred_revenues/deferred_revenues06.png"
-class="align-center" alt="Revenue Board in Odoo Accounting" />
+class="align-center" alt="Revenue Board in Konvergo ERP Accounting" />
 
 #### What does "Prorata Temporis" mean?
 
@@ -141,7 +141,7 @@ entry](#create-a-new-entry).
 
 <img src="deferred_revenues/deferred_revenues07.png"
 class="align-center"
-alt="Create Deferred Entry from a journal item in Odoo Accounting" />
+alt="Create Deferred Entry from a journal item in Konvergo ERP Accounting" />
 
 ## Deferred Revenue Models
 
@@ -169,7 +169,7 @@ that model.
 
 <img src="deferred_revenues/deferred_revenues08.png"
 class="align-center"
-alt="Deferred Revenue model button in Odoo Accounting" />
+alt="Deferred Revenue model button in Konvergo ERP Accounting" />
 
 ## Automate the Deferred Revenues
 
@@ -191,7 +191,7 @@ You have three choices for the **Automate Deferred Revenue** field:
 
 <img src="deferred_revenues/deferred_revenues09.png"
 class="align-center"
-alt="Automate Deferred Revenue on an account in Odoo Accounting" />
+alt="Automate Deferred Revenue on an account in Konvergo ERP Accounting" />
 
 > [!TIP]
 > You can, for example, select this account as the default **Income
@@ -201,7 +201,7 @@ alt="Automate Deferred Revenue on an account in Odoo Accounting" />
 
 <div class="seealso">
 
-\* `../get_started/chart_of_accounts` \* [Odoo Academy: Deferred
+\* `../get_started/chart_of_accounts` \* [Konvergo ERP Academy: Deferred
 Revenues (Recognition)](https://www.odoo.com/r/EWO)
 
 </div>

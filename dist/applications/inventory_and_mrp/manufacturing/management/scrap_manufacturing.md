@@ -7,10 +7,10 @@ component or product is damaged, or unusable for any other reason.
 By default, scrapping a component or finished product removes it from
 physical inventory and places it in a virtual location titled *Virtual
 Locations/Scrap*. A virtual location is **not** a physical space, but
-rather a designation in Odoo that is used to track items that are no
+rather a designation in Konvergo ERP that is used to track items that are no
 longer in physical inventory.
 
-Odoo *Manufacturing* allows for both components and finished products to
+Konvergo ERP *Manufacturing* allows for both components and finished products to
 be scrapped within a manufacturing order. The specific type of item that
 can be scrapped during a manufacturing order depends on the stage of the
 manufacturing process.
@@ -52,7 +52,7 @@ alt="The Scrap pop-up window." />
 > [!IMPORTANT]
 > Before clicking `Mark As Done` on a manufacturing order, only the
 > components of the finished product can be scrapped, **not** the
-> finished product itself. This is because Odoo recognizes that the
+> finished product itself. This is because Konvergo ERP recognizes that the
 > finished product cannot be scrapped before it has been manufactured.
 
 After scrapping a component, continue the manufacturing process using
@@ -92,7 +92,7 @@ scrap the component.
 
 ## Scrap finished products
 
-Odoo also allows for finished products to be scrapped from a
+Konvergo ERP also allows for finished products to be scrapped from a
 manufacturing order once the order is completed. After clicking
 `Mark as Done`, click the `Scrap` button to make the `Scrap` pop-up
 window appear.

@@ -56,7 +56,7 @@ whitespace at the end of a line to separate words.
 ### Example: Line breaks within markups
 
 ``` rst
-To register your seller account in Odoo, go to :menuselection:`Sales --> Configuration --> Settings
+To register your seller account in Konvergo ERP, go to :menuselection:`Sales --> Configuration --> Settings
 --> Amazon Connector --> Amazon Accounts` and click on :guilabel:`CREATE`. You can find the **Seller
 ID** under the link :guilabel:`Your Merchant Token`.
 ```

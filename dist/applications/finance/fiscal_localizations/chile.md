@@ -3,7 +3,7 @@
 > [!TIP]
 > Watch the two webinar recordings below for a general presentation of
 > the localization, and search the playlist for tutorials to discover
-> practical workflows while using Odoo in Chile.
+> practical workflows while using Konvergo ERP in Chile.
 >
 > - [Webinar: intro and demo](https://youtu.be/BHnByZiyYcM).
 > - [Webinar: delivery guide](https://youtu.be/X7i4PftnEdU).
@@ -34,7 +34,7 @@ features of the Chilean localization.
 | `Chile - E-Invoicing Delivery Guide`    | <span class="title-ref">l10n_cl_edi_stock</span>   | Includes all technical and functional requirements to generate delivery guides via web service based on the `SII (Servicio de Impuestos Internos)` regulations.                 |
 
 > [!NOTE]
-> - Odoo automatically installs the appropriate package for the company
+> - Konvergo ERP automatically installs the appropriate package for the company
 > according to the country selected at the creation of the database. -
 > The *Chile - E-Invoicing Delivery Guide* module depends on the
 > *Inventory* application.
@@ -166,7 +166,7 @@ alt="Incoming email server configuration for Chilean DTE." />
 
 > [!TIP]
 > Before going live, it is recommended to archive or remove all emails
-> related to vendor bills that are not required to be processed in Odoo
+> related to vendor bills that are not required to be processed in Konvergo ERP
 > from your inbox.
 
 ### Certificate
@@ -252,7 +252,7 @@ The document type on each transaction is determined by:
 
 ## Journals
 
-*Sales journals* in Odoo usually represent a business unit or location.
+*Sales journals* in Konvergo ERP usually represent a business unit or location.
 
 <div class="example">
 
@@ -433,7 +433,7 @@ invoice is posted:
   alt="DTE XML File displayed in chatter." />
 
 The `DTE (Documentos Tributarios Electrónicos)` status is updated
-automatically by Odoo with a scheduled action that runs every day at
+automatically by Konvergo ERP with a scheduled action that runs every day at
 night, if the response from the `SII (Servicio de
 Impuestos Internos)` is needed immediately, you can do it manually as
 well by following the `DTE (Documentos Tributarios Electrónicos)` status
@@ -452,7 +452,7 @@ alt="Transition of DTE status flow." />
     `DTE status` is updated to `Ask for Status`.
 
 2.  Once the `SII (Servicio de Impuestos Internos)` response is
-    received, Odoo updates the `DTE status`. To do it manually, click on
+    received, Konvergo ERP updates the `DTE status`. To do it manually, click on
     the button `Verify on SII`. The result can either be `Accepted`,
     `Accepted With Objection` or `Rejected`.
 
@@ -484,7 +484,7 @@ alt="Transition of DTE status flow." />
     - `Rejected`: indicates the invoice information is incorrect and
       must be corrected. Details are sent to emails you registered in
       the `SII (Servicio de Impuestos Internos)`. If it is properly
-      configured in Odoo, the details are also retrieved in the chatter
+      configured in Konvergo ERP, the details are also retrieved in the chatter
       once the email server is processed.
 
       If the invoice is rejected please follow these steps:
@@ -505,7 +505,7 @@ information related to the originator document must be registered in the
 `Cross-Reference` tab. This tab is commonly used for credit or debit
 notes, however, in some cases it can be used for customer invoices, as
 well. In the case of the credit and debit notes, they are set
-automatically by Odoo.
+automatically by Konvergo ERP.
 
 <img src="chile/cross-reference-tab-registration.png"
 class="align-center" alt="Crossed referenced document(s)." />
@@ -521,7 +521,7 @@ valid.
 alt="SII Validation fiscal elements." />
 
 > [!IMPORTANT]
-> If you are hosted in Odoo SH or On-Premise, you should manually
+> If you are hosted in Konvergo ERP SH or On-Premise, you should manually
 > install the [pdf417gen](https://pypi.org/project/pdf417gen/) library.
 > Use the following command to install it: `pip install pdf417gen`.
 
@@ -542,7 +542,7 @@ alt="Message with the commercial acceptance from the customer." />
 
 Once the invoice has been accepted by the
 `SII (Servicio de Impuestos Internos)`, **it can not be cancelled in
-Odoo**. In case you get a claim for your customer, the correct way to
+Konvergo ERP**. In case you get a claim for your customer, the correct way to
 proceed is with a credit note to either cancel the invoice or correct
 it. Please refer to the `chile/credit-notes` section for more details.
 
@@ -591,7 +591,7 @@ errors you might have and how to solve them:
   process](https://www.sii.cl/factura_electronica/factura_mercado/proceso_certificacion.htm)
   in the `SII (Servicio de Impuestos Internos)` - Sistema de Facturación
   de Mercado. If this is the case, please contact your Account Manager
-  or Customer Support as this certification is not part of the Odoo
+  or Customer Support as this certification is not part of the Konvergo ERP
   services, but we can give you some alternatives. If you already passed
   the certification process, this error appears when a user different
   from the owner of the certificate is trying to send
@@ -653,7 +653,7 @@ Code` field is automatically set to `Corrects Referenced Document Text`.
 <img src="chile/credit-note-correct-text.png" class="align-center"
 alt="Credit note correcting referenced document text." />
 
-Odoo creates a credit note with the corrected text in an invoice and
+Konvergo ERP creates a credit note with the corrected text in an invoice and
 `Price` <span class="title-ref">0.00</span>.
 
 <img src="chile/text-correction-label.png" class="align-center"
@@ -690,7 +690,7 @@ existing invoice. To do so, select option
 <img src="chile/debit-note-correct-amount.png" class="align-center"
 alt="Debit note correcting referenced document amount." />
 
-In this case Odoo automatically includes the `Source Invoice` in the
+In this case Konvergo ERP automatically includes the `Source Invoice` in the
 `Cross
 Reference` tab.
 
@@ -796,7 +796,7 @@ click the `New` button, and fill in the following required information:
 #### Generate an electronic purchase invoice
 
 To generate this type of document, it is necessary to create a vendor
-bill in Odoo. To do so, navigate to `Accounting --> Vendors --> Bills`,
+bill in Konvergo ERP. To do so, navigate to `Accounting --> Vendors --> Bills`,
 and click the `New` button.
 
 When all of the electronic purchase invoice information is filled,
@@ -809,7 +809,7 @@ After the vendor bill is posted:
   Document) is automatically created and added to the chatter.
 - The `DTE SII Status` is set as `Pending to be sent`.
 
-Odoo automatically updates the *DTE Status* every night using a
+Konvergo ERP automatically updates the *DTE Status* every night using a
 scheduled action. To get a response from the
 `SII (Servicio de Impuestos Internos)` immediately, click the
 `Send now to
@@ -824,7 +824,7 @@ Guide`.
 
 > [!NOTE]
 > `Chile - E-Invoicing Delivery Guide` has a dependency with `Chile -
-> Facturación Electrónica`. Odoo will install the dependency
+> Facturación Electrónica`. Konvergo ERP will install the dependency
 > automatically when the `Delivery Guide` module is installed.
 
 The *Delivery Guide* module includes the ability to send the
@@ -846,7 +846,7 @@ Verify the following important information in the
 
 - `From Sales Order`: delivery guide takes the product price from the
   sales order and shows it on the document.
-- `From Product Template`: Odoo takes the price configured in the
+- `From Product Template`: Konvergo ERP takes the price configured in the
   product template and shows it on the document.
 - `No show price`: no price is shown in the delivery guide.
 
@@ -879,10 +879,10 @@ alt="Create Delivery Guide button on a sales process." />
 > alt="First Delivery Guide number warning message." />
 
 This warning message means the user needs to indicate the next sequence
-number Odoo has to take to generate the delivery guide (e.g. next
+number Konvergo ERP has to take to generate the delivery guide (e.g. next
 available `CAF (Folio Authorization Code)` number), and only happens the
-first time a delivery guide is created in Odoo. After the first document
-has been correctly generated, Odoo takes the next available number in
+first time a delivery guide is created in Konvergo ERP. After the first document
+has been correctly generated, Konvergo ERP takes the next available number in
 the `CAF (Folio Authorization
 Code)` file to generate the following delivery guide.
 
@@ -895,7 +895,7 @@ After the delivery guide is created:
 <img src="chile/chatter-delivery-guide.png" class="align-center"
 alt="Chatter notes of Delivery Guide creation." />
 
-The `DTE Status` is automatically updated by Odoo with a scheduled
+The `DTE Status` is automatically updated by Konvergo ERP with a scheduled
 action that runs every night. To get a response from the
 `SII (Servicio de Impuestos Internos)` immediately, press the
 `Send now to SII` button.
@@ -908,7 +908,7 @@ Guide` button.
 alt="Printing Delivery Guide PDF." />
 
 Delivery guide will have fiscal elements that indicate that the document
-is fiscally valid when printed (if hosted in *Odoo SH* or on
+is fiscally valid when printed (if hosted in *Konvergo ERP SH* or on
 *On-premise* remember to manually add the `pdf417gen` library mentioned
 in the `Invoice PDF report section
 <chile/electronic-invoice-pdf-report>`).
@@ -923,7 +923,7 @@ Receipt`.
 > [!NOTE]
 > `Chile - Electronic Receipt` has a dependency with
 > `Chile - Facturación
-> Electrónica`. Odoo will install the dependency automatically when the
+> Electrónica`. Konvergo ERP will install the dependency automatically when the
 > `E-invoicing
 > Delivery Guide` module is installed.
 
@@ -974,7 +974,7 @@ After the receipt is posted:
 <img src="chile/electronic-receipt-ste-status.png" class="align-center"
 alt="Electronic Receipts STE creation status." />
 
-The `DTE Status` is automatically updated by Odoo with a scheduled
+The `DTE Status` is automatically updated by Konvergo ERP with a scheduled
 action that runs every day at night. To get a response from the
 `SII (Servicio de Impuestos Internos)` immediately, press the
 `Send now to SII` button.

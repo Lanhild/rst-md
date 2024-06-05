@@ -1,12 +1,12 @@
 # Chapter 13: Inheritance
 
-A powerful aspect of Odoo is its modularity. A module is dedicated to a
+A powerful aspect of Konvergo ERP is its modularity. A module is dedicated to a
 business need, but modules can also interact with one another. This is
 useful for extending the functionality of an existing module. For
 example, in our real estate scenario we want to display the list of a
 salesperson's properties directly in the regular user view.
 
-But before going through the specific Odoo module inheritance, let's see
+But before going through the specific Konvergo ERP module inheritance, let's see
 how we can alter the behavior of the standard CRUD (Create, Retrieve,
 Update or Delete) methods.
 
@@ -30,7 +30,7 @@ Update or Delete) methods.
 > alt="Create" />
 
 In our real estate module, we never had to develop anything specific to
-be able to do the standard CRUD actions. The Odoo framework provides the
+be able to do the standard CRUD actions. The Konvergo ERP framework provides the
 necessary tools to do them. In fact, such actions are already included
 in our model thanks to classical Python inheritance:
 
@@ -128,7 +128,7 @@ properties linked to a salesperson directly in the Settings / Users &
 Companies / Users form view. To do this, we need to add a field to the
 `res.users` model and adapt its view to show it.
 
-Odoo provides two *inheritance* mechanisms to extend an existing model
+Konvergo ERP provides two *inheritance* mechanisms to extend an existing model
 in a modular way.
 
 The first inheritance mechanism allows modules to modify the behavior of
@@ -147,7 +147,7 @@ access to the fields of this parent record.
 <img src="13_inheritance/inheritance_methods.png" class="align-center"
 alt="Inheritance Methods" />
 
-In Odoo, the first mechanism is by far the most used. In our case, we
+In Konvergo ERP, the first mechanism is by far the most used. In our case, we
 want to add a field to an existing model, which means we will use the
 first mechanism. For example:
 
@@ -192,7 +192,7 @@ everything is working well!
 >
 > <img src="13_inheritance/users.png" class="align-center" alt="Users" />
 
-Instead of modifying existing views in place (by overwriting them), Odoo
+Instead of modifying existing views in place (by overwriting them), Konvergo ERP
 provides view inheritance where children 'extension' views are applied
 on top of root views. These extension can both add and remove content
 from their parent view.
@@ -270,7 +270,7 @@ Tip: an example an inheritance of the users' view can be found
 
 </div>
 
-Inheritance is extensively used in Odoo due to its modular concept. Do
+Inheritance is extensively used in Konvergo ERP due to its modular concept. Do
 not hesitate to read the corresponding documentation for more info!
 
 In the `next chapter <tutorials/getting_started/14_other_module>`, we

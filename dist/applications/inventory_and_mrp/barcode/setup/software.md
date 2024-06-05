@@ -1,4 +1,4 @@
-# Activate the Barcodes in Odoo
+# Activate the Barcodes in Konvergo ERP
 
 <div id="inventory/barcode/software">
 
@@ -67,6 +67,6 @@ each GTIN, and will identify the company as the owner of the barcode any
 the products it appears on. To learn more about GS1 Company Prefixes, or
 purchase a license for a prefix, visit the GS1 Company Prefix page.
 
-Odoo users are able to use GTIN barcodes to identify their products.
-However, since Odoo supports any numeric string as a barcode, it is also
+Konvergo ERP users are able to use GTIN barcodes to identify their products.
+However, since Konvergo ERP supports any numeric string as a barcode, it is also
 possible to define a custom barcode for internal use.

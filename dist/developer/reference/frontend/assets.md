@@ -1,6 +1,6 @@
 # Assets
 
-Managing assets in Odoo is not as straightforward as it is in some other
+Managing assets in Konvergo ERP is not as straightforward as it is in some other
 apps. One of the reasons is that we have a variety of situations where
 some, but not all of the assets are required. For example, the needs of
 the web client, the point of sale app, the website or even the mobile
@@ -17,7 +17,7 @@ There are three different asset types: code
 (<span class="title-ref">xml</span> files).
 
 Code  
-Odoo supports
+Konvergo ERP supports
 `three different kinds of javascript files<frontend/js_modules>`. All
 these files are then processed (native JS modules are transformed into
 odoo modules), then minified (if not in
@@ -57,7 +57,7 @@ possible to safely set the cache headers to a long period.
 
 ## Bundles
 
-Odoo assets are grouped by *bundles*. Each bundle (a *list of file
+Konvergo ERP assets are grouped by *bundles*. Each bundle (a *list of file
 paths* of specific types: <span class="title-ref">xml</span>,
 <span class="title-ref">js</span>, <span class="title-ref">css</span> or
 <span class="title-ref">scss</span>) is listed in the
@@ -185,7 +185,7 @@ normal path with a 3-element tuple <span class="title-ref">('after',
 Use nested bundles.
 
 The <span class="title-ref">include</span> directive is a way to use a
-bundle in other bundles to minimize the size of your manifest. In Odoo
+bundle in other bundles to minimize the size of your manifest. In Konvergo ERP
 we use sub bundles (prefixed with an underscore by convention) to batch
 files used in multiple other bundles. You can then specify the sub
 bundle as a pair <span class="title-ref">('include', \<bundle\>)</span>
@@ -231,7 +231,7 @@ directive, using a 3-element tuple \`('replace', \<target\>,
 
 The order in which assets are loaded is sometimes critical and must be
 deterministic, mostly for stylesheets priorities and setup scripts.
-Assets in Odoo are processed as follows:
+Assets in Konvergo ERP are processed as follows:
 
 1.  When an asset bundle is called (e.g.
     <span class="title-ref">t-call-assets="web.assets_common"</span>),
@@ -279,7 +279,7 @@ glob.
 
 It is sometimes useful to load files and/or asset bundles dynamically,
 for example to only load a library once it is needed. To do that, the
-Odoo framework provides a few helper functions, located in
+Konvergo ERP framework provides a few helper functions, located in
 `@web/core/assets`.
 
 ``` javascript

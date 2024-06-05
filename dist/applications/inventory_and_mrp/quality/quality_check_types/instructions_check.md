@@ -1,6 +1,6 @@
 # Instructions quality check
 
-In Odoo *Quality*, an *Instructions* check is one of the quality check
+In Konvergo ERP *Quality*, an *Instructions* check is one of the quality check
 types that can be selected when creating a new quality check or quality
 control point (QCP). *Instructions* checks consist of a text entry field
 that allows the creator to provide instructions for how to complete the

@@ -1,12 +1,12 @@
 # AvaTax use
 
-AvaTax is a tax calculation software that can be integrated with Odoo in
+AvaTax is a tax calculation software that can be integrated with Konvergo ERP in
 the United States and Canada. Once the `integration setup <../avatax>`
 is complete, the calculated tax is simple and automatic.
 
 ## Tax calculation
 
-Automatically calculate taxes on Odoo quotations and invoices with
+Automatically calculate taxes on Konvergo ERP quotations and invoices with
 AvaTax by confirming the documents during the sales flow. Alternatively,
 calculate the taxes manually by clicking the
 `Compute taxes using Avatax` button while these documents are in draft
@@ -42,7 +42,7 @@ The tax calculation is triggered during the following `automatic trigger
 
 > [!TIP]
 > Use the `Avalara Partner Code` field that is available on customer
-> records, quotations, and invoices to cross-reference data in Odoo and
+> records, quotations, and invoices to cross-reference data in Konvergo ERP and
 > AvaTax. This field is located under the `Other info` tab of the sales
 > order or quotation in the `Sales` section.
 >
@@ -52,7 +52,7 @@ The tax calculation is triggered during the following `automatic trigger
 
 > [!IMPORTANT]
 > The `Automatic Tax Mapping (AvaTax)` fiscal position is also applied
-> on those Odoo documents, like subscriptions.
+> on those Konvergo ERP documents, like subscriptions.
 
 <div class="seealso">
 
@@ -63,7 +63,7 @@ The tax calculation is triggered during the following `automatic trigger
 ## AvaTax synchronization
 
 Synchronization occurs with AvaTax, when the *invoice* is created in
-Odoo. This means the sales tax is recorded with Avalara (AvaTax software
+Konvergo ERP. This means the sales tax is recorded with Avalara (AvaTax software
 developer).
 
 To do so, navigate to `Sales app --> Orders --> Quotations`. Select a
@@ -78,7 +78,7 @@ the `Journal Items` tab of the invoice. There will be different taxes
 depending on the location of the `Delivery Address`.
 
 <img src="avatax_use/journal-items.png" class="align-center"
-alt="Journal items highlighted on a invoice in Odoo." />
+alt="Journal items highlighted on a invoice in Konvergo ERP." />
 
 Finally, press the `Confirm` button to complete the invoice and
 synchronize with the AvaTax portal.
@@ -103,7 +103,7 @@ to either a positive or negative value. To recalculate the taxes, click
 
 ## Logging
 
-It is possible to log Avalara/*AvaTax* actions in Odoo for further
+It is possible to log Avalara/*AvaTax* actions in Konvergo ERP for further
 analysis, or verification of functionality. Logging is accessible
 through the *AvaTax* settings.
 
@@ -114,7 +114,7 @@ Configuration --> Settings`.
 Then, in the `Taxes` section, under the `AvaTax` settings, click
 `Start logging for 30 minutes`.
 
-Upon starting the log process, Odoo will log all Avalara/*AvaTax*
+Upon starting the log process, Konvergo ERP will log all Avalara/*AvaTax*
 actions performed in the database.
 
 To view the logs, click on `Show logs` to the right of the
@@ -149,15 +149,15 @@ The `Message` contains the calculated taxes for different jurisdictions
 and confirms the creation (or adjustment) of the transaction.
 
 > [!TIP]
-> Custom fields can be made using Odoo *Studio*. Click the
+> Custom fields can be made using Konvergo ERP *Studio*. Click the
 > `fa-ellipsis-v` `(ellipsis)` menu to the far-right of the header row.
-> Then click `fa-plus` `Add custom field`. This action opens Odoo
+> Then click `fa-plus` `Add custom field`. This action opens Konvergo ERP
 > *Studio*.
 
 > [!IMPORTANT]
-> Odoo *Studio* requires a *custom* pricing plan. Consult the database's
+> Konvergo ERP *Studio* requires a *custom* pricing plan. Consult the database's
 > customer success manager for more information on switching plans. Or
-> to see if Odoo *Studio* is included in the database's current pricing
+> to see if Konvergo ERP *Studio* is included in the database's current pricing
 > plan. See this documentation: `../../../../studio`.
 
 <div class="seealso">

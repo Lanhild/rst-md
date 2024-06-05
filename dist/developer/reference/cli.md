@@ -1,19 +1,19 @@
 # Command-line interface (CLI)
 
 The CLI `command-line interface` offers several functionalities related
-to Odoo. You can use it to `run the server <reference/cmdline/server>`,
-`launch Odoo as a Python console
+to Konvergo ERP. You can use it to `run the server <reference/cmdline/server>`,
+`launch Konvergo ERP as a Python console
 environment <reference/cmdline/shell>`,
-`scaffold an Odoo module <reference/cmdline/scaffold>`,
+`scaffold an Konvergo ERP module <reference/cmdline/scaffold>`,
 `populate a database <reference/cmdline/populate>`, or
 `count the number of lines of code
 <reference/cmdline/cloc>`.
 
 > [!IMPORTANT]
-> The command to use to call the CLI depends on how you installed Odoo.
+> The command to use to call the CLI depends on how you installed Konvergo ERP.
 > In the examples below, we assume that you are
-> `running Odoo from source </administration/on_premise/source>` with
-> the `odoo-bin` file. If you installed Odoo
+> `running Konvergo ERP from source </administration/on_premise/source>` with
+> the `odoo-bin` file. If you installed Konvergo ERP
 > `from a distribution package
 > </administration/on_premise/packages>` or with
 > [Docker](https://hub.docker.com/_/odoo/), you must adapt the command.
@@ -22,19 +22,19 @@ environment <reference/cmdline/shell>`,
 >
 > <div class="tab">
 >
-> Run Odoo from source
+> Run Konvergo ERP from source
 >
 > 1.  Navigate to the root of the directory where you downloaded the
->     source files of Odoo Community.
+>     source files of Konvergo ERP Community.
 > 2.  Run all CLI commands with `./odoo-bin`
 >
 > </div>
 >
 > <div class="tab">
 >
-> Odoo was installed from a distribution package
+> Konvergo ERP was installed from a distribution package
 >
-> When Odoo was installed, an executable named
+> When Konvergo ERP was installed, an executable named
 > <span class="title-ref">odoo</span> was added to your user's PATH.
 > Replace all occurrences of `odoo-bin` with `odoo` in the examples
 > below.
@@ -43,10 +43,10 @@ environment <reference/cmdline/shell>`,
 >
 > <div class="tab">
 >
-> Odoo was installed with Docker
+> Konvergo ERP was installed with Docker
 >
 > Please refer to the [documentation of the official Docker image of
-> Odoo](https://hub.docker.com/_/odoo/).
+> Konvergo ERP](https://hub.docker.com/_/odoo/).
 >
 > </div>
 >
@@ -72,7 +72,7 @@ shows help text with all available options
 
 --version
 
-shows Odoo version e.g. "Odoo Server {BRANCH}"
+shows Konvergo ERP version e.g. "Konvergo ERP Server {BRANCH}"
 
 </div>
 
@@ -147,7 +147,7 @@ specify an additional upgrade path.
 list of server-wide modules to load. Those modules are supposed to
 provide features not necessarily tied to a particular database. This is
 in contrast to modules that are always bound to a specific database when
-they are installed (i.e. the majority of Odoo addons). Default is
+they are installed (i.e. the majority of Konvergo ERP addons). Default is
 `base,web`.
 
 </div>
@@ -157,7 +157,7 @@ they are installed (i.e. the majority of Odoo addons). Default is
 -c \<config\>, --config \<config\>
 
 path to an alternate `configuration file <reference/cmdline/config>`. If
-not defined, Odoo checks `ODOO_RC` environmental variable and default
+not defined, Konvergo ERP checks `ODOO_RC` environmental variable and default
 location `{$HOME}/.odoorc`. See configuration file section
 `below <reference/cmdline/config>`.
 
@@ -167,10 +167,10 @@ location `{$HOME}/.odoorc`. See configuration file section
 
 -D \<data-dir-path\>, --data-dir \<data-dir-path\>
 
-directory path where to store Odoo data (eg. filestore, sessions). If
-not specified, Odoo will fallback to a predefined path. On Unix systems
+directory path where to store Konvergo ERP data (eg. filestore, sessions). If
+not specified, Konvergo ERP will fallback to a predefined path. On Unix systems
 its one defined in `$XDG_DATA_HOME` environmental variable or
-`~/.local/share/Odoo` or `/var/lib/Odoo`.
+`~/.local/share/Konvergo ERP` or `/var/lib/Konvergo ERP`.
 
 </div>
 
@@ -342,7 +342,7 @@ additions that:
 
   These operations are case sensitive. Add option `(?i)` to match all
   databases (so domain `odoo.com` using `(?i)%d` matches the database
-  `Odoo`).
+  `Konvergo ERP`).
 
 Since version 11, it's also possible to restrict access to a given
 database listen by using the --database parameter and specifying a
@@ -418,7 +418,7 @@ Suppresses the ability to list databases available on the system
 
 --db_sslmode
 
-Control the SSL security of the connection between Odoo and PostgreSQL.
+Control the SSL security of the connection between Konvergo ERP and PostgreSQL.
 Value should be one of 'disable', 'allow', 'prefer', 'require',
 'verify-ca' or 'verify-full' Default value is 'prefer'
 
@@ -438,7 +438,7 @@ Try to enable the unaccent extension when creating new databases
 
 --email-from \<address\>
 
-Email address used as \<FROM\> when Odoo needs to send mails
+Email address used as \<FROM\> when Konvergo ERP needs to send mails
 
 </div>
 
@@ -514,7 +514,7 @@ An SSL private key is used for authentication. If set, then
 
 ### Internationalisation
 
-Use these options to translate Odoo to another language. See i18n
+Use these options to translate Konvergo ERP to another language. See i18n
 section of the user manual. Option '-d' is mandatory. Option '-l' is
 mandatory in case of importation
 
@@ -685,7 +685,7 @@ stream responses. See `deploy/streaming` for web server configuration.
 
 #### Logging
 
-By default, Odoo displays all logging of
+By default, Konvergo ERP displays all logging of
 [level](https://docs.python.org/3/library/logging.html#logging.Logger.setLevel)
 `INFO`, `WARNING` and `ERROR`. All logs independently of the level are
 output on `stderr`. Various options are available to redirect logging to
@@ -774,7 +774,7 @@ Shortcut to more easily set predefined levels on specific loggers.
 `odoo` and `werkzeug` loggers (except for `debug` which is only set on
 `odoo`).
 
-Odoo also provides debugging pseudo-levels which apply to different sets
+Konvergo ERP also provides debugging pseudo-levels which apply to different sets
 of loggers:
 
 `debug_sql`  
@@ -933,7 +933,7 @@ dbfilter=odoo
 
 ## Shell
 
-The Odoo command line also allows launching Odoo as a Python console
+The Konvergo ERP command line also allows launching Konvergo ERP as a Python console
 environment, enabling direct interaction with the `orm <reference/orm>`
 and its functionalities.
 
@@ -971,7 +971,7 @@ In [4]: env.cr.commit()
 
 Specify a preferred REPL to use in shell mode. This shell is started
 with the <span class="title-ref">env</span> variable already initialized
-to be able to access the ORM and other Odoo modules.
+to be able to access the ORM and other Konvergo ERP modules.
 
 </div>
 
@@ -990,7 +990,7 @@ odoo-bin scaffold
 </div>
 
 Scaffolding is the automated creation of a skeleton structure to
-simplify bootstrapping (of new modules, in the case of Odoo). While not
+simplify bootstrapping (of new modules, in the case of Konvergo ERP). While not
 necessary it avoids the tedium of setting up basic structures and
 looking up what all starting requirements are.
 
@@ -1038,7 +1038,7 @@ odoo-bin populate
 
 </div>
 
-Odoo CLI supports database population features. If the feature is
+Konvergo ERP CLI supports database population features. If the feature is
 `implemented on a given model <reference/performance/populate/methods>`,
 it allows automatic data generation of the model's records to test your
 modules in databases containing non-trivial amounts of records.
@@ -1081,7 +1081,7 @@ odoo-bin cloc
 
 </div>
 
-Odoo Cloc is a tool to count the number of relevant lines written in
+Konvergo ERP Cloc is a tool to count the number of relevant lines written in
 Python, Javascript, CSS, SCSS, or XML. This can be used as a rough
 metric for pricing maintenance of extra modules.
 
@@ -1174,7 +1174,7 @@ Show the details of lines counted for each file.
 
 #### With the `--database` option
 
-Odoo Cloc counts the lines in each file of extra installed modules in a
+Konvergo ERP Cloc counts the lines in each file of extra installed modules in a
 given database. In addition, it counts the Python lines of server
 actions and custom computed fields that have been directly created in
 the database or imported. Finally, it counts the lines of code of
@@ -1191,7 +1191,7 @@ Some files are excluded from the count by default:
 - The XML files declared in the `demo` or `demo_xml` sections of the
   manifest
 
-For special cases, a list of files that should be ignored by Odoo Cloc
+For special cases, a list of files that should be ignored by Konvergo ERP Cloc
 can be defined per module. This is specified by the `cloc_exclude` entry
 of the manifest:
 
@@ -1217,7 +1217,7 @@ in the given folder. Otherwise, it counts all files.
 
 ### Identifying Extra Modules
 
-To distinguish between standard and extra modules, Odoo Cloc uses the
+To distinguish between standard and extra modules, Konvergo ERP Cloc uses the
 following heuristic: modules that are located (real file system path,
 after following symbolic links) in the same parent directory as the
 `base`, `web` or `web_enterprise` standard modules are considered
@@ -1225,12 +1225,12 @@ standard. Other modules are treated as extra modules.
 
 ### Error Handling
 
-Some file cannot be counted by Odoo Cloc. Those file are reported at the
+Some file cannot be counted by Konvergo ERP Cloc. Those file are reported at the
 end of the output.
 
 #### Max file size exceeded
 
-Odoo Cloc rejects any file larger than 25MB. Usually, source files are
+Konvergo ERP Cloc rejects any file larger than 25MB. Usually, source files are
 smaller than 1 MB. If a file is rejected, it may be:
 
 - A generated XML file that contains lots of data. It should be excluded
@@ -1239,7 +1239,7 @@ smaller than 1 MB. If a file is rejected, it may be:
 
 #### Syntax Error
 
-Odoo Cloc cannot count the lines of code of a Python file with a syntax
+Konvergo ERP Cloc cannot count the lines of code of a Python file with a syntax
 problem. If an extra module contains such files, they should be fixed to
 allow the module to load. If the module works despite the presence of
 those files, they are probably not loaded and should therefore be

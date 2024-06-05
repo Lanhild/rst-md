@@ -5,7 +5,7 @@
 By default, incoming shipments are configured to be received directly
 into stock, and outgoing shipments are configured to be delivered
 directly from stock to the customer; the default setting for warehouses
-in Odoo is one step receipts and deliveries.
+in Konvergo ERP is one step receipts and deliveries.
 
 </div>
 

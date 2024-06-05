@@ -1,19 +1,19 @@
 # Connect a scale
 
 A scale can be connected to the `IoT (Internet of Things)` box on an
-Odoo database in a few easy steps. After setup, the *Point of Sale* app
+Konvergo ERP database in a few easy steps. After setup, the *Point of Sale* app
 can be used to weigh products, which is helpful if their prices are
 calculated based on weight.
 
 > [!IMPORTANT]
 > - In EU member states, [certification is legally
 > required](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2014.096.01.0107.01.ENG)
-> to use a scale as an integrated device. - Odoo is not certified in
+> to use a scale as an integrated device. - Konvergo ERP is not certified in
 > several countries, including France, Germany, and Switzerland. If you
 > reside in one of these countries, you can still use a scale but
-> without integration to your Odoo database. - Alternatively, you have
+> without integration to your Konvergo ERP database. - Alternatively, you have
 > the option to acquire a *non-integrated* certified scale that prints
-> certified labels, which can then be scanned into your Odoo database.
+> certified labels, which can then be scanned into your Konvergo ERP database.
 
 <div class="seealso">
 
@@ -32,7 +32,7 @@ a `USB
 > In some cases, a serial port to `USB (Universal Serial Bus)` adapter
 > may be needed.
 
-If the scale is [compatible with Odoo IoT
+If the scale is [compatible with Konvergo ERP IoT
 Box](https://www.odoo.com/page/iot-hardware), there is no need to set up
 anything because it will be automatically detected as soon as it is
 connected.
@@ -50,7 +50,7 @@ Drivers`.
 alt="View of the IoT box settings and driver list." />
 
 If loading the drivers still doesn't allow for the scale to function, it
-may be that the scale is not compatible with the Odoo
+may be that the scale is not compatible with the Konvergo ERP
 `IoT (Internet of Things)` box. In this case, a different scale will
 need to be used.
 

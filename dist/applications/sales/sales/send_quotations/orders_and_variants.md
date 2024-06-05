@@ -2,7 +2,7 @@
 
 Before getting into detail about how to use product variants on
 quotations and sales orders, it's recommended to learn about
-`../products_prices/products/variants` in Odoo.
+`../products_prices/products/variants` in Konvergo ERP.
 
 Once familiarized with the basics surrounding product variants, the
 following covers how product variants can be added to quotations and
@@ -15,9 +15,9 @@ sales orders using the *product configurator* or *order grid entry*.
 
 ## Settings
 
-When working with product variants, Odoo uses the product configurator,
+When working with product variants, Konvergo ERP uses the product configurator,
 by default. To add the variant grid entry option, that feature **must**
-be enabled in the Odoo *Sales* application. The variant grid entry
+be enabled in the Konvergo ERP *Sales* application. The variant grid entry
 option provides a pop-up window on the quotation/sales order to simplify
 the variant selection process.
 
@@ -28,7 +28,7 @@ Entry` option, and click `Save`.
 
 <img src="orders_and_variants/order-grid-entry-setting.png"
 class="align-center"
-alt="The variant grid entry setting in the Odoo Sales application." />
+alt="The variant grid entry setting in the Konvergo ERP Sales application." />
 
 > [!NOTE]
 > Of course, the `Variants` feature **must** also be activated, in order
@@ -91,7 +91,7 @@ alt="The product configurator pop-up window that appears on a quotation or sales
 
 > [!NOTE]
 > This `Configure` pop-up window also appears if the `Order Grid Entry`
-> setting is **not** activated, as it is the default option Odoo uses
+> setting is **not** activated, as it is the default option Konvergo ERP uses
 > when dealing with product variants on quotations and/or sales orders.
 
 The `Product Configurator` option lets salespeople choose exactly which
@@ -107,7 +107,7 @@ added to a quotation or sales order, but **only** if the
 
 <img src="orders_and_variants/choose-product-variants-popup.png"
 class="align-center"
-alt="The choose product variants pop-up window that appears on a quotation in Odoo." />
+alt="The choose product variants pop-up window that appears on a quotation in Konvergo ERP." />
 
 The `Choose Product Variants` pop-up window features all the variant
 options for that particular product. From this pop-up window, the

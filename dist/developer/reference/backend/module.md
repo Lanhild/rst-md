@@ -2,7 +2,7 @@
 
 ## Manifest
 
-The manifest file serves to declare a python package as an Odoo module
+The manifest file serves to declare a python package as an Konvergo ERP module
 and to specify module metadata.
 
 It is a file called `__manifest__.py` and contains a single Python
@@ -55,13 +55,13 @@ distribution license for the module. Possible values:
 - <span class="title-ref">AGPL-3</span>
 - <span class="title-ref">LGPL-3</span>
 - <span class="title-ref">Other OSI approved licence</span>
-- <span class="title-ref">OEEL-1</span> (Odoo Enterprise Edition License
+- <span class="title-ref">OEEL-1</span> (Konvergo ERP Enterprise Edition License
   v1.0)
-- <span class="title-ref">OPL-1</span> (Odoo Proprietary License v1.0)
+- <span class="title-ref">OPL-1</span> (Konvergo ERP Proprietary License v1.0)
 - <span class="title-ref">Other proprietary</span>
 
 `category` (`str`, default: `Uncategorized`)  
-classification category within Odoo, rough business domain for the
+classification category within Konvergo ERP, rough business domain for the
 module.
 
 Although using [existing
@@ -72,7 +72,7 @@ e.g. `Foo / Bar` will create a category `Foo`, a category `Bar` as child
 category of `Foo`, and will set `Bar` as the module's category.
 
 `depends` (`list(str)`)  
-Odoo modules which must be loaded before this one, either because this
+Konvergo ERP modules which must be loaded before this one, either because this
 module uses features they create or because it alters resources they
 define.
 
@@ -81,7 +81,7 @@ it. Likewise dependencies are loaded before a module is loaded.
 
 > [!NOTE]
 > Module <span class="title-ref">base</span> is always installed in any
-> Odoo instance. But you still need to specify it as dependency to make
+> Konvergo ERP instance. But you still need to specify it as dependency to make
 > sure your module is updated when <span class="title-ref">base</span>
 > is updated.
 

@@ -9,9 +9,9 @@ taxes for services.
 For the goods tax computation part, you need to configure the
 `contacts <brazil/contacts>`, `company <brazil/company>`,
 `products <brazil/products>`, and `create an account in
-Avatax <brazil/avatax-account>` from the Odoo general settings.
+Avatax <brazil/avatax-account>` from the Konvergo ERP general settings.
 
-For the services taxes, you can create and configure them from Odoo
+For the services taxes, you can create and configure them from Konvergo ERP
 directly without computing them with AvaTax.
 
 The localization also includes taxes and a chart of accounts template
@@ -28,7 +28,7 @@ features of the Brazilian localization:
 |-------------------------------|----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `Brazilian - Accounting`      | <span class="title-ref">l10n_br</span>             | Default `fiscal localization package <fiscal_localizations/packages>` - adds accounting characteristics for the Brazilian localization, which represent the minimum configuration required for a company to operate in Brazil. The module's installation automatically loads: the chart of accounts, taxes, and required fields to properly configure the contact. |
 | `Brazil - Accounting Reports` | <span class="title-ref">l10n_br_reports</span>     | Adds a simple tax report that helps check the tax amount per tax group in a given period of time. Also adds the P&L and BS adapted for the Brazilian market.                                                                                                                                                                                                       |
-| `Avatax Brazil`               | <span class="title-ref">l10n_br_avatax</span>      | Add Brazilian tax calculation via Avatax and all necessary fields needed to configure Odoo in order to properly use Avatax and send the needed fiscal information to retrieve the correct taxes.                                                                                                                                                                   |
+| `Avatax Brazil`               | <span class="title-ref">l10n_br_avatax</span>      | Add Brazilian tax calculation via Avatax and all necessary fields needed to configure Konvergo ERP in order to properly use Avatax and send the needed fiscal information to retrieve the correct taxes.                                                                                                                                                                   |
 | `Avatax for SOs in Brazil`    | <span class="title-ref">l10n_br_avatax_sale</span> | Same as the <span class="title-ref">l10n_br_avatax</span> module with the extension to the sales order module.                                                                                                                                                                                                                                                     |
 
 ### Configure your company
@@ -73,11 +73,11 @@ search the name given to your company.
 ### Configure AvaTax integration
 
 Avalara AvaTax is a tax calculation provider that can be integrated in
-Odoo to automatically compute taxes by taking into account the company,
+Konvergo ERP to automatically compute taxes by taking into account the company,
 contact (customer), product, and transaction information to retrieve the
 correct tax to be used.
 
-Odoo is a certified partner of Avalara Brazil, which means that Avalara
+Konvergo ERP is a certified partner of Avalara Brazil, which means that Avalara
 experts reviewed workflows covered within the scope of the integration.
 
 Using this integration requires `In-App-Purchases (IAPs)
@@ -87,20 +87,20 @@ you compute taxes, an API call is made, using credits from your
 
 #### Credential configuration
 
-To activate AvaTax in Odoo, you need to create an account. To do so, go
+To activate AvaTax in Konvergo ERP, you need to create an account. To do so, go
 to `Accounting --> Configuration --> Settings --> Taxes`, and, in the
 `AvaTax
 Brazil` section, add the email address you want to use to log in to the
 AvaTax portal, and click on `Create account`. This email is used as the
 administrator email address in AvaTax.
 
-After you create the account from Odoo, you need to go to the Avalara
+After you create the account from Konvergo ERP, you need to go to the Avalara
 Portal to set up your password:
 
 1.  Access the [Avalara
     portal](https://portal.avalarabrasil.com.br/Login)
 2.  Click on `Meu primeiro acesso`
-3.  Add the email address you used in Odoo to create the Avalara/Avatax
+3.  Add the email address you used in Konvergo ERP to create the Avalara/Avatax
     account, and then click `Solicitar Senha`
 4.  You will receive an email with a token and a link to create your
     password. Click on this link and copy-paste the token to allocate
@@ -113,8 +113,8 @@ Portal to set up your password:
 > database.
 
 > [!TIP]
-> You can start using AvaTax in Odoo without creating a password and
-> accessing the Avalara Portal; for Odoo, the only requirement to start
+> You can start using AvaTax in Konvergo ERP without creating a password and
+> accessing the Avalara Portal; for Konvergo ERP, the only requirement to start
 > using the Avalara Tax Computation Engine is to create an account from
 > the settings page.
 
@@ -122,7 +122,7 @@ Portal to set up your password:
 
 > [!NOTE]
 > You can transfer API credentials. Use this only when you have already
-> created an account in another Odoo instance and wish to reuse it.
+> created an account in another Konvergo ERP instance and wish to reuse it.
 
 ### Configure master data
 
@@ -169,7 +169,7 @@ functional documentation </applications/finance/accounting/taxes>`.
 
 > [!WARNING]
 > Do not delete taxes, as they are used for the AvaTax tax computation.
-> If deleted, Odoo creates them again when used in an `SO (Sales order)`
+> If deleted, Konvergo ERP creates them again when used in an `SO (Sales order)`
 > or invoice and computing taxes with AvaTax, but the account used to
 > register the tax needs to be re-configured in the tax's `Definition`
 > tab, under the `Distribution for invoices` and
@@ -193,7 +193,7 @@ the following information on the product:
 ![Product configuration.](brazil/product-configuration.png)
 
 > [!NOTE]
-> Odoo automatically creates three products to be used for
+> Konvergo ERP automatically creates three products to be used for
 > transportation costs associated with sales. These are named
 > <span class="title-ref">Freight</span>,
 > <span class="title-ref">Insurance</span>, and

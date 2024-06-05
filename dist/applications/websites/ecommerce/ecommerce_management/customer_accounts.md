@@ -30,7 +30,7 @@ alt="Customer account log-in" />
 
 It is possible to allow or restrict the documents to which customers
 have access through the website builder. Log in your **own** account
-with your Odoo database credentials, and go to `Edit --> Customize`.
+with your Konvergo ERP database credentials, and go to `Edit --> Customize`.
 From the website builder menu, enable or disable the documents customers
 can have access to.
 

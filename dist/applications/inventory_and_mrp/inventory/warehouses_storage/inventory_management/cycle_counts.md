@@ -2,7 +2,7 @@
 
 For most companies, warehouse stock only needs to be counted once a
 year. This is why, by default, after making an *inventory adjustment* in
-Odoo, the scheduled date for the next inventory count is set for the
+Konvergo ERP, the scheduled date for the next inventory count is set for the
 31st of December of the current year.
 
 However, for some businesses, it's crucial to have an accurate inventory
@@ -13,7 +13,7 @@ their physical inventory counts match their inventory records.
 
 ## Activate storage locations
 
-In Odoo, cycle counts are location-based. Therefore, the *storage
+In Konvergo ERP, cycle counts are location-based. Therefore, the *storage
 locations* feature needs to be enabled before performing a cycle count.
 
 To enable this feature, navigate to

@@ -22,7 +22,7 @@ driver and interface to your database to detect Six terminals.
 
 ### Connect an IoT box
 
-Connecting a Six payment terminal to Odoo is requires
+Connecting a Six payment terminal to Konvergo ERP is requires
 `using a Raspberry Pi or virtual (for
 Windows OS only) IoT box </applications/general/iot/config/connect>`.
 
@@ -36,7 +36,7 @@ appear in the `Current Terminal Id` section.
 
 ![Setting the Six terminal ID](six/terminal-id.png)
 
-Odoo automatically restarts the IoT box when the Six terminal ID is
+Konvergo ERP automatically restarts the IoT box when the Six terminal ID is
 configured. If your Six terminal is online, it will be automatically
 detected and connected to the database. Check the IoT box homepage under
 the `Payments` section to confirm the connection.
@@ -76,6 +76,6 @@ Successful`.
 > the Six terminal is <span class="title-ref">7784</span>.
 
 > [!TIP]
-> If there are connection issues between the payment terminal and Odoo,
-> you can still force the payment validation in Odoo using the
+> If there are connection issues between the payment terminal and Konvergo ERP,
+> you can still force the payment validation in Konvergo ERP using the
 > `Force Done` button.

@@ -2,21 +2,21 @@ show-content
 
 # Expenses
 
-Odoo **Expenses** streamlines the management of expenses. After an
-employee submits their expenses in Odoo, the expenses are reviewed by
+Konvergo ERP **Expenses** streamlines the management of expenses. After an
+employee submits their expenses in Konvergo ERP, the expenses are reviewed by
 management and accounting teams. Once approved, payments can then be
 processed and disbursed back to the employee for reimbursement(s).
 
 <div class="seealso">
 
-[Odoo Expenses: product page](https://www.odoo.com/app/expenses)
+[Konvergo ERP Expenses: product page](https://www.odoo.com/app/expenses)
 
 </div>
 
 ## Set expense categories
 
 The first step to track expenses is to configure the different types of
-expenses for the company (managed as *expense categories* in Odoo). Each
+expenses for the company (managed as *expense categories* in Konvergo ERP). Each
 category can be as specific or generalized as needed. Go to
 `Expenses app --> Configuration --> Expense Categories` to view the
 current expensable categories in a default list view.
@@ -28,8 +28,8 @@ To create a new expense category, click `New`. A product form will
 appear, with the description field labeled `Product Name`.
 
 > [!NOTE]
-> Expense categories are managed like products in Odoo. The expense
-> category form follows the standard product form in Odoo, and the
+> Expense categories are managed like products in Konvergo ERP. The expense
+> category form follows the standard product form in Konvergo ERP, and the
 > information entered is similar. Expense products will be referred to
 > as expense categories throughout this document since the main menu
 > refers to these as `Expense Categories`.
@@ -90,7 +90,7 @@ vs. leaving the `Cost` at \`0.00\`:
 
 </div>
 
-Select an `Expense Account` if using the Odoo *Accounting* app. It is
+Select an `Expense Account` if using the Konvergo ERP *Accounting* app. It is
 recommended to check with the accounting department to determine the
 correct account to reference in this field as it will affect reports.
 
@@ -267,12 +267,12 @@ alt="Create the domain alias by clicking the link." />
 Next, enter the email address to be used in the email field, and then
 click `Save`. Now that the email address has been entered, emails can be
 sent to that alias to create new expenses without having to be in the
-Odoo database.
+Konvergo ERP database.
 
 To submit an expense via email, create a new email and enter the
 product's *internal reference* code (if available) and the amount of the
 expense in the email subject. Next, attach the receipt to the email.
-Odoo creates the expense by taking the information in the email subject
+Konvergo ERP creates the expense by taking the information in the email subject
 and combining it with the receipt.
 
 To check an expense categories internal reference, go to
@@ -294,7 +294,7 @@ alt="Internal reference numbers are listed in the main Expense Products view." /
 
 > [!NOTE]
 > For security purposes, only authenticated employee emails are accepted
-> by Odoo when creating an expense from an email. To confirm an
+> by Konvergo ERP when creating an expense from an email. To confirm an
 > authenticated employee email address, go to the employee card in the
 > `Employees` app, and refer to the `Work Email`
 >
@@ -336,7 +336,7 @@ Date`.
 
 Another way to quickly add all expenses that are not on an expense
 report is to click `Create Report` without selecting any expenses, and
-Odoo will select all expenses with a status of `To Submit` that are not
+Konvergo ERP will select all expenses with a status of `To Submit` that are not
 already on a report.
 
 <img src="expenses/create-report.png" class="align-center"
@@ -429,7 +429,7 @@ it.
 
 ## Approve expenses
 
-In Odoo, not just anyone can approve expense reports— only users with
+In Konvergo ERP, not just anyone can approve expense reports— only users with
 the necessary rights (or permissions) can. This means that a user must
 have at least *Team Approver* rights for the *Expenses* app. Employees
 with the necessary rights can review expense reports, approve or reject

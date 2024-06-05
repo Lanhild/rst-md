@@ -10,7 +10,7 @@ show-toc
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Project and
+\- [Konvergo ERP Tutorials: Project and
 Timesheets](https://www.odoo.com/slides/project-and-timesheets-21)
 
 </div>

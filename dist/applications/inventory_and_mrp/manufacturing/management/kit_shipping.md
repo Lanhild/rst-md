@@ -1,6 +1,6 @@
 # Use kits
 
-In Odoo, a *kit* is a type of bill of materials (BoM) that can be
+In Konvergo ERP, a *kit* is a type of bill of materials (BoM) that can be
 manufactured and sold. Kits are sets of unassembled components sold to
 customers. They may be sold as standalone products, but are also useful
 tools for managing more complex bills of materials (BoMs).
@@ -29,7 +29,7 @@ typically not tracked.
 > the Cost of Goods Sold (COGS) will be posted in accounting journals.
 
 Unlike storable products, the `Routes` designation under the `Inventory`
-tab does not matter for kits, since Odoo uses the routes of the kit's
+tab does not matter for kits, since Konvergo ERP uses the routes of the kit's
 individual components for replenishment purposes. All other parameters
 for the kit product may be modified according to preference. Once ready,
 click `Save` to save the new product.

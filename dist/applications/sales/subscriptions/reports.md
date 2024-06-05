@@ -20,7 +20,7 @@ following reports:
 
 <img src="reports/difference-between-MRR-and-ARR.png"
 class="align-center"
-alt="Difference between MRR and ARR in Odoo Subscriptions" />
+alt="Difference between MRR and ARR in Konvergo ERP Subscriptions" />
 
 - **Non-Recurring Revenue (NRR)**: NRR shows the revenue earned for
   everything else than subscription-based products or services. This
@@ -53,7 +53,7 @@ alt="Difference between MRR and ARR in Odoo Subscriptions" />
 
     <img src="reports/difference-between-logo-churn-and-revenue-churn.png"
     class="align-center"
-    alt="Difference between logo churn and revenue churn in Odoo Subscriptions" />
+    alt="Difference between logo churn and revenue churn in Konvergo ERP Subscriptions" />
 
     Reminder: even though they seem to evolve in the same direction most
     of the time, it might not be the case all the time.
@@ -64,13 +64,13 @@ alt="Difference between MRR and ARR in Odoo Subscriptions" />
   emphasizes the importance of customer retention, shifting our focus
   from a quarterly or yearly approach to a long-term one.
 
-Check out the different kinds of reports you can access from the **Odoo
+Check out the different kinds of reports you can access from the **Konvergo ERP
 Subscriptions** application.
 
 ## Subscriptions analysis report
 
 Go to `Subscriptions --> Reporting --> Subscriptions`. From there, you
-can change the *Measures*. By default, Odoo uses the *Monthly Recurring
+can change the *Measures*. By default, Konvergo ERP uses the *Monthly Recurring
 Revenue*. In addition to that, you can choose *Quantity*, *Recurring
 Price*, *Yearly Recurring Revenue* and *Count*. For this example,
 *Quantity* is added. This way, you can review both of these measures at
@@ -79,7 +79,7 @@ by *Week*, to get a clear view of your report.
 
 <img src="reports/subscriptions-analysis-report.png"
 class="align-center"
-alt="Subscriptions analysis report in Odoo Subscriptions" />
+alt="Subscriptions analysis report in Konvergo ERP Subscriptions" />
 
 ## Retention analysis report
 
@@ -90,7 +90,7 @@ For the example below, *Monthly Recurring Revenue* was chosen, and the
 the progression of the retention from its start.
 
 <img src="reports/retention-analysis-report.png" class="align-center"
-alt="Retention analysis report in Odoo Subscriptions" />
+alt="Retention analysis report in Konvergo ERP Subscriptions" />
 
 ## Revenue KPIs report
 
@@ -102,7 +102,7 @@ subscriptions, companies, and sales teams. This is useful if you are
 looking for specific information.
 
 <img src="reports/revenue-KPIs-report.png" class="align-center"
-alt="Revenue KPIs report in Odoo Subscriptions" />
+alt="Revenue KPIs report in Konvergo ERP Subscriptions" />
 
 The example below shows the *Monthly Recurring Revenue* detailed report.
 At the moment, there is no data, which is the typical scenario for a new
@@ -111,7 +111,7 @@ populated with more and more data. Once again, you can filter these
 specific KPIs on subscriptions, companies, and sales teams.
 
 <img src="reports/detailed-MRR-report.png" class="align-center"
-alt="Detailed MRR report in Odoo Subscriptions" />
+alt="Detailed MRR report in Konvergo ERP Subscriptions" />
 
 ## Salesperson dashboard report
 
@@ -122,7 +122,7 @@ each of your salespeople. You can choose the period you want to apply
 and the salesperson you want to analyze.
 
 <img src="reports/salesperson-dashboard-report.png" class="align-center"
-alt="Salesperson dashboard report in Odoo Subscriptions" />
+alt="Salesperson dashboard report in Konvergo ERP Subscriptions" />
 
 <div class="seealso">
 

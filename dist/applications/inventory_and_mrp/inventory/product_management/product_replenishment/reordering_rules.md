@@ -18,8 +18,8 @@ replenishment route.
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Automatic Reordering
-Rules](https://www.youtube.com/watch?v=XEJZrCjoXaU) - [Odoo Tutorials:
+\- [Konvergo ERP Tutorials: Automatic Reordering
+Rules](https://www.youtube.com/watch?v=XEJZrCjoXaU) - [Konvergo ERP Tutorials:
 Manual Reordering Rules](https://www.youtube.com/watch?v=deIREJ1FFj4)
 
 </div>
@@ -33,14 +33,14 @@ product, or create a new one by clicking `New`.
 
 On the product form, under the `General Information` tab, make sure that
 the `Product Type` is set to `Storable Product`. This is necessary
-because Odoo only tracks stock quantities for storable products, and
+because Konvergo ERP only tracks stock quantities for storable products, and
 this number is used to trigger reordering rules.
 
 <img src="reordering_rules/product-type.png" class="align-center"
 alt="Set the Product Type as Storable." />
 
 Next, click on the `Inventory` tab and select one or more routes from
-the `Routes` section. Doing so tells Odoo which route to use to
+the `Routes` section. Doing so tells Konvergo ERP which route to use to
 replenish the product.
 
 <img src="reordering_rules/select-routes.png" class="align-center"
@@ -50,7 +50,7 @@ If the product is reordered using the `Buy` route, confirm that the
 `Can be
 Purchased` checkbox is enabled under the product name. This makes the
 `Purchase` tab appear. Click on the `Purchase` tab, and specify at least
-one vendor, and the price that they sell the product for, so that Odoo
+one vendor, and the price that they sell the product for, so that Konvergo ERP
 knows which company the product should be purchased from.
 
 <img src="reordering_rules/specify-vendor.png" class="align-center"
@@ -58,7 +58,7 @@ alt="Specify a vendor and price on the Purchase tab." />
 
 If the product is replenished using the `Manufacture` route, it needs to
 have at least one Bill of Materials (BoM) associated with it. This is
-necessary because Odoo only creates manufacturing orders for products
+necessary because Konvergo ERP only creates manufacturing orders for products
 with a `BoM (Bill of Materials)`.
 
 If a `BoM (Bill of Materials)` does not already exist for the product,
@@ -188,7 +188,7 @@ If the `Manufacture` route is selected, then an
 `MOs (Manufacturing Orders)`, navigate to
 `Manufacturing app --> Operations --> Manufacturing Orders`.
 
-When no route is selected, Odoo selects the `Route` specified in the
+When no route is selected, Konvergo ERP selects the `Route` specified in the
 `Inventory` tab of the product form.
 
 ### Manual
@@ -280,11 +280,11 @@ alt="Show the replenishment dashboard with the correct and incorrect visibility 
 
 ## Preferred route
 
-Odoo allows for multiple routes to be selected under the `Inventory` tab
+Konvergo ERP allows for multiple routes to be selected under the `Inventory` tab
 on each product form. For instance, it is possible to select both `Buy`
 and `Manufacture`, thus enabling the functionality of both routes.
 
-Odoo also enables users to set a preferred route for a product's
+Konvergo ERP also enables users to set a preferred route for a product's
 reordering rule. This is the route that the rule defaults to if multiple
 are selected. To select a preferred route, begin by navigating to
 `Inventory app --> Configuration --> Reordering Rules` or

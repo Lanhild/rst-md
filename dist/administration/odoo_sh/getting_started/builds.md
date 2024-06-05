@@ -2,7 +2,7 @@
 
 ## Overview
 
-In Odoo.sh, a build is considered as a database loaded by an Odoo server
+In Konvergo ERP.sh, a build is considered as a database loaded by an Konvergo ERP server
 ([odoo/odoo](https://github.com/odoo/odoo) &
 [odoo/enterprise](https://github.com/odoo/enterprise)) running on a
 specific revision of your project repository in a containerized
@@ -17,7 +17,7 @@ a build of this branch.
 
 Most of the time, builds are created following pushes on your Github
 repository branches. They can be created as well when you do other
-operations, such as importing a database on Odoo.sh or asking a rebuild
+operations, such as importing a database on Konvergo ERP.sh or asking a rebuild
 for a branch in your project.
 
 A build is considered successful if no errors or warnings come up during
@@ -94,7 +94,7 @@ successful.
 
 According to the list of modules to install and test, a development
 build can take up to 1 hour to be ready. This is due to the large number
-of tests set in the default Odoo modules suite.
+of tests set in the default Konvergo ERP modules suite.
 
 ## Features
 

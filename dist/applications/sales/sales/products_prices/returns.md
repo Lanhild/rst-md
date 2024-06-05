@@ -1,6 +1,6 @@
 # Returns and refunds
 
-The Odoo *Sales* app provides two different ways to process returns. The
+The Konvergo ERP *Sales* app provides two different ways to process returns. The
 method used depends on whether or not an invoice has been sent.
 
 ## Before invoicing
@@ -18,13 +18,13 @@ open the associated delivery order.
 
 <img src="returns/sales-order-delivery-smart-button.png"
 class="align-center"
-alt="A typical sales order with a highlighted delivery smart button in Odoo Sales." />
+alt="A typical sales order with a highlighted delivery smart button in Konvergo ERP Sales." />
 
 On the validated delivery order, click `Return`.
 
 <img src="returns/validated-delivery-order-return-button.png"
 class="align-center"
-alt="A validated delivery order with a highlighted Return button in Odoo Sales." />
+alt="A validated delivery order with a highlighted Return button in Konvergo ERP Sales." />
 
 This opens a `Reverse Transfer` pop-up window.
 
@@ -40,7 +40,7 @@ warehouse operation for the incoming returned product(s).
 
 <img src="returns/warehouse-operation-confirmed-return.png"
 class="align-center"
-alt="Warehouse operation after a return has been confirmed in Odoo Sales." />
+alt="Warehouse operation after a return has been confirmed in Konvergo ERP Sales." />
 
 Upon receiving the return, the warehouse team validates the warehouse
 operation by clicking `Validate`. Then, on the original sales order, the
@@ -71,7 +71,7 @@ appear in the chatter, and the invoice (accessible through the
 Payment` banner.
 
 <img src="returns/green-in-payment-banner.png" class="align-center"
-alt="Sample of a green in payment banner in Odoo Sales." />
+alt="Sample of a green in payment banner in Konvergo ERP Sales." />
 
 From the sales order, click on the `Delivery` smart button to view the
 validated delivery order. Then, click `Return` to open the
@@ -91,12 +91,12 @@ order, click on the `Invoices` smart button). Then, click the
 `Credit Note` button at the top of the validated invoice.
 
 <img src="returns/credit-note-button.png" class="align-center"
-alt="A typical customer invoice with a Credit Note button highlighted in Odoo Sales." />
+alt="A typical customer invoice with a Credit Note button highlighted in Konvergo ERP Sales." />
 
 Doing so reveals a `Credit Note` pop-up form.
 
 <img src="returns/credit-note-pop-up-form.png" class="align-center"
-alt="Typical credit note pop-up form that appears in Odoo Sales." />
+alt="Typical credit note pop-up form that appears in Konvergo ERP Sales." />
 
 Start by entering a `Reason displayed on Credit Note` and a specific
 `Journal` to process the credit. Then, select a specific

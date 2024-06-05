@@ -2,7 +2,7 @@ show-content
 
 # Subscriptions
 
-Odoo *Subscriptions* is used to run recurring businesses:
+Konvergo ERP *Subscriptions* is used to run recurring businesses:
 `sell new contracts
 <subscriptions/quotations>`,
 `upsell customers </applications/sales/subscriptions/upselling>`, keep
@@ -13,7 +13,7 @@ the churn under control, and `generate reports
 
 <div class="seealso">
 
-\- [Odoo Tutorials:
+\- [Konvergo ERP Tutorials:
 Subscriptions](https://www.odoo.com/slides/subscription-20) -
 `/applications/sales/subscriptions/products` -
 `/applications/sales/subscriptions/ecommerce` -

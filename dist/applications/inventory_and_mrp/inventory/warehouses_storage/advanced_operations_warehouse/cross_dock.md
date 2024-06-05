@@ -44,7 +44,7 @@ price for it.
 
 <img src="cross_dock/cross6.png" class="align-center" alt="image" />
 
-Once done, create a sale order for the product and confirm it. Odoo will
+Once done, create a sale order for the product and confirm it. Konvergo ERP will
 automatically create two transfers which will be linked to the sale
 order. The first one is the transfer from the *Input Location* to the
 *Output Location*, corresponding to the move of the product in the

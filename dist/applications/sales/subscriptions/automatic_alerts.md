@@ -12,7 +12,7 @@ gratitude. Or, if the satisfaction rate of your customers drops below
 50%, you would probably want to schedule a call with them to understand
 the reasons for their dissatisfaction.
 
-With **Odoo Subscriptions**, you can set automatic emails, create a
+With **Konvergo ERP Subscriptions**, you can set automatic emails, create a
 "Call" task for one of your salespeople so that he/she can try to
 understand your customer's dissatisfaction, and finally, why not
 automatically send satisfaction surveys so customers can evaluate your
@@ -26,7 +26,7 @@ subscription. To do so, go to `Subscriptions
 --> Configuration --> Alerts`, and create a new alert.
 
 <img src="automatic_alerts/create-a-new-automatic-alert.png"
-class="align-center" alt="New automatic alert in Odoo Subscriptions" />
+class="align-center" alt="New automatic alert in Konvergo ERP Subscriptions" />
 
 1.  On the *Apply on* section, first give the alert a name. Then, you
     can choose to apply this alert on a subscription template, on a
@@ -59,7 +59,7 @@ class="align-center" alt="New automatic alert in Odoo Subscriptions" />
     > customer* action was adopted, an *Email template* can be chosen.
 
     > [!NOTE]
-    > Sending a SMS text message in Odoo requires In-App Purchase (IAP)
+    > Sending a SMS text message in Konvergo ERP requires In-App Purchase (IAP)
     > credit or tokens. For more information on `IAP (In-App Purchase)`,
     > visit `../../essentials/in_app_purchase`. For more information on
     > sending SMS messages, visit
@@ -70,16 +70,16 @@ customers who have purchased that specific product. The survey appears
 in the chatter of your respective subscription.
 
 <img src="automatic_alerts/rating-satisfaction-survey.png"
-class="align-center" alt="Satisfaction survey in Odoo Subscriptions" />
+class="align-center" alt="Satisfaction survey in Konvergo ERP Subscriptions" />
 
 ## Modify an existing automatic alert
 
-By default, Odoo suggests you an automatic alert called *Take action on
+By default, Konvergo ERP suggests you an automatic alert called *Take action on
 less satisfied clients*.
 
 <img src="automatic_alerts/modify-an-existing-automatic-alert.png"
 class="align-center"
-alt="Modify an existing automatic alert in Odoo Subscriptions" />
+alt="Modify an existing automatic alert in Konvergo ERP Subscriptions" />
 
 This alert is applied to the *Rating Satisfaction* of your customers,
 and the action is triggered on *Timed condition*. If their satisfaction

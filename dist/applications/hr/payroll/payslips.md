@@ -19,7 +19,7 @@ alt="Payslips menu selection in Payroll." />
 ## To pay
 
 Click on `Payroll app --> Payslips --> To Pay` to see the payslips that
-need to be paid. On this page, Odoo displays the payslips that have not
+need to be paid. On this page, Konvergo ERP displays the payslips that have not
 been generated yet, and can be created from this dashboard.
 
 <img src="payslips/all-pay-slips.png" class="align-center"
@@ -56,7 +56,7 @@ alt="The necessary fields for a new payslip." />
 - `Employee`: Type in the name of an employee, or select the desired
   employee from the drop-down list. Upon selecting an employee, several
   other fields on the payslip form may auto-populate. Typically, after
-  making a selection in the `Employee` field, Odoo auto-populates the
+  making a selection in the `Employee` field, Konvergo ERP auto-populates the
   `Contract`, `Structure`, and `Payslip Name` fields, but **only** if
   that information is already on that employee's form in the *Employees*
   app.

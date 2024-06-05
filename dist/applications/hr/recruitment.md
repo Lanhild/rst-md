@@ -4,14 +4,14 @@ show-toc
 
 # Recruitment
 
-Odoo keeps all job applicants organized with a pre-configured series of
+Konvergo ERP keeps all job applicants organized with a pre-configured series of
 steps and stages that each applicant goes through. Each stage has a
 specific step(s) that should be performed. These range from scheduling a
 phone call, conducting an interview, to sending a job offer, just to
 name a few. This process is referred to as the 'applicant flow'.
 
 When an applicant applies for a job position, an *applicant card* is
-automatically created in Odoo's *Recruitment* app for that specific job
+automatically created in Konvergo ERP's *Recruitment* app for that specific job
 position. As the applicant progresses through the recruitment pipeline,
 the recruitment team moves their card from one stage to the next.
 
@@ -21,7 +21,7 @@ as an applicant's card enters a stage. These automated emails are
 defined on each stage in the applicant flow.
 
 The applicant flow explained in this document is the default flow in
-Odoo, and goes through the applicant flow when using the *Recruitment*
+Konvergo ERP, and goes through the applicant flow when using the *Recruitment*
 application's default configuration. The applicant flow is able to be
 modified to suit the specific recruitment flow for any business.
 
@@ -47,7 +47,7 @@ alt="Main dashboard view of job position card, showing new applications button."
 
 Inside the job application, the kanban stages appear, with all the
 applicants populated in their respective columns, indicating what stage
-they are currently in. There are five default stages in Odoo:
+they are currently in. There are five default stages in Konvergo ERP:
 
 - `Initial Qualification <recruitment/initial-qualification>`
 - `First Interview <recruitment/first-interview>`
@@ -161,7 +161,7 @@ column.
 
 ## Email templates
 
-To communicate with the applicant, Odoo has several pre-configured email
+To communicate with the applicant, Konvergo ERP has several pre-configured email
 templates that can be used. The pre-configured email templates and when
 to use them are as follows:
 
@@ -209,7 +209,7 @@ subject and/or body may change.
 
 > [!NOTE]
 > Only the email templates that are configured for the model will load.
-> There are other email templates pre-configured in Odoo, but if they
+> There are other email templates pre-configured in Konvergo ERP, but if they
 > are not configured for the recruitment application, they will not
 > appear in the list of available templates.
 
@@ -245,14 +245,14 @@ applicant&#39;s card." />
 ### Initial qualification
 
 > [!IMPORTANT]
-> The following information is based on Odoo's default recruitment
+> The following information is based on Konvergo ERP's default recruitment
 > pipeline flow. Be advised that if modifications are made to create a
 > customized recruitment pipeline flow, it will vary from the following
 > information.
 
 All applicants appear in the `Initial Qualification` stage, whether
 submitted online or if the applicant is manually entered by a recruiter.
-When the applicant's card is created, Odoo automatically populates the
+When the applicant's card is created, Konvergo ERP automatically populates the
 applicant's `Name`, `Email address`, and `Phone number` on the
 applicant's card. This information is required when applying for a job
 position.
@@ -273,7 +273,7 @@ At any point in the hiring process, an *interview* can be sent to the
 applicant to obtain more information. These interviews are custom-made,
 and can be formatted in a variety of ways.
 
-Odoo uses the term *interview*, but these can be thought of as
+Konvergo ERP uses the term *interview*, but these can be thought of as
 questionnaires, surveys, tests, certifications, etc. Custom interviews
 can be formatted to suit each individual job position's needs. For
 example, a job position for a computer programmer could have an
@@ -304,7 +304,7 @@ on the applicant's card, then a contact form appears. Enter the
 applicants email address, then click `Save`. The card closes and the
 `Survey` pop-up window appears.
 
-Odoo refers to the interview forms as *surveys*. These email templates
+Konvergo ERP refers to the interview forms as *surveys*. These email templates
 also use dynamic placeholders to personalize the email to the applicant
 and the job position. Add any additional recipients for the survey if
 more people should receive the email. If an email is in the database as
@@ -346,7 +346,7 @@ At the top of the applicant's card, there are several buttons. Click the
 one labeled `Refuse`.
 
 A `Refuse Reason` pop-up appears. Select the `Refuse Reason` from the
-drop-down menu. The default refuse reasons in Odoo are:
+drop-down menu. The default refuse reasons in Konvergo ERP are:
 `Doesn't fit the job requirements`,
 `The applicant is not interested anymore`, and
 `The applicant gets a better
@@ -360,7 +360,7 @@ new email template in the `Email Template` field, and click
 the new email template, then click `Save`.
 
 > [!NOTE]
-> Pre-configured email templates in Odoo sometimes use dynamic
+> Pre-configured email templates in Konvergo ERP sometimes use dynamic
 > placeholders, which are customized pieces of data that populate
 > dynamic content. For example, if the applicant's name is a piece of
 > dynamic content, the applicant's name will appear anytime that dynamic
@@ -548,7 +548,7 @@ alt="An applicant&#39;s card moves from one stage t another by using the click a
 When the applicant's card moves to the `First Interview` stage, an
 acknowledgement email is automatically sent to the applicant. The email
 is created using an email template titled `Applicant: Acknowledgement`.
-This email template is pre-configured in Odoo, and contains dynamic
+This email template is pre-configured in Konvergo ERP, and contains dynamic
 placeholders for the job position, the recruiter's name, and the
 company's information. Once the email is sent, the email appears in the
 chatter.
@@ -716,7 +716,7 @@ click `Send Now` to send the message immediately.
 alt="Send a text message to the attendees of the meeting." />
 
 > [!NOTE]
-> Sending text messages is not a default capability with Odoo. To send
+> Sending text messages is not a default capability with Konvergo ERP. To send
 > text messages, credits are required, which need to be purchased. For
 > more information on IAP credits and plans, refer to the
 > `../essentials/in_app_purchase` documentation.

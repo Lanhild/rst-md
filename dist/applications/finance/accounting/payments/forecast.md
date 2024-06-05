@@ -1,11 +1,11 @@
 # Forecast future bills to pay
 
-In Odoo, you can manage payments by setting automatic **Payments Terms**
+In Konvergo ERP, you can manage payments by setting automatic **Payments Terms**
 and **follow-ups**.
 
 ## Configuration: payment terms
 
-In order to track vendor conditions, we use **Payment Terms** in Odoo.
+In order to track vendor conditions, we use **Payment Terms** in Konvergo ERP.
 They allow keeping track of due dates on invoices. Examples of **Payment
 Terms** are:
 
@@ -18,7 +18,7 @@ To create them, go to
 
 <div class="seealso">
 
-[Odoo Tutorials: Payment
+[Konvergo ERP Tutorials: Payment
 Terms](https://www.odoo.com/slides/slide/payment-terms-1679?fullscreen=1)
 
 </div>
@@ -26,7 +26,7 @@ Terms](https://www.odoo.com/slides/slide/payment-terms-1679?fullscreen=1)
 Once **Payment Terms** are defined, you can assign them to your vendor
 by default. To do so, go to `Vendors --> Vendors`, select a vendor,
 click the `Sales & Purchase` tab, and select a specific **Payment
-Term**. This way, every time you purchase from this vendor, Odoo
+Term**. This way, every time you purchase from this vendor, Konvergo ERP
 automatically proposes the chosen Payment Term.
 
 > [!NOTE]

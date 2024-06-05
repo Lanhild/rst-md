@@ -1,6 +1,6 @@
 nosearch  
 
-# Odoo Documentation
+# Konvergo ERP Documentation
 
 <div class="toctree">
 

@@ -18,7 +18,7 @@ that particular activity.
 
 <img src="workflow_activities/activity-template.png"
 class="align-center"
-alt="A workflow activity template pop-up window in Odoo Marketing Automation." />
+alt="A workflow activity template pop-up window in Konvergo ERP Marketing Automation." />
 
 First, enter a name for the activity in the `Activity Name` field. Then,
 proceed to configure the following options.
@@ -58,7 +58,7 @@ template.
 <img
 src="workflow_activities/create-marketing-template-popup-window.png"
 class="align-center"
-alt="The create marketing template email pop-up window in Odoo Marketing Automation." />
+alt="The create marketing template email pop-up window in Konvergo ERP Marketing Automation." />
 
 #### Server action activity
 
@@ -83,7 +83,7 @@ To create a new server action from this pop-up window, and click `New`.
 
 <img src="workflow_activities/search-server-action-new-button.png"
 class="align-center"
-alt="The new button found on a server action pop-up in Odoo marketing automation application." />
+alt="The new button found on a server action pop-up in Konvergo ERP marketing automation application." />
 
 Either option reveals a blank `Create Server Action` pop-up, wherein a
 custom server action can be created and configured.
@@ -194,7 +194,7 @@ filter equation rule(s).
 
 <img src="workflow_activities/activity-filter-option.png"
 class="align-center"
-alt="How to add an activity filter to a workflow activity in Odoo Marketing Automation." />
+alt="How to add an activity filter to a workflow activity in Konvergo ERP Marketing Automation." />
 
 This option is not a required field. If left alone, the activity applies
 to all records related to the target audience of the overall campaign.
@@ -227,7 +227,7 @@ displayed as a line graph.
 
 <img src="workflow_activities/workflow-activity.png"
 class="align-center"
-alt="Typical workflow activity in Odoo Marketing Automation." />
+alt="Typical workflow activity in Konvergo ERP Marketing Automation." />
 
 The configured `Trigger` time for that activity can be found to the left
 of the `Workflow Activity` card in the `Workflow` section.
@@ -257,7 +257,7 @@ its parent activity.
 class="align-center"
 alt="A typical child activity indented beneath its parent activity." />
 
-Odoo provides a number of triggering options to launch a child
+Konvergo ERP provides a number of triggering options to launch a child
 activity - all of which depend on the trigger configurations related to
 its parent activity. Under the desired parent activity, hover over
 `Add child activity`, to reveal a menu of child activity trigger

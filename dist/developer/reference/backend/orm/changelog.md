@@ -1,6 +1,6 @@
 # Changelog
 
-## Odoo version 16.0
+## Konvergo ERP version 16.0
 
 - Translations for translated fields are stored as JSONB values with
   [\#97692](https://github.com/odoo/odoo/pull/97692) and
@@ -12,7 +12,7 @@
   limits the number of records to count, improving performance when a
   partial result is acceptable.
 
-## Odoo Online version 15.4
+## Konvergo ERP Online version 15.4
 
 - New API for flushing to the database and invalidating the cache with
   [\#87527](https://github.com/odoo/odoo/pull/87527). New methods have
@@ -21,7 +21,7 @@
   confusing about what is actually done in each case. See the section
   `SQL Execution <reference/orm/sql>`.
 
-## Odoo Online version 15.3
+## Konvergo ERP Online version 15.3
 
 - The argument <span class="title-ref">args</span> is renamed to
   <span class="title-ref">domain</span> for `~odoo.models.Model.search`,
@@ -41,7 +41,7 @@
   `~odoo.fields.Many2many`.
   [\#83687](https://github.com/odoo/odoo/pull/83687)
 
-## Odoo Online version 15.2
+## Konvergo ERP Online version 15.2
 
 - Specific index types on fields: With
   [\#83274](https://github.com/odoo/odoo/pull/83274) and
@@ -49,7 +49,7 @@
   define what type of indexes can be used on fields by PostgreSQL. See
   the `index property <reference/fields>` of
   <span class="title-ref">odoo.fields.Field</span>.
-- The `_sequence` attribute of `~odoo.models.Model` is removed. Odoo
+- The `_sequence` attribute of `~odoo.models.Model` is removed. Konvergo ERP
   lets PostgreSQL use the default sequence of the primary key.
   [\#82727](https://github.com/odoo/odoo/pull/82727)
 - The method `~odoo.models.Model._write` does not raise an error for

@@ -3,8 +3,8 @@ show-content
 # AvaTax integration
 
 Avalara's *AvaTax* is a cloud-based tax software. Integrating *AvaTax*
-with Odoo provides real-time and region-specific tax calculations when
-users sell, purchase, and invoice items in Odoo. *AvaTax* tax
+with Konvergo ERP provides real-time and region-specific tax calculations when
+users sell, purchase, and invoice items in Konvergo ERP. *AvaTax* tax
 calculation is supported with every United Nations charted country,
 including inter-border transactions.
 
@@ -24,13 +24,13 @@ simple `API (application
 programming interface)` integration.
 
 > [!IMPORTANT]
-> Some limitations exist in Odoo while using *AvaTax* for tax
+> Some limitations exist in Konvergo ERP while using *AvaTax* for tax
 > calculation:
 >
-> - *AvaTax* is **not** supported in Odoo's *Point of Sale* app, because
+> - *AvaTax* is **not** supported in Konvergo ERP's *Point of Sale* app, because
 >   a dynamic tax calculation model is excessive for transactions within
 >   a single delivery address, such as stores or restaurants.
-> - *AvaTax* and Odoo use the company address and **not** the warehouse
+> - *AvaTax* and Konvergo ERP use the company address and **not** the warehouse
 >   address.
 > - Exercise tax is **not** supported. This includes tobacco/vape taxes,
 >   fuel taxes, and other specific industries.
@@ -50,7 +50,7 @@ one has not been set up yet, connect with Avalara to purchase a license:
 
 > [!TIP]
 > Upon account setup, take note of the *AvaTax* `Account ID`. This will
-> be needed in the `Odoo setup <avatax/credentials>`. In Odoo, this
+> be needed in the `Konvergo ERP setup <avatax/credentials>`. In Konvergo ERP, this
 > number is the `API ID`.
 
 Then, [create a basic company
@@ -77,7 +77,7 @@ documentation for creating a basic company profile:
 ### Connect to AvaTax
 
 After creating the basic company profile in Avalara, connect to
-*AvaTax*. This step links Odoo and *AvaTax* bidirectionally.
+*AvaTax*. This step links Konvergo ERP and *AvaTax* bidirectionally.
 
 Navigate to either Avalara's
 [sandbox](https://sandbox.admin.avalara.com/) or
@@ -105,7 +105,7 @@ Keys`. Click `Generate License Key`.
 > these apps with the new license key.
 
 If this will be the first `API (application programming interface)`
-integration being made with *AvaTax* and Odoo, then click
+integration being made with *AvaTax* and Konvergo ERP, then click
 `Generate license key`.
 
 If this is an additional license key, ensure the previous connection can
@@ -117,12 +117,12 @@ Avalara sandbox and production accounts.
 > the license key for future reference. This key cannot be retrieved
 > after leaving this screen.
 
-## Odoo configuration
+## Konvergo ERP configuration
 
-Before using *AvaTax*, there are some additional configurations in Odoo
+Before using *AvaTax*, there are some additional configurations in Konvergo ERP
 to ensure tax calculations are made accurately.
 
-Verify that the Odoo database contains necessary data. The country
+Verify that the Konvergo ERP database contains necessary data. The country
 initially set up in the database determines the fiscal position, and
 aids *AvaTax* in calculating accurate tax rates.
 
@@ -143,10 +143,10 @@ States` or `Canada`. Then, click `Save`.
 
 ### Company settings
 
-All companies operating under the Odoo database should have a full and
+All companies operating under the Konvergo ERP database should have a full and
 complete address listed in the settings. Navigate to the `Settings app`,
 and under the `Companies` section, ensure there is only one company
-operating the Odoo database. Click `Update Info` to open a separate page
+operating the Konvergo ERP database. Click `Update Info` to open a separate page
 to update company details.
 
 If there are multiple companies operating in the database, click
@@ -168,7 +168,7 @@ operations.
 
 ### Module installation
 
-Next, ensure that the Odoo *AvaTax* module is installed. To do so,
+Next, ensure that the Konvergo ERP *AvaTax* module is installed. To do so,
 navigate to the `Apps application`. In the `Search...` bar, type in
 <span class="title-ref">avatax</span>, and press `Enter`. The following
 results populate:
@@ -176,10 +176,10 @@ results populate:
 | Name                                    | Technical name                                                  | Description                                                                               |
 |-----------------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | `Avatax`                                | <span class="title-ref">account_avatax</span>                   | Default *AvaTax* module. This module adds the base *AvaTax* features for tax calculation. |
-| `Avatax for SO`                         | <span class="title-ref">account_avatax_sale</span>              | Includes the information needed for tax calculation on sales orders in Odoo.              |
-| `Avatax for Subscriptions`              | <span class="title-ref">account_avatax_sale_subscription</span> | This module includes the features required for tax calculation on subscriptions in Odoo.  |
-| `Account Avatax - Ecommerce`            | <span class="title-ref">website_sale_account_avatax</span>      | Includes tax calculation features for the checkout process on Odoo eCommerce.             |
-| `Account AvaTax - Ecommerce - Delivery` | <span class="title-ref">website_sale_delivery_avatax</span>     | Includes tax calculation features for the delivery process on Odoo eCommerce.             |
+| `Avatax for SO`                         | <span class="title-ref">account_avatax_sale</span>              | Includes the information needed for tax calculation on sales orders in Konvergo ERP.              |
+| `Avatax for Subscriptions`              | <span class="title-ref">account_avatax_sale_subscription</span> | This module includes the features required for tax calculation on subscriptions in Konvergo ERP.  |
+| `Account Avatax - Ecommerce`            | <span class="title-ref">website_sale_account_avatax</span>      | Includes tax calculation features for the checkout process on Konvergo ERP eCommerce.             |
+| `Account AvaTax - Ecommerce - Delivery` | <span class="title-ref">website_sale_delivery_avatax</span>     | Includes tax calculation features for the delivery process on Konvergo ERP eCommerce.             |
 
 Click the `Install` button on the module labeled `Avatax`:
 <span class="title-ref">account_avatax</span>. Doing so installs the
@@ -190,14 +190,14 @@ following modules:
 - `Account Avatax - Ecommerce`:
   <span class="title-ref">website_sale_account_avatax</span>
 
-Should *AvaTax* be needed for Odoo *Subscriptions*, or for delivery tax
-in Odoo *eCommerce*, then install those modules individually by clicking
+Should *AvaTax* be needed for Konvergo ERP *Subscriptions*, or for delivery tax
+in Konvergo ERP *eCommerce*, then install those modules individually by clicking
 on `Install`.
 
-### Odoo AvaTax settings
+### Konvergo ERP AvaTax settings
 
 To integrate the *AvaTax* `API (application programming interface)` with
-Odoo, go to `Accounting app --> Configuration --> Settings` section. The
+Konvergo ERP, go to `Accounting app --> Configuration --> Settings` section. The
 `AvaTax` fields in the `Taxes` section is where the *AvaTax*
 configurations are made and the credentials are entered in.
 
@@ -250,7 +250,7 @@ alt="AvaTax company code highlighted on the company details page." />
 
 #### Transaction options
 
-There are two transactional settings in the Odoo *AvaTax* settings that
+There are two transactional settings in the Konvergo ERP *AvaTax* settings that
 can be configured: `Use UPC` and `Commit Transactions`.
 
 If the checkbox next to `Use UPC` is ticked, the transactions will use
@@ -259,13 +259,13 @@ Avalara. Consult a certified public accountant (CPA) for specific
 guidance.
 
 Should the `Commit Transactions` checkbox be ticked, then, the
-transactions in the Odoo database will be committed for reporting in
+transactions in the Konvergo ERP database will be committed for reporting in
 *AvaTax*.
 
 #### Address validation
 
 The *Address Validation* feature ensures that the most up-to-date
-address by postal standards is set on a contact in Odoo. This is
+address by postal standards is set on a contact in Konvergo ERP. This is
 important to provide accurate tax calculations for customers.
 
 > [!IMPORTANT]
@@ -295,11 +295,11 @@ Additionally, tick the checkbox next to the `Address validation` field.
 > click `Save Validated`.
 >
 > <img src="avatax/validate-address.png" class="align-center"
-> alt="Validate address pop-up window in Odoo with &quot;Save Validated&quot; button and &quot;Validated
+> alt="Validate address pop-up window in Konvergo ERP with &quot;Save Validated&quot; button and &quot;Validated
 > Address&quot; highlighted." />
 
 > [!WARNING]
-> All previously-entered addresses for contacts in the Odoo database
+> All previously-entered addresses for contacts in the Konvergo ERP database
 > will need to be validated using the manually validate process outlined
 > above. Addresses are not automatically validated if they were entered
 > previously. This only occurs upon tax calculation.
@@ -307,9 +307,9 @@ Additionally, tick the checkbox next to the `Address validation` field.
 #### Test connection
 
 After entering all the above information into the *AvaTax* setup on
-Odoo, click `Test
+Konvergo ERP, click `Test
 connection`. This ensures the `API ID` and `API KEY` are correct, and a
-connection is made between Odoo and the *AvaTax* application programming
+connection is made between Konvergo ERP and the *AvaTax* application programming
 interface (API).
 
 #### Sync parameters
@@ -330,8 +330,8 @@ page.
 Here, ensure that the `Use AvaTax API` checkbox is ticked.
 
 Optionally, tick the checkbox next to the field labeled:
-`Detect Automatically`. Should this option be ticked, then, Odoo will
-automatically apply this `Fiscal Position` for transactions in Odoo.
+`Detect Automatically`. Should this option be ticked, then, Konvergo ERP will
+automatically apply this `Fiscal Position` for transactions in Konvergo ERP.
 
 Enabling `Detect Automatically` also makes specific parameters, such as
 `VAT

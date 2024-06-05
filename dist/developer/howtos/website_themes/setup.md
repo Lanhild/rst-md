@@ -3,32 +3,32 @@
 In this chapter, you will learn:
 
 - To set up your local development environment.
-- The outline of the Odoo database structure.
-- To export and import an Odoo database in your local environment.
-- To have an Odoo instance up and running.
+- The outline of the Konvergo ERP database structure.
+- To export and import an Konvergo ERP database in your local environment.
+- To have an Konvergo ERP instance up and running.
 
 ## Install
 
-There are multiple ways to `install Odoo </administration/on_premise>`,
+There are multiple ways to `install Konvergo ERP </administration/on_premise>`,
 depending on the intended use case. This documentation assumes you use
 the `source install
-</administration/on_premise/source>` (running Odoo from the source
-code), which is best suited for Odoo designers and developers.
+</administration/on_premise/source>` (running Konvergo ERP from the source
+code), which is best suited for Konvergo ERP designers and developers.
 
 ## Databases
 
 ### Structure
 
-Every Odoo application works similarly; they are built with the same
+Every Konvergo ERP application works similarly; they are built with the same
 logic. A model contains fields and relational fields that link to other
 models. Each model has views representing all its fields, with backend
 and frontend views.
 
 #### Models
 
-The basis of Odoo is models. Models use fields to record the data.
+The basis of Konvergo ERP is models. Models use fields to record the data.
 Records are stored in a database: they are therefore linked to a model.
-In Odoo, you can find the different models in the backend by enabling
+In Konvergo ERP, you can find the different models in the backend by enabling
 the `developer mode <developer-mode>` and then going to
 `Settings --> Technical --> Database Structure: Models`.
 
@@ -94,9 +94,9 @@ the screens they control.
 
 ##### Standard vs. Inherited
 
-- **Standard views** are base views implemented by Odoo. They are
+- **Standard views** are base views implemented by Konvergo ERP. They are
   directly derived from their model. You should never change them as
-  they allow updating an Odoo database without overwriting a client's
+  they allow updating an Konvergo ERP database without overwriting a client's
   modifications.
 - **Inherited views** are duplicated views. Modifications always take
   place in an inherited view. If there is a duplicate view, there will
@@ -111,13 +111,13 @@ the screens they control.
 
 #### Dump
 
-##### Odoo SaaS
+##### Konvergo ERP SaaS
 
 Go to <span class="title-ref">\<database_url\>/saas_worker/dump</span>.
 
-##### Odoo.sh
+##### Konvergo ERP.sh
 
-1.  Connect to Odoo.sh.
+1.  Connect to Konvergo ERP.sh.
 
 2.  Select the branch you want to back up.
 
@@ -144,9 +144,9 @@ Copy all the folders included in the filestore folder and paste them to
 the following location on your computer:
 
 - macOS: <span class="title-ref">/Users/\<User\>/Library/Application
-  Support/Odoo/filestore/\<database_name\></span>
+  Support/Konvergo ERP/filestore/\<database_name\></span>
 - Linux:
-  <span class="title-ref">/home/\<User\>/.local/share/Odoo/filestore/\<database_name\></span>
+  <span class="title-ref">/home/\<User\>/.local/share/Konvergo ERP/filestore/\<database_name\></span>
 
 > [!NOTE]
 > <span class="title-ref">/Library</span> is a hidden folder.
@@ -175,21 +175,21 @@ update res_users set login='admin', password='admin' where id=2;
 
 ## Getting started
 
-### Running Odoo
+### Running Konvergo ERP
 
-Once all dependencies are set up, Odoo can be launched by running
+Once all dependencies are set up, Konvergo ERP can be launched by running
 <span class="title-ref">odoo-bin</span>, the command-line interface of
-the server. It is located at the root of the Odoo Community directory.
+the server. It is located at the root of the Konvergo ERP Community directory.
 
-- `Running Odoo <install/source/running_odoo>`
+- `Running Konvergo ERP <install/source/running_odoo>`
 - [Docker](https://hub.docker.com/_/odoo/)
 
 To configure the server, you can specify command-line arguments or a
 configuration file. The first method is presented below.
 
 The `CLI <reference/cmdline>` offers several functionalities related to
-Odoo. You can use it to `run the server <reference/cmdline/server>`,
-scaffold an Odoo theme, populate a database, or count the number of
+Konvergo ERP. You can use it to `run the server <reference/cmdline/server>`,
+scaffold an Konvergo ERP theme, populate a database, or count the number of
 lines of code.
 
 ### Shell script

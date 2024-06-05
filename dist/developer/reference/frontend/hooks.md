@@ -10,7 +10,7 @@ provide a way to build specific hooks.
 
 Using these hooks, it is possible to build many customized hooks that
 help solve a specific problem, or make some common tasks easier. The
-rest of this page documents the list of hooks provided by the Odoo web
+rest of this page documents the list of hooks provided by the Konvergo ERP web
 framework.
 
 | Name                                         | Short Description                                      |

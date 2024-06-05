@@ -1,7 +1,7 @@
-# Connect an IoT box to Odoo
+# Connect an IoT box to Konvergo ERP
 
 An Internet of Things (IoT) box is a micro-computer device that allows
-for the connection of input and output devices to an Odoo database. An
+for the connection of input and output devices to an Konvergo ERP database. An
 `IoT (Internet of Things)` box subscription is required in order to use
 the `IoT (Internet of Things)` box with a secured connection. A computer
 is also required to set up the `IoT (Internet of Things)` box.
@@ -14,10 +14,10 @@ is also required to set up the `IoT (Internet of Things)` box.
 
 Begin the `IoT (Internet of Things)` configuration process by
 `installing the IoT app
-<general/install>` on the Odoo database through the `Apps` application.
+<general/install>` on the Konvergo ERP database through the `Apps` application.
 
 <img src="connect/install-iot-app.png" class="align-center"
-alt="The Internet of Things (IoT) app on the Odoo database." />
+alt="The Internet of Things (IoT) app on the Konvergo ERP database." />
 
 Next, after the *IoT app* is installed, navigate to
 `IoT app --> IoT Boxes`, and then click on the `Connect` button located
@@ -25,7 +25,7 @@ in the upper-left corner of the `IoT
 Boxes` dashboard.
 
 <img src="connect/connect-iot.png" class="align-center"
-alt="Connecting an IoT box to the Odoo database." />
+alt="Connecting an IoT box to the Konvergo ERP database." />
 
 There are two recommended ways to connect the `IoT (Internet of Things)`
 box to the database once the *IoT app* is installed. Follow the steps in
@@ -39,7 +39,7 @@ alt="Connection steps for a wired connection or WiFi connection." />
 
 > [!IMPORTANT]
 > The disk image that the `IoT (Internet of Things)` box SD card is
-> formatted with is unique to the version of the Odoo database that the
+> formatted with is unique to the version of the Konvergo ERP database that the
 > `IoT (Internet of Things)` box is running on. Ensure that the
 > `IoT (Internet of Things)` box is `flashed <iot/config/flash>` with
 > the most up-to-date disk image.
@@ -47,7 +47,7 @@ alt="Connection steps for a wired connection or WiFi connection." />
 ## Ethernet connection
 
 The following is the process to connect the `IoT (Internet of Things)`
-box via an ethernet cable to the Odoo database (by way of the ethernet
+box via an ethernet cable to the Konvergo ERP database (by way of the ethernet
 port; RJ-45).
 
 First, connect all wired devices to the `IoT (Internet of Things)` box
@@ -85,7 +85,7 @@ page.
 ## WiFi connection
 
 The following is the process to connect the `IoT (Internet of Things)`
-box via a WiFi connection to the Odoo database.
+box via a WiFi connection to the Konvergo ERP database.
 
 First, ensure there is no ethernet cable plugged into the
 `IoT (Internet of Things)` box. Then, connect all wired devices to the
@@ -97,7 +97,7 @@ into to a power source. On the computer, navigate to
 `IoT app --> IoT Boxes`, and then click on the `Connect` button located
 in the upper-left corner of the the `IoT Boxes` dashboard. Then copy the
 `Token` from the `WiFi connection` section as this will later be used to
-link the Odoo database to the `IoT (Internet of Things)` box.
+link the Konvergo ERP database to the `IoT (Internet of Things)` box.
 
 Back on the computer, navigate to the available WiFi networks and
 connect to the `IoT
@@ -133,15 +133,15 @@ not happen automatically.
 alt="Configuring the WiFi for the IoT box." />
 
 After completing each step, the `IoT (Internet of Things)` box should
-appear when navigating to `IoT app --> IoT Boxes` on the Odoo database.
+appear when navigating to `IoT app --> IoT Boxes` on the Konvergo ERP database.
 
 <img src="connect/iot-box-connected.png" class="align-center"
-alt="The IoT box has been successfully configured on the Odoo database." />
+alt="The IoT box has been successfully configured on the Konvergo ERP database." />
 
 > [!IMPORTANT]
 > The `IoT (Internet of Things)` box may need to be manually rebooted
 > upon successfully connecting via WiFi for the box to appear in the
-> *IoT app* on the Odoo database. To do so, simply unplug the device and
+> *IoT app* on the Konvergo ERP database. To do so, simply unplug the device and
 > plug it back into the power source after ten seconds.
 
 ## Manually connecting the IoT box using the token
@@ -173,7 +173,7 @@ On the `IoT (Internet of Things)` box homepage, enter the *token* under
 the `Server` section by clicking on `Configure`. Then, paste the *token*
 into the `Server
 Token` field and click `Connect`. The `IoT (Internet of Things)` box
-will then link to the Odoo database.
+will then link to the Konvergo ERP database.
 
 ## IoT box schema
 
@@ -182,7 +182,7 @@ will then link to the Odoo database.
 <figure>
 <img src="connect/iot-box-schema.png"
 alt="connect/iot-box-schema.png" />
-<figcaption>The Odoo IoT box (Raspberry Pi 4) schema with
+<figcaption>The Konvergo ERP IoT box (Raspberry Pi 4) schema with
 labels.</figcaption>
 </figure>
 
@@ -191,6 +191,6 @@ labels.</figcaption>
 <figure>
 <img src="connect/iox-box-schema-3.png"
 alt="connect/iox-box-schema-3.png" />
-<figcaption>The Odoo IoT box (Raspberry Pi 3) schema with
+<figcaption>The Konvergo ERP IoT box (Raspberry Pi 3) schema with
 labels.</figcaption>
 </figure>

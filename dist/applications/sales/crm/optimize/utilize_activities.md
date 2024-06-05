@@ -1,6 +1,6 @@
 # Utilize activities for sales teams
 
-*Activities* are follow-up tasks tied to a record in an *Odoo* database.
+*Activities* are follow-up tasks tied to a record in an *Konvergo ERP* database.
 Activities can be scheduled on any page of the database that contains a
 chatter thread, Kanban view, list view, or activities view of an
 application.

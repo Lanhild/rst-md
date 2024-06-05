@@ -1,6 +1,6 @@
 # Testing/running campaigns
 
-The Odoo *Marketing Automation* app allows users to test marketing
+The Konvergo ERP *Marketing Automation* app allows users to test marketing
 campaigns (and mailings) before officially running them to check for
 errors and correct any mistakes before it reaches its target audience.
 
@@ -24,13 +24,13 @@ To start a test, click the `Launch a Test` button at the top of the
 campaign form, to the right of the `Start` button.
 
 <img src="testing_running/launch-test.png" class="align-center"
-alt="Launch a test button on a campaign detail form in Odoo Marketing Automation." />
+alt="Launch a test button on a campaign detail form in Konvergo ERP Marketing Automation." />
 
 When clicked, a `Launch a test` pop-up window appears.
 
 <img src="testing_running/launch-test-popup-window.png"
 class="align-center"
-alt="Launch a test pop-up window that appears in Odoo Markting Automation." />
+alt="Launch a test pop-up window that appears in Konvergo ERP Markting Automation." />
 
 In the `Launch a test` pop-up window, click the
 `Pick or create a/an Contact to
@@ -48,7 +48,7 @@ start typing the name of the new contact in the blank field, and click
 
 <img src="testing_running/new-contact-from-launch-test-popup.png"
 class="align-center"
-alt="Typing in a new contact directly from the launch a test pop-up window in Odoo." />
+alt="Typing in a new contact directly from the launch a test pop-up window in Konvergo ERP." />
 
 Doing so reveals a blank `Create Record` pop-up form, in which the
 necessary contact information (`Email`, `Mobile`, etc.) *must* be
@@ -56,7 +56,7 @@ entered, in order for the test to work. When the necessary information
 is entered, click `Save & Close`.
 
 <img src="testing_running/blank-contact-form.png" class="align-center"
-alt="A blank contact form from a launch test pop-up window in Odoo Marketing Automation." />
+alt="A blank contact form from a launch test pop-up window in Konvergo ERP Marketing Automation." />
 
 When all the necessary fields have been entered, click `Save & Close` to
 return to the `Launch a test` pop-up window.
@@ -65,7 +65,7 @@ Once a contact is selected, click `Launch` to reveal the campaign test
 page.
 
 <img src="testing_running/test-screen.png" class="align-center"
-alt="Test screen in Odoo Marketing Automation." />
+alt="Test screen in Konvergo ERP Marketing Automation." />
 
 On the campaign test page, the name of the `Record` being tested is
 visible, along with the precise time this test workflow was started in
@@ -75,7 +75,7 @@ tested.
 
 To start a test, click the `Run` button, represented by a
 `▶️ (play button)` icon beside the first activity in the workflow. When
-clicked, the page reloads, and Odoo shows the various results (and
+clicked, the page reloads, and Konvergo ERP shows the various results (and
 analytics) connected to that specific activity as they occur, in
 real-time.
 
@@ -87,7 +87,7 @@ real-time.
 
 <img src="testing_running/workflow-test-progress.png"
 class="align-center"
-alt="Workflow test progress in Odoo Marketing Automation." />
+alt="Workflow test progress in Konvergo ERP Marketing Automation." />
 
 Once all the workflow activities are completed, the test ends, and the
 status bar (in the upper-right corner) moves to the `Completed` stage.
@@ -138,7 +138,7 @@ as the campaign progresses: `Templates`, `Clicks`, `Tests`,
 
 <img src="testing_running/campaign-smart-buttons.png"
 class="align-center"
-alt="The row of smart buttons that appear in a currently running marketing campaign in Odoo." />
+alt="The row of smart buttons that appear in a currently running marketing campaign in Konvergo ERP." />
 
 ## Stop campaigns
 
@@ -149,14 +149,14 @@ form, click the `Stop` button in the upper-left corner.
 
 <img src="testing_running/stop-button-campaign-form.png"
 class="align-center"
-alt="The stop button on a typical campaign detail form in Odoo Marketing Automation application." />
+alt="The stop button on a typical campaign detail form in Konvergo ERP Marketing Automation application." />
 
 When clicked, the campaign is officially stopped, and the status changes
 to `Stopped` in the upper-right corner of the campaign detail form.
 
 <img src="testing_running/campaign-stopped-status-bar.png"
 class="align-center"
-alt="Marketing campaign&#39;s stopped status on a campaign detail form in Odoo Marketing Automation." />
+alt="Marketing campaign&#39;s stopped status on a campaign detail form in Konvergo ERP Marketing Automation." />
 
 <div class="seealso">
 

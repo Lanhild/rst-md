@@ -5,11 +5,11 @@ part of any business. A company also needs to be available when
 customers call, in order to build trust and make connections.
 
 This document covers how to make, receive, transfer, and forward calls
-with Odoo *VoIP*.
+with Konvergo ERP *VoIP*.
 
 ## Make calls
 
-Starting on the Odoo dashboard, a call can be made by opening the phone
+Starting on the Konvergo ERP dashboard, a call can be made by opening the phone
 widget in the the upper-right corner, which is represented by a
 `☎️ (phone)` icon.
 
@@ -46,7 +46,7 @@ alt="Using the VoIP phone widget to make calls." />
 ## Receive calls
 
 An incoming call automatically opens the *VoIP* widget, when a user is
-using the Odoo database. Should the database be open in another tab, a
+using the Konvergo ERP database. Should the database be open in another tab, a
 sound plays (the sound **must** be activated on the device).
 
 Once back to the tab, the calling screen of the *VoIP* phone widget
@@ -61,7 +61,7 @@ alt="Incoming call on the VoIP widget, with the call answer and call reject butt
 ## Add to call queue
 
 All the contacts and customers that need to be called can be seen in one
-place with the Odoo *VoIP* phone widget, under the `Next activities`
+place with the Konvergo ERP *VoIP* phone widget, under the `Next activities`
 tab.
 
 <img src="transfer_forward/next-activities.png" class="align-center"
@@ -82,7 +82,7 @@ are scheduled immediately for that day appear in the queue under the
 alt="Adding a call to the next activities tab in the VoIP phone widget." />
 
 The `Next Activities` tab of the *VoIP* phone widget is integrated with
-the following Odoo apps: *CRM*, *Project*, and *Helpdesk*.
+the following Konvergo ERP apps: *CRM*, *Project*, and *Helpdesk*.
 
 A call can be added in the chatter of records within those applications.
 
@@ -96,7 +96,7 @@ Next, set a `Due Date`, and add a `Summary`.
 Lastly, change the `Assigned to` field to the person that should make
 the call. Whomever is set in this last field (`Assigned to`) has this
 call show up in their `Next
-Activities` call queue in the Odoo *VoIP* phone widget.
+Activities` call queue in the Konvergo ERP *VoIP* phone widget.
 
 > [!IMPORTANT]
 > Only calls for the immediate day (today's date) appear in the
@@ -108,9 +108,9 @@ of the call.
 
 ## Transfer calls
 
-A call can be transferred from one user to another in the Odoo *VoIP*
+A call can be transferred from one user to another in the Konvergo ERP *VoIP*
 phone widget. However, this can **only** occur after speaking to the
-caller first. Without picking up the call in the Odoo *VoIP* phone
+caller first. Without picking up the call in the Konvergo ERP *VoIP* phone
 widget, the only way to transfer a call is automatically though the
 provider console/portal.
 
@@ -120,7 +120,7 @@ For more information on transfers, visit `voip/axivox/forwardings_tab`.
 
 </div>
 
-To transfer a call within the Odoo *VoIP* phone widget, first, answer
+To transfer a call within the Konvergo ERP *VoIP* phone widget, first, answer
 the call using the green `📞 (phone)` icon.
 
 Once the incoming call is answered, click the `↔ (left-right arrow)`
@@ -142,7 +142,7 @@ alt="Transferring a call within the phone widget, with the transfer buttons high
 
 ## Forward calls
 
-To forward a call within the Odoo *VoIP* phone widget, first, answer the
+To forward a call within the Konvergo ERP *VoIP* phone widget, first, answer the
 call using the green `📞 (phone)` icon. Once the incoming call is
 answered, click the `↔ (left-right
 arrow)` icon.

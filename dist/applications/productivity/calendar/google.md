@@ -1,6 +1,6 @@
-# Synchronize Google calendar with Odoo
+# Synchronize Google calendar with Konvergo ERP
 
-Synchronize Google Calendar with Odoo to see and manage meetings from
+Synchronize Google Calendar with Konvergo ERP to see and manage meetings from
 both platforms (updates go in both directions). This integration helps
 organize schedules, so a meeting is never missed.
 
@@ -33,7 +33,7 @@ configure OAuth in, and store credentials. Click `New Project`.
 alt="Create a new API project to store credentials." />
 
 > [!TIP]
-> Give the API Project a clear name, like "Odoo Sync", so it can be
+> Give the API Project a clear name, like "Konvergo ERP Sync", so it can be
 > easily identified.
 
 ### Enable Google calendar API
@@ -69,7 +69,7 @@ the `User Type`.
 > in this testing mode is set to 100 users.
 
 In the second step, `OAuth Consent Screen`, type
-<span class="title-ref">Odoo</span> in the `App name` field, select the
+<span class="title-ref">Konvergo ERP</span> in the `App name` field, select the
 email address for the `User support email` field, and type the email
 address for the `Developer contact information` section. Then, click
 `Save and
@@ -90,20 +90,20 @@ credentials.
 ### Create credentials
 
 The *Client ID* and the *Client Secret* are both needed to connect
-Google Calendar to Odoo. This is the last step in the Google console.
+Google Calendar to Konvergo ERP. This is the last step in the Google console.
 Begin by clicking `Credentials` in the left menu. Then, click
 `Create Credentials`, and select `OAuth client ID`, Google will open a
 guide to create credentials.
 
 Under `Create OAuth Client ID`, select `Website application` for the
-`Application Type` field, and type <span class="title-ref">My Odoo
+`Application Type` field, and type <span class="title-ref">My Konvergo ERP
 Database</span> for the `Name`.
 
 - Under the `Authorized JavaScript Origins` section, click `+ Add URI`
-  and type the company's Odoo full `URL (Uniform Resource Locator)`
+  and type the company's Konvergo ERP full `URL (Uniform Resource Locator)`
   address.
 - Under the `Authorized redirect URIs` section, click `+ Add URI` and
-  type the company's Odoo `URL (Uniform Resource Locator)` address
+  type the company's Konvergo ERP `URL (Uniform Resource Locator)` address
   followed by
   <span class="title-ref">/google_account/authentication</span>.
   Finally, click `Create`.
@@ -113,9 +113,9 @@ alt="Add the authorized JavaScript origins and the authorized redirect URIs." />
 
 A `Client ID` and `Client Secret` will appear, copy these to a notepad.
 
-## Setup in Odoo
+## Setup in Konvergo ERP
 
-Once the *Client ID* and the *Client Secret* are located, open the Odoo
+Once the *Client ID* and the *Client Secret* are located, open the Konvergo ERP
 database and go to
 `Settings --> General Settings --> Integrations --> Google Calendar`.
 Check the box next to `Google Calendar`.
@@ -127,37 +127,37 @@ Next, copy and paste the *Client ID* and the *Client Secret* from the
 Google Calendar API credentials page into their respective fields below
 the `Google Calendar` checkbox. Then, click `Save`.
 
-## Sync calendar in Odoo
+## Sync calendar in Konvergo ERP
 
-Finally, open the `Calendar` app in Odoo and click on the `Google` sync
-button to sync Google Calendar with Odoo.
+Finally, open the `Calendar` app in Konvergo ERP and click on the `Google` sync
+button to sync Google Calendar with Konvergo ERP.
 
 <img src="google/sync-google.png" class="align-center"
-alt="Click the Google sync button in Odoo Calendar to sync Google Calendar with Odoo." />
+alt="Click the Google sync button in Konvergo ERP Calendar to sync Google Calendar with Konvergo ERP." />
 
 > [!NOTE]
-> When syncing Google Calendar with Odoo for the first time, the page
+> When syncing Google Calendar with Konvergo ERP for the first time, the page
 > will redirect to the Google Account. From there, select the
 > `Email Account` that should have access, then select `Continue`
 > (should the app be unverifed), and finally select `Continue` (to give
 > permission for the transfer of data)\`.
 
 <img src="google/trust-odoo.png" class="align-center"
-alt="Give Odoo permission to access Google Calendar." />
+alt="Give Konvergo ERP permission to access Google Calendar." />
 
-Now, Odoo Calendar is successfully synced with Google Calendar!
+Now, Konvergo ERP Calendar is successfully synced with Google Calendar!
 
 > [!WARNING]
-> Odoo highly recommends testing the Google calendar synchronization on
+> Konvergo ERP highly recommends testing the Google calendar synchronization on
 > a test database and a test email address (that is not used for any
 > other purpose) before attempting to sync the desired Google Calendar
 > with the user's production database.
 >
-> Once a user synchronizes their Google calendar with the Odoo calendar:
+> Once a user synchronizes their Google calendar with the Konvergo ERP calendar:
 >
-> - Creating an event in Odoo causes Google to send an invitation to all
+> - Creating an event in Konvergo ERP causes Google to send an invitation to all
 >   event attendees.
-> - Deleting an event in Odoo causes Google to send a cancellation to
+> - Deleting an event in Konvergo ERP causes Google to send a cancellation to
 >   all event attendees.
 > - Adding a contact to an event causes Google to send an invitation to
 >   all event attendees.
@@ -171,7 +171,7 @@ Now, Odoo Calendar is successfully synced with Google Calendar!
 ## Troubleshoot sync
 
 There may be times when the *Google Calendar* account does not sync
-correctly with Odoo. Sync issues can be seen in the database logs.
+correctly with Konvergo ERP. Sync issues can be seen in the database logs.
 
 In these cases, the account needs troubleshooting. A reset can be
 performed using the `Reset Account` button, which can be accessed by
@@ -187,26 +187,26 @@ Next, click `Reset Account` under the correct calendar.
 ### Reset options
 
 The following reset options are available for troubleshooting Google
-calendar sync with Odoo:
+calendar sync with Konvergo ERP:
 
 <img src="google/reset-calendar.png" class="align-center"
-alt="Google calendar reset options in Odoo." />
+alt="Google calendar reset options in Konvergo ERP." />
 
 `User's Existing Events`:
 
 > - `Leave them untouched`: no changes to the events.
 > - `Delete from the current Google Calendar account`: delete the events
 >   from *Google Calendar*.
-> - `Delete from Odoo`: delete the events from the Odoo calendar.
+> - `Delete from Konvergo ERP`: delete the events from the Konvergo ERP calendar.
 > - `Delete from both`: delete the events from both *Google Calendar*
->   and Odoo calendar.
+>   and Konvergo ERP calendar.
 
 `Next Synchronization`:
 
 > - `Synchronize only new events`: sync new events on *Google Calendar*
->   and/or Odoo calendar.
+>   and/or Konvergo ERP calendar.
 > - `Synchronize all existing events`: sync all events on *Google
->   Calendar* and/or Odoo calendar.
+>   Calendar* and/or Konvergo ERP calendar.
 
 Click `Confirm` after making the selection to modify the user's events
 and the calendar synchronization.
@@ -216,7 +216,7 @@ and the calendar synchronization.
 At times there can be misconfigurations that take place, and
 troubleshooting is needed to resolve the issue. Below are the most
 common errors that may occur when configuring the *Google Calendar* for
-use with Odoo.
+use with Konvergo ERP.
 
 ### Production vs. testing publishing status
 
@@ -244,7 +244,7 @@ alt="403 Access Denied Error." />
 To correct this error, return to the `OAuth consent screen`, under
 `APIs &
 Services`, and add test users to the app. Add the email to be configured
-in Odoo.
+in Konvergo ERP.
 
 ### Application Type
 
@@ -261,7 +261,7 @@ credentials, by selecting `Web Application` for the `Application Type`.
 Then, under `Authorized redirect URIs`, click `ADD URI`, and type:
 <span class="title-ref">https://yourdbname.odoo.com/google_account/authentication</span>
 in the field, being sure to replace *yourdbname* in the URL with the
-**real** Odoo database name.
+**real** Konvergo ERP database name.
 
 > [!TIP]
 > Ensure that the domain (used in the URI:

@@ -1,6 +1,6 @@
 # External API
 
-Odoo is usually extended internally via modules, but many of its
+Konvergo ERP is usually extended internally via modules, but many of its
 features and all of its data are also available from the outside for
 external analysis or integration with various tools. Part of the
 `reference/orm/model` API is easily available over
@@ -14,9 +14,9 @@ variety of languages.
 > the installation steps.
 
 > [!NOTE]
-> Access to data via the external API is only available on *Custom* Odoo
+> Access to data via the external API is only available on *Custom* Konvergo ERP
 > pricing plans. Access to the external API is not available on *One App
-> Free* or *Standard* plans. For more information visit the [Odoo
+> Free* or *Standard* plans. For more information visit the [Konvergo ERP
 > pricing page](https://www.odoo.com/pricing-plan) or reach out to your
 > Customer Success Manager.
 
@@ -30,14 +30,14 @@ variety of languages.
 
 ### Configuration
 
-If you already have an Odoo server installed, you can just use its
+If you already have an Konvergo ERP server installed, you can just use its
 parameters.
 
 > [!IMPORTANT]
-> For Odoo Online instances (\<domain\>.odoo.com), users are created
-> without a *local* password (as a person you are logged in via the Odoo
+> For Konvergo ERP Online instances (\<domain\>.odoo.com), users are created
+> without a *local* password (as a person you are logged in via the Konvergo ERP
 > Online authentication system, not by the instance itself). To use
-> XML-RPC on Odoo Online instances, you will need to set a password on
+> XML-RPC on Konvergo ERP Online instances, you will need to set a password on
 > the user account you want to use:
 >
 > - Log in your instance with an administrator account.
@@ -116,7 +116,7 @@ admin)\>
 
 </div>
 
-Odoo has support for **api keys** and (depending on modules or settings)
+Konvergo ERP has support for **api keys** and (depending on modules or settings)
 may **require** these keys to perform webservice operations.
 
 The way to use API Keys in your scripts is to simply replace your
@@ -267,7 +267,7 @@ password = info["password"].(string)
 
 ### Logging in
 
-Odoo requires users of the API to be authenticated before they can query
+Konvergo ERP requires users of the API to be authenticated before they can query
 most data.
 
 The `xmlrpc/2/common` endpoint provides meta-calls which don't require
@@ -975,7 +975,7 @@ Result:
 
 ### Search and read
 
-Because it is a very common task, Odoo provides a
+Because it is a very common task, Konvergo ERP provides a
 `~odoo.models.Model.search_read` shortcut which, as its name suggests,
 is equivalent to a `~odoo.models.Model.search` followed by a
 `~odoo.models.Model.read`, but avoids having to perform two requests and
@@ -1337,14 +1337,14 @@ Result:
 ### Inspection and introspection
 
 While we previously used `~odoo.models.Model.fields_get` to query a
-model and have been using an arbitrary model from the start, Odoo stores
+model and have been using an arbitrary model from the start, Konvergo ERP stores
 most model metadata inside a few meta-models which allow both querying
 the system and altering models and fields (with some limitations) on the
 fly over XML-RPC.
 
 #### `ir.model`
 
-Provides information about Odoo models via its various fields.
+Provides information about Konvergo ERP models via its various fields.
 
 `name`  
 a human-readable description of the model
@@ -1499,7 +1499,7 @@ Result:
 
 #### `ir.model.fields`
 
-Provides information about the fields of Odoo models and allows adding
+Provides information about the fields of Konvergo ERP models and allows adding
 custom fields without using Python code.
 
 `model_id`  

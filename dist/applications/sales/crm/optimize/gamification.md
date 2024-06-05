@@ -14,7 +14,7 @@ adds some useful data (goals and challenges) that can be used on
 
 <img src="gamification/gamification_module_install.png"
 class="align-center"
-alt="View of the gamification module being installed in Odoo" />
+alt="View of the gamification module being installed in Konvergo ERP" />
 
 ## Create a challenge
 
@@ -28,7 +28,7 @@ Now, create your first challenge by going to
 > To do so, go to *Settings* and *Activate the developer mode*.
 
 <img src="gamification/gamification_tools_menu.png" class="align-center"
-alt="View if the gamification tools menu in Odoo Settings" />
+alt="View if the gamification tools menu in Konvergo ERP Settings" />
 
 A challenge is a mission that you send to your sales team. It can
 include one or several goals, set for a specific period of time.
@@ -52,7 +52,7 @@ invoiced and number of new leads generated. At the end of the month, the
 winner will be granted with a badge.
 
 <img src="gamification/challenges.png" class="align-center"
-alt="View of the challenge form and a challenge being created for Odoo Sales" />
+alt="View of the challenge form and a challenge being created for Konvergo ERP Sales" />
 
 ### Set up goals
 
@@ -67,7 +67,7 @@ lead, total amount invoiced in a specific week, month or any other time
 frame based on your management preferences, etc.
 
 <img src="gamification/goal_definitions.png" class="align-center"
-alt="View of the goal definition form and a goal definition being created for Odoo Sales" />
+alt="View of the goal definition form and a goal definition being created for Konvergo ERP Sales" />
 
 > [!NOTE]
 > Goals may include your database setup as well (e.g. set your company
@@ -82,4 +82,4 @@ badges to your employees based on their performance, go to
 `Settings --> Gamification Tools --> Badges`.
 
 <img src="gamification/badges.png" class="align-center"
-alt="View of the badges page in Odoo" />
+alt="View of the badges page in Konvergo ERP" />

@@ -11,7 +11,7 @@ e-Faktur** application.
 
 - **Your Company**  
   This information is used in the FAPR line in the effect file format.
-  You need to set a VAT number on the related partner of your Odoo
+  You need to set a VAT number on the related partner of your Konvergo ERP
   company. If you don't, it won't be possible to create an e-Faktur from
   an invoice.
 
@@ -39,7 +39,7 @@ e-Faktur** application.
 2.  After receiving new serial numbers from the Indonesian Revenue
     Department, you can create a set of tax invoice serial numbers group
     through this list view. You only have to specify the Min and Max of
-    each serial numbers' group and Odoo will format the number
+    each serial numbers' group and Konvergo ERP will format the number
     automatically to a 13-digits number, as requested by the Indonesia
     Tax Revenue Department.
 
@@ -53,7 +53,7 @@ e-Faktur** application.
 
 1.  Create an invoice from `Accounting --> Customers --> Invoices`. If
     the invoice customer's country is Indonesia and the customer is set
-    as *ID PKP*, Odoo will allow you to create an e-Faktur.
+    as *ID PKP*, Konvergo ERP will allow you to create an e-Faktur.
 
 2.  Set a Kode Transaksi for the e-Faktur. There are constraints related
     to the Kode transaksi and the type of VAT applied to invoice lines.
@@ -61,7 +61,7 @@ e-Faktur** application.
     <img src="indonesia/indonesia-kode-transaksi.png" class="align-center"
     alt="image" />
 
-3.  Odoo will automatically pick the next available serial number from
+3.  Konvergo ERP will automatically pick the next available serial number from
     the e-Faktur number table (see the
     `section above <localization_indonesia/tax_invoice_sn>`) and
     generate the e-faktur number as a concatenation of Kode Transaksi
@@ -93,12 +93,12 @@ Barang Tertentu) - 09 Penyerahan Aktiva (Pasal 16D UU PPN)
 
 #### Correct an invoice that has been posted and downloaded: Replace Invoice feature
 
-1.  Cancel the original wrong invoice in Odoo. For instance, we will
+1.  Cancel the original wrong invoice in Konvergo ERP. For instance, we will
     change the Kode Transakski from 01 to 03 for the INV/2020/0001.
 2.  Create a new invoice and set the canceled invoice in the *Replace
     Invoice* field. In this field, we can only select invoices in
     *Cancel* state from the same customer.
-3.  As you validate, Odoo will automatically use the same e-Faktur
+3.  As you validate, Konvergo ERP will automatically use the same e-Faktur
     serial number as the canceled and replaced invoice replacing the
     third digit of the original serial number with *1* (as requested to
     upload a replacement invoice in the e-Faktur app).

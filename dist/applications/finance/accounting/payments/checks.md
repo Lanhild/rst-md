@@ -1,6 +1,6 @@
 # Checks
 
-There are two ways to handle payments received by checks in Odoo, either
+There are two ways to handle payments received by checks in Konvergo ERP, either
 by using `outstanding
 accounts <checks/outstanding-account>` or by
 `bypassing the reconciliation process

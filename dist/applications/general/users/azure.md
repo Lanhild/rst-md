@@ -1,19 +1,19 @@
 # Microsoft Azure sign-in authentication
 
 The Microsoft Azure OAuth sign-in authentication is a useful function
-that allows Odoo users to sign in to their database with their Microsoft
+that allows Konvergo ERP users to sign in to their database with their Microsoft
 Azure account.
 
 This is particularly helpful if the organization uses Azure Workspace,
-and wants employees within the organization to connect to Odoo using
+and wants employees within the organization to connect to Konvergo ERP using
 their Microsoft Accounts.
 
 > [!WARNING]
-> Databases hosted on Odoo.com should not use OAuth login for the owner
+> Databases hosted on Konvergo ERP.com should not use OAuth login for the owner
 > or administrator of the database as it would unlink the database from
-> their Odoo.com account. If OAuth is set up for that user, the database
+> their Konvergo ERP.com account. If OAuth is set up for that user, the database
 > will no longer be able to be duplicated, renamed, or otherwise managed
-> from the Odoo.com portal.
+> from the Konvergo ERP.com portal.
 
 <div class="seealso">
 
@@ -25,9 +25,9 @@ their Microsoft Accounts.
 ## Configuration
 
 Integrating the Microsoft sign-in function requires configuration on
-Microsoft and Odoo.
+Microsoft and Konvergo ERP.
 
-### Odoo System Parameter
+### Konvergo ERP System Parameter
 
 First activate the `developer mode <developer-mode>`, and then go to
 `Settings
@@ -43,7 +43,7 @@ Then click `Save` to finish.
 
 #### Create a new application
 
-Now that the system parameters in Odoo have been set up, it's time to
+Now that the system parameters in Konvergo ERP have been set up, it's time to
 create a corresponding application inside of Microsoft Azure. To get
 started creating the new application, go to [Microsoft's Azure
 Portal](https://portal.azure.com/). Log in with the `Microsoft
@@ -62,7 +62,7 @@ usually in the center of the page.
 Now, click on the `Add (+)` icon, located in the top menu, and then
 select `App
 registration` from the drop-down menu. On the `Register an application`
-screen, rename the `Name` field to <span class="title-ref">Odoo Login
+screen, rename the `Name` field to <span class="title-ref">Konvergo ERP Login
 OAuth</span> or a similarly recognizable title. Under the
 `Supported account types` section select the option for
 `Accounts in this
@@ -82,10 +82,10 @@ organizational directory only (Default Directory only - Single tenant)`.
 
 Under the `Redirect URL` section, select `Web` as the platform, and then
 input <span class="title-ref">https://\<odoo base
-url\>/auth_oauth/signin</span> in the `URL` field. The Odoo base `URL
-(Uniform Resource Locator)` is the canonical domain at which your Odoo
+url\>/auth_oauth/signin</span> in the `URL` field. The Konvergo ERP base `URL
+(Uniform Resource Locator)` is the canonical domain at which your Konvergo ERP
 instance can be reached (e.g. *mydatabase.odoo.com* if you are hosted on
-Odoo.com) in the `URL` field. Then, click `Register`, and the
+Konvergo ERP.com) in the `URL` field. Then, click `Register`, and the
 application is created.
 
 #### Authentication
@@ -96,7 +96,7 @@ settings from the previous step.
 
 Next, the type of *tokens* needed for the OAuth authentication will be
 chosen. These are not currency tokens but rather authentication tokens
-that are passed between Microsoft and Odoo. Therefore, there is no cost
+that are passed between Microsoft and Konvergo ERP. Therefore, there is no cost
 for these tokens; they are used merely for authentication purposes
 between two `APIs (application programming interfaces)`. Select the
 tokens that should be issued by the authorization endpoint by scrolling
@@ -117,7 +117,7 @@ console, credentials will be gathered next. To do so, click on the
 `Overview` menu item in the left-hand column. Select and copy the
 `Application (client) ID` in the window that appears. Paste this
 credential to a clipboard / notepad, as this credential will be used in
-the Odoo configuration later.
+the Konvergo ERP configuration later.
 
 After finishing this step, click on `Endpoints` on the top menu and
 click the *copy icon* next to `OAuth 2.0 authorization endpoint (v2)`
@@ -126,10 +126,10 @@ field. Paste this value in the clipboard / notepad.
 <img src="azure/overview-azure-app.png" class="align-center"
 alt="Application ID and OAuth 2.0 authorization endpoint (v2) credentials." />
 
-### Odoo setup
+### Konvergo ERP setup
 
 Finally, the last step in the Microsoft Azure OAuth configuration is to
-configure some settings in Odoo. Navigate to
+configure some settings in Konvergo ERP. Navigate to
 `Settings --> Integrations --> OAuth Authentication` and check the box
 to activate the OAuth login feature. Click `Save` to ensure the progress
 is saved. Then, sign in to the database once the login screen loads.
@@ -161,25 +161,25 @@ Finally, add <span class="title-ref">Microsoft Azure</span> to the
 logo on the login page.
 
 <img src="azure/odoo-provider-settings.png" class="align-center"
-alt="Odoo provider setup in the Settings application." />
+alt="Konvergo ERP provider setup in the Settings application." />
 
-`Save` the changes to complete the OAuth authentication setup in Odoo.
+`Save` the changes to complete the OAuth authentication setup in Konvergo ERP.
 
 ### User experience flows
 
-For a user to log in to Odoo using Microsoft Azure, the user must be on
-the `Odoo
-password reset page`. This is the only way that Odoo is able to link the
+For a user to log in to Konvergo ERP using Microsoft Azure, the user must be on
+the `Konvergo ERP
+password reset page`. This is the only way that Konvergo ERP is able to link the
 Microsoft Azure account and allow the user to log in.
 
 > [!NOTE]
 > Existing users must `reset their password <users/reset-password>` to
-> access the `Odoo password reset page`. New Odoo users must click the
+> access the `Konvergo ERP password reset page`. New Konvergo ERP users must click the
 > new user invitation link that was sent via email, then click on
 > `Microsoft Azure`. Users should not set a new password.
 
-To sign in to Odoo for the first time using the Microsoft Azure OAuth
-provider, navigate to the `Odoo password reset page` (using the new user
+To sign in to Konvergo ERP for the first time using the Microsoft Azure OAuth
+provider, navigate to the `Konvergo ERP password reset page` (using the new user
 invitation link). A password reset page should appear. Then, click on
 the option labeled `Microsoft Azure`. The page will redirect to the
 Microsoft login page.
@@ -196,7 +196,7 @@ alt="Enter Microsoft login credentials." />
 
 Finally, after logging in to the account, the page will redirect to a
 permissions page where the user will be prompted to `Accept` the
-conditions that the Odoo application will access their Microsoft
+conditions that the Konvergo ERP application will access their Microsoft
 information.
 
 <img src="azure/accept-access.png" class="align-center"

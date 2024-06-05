@@ -9,7 +9,7 @@ When browsing your chart of accounts, you can sort the accounts by
 `Code`, `Account Name`, or `Type`, but other options are available in
 the drop-down menu `(⋮)`.
 
-![Group the accounts by type in Odoo Accounting](chart_of_accounts/chart-of-accounts-sort.png)
+![Group the accounts by type in Konvergo ERP Accounting](chart_of_accounts/chart-of-accounts-sort.png)
 
 ## Configuration of an account
 
@@ -127,7 +127,7 @@ To display your **Trial Balance** report with your account groups, go to
 `Accounting-->Reporting-->Trial Balance`, then open the `Options` menu
 and select `Hierarchy and Subtotals`.
 
-![Account Groups in the Trial Balance in Odoo Accounting](chart_of_accounts/chart-of-accounts-groups.png)
+![Account Groups in the Trial Balance in Konvergo ERP Accounting](chart_of_accounts/chart-of-accounts-groups.png)
 
 ### Allow reconciliation
 
@@ -143,7 +143,7 @@ To do so, check the `Allow Reconciliation` box in the account's
 settings, and `Save`; or enable the button from the chart of accounts
 view.
 
-![Allow reconciliation for accounts in Odoo Accounting](chart_of_accounts/chart-of-accounts-reconciliation.png)
+![Allow reconciliation for accounts in Konvergo ERP Accounting](chart_of_accounts/chart-of-accounts-reconciliation.png)
 
 ### Deprecated
 
@@ -157,9 +157,9 @@ feature: check the `Deprecated` box in the account's settings, and
 \* `cheat_sheet` \* `../vendor_bills/assets` \*
 `../vendor_bills/deferred_expenses` \*
 `../customer_invoices/deferred_revenues` \* `../../fiscal_localizations`
-\* [Odoo Tutorials: Chart of
+\* [Konvergo ERP Tutorials: Chart of
 accounts](https://www.odoo.com/slides/slide/chart-of-accounts-1630) \*
-[Odoo Tutorials: Update your chart of
+[Konvergo ERP Tutorials: Update your chart of
 accounts](https://www.odoo.com/slides/slide/update-your-chart-of-accounts-1658)
 
 </div>

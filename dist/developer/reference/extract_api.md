@@ -1,6 +1,6 @@
 # Extract API
 
-Odoo provides a service to automate the processing of documents of type
+Konvergo ERP provides a service to automate the processing of documents of type
 **invoices**, **expenses** or **resumes**.
 
 The service scans documents using an
@@ -111,7 +111,7 @@ only for legacy reasons. The supported extensions are *pdf*, *png*,
 *jpg* and *bmp*.
 
 `dbuuid` (optional)  
-Unique identifier of the Odoo database.
+Unique identifier of the Konvergo ERP database.
 
 `webhook_url` (optional)  
 A webhook URL can be provided. An empty POST request will be sent to
@@ -147,7 +147,7 @@ en_US).
 The user email.
 
 `purchase_order_regex` (optional)  
-Regex for purchase order identification. Will default to Odoo PO format
+Regex for purchase order identification. Will default to Konvergo ERP PO format
 if not provided.
 
 `perspective` (optional)  

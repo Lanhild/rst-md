@@ -6,7 +6,7 @@ to customers, explaining the value of a product or service, or when
 advertising an upcoming event or product release.
 
 The most effective social marketing campaigns typically involve multiple
-channels to maximize content distribution, and Odoo's *Social Marketing*
+channels to maximize content distribution, and Konvergo ERP's *Social Marketing*
 application acts as a singular control center to monitor, plan, post,
 track, and analyze all of the various content and content channels
 within a single dashboard.
@@ -20,7 +20,7 @@ Doing so reveals a separate page with every campaign in a default kanban
 view.
 
 <img src="social_campaigns/campaigns-page.png" class="align-center"
-alt="View of the campaigns page in the Odoo Social Marketing application." />
+alt="View of the campaigns page in the Konvergo ERP Social Marketing application." />
 
 Each *stage* in the kanban view can be edited, by clicking the
 `gear icon` to the left of the `+ (plus sign)` - located to the right of
@@ -33,7 +33,7 @@ the stage title.
 
 <img src="social_campaigns/campaign-stage-dropdown.png"
 class="align-center"
-alt="View of the campaigns page in the Odoo Social Marketing application." />
+alt="View of the campaigns page in the Konvergo ERP Social Marketing application." />
 
 Clicking `Fold` minimizes that specific stage's column. The stage column
 can be restored by clicking the folded version of it on the main
@@ -70,7 +70,7 @@ Both options reveal a new campaign detail window directly on the
 `Campaigns` dashboard when clicked.
 
 <img src="social_campaigns/quick-add-campaign.png" class="align-center"
-alt="View of the quick add option for campaigns in Odoo Social Marketing." />
+alt="View of the quick add option for campaigns in Konvergo ERP Social Marketing." />
 
 Here, the `Campaign Name`, `Responsible`, and `Tags` can be entered.
 When all modifications are complete, click `Add` to add the campaign to
@@ -102,7 +102,7 @@ modified, and sent or scheduled. Below is a sample of a completed
 campaign template.
 
 <img src="social_campaigns/create-campaign.png" class="align-center"
-alt="View of a sample campaign template page in Odoo Social Marketing." />
+alt="View of a sample campaign template page in Konvergo ERP Social Marketing." />
 
 > [!IMPORTANT]
 > In order for the `Send New Mailing` option to appear on campaign
@@ -112,7 +112,7 @@ alt="View of a sample campaign template page in Odoo Social Marketing." />
 > Campaigns`, and click `Save`.
 
 > [!NOTE]
-> In order for the `Send SMS` option to appear, the Odoo *SMS Marketing*
+> In order for the `Send SMS` option to appear, the Konvergo ERP *SMS Marketing*
 > application must be installed on the database.
 
 ## Add content and communications to campaigns
@@ -134,7 +134,7 @@ the upper-left corner of the campaign template page.
   pre-selected in the `Post
   on` field.
 
-Whichever form of communication is created, once it's completed, Odoo
+Whichever form of communication is created, once it's completed, Konvergo ERP
 returns to the `Campaign Template` page, showcasing that new content in
 its corresponding tab (e.g. `Mailings`, `SMS`, `Social Media`, and/or
 `Push
@@ -151,7 +151,7 @@ page dedicated to that particular element of the campaign, allowing for
 quicker, more organized analysis.
 
 > [!NOTE]
-> The Odoo *Social Marketing* app is integrated with other Odoo
+> The Konvergo ERP *Social Marketing* app is integrated with other Konvergo ERP
 > applications, such as *Sales*, *Invoicing*, *CRM*, and *Website*.
 
 <div class="seealso">

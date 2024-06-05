@@ -2,9 +2,9 @@
 
 ## Introduction
 
-The Odoo Javascript framework is a set of features/building blocks
+The Konvergo ERP Javascript framework is a set of features/building blocks
 provided by the `web/` addon to help build odoo applications running in
-the browser. At the same time, the Odoo Javascript framework is a single
+the browser. At the same time, the Konvergo ERP Javascript framework is a single
 page application, usually known as the *web client* (available at the
 url `/web`).
 
@@ -20,18 +20,18 @@ needs and then replaces/updates the current screen accordingly. Also, it
 manages the url to keep it in sync with the current state.
 
 The javascript framework (all or some parts) is also used in other
-situations, such as the Odoo website or the point of sale. This
+situations, such as the Konvergo ERP website or the point of sale. This
 reference is mostly focused on the web client.
 
 > [!NOTE]
-> It is common in the Odoo ecosystem to see the words *frontend* and
+> It is common in the Konvergo ERP ecosystem to see the words *frontend* and
 > *backend* as synonyms for the odoo website (public) and the web
 > client, respectively. This terminology is not to be confused with the
 > more common use of browser-code (frontend) and server (backend).
 
 > [!NOTE]
 > In this documentation, the word *component* always refers to new Owl
-> components, and *widget* refers to old Odoo widgets.
+> components, and *widget* refers to old Konvergo ERP widgets.
 
 > [!NOTE]
 > All new development should be done in Owl, if possible!
@@ -87,9 +87,9 @@ extend the web client.
 
 ## Environment
 
-As an Owl application, the Odoo web client defines its own environment
+As an Owl application, the Konvergo ERP web client defines its own environment
 (components can access it using `this.env`). Here is a description of
-what Odoo adds to the shared `env` object:
+what Konvergo ERP adds to the shared `env` object:
 
 | Key                                     | Value                                                                                                                            |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -149,7 +149,7 @@ provide a feature. They may be imported by components (with
 dependencies. In that sense, services are basically a DI (dependency
 injection) system. For example, the `notification` service provides a
 way to display a notification, or the `rpc` service is the proper way to
-perform a request to the Odoo server.
+perform a request to the Konvergo ERP server.
 
 The following example registers a simple service that displays a
 notification every 5 second:
@@ -174,7 +174,7 @@ serviceRegistry.add("myService", myService);
 
 `Components <frontend/components>` and `hooks <frontend/hooks>` are
 ideas coming from the [Owl component
-system](https://github.com/odoo/owl/blob/master/doc/readme.md). Odoo
+system](https://github.com/odoo/owl/blob/master/doc/readme.md). Konvergo ERP
 components are simply owl components that are part of the web client.
 
 [Hooks](https://github.com/odoo/owl/blob/master/doc/reference/hooks.md)
@@ -195,15 +195,15 @@ function useCurrentTime() {
 
 ## Context
 
-An important concept in the Odoo javascript is the *context*: it
+An important concept in the Konvergo ERP javascript is the *context*: it
 provides a way for code to give more context to a function call or a
 rpc, so other parts of the system can properly react to that
 information. In some way, it is like a bag of information that is
 propagated everywhere. It is useful in some situations, such as letting
-the Odoo server know that a model rpc comes from a specific form view,
+the Konvergo ERP server know that a model rpc comes from a specific form view,
 or activating/disabling some features in a component.
 
-There are two different contexts in the Odoo web client: the *user
+There are two different contexts in the Konvergo ERP web client: the *user
 context* and the *action context* (so, we should be careful when using
 the word *context*: it could mean a different thing depending on the
 situation).
@@ -289,9 +289,9 @@ providing some information to the next action.
 
 ## Python Interpreter
 
-The Odoo framework features a built-in small python interpreter. Its
+The Konvergo ERP framework features a built-in small python interpreter. Its
 purpose is to evaluate small python expressions. This is important,
-because views in Odoo have modifiers written in python, but they need to
+because views in Konvergo ERP have modifiers written in python, but they need to
 be evaluated by the browser.
 
 Example:
@@ -342,7 +342,7 @@ The `py` javascript code exports 5 functions:
 
 ## Domains
 
-Broadly speaking, domains in Odoo represent a set of records that
+Broadly speaking, domains in Konvergo ERP represent a set of records that
 matches some specified conditions. In javascript, they are usually
 represented either as a list of conditions (or of operators:
 <span class="title-ref">\|</span>, <span class="title-ref">&</span> or
@@ -370,7 +370,7 @@ contain python expressions and unevaluated values, that depends on some
 evaluation context. However, manipulating string expressions is more
 difficult.
 
-Since domains are quite important in the web client, Odoo provides a
+Since domains are quite important in the web client, Konvergo ERP provides a
 <span class="title-ref">Domain</span> class:
 
 ``` javascript
@@ -574,12 +574,12 @@ It contains the following content:
 
 ## Debug mode
 
-Odoo can sometimes operate in a special mode called the
+Konvergo ERP can sometimes operate in a special mode called the
 <span class="title-ref">debug</span> mode. It is used for two main
 purposes:
 
 - display additional information/fields for some particular screens,
-- provide some additional tools to help developer debug the Odoo
+- provide some additional tools to help developer debug the Konvergo ERP
   interface.
 
 The <span class="title-ref">debug</span> mode is described by a string.

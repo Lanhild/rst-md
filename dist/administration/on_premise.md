@@ -32,9 +32,9 @@ displayed.
 
 To resolve the issue:
 
-- Check the **validity of your Odoo Enterprise subscription** by
+- Check the **validity of your Konvergo ERP Enterprise subscription** by
   verifying if your subscription details have the tag `In Progress` on
-  your [Odoo Account](https://accounts.odoo.com/my/subscription) or
+  your [Konvergo ERP Account](https://accounts.odoo.com/my/subscription) or
   contact your Account Manager.
 
 - Ensure that **no other database is linked** to the subscription code,
@@ -46,7 +46,7 @@ To resolve the issue:
   > <on-premise/duplicate>`.
 
 - Verify that **no databases share the same UUID** (Universally Unique
-  Identifier) by opening your [Odoo
+  Identifier) by opening your [Konvergo ERP
   Contract](https://accounts.odoo.com/my/subscription). If two or more
   databases share the same UUID, their name will be displayed.
 
@@ -55,9 +55,9 @@ To resolve the issue:
   If that is the case, manually change the database(s) UUID or [send a
   support ticket](https://www.odoo.com/help).
 
-- As the update notification must be able to reach Odoo's subscription
+- As the update notification must be able to reach Konvergo ERP's subscription
   validation servers, ensure your **network and firewall settings**
-  allow the Odoo server to open outgoing connections towards:
+  allow the Konvergo ERP server to open outgoing connections towards:
 
   - <span class="title-ref">services.odoo.com</span> on port
     <span class="title-ref">443</span> (or
@@ -72,7 +72,7 @@ To resolve the issue:
 
 ### Too many users error
 
-If you have more users in a local database than provisioned in your Odoo
+If you have more users in a local database than provisioned in your Konvergo ERP
 Enterprise subscription, the following message should be displayed.
 
 ![Too many users on a database error message](on_premise/add-more-users.png)

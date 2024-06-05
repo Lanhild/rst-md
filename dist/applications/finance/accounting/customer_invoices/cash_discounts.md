@@ -139,7 +139,7 @@ reads: &quot;Payment terms: 30 Days, 2% Early Payment Discount under 7 days&quot
 
 Apply a cash discount to a customer invoice by selecting the
 `payment terms you created
-<cash-discounts/payment-terms>`. Odoo automatically computes the correct
+<cash-discounts/payment-terms>`. Konvergo ERP automatically computes the correct
 amounts, tax amounts, due dates, and accounting records.
 
 Under the `Journal Items` tab, you can display the discount details by
@@ -159,7 +159,7 @@ alt="An invoice of €100.00 with the following text added to the terms and cond
 
 ### Payment reconciliation
 
-When you record a payment or reconcile your bank statements, Odoo takes
+When you record a payment or reconcile your bank statements, Konvergo ERP takes
 the customer payment's date into account to define if they can benefit
 from the cash discount or not.
 

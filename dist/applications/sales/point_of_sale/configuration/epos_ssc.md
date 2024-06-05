@@ -1,13 +1,13 @@
 # Self-signed certificate for ePOS printers
 
-To work with Odoo, some printer models that can be used without an
+To work with Konvergo ERP, some printer models that can be used without an
 `IoT box </applications/general/iot/config/connect>` may require
 `the HTTPS protocol
 <https>` to establish a secure connection between the browser and the
 printer. However, trying to reach the printer's IP address using HTTPS
 leads to a warning page on most web browsers. In that case, you can
 temporarily `force the connection <epos_ssc/instructions>`, which allows
-you to reach the page in HTTPS and use the ePOS printer in Odoo as long
+you to reach the page in HTTPS and use the ePOS printer in Konvergo ERP as long
 as the browser window stays open.
 
 > [!WARNING]

@@ -3,7 +3,7 @@
 Putaway is the process of routing products to appropriate storage
 locations upon shipment arrival.
 
-Odoo can accomplish this seamlessly using *putaway rules*, which dictate
+Konvergo ERP can accomplish this seamlessly using *putaway rules*, which dictate
 how products move through specified warehouse locations.
 
 Upon shipment arrival, operations are generated based on putaway rules
@@ -17,7 +17,7 @@ manager.
 
 <div class="seealso">
 
-[Odoo Tutorials: Putaway
+[Konvergo ERP Tutorials: Putaway
 Rules](https://www.youtube.com/watch?v=nCQMf6sj_w8)
 
 </div>
@@ -80,7 +80,7 @@ alt="Create putaway rules for apples and carrots." />
 
 ### Putaway rule priority
 
-Odoo selects a putaway rule based on the following priority list (from
+Konvergo ERP selects a putaway rule based on the following priority list (from
 highest to lowest) until a match is found:
 
 1.  Package type and product

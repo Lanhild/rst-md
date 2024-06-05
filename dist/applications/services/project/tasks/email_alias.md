@@ -22,7 +22,7 @@ message.
 In addition, you can now directly set it when creating a new project.
 
 <img src="email_alias/email_project.png" class="align-center"
-alt="In the settings of your project, define the emails alias under the tab email in Odoo Project" />
+alt="In the settings of your project, define the emails alias under the tab email in Konvergo ERP Project" />
 
 > [!IMPORTANT]
 > All the recipients of the email (To/Cc/Bcc) are automatically added as
@@ -32,4 +32,4 @@ The email can be seen under the name of your project on the dashboard.
 
 <img src="email_alias/email_dashboard_project.png" class="align-center"
 height="300"
-alt="View of the email alias chosen on the dashboard view in Odoo Project" />
+alt="View of the email alias chosen on the dashboard view in Konvergo ERP Project" />

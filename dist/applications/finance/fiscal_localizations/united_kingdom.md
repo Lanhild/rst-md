@@ -38,7 +38,7 @@ role="guilabel">UK - Accounting Reports</code></td>
 </table>
 
 <img src="united_kingdom/uk.png" class="align-center"
-alt="Odoo uk packages" />
+alt="Konvergo ERP uk packages" />
 
 > [!NOTE]
 > - Only UK-based companies can submit reports to HMRC. - Installing the
@@ -96,7 +96,7 @@ Digital](https://www.gov.uk/government/publications/making-tax-digital/overview-
 
 > [!IMPORTANT]
 > If your periodic submission is more than three months late, it is no
-> longer possible to submit it through Odoo, as Odoo only retrieves open
+> longer possible to submit it through Konvergo ERP, as Konvergo ERP only retrieves open
 > bonds from the last three months. Your submission has to be done
 > manually by contacting HMRC.
 

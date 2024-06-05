@@ -12,7 +12,7 @@ lists --> Mailing lists --> Create`. Clicking `Create` reveals a pop-up
 window.
 
 <img src="mailing_lists/new-mailing-list-popup.png" class="align-center"
-alt="View of the mailing list pop-up in the Odoo Email Marketing application." />
+alt="View of the mailing list pop-up in the Konvergo ERP Email Marketing application." />
 
 In the pop-up, name the mailing list and designate if the mailing list
 should be public with the `Is Public` checkbox.
@@ -22,7 +22,7 @@ recipients in the unsubscription page, making it possible for them to
 update their subscription preferences.
 
 After those options have been configured, click `Create` to create the
-mailing list, which Odoo automatically adds to the `Mailing Lists` page.
+mailing list, which Konvergo ERP automatically adds to the `Mailing Lists` page.
 
 ## Add contacts to a mailing list
 
@@ -51,7 +51,7 @@ lists can be added to a single contact's detail form.
 
 <img src="mailing_lists/contact-form-mailing-list-tab.png"
 class="align-center"
-alt="View of a contact detail form with mailing list tab in Odoo Email Marketing." />
+alt="View of a contact detail form with mailing list tab in Konvergo ERP Email Marketing." />
 
 ### Create new mailing list from contact detail form
 
@@ -61,7 +61,7 @@ appears. Then, select either `Create` or `Create and Edit...`.
 
 <img src="mailing_lists/new-list-dropdown-create-options.png"
 class="align-center"
-alt="View of the new mailing list drop-down on contact form in Odoo Email Marketing." />
+alt="View of the new mailing list drop-down on contact form in Konvergo ERP Email Marketing." />
 
 The `Create` option quickly creates the mailing list to the contact
 detail form, and the list can be configured at a later date. The
@@ -71,17 +71,17 @@ away.
 
 <img src="mailing_lists/create-and-edit-mailing-list-popup.png"
 class="align-center"
-alt="View of the create and edit mailing list pop-up in Odoo Email Marketing." />
+alt="View of the create and edit mailing list pop-up in Konvergo ERP Email Marketing." />
 
 ## Link a mailing list to website (Newsletter blocks)
 
-When a mailing list is created in the database, Odoo provides the option
-to directly link the mailing list on the Odoo-built website (created via
-Odoo's `Website` application).
+When a mailing list is created in the database, Konvergo ERP provides the option
+to directly link the mailing list on the Konvergo ERP-built website (created via
+Konvergo ERP's `Website` application).
 
 To link a mailing list to a website, navigate to the front-end of the
 website, and enter `Edit` mode by clicking `Edit` in the upper-right
-corner. When clicked, Odoo reveals a right-sidebar, filled with
+corner. When clicked, Konvergo ERP reveals a right-sidebar, filled with
 drag-and-drop *Building Blocks* that are packed with various features,
 options, and design elements.
 
@@ -93,20 +93,20 @@ website, drag-and-drop any of the `Newsletter` options
 > To quickly locate the `Newsletter` building block options (while in
 > `Edit` mode on the front-end of the website), type
 > <span class="title-ref">Newsletter</span> into the search bar, located
-> in the right sidebar, under the `Blocks` tab, and Odoo reveals the
+> in the right sidebar, under the `Blocks` tab, and Konvergo ERP reveals the
 > three different `Newsletter` block options.
 >
 > <img src="mailing_lists/newsletter-block-search.png"
 > class="align-center"
-> alt="View of how to quickly search for Newsletter blocks in the Odoo Website application." />
+> alt="View of how to quickly search for Newsletter blocks in the Konvergo ERP Website application." />
 
-When a `Newsletter` block is dragged onto the body of the website, Odoo
+When a `Newsletter` block is dragged onto the body of the website, Konvergo ERP
 reveals a pop-up window, in which the desired mailing list is selected
 from a drop-down menu (and linked) to this block on the website.
 
 <img src="mailing_lists/add-mailing-list-popup-website.png"
 class="align-center"
-alt="View of the add mailing list subscription pop-up on an Odoo Website." />
+alt="View of the add mailing list subscription pop-up on an Konvergo ERP Website." />
 
 - `Newsletter Block` - Adds a block onto the webpage, providing visitors
   with the option to add their email address to this mailing list, and
@@ -114,9 +114,9 @@ alt="View of the add mailing list subscription pop-up on an Odoo Website." />
 
   Here's an example of a `Newsletter Block`.
 
-  ![View of a sample newsletter block in the Odoo Website application.](mailing_lists/newsletter-block-sample.png)
+  ![View of a sample newsletter block in the Konvergo ERP Website application.](mailing_lists/newsletter-block-sample.png)
 
-- `Newsletter Popup` - Tells Odoo to reveal a subscription pop-up window
+- `Newsletter Popup` - Tells Konvergo ERP to reveal a subscription pop-up window
   to occur at a certain part of the webpage. When the visitor scrolls to
   this predetermined point, a pop-up subscription window appears, asking
   for their email address to subscribe to the mailing list. The pop-up
@@ -124,7 +124,7 @@ alt="View of the add mailing list subscription pop-up on an Odoo Website." />
 
   Here's an example of a `Newsletter Popup`.
 
-  ![View of a sample newsletter pop-up sample on an Odoo Website.](mailing_lists/newsletter-popup-sample.png)
+  ![View of a sample newsletter pop-up sample on an Konvergo ERP Website.](mailing_lists/newsletter-popup-sample.png)
 
 - `Newsletter` - Provides visitors with a simple field to add their
   email address to the mailing list, and subscribe to future mailings in
@@ -132,7 +132,7 @@ alt="View of the add mailing list subscription pop-up on an Odoo Website." />
 
   Here's an example of a `Newsletter` dynamic block.
 
-  ![View of a Newsletter dynamic block on an Odoo Website.](mailing_lists/newsletter-footer-block-sample.png)
+  ![View of a Newsletter dynamic block on an Konvergo ERP Website.](mailing_lists/newsletter-footer-block-sample.png)
 
 <div class="seealso">
 

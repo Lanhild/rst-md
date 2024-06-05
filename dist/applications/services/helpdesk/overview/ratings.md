@@ -15,7 +15,7 @@ box for `Customer Ratings`.
 
 <img src="ratings/ratings-enable.png" class="align-center"
 alt="Overview of the settings page of a helpdesk team emphasizing the rating on ticket feature
-in Odoo Helpdesk." />
+in Konvergo ERP Helpdesk." />
 
 ## Set a ratings request email template on a stage
 
@@ -48,7 +48,7 @@ asked to rate the support they received with colored icons.
 > - *Red frowning face* - Dissatisfied
 
 <img src="ratings/ratings-customer-email.png" class="align-center"
-alt="View of a standard helpdesk customer review email template for Odoo Helpdesk." />
+alt="View of a standard helpdesk customer review email template for Konvergo ERP Helpdesk." />
 
 After selecting a rating, customers are taken to a webpage where they
 can provide specific written feedback to support their rating. Once a

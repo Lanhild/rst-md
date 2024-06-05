@@ -19,7 +19,7 @@ Tutorial)](https://www.odoo.com/slides/slide/push-pull-rules-1024)
 
 ## Choosing the right inventory flow to handle receipts and deliveries
 
-By default, Odoo handles shipping and receiving in three different ways:
+By default, Konvergo ERP handles shipping and receiving in three different ways:
 in one, two, or three steps. The simplest configuration is one step,
 which is the default. Each additional step required for a warehouse for
 either the receiving or shipping process will add an additional layer of

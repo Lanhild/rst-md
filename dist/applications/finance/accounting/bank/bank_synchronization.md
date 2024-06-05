@@ -2,16 +2,16 @@ show-content
 
 # Bank synchronization
 
-Odoo can synchronize directly with your bank institution to get all bank
+Konvergo ERP can synchronize directly with your bank institution to get all bank
 statements imported automatically into your database.
 
-To check if your bank is compatible with Odoo, go to [Odoo Accounting
+To check if your bank is compatible with Konvergo ERP, go to [Konvergo ERP Accounting
 Features](https://www.odoo.com/page/accounting-features), and click on
 `See list of supported institutions`.
 
-Odoo supports more than 25,000 institutions around the world.
+Konvergo ERP supports more than 25,000 institutions around the world.
 
-To connect to the banks, Odoo uses multiple web-services:
+To connect to the banks, Konvergo ERP uses multiple web-services:
 
 - **Plaid**: United States of America and Canada
 - **Yodlee**: Worldwide
@@ -30,9 +30,9 @@ To connect to the banks, Odoo uses multiple web-services:
 
 ### On-Premise users
 
-To be able to use this service, you need to have a valid Odoo Enterprise
+To be able to use this service, you need to have a valid Konvergo ERP Enterprise
 subscription. So make sure that your database is registered with your
-Odoo Enterprise contract. We also use a proxy between your database and
+Konvergo ERP Enterprise contract. We also use a proxy between your database and
 the third party provider so, in case of a connection error, please check
 that you don't have a firewall or a proxy blocking the following
 address:
@@ -55,8 +55,8 @@ steps to synchronize with it.
 > [!IMPORTANT]
 > When choosing the date for the first bank statement synchronization,
 > pick the date when you start recording accounting transaction on your
-> Odoo accounting database. For example, if you import your closing
-> balance in Odoo on the 31/12/2022 and you start recording accounting
+> Konvergo ERP accounting database. For example, if you import your closing
+> balance in Konvergo ERP on the 31/12/2022 and you start recording accounting
 > transactions on the 01/01/2023, your synchronization date should be
 > 01/01/2023.
 
@@ -68,7 +68,7 @@ your account, and you need to reactivate it using that phone number.
 
 The third-party provider may request more information in order to
 connect with your bank institution. This information is not stored on
-Odoo's servers.
+Konvergo ERP's servers.
 
 By default, transactions fetched from an online source are grouped
 inside the same statement, and one bank statement is created per month.
@@ -101,7 +101,7 @@ click on the `fetch transactions` button.
 
 ### Synchronization in error
 
-To report a connection error to the [Odoo
+To report a connection error to the [Konvergo ERP
 support](https://www.odoo.com/help), go to
 `Accounting Dashboard--> Configuration --> Accounting: Online Synchronization`,
 select the connection that failed, and copy the error description and
@@ -117,10 +117,10 @@ with the proxy using the `Fetch Account` button.
 > please contact the [support](https://www.odoo.com/help) directly with
 > your client id or the reference of the error listed in the chatter.
 
-## Migration process for users having installed Odoo before December 2020
+## Migration process for users having installed Konvergo ERP before December 2020
 
 If you are on-premise, please first make sure that your source is
-up-to-date with the latest version of Odoo.
+up-to-date with the latest version of Konvergo ERP.
 
 Users who have created a database before December 2020 need to install
 the new module manually to use the new functionalities.
@@ -129,7 +129,7 @@ To do so, go to `Apps --> Update Apps List`, remove the default filter
 in the search bar and type
 <span class="title-ref">account_online_synchronization</span>. You can
 then click on `Install`. Finally, make sure all your users refresh their
-Odoo page by pressing CTRL+F5.
+Konvergo ERP page by pressing CTRL+F5.
 
 <div class="note">
 
@@ -186,7 +186,7 @@ have to wait until the status changes.
 ### Some banks have a status "Beta." What does this mean?
 
 This means that banking institutions are not yet fully supported by our
-Third Party Provider. Bugs or other problems may arise. Odoo does not
+Third Party Provider. Bugs or other problems may arise. Konvergo ERP does not
 support technical problems that occur with banks in the Beta phase, but
 the user may still choose to connect. Connecting with these banks
 contributes to the development process since the Provider will have real
@@ -199,7 +199,7 @@ such as an SMS/email authentication code or another type of MFA. Because
 of this, the integrator cannot pull transactions until the security code
 is provided.
 
-### Not all of my past transactions are in Odoo, why?
+### Not all of my past transactions are in Konvergo ERP, why?
 
 For some institutions, transactions can only be fetched up to 3 months
 in the past.
@@ -207,7 +207,7 @@ in the past.
 ### Why don't I see any transactions?
 
 During your first synchronization, you selected the bank accounts you
-decided to synchronize with Odoo. If you didn't synchronize any of your
+decided to synchronize with Konvergo ERP. If you didn't synchronize any of your
 accounts, you can go to
 `Accounting Dashboard --> Configuration --> Accounting: Online Synchronization`
 to click on the `Fetch Account` button on the connection.

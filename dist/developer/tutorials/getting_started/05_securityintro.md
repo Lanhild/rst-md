@@ -2,8 +2,8 @@
 
 In the `previous chapter <tutorials/getting_started/04_basicmodel>`, we
 created our first table intended to store business data. In a business
-application such as Odoo, one of the first questions to consider is
-who[^1] can access the data. Odoo provides a security mechanism to allow
+application such as Konvergo ERP, one of the first questions to consider is
+who[^1] can access the data. Konvergo ERP provides a security mechanism to allow
 access to the data for specific groups of users.
 
 The topic of security is covered in more detail in
@@ -12,7 +12,7 @@ required for our new module.
 
 ## Data Files (CSV)
 
-Odoo is a highly data driven system. Although behavior is customized
+Konvergo ERP is a highly data driven system. Although behavior is customized
 using Python code, part of a module's value is in the data it sets up
 when loaded. One way to load data is through a CSV file. One example is
 the [list of country
@@ -80,7 +80,7 @@ the next section.
 > WARNING rd-demo odoo.modules.loading: The models ['estate.property'] have no access rules...
 > ```
 
-When no access rights are defined on a model, Odoo determines that no
+When no access rights are defined on a model, Konvergo ERP determines that no
 users can access the data. It is even notified in the log:
 
 ``` text
@@ -130,6 +130,6 @@ Restart the server and the warning message should have disappeared!
 It's now time to finally
 `interact with the UI <tutorials/getting_started/06_firstui>`!
 
-[^1]: meaning which Odoo user (or group of users)
+[^1]: meaning which Konvergo ERP user (or group of users)
 
 [^2]: 'unlink' is the equivalent of 'delete'

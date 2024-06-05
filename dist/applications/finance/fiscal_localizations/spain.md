@@ -2,7 +2,7 @@
 
 ## Spanish chart of accounts
 
-Several Spanish charts of accounts are available by default in Odoo:
+Several Spanish charts of accounts are available by default in Konvergo ERP:
 
 - PGCE PYMEs 2008
 - PGCE Completo 2008
@@ -13,7 +13,7 @@ To choose the one you want, go to
 the `Fiscal localization` section.
 
 > [!TIP]
-> When you create a new Odoo Online database, the PGCE PYMEs 2008 is
+> When you create a new Konvergo ERP Online database, the PGCE PYMEs 2008 is
 > installed by default.
 
 > [!WARNING]

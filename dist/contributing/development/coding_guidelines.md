@@ -1,7 +1,7 @@
 # Coding guidelines
 
-This page introduces the Odoo Coding Guidelines. Those aim to improve
-the quality of Odoo Apps code. Indeed proper code improves readability,
+This page introduces the Konvergo ERP Coding Guidelines. Those aim to improve
+the quality of Konvergo ERP Apps code. Indeed proper code improves readability,
 eases maintenance, helps debugging, lowers complexity and promotes
 reliability. These guidelines should be applied to every new module and
 to all new development.
@@ -64,7 +64,7 @@ addons/plant_nursery/
 |-- models/
 |   |-- plant_nursery.py (first main model)
 |   |-- plant_order.py (another main model)
-|   |-- res_partner.py (inherited Odoo model)
+|   |-- res_partner.py (inherited Konvergo ERP model)
 ```
 
 Concerning *security*, three main files should be used:
@@ -118,7 +118,7 @@ addons/plant_nursery/
 
 Concerning *controllers*, generally all controllers belong to a single
 controller contained in a file named `<module_name>.py`. An old
-convention in Odoo is to name this file `main.py` but it is considered
+convention in Konvergo ERP is to name this file `main.py` but it is considered
 as outdated. If you need to inherit an existing controller from another
 module do it in `<inherited_module_name>.py`. For example adding portal
 controller in an application is done in `portal.py`.
@@ -138,7 +138,7 @@ meaningful name. For instance, the activity widgets are located in
 structure the 'package' (see web module for more details). The same
 logic should be applied for the templates of JS widgets (static XML
 files) and for their styles (scss files). Don't link data (image,
-libraries) outside Odoo: do not use an URL to an image but copy it in
+libraries) outside Konvergo ERP: do not use an URL to an image but copy it in
 the codebase instead.
 
 Concerning *wizards*, naming convention is the same of for python
@@ -173,7 +173,7 @@ addons/plant_nursery/
 |   |-- plant_order_templates.xml (xml report templates)
 ```
 
-The complete tree of our Odoo module therefore looks like
+The complete tree of our Konvergo ERP module therefore looks like
 
 ``` text
 addons/plant_nursery/
@@ -271,7 +271,7 @@ is recommended:
 </record>
 ```
 
-Odoo supports custom tags acting as syntactic sugar:
+Konvergo ERP supports custom tags acting as syntactic sugar:
 
 - menuitem: use it as a shortcut to declare a `ir.ui.menu`
 - template: use it to declare a QWeb View requiring only the `arch`
@@ -394,7 +394,7 @@ records based upon the first one.
 ### PEP8 options
 
 Using a linter can help show syntax and semantic warnings or errors.
-Odoo source code tries to respect Python standard, but some of them can
+Konvergo ERP source code tries to respect Python standard, but some of them can
 be ignored.
 
 - E501: line too long
@@ -407,7 +407,7 @@ The imports are ordered as
 
 1.  External libraries (one per line sorted and split in python stdlib)
 2.  Imports of `odoo`
-3.  Imports from Odoo modules (rarely, and only if necessary)
+3.  Imports from Konvergo ERP modules (rarely, and only if necessary)
 
 Inside these 3 groups, the imported lines are alphabetically sorted.
 
@@ -575,10 +575,10 @@ for element in iterable:
   <http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html>
   (a little bit outdated, but quite relevant)
 
-### Programming in Odoo
+### Programming in Konvergo ERP
 
 - Avoid to create generators and decorators: only use the ones provided
-  by the Odoo API.
+  by the Konvergo ERP API.
 - As in python, use `filtered`, `mapped`, `sorted`, ... methods to ease
   code reading and performance.
 
@@ -656,7 +656,7 @@ packages. (See also
 
 #### Never commit the transaction
 
-The Odoo framework is in charge of providing the transactional context
+The Konvergo ERP framework is in charge of providing the transactional context
 for all RPC calls. The principle is that a new database cursor is opened
 at the beginning of each RPC call, and committed when the call has
 returned, just before transmitting the answer to the RPC client,
@@ -724,7 +724,7 @@ transactions. Otherwise they can and will be removed !
 
 #### Use translation method correctly
 
-Odoo uses a GetText-like method named "underscore" `_( )` to indicate
+Konvergo ERP uses a GetText-like method named "underscore" `_( )` to indicate
 that a static string used in the code needs to be translated at runtime
 using the language of the context. This pseudo-method is accessed within
 your code by importing as follows:
@@ -803,7 +803,7 @@ error = _("Answer to question %(title)s is not valid.\n" \
           "Please enter an integer value.", title=question)
 ```
 
-In general in Odoo, when manipulating strings, prefer `%` over
+In general in Konvergo ERP, when manipulating strings, prefer `%` over
 `.format()` (when only one variable to replace in a string), and prefer
 `%(varname)` instead of position (when multiple variables have to be
 replaced). This makes the translation easier for the community
@@ -812,10 +812,10 @@ translators.
 ### Symbols and Conventions
 
 - Model name (using the dot notation, prefix by the module name) :  
-  - When defining an Odoo Model : use singular form of the name
+  - When defining an Konvergo ERP Model : use singular form of the name
     (*res.partner* and *sale.order* instead of *res.partnerS* and
     *saleS.orderS*)
-  - When defining an Odoo Transient (wizard) : use
+  - When defining an Konvergo ERP Transient (wizard) : use
     `<related_base_model>.<action>` where *related_base_model* is the
     base model (defined in *models/*) related to the transient, and
     *action* is the short name of what the transient do. Avoid the
@@ -825,7 +825,7 @@ translators.
     `<related_base_model>.report.<action>`, based on the Transient
     convention.
 
-- Odoo Python Class : use camelcase (Object-oriented style).
+- Konvergo ERP Python Class : use camelcase (Object-oriented style).
 
 ``` python
 class AccountInvoice(models.Model):
@@ -938,11 +938,11 @@ class Event(models.Model):
 
 ### Static files organization
 
-Odoo addons have some conventions on how to structure various files. We
+Konvergo ERP addons have some conventions on how to structure various files. We
 explain here in more details how web assets are supposed to be
 organized.
 
-The first thing to know is that the Odoo server will serve (statically)
+The first thing to know is that the Konvergo ERP server will serve (statically)
 all files located in a *static/* folder, but prefixed with the addon
 name. So, for example, if a file is located in
 *addons/web/static/src/js/some_file.js*, then it will be statically
@@ -1278,7 +1278,7 @@ Documentation](https://sass-lang.com/documentation/at-rules/function)
 
 #### CSS Variables
 
-In Odoo, the use of CSS variables is strictly DOM-related. Use them to
+In Konvergo ERP, the use of CSS variables is strictly DOM-related. Use them to
 **contextually** adapt the design and layout.
 
 Our standard convention is BEM, so
@@ -1319,7 +1319,7 @@ with:
 
 ### Use of CSS Variables
 
-In Odoo, the use of CSS variables is strictly DOM-related, meaning that
+In Konvergo ERP, the use of CSS variables is strictly DOM-related, meaning that
 are used to **contextually** adapt the design and layout rather than to
 manage the global design-system. These are typically used when a
 component's properties can vary in specific contexts or in other
@@ -1368,7 +1368,7 @@ Documentation](https://sass-lang.com/documentation/variables#:~:text=CSS%20varia
 
 </div>
 
-In Odoo, we take the best of both worlds: using the
+In Konvergo ERP, we take the best of both worlds: using the
 <span class="title-ref">SCSS</span> variables to define the
 design-system while opting for the <span class="title-ref">CSS</span>
 ones when it comes to contextual adaptations.
@@ -1402,7 +1402,7 @@ $o-dashboard-color: $o-info;
 #### The <span class="title-ref">:root</span> pseudo-class
 
 Defining CSS variables on the <span class="title-ref">:root</span>
-pseudo-class is a technique we normally **don't use** in Odoo's UI. The
+pseudo-class is a technique we normally **don't use** in Konvergo ERP's UI. The
 practice is commonly used to access and modify CSS variables globally.
 We perform this using SCSS instead.
 

@@ -15,7 +15,7 @@ payment_providers/sips payment_providers/stripe
 
 </div>
 
-Odoo embeds several **payment providers** that allow your customers to
+Konvergo ERP embeds several **payment providers** that allow your customers to
 pay online, on their *customer portals*, or on your *eCommerce website*.
 They can pay sales orders, invoices, or subscriptions with recurring
 payments using their favorite payment methods, such as **credit cards**.
@@ -23,11 +23,11 @@ payments using their favorite payment methods, such as **credit cards**.
 ![Online payment form](payment_providers/online-payment.png)
 
 > [!NOTE]
-> Odoo apps delegate the handling of sensitive information to the
+> Konvergo ERP apps delegate the handling of sensitive information to the
 > certified payment provider so that you don't ever have to worry about
 > PCI compliance. No sensitive information (such as credit card numbers)
-> is stored on Odoo servers or Odoo databases hosted elsewhere. Instead,
-> Odoo apps use a unique reference number for the data stored safely in
+> is stored on Konvergo ERP servers or Konvergo ERP databases hosted elsewhere. Instead,
+> Konvergo ERP apps use a unique reference number for the data stored safely in
 > the payment providers' systems.
 
 ## Supported payment providers
@@ -40,10 +40,10 @@ Payment Providers` or `Website --> Configuration --> Payment Providers`.
 
 |                                                                       | Payment flow from      | `Tokenization <payment_providers/tokenization>` | `Manual capture <payment_providers/manual_capture>` | `Refunds <payment_providers/refunds>` | `Express checkout <payment_providers/express_checkout>` | `Extra fees <payment_providers/extra_fees>` |
 |-----------------------------------------------------------------------|------------------------|-------------------------------------------------|-----------------------------------------------------|---------------------------------------|---------------------------------------------------------|---------------------------------------------|
-| `Adyen <payment_providers/adyen>`                                     | Odoo                   | ✔                                               | Full only                                           | Full and partial                      |                                                         |                                             |
+| `Adyen <payment_providers/adyen>`                                     | Konvergo ERP                   | ✔                                               | Full only                                           | Full and partial                      |                                                         |                                             |
 | `Amazon Payment Services <payment_providers/amazon_payment_services>` | The provider's website |                                                 |                                                     |                                       |                                                         |                                             |
 | `AsiaPay <payment_providers/asiapay>`                                 | The provider's website |                                                 |                                                     |                                       |                                                         |                                             |
-| `Authorize.Net <payment_providers/authorize>`                         | Odoo                   | ✔                                               | Full only                                           | Full only                             |                                                         |                                             |
+| `Authorize.Net <payment_providers/authorize>`                         | Konvergo ERP                   | ✔                                               | Full only                                           | Full only                             |                                                         |                                             |
 | `Buckaroo <payment_providers/buckaroo>`                               | The provider's website |                                                 |                                                     |                                       |                                                         |                                             |
 | `Flutterwave <payment_providers/flutterwave>`                         | The provider's website | ✔                                               |                                                     |                                       |                                                         |                                             |
 | `Mercado Pago <payment_providers/mercado_pago>`                       | The provider's website |                                                 |                                                     |                                       |                                                         |                                             |
@@ -65,7 +65,7 @@ Payment Providers` or `Website --> Configuration --> Payment Providers`.
 
 > [!TIP]
 > In addition to the regular payment providers that integrate with an
-> API, such as Stripe, PayPal, or Adyen, Odoo bundles the
+> API, such as Stripe, PayPal, or Adyen, Konvergo ERP bundles the
 > `Demo payment provider <payment_providers/demo>`. This payment
 > provider allows you to test business flows involving online payments.
 > No credentials are required as the demo payments are dummy payments.
@@ -73,7 +73,7 @@ Payment Providers` or `Website --> Configuration --> Payment Providers`.
 ### Bank payments
 
 - `Wire Transfer <payment_providers/wire_transfer>`  
-  When selected, Odoo displays your payment information with a payment
+  When selected, Konvergo ERP displays your payment information with a payment
   reference. You have to approve the payment manually once you have
   received it in your bank account.
 
@@ -88,9 +88,9 @@ available to your customers, proceed as follows:
 
 1.  Go to the payment provider's website, create an account, and make
     sure you have the API credentials requested for third-party use.
-    These are necessary for Odoo to communicate with the payment
+    These are necessary for Konvergo ERP to communicate with the payment
     provider.
-2.  In Odoo, navigate to the `Payment providers` by going to
+2.  In Konvergo ERP, navigate to the `Payment providers` by going to
     `Accounting -->
     Configuration --> Payment Providers` or
     `Website --> Configuration --> Payment
@@ -139,7 +139,7 @@ this feature, go to the `Configuration` tab of the selected payment
 provider and enable `Allow Saving
 Payment Methods`.
 
-In this case, a **payment token** is created in Odoo to be used as a
+In this case, a **payment token** is created in Konvergo ERP to be used as a
 payment method for subsequent payments without the customer having to
 enter their payment method details again. This is particularly useful
 for the eCommerce conversion rate and subscriptions that use recurring
@@ -147,7 +147,7 @@ payments.
 
 > [!NOTE]
 > You remain fully PCI-compliant when you enable this feature because
-> Odoo does not store the card details directly. Instead, it creates a
+> Konvergo ERP does not store the card details directly. Instead, it creates a
 > payment token that only references the card details stored on the
 > payment provider's server.
 
@@ -188,14 +188,14 @@ Transaction` button.
 > **Full only**. - The funds are likely not reserved forever. After a
 > certain time, they may be automatically released back to the
 > customer's payment method. Refer to your payment provider's
-> documentation for the exact reservation duration. - Odoo does not
+> documentation for the exact reservation duration. - Konvergo ERP does not
 > support this feature for all payment providers, but some allow the
 > manual capture from their website interface.
 
 ## Refunds
 
 If your payment provider supports this feature, you can refund payments
-directly from Odoo. It does not need to be enabled first. To refund a
+directly from Konvergo ERP. It does not need to be enabled first. To refund a
 customer payment, navigate to it and click the `Refund` button.
 
 > [!NOTE]
@@ -204,7 +204,7 @@ customer payment, navigate to it and click the `Refund` button.
 > providers have the value **Full and partial** in the
 > `table above <payment_providers/online_providers>`. The providers that
 > only support refunding the total amount have the value **Full
-> only**. - Odoo does not support this feature for all payment
+> only**. - Konvergo ERP does not support this feature for all payment
 > providers, but some allow to refund payments from their website
 > interface.
 
@@ -267,7 +267,7 @@ Note
   own list of available currencies and countries that serves as another
   filter during payment operations.
 - If the list of supported currencies or countries is empty, it means
-  the list is too long to be displayed, or Odoo does not have
+  the list is too long to be displayed, or Konvergo ERP does not have
   information on that payment provider. The payment provider remains
   available, even though it is possible the payment will be refused at a
   later stage should the country or currency not be supported.

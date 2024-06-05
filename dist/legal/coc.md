@@ -1,18 +1,18 @@
 orphan  
 
-# Odoo Mailing Lists - Code of Conduct
+# Konvergo ERP Mailing Lists - Code of Conduct
 
 > [!NOTE]
 > Version 1 - Last revision: Novembre 16, 2017.
 
 ## Introduction
 
-The Odoo community lists are for enthusiast users, partners and
-developers who want to have constructive discussions about Odoo. As the
+The Konvergo ERP community lists are for enthusiast users, partners and
+developers who want to have constructive discussions about Konvergo ERP. As the
 lists have thousands of subscribers, this code of conduct aims to ensure
 a quality discussion for everyone.
 
-These lists are not systematically reviewed by Odoo staff - while you
+These lists are not systematically reviewed by Konvergo ERP staff - while you
 will see responses from staff members from time to time, there are other
 paid support channels available if you require an official response.
 
@@ -50,7 +50,7 @@ paid support channels available if you require an official response.
       the entire thread first, instead of responding quickly to many
       emails in a short period of time.
     - You can not use these mailing lists to advertise your services,
-      commercial offers or discuss software other than Odoo. New modules
+      commercial offers or discuss software other than Konvergo ERP. New modules
       and features can be announced on the “Announcements” mailing list
       only.
     - Don't use the list to report copyright or licenses infringements,
@@ -66,7 +66,7 @@ paid support channels available if you require an official response.
 
 ## Enforcement
 
-Experienced members of the Odoo community comply with this code, not
+Experienced members of the Konvergo ERP community comply with this code, not
 because of the existence of the code, but because they have long
 experience participating in communities where the conduct described
 above is normal and expected. However, failure to observe the code may

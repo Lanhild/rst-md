@@ -14,7 +14,7 @@ It'd be cool to follow the naming convention of the previous chapters:
 > material covered in this chapter.
 
 We have gained an understanding of the numerous capabilities offered by
-the Odoo web framework. As a next step, we will customize a kanban view.
+the Konvergo ERP web framework. As a next step, we will customize a kanban view.
 This is a more complicated project that will showcase some non trivial
 aspects of the framework. The goal is to practice composing views,
 coordinating various aspects of the UI, and doing it in a maintainable
@@ -40,7 +40,7 @@ alt="image" />
 Solutions
 
 The solutions for each exercise of the chapter are hosted on the
-[official Odoo tutorials
+[official Konvergo ERP tutorials
 repository](https://github.com/odoo/tutorials/commits/%7BCURRENT_MAJOR_BRANCH%7D-solutions/awesome_tshirt).
 
 </div>

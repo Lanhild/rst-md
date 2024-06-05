@@ -2,7 +2,7 @@
 
 <div id="inventory/reporting/landed_costs">
 
-The landed cost feature in Odoo allows the user to include additional
+The landed cost feature in Konvergo ERP allows the user to include additional
 costs (shipment, insurance, customs duties, etc.) into the cost of the
 product.
 
@@ -11,7 +11,7 @@ product.
 ## Configuration
 
 First, go to `Inventory --> Configuration --> Settings --> Valuation`
-and activate the `Landed Costs` feature. Odoo also gives the option to
+and activate the `Landed Costs` feature. Konvergo ERP also gives the option to
 set a `Default
 Journal` in which the landed costs accounting entries will be recorded.
 
@@ -24,7 +24,7 @@ alt="Activate the landed cost feature in Inventory settings." />
 ### Receive the vendor bill
 
 After a vendor fulfills a purchase order and sends a bill, click
-`Create Bill` on the purchase order to create a vendor bill in Odoo. If
+`Create Bill` on the purchase order to create a vendor bill in Konvergo ERP. If
 the vendor bill includes landed costs, such as custom duties, tick the
 box in the `Landed Costs` column on the vendor bill invoice line.
 
@@ -33,7 +33,7 @@ class="align-center"
 alt="Enable Landed Costs option on vendor bill line." />
 
 For charges that are always landed costs, create a landed cost product
-in Odoo. That way, the landed cost product can be quickly added to the
+in Konvergo ERP. That way, the landed cost product can be quickly added to the
 vendor bill as an invoice line instead of manually entering the landed
 cost information every time a vendor bill comes in.
 
@@ -54,7 +54,7 @@ alt="Option to define a product as a landed cost." />
 Once the landed cost is added to the vendor bill (either by checking the
 `Landed Cost` option on the invoice line or adding a landed cost product
 to the bill), click the `Create Landed Costs` button at the top of the
-bill. Odoo automatically creates a landed cost record with the set
+bill. Konvergo ERP automatically creates a landed cost record with the set
 landed cost pre-filled in the `Additional Costs` product lines. From
 here, decide which picking the additional costs apply to by clicking
 `Edit` and selecting the picking reference number from the `Transfers`

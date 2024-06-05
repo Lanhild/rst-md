@@ -1,24 +1,24 @@
 # Social marketing essentials
 
-Odoo's *Social Marketing* application helps content marketers create and
+Konvergo ERP's *Social Marketing* application helps content marketers create and
 schedule posts, manage various social media accounts, analyze content
 effectiveness, and engage directly with social media followers in one,
 centralized location.
 
 ## Social media accounts
 
-In order to create social posts and analyze content with Odoo *Social
+In order to create social posts and analyze content with Konvergo ERP *Social
 Marketing*, social media accounts **must** be added as a *stream* on the
 application's main dashboard.
 
 > [!NOTE]
 > Be aware that personal profiles **cannot** be added as a stream. The
-> main use of Odoo *Social Marketing* is to manage and analyze business
+> main use of Konvergo ERP *Social Marketing* is to manage and analyze business
 > accounts on social media platforms.
 
 > [!WARNING]
-> Odoo *Social Marketing* has some limitations in regards to social
-> media accounts. For example, Odoo **cannot** handle a large quantity
+> Konvergo ERP *Social Marketing* has some limitations in regards to social
+> media accounts. For example, Konvergo ERP **cannot** handle a large quantity
 > of various pages (e.g. ~40 pages) under the same company. The same
 > limitations are present in a multi-company environment because of how
 > the API is constructed.
@@ -28,7 +28,7 @@ application's main dashboard.
 > page at once, it will result in a permission error.
 >
 > For example, if Company 1 is the only company selected from the main
-> Odoo dashboard, and activates *Facebook Page 1* and *Facebook Page 2*,
+> Konvergo ERP dashboard, and activates *Facebook Page 1* and *Facebook Page 2*,
 > then those pages will be accesible on the *Social Marketing*
 > dashboard.
 >
@@ -48,23 +48,23 @@ corner. Doing so reveals an `Add a Stream` pop-up window.
 
 <img src="social_essentials/add-stream-social-popup.png"
 class="align-center"
-alt="View of the pop-up window that appears when Add a Stream is selected in Odoo." />
+alt="View of the pop-up window that appears when Add a Stream is selected in Konvergo ERP." />
 
 In the `Add a Stream` pop-up window, choose to `Link a new account` for
 a business from any of the following popular social media platforms:
 `Facebook`, `Instagram`, `LinkedIn`, `Twitter`, and `YouTube`.
 
 After clicking the desired social media outlet from the `Add a Stream`
-pop-up window, Odoo navigates directly to that specific social media
+pop-up window, Konvergo ERP navigates directly to that specific social media
 outlet's authorization page, where permission must be granted, in order
-for Odoo to add that particular social media account as a stream to the
+for Konvergo ERP to add that particular social media account as a stream to the
 *Social Marketing* application.
 
 <img src="social_essentials/social-marketing-dashboard.png"
 class="align-center"
 alt="Sample of a populated social marketing dashboard with social media streams and content." />
 
-Once permission is granted, Odoo navigates back to the `Feed` on the
+Once permission is granted, Konvergo ERP navigates back to the `Feed` on the
 main `Social Marketing` dashboard, and a new column, with that account's
 posts, is added. Accounts/streams can be added at any time.
 
@@ -77,7 +77,7 @@ posts, is added. Accounts/streams can be added at any time.
 > `Instagram` accounts are added through a `Facebook` login because it
 > uses the same API. This means, an `Instagram` account needs to be
 > linked to a `Facebook` account in order for it to show up as a stream
-> in Odoo.
+> in Konvergo ERP.
 
 ### Posts
 
@@ -86,7 +86,7 @@ showcasing the content of that specific post, along with all the
 engagement data related to it (e.g. likes, comments, etc.).
 
 <img src="social_essentials/social-post-popup.png" class="align-center"
-alt="Sample of a social media post&#39;s pop-up window in Odoo Social Marketing application." />
+alt="Sample of a social media post&#39;s pop-up window in Konvergo ERP Social Marketing application." />
 
 If desired, the user can leave a new comment of the post from the post's
 pop-up window, by typing one in the `Write a comment...` field, and
@@ -94,7 +94,7 @@ clicking `Enter` to post that comment.
 
 ### Create leads from comments
 
-Odoo *Social Marketing* also provides the ability to create leads
+Konvergo ERP *Social Marketing* also provides the ability to create leads
 directly from social media comments.
 
 To create a lead from a comment left on a social media post, click on
@@ -114,7 +114,7 @@ Lead` pop-up window appears.
 
 <img src="social_essentials/convert-post-to-lead-popup.png"
 class="align-center"
-alt="The convert post to lead pop-up window that appears in Odoo Social Marketing." />
+alt="The convert post to lead pop-up window that appears in Konvergo ERP Social Marketing." />
 
 In this pop-up window, select to either: `Create a new customer`,
 `Link to an
@@ -132,7 +132,7 @@ and processed.
 
 <img src="social_essentials/new-lead-detail-form-comments.png"
 class="align-center"
-alt="New lead detail form generated from a social media comment in Odoo Social Marketing." />
+alt="New lead detail form generated from a social media comment in Konvergo ERP Social Marketing." />
 
 ### Insights
 
@@ -163,7 +163,7 @@ alt="Visual of how the Insights link appears on the dashboard of the Social Mark
 
 ## Create and post social media content
 
-Odoo *Social Marketing* offers the ability to create and post content
+Konvergo ERP *Social Marketing* offers the ability to create and post content
 for social media accounts directly through the application.
 
 To create content for social media accounts, navigated to the
@@ -173,25 +173,25 @@ corner of the *Social Marketing* dashboard.
 <img
 src="social_essentials/new-post-button-social-marketing-dashboard.png"
 class="align-center"
-alt="New Post button on the main dashboard of the Odoo Social Marketing application." />
+alt="New Post button on the main dashboard of the Konvergo ERP Social Marketing application." />
 
 Or, navigate to `Social Marketing app --> Posts` and click the `New`
 button.
 
 <img src="social_essentials/new-button-social-posts-page.png"
 class="align-center"
-alt="New button on the Social Posts page in the Odoo Social Marketing application." />
+alt="New button on the Social Posts page in the Konvergo ERP Social Marketing application." />
 
 Either route reveals a blank social media post detail form that can be
 customized and configured in a number of different ways.
 
 <img src="social_essentials/blank-post-detail-page.png"
 class="align-center"
-alt="Blank social media post detail page in Odoo Social Marketing." />
+alt="Blank social media post detail page in Konvergo ERP Social Marketing." />
 
 ### Post detail form
 
-The social media post detail form in Odoo *Social Marketing* has many
+The social media post detail form in Konvergo ERP *Social Marketing* has many
 different configurable options available.
 
 #### Company
@@ -210,7 +210,7 @@ is intended to be posted on, and/or which website's visitors this post
 should be sent to, via push notification, by checking the box beside the
 desired option(s).
 
-Odoo automatically provides every available social media account that's
+Konvergo ERP automatically provides every available social media account that's
 been linked to the database as an option in this section. If a social
 media account hasn't been added as a stream to the *Social Marketing*
 application, it will **not** appear as an option on the post template.
@@ -221,7 +221,7 @@ the `Post on` field. At least **one** option in the `Post on` field
 
 > [!IMPORTANT]
 > In order for the `Push Notification` option to appear on the social
-> media post detail form in Odoo *Social Marketing*, make sure the
+> media post detail form in Konvergo ERP *Social Marketing*, make sure the
 > *Enable Web Push Notifications* feature is enabled in the *Website*
 > app.
 >
@@ -258,16 +258,16 @@ alt="Sample social media post with visual samples of how it will appear on socia
 
 If images are to be used in the post, click the `Attach Images` button,
 in the `Attach Images` field, located beneath the `Message` field. When
-clicked, Odoo reveals a pop-up window. In this pop-up window, select the
+clicked, Konvergo ERP reveals a pop-up window. In this pop-up window, select the
 desired image from the hard drive, and upload it.
 
-After successfully uploading and attaching the desired image, Odoo
+After successfully uploading and attaching the desired image, Konvergo ERP
 reveals a new preview of the social media post, complete with the
 newly-added image, on the right side of the detail form.
 
 <img src="social_essentials/attach-images-visual-social-post-sample.png"
 class="align-center"
-alt="Visualized samples of post with newly-attached images in Odoo Social Marketing." />
+alt="Visualized samples of post with newly-attached images in Konvergo ERP Social Marketing." />
 
 #### Campaign
 
@@ -304,8 +304,8 @@ save the campaign and return to the social media post detail form.
 
 #### When
 
-Then, in the `When` field, choose either `Send Now` to have Odoo publish
-the post immediately, or `Schedule later` to have Odoo publish the post
+Then, in the `When` field, choose either `Send Now` to have Konvergo ERP publish
+the post immediately, or `Schedule later` to have Konvergo ERP publish the post
 at a later date and time.
 
 If `Schedule later` is selected, a new `Scheduled Date` field appears.
@@ -314,9 +314,9 @@ date and time can be designated.
 
 <img src="social_essentials/schedule-post-calendar-popup.png"
 class="align-center"
-alt="Schedule date pop-up window that appears on social media post detail form in Odoo." />
+alt="Schedule date pop-up window that appears on social media post detail form in Konvergo ERP." />
 
-After selecting a desired date and time, click `Apply`. Then, Odoo will
+After selecting a desired date and time, click `Apply`. Then, Konvergo ERP will
 promptly publish the post at that specific date and time on the
 pre-detemined social media account(s).
 
@@ -325,7 +325,7 @@ pre-detemined social media account(s).
 > post detail form changes to `Schedule`. Be sure to click `Schedule`
 > after completing the social media post detail form.
 >
-> Doing so, locks in that specific date/time for Odoo to send the post,
+> Doing so, locks in that specific date/time for Konvergo ERP to send the post,
 > and it changes the status of the post to `Scheduled`.
 
 #### Push Notification Options
@@ -346,7 +346,7 @@ will be sent.
 
 To designate a specific page on the website that should trigger this
 push notification, enter that page's URL in the `Target URL` field.
-Then, once a visitor reaches that specific page, Odoo will display the
+Then, once a visitor reaches that specific page, Konvergo ERP will display the
 push notification.
 
 Below that field is the option to add a custom `Icon Image` to the push
@@ -358,13 +358,13 @@ Image` camera icon. Doing so reveals a pop-up window, in which the
 desired icon image can be located on the hard drive, and subsequently
 uploaded.
 
-Once that's complete, Odoo automatically updates the visual preview of
+Once that's complete, Konvergo ERP automatically updates the visual preview of
 how the icon appears on the push notification.
 
 > [!NOTE]
 > Next, if the post is scheduled to be posted later, there is the option
 > to ensure the post is sent in the visitor's timezone, by enabling the
-> `Local Time` option. If enabled, Odoo will send it at the appropriate,
+> `Local Time` option. If enabled, Konvergo ERP will send it at the appropriate,
 > pre-determined time, taking the visitor's location into consideration.
 >
 > <img src="social_essentials/push-notification-local-time.png"
@@ -379,7 +379,7 @@ rules.
 To utilize this field, click the `+ Add condition` button, which reveals
 an equation-like rule field.
 
-In this equation-like rule field, specifiy the specific criteria Odoo
+In this equation-like rule field, specifiy the specific criteria Konvergo ERP
 should take into account when sending this post to a particular target
 audience.
 
@@ -402,9 +402,9 @@ by the number of `Records` displayed beneath the rules.
 
 ## Posts page
 
-To see a complete overview of posts, go to Odoo
+To see a complete overview of posts, go to Konvergo ERP
 `Social Marketing app --> Posts`. Here, on the `Social Posts` page,
-every post that has been created and posted with Odoo can be seen and
+every post that has been created and posted with Konvergo ERP can be seen and
 accessed.
 
 There are four different view options for the `Social Posts` page data:
@@ -419,7 +419,7 @@ page, beneath the search bar.
 
 Kanban view
 
-By default, Odoo displays the posts in a kanban view. The information on
+By default, Konvergo ERP displays the posts in a kanban view. The information on
 this page can be sorted even further, via the left sidebar, where all
 connected social accounts and posts can be quickly seen, accessed, and
 analyzed.
@@ -428,7 +428,7 @@ The kanban view is represented by an `inverted bar graph icon` in the
 upper-right corner.
 
 <img src="social_essentials/posts-page-kanban.png" class="align-center"
-alt="Kanban view of the posts page in the Odoo Social Marketing application." />
+alt="Kanban view of the posts page in the Konvergo ERP Social Marketing application." />
 
 </div>
 
@@ -439,18 +439,18 @@ Calendar view
 The calendar view option displays a visual representation of posts in a
 calendar format of when posts were published, or are scheduled to be
 published. This option provides a clear overview of any planned day,
-week, or month, and Odoo displays all drafted, scheduled, and published
+week, or month, and Konvergo ERP displays all drafted, scheduled, and published
 posts.
 
 Clicking on a date reveals a blank social media post detail form, in
-which a social media post can be created, and Odoo will post it on that
+which a social media post can be created, and Konvergo ERP will post it on that
 specific date/time.
 
 The calendar view is represented by a `calendar icon` in the upper-right
 corner.
 
 <img src="social_essentials/calendar-view.png" class="align-center"
-alt="Example of the calendar view in Odoo Social Marketing." />
+alt="Example of the calendar view in Konvergo ERP Social Marketing." />
 
 </div>
 
@@ -470,7 +470,7 @@ The list view is represented by four vertical lines in the upper-right
 corner.
 
 <img src="social_essentials/list-view.png" class="align-center"
-alt="View of the list option on the posts page in Odoo Social Marketing." />
+alt="View of the list option on the posts page in Konvergo ERP Social Marketing." />
 
 </div>
 
@@ -482,7 +482,7 @@ The pivot view option provides a fully customizable grid table, where
 different measures of data can be added and analyzed.
 
 <img src="social_essentials/pivot-view.png" class="align-center"
-alt="View of the pivot option on the posts page in Odoo Social Marketing." />
+alt="View of the pivot option on the posts page in Konvergo ERP Social Marketing." />
 
 The pivot view option provides numerous analytical options, allowing for
 in-depth, detailed analysis of various posts and metrics.
@@ -516,9 +516,9 @@ website(s) connected to the database, navigate to
 `Social Marketing app --> Visitors`.
 
 <img src="social_essentials/visitors.png" class="align-center"
-alt="View of the Visitors page in the Odoo Social Marketing application." />
+alt="View of the Visitors page in the Konvergo ERP Social Marketing application." />
 
-Here, Odoo provides a detailed layout of all the visitors' pertinent
+Here, Konvergo ERP provides a detailed layout of all the visitors' pertinent
 information in a default kanban view. If visitors already have contact
 information in the database, the option to send them an `Email` and/or
 an `SMS` is available.
@@ -529,7 +529,7 @@ page.
 
 ## Social media page
 
-Another way to quickly link social media accounts to Odoo *Social
+Another way to quickly link social media accounts to Konvergo ERP *Social
 Marketing* can be done on the `Social Media` page. To access the
 `Social Media` page, navigate to
 `Social Marketing app --> Configuration --> Social Media`.
@@ -539,7 +539,7 @@ options, each complete with a `Link account` button: `Facebook`,
 `Instagram`, `LinkedIn`, `Twitter`, `YouTube`, and `Push Notifications`.
 
 <img src="social_essentials/social-media-page.png" class="align-center"
-alt="View of the social media page in the Odoo Social Marketing application." />
+alt="View of the social media page in the Konvergo ERP Social Marketing application." />
 
 ## Social accounts page
 
@@ -553,7 +553,7 @@ is associated.
 
 <img src="social_essentials/social-accounts-page.png"
 class="align-center"
-alt="View of the social accounts page in the Odoo Social Marketing application." />
+alt="View of the social accounts page in the Konvergo ERP Social Marketing application." />
 
 To edit/modify any of the social accounts on this page, simply select
 the desired account from the list on this page, and proceed to make any
@@ -568,7 +568,7 @@ Streams`.
 
 <img src="social_essentials/social-streams-page.png"
 class="align-center"
-alt="View of the social accounts page in the Odoo Social Marketing application." />
+alt="View of the social accounts page in the Konvergo ERP Social Marketing application." />
 
 Here, the social stream information is organized in a list with the
 `Social Media`, the `Title` of the stream, the `Type` of the stream

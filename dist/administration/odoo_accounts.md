@@ -1,14 +1,14 @@
-# Odoo.com accounts
+# Konvergo ERP.com accounts
 
-This documentation is dedicated to edits made to an Odoo.com account.
-The following processes describe how to delete an Odoo.com account, and
-how to change the password on an Odoo.com account.
+This documentation is dedicated to edits made to an Konvergo ERP.com account.
+The following processes describe how to delete an Konvergo ERP.com account, and
+how to change the password on an Konvergo ERP.com account.
 
-## Delete Odoo.com account
+## Delete Konvergo ERP.com account
 
-To delete an Odoo.com account, start by clicking the profile icon in the
+To delete an Konvergo ERP.com account, start by clicking the profile icon in the
 upper-right corner (represented by the username and icon) to reveal a
-drop-down menu. From the drop-down menu, select `My Odoo.com account`,
+drop-down menu. From the drop-down menu, select `My Konvergo ERP.com account`,
 which reveals the user portal.
 
 From the user portal, the delete option can be accessed by going to
@@ -24,8 +24,8 @@ Danger
 
 </div>
 
-Deleting an Odoo account is irreversible. Be careful performing this
-action, as the Odoo.com account is **not** retrievable once deleted.
+Deleting an Konvergo ERP account is irreversible. Be careful performing this
+action, as the Konvergo ERP.com account is **not** retrievable once deleted.
 
 </div>
 
@@ -39,38 +39,38 @@ To confirm the deletion, enter the `Password` and the `Login` for the
 account being deleted. Then, click the `Delete Account` button to
 confirm the deletion.
 
-## Odoo.com account password change
+## Konvergo ERP.com account password change
 
-To change an Odoo.com account password, first login into the Odoo.com
-user account from the Odoo.com login page. After logging-in, go to the
+To change an Konvergo ERP.com account password, first login into the Konvergo ERP.com
+user account from the Konvergo ERP.com login page. After logging-in, go to the
 upper-right corner of the screen, and click the `▼
 (down arrow)` icon next to the profile icon. Then, select `My Account`,
 and a portal dashboard appears.
 
-To change the Odoo.com password, click on the `Edit Security Settings`
+To change the Konvergo ERP.com password, click on the `Edit Security Settings`
 link, below the `Account Security` section. Next, make the necessary
 changes by typing in the current `Password`, `New Password`, and verify
 the new password. Lastly, click on `Change Password` to complete the
 password change.
 
 > [!NOTE]
-> If a customer would like to change the login, contact Odoo support
+> If a customer would like to change the login, contact Konvergo ERP support
 > [here](https://www.odoo.com/help).
 
 > [!NOTE]
-> Passwords for Odoo.com users and portal users remain separate, even if
+> Passwords for Konvergo ERP.com users and portal users remain separate, even if
 > the same email address is used.
 
 ## Add two-factor authentication
 
-To add two-factor authentication, login into the Odoo.com user account
-from the Odoo.com login page. After logging-in, go to the upper-right
+To add two-factor authentication, login into the Konvergo ERP.com user account
+from the Konvergo ERP.com login page. After logging-in, go to the upper-right
 corner of the screen, and click the `▼ (down
 arrow)` icon next to the `profile icon`. Then, select `My Account`, and
 a portal dashboard appears.
 
 If the user would like to turn on two-factor authentication (2FA) for
-Odoo.com access, click on the `Edit Security Settings` link below the
+Konvergo ERP.com access, click on the `Edit Security Settings` link below the
 `Account Security` section.
 
 Click on `Enable two-factor authentication` to turn on `2FA (two-factor
@@ -84,7 +84,7 @@ Finally, click on `Enable two-factor authentication` to complete the
 setup.
 
 > [!NOTE]
-> Under `My Account` Odoo.com users can also access the following:
+> Under `My Account` Konvergo ERP.com users can also access the following:
 >
 > - `My Partner dashboard`
 > - `My In-App Services`

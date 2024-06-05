@@ -22,7 +22,7 @@ Latin America.
 
 ![Production and testing credentials in Mercado Pago.](mercado_pago/mp-credentials.png)
 
-## Configuration on Odoo
+## Configuration on Konvergo ERP
 
 1.  `Navigate to the payment provider Mercado Pago <payment_providers/add_new>`
     and change its state to `Enabled`.
@@ -33,7 +33,7 @@ Latin America.
 
 <div class="seealso">
 
-\- `../payment_providers` - [Mercado Pago Odoo
+\- `../payment_providers` - [Mercado Pago Konvergo ERP
 webinar](https://www.youtube.com/watch?v=CX8vPHMb1ic)
 
 </div>

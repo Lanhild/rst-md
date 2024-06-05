@@ -1,6 +1,6 @@
 # Forum
 
-**Odoo Forum** is a question-and-answer forum designed with providing
+**Konvergo ERP Forum** is a question-and-answer forum designed with providing
 customer support in mind. Adding a forum to a website enables you to
 build a community, encourage engagement, and share knowledge.
 
@@ -52,7 +52,7 @@ rights. They are also used to set user `ranks <forum/ranks>`.
 
 > [!IMPORTANT]
 > - A user's karma points are shared across all forums, courses, etc.,
-> of a single Odoo website. - eLearning users can earn karma points
+> of a single Konvergo ERP website. - eLearning users can earn karma points
 > through different `course interactions
 > <elearning/karma>` and by `completing quizzes <elearning/quiz>`.
 
@@ -230,7 +230,7 @@ Click `Post Your Question`.
 Different actions are possible on a post.
 
 - Mark a question as **favorite** by clicking the star button (`☆`).
-- Follow a post and get **notifications** (by email or within Odoo) when
+- Follow a post and get **notifications** (by email or within Konvergo ERP) when
   it is answered by clicking the bell button (`🔔`).
 - **Vote** *for* (up arrow `▲`) or *against* (down arrow `▼`) a question
   or answer.

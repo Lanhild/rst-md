@@ -1,6 +1,6 @@
 # QWeb Reports<span id="reference/reports"></span>
 
-Reports are written in HTML/QWeb, like website views in Odoo. You can
+Reports are written in HTML/QWeb, like website views in Konvergo ERP. You can
 use the usual `QWeb control flow tools <reference/qweb>`. The PDF
 rendering itself is performed by [wkhtmltopdf](https://wkhtmltopdf.org).
 

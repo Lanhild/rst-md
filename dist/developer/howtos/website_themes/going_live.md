@@ -5,7 +5,7 @@ time to deploy it on a development or production database.
 
 ## Module import
 
-### Odoo SaaS
+### Konvergo ERP SaaS
 
 Follow these steps the first time you import a module:
 
@@ -29,18 +29,18 @@ back in.
 
 <div class="seealso">
 
-\- [Odoo eLearning: Register a Free Domain
+\- [Konvergo ERP eLearning: Register a Free Domain
 Name](https://www.odoo.com/slides/slide/register-a-free-domain-name-1663)
 
 </div>
 
-### Odoo.sh
+### Konvergo ERP.sh
 
 Go to `Apps` and click on `Update Apps List` in the menu. Search for
 your module in the list and install it.
 
 <div class="seealso">
 
-`Introduction to Odoo.sh <../../../administration/odoo_sh/overview/introduction>`
+`Introduction to Konvergo ERP.sh <../../../administration/odoo_sh/overview/introduction>`
 
 </div>

@@ -17,7 +17,7 @@ deletion/closure notifications**. As such, when eBay receives an account
 request for deletion, all eBay partners must confirm the reception of
 the request and take further action if necessary.
 
-Odoo has a notification endpoint to receive those notifications, confirm
+Konvergo ERP has a notification endpoint to receive those notifications, confirm
 the reception of the request, and handle the first set of actions to
 anonymize the account details in *Contacts* and remove the customer's
 access to the portal.
@@ -29,23 +29,23 @@ access to the portal.
 > may temporarily disable the related eBay account until the
 > subscription is completed.
 
-### Verify the installation of Odoo is up to date
+### Verify the installation of Konvergo ERP is up to date
 
 In order to activate the endpoint, the module *eBay Connector - Account
-Deletion* must be installed. If the Odoo database was first created
+Deletion* must be installed. If the Konvergo ERP database was first created
 after September 2021, the module is installed automatically and the
 administrator can proceed to the
 `next step <ebay/retrieve-endpoint-details>`.
 
-#### Update Odoo to the latest release
+#### Update Konvergo ERP to the latest release
 
-The notification endpoint is made available through a new Odoo module;
-to be able to install it, the administrator must make sure that the Odoo
+The notification endpoint is made available through a new Konvergo ERP module;
+to be able to install it, the administrator must make sure that the Konvergo ERP
 source code is up-to-date.
 
-- If the company uses Odoo on Odoo.com or Odoo.sh platform, the code is
+- If the company uses Konvergo ERP on Konvergo ERP.com or Konvergo ERP.sh platform, the code is
   already up-to-date, so proceed to the next step.
-- If the company uses Odoo with an on-premise setup or through a
+- If the company uses Konvergo ERP with an on-premise setup or through a
   partner, then the administrator must update the installation as
   detailed in `this documentation page
   </administration/on_premise/update>` or by contacting an integrating
@@ -53,7 +53,7 @@ source code is up-to-date.
 
 #### Update the list of available modules
 
-New modules must be *discovered* by the Odoo instance to be available in
+New modules must be *discovered* by the Konvergo ERP instance to be available in
 the `Apps` menu.
 
 To do so, activate the `developer mode <developer-mode>`, and go to
@@ -64,9 +64,9 @@ Update Apps List`. A wizard will ask for confirmation.
 
 > [!WARNING]
 > **Never** install new modules in the production database without
-> testing them in a duplicate or staging environment. For Odoo.com
+> testing them in a duplicate or staging environment. For Konvergo ERP.com
 > customers, a duplicate database can be created from the database
-> management page. For Odoo.sh users, the administrator should use a
+> management page. For Konvergo ERP.sh users, the administrator should use a
 > staging or duplicate database. For on-premise users, the administrator
 > should use a staging environment - contact the integrating partner for
 > more information regarding how to test a new module in a particular
@@ -75,11 +75,11 @@ Update Apps List`. A wizard will ask for confirmation.
 To install the module, go to the `Apps` menu, remove the
 <span class="title-ref">Apps</span> search facet and search for
 <span class="title-ref">eBay</span>. If the module *eBay Connector -
-Account Deletion* is present and marked as installed, the Odoo database
+Account Deletion* is present and marked as installed, the Konvergo ERP database
 is already up-to-date and the administrator can proceed with the next
 step. If it is not yet installed, install it now.
 
-### Retrieve endpoint details from Odoo
+### Retrieve endpoint details from Konvergo ERP
 
 The endpoint details can be found in
 `Sales --> Configuration --> Settings --> eBay`. First, input random
@@ -88,7 +88,7 @@ text values for the `Production App Key` and for the
 `Verification Token`.
 
 <img src="troubleshooting/generate-token.png" class="align-center"
-alt="Generate a verification token in Odoo." />
+alt="Generate a verification token in Konvergo ERP." />
 
 ### Subscribe to account deletion notifications
 
@@ -106,7 +106,7 @@ details:
 - An *email address* to send notifications to if the endpoint is
   unreachable.
 - The *endpoint details*:
-  - The URL to Odoo's account deletion notification endpoint
+  - The URL to Konvergo ERP's account deletion notification endpoint
   - A verification token
 
 <img src="troubleshooting/ebay-notification-endpoint.png"

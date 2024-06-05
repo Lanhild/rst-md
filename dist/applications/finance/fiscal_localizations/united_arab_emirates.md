@@ -26,7 +26,7 @@ or **configure** specific accounts according to your needs.
 > [!IMPORTANT]
 > - Always keep at least one **receivable account** and one **payable
 > account** active. - It is also advised to **keep the accounts below
-> active**, as they are used either as transitory accounts by Odoo or
+> active**, as they are used either as transitory accounts by Konvergo ERP or
 > are specific to the **UAE localization package**.
 >
 > | Code   | Account Name                 | Type                    |
@@ -65,7 +65,7 @@ enable the `developer mode
 an `Advance Tax payment account` for the **5%** group.
 
 > [!NOTE]
-> The `RCM (Reverse Charge Mechanism)` is supported by Odoo.
+> The `RCM (Reverse Charge Mechanism)` is supported by Konvergo ERP.
 
 <img src="united_arab_emirates/uae-localization-taxes.png"
 class="align-center"

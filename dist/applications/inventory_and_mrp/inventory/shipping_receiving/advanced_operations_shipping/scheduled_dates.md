@@ -1,7 +1,7 @@
 # Scheduled delivery dates
 
 Accurately forecasting delivery dates is vital for fulfilling customer
-expectations. In Odoo, the *Inventory* app allows for comprehensive lead
+expectations. In Konvergo ERP, the *Inventory* app allows for comprehensive lead
 time configuration, allowing coordination and planning of manufacturing
 orders, deliveries, and receptions.
 
@@ -9,7 +9,7 @@ orders, deliveries, and receptions.
 
 Different lead times for different operations can impact various stages
 of the order fulfillment process. Here's a summary of the types of lead
-times in Odoo:
+times in Konvergo ERP:
 
 <img src="scheduled_dates/all-lead-times.png" class="align-center"
 alt="Show graphic of all lead times working together." />
@@ -39,7 +39,7 @@ alt="Show graphic of all lead times working together." />
 - `Manufacturing lead time <inventory/management/manuf-lt>`: the number
   of days needed to complete a manufacturing order (MO) from the date of
   confirmation. This lead time includes weekends (non-working hours in
-  Odoo), and is used to forecast an approximate production date for a
+  Konvergo ERP), and is used to forecast an approximate production date for a
   finished good.
 - `Manufacturing security lead time <inventory/management/manuf-security-lt>`:
   moves the scheduled date of the `MO (Manufacturing Order)` forward by
@@ -55,7 +55,7 @@ automatically compute an *expected delivery date* on a
 `SO (Sales Order)`. The expected delivery date ensures a realistic
 *delivery dates* setting for shipments from the warehouse.
 
-Odoo issues a warning message if the set delivery date is earlier than
+Konvergo ERP issues a warning message if the set delivery date is earlier than
 the expected date, as it may not be feasible to fulfill the order by
 that time, which would impact other warehouse operations.
 
@@ -65,7 +65,7 @@ A `SO (Sales Order)` containing a
 <span class="title-ref">Coconut-scented candle</span> is confirmed on
 July 11th. The product has a customer lead time of 14 days, and the
 business uses a sales security lead time of 1 day. Based on the lead
-time inputs, Odoo suggests a delivery date in 15 days, on July 26th.
+time inputs, Konvergo ERP suggests a delivery date in 15 days, on July 26th.
 
 <img src="scheduled_dates/scheduled-date.png" class="align-center"
 alt="Set *Delivery Date* in a sales order. Enables delivery lead times feature." />
@@ -163,7 +163,7 @@ today: April 10th.
 Automatically determining the dates on which to place orders from
 suppliers can help simplify the procurement process.
 
-Odoo calculates the supplier shipment *receipt date*, and
+Konvergo ERP calculates the supplier shipment *receipt date*, and
 `PO (Purchase Order)` deadline, based on the required date the product
 is needed in the warehouse. By working backwards from the receipt date,
 vendor lead times and purchase security lead times are taken into
@@ -217,7 +217,7 @@ expected timeframe.
 <div class="example">
 
 On a `PO (Purchase Order)` confirmed on July 11th, for a product
-configured with a 10-day vendor lead time, Odoo automatically sets the
+configured with a 10-day vendor lead time, Konvergo ERP automatically sets the
 `Receipt Date` to July 21st. The receipt date also appears as the
 `Scheduled Date` on the warehouse receipt form, accessible from the
 `Receipt` smart button, located on the `PO (Purchase Order)`.
@@ -364,7 +364,7 @@ together to ensure timely order fulfillment:
 
 The customer places an order for a manufactured product on September
 1st, and the scheduled delivery date from the warehouse is on September
-20th. Odoo uses lead times and automated reordering rules to schedule
+20th. Konvergo ERP uses lead times and automated reordering rules to schedule
 the necessary operations, based on the outgoing shipment delivery date,
 September 20th:
 
@@ -386,7 +386,7 @@ alt="Show timeline of how lead times work together to schedule warehouse operati
   as September 20th. But the sales security lead time pushed the date
   forward by a day.
 
-Odoo's replenishment planning maps a business' order fulfillment
+Konvergo ERP's replenishment planning maps a business' order fulfillment
 process, setting pre-determined deadlines and raw material order dates,
 including buffer days for potential delays. This ensures products are
 delivered on time.

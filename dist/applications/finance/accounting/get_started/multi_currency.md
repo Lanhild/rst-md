@@ -1,6 +1,6 @@
 # Multi-currency system
 
-Odoo allows you to issue invoices, receive bills, and record
+Konvergo ERP allows you to issue invoices, receive bills, and record
 transactions in currencies other than the main currency configured for
 your company. You can also set up bank accounts in other currencies and
 run reports on your foreign currency activities.
@@ -48,14 +48,14 @@ When you activate a second currency for the first time,
 default, you have to click on the **Update now** button (`🗘`) to update
 the rates.
 
-Odoo can update the rates at regular intervals. To do so, change the
+Konvergo ERP can update the rates at regular intervals. To do so, change the
 `Interval` from `Manually` to `Daily`, `Weekly`, or `Monthly`. You can
 also select the web service from which you want to retrieve the latest
 currency rates by clicking on the `Service` field.
 
 ### Exchange difference entries
 
-Odoo automatically records exchange differences entries on dedicated
+Konvergo ERP automatically records exchange differences entries on dedicated
 accounts, in a dedicated journal.
 
 You can define which journal and accounts to use to **post exchange
@@ -68,7 +68,7 @@ editing the `Journal`, `Gain Account`, and `Loss Account`.
 If you receive a payment for a customer invoice one month after it was
 issued, the exchange rate has likely changed since. Therefore, this
 fluctuation implies some profit or loss due to the exchange difference,
-which Odoo automatically records in the default **Exchange Difference**
+which Konvergo ERP automatically records in the default **Exchange Difference**
 journal.
 
 </div>
@@ -124,7 +124,7 @@ currency in the `Amount in Currency field`.
 <img src="multi_currency/foreign-fields.png" class="align-center"
 alt="The extra fields related to foreign currencies." />
 
-When reconciling, Odoo displays both the foreign currency amount and the
+When reconciling, Konvergo ERP displays both the foreign currency amount and the
 equivalent amount in your company's main currency.
 
 ### Exchange rate journal entries

@@ -62,14 +62,14 @@ able to request a new vehicle.
 
 ## Manufacturers
 
-Odoo *Fleet* comes pre-configured with sixty-six commonly used car and
+Konvergo ERP *Fleet* comes pre-configured with sixty-six commonly used car and
 bicycle manufacturers in the database, along with their logos. To view
 the pre-loaded manufacturers, go to `Fleet
 app --> Configuration --> Manufacturers`.
 
 The manufacturers appear in a list view in alphabetical order. Each
 manufacturer's card lists how many specific models are configured for
-each particular manufacturer. Odoo comes with forty six pre-configured
+each particular manufacturer. Konvergo ERP comes with forty six pre-configured
 `models <fleet/models>` from four major auto manufacturers and one major
 bicycle manufacturer: Audi, BMW, Mercedes, Opel (cars), and Eddy Merckx
 (bicycle).
@@ -89,7 +89,7 @@ logo. When the information is entered, click `Save`.
 
 Many manufacturers have a variety of models that they produce. When
 adding a vehicle to the fleet, it is important to specify the vehicle
-model being added. Odoo comes with pre-configured car models from four
+model being added. Konvergo ERP comes with pre-configured car models from four
 major auto manufacturers, and one pre-configured bicycle model from one
 bicycle manufacturer: Audi, BMW, Mercedes, Opel (cars), and Eddy Merckx
 (bicycle). If a vehicle *other* than the pre-configured models from
@@ -98,7 +98,7 @@ needs to be added to the database.
 
 ### Preconfigured Models
 
-The following models are pre-loaded in Odoo and do not need to be added
+The following models are pre-loaded in Konvergo ERP and do not need to be added
 to the database:
 
 | AUDI | BMW          | Eddy Merckx | Mercedes  | Opel          |
@@ -133,7 +133,7 @@ be visible depending on the location of the company.
   Edit`.
 - `Vehicle Type`: select one of two preconfigured vehicle types, either
   `Car` or `Bike`, from the drop-down menu. The vehicle types are
-  hardcoded in Odoo and are integrated with the *Payroll* application
+  hardcoded in Konvergo ERP and are integrated with the *Payroll* application
   since vehicles can be part of an employee's benefits. Adding
   additional vehicle types is not possible as it will affect payroll.
 - `Category`: select the category the vehicle is categorized under from

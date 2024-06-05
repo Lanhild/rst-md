@@ -8,17 +8,17 @@ getting_started/\*
 
 </div>
 
-Welcome to the Getting Started Odoo tutorial! If you reached this page
-that means you are interested in the development of your own Odoo
-module. It might also mean that you recently joined the Odoo company for
+Welcome to the Getting Started Konvergo ERP tutorial! If you reached this page
+that means you are interested in the development of your own Konvergo ERP
+module. It might also mean that you recently joined the Konvergo ERP company for
 a rather technical position. In any case, your journey to the technical
-side of Odoo starts here.
+side of Konvergo ERP starts here.
 
 The goal of this tutorial is for you to get an insight of the most
-important parts of the Odoo development framework while developing your
-own Odoo module to manage real estate assets. The chapters should be
+important parts of the Konvergo ERP development framework while developing your
+own Konvergo ERP module to manage real estate assets. The chapters should be
 followed in their given order since they cover the development of a new
-Odoo application from scratch in an incremental way. In other words,
+Konvergo ERP application from scratch in an incremental way. In other words,
 each chapter depends on the previous one.
 
 <div class="attention">
@@ -30,7 +30,7 @@ Attention
 </div>
 
 Are you following this tutorial as part of your technical onboarding as
-an Odoo employee? Then, we ask you to complete all the chapters before
+an Konvergo ERP employee? Then, we ask you to complete all the chapters before
 joining your new team.
 
 </div>

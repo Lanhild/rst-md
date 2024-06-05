@@ -15,7 +15,7 @@ amongst employees.
 
 This document covers the process required to configure call queues (with
 advanced settings), as well as how to log into a call queue from the
-Odoo database.
+Konvergo ERP database.
 
 <div class="seealso">
 
@@ -107,7 +107,7 @@ There are three ways call agents can connect to an Axivox call queue:
 1.  Dynamic agents connect automatically.
 2.  Manager logs in specific agent(s), via the [Axivox management
     console](https://manage.axivox.com).
-3.  Agent connects to the queue in Odoo, via the *VoIP* widget.
+3.  Agent connects to the queue in Konvergo ERP, via the *VoIP* widget.
 
 <div class="seealso">
 
@@ -213,11 +213,11 @@ drop-down menu.
 <img src="call_queues/report.png" class="align-center"
 alt="Axivox queue report with result, event type, and period highlighted." />
 
-### Connect to queue on Odoo
+### Connect to queue on Konvergo ERP
 
 Dynamic agents can connect manually to the Axivox call queue from the
-Odoo *VoIP* widget, once the *VoIP* app is configured for the individual
-user in Odoo.
+Konvergo ERP *VoIP* widget, once the *VoIP* app is configured for the individual
+user in Konvergo ERP.
 
 <div class="seealso">
 
@@ -225,12 +225,12 @@ user in Odoo.
 
 </div>
 
-To access the Odoo *VoIP* widget, click the `☎️ (phone)` icon in the
-upper-right corner of the screen, from any window within Odoo.
+To access the Konvergo ERP *VoIP* widget, click the `☎️ (phone)` icon in the
+upper-right corner of the screen, from any window within Konvergo ERP.
 
 <div class="seealso">
 
-For more information on the Odoo *VoIP* widget, see this documentation:
+For more information on the Konvergo ERP *VoIP* widget, see this documentation:
 `../voip_widget`
 
 </div>
@@ -250,7 +250,7 @@ Then, click the green `Refresh` button at the top of the
 connected to the queue currently, appears in the column next to the
 queue they are logged into.
 
-To log out of the queue, open the Odoo *VoIP* widget, dial the
+To log out of the queue, open the Konvergo ERP *VoIP* widget, dial the
 `Agent disconnection` number, and press the green call button
 `📞 (phone)` icon. The agent is disconnected from the queue after a
 short, two-second message.

@@ -6,14 +6,14 @@ is helpful in that it reduces costs, and employees can work from
 anywhere in the world, so long as they have a broadband internet
 connection.
 
-Odoo *VoIP* is SIP (Session Initiation Protocol) compatible, which means
+Konvergo ERP *VoIP* is SIP (Session Initiation Protocol) compatible, which means
 it can be used with *any* `SIP (Session Initiation Protocol)` compatible
 application.
 
-This document covers the process of setting up Odoo *VoIP* across
+This document covers the process of setting up Konvergo ERP *VoIP* across
 different devices and integrations.
 
-Odoo is fully-integrated with all Odoo apps, allowing users to click
+Konvergo ERP is fully-integrated with all Konvergo ERP apps, allowing users to click
 into any app, and schedule a call as an activity in the chatter.
 
 <div class="example">
@@ -31,15 +31,15 @@ Should the `Due Date` be for today's date, the activity shows up in the
 (Voice over Internet Protocol)` widget.
 
 <img src="devices_integrations/crm-voip-widget.png" class="align-center"
-alt="View of CRM leads and the option to schedule an activity for Odoo Discuss." />
+alt="View of CRM leads and the option to schedule an activity for Konvergo ERP Discuss." />
 
 </div>
 
-## Odoo VoIP (laptop/desktop computer)
+## Konvergo ERP VoIP (laptop/desktop computer)
 
-The Odoo *VoIP* (Voice over Internet Protocol) module and widget can be
+The Konvergo ERP *VoIP* (Voice over Internet Protocol) module and widget can be
 used from any browser on a laptop or desktop device. Simply click on the
-`☎️ (phone)` icon in the upper-right corner, while in the Odoo database,
+`☎️ (phone)` icon in the upper-right corner, while in the Konvergo ERP database,
 and the widget appears.
 
 <div class="seealso">
@@ -49,20 +49,20 @@ desktop/laptop computer, check out this documentation: `voip_widget`.
 
 </div>
 
-## Odoo VoIP (tablet/mobile device)
+## Konvergo ERP VoIP (tablet/mobile device)
 
-The Odoo *VoIP* app can be used on tablets and mobile phones, through
-the Odoo Android or Apple IOS applications. Additionally, a mobile web
+The Konvergo ERP *VoIP* app can be used on tablets and mobile phones, through
+the Konvergo ERP Android or Apple IOS applications. Additionally, a mobile web
 browser can be used to access the database.
 
 > [!WARNING]
-> Odoo Android and Apple IOS applications are no longer being maintained
-> by Odoo on the Android and Apple portals. This means Odoo support only
-> handles limited scopes of Odoo Android or Apple IOS support tickets.
+> Konvergo ERP Android and Apple IOS applications are no longer being maintained
+> by Konvergo ERP on the Android and Apple portals. This means Konvergo ERP support only
+> handles limited scopes of Konvergo ERP Android or Apple IOS support tickets.
 
 > [!IMPORTANT]
-> While outgoing calls can be placed using Odoo on a mobile device, be
-> aware that Odoo is **not** a full
+> While outgoing calls can be placed using Konvergo ERP on a mobile device, be
+> aware that Konvergo ERP is **not** a full
 > `VoIP (Voice over Internet Protocol)` application, and does **not**
 > ring on incoming calls. If the user needs to be reachable on a mobile
 > device at all times, an app, like Zoiper, should be used. Apps like
@@ -71,7 +71,7 @@ browser can be used to access the database.
 > For more information, see this documentation: `voip/zoiper`.
 
 While in the mobile application on a mobile device/tablet, access the
-Odoo *VoIP* widget, by tapping on the `☎️ (phone)` icon in the
+Konvergo ERP *VoIP* widget, by tapping on the `☎️ (phone)` icon in the
 upper-right corner. The widget appears in the lower-left corner.
 
 When first making a call from the tablet using the mobile application,
@@ -79,20 +79,20 @@ the user is prompted to `Allow` the database to use the microphone.
 Click `Allow` when prompted to continue with the call using the
 microphone.
 
-This step is **necessary**, whether using the mobile Odoo application or
+This step is **necessary**, whether using the mobile Konvergo ERP application or
 web browser.
 
 <img src="devices_integrations/allow-mic.png" class="align-center"
 alt="Allow the database to access the microphone." />
 
-Odoo then asks how to make the call. The two options are : `VOIP` or
+Konvergo ERP then asks how to make the call. The two options are : `VOIP` or
 `Phone` (should the tablet be enabled for calling). Click the box next
 to `Remember ?` should this decision be the default moving forward.
 
 <img src="devices_integrations/voip-phone.png" class="align-center"
 alt="Window prompt to choose whether to use VOIP or the devices phone to make the call." />
 
-Here is the layout of what the Odoo *VoIP* app looks like on a mobile
+Here is the layout of what the Konvergo ERP *VoIP* app looks like on a mobile
 device:
 
 <img src="devices_integrations/voip-odoo-dashboard.png"

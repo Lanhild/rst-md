@@ -1,6 +1,6 @@
 # System configuration
 
-This document describes basic steps to set up Odoo in production or on
+This document describes basic steps to set up Konvergo ERP in production or on
 an internet-facing server. It follows `installation <../on_premise>`,
 and is not generally necessary for a development systems that is not
 exposed on the internet.
@@ -11,7 +11,7 @@ exposed on the internet.
 
 ## dbfilter
 
-Odoo is a multi-tenant system: a single Odoo system may run and serve a
+Konvergo ERP is a multi-tenant system: a single Konvergo ERP system may run and serve a
 number of database instances. It is also highly customizable, with
 customizations (starting from the modules being loaded) depending on the
 "current database".
@@ -21,10 +21,10 @@ logged-in company user: the database can be selected when logging in,
 and customizations loaded afterwards.
 
 However it is an issue for non-logged users (portal, website) which
-aren't bound to a database: Odoo needs to know which database should be
+aren't bound to a database: Konvergo ERP needs to know which database should be
 used to load the website page or perform the operation. If multi-tenancy
 is not used that is not an issue, there's only one database to use, but
-if there are multiple databases accessible Odoo needs a rule to know
+if there are multiple databases accessible Konvergo ERP needs a rule to know
 which one it should use.
 
 That is one of the purposes of `--db-filter <odoo-bin --db-filter>`: it
@@ -76,21 +76,21 @@ By default, PostgreSQL only allows connection over UNIX sockets and
 loopback connections (from "localhost", the same machine the PostgreSQL
 server is installed on).
 
-UNIX socket is fine if you want Odoo and PostgreSQL to execute on the
+UNIX socket is fine if you want Konvergo ERP and PostgreSQL to execute on the
 same machine, and is the default when no host is provided, but if you
-want Odoo and PostgreSQL to execute on different machines[^1] it will
+want Konvergo ERP and PostgreSQL to execute on different machines[^1] it will
 need to [listen to network
 interfaces](https://www.postgresql.org/docs/12/static/runtime-config-connection.html)[^2],
 either:
 
 - Only accept loopback connections and [use an SSH
   tunnel](https://www.postgresql.org/docs/12/static/ssh-tunnels.html)
-  between the machine on which Odoo runs and the one on which PostgreSQL
-  runs, then configure Odoo to connect to its end of the tunnel
-- Accept connections to the machine on which Odoo is installed, possibly
+  between the machine on which Konvergo ERP runs and the one on which PostgreSQL
+  runs, then configure Konvergo ERP to connect to its end of the tunnel
+- Accept connections to the machine on which Konvergo ERP is installed, possibly
   over ssl (see [PostgreSQL connection
   settings](https://www.postgresql.org/docs/12/static/runtime-config-connection.html)
-  for details), then configure Odoo to connect over the network
+  for details), then configure Konvergo ERP to connect over the network
 
 ### Configuration sample
 
@@ -113,9 +113,9 @@ port = 5432
 max_connections = 80
 ```
 
-### Configuring Odoo
+### Configuring Konvergo ERP
 
-Out of the box, Odoo connects to a local postgres over UNIX socket via
+Out of the box, Konvergo ERP connects to a local postgres over UNIX socket via
 port 5432. This can be overridden using `the database options
 <reference/cmdline/server/database>` when your Postgres deployment is
 not local and/or does not use the installation defaults.
@@ -162,10 +162,10 @@ db_password = pwd
 dbfilter = ^mycompany.*$
 ```
 
-### SSL Between Odoo and PostgreSQL
+### SSL Between Konvergo ERP and PostgreSQL
 
-Since Odoo 11.0, you can enforce ssl connection between Odoo and
-PostgreSQL. in Odoo the db_sslmode control the ssl security of the
+Since Konvergo ERP 11.0, you can enforce ssl connection between Konvergo ERP and
+PostgreSQL. in Konvergo ERP the db_sslmode control the ssl security of the
 connection with value chosen out of 'disable', 'allow', 'prefer',
 'require', 'verify-ca' or 'verify-full'
 
@@ -174,7 +174,7 @@ Doc](https://www.postgresql.org/docs/12/static/libpq-ssl.html)
 
 ## Builtin server
 
-Odoo includes built-in HTTP, cron, and live-chat servers, using either
+Konvergo ERP includes built-in HTTP, cron, and live-chat servers, using either
 multi-threading or multi-processing.
 
 The **multi-threaded** server is a simpler server primarily used for
@@ -230,9 +230,9 @@ heavy_worker_ram_estimation) )
 In multi-processing, a dedicated LiveChat worker is automatically
 started and listens on the `--gevent-port <odoo-bin --gevent-port>`. By
 default, the HTTP requests will keep accessing the normal HTTP workers
-instead of the LiveChat one. You must deploy a proxy in front of Odoo
+instead of the LiveChat one. You must deploy a proxy in front of Konvergo ERP
 and redirect incoming requests whose path starts with `/websocket/` to
-the LiveChat worker. You must also start Odoo in
+the LiveChat worker. You must also start Konvergo ERP in
 `--proxy-mode <odoo-bin --proxy-mode>` so it uses the real client
 headers (such as hostname, scheme, and IP) instead of the proxy ones.
 
@@ -244,7 +244,7 @@ headers (such as hostname, scheme, and IP) instead of the proxy ones.
 - (4 \* 2) + 1 = 9 \<- theoretical maximal number of worker
 - We'll use 8 workers + 1 for cron. We'll also use a monitoring system
   to measure cpu load, and check if it's between 7 and 7.5 .
-- RAM = 9 \* ((0.8\*150) + (0.2\*1024)) ~= 3Go RAM for Odoo
+- RAM = 9 \* ((0.8\*150) + (0.2\*1024)) ~= 3Go RAM for Konvergo ERP
 
 in `the configuration file <reference/cmdline/config_file>`:
 
@@ -261,14 +261,14 @@ workers = 8
 
 ## HTTPS
 
-Whether it's accessed via website/web client or web service, Odoo
+Whether it's accessed via website/web client or web service, Konvergo ERP
 transmits authentication information in cleartext. This means a secure
-deployment of Odoo must use HTTPS[^3]. SSL termination can be
+deployment of Konvergo ERP must use HTTPS[^3]. SSL termination can be
 implemented via just about any SSL termination proxy, but requires the
 following setup:
 
-- Enable Odoo's `proxy mode <odoo-bin --proxy-mode>`. This should only
-  be enabled when Odoo is behind a reverse proxy
+- Enable Konvergo ERP's `proxy mode <odoo-bin --proxy-mode>`. This should only
+  be enabled when Konvergo ERP is behind a reverse proxy
 - Set up the SSL termination proxy ([Nginx termination
   example](https://nginx.com/resources/admin-guide/nginx-ssl-termination/))
 - Set up the proxying itself ([Nginx proxying
@@ -389,10 +389,10 @@ never transmitted over HTTP and
 proxy_cookie_flags session_id samesite=lax secure;
 ```
 
-## Odoo as a WSGI Application
+## Konvergo ERP as a WSGI Application
 
-It is also possible to mount Odoo as a standard
-[WSGI](https://wsgi.readthedocs.org/) application. Odoo provides the
+It is also possible to mount Konvergo ERP as a standard
+[WSGI](https://wsgi.readthedocs.org/) application. Konvergo ERP provides the
 base for a WSGI launcher script as `odoo-wsgi.example.py`. That script
 should be customized (possibly after copying it from the setup
 directory) to correctly set the configuration directly in
@@ -400,13 +400,13 @@ directory) to correctly set the configuration directly in
 configuration file.
 
 However the WSGI server will only expose the main HTTP endpoint for the
-web client, website and webservice API. Because Odoo does not control
+web client, website and webservice API. Because Konvergo ERP does not control
 the creation of workers anymore it can not setup cron or livechat
 workers
 
 ### Cron Workers
 
-Starting one of the built-in Odoo servers next to the WSGI server is
+Starting one of the built-in Konvergo ERP servers next to the WSGI server is
 required to process cron jobs. That server must be configured to only
 process crons and not HTTP requests using the
 `--no-http <odoo-bin --no-http>` cli option or the `http_enable = False`
@@ -427,7 +427,7 @@ processing power. All requests whose path starts with `/websocket/`
 should be directed to that server. A regular (thread/process-based) WSGI
 server should be used for all other requests.
 
-The Odoo cron server can also be used to serve the live chat requests.
+The Konvergo ERP cron server can also be used to serve the live chat requests.
 Just drop the `--no-http <odoo-bin --no-http>` cli option from the cron
 server and make sure requests whose path starts with `/websocket/` are
 directed to this server, either on the
@@ -436,14 +436,14 @@ directed to this server, either on the
 
 ## Serving static files and attachments
 
-For development convenience, Odoo directly serves all static files and
+For development convenience, Konvergo ERP directly serves all static files and
 attachments in its modules. This may not be ideal when it comes to
 performances, and static files should generally be served by a static
 HTTP server.
 
 ### Serving static files
 
-Odoo static files are located in each module's `static/` folder, so
+Konvergo ERP static files are located in each module's `static/` folder, so
 static files can be served by intercepting all requests to
 `/{MODULE}/static/{FILE}`, and looking up the right module (and file) in
 the various addons paths.
@@ -494,7 +494,7 @@ installation, specifically on your
 
 Debian package
 
-Say Odoo has been installed via the **debian packages** for Community
+Say Konvergo ERP has been installed via the **debian packages** for Community
 and Enterprise, and that the `--addons-path <odoo-bin --addons-path>` is
 `'/usr/lib/python3/dist-packages/odoo/addons'`.
 
@@ -511,7 +511,7 @@ try_files $uri @odoo;
 
 Git sources
 
-Say Odoo has been installed via the **sources**, that both the Community
+Say Konvergo ERP has been installed via the **sources**, that both the Community
 and Enterprise git repositories were cloned in `/opt/odoo/community` and
 `/opt/odoo/enterprise` respectively, and that the
 `--addons-path <odoo-bin --addons-path>` is
@@ -533,19 +533,19 @@ try_files /community/odoo/addons$uri /community/addons$uri /enterprise$uri @odoo
 ### Serving attachments
 
 Attachments are files stored in the filestore which access is regulated
-by Odoo. They cannot be directly accessed via a static web server as
+by Konvergo ERP. They cannot be directly accessed via a static web server as
 accessing them requires multiple lookups in the database to determine
 where the files are stored and whether the current user can access them
 or not.
 
 Nevertheless, once the file has been located and the access rights
-verified by Odoo, it is a good idea to serve the file using the static
-web server instead of Odoo. For Odoo to delegate serving files to the
+verified by Konvergo ERP, it is a good idea to serve the file using the static
+web server instead of Konvergo ERP. For Konvergo ERP to delegate serving files to the
 static web server, the [X-Sendfile](https://tn123.org/mod_xsendfile/)
 (apache) or
 [X-Accel](https://www.nginx.com/resources/wiki/start/topics/examples/x-accel/)
 (nginx) extensions must be enabled and configured on the static web
-server. Once it is set up, start Odoo with the
+server. Once it is set up, start Konvergo ERP with the
 `--x-sendfile <odoo-bin --x-sendfile>` CLI flag (this unique flag is
 used for both X-Sendfile and X-Accel).
 
@@ -562,9 +562,9 @@ used for both X-Sendfile and X-Accel).
 > }
 > ```
 >
-> In case you don't know what is the path to your filestore, start Odoo
+> In case you don't know what is the path to your filestore, start Konvergo ERP
 > with the `--x-sendfile <odoo-bin --x-sendfile>` option and navigate to
-> the `/web/filestore` URL directly via Odoo (don't navigate to the URL
+> the `/web/filestore` URL directly via Konvergo ERP (don't navigate to the URL
 > via NGINX). This logs a warnings, the message contains the
 > configuration you need.
 
@@ -627,7 +627,7 @@ following security-related topics:
   matching your typical usage (memory/CPU/timeouts). See also
   `builtin_server`.
 
-- Run Odoo behind a web server providing HTTPS termination with a valid
+- Run Konvergo ERP behind a web server providing HTTPS termination with a valid
   SSL certificate, in order to prevent eavesdropping on cleartext
   communications. SSL certificates are cheap, and many free options
   exist. Configure the web proxy to limit the size of requests, set
@@ -655,25 +655,25 @@ following security-related topics:
   on different machines than the production ones. And apply the same
   security precautions as for production.
 
-- If your public-facing Odoo server has access to sensitive internal
+- If your public-facing Konvergo ERP server has access to sensitive internal
   network resources or services (e.g. via a private VLAN), implement
   appropriate firewall rules to protect those internal resources. This
-  will ensure that the Odoo server cannot be used accidentally (or as a
+  will ensure that the Konvergo ERP server cannot be used accidentally (or as a
   result of malicious user actions) to access or disrupt those internal
   resources. Typically this can be done by applying an outbound default
   DENY rule on the firewall, then only explicitly authorizing access to
-  internal resources that the Odoo server needs to access. [Systemd IP
+  internal resources that the Konvergo ERP server needs to access. [Systemd IP
   traffic access
   control](http://0pointer.net/blog/ip-accounting-and-access-lists-with-systemd.html)
   may also be useful to implement per-process network access control.
 
-- If your public-facing Odoo server is behind a Web Application
+- If your public-facing Konvergo ERP server is behind a Web Application
   Firewall, a load-balancer, a transparent DDoS protection service (like
   CloudFlare) or a similar network-level device, you may wish to avoid
-  direct access to the Odoo system. It is generally difficult to keep
-  the endpoint IP addresses of your Odoo servers secret. For example
+  direct access to the Konvergo ERP system. It is generally difficult to keep
+  the endpoint IP addresses of your Konvergo ERP servers secret. For example
   they can appear in web server logs when querying public systems, or in
-  the headers of emails posted from Odoo. In such a situation you may
+  the headers of emails posted from Konvergo ERP. In such a situation you may
   want to configure your firewall so that the endpoints are not
   accessible publicly except from the specific IP addresses of your WAF,
   load-balancer or proxy service. Service providers like CloudFlare
@@ -687,7 +687,7 @@ following security-related topics:
   them to a remote archiving server that is not accessible from the
   server itself.
 
-- Deploying Odoo on Linux is strongly recommended over Windows. Should
+- Deploying Konvergo ERP on Linux is strongly recommended over Windows. Should
   you choose nevertheless to deploy on a Windows platform, a thorough
   security hardening review of the server should be conducted and is
   outside of the scope of this guide.
@@ -695,8 +695,8 @@ following security-related topics:
 ### Blocking Brute Force Attacks
 
 For internet-facing deployments, brute force attacks on user passwords
-are very common, and this threat should not be neglected for Odoo
-servers. Odoo emits a log entry whenever a login attempt is performed,
+are very common, and this threat should not be neglected for Konvergo ERP
+servers. Konvergo ERP emits a log entry whenever a login attempt is performed,
 and reports the result: success or failure, along with the target login
 and source IP.
 
@@ -783,35 +783,35 @@ which generates a 32-character pseudorandom printable string.
 
 There may be instances where the master password is misplaced, or
 compromised, and needs to be reset. The following process is for system
-administrators of an Odoo on-premise database detailing how to manually
+administrators of an Konvergo ERP on-premise database detailing how to manually
 reset and re-encrypt the master password.
 
 <div class="seealso">
 
-For more information about changing an Odoo.com account password, see
+For more information about changing an Konvergo ERP.com account password, see
 this documentation: `odoocom/change_password`.
 
 </div>
 
 When creating a new on-premise database, a random master password is
-generated. Odoo recommends using this password to secure the database.
+generated. Konvergo ERP recommends using this password to secure the database.
 This password is implemented by default, so there is a secure master
-password for any Odoo on-premise deployment.
+password for any Konvergo ERP on-premise deployment.
 
 > [!WARNING]
-> When creating an Odoo on-premise database the installation is
+> When creating an Konvergo ERP on-premise database the installation is
 > accessible to anyone on the internet, until this password is set to
 > secure the database.
 
-The master password is specified in the Odoo configuration file
+The master password is specified in the Konvergo ERP configuration file
 (<span class="title-ref">odoo.conf</span> or
-<span class="title-ref">odoorc</span> (hidden file)). The Odoo master
+<span class="title-ref">odoorc</span> (hidden file)). The Konvergo ERP master
 password is needed to modify, create, or delete a database through the
 graphical user interface (GUI).
 
 #### Locate configuration file
 
-First, open the Odoo configuration file
+First, open the Konvergo ERP configuration file
 (<span class="title-ref">odoo.conf</span> or
 <span class="title-ref">odoorc</span> (hidden file)).
 
@@ -822,7 +822,7 @@ First, open the Odoo configuration file
 Windows
 
 The configuration file is located at:
-<span class="title-ref">c:ProgramFilesOdoo{VERSION}serverodoo.conf</span>
+<span class="title-ref">c:ProgramFilesKonvergo ERP{VERSION}serverodoo.conf</span>
 
 </div>
 
@@ -830,7 +830,7 @@ The configuration file is located at:
 
 Linux
 
-Depending on how Odoo is installed on the Linux machine, the
+Depending on how Konvergo ERP is installed on the Linux machine, the
 configuration file is located in one of two different places:
 
 - Package installation: <span class="title-ref">/etc/odoo.conf</span>
@@ -883,7 +883,7 @@ Command-line interface
 Modify the master password line using the following Unix command
 detailed below.
 
-Connect to the Odoo server's terminal via Secure Shell (SSH) protocol,
+Connect to the Konvergo ERP server's terminal via Secure Shell (SSH) protocol,
 and edit the configuration file. To modify the configuration file, enter
 the following command: `sudo nano /etc/odoo.conf`
 
@@ -914,9 +914,9 @@ The modified line appears like this:
 > ensures the database is secure throughout the entire password reset
 > process.
 
-#### Restart Odoo server
+#### Restart Konvergo ERP server
 
-After setting the temporary password, a restart of the Odoo server is
+After setting the temporary password, a restart of the Konvergo ERP server is
 **required**.
 
 <div class="tabs">
@@ -925,13 +925,13 @@ After setting the temporary password, a restart of the Odoo server is
 
 Graphical user interface
 
-To restart the Odoo server, first, type
+To restart the Konvergo ERP server, first, type
 <span class="title-ref">services</span> into the Windows `Search` bar.
-Then, select the `Services` application, and scroll down to the `Odoo`
+Then, select the `Services` application, and scroll down to the `Konvergo ERP`
 service.
 
-Next, right click on `Odoo`, and select `Start` or `Restart`. This
-action manually restarts the Odoo server.
+Next, right click on `Konvergo ERP`, and select `Start` or `Restart`. This
+action manually restarts the Konvergo ERP server.
 
 </div>
 
@@ -939,7 +939,7 @@ action manually restarts the Odoo server.
 
 Command-line interface
 
-Restart the Odoo server by typing the command:
+Restart the Konvergo ERP server by typing the command:
 `sudo service odoo15 restart`
 
 > [!NOTE]
@@ -973,14 +973,14 @@ version of the new password now appears in the configuration file.
 
 <div class="seealso">
 
-For more information on Odoo database security, see this documentation:
+For more information on Konvergo ERP database security, see this documentation:
 `db_manager_security`.
 
 </div>
 
 ## Supported Browsers
 
-Odoo supports all the major desktop and mobile browsers available on the
+Konvergo ERP supports all the major desktop and mobile browsers available on the
 market, as long as they are supported by their publishers.
 
 Here are the supported browsers:
@@ -995,9 +995,9 @@ Here are the supported browsers:
 > publisher before filing a bug report.
 
 > [!NOTE]
-> Since Odoo 13.0, ES6 is supported. Therefore, IE support is dropped.
+> Since Konvergo ERP 13.0, ES6 is supported. Therefore, IE support is dropped.
 
-[^1]: to have multiple Odoo installations use the same PostgreSQL
+[^1]: to have multiple Konvergo ERP installations use the same PostgreSQL
     database, or to provide more computing resources to both software.
 
 [^2]: technically a tool like

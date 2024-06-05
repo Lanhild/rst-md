@@ -4,9 +4,9 @@ show-toc
 
 # Payroll
 
-Odoo *Payroll* is used to process work entries and create payslips for
+Konvergo ERP *Payroll* is used to process work entries and create payslips for
 employees, including both regular pay and commission. Payroll works in
-conjunction with other Odoo apps, such as *Employees*, *Timesheets*,
+conjunction with other Konvergo ERP apps, such as *Employees*, *Timesheets*,
 *Time Off*, and *Attendances*.
 
 The *Payroll* app helps ensure there are no issues or conflicts when
@@ -23,7 +23,7 @@ posted in accounting, and whether SEPA payments are created, is selected
 here.
 
 The `Settings` screen is where localization settings are configured.
-*Localizations* are country-specific settings pre-configured in Odoo at
+*Localizations* are country-specific settings pre-configured in Konvergo ERP at
 the creation of the database, and account for all taxes, fees, and
 allowances for that particular country. The `Localization` section of
 the `Settings` includes a detailed view of all benefits provided to
@@ -39,10 +39,10 @@ database. It is not recommended to alter the localization settings
 unless specifically required.
 
 > [!NOTE]
-> Odoo can handle a multi-company configuration. This is generally done
+> Konvergo ERP can handle a multi-company configuration. This is generally done
 > when there is a main company or office location, such as a
 > headquarters, and there are other offices/branches around the country
-> or globe, that fall under that main company or headquarters. In Odoo,
+> or globe, that fall under that main company or headquarters. In Konvergo ERP,
 > each company, including the headquarters, would be setup as their own
 > company/branch using the multi-company method.
 >
@@ -186,7 +186,7 @@ type of working schedule they use.
 
 <div class="example">
 
-An Odoo database containing multiple companies that use a standard
+An Konvergo ERP database containing multiple companies that use a standard
 40-hour work week needs to have a separate working schedule entry for
 each company that uses the 40-hour standard work week.
 
@@ -230,7 +230,7 @@ alt="New working schedule form." />
 
 ### Structure types
 
-In Odoo, an employee's payslip is based on *structures* and *structure
+In Konvergo ERP, an employee's payslip is based on *structures* and *structure
 types*, which both affect how an employee enters timesheets. Each
 structure type is an individual set of rules for processing a timesheet
 entry, which consists of different structures nested within it.
@@ -254,7 +254,7 @@ The different structure types can be seen by going to
 `Payroll --> Configuration -->
 Salary --> Structure Types`.
 
-There are two default structure types configured in Odoo: *Employee* and
+There are two default structure types configured in Konvergo ERP: *Employee* and
 *Worker*. Typically, *Employee* is used for salaried employees, which is
 why the wage type is *Monthly Fixed Wage*, and *Worker* is typically
 used for employees paid by the hour, so the wage type is *Hourly Wage*.
@@ -287,7 +287,7 @@ pre-populated, but all the fields can be modified.
 - `Default Working Hours`: Select the default working hours for the new
   structure type from the drop-down menu. All available working hours
   for the currently selected company appear in the drop-down menu. The
-  default working hours that are pre-configured in Odoo is the
+  default working hours that are pre-configured in Konvergo ERP is the
   `Standard 40 hours/week` option. If the needed working hours do not
   appear in the list, a
   `new set of default working hours can be created <new-default-working-hours>`.
@@ -476,7 +476,7 @@ and what is populated as the applicant enters information.
 ### Advantages
 
 When offering potential employees a position, there can be certain
-*advantages* or benefits set in Odoo in addition to the salary to make
+*advantages* or benefits set in Konvergo ERP in addition to the salary to make
 an offer more appealing (such as extra time off, the use of a company
 car, reimbursement for a phone or internet, etc.).
 
@@ -524,7 +524,7 @@ alt="List of advantages employee&#39;s can have." />
 
 ### Personal info
 
-Every employee in Odoo has an *employee card* which is created when a
+Every employee in Konvergo ERP has an *employee card* which is created when a
 candidate becomes an employee. This card includes all of their personal
 information, resume, work information, and documents.
 

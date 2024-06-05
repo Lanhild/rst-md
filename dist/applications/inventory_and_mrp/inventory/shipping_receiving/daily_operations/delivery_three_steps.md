@@ -5,7 +5,7 @@
 Some companies process large amounts of deliveries every day, many of
 which include multiple products or require special packaging. To make
 this efficient, a packing step is needed before shipping out products.
-For this, Odoo has a three step process for delivering goods.
+For this, Konvergo ERP has a three step process for delivering goods.
 
 </div>
 
@@ -18,7 +18,7 @@ modified if they do not fit the needs of the business.
 
 ## Configuration
 
-Odoo is configured by default to `receive and deliver goods in one step
+Konvergo ERP is configured by default to `receive and deliver goods in one step
 <inventory/receipts_delivery_one_step>`, so the settings need to be
 changed in order to utilize three step deliveries. First, make sure the
 *Multi-Step Routes* option is enabled in
@@ -88,7 +88,7 @@ The receipt can also be found in the *Inventory* application. In the
 class="align-center"
 alt="The pick order can be seen in the Inventory Kanban view." />
 
-Click on the picking to process. If the product is in stock, Odoo will
+Click on the picking to process. If the product is in stock, Konvergo ERP will
 automatically reserve the product. Click `Validate` to mark the picking
 as done, and complete the transfer to the `Packing Zone`. Then the
 packing order will be ready. Since the documents are linked, the

@@ -1,15 +1,15 @@
 # Sendcloud configuration
 
 Sendcloud is a shipping service aggregator that facilitates the
-integration of European shipping carriers with Odoo. Once integrated,
-users can select shipping carriers on inventory operations in their Odoo
+integration of European shipping carriers with Konvergo ERP. Once integrated,
+users can select shipping carriers on inventory operations in their Konvergo ERP
 database.
 
 <div class="seealso">
 
 [Sendcloud integration documentation
 \<https://support.sendcloud.com/hc/en-us/articles
-/360059470491-Odoo-integration\>]()
+/360059470491-Konvergo ERP-integration\>]()
 
 </div>
 
@@ -26,10 +26,10 @@ with the Sendcloud account, or create a new one if needed.
 > `VAT (Value-Added Tax Identification)` number or
 > `EORI (Economic Operators' Registration and Identification)` number.
 > After completing the account setup, activate (or deactivate) the
-> shipping carriers that will be used in the Odoo database.
+> shipping carriers that will be used in the Konvergo ERP database.
 
 > [!IMPORTANT]
-> Odoo integration of Sendcloud works on free Sendcloud plans *only* if
+> Konvergo ERP integration of Sendcloud works on free Sendcloud plans *only* if
 > a bank account is linked, since Sendcloud won't ship for free. To use
 > shipping rules, or individual custom carrier contacts, a paid plan of
 > Sendcloud is **required**.
@@ -45,7 +45,7 @@ alt="Adding addresses in the Sendcloud settings." />
 
 To allow Sendcloud to process returns as well, a `Return Address` is
 required. Under the `Miscellaneous section`, there is a field called
-`Address Name (optional)`. The Odoo warehouse name should be entered
+`Address Name (optional)`. The Konvergo ERP warehouse name should be entered
 here, and the characters should be exactly the same.
 
 <div class="example">
@@ -56,13 +56,13 @@ here, and the characters should be exactly the same.
 \#1</span>  
 `Brand`: <span class="title-ref">Default</span>
 
-**Odoo warehouse configuration**  
+**Konvergo ERP warehouse configuration**  
 `Warehouse`: <span class="title-ref">Warehouse \#1</span>  
 `Short Name`: <span class="title-ref">WH</span>  
 `Company`: <span class="title-ref">My company (San Francisco)</span>  
 `Address`: <span class="title-ref">My Company (San Francisco)</span>
 
-Notice how the inputs for the `Warehouse` field, for both the Odoo
+Notice how the inputs for the `Warehouse` field, for both the Konvergo ERP
 configuration and the Sendcloud configuration, are the exact same.
 
 </div>
@@ -70,15 +70,15 @@ configuration and the Sendcloud configuration, are the exact same.
 ### Generate Sendcloud credentials
 
 In the Sendcloud account, navigate to `Settings --> Integrations` in the
-menu on the right. Next, search for `Odoo Native`. Then, click on
+menu on the right. Next, search for `Konvergo ERP Native`. Then, click on
 `Connect`.
 
 After clicking on `Connect`, the page redirects to the `Sendcloud API`
 settings page, where the `Public and Secret Keys` are produced. The next
 step is to name the `Integration`. The naming convention is as follows:
-<span class="title-ref">Odoo CompanyName</span>, with the user's company
+<span class="title-ref">Konvergo ERP CompanyName</span>, with the user's company
 name replacing <span class="title-ref">CompanyName</span> (e.g.
-<span class="title-ref">Odoo StealthyWood</span>).
+<span class="title-ref">Konvergo ERP StealthyWood</span>).
 
 Then, check the box next to `Service Points` and select the shipping
 services for this integration. After saving, the
@@ -88,25 +88,25 @@ services for this integration. After saving, the
 class="align-center"
 alt="Configuring the Sendcloud integration and receiving the credentials." />
 
-## Setup in Odoo
+## Setup in Konvergo ERP
 
-To ensure seamless Sendcloud integration with Odoo, `install
+To ensure seamless Sendcloud integration with Konvergo ERP, `install
 <inventory/shipping_receiving/sendcloud-module>` and `link
 <inventory/shipping_receiving/link-sendcloud-module>` the Sendcloud
 shipping connector to the Sendcloud account. Then,
-`configure Odoo fields
+`configure Konvergo ERP fields
 <inventory/shipping_receiving/sendcloud-shipping-info>`, so Sendcloud
 can accurately pull shipping data to generate labels.
 
 ### Install Sendcloud shipping module
 
 After the Sendcloud account is set up and configured, it's time to
-configure the Odoo database. To get started, go to Odoo's `Apps` module,
+configure the Konvergo ERP database. To get started, go to Konvergo ERP's `Apps` module,
 search for the <span class="title-ref">Sendcloud Shipping</span>
 integration, and install it.
 
 <img src="sendcloud_shipping/sendcloud-mod.png" class="align-center"
-alt="Sendcloud Shipping module in the Odoo Apps module." />
+alt="Sendcloud Shipping module in the Konvergo ERP Apps module." />
 
 ### Sendcloud shipping connector configuration
 
@@ -149,7 +149,7 @@ shipping products:
 
 <div class="example">
 
-Sample Sendcloud shipping products configured in Odoo:
+Sample Sendcloud shipping products configured in Konvergo ERP:
 
 `DELIVERY`  
 `Shipping Product`: <span class="title-ref">DPD Home 0-31.5kg</span>  
@@ -204,15 +204,15 @@ Sample Sendcloud shipping products configured in Odoo:
 </div>
 
 <img src="sendcloud_shipping/sendcloud-example.png" class="align-center"
-alt="Example of shipping products configured in Odoo." />
+alt="Example of shipping products configured in Konvergo ERP." />
 
 > [!TIP]
 > Sendcloud does not provide test keys when a company tests the sending
-> of a package in Odoo. This means if a package is created, the
+> of a package in Konvergo ERP. This means if a package is created, the
 > configured Sendcloud account will be charged, unless the associated
 > package is canceled within 24 hours of creation.
 >
-> Odoo has a built-in layer of protection against unwanted charges when
+> Konvergo ERP has a built-in layer of protection against unwanted charges when
 > using test environments. Within a test environment, if a shipping
 > method is used to create labels, then those labels are immediately
 > canceled after the creation — this occurs automatically. The test and
@@ -222,7 +222,7 @@ alt="Example of shipping products configured in Odoo." />
 ### Shipping information
 
 To use Sendcloud to generate shipping labels, the following information
-**must** be filled out accurately and completely in Odoo:
+**must** be filled out accurately and completely in Konvergo ERP:
 
 1.  **Customer information**: when creating a quotation, ensure the
     selected `Customer` has a valid phone number, email address, and
@@ -238,17 +238,17 @@ To use Sendcloud to generate shipping labels, the following information
     <inventory/shipping_receiving/configure-weight>` of this article for
     detailed instructions.
 
-3.  **Warehouse address**: ensure the warehouse name and address in Odoo
+3.  **Warehouse address**: ensure the warehouse name and address in Konvergo ERP
     match the `previously
     defined warehouse <inventory/shipping_receiving/sendcloud-warehouse-config>`
     in the Sendcloud setup. For details on warehouse configuration in
-    Odoo, refer to the `warehouse configuration
+    Konvergo ERP, refer to the `warehouse configuration
     section <inventory/shipping_receiving/configure-source-address>` of
     the third-party shipping documentation.
 
 ## Generate labels with Sendcloud
 
-When creating a quotation in Odoo, add shipping and a
+When creating a quotation in Konvergo ERP, add shipping and a
 `Sendcloud shipping product`. Then, `Validate` the delivery. Shipping
 label documents are automatically generated in the chatter, which
 include the following:

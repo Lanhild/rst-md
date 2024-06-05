@@ -4,9 +4,9 @@
 provided by the European Commission that allows you to check the
 validity of VAT numbers of companies registered in the European Union.
 
-Odoo provides a feature to **Verify VAT Numbers** when you save a
+Konvergo ERP provides a feature to **Verify VAT Numbers** when you save a
 contact. This helps you make sure that your contacts provided you with a
-valid VAT number without leaving Odoo interface.
+valid VAT number without leaving Konvergo ERP interface.
 
 ## Configuration
 
@@ -16,7 +16,7 @@ To enable this feature, go to
 
 <img src="vat_verification/vat-validation-configuration.png"
 class="align-center"
-alt="Enable &quot;Verify VAT Numbers&quot; in Odoo Accounting" />
+alt="Enable &quot;Verify VAT Numbers&quot; in Konvergo ERP Accounting" />
 
 ## VAT Number validation
 
@@ -27,12 +27,12 @@ Whenever you create or modify a contact, make sure to fill out the
 class="align-center"
 alt="Fill out the contact form with the country and VAT number before clicking on *Save*" />
 
-When you click on *Save*, Odoo runs a VIES VAT number check, and
+When you click on *Save*, Konvergo ERP runs a VIES VAT number check, and
 displays an error message if the VAT number is invalid.
 
 <img src="vat_verification/vat-validation-error.png"
 class="align-center"
-alt="Odoo displays an error message instead of saving when the VAT number is invalid" />
+alt="Konvergo ERP displays an error message instead of saving when the VAT number is invalid" />
 
 > [!IMPORTANT]
 > This tool checks the VAT number's validity but does not check the

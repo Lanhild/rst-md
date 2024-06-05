@@ -98,7 +98,7 @@ desired, and can take the form of a certification, an exam, or a general
 questionnaire. Interview forms are determined by the recruitment team.
 
 All interview forms must be created, there are no pre-configured forms
-in Odoo. To create an interview form, start from the recruitment tab of
+in Konvergo ERP. To create an interview form, start from the recruitment tab of
 the `Job Position` form. In the `Interview Form` field, enter a name for
 the new interview form. As the name is typed, several options populate
 beneath the entry, `Create (interview form name)`, `View all`, and
@@ -230,10 +230,10 @@ checkboxes appear in the `Answers` tab:
   in the format of an email address.
   - `Save as user email?`: this option appears if
     `Input must be an email` is selected. This saves the email entered
-    on the form as the user's email, and will be used anytime Odoo
+    on the form as the user's email, and will be used anytime Konvergo ERP
     contacts the user via email.
 - `Save as user nickname?`: activate this option to populate the answer
-  as the user's nickname. This is stored and used anywhere Odoo uses a
+  as the user's nickname. This is stored and used anywhere Konvergo ERP uses a
   nickname.
 
 <img src="new_job/single-line.png" class="align-center"

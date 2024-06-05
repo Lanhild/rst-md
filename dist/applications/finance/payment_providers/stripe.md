@@ -12,13 +12,13 @@ Stripe](https://stripe.com/payments/payment-methods)
 
 </div>
 
-## Create your Stripe account with Odoo
+## Create your Stripe account with Konvergo ERP
 
 The method to acquire your credentials depends on your hosting type:
 
 <div class="tabs">
 
-.. group-tab:: Odoo Online
+.. group-tab:: Konvergo ERP Online
 
 1.  `Navigate to the payment provider Stripe <payment_providers/supported_providers>`
     and click `Connect Stripe`.
@@ -26,12 +26,12 @@ The method to acquire your credentials depends on your hosting type:
     Stripe sends you a confirmation email.
 3.  At the end of the process, click `Agree and submit`. If all
     requested information has been submitted, you are then redirected to
-    Odoo, and your payment provider is enabled.
+    Konvergo ERP, and your payment provider is enabled.
 4.  `stripe/local-payment-methods`.
 
 <div class="group-tab">
 
-Odoo.sh or On-premise
+Konvergo ERP.sh or On-premise
 
 </div>
 
@@ -40,7 +40,7 @@ Odoo.sh or On-premise
 2.  Go through the setup process and confirm your email address when
     Stripe sends you a confirmation email.
 3.  At the end of the process, click `Agree and submit`; you are then
-    redirected to the payment provider **Stripe** in Odoo.
+    redirected to the payment provider **Stripe** in Konvergo ERP.
 4.  `Fill in your credentials <stripe/api_keys>`.
 5.  `Generate a webhook <stripe/webhook>`.
 6.  Select a `payment journal <payment_providers/journal>`.
@@ -58,7 +58,7 @@ Odoo.sh or On-premise
 > and enable the payment provider. - You can also test Stripe using the
 > `payment_providers/test-mode`. To do so, first, [log into your Stripe
 > dashboard](https://dashboard.stripe.com/dashboard) and switch to the
-> **Test mode**. Then, in Odoo,
+> **Test mode**. Then, in Konvergo ERP,
 > `activate the Developer mode <developer-mode>`,
 > `navigate to the payment provider Stripe <payment_providers/supported_providers>`,
 > `fill in your API credentials <stripe/api_keys>` with the test keys,
@@ -74,7 +74,7 @@ account, proceed as follows:
     your Stripe dashboard and go to `Developers --> API Keys`.
 2.  In the `Standard keys` section, copy the `Publishable key` and the
     `Secret key` and save them for later.
-3.  In Odoo,
+3.  In Konvergo ERP,
     `navigate to the payment provider Stripe <payment_providers/supported_providers>`.
 4.  In the `Credentials` tab, fill in the `Publishable Key` and
     `Secret Key` fields with the values you previously saved.
@@ -101,7 +101,7 @@ Create the webhook manually
     Stripe](https://dashboard.stripe.com/webhooks), or log into your
     Stripe dashboard and go to `Developers --> Webhooks`.
 2.  In the `Hosted endpoints` section, click `Add endpoint`. Then, in
-    the `Endpoint URL` field, enter your Odoo database's URL, followed
+    the `Endpoint URL` field, enter your Konvergo ERP database's URL, followed
     by <span class="title-ref">/payment/stripe/webhook</span>, e.g.,
     <span class="title-ref">https://yourcompany.odoo.com/payment/stripe/webhook</span>.
 3.  Click `Select events` at the bottom of the form, then select the
@@ -115,14 +115,14 @@ Create the webhook manually
 4.  Click `Add events`.
 5.  Click `Add endpoint`, then click `Reveal` and save your
     `Signing secret` for later.
-6.  In Odoo, `navigate to the payment provider Stripe
+6.  In Konvergo ERP, `navigate to the payment provider Stripe
     <payment_providers/supported_providers>`.
 7.  In the `Credentials` tab, fill the `Webhook Signing Secret` field
     with the value you previously saved.
 
 > [!NOTE]
 > You can select other events, but they are currently not processed by
-> Odoo.
+> Konvergo ERP.
 
 </div>
 
@@ -131,7 +131,7 @@ Create the webhook manually
 Local payment methods are payment methods that are only available for
 specific providers and for specific countries and currencies.
 
-Odoo supports the following local payment methods for Stripe:
+Konvergo ERP supports the following local payment methods for Stripe:
 
 - Bancontact
 - EPS

@@ -15,7 +15,7 @@ productivity.
 
 <div class="seealso">
 
-[Odoo Tutorials: eLearning](https://www.odoo.com/slides/elearning-56)
+[Konvergo ERP Tutorials: eLearning](https://www.odoo.com/slides/elearning-56)
 
 </div>
 

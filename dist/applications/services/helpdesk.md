@@ -10,7 +10,7 @@ show-toc
 
 <div class="seealso">
 
-\- [Odoo Tutorials: Helpdesk](https://www.odoo.com/slides/helpdesk-51)
+\- [Konvergo ERP Tutorials: Helpdesk](https://www.odoo.com/slides/helpdesk-51)
 
 </div>
 

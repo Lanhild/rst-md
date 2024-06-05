@@ -1,9 +1,9 @@
 # Event essentials
 
-Odoo Events provides event coordinators with an arsenal of planning,
+Konvergo ERP Events provides event coordinators with an arsenal of planning,
 communications, and reporting tools to create immersive and engaging
 experiences for customers. Namely, staff can create and publish events
-on their website, sell tickets online, scan tickets with Odoo barcode,
+on their website, sell tickets online, scan tickets with Konvergo ERP barcode,
 send out automated emails, and generate rich reporting data once the
 event accepts registrations.
 
@@ -30,15 +30,15 @@ title, which is represented by a gear icon.
 When clicked, a drop-down menu of settings will appear.
 
 <img src="event_essentials/events-dashboard.png" class="align-center"
-alt="Overview of events setting with the kanban view in Odoo Events." />
+alt="Overview of events setting with the kanban view in Konvergo ERP Events." />
 
 ## Create a new event
 
-To create an event, click `Create` from the Events dashboard. Odoo will
+To create an event, click `Create` from the Events dashboard. Konvergo ERP will
 then direct the page to a blank event template form.
 
 From the event form, fill out the necessary fields, either by choosing
-from existing data in the Odoo database or by creating and editing new
+from existing data in the Konvergo ERP database or by creating and editing new
 field data. Key information to enter for the event includes:
 
 - `Event Name`: give the event a title.
@@ -51,10 +51,10 @@ field data. Key information to enter for the event includes:
   event cards in the kanban and are useful when using search filters
   during reporting periods.
 - `Organizer`: detail the organizer(s) for the event. This field is
-  usually the company that owns the Odoo database, or a vendor.
+  usually the company that owns the Konvergo ERP database, or a vendor.
 - `Responsible`: name the point person who is responsible for organizing
   the event.
-- `Website`: indicate which Odoo website(s) the event event should be
+- `Website`: indicate which Konvergo ERP website(s) the event event should be
   published to.
 - `Venue`: list the venue details here if it's a new record, or choose
   from an existing location.
@@ -79,7 +79,7 @@ If selling tickets isn't necessary for the event, a simple
 `Registration` button will be displayed on the event's page by default.
 
 <img src="event_essentials/events-tickets-tab.png" class="align-center"
-alt="View of the ticket tab in Odoo Events." />
+alt="View of the ticket tab in Konvergo ERP Events." />
 
 ### Send automated emails, text, and social posts to event attendees
 
@@ -103,7 +103,7 @@ registration`, or `After the event`.
 
 <img src="event_essentials/events-communication-tab.png"
 class="align-center"
-alt="View of the communication tab in Odoo Events." />
+alt="View of the communication tab in Konvergo ERP Events." />
 
 ### Attach a questionnaire to event registrations
 
@@ -157,7 +157,7 @@ etc.)
 > internal information is organized for event staff to review.
 
 <img src="event_essentials/events-notes-tab.png" class="align-center"
-alt="View of the Notes tab in Odoo Events." />
+alt="View of the Notes tab in Konvergo ERP Events." />
 
 ## Invite attendees to the event
 
@@ -182,16 +182,16 @@ meant to encourage recipients to open the email.
 
 In the middle of the invitation form, find and click the `Recipients`
 field, to reveal a drop-down menu of recipient options. These choices
-represent where Odoo will find the desired recipients' information.
+represent where Konvergo ERP will find the desired recipients' information.
 
 Once an option from this menu is selected (e.g. `Applicant`, `Contact`,
-`Event Registration`, `Lead/Opportunity`, etc.), Odoo will send the
+`Event Registration`, `Lead/Opportunity`, etc.), Konvergo ERP will send the
 invitation to all recipients who match that initial rule. Additional
 rules can be added to narrow down the target recipients, by clicking
 `Add Filter`.
 
 <img src="event_essentials/add-filter-button.png" class="align-center"
-alt="View of the add filter button beneath the recipients field in Odoo Events." />
+alt="View of the add filter button beneath the recipients field in Konvergo ERP Events." />
 
 Clicking `Add Filter` reveals three fields, formatted like an equation.
 To reveal the sub-menu options, click each field, and make the desired
@@ -213,7 +213,7 @@ providing even more specificity to the line above it.
 
 In the `Mail Body` tab, there are a number of pre-configured message
 templates to choose from. Select the desired template, and modify every
-element of its design details with Odoo's drag-and-drop web builder,
+element of its design details with Konvergo ERP's drag-and-drop web builder,
 located on the right sidebar.
 
 <img src="event_essentials/event-email-builder-block.gif"
@@ -222,7 +222,7 @@ alt="View of the drag and drop building blocks used to customize event invite em
 
 > [!TIP]
 > To build an email event invite from scratch, select the `Plain Text`
-> template, and Odoo will provide a blank email canvas, which can be
+> template, and Konvergo ERP will provide a blank email canvas, which can be
 > customized either by using the frontend rich text editor that accepts
 > slash (<span class="title-ref">/</span>) commands, or the XML code
 > editor when `developer
@@ -260,7 +260,7 @@ send the invite: `Send`, `Schedule`, and `Test`.
 The `Send` option sends the invite right away. The `Schedule` option
 reveals a pop-up, in which a scheduled date/time can be selected for the
 email to be sent. The `Test` option reveals a `Test Mailing` pop-up,
-where specific recipient email addresses can be entered for Odoo to send
+where specific recipient email addresses can be entered for Konvergo ERP to send
 them the current version of the mailing for review before officially
 sending it out to prospective event attendees.
 
@@ -281,7 +281,7 @@ the SMS will be sent later that day.
 
 Until an event is published, it will remain hidden from public view on
 the website and registering for it will not be possible. To publish an
-event, navigate to it either from the backend of Odoo through the
+event, navigate to it either from the backend of Konvergo ERP through the
 `Events` application, or access the hidden event page through the
 frontend as either a priveliged user or administrator.
 
@@ -298,4 +298,4 @@ to the public on the website.
 
 <img src="event_essentials/events-frontend-publish.png"
 class="align-center"
-alt="View of a website page and the option to publish the event in Odoo Events." />
+alt="View of a website page and the option to publish the event in Konvergo ERP Events." />
